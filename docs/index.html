@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MATRIX QUANT TERMINAL</title>
+<script>window.STATIC_MODE = true;</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="QUANT">
+<style>
+  :root {
+    --bg: #050805;
+    --panel: rgba(5, 12, 6, 0.88);
+    --green: #00ff41;
+    --green-dim: #00a82d;
+    --green-faint: #0f3d1a;
+    --red: #ff5555;
+    --amber: #ffb86c;
+    --gray: #7a8a7c;
+    --grid: #0f2513;
+    --font: "SF Mono", Menlo, Monaco, "Courier New", monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--green);
+    font-family: var(--font);
+    font-size: 13px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  #rain { position: fixed; inset: 0; z-index: 0; opacity: 0.25; pointer-events: none; }
+
+  /* ===== ブート演出 ===== */
+  #boot {
+    position: fixed; inset: 0; z-index: 100; background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    transition: opacity 0.8s;
+  }
+  #boot.done { opacity: 0; pointer-events: none; }
+  #boot pre { font-size: 14px; color: var(--green); min-width: 480px; }
+  .cursor::after { content: "█"; animation: blink 0.8s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* ===== レイアウト ===== */
+  .wrap { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: 16px 20px 90px; }
+  header {
+    display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;
+    border: 1px solid var(--green-dim); background: var(--panel);
+    padding: 10px 16px; margin-bottom: 14px;
+  }
+  header h1 { font-size: 16px; letter-spacing: 2px; font-weight: bold; }
+  header h1 .v { color: var(--green-dim); font-weight: normal; }
+  .meta { color: var(--green-dim); font-size: 12px; }
+  #refresh-btn {
+    margin-left: auto; background: transparent; border: 1px solid var(--green);
+    color: var(--green); font-family: var(--font); font-size: 13px;
+    padding: 4px 14px; cursor: pointer;
+  }
+  #refresh-btn:hover { background: var(--green-faint); }
+  #refresh-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+  #refresh-btn:disabled { color: var(--gray); border-color: var(--gray); cursor: wait; }
+  #shutdown-btn {
+    background: transparent; border: 1px solid var(--red); color: var(--red);
+    font-family: var(--font); font-size: 13px; padding: 4px 14px; cursor: pointer;
+  }
+  #shutdown-btn:hover { background: #2a0d0d; }
+  #shutdown-btn:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+
+  /* ===== タブと銘柄追加 ===== */
+  .board-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+                    justify-content: space-between; margin-bottom: 8px; }
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tab { background: transparent; border: 1px solid var(--green-faint); color: var(--green-dim);
+         font-family: var(--font); font-size: 12px; padding: 3px 10px; cursor: pointer; }
+  .tab:hover { border-color: var(--green-dim); }
+  .tab.active { color: var(--green); border-color: var(--green); background: var(--green-faint); }
+  .tab:focus-visible { outline: 2px solid var(--green); outline-offset: 1px; }
+  .tab:disabled { opacity: 0.45; cursor: not-allowed; }
+  .add-form { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .add-form input[type="text"] {
+    background: var(--bg); color: var(--green); border: 1px solid var(--green-dim);
+    font-family: var(--font); font-size: 12px; padding: 4px 6px; width: 170px;
+  }
+  .add-form input::placeholder { color: var(--gray); }
+  #board-msg { min-height: 16px; font-size: 12px; }
+  #board-msg.err { color: var(--red); }
+  #board-msg.ok { color: var(--green); }
+  .warn { color: var(--amber); }
+  /* 閲覧専用(GitHub Pages)ビルドでは操作系UIを丸ごと隠す */
+  body.static-mode .live-only { display: none !important; }
+  .brief-h { color: var(--green-dim); font-size: 11px; letter-spacing: 1px; margin-bottom: 4px; }
+  /* アノマリーの一覧(線区切りの表形式) */
+  .anomaly-row {
+    display: grid; grid-template-columns: 170px 110px minmax(0, 1fr);
+    gap: 2px 12px; padding: 8px 2px; border-top: 1px solid var(--grid);
+    align-items: baseline; font-size: 12.5px;
+  }
+  .anomaly-row:first-child { border-top: none; }
+  .anomaly-row .a-name { color: var(--green-dim); }
+  .anomaly-row .a-note { grid-column: 1 / -1; color: var(--gray); font-size: 11px; padding-left: 2px; }
+  @media (max-width: 700px) { .anomaly-row { grid-template-columns: 1fr; } }
+  ul.reasons li { margin-bottom: 2px; font-size: 12px; }
+  .brief-text { font-size: 12.5px; line-height: 1.75; color: var(--green); }
+  .weather-chip { border: 1px solid var(--green-dim); padding: 8px 12px; }
+  .tag { display: inline-block; font-size: 10px; border: 1px solid; padding: 0 6px; margin-left: 6px; }
+  .tag.pos { color: var(--green); border-color: var(--green-dim); }
+  .tag.neg { color: var(--red); border-color: var(--red); }
+  .tag.dim { color: var(--gray); border-color: var(--gray); }
+  .tag.warn { color: var(--amber); border-color: var(--amber); }
+
+  /* ===== ニュース2ペイン ===== */
+  .news-duo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; }
+  @media (max-width: 980px) { .news-duo { grid-template-columns: minmax(0, 1fr); } }
+
+  /* ===== シグナル別の折りたたみグループ ===== */
+  .siggroup { border: 1px dashed var(--green-faint); margin-top: 10px; }
+  .siggroup summary {
+    cursor: pointer; padding: 7px 10px; font-size: 12px; letter-spacing: 1px;
+    list-style: none; user-select: none;
+  }
+  .siggroup summary::-webkit-details-marker { display: none; }
+  .siggroup summary::before { content: "▶ "; color: var(--green-dim); }
+  .siggroup[open] summary::before { content: "▼ "; }
+  .siggroup summary:hover { background: var(--green-faint); }
+  .siggroup summary:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
+  .siggroup table { margin: 0 8px 8px; width: calc(100% - 16px); }
+
+  /* ===== 指標の判定テーブル ===== */
+  .metric-table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+  .metric-table td { font-size: 12px; padding: 3px 6px; border-bottom: 1px solid var(--grid); white-space: normal; }
+  .metric-table td:first-child { color: var(--green-dim); white-space: nowrap; }
+  .metric-table td:nth-child(2) { text-align: right; white-space: nowrap; }
+  .metric-table td:last-child { font-size: 11px; }
+
+  /* ===== 市況パルス・ニュース・リンク ===== */
+  .pulse-grid { display: flex; gap: 26px; flex-wrap: wrap; align-items: flex-start; }
+  .pulse-chip .label { color: var(--green-dim); font-size: 11px; }
+  .pulse-chip .num { font-size: 17px; }
+  .pulse-chip .sub { color: var(--gray); font-size: 11px; }
+  .fng-gauge { width: 150px; height: 9px; border: 1px solid var(--green-faint); position: relative;
+               background: linear-gradient(90deg, #8f2f2f 0%, #7a6a3a 40%, #3a5a44 60%, #1f7a3f 100%); margin-top: 4px; }
+  .fng-marker { position: absolute; top: -4px; width: 3px; height: 15px; background: #e7ffe9; }
+  .news-item { padding: 4px 0; border-bottom: 1px solid var(--grid); font-size: 12px; line-height: 1.45; }
+  .news-item a { color: var(--green); text-decoration: none; }
+  .news-item a:hover, .news-item a:focus-visible { text-decoration: underline; outline: none; }
+  .news-item .t { color: var(--gray); font-size: 11px; margin-right: 6px; white-space: nowrap; }
+  .ext-links { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .ext-links a { color: var(--green-dim); border: 1px solid var(--green-faint); padding: 2px 8px;
+                 font-size: 11px; text-decoration: none; }
+  .ext-links a:hover, .ext-links a:focus-visible { color: var(--green); border-color: var(--green-dim); outline: none; }
+  #detail-chart { width: 100%; height: 150px; display: block; margin-top: 8px; }
+  .chart-legend { color: var(--gray); font-size: 10px; margin-top: 2px; }
+  .chart-legend .c { color: var(--green); } .chart-legend .m50 { color: var(--green-dim); }
+  .chart-legend .m200 { color: var(--amber); }
+
+  .corr-row { display: flex; align-items: center; gap: 8px; padding: 2px 0; }
+  .corr-row .sym { width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .corr-bar-wrap { flex: 1; height: 10px; border: 1px solid var(--green-faint); }
+  .corr-bar { height: 100%; background: var(--green-dim); }
+  .corr-val { width: 48px; text-align: right; }
+
+  /* minmax(0,…)が無いとグリッドの子が中身(幅広テーブル)より縮めず、ページ全体が横に溢れる */
+  .grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 14px; }
+  @media (max-width: 980px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+  .panel {
+    border: 1px solid var(--green-dim); background: var(--panel);
+    padding: 12px 14px; margin-bottom: 14px;
+    overflow-x: auto;  /* iPhone等の狭い画面ではパネル内で横スクロール */
+  }
+  .panel h2 {
+    font-size: 12px; letter-spacing: 3px; color: var(--green);
+    border-bottom: 1px solid var(--grid); padding-bottom: 6px; margin-bottom: 8px;
+  }
+  .panel h2 .jp { color: var(--green-dim); letter-spacing: 0; font-weight: normal; }
+
+  /* ===== テーブル ===== */
+  table { width: 100%; border-collapse: collapse; }
+  th { color: var(--green-dim); text-align: right; font-weight: normal; font-size: 11px;
+       padding: 3px 6px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+  td { text-align: right; padding: 4px 6px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  tbody tr.asset { cursor: pointer; }
+  tbody tr.asset:hover { background: var(--green-faint); }
+  tbody tr.selected { background: var(--green-faint); outline: 1px solid var(--green-dim); }
+  .name-jp { color: var(--green-dim); font-size: 11px; }
+
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .dim { color: var(--gray); }
+  .badge { display: inline-block; min-width: 64px; text-align: center; padding: 1px 6px;
+           font-size: 11px; letter-spacing: 1px; border: 1px solid; }
+  .badge.LONG    { color: #05130a; background: var(--green); border-color: var(--green); font-weight: bold; }
+  .badge.AVOID   { color: #1a0505; background: var(--red); border-color: var(--red); font-weight: bold; }
+  .badge.NEUTRAL { color: var(--gray); border-color: var(--gray); }
+  .stale { color: var(--amber); font-size: 10px; }
+
+  /* ===== 詳細・ケリー ===== */
+  dl.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 14px; }
+  dl.kv dt { color: var(--green-dim); }
+  dl.kv dd { text-align: right; }
+  .reasons li { list-style: none; padding-left: 14px; position: relative; color: var(--green); }
+  .reasons li::before { content: ">"; position: absolute; left: 0; color: var(--green-dim); }
+  .kelly-bar { height: 14px; border: 1px solid var(--green-dim); margin: 6px 0; position: relative; }
+  .kelly-fill { height: 100%; background: var(--green-dim); }
+  .kelly-scale { display: flex; justify-content: space-between; color: var(--gray); font-size: 10px; }
+
+  /* ===== ペーパートレード ===== */
+  .paper-summary { display: flex; gap: 22px; flex-wrap: wrap; margin-bottom: 8px; }
+  .paper-summary .num { font-size: 16px; }
+  .paper-summary .label { color: var(--green-dim); font-size: 11px; }
+  .trade-form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+                border: 1px dashed var(--green-faint); padding: 8px; margin: 8px 0; }
+  select, input[type="number"] {
+    background: var(--bg); color: var(--green); border: 1px solid var(--green-dim);
+    font-family: var(--font); font-size: 13px; padding: 4px 6px;
+  }
+  select:focus-visible, input:focus-visible { outline: 2px solid var(--green); outline-offset: 1px; }
+  input[type="number"] { width: 130px; }
+  .btn { background: transparent; border: 1px solid; font-family: var(--font);
+         font-size: 12px; padding: 4px 12px; cursor: pointer; }
+  .btn.buy { color: var(--green); border-color: var(--green); }
+  .btn.buy:hover { background: var(--green-faint); }
+  .btn.sell { color: var(--red); border-color: var(--red); }
+  .btn.sell:hover { background: #2a0d0d; }
+  .btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+  #trade-msg { min-height: 18px; font-size: 12px; }
+  /* 保有テーブルは折り返しを許して横スクロールなしで収める */
+  #positions td { white-space: normal; }
+  /* 銘柄名セルも折り返し可(狭い画面で銘柄名だけが幅を食い潰さないように) */
+  .sigrows td:first-child { white-space: normal; }
+  #trade-msg.err { color: var(--red); }
+  #trade-msg.ok { color: var(--green); }
+
+  /* ===== 相関 ===== */
+  #corr-table td, #corr-table th { padding: 2px 4px; font-size: 10px; text-align: center; border: none; }
+  #corr-table td.cell { min-width: 34px; color: #05130a; }
+
+  footer {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 2;
+    background: rgba(5, 8, 5, 0.95); border-top: 1px solid var(--green-dim);
+    color: var(--amber); font-size: 11px; text-align: center; padding: 6px 12px;
+  }
+</style>
+</head>
+<body>
+<canvas id="rain" aria-hidden="true"></canvas>
+
+<div id="boot" role="status" aria-label="起動中"><pre id="boot-log" class="cursor"></pre></div>
+
+<div class="wrap">
+  <header>
+    <h1>MATRIX QUANT TERMINAL <span class="v" id="app-version"></span></h1>
+    <span class="meta" id="usdjpy">USD/JPY --</span>
+    <span class="meta" id="updated">最終更新 --</span>
+    <button id="refresh-btn" class="live-only" onclick="refresh()">[ REFRESH ]</button>
+    <button id="shutdown-btn" class="live-only" onclick="shutdownApp()">[ 終了 ]</button>
+    <span class="meta warn" id="static-note" style="display:none">閲覧専用ミラー(1日6回自動更新)・売買等の操作はMac版で</span>
+  </header>
+
+  <section class="panel">
+    <h2>GLOBAL MARKETS <span class="jp">/ 世界の市況(株式・金利)</span></h2>
+    <div class="pulse-grid" id="indices-grid"><span class="dim">読込中...</span></div>
+  </section>
+
+  <section class="panel">
+    <h2>MARKET PULSE <span class="jp">/ 暗号資産の市況センサー</span></h2>
+    <div class="pulse-grid" id="pulse-grid"><span class="dim">読込中...</span></div>
+  </section>
+
+  <section class="panel">
+    <h2>NEWS BRIEF <span class="jp">/ ニュース要約(見出しからの自動生成)</span></h2>
+    <div class="news-duo" style="margin:0">
+      <div>
+        <div class="brief-h">■ 株式・経済</div>
+        <p class="brief-text" id="brief-stocks">読込中...</p>
+      </div>
+      <div>
+        <div class="brief-h">■ 暗号資産</div>
+        <p class="brief-text" id="brief-crypto">読込中...</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>SEASONALITY <span class="jp">/ アノマリー(季節性)と賢者の視点</span></h2>
+    <div id="anomaly-grid"></div>
+    <div id="wisdom" style="margin-top:10px; padding:8px 12px; border-left:2px solid var(--green-dim); font-size:12px"></div>
+    <div class="dim" style="font-size:10px; margin-top:4px">アノマリーは長期平均の「傾向」であり毎年当たるものではありません。判断の重み付けは控えめに</div>
+  </section>
+
+  <div class="news-duo">
+    <section class="panel">
+      <h2>NEWS: 株式・経済 <span class="jp">/ NHK・Yahoo!ニュース</span></h2>
+      <div id="news-jp-list" class="dim">読込中...</div>
+    </section>
+    <section class="panel">
+      <h2>NEWS: 暗号資産 <span class="jp">/ CoinPost</span></h2>
+      <div id="news-crypto-list" class="dim">読込中...</div>
+    </section>
+  </div>
+  <div class="dim" style="font-size:11px; margin:-8px 0 14px 2px">ニュースは判断材料のひとつ。売買前に一次情報(公式発表)で裏取りを</div>
+
+  <div class="grid">
+    <div>
+      <section class="panel">
+        <h2>SIGNAL BOARD <span class="jp">/ 監視銘柄とシグナル</span></h2>
+        <div class="board-controls">
+          <div class="tabs" id="class-tabs" role="tablist"></div>
+          <form class="add-form live-only" onsubmit="addSymbol(event)">
+            <label for="add-symbol" class="dim" style="font-size:11px">銘柄追加</label>
+            <input type="text" id="add-symbol" placeholder="例: AAPL / 7203.T / BTC-USD" required>
+            <input type="text" id="add-name" placeholder="表示名(省略可)" style="width:110px">
+            <button class="btn buy" type="submit" id="add-btn">+ ADD</button>
+          </form>
+        </div>
+        <div id="board-msg" role="status"></div>
+        <details class="siggroup" data-group="CHANGES">
+          <summary id="sig-sum">SIGNAL CHANGES / 直近7日の変化</summary>
+          <div id="sig-changes" style="padding:4px 12px 8px"></div>
+        </details>
+        <details class="siggroup" data-group="LONG" open>
+          <summary></summary>
+          <table>
+            <thead><tr>
+              <th scope="col">銘柄</th><th scope="col">価格</th><th scope="col">前日比</th>
+              <th scope="col">3ヶ月</th><th scope="col">Z</th><th scope="col">RSI</th><th scope="col">シグナル</th>
+            </tr></thead>
+            <tbody class="sigrows"></tbody>
+          </table>
+        </details>
+        <details class="siggroup" data-group="NEUTRAL">
+          <summary></summary>
+          <table>
+            <thead><tr>
+              <th scope="col">銘柄</th><th scope="col">価格</th><th scope="col">前日比</th>
+              <th scope="col">3ヶ月</th><th scope="col">Z</th><th scope="col">RSI</th><th scope="col">シグナル</th>
+            </tr></thead>
+            <tbody class="sigrows"></tbody>
+          </table>
+        </details>
+        <details class="siggroup" data-group="AVOID">
+          <summary></summary>
+          <table>
+            <thead><tr>
+              <th scope="col">銘柄</th><th scope="col">価格</th><th scope="col">前日比</th>
+              <th scope="col">3ヶ月</th><th scope="col">Z</th><th scope="col">RSI</th><th scope="col">シグナル</th>
+            </tr></thead>
+            <tbody class="sigrows"></tbody>
+          </table>
+        </details>
+      </section>
+
+      <section class="panel live-only">
+        <h2>PAPER TRADE <span class="jp">/ 仮想売買(実際のお金は動きません)</span></h2>
+        <div class="paper-summary" id="paper-summary"></div>
+        <div id="paper-breakdown" class="dim" style="font-size:11px; margin:2px 0 8px"></div>
+        <div class="dim" style="font-size:11px; margin-bottom:4px">日本株=100株単位(単元株制度) / 米国株=1株単位 / 暗号資産=金額指定。手数料・税・配当は含まない簡略シミュレーションです</div>
+        <div class="trade-form">
+          <label for="trade-symbol">銘柄</label>
+          <select id="trade-symbol" onchange="updateTradeForm()"></select>
+          <label for="trade-amount" id="trade-input-label">金額(円)</label>
+          <input type="number" id="trade-amount" value="100000" min="1" step="10000" oninput="updateTradeForm()">
+          <span class="dim" id="trade-cost" style="font-size:12px"></span>
+          <button class="btn buy" onclick="trade('buy')">BUY 買う</button>
+        </div>
+        <div id="trade-msg" role="status"></div>
+        <table>
+          <thead><tr>
+            <th scope="col">保有銘柄</th><th scope="col">数量 @取得単価</th>
+            <th scope="col">評価額 / 損益</th><th scope="col">損切りライン</th><th scope="col"></th>
+          </tr></thead>
+          <tbody id="positions"></tbody>
+        </table>
+        <div id="stop-alert" role="alert"></div>
+      </section>
+    </div>
+
+    <div>
+      <section class="panel">
+        <h2>ASSET DETAIL <span class="jp">/ 銘柄詳細</span></h2>
+        <div id="detail" class="dim">SIGNAL BOARD の銘柄をクリックしてください</div>
+      </section>
+
+      <section class="panel">
+        <h2>POSITION SIZE <span class="jp">/ ケリー基準の目安</span></h2>
+        <div id="kelly" class="dim">銘柄を選択すると表示されます</div>
+      </section>
+
+      <section class="panel">
+        <h2>CORRELATION <span class="jp">/ 選択銘柄との相関(90日)</span></h2>
+        <div id="corr-content" class="dim">銘柄を選択すると、相性の良い/悪い組み合わせを表示します</div>
+        <div class="dim" style="font-size:11px; margin-top:4px">1.0=同じ動き / 0=無関係。低いほど組み合わせたときの分散効果が高い<br>
+        注意: これは「平時」の相関。暴落時はどの資産も一斉に下がりやすい(相関の崩れ)ため、最後の分散は現金比率です</div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<footer>⚠ 本画面は統計的参考情報であり投資助言ではありません。過去のデータは将来の成果を保証しません。</footer>
+
+<script>
+"use strict";
+const APP_VERSION = "v3.1";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+// GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
+// (サーバーなし・静的JSONを読む・操作機能は非表示)
+const STATIC_MODE = !!window.STATIC_MODE;
+const apiPath = p => STATIC_MODE
+  ? ({ "/api/market": "data/market.json", "/api/pulse": "data/pulse.json" }[p] || p)
+  : p;
+let MARKET = null, PAPER = null, PULSE = null, SELECTED = null, FILTER = "all";
+const CLASS_LABEL = { crypto: "暗号通貨", jp: "日本株", other: "海外株など" };
+const RS_BENCH_LABEL = { jp: "日経225", crypto: "BTC", other: "S&P500" };
+
+// サーバー(http://127.0.0.1:8801)経由で開かれているか。
+// HTMLファイルを直接開くとAPIに接続できないため、案内を出して操作を止める
+const SERVED = location.protocol === "http:" || location.protocol === "https:";
+const NOT_SERVED_MSG = "サーバー未接続です。start.command をダブルクリックして起動し、ブラウザで http://127.0.0.1:8801 を開いてください";
+
+/* ===== フォーマッタ ===== */
+const fmtPct = v => v == null ? "--" : (v >= 0 ? "+" : "") + (v * 100).toFixed(1) + "%";
+const fmtNum = (v, d = 1) => v == null ? "--" : v.toFixed(d);
+const fmtJPY = v => v == null ? "--"
+  : (v < 0 ? "-" : "") + "¥" + Math.abs(Math.round(v)).toLocaleString("ja-JP");  // マイナスは -¥1,234 の順
+const fmtQty = v => v == null ? "--" : (v >= 100 ? Math.round(v).toLocaleString("ja-JP") : v.toPrecision(4));
+const cls = v => v == null ? "dim" : (v >= 0 ? "pos" : "neg");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ===== データ取得 ===== */
+async function loadMarket() {
+  const res = await fetch(apiPath("/api/market"));
+  if (!res.ok) throw new Error(STATIC_MODE ? "データ読込失敗" : (await res.json()).detail || "取得失敗");
+  MARKET = await res.json();
+}
+async function loadPaper() {
+  if (STATIC_MODE) {
+    // 閲覧専用版に売買機能はない。サイズ計算用に仮想資金100万円を仮定
+    PAPER = { initial_capital: 1000000, cash: 1000000, equity: 1000000,
+              total_pnl: 0, positions: [], trades: [] };
+    return;
+  }
+  PAPER = await (await fetch("/api/paper")).json();
+}
+async function loadPulse() {
+  try {
+    PULSE = await (await fetch(apiPath("/api/pulse"))).json();
+  } catch (e) {
+    PULSE = null;  // 市況パルスが取れなくても本体は動かす
+  }
+}
+async function refresh() {
+  if (!SERVED) { showMsg("err", NOT_SERVED_MSG); return; }
+  const btn = document.getElementById("refresh-btn");
+  btn.disabled = true;
+  const frames = ["|", "/", "-", "\\\\"];
+  let i = 0;
+  const spin = setInterval(() => { btn.textContent = `[ ${frames[i++ % 4]} 更新中 ]`; }, 120);
+  try {
+    // タイムアウトなしだとネットワーク不調時に「更新中」のまま固まる
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 90000);
+    const res = await fetch("/api/refresh", { method: "POST", signal: ctrl.signal })
+      .finally(() => clearTimeout(timer));
+    if (!res.ok) throw new Error((await res.json()).detail || "更新失敗");
+    MARKET = await res.json();
+    await Promise.all([loadPaper(), loadPulse()]);
+    renderAll();
+  } catch (e) {
+    showMsg("err", e.name === "AbortError"
+      ? "更新が90秒応答しませんでした。ネットワークを確認して再試行してください" : e.message);
+  } finally {
+    clearInterval(spin);
+    btn.textContent = "[ REFRESH ]";
+    btn.disabled = false;
+  }
+}
+
+/* ===== 描画 ===== */
+function renderAll() {
+  document.getElementById("usdjpy").textContent = "USD/JPY " + fmtNum(MARKET.usdjpy, 2);
+  document.getElementById("updated").textContent = "最終更新 " + MARKET.updated_at;
+  renderTabs(); renderBoard(); renderDetail(); renderKelly(); renderPaper(); renderCorr();
+  renderIndices(); renderPulse(); renderNews(); renderBrief(); renderSigChanges();
+  renderSeasonality();
+}
+
+/* ===== アノマリー(季節性)と賢者の視点 =====
+   参考: ハーシュ『アノマリー投資』、エリス『敗者のゲーム』、
+   グレアム『賢明なる投資家』、キンドルバーガー『熱狂、恐慌、崩壊』 */
+const MONTH_NOTES = {
+  1: ["1月効果", "小型株が強くなりやすい月。「1月の相場はその年を占う」とも", "pos"],
+  2: ["節分天井・彼岸底", "日本の相場格言。2月中旬に高値、3月中旬に安値を付けやすいとされる", "dim"],
+  3: ["期末・権利取り", "配当権利取りで堅調になりやすいが、期末の益出し売りも交錯", "dim"],
+  4: ["4月は強い月", "米株で歴史的に最も強い月のひとつ(税還付シーズンとの重なりが一因とされる)。日本は新年度の資金流入も", "pos"],
+  5: ["セル・イン・メイ", "「5月に売れ」の入り口。ここから半年は歴史的に伸びが鈍い", "warn"],
+  6: ["6月は弱含みの月", "米株で歴史的に軟調な月のひとつ", "warn"],
+  7: ["夏ラリー", "7月前半は堅調になりやすい(その後は夏枯れへ)", "pos"],
+  8: ["夏枯れ相場", "薄商いで荒れやすい月。急落が起きやすい", "warn"],
+  9: ["9月は最弱月", "米株で歴史的に最も弱い月。慎重運転の季節", "neg"],
+  10: ["10月は転換の月", "暴落の月として有名だが、歴史的には「底を打つ月」でもある", "warn"],
+  11: ["強い半年の入り口", "11〜4月は歴史的に強い半年(ハロウィーン効果)", "pos"],
+  12: ["サンタクロース・ラリー", "年末最終5営業日〜年始2営業日は上がりやすいとされる", "pos"],
+};
+
+const WISDOM = [
+  ["チャールズ・エリス『敗者のゲーム』", "投資は「勝とうとするほど負ける」敗者のゲーム。派手な妙手より、ミスを減らして市場に居続けることが勝ち筋になる。"],
+  ["チャールズ・エリス『敗者のゲーム』", "リターンの大半は「稲妻が輝く瞬間」と呼ばれるごく少数の急騰日に生まれる(これは市場全体への長期投資の話。個別株の短期タイミングを急かす話ではない)。"],
+  ["ベンジャミン・グレアム『賢明なる投資家』", "市場は毎日値段を叫ぶ躁鬱の「ミスター・マーケット」。彼の気分に付き合うのではなく、彼の間違いを利用する側に回る。"],
+  ["ベンジャミン・グレアム『賢明なる投資家』", "安全域(Margin of Safety)——買値が十分に安ければ、分析の多少の誤りは許される。割高で買うことは安全域を自ら手放すこと。"],
+  ["ベンジャミン・グレアム『賢明なる投資家』", "投資家の最大の敵は市場ではなく、自分自身の感情である。"],
+  ["キンドルバーガー『熱狂、恐慌、崩壊』", "バブルは「新時代が来た」という物語と信用膨張とともにやって来る。熱狂→資金繰りの綻び→突然の崩壊、という型は何百年も繰り返されてきた。"],
+  ["キンドルバーガー『熱狂、恐慌、崩壊』", "「今回は違う」は相場で最も高くつく言葉のひとつ。"],
+  ["ジェフリー・ハーシュ『アノマリー投資』", "季節性は「傾向」であって「保証」ではない。エッジは損切りの規律とセットで使って初めて機能する。"],
+];
+
+function renderSeasonality() {
+  const now = new Date();
+  const m = now.getMonth() + 1, d = now.getDate();
+  const stances = [];
+  const rows = [];
+  const row = (name, w, main, note) => {
+    stances.push(w);
+    rows.push(`<div class="anomaly-row">
+      <span class="a-name">${esc(name)}</span>
+      <span>${tag(w)}</span>
+      <span>${esc(main)}</span>
+      <span class="a-note">見方: ${esc(note)}</span>
+    </div>`);
+  };
+
+  const goodHalf = (m >= 11 || m <= 4);
+  row("半年レジーム",
+    goodHalf ? { t: "追い風", c: "pos" } : { t: "向かい風", c: "warn" },
+    goodHalf ? "11〜4月: 歴史的に強い半年" : "5〜10月: 歴史的に弱い半年",
+    goodHalf ? "強気に傾けやすい季節" : "「セル・イン・メイ」の季節。強気は控えめに");
+
+  const [mn, mnote, mcls] = MONTH_NOTES[m];
+  row(`今月(${m}月)の傾向`,
+    { pos: { t: "追い風", c: "pos" }, warn: { t: "注意", c: "warn" },
+      neg: { t: "向かい風", c: "neg" }, dim: { t: "中立", c: "dim" } }[mcls],
+    mn, mnote);
+
+  const lastDay = new Date(now.getFullYear(), m, 0).getDate();
+  const inTom = d >= lastDay - 1 || d <= 3;
+  row("月末月初効果",
+    inTom ? { t: "追い風(期間中)", c: "pos" } : { t: "対象外", c: "dim" },
+    inTom ? "いま対象期間(月末2日〜月初3日)" : "対象期間外",
+    "資金流入で上がりやすいとされる数日間。買うタイミングの微調整に");
+
+  row("米大統領選サイクル", { t: "注意の年", c: "warn" }, "2026年=中間選挙年",
+    "4年周期の中でも変動が大きくなりやすいとされる年。急落時も慌てず全体方針で判断を(過去には秋以降に反発した年が多いが、サンプルが少なく再現の保証はない)");
+
+  // 総合スタンス(先頭)
+  const score = stances.reduce((s, w) => s + (w.c === "pos" ? 1 : w.c === "dim" ? 0 : -1), 0);
+  const verdict = score >= 1 ? { t: "追い風寄り", c: "pos" }
+    : score <= -1 ? { t: "慎重寄り", c: "warn" } : { t: "中立", c: "dim" };
+  const cnt = c => stances.filter(w => w.c === c).length;
+  rows.unshift(`<div class="anomaly-row">
+    <span class="a-name" style="letter-spacing:1px">SEASONAL STANCE</span>
+    <span>${tag(verdict)}</span>
+    <span><b class="${verdict.c}">${esc(verdict.t)}</b>
+      <span class="dim">(追い風${cnt("pos")} / 中立${cnt("dim")} / 注意${cnt("warn") + cnt("neg")})</span></span>
+    <span class="a-note">使い方: 投入量の微調整に。シグナルの上書きには使わない</span>
+  </div>`);
+
+  document.getElementById("anomaly-grid").innerHTML = rows.join("");
+
+  // 賢者の視点(日替わり)
+  const start = new Date(now.getFullYear(), 0, 0);
+  const doy = Math.floor((now - start) / 86400000);
+  const [who, quote] = WISDOM[doy % WISDOM.length];
+  document.getElementById("wisdom").innerHTML =
+    `<span class="dim">今日の賢者の視点 ─ ${esc(who)}</span><br>${esc(quote)}`;
+}
+
+/* ===== シグナル変化(直近7日)。LONGからの転落=売却検討のサイン ===== */
+function renderSigChanges() {
+  const el = document.getElementById("sig-changes");
+  const sum = document.getElementById("sig-sum");
+  const box = document.querySelector('details[data-group="CHANGES"]');
+  if (!el || !sum || !box) return;
+  const changes = MARKET.signal_changes || [];
+  const held = new Set((PAPER && PAPER.positions || []).map(p => p.symbol));
+  const heldDrops = changes.filter(c => c.from === "LONG" && held.has(c.symbol));
+
+  box.open = OPEN_GROUPS.CHANGES;
+  sum.innerHTML = `SIGNAL CHANGES / 直近7日の変化 ${changes.length}件 <span class="dim" style="font-size:10px">(更新実行時に検知)</span>`
+    + (heldDrops.length ? ` <b class="neg">⚠ 保有銘柄の転落${heldDrops.length}件→売却検討</b>` : "");
+
+  if (!changes.length) {
+    el.innerHTML = '<span class="dim" style="font-size:11px">直近7日のシグナル変化はありません</span>';
+    return;
+  }
+  el.innerHTML = changes.map(c => {
+    const drop = c.from === "LONG";
+    const colorCls = c.to === "AVOID" ? "neg" : drop ? "warn" : c.to === "LONG" ? "pos" : "dim";
+    const heldMark = held.has(c.symbol) ? ' <b class="neg">◀ 保有中→売却検討!</b>' : (drop ? ' <span class="warn">(売却検討)</span>' : "");
+    return `<div class="${colorCls}" style="font-size:12px; padding:1px 0">
+      ${esc(c.date.slice(5).replace("-", "/"))} ${esc(c.symbol)} ${esc(c.name)}:
+      ${esc(c.from)} → <b>${esc(c.to)}</b>${heldMark}</div>`;
+  }).join("");
+}
+
+/* ===== ニュース要約(見出しから文章を機械的に組み立てる) ===== */
+function rankText(rank) {
+  // 過去1年の中での位置を平易な日本語に
+  if (rank == null) return "";
+  const p = Math.round(rank * 100);
+  if (p >= 90) return `過去1年でほぼ最高水準(上位${100 - p}%)`;
+  if (p >= 70) return `過去1年の中で高め(上位${100 - p}%)`;
+  if (p <= 10) return `過去1年でほぼ最低水準(下位${p}%)`;
+  if (p <= 30) return `過去1年の中で低め(下位${p}%)`;
+  return "過去1年の平均圏";
+}
+
+const NEWS_TOPICS = {
+  jp: [
+    ["金利・金融政策", /金利|日銀|国債|利上げ|利下げ|FRB|FOMC|金融政策/],
+    ["為替", /円相場|円安|円高|ドル|為替/],
+    ["企業動向", /決算|業績|買収|統合|新会社|上場|提携|破産|倒産/],
+    ["株式市場", /株価|日経平均|東証|株式市場|市場/],
+    ["物価・家計", /物価|値上げ|賃金|年金|家計|インフレ/],
+  ],
+  crypto: [
+    ["ビットコイン", /ビットコイン|BTC/i],
+    ["アルトコイン", /イーサリアム|ETH|ソラナ|XRP|アルト|ミーム/i],
+    ["規制・制度", /規制|SEC|金融庁|法案|課税|承認/],
+    ["企業・機関の売買", /ストラテジー|購入|売却|保有|上場企業|ETF/],
+    ["取引所・セキュリティ", /取引所|ハッキング|流出|統合/],
+  ],
+};
+
+function composeNewsBrief(items, side) {
+  // 記事本文(desc)を主役に、読み物として流れる要約文を組み立てる。
+  // 本文が無い記事(Yahoo等)は最後に見出しでまとめて拾う
+  if (!items || !items.length) return "ニュースを取得できていません([REFRESH]で再試行)。";
+  const trim = (t, n = 30) => {
+    const s = t.split(/[｜|]/)[0].trim();
+    return s.length > n ? s.slice(0, n - 1) + "…" : s;
+  };
+  // 完結した文だけを取り出す(途中で切れた末尾は捨てる)
+  const fullSentences = (text, n) => {
+    const parts = text.split("。").slice(0, -1).map(s => s.trim()).filter(Boolean);
+    return parts.length ? parts.slice(0, n).join("。") + "。" : "";
+  };
+  const used = new Set();
+  const paras = [];
+  const withDesc = items.filter(n => fullSentences(n.desc || "", 1).length >= 20);
+
+  // リード: 最重要トピック(金利/BTC)かつ本文つきの記事を最優先
+  const topicRe = NEWS_TOPICS[side][0][1];
+  const lead = withDesc.find(n => topicRe.test(n.title)) || withDesc[0];
+  if (lead) {
+    used.add(lead);
+    paras.push(`${fullSentences(lead.desc, 2)}(${lead.source || "配信"})`);
+  }
+
+  // 2本目: 別の記事の本文をもう一段落
+  const second = withDesc.find(n => !used.has(n));
+  if (second) {
+    used.add(second);
+    paras.push(`また、${fullSentences(second.desc, 1)}(${second.source || "配信"})`);
+  }
+
+  // 本文つきが無い場合のリード代替: 見出しとトピック分類で組む
+  if (!paras.length) {
+    const first = items.find(n => topicRe.test(n.title)) || items[0];
+    used.add(first);
+    paras.push(`「${trim(first.title)}」${first.source ? `(${first.source})` : ""}をはじめとする報道が出ている。`);
+    const hits = NEWS_TOPICS[side]
+      .map(([label, re]) => [label, items.filter(n => re.test(n.title)).length])
+      .filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1]).slice(0, 2);
+    if (hits.length) paras.push(`話題の中心は${hits.map(([l]) => l).join("と")}だ。`);
+  }
+
+  // 残りは見出しで軽く拾って締める
+  const rest = items.filter(n => !used.has(n));
+  if (rest.length) {
+    const heads = rest.slice(0, 3).map(n => `「${trim(n.title)}」`).join("、");
+    paras.push(`このほか${heads}${rest.length > 3 ? `など計${rest.length}本` : ""}の報道が続いている。`);
+  }
+
+  const sources = [...new Set(items.map(n => n.source).filter(Boolean))].join("・");
+  paras.push(`(${items[0].published || "--"}時点・${sources}からの自動要約)`);
+  return paras.join("");
+}
+
+function signalCounts(cls) {
+  const list = MARKET.assets.filter(a => cls ? a.asset_class === cls : true);
+  const c = { LONG: 0, NEUTRAL: 0, AVOID: 0 };
+  list.forEach(a => { c[a.signal.label]++; });
+  return c;
+}
+
+function renderBrief() {
+  document.getElementById("brief-stocks").textContent =
+    composeNewsBrief(PULSE && PULSE.news_jp, "jp");
+  document.getElementById("brief-crypto").textContent =
+    composeNewsBrief(PULSE && PULSE.news_crypto, "crypto");
+}
+
+/* ===== 世界の指数(GLOBAL MARKETS) — 追い風/向かい風の判定つき ===== */
+function equityWeather(ix) {
+  // 環境判定は日替わりで揺れないよう、ゆっくり動く「200日線とのレジーム」だけで判定する
+  // (週の騰落を混ぜると符号反転のたびに判定がパタつき、信頼できない)
+  if (ix.ma200_gap == null) return { t: "判定不能", c: "dim" };
+  if (ix.ma200_gap > 0.02) return { t: "追い風", c: "pos" };
+  if (ix.ma200_gap < -0.02) return { t: "向かい風", c: "neg" };
+  return { t: "中立", c: "dim" };
+}
+function rateWeather(rank, chg) {
+  // 金利は「高い・上がる」ほど株式/暗号資産に逆風
+  if (rank == null) return { t: "中立", c: "dim" };
+  if (rank >= 0.7) return { t: (chg ?? 0) > 0 ? "向かい風(高位で上昇中)" : "向かい風(高水準)", c: "neg" };
+  if (rank <= 0.3 && (chg ?? 0) < 0) return { t: "追い風(低下中)", c: "pos" };
+  return { t: "中立", c: "dim" };
+}
+const tag = w => `<span class="tag ${w.c}">${esc(w.t)}</span>`;
+
+function renderIndices() {
+  const el = document.getElementById("indices-grid");
+  const list = MARKET.indices || [];
+  if (!list.length) { el.innerHTML = '<span class="dim">指数データなし([REFRESH]で再試行)</span>'; return; }
+  const bySym = s => list.find(i => i.symbol === s);
+  const chips = [];
+  const weathers = [];
+
+  // --- 株価指数 ---
+  list.filter(ix => !["^VIX", "^TNX", "^IRX"].includes(ix.symbol)).forEach(ix => {
+    const w = equityWeather(ix);
+    weathers.push(w);
+    const posTxt = ix.range_pos52 == null ? "" :
+      `1年レンジ${Math.round(ix.range_pos52 * 100)}%地点・200日線の${(ix.ma200_gap ?? 0) >= 0 ? "上" : "下"}`;
+    chips.push(`<div class="pulse-chip"><div class="label">${esc(ix.name)}${tag(w)}</div>
+      <div class="num">${ix.price.toLocaleString("en-US", { maximumFractionDigits: 0 })}
+        <span class="${cls(ix.chg1d)}" style="font-size:12px">${fmtPct(ix.chg1d)}</span></div>
+      <div class="sub">週${fmtPct(ix.chg5d)} / 年初来${fmtPct(ix.ytd)}<br>${esc(posTxt)}</div></div>`);
+  });
+
+  // --- VIX ---
+  const vix = bySym("^VIX");
+  if (vix) {
+    const w = vix.price < 20 ? { t: "追い風(平穏)", c: "pos" }
+      : vix.price < 30 ? { t: "中立(警戒)", c: "dim" } : { t: "向かい風(動揺)", c: "neg" };
+    weathers.push(w);
+    chips.push(`<div class="pulse-chip"><div class="label">${esc(vix.name)} / 株式版の恐怖指数${tag(w)}</div>
+      <div class="num ${w.c}">${vix.price.toFixed(1)}</div>
+      <div class="sub">${esc(rankText(vix.pct_rank_1y))}・30超=動揺</div></div>`);
+  }
+
+  // --- 米金利(10年 + 10年-3ヶ月スプレッド) ---
+  const tnx = bySym("^TNX"), irx = bySym("^IRX");
+  if (tnx) {
+    const w = rateWeather(tnx.pct_rank_1y, tnx.chg5d);
+    weathers.push(w);
+    let spreadTxt = "";
+    if (irx) {
+      const sp = tnx.price - irx.price;
+      const shape = sp < 0 ? '<span class="neg">逆イールド(景気後退の先行指標。ただし実際の後退まで半年〜2年のずれが通例)</span>'
+        : sp < 0.2 ? '<span class="warn">フラット気味(要注意)</span>' : "順イールド(正常)";
+      spreadTxt = `<br>10年-3ヶ月 ${sp >= 0 ? "+" : ""}${sp.toFixed(2)}%pt = ${shape}`;
+    }
+    chips.push(`<div class="pulse-chip"><div class="label">${esc(tnx.name)}${tag(w)}</div>
+      <div class="num">${tnx.price.toFixed(2)}%</div>
+      <div class="sub">週${fmtPct(tnx.chg5d)}・${esc(rankText(tnx.pct_rank_1y))}${spreadTxt}</div></div>`);
+  }
+
+  // --- 日本国債(10年 + イールドカーブ) ---
+  const jgb = PULSE && PULSE.jgb;
+  if (jgb) {
+    const w = rateWeather(jgb.rank_1y, jgb.chg5d);
+    weathers.push(w);
+    const sp = jgb.spread_10_2;
+    const shape = sp == null ? "" : sp < 0 ? '<span class="neg">逆イールド</span>'
+      : sp < 0.2 ? '<span class="warn">フラット気味</span>' : "順イールド(正常)";
+    chips.push(`<div class="pulse-chip" style="min-width:300px"><div class="label">日本10年金利(国債)${tag(w)}</div>
+      <div class="num">${jgb.y10.toFixed(2)}%
+        <span class="${cls(-jgb.chg5d)}" style="font-size:12px">週${jgb.chg5d >= 0 ? "+" : ""}${jgb.chg5d.toFixed(2)}</span></div>
+      <div class="sub">${esc(rankText(jgb.rank_1y))}・10年-2年 ${sp == null ? "--" : (sp >= 0 ? "+" : "") + sp.toFixed(2) + "%pt"} = ${shape}</div>
+      <canvas id="jgb-curve" width="290" height="72" style="display:block; margin-top:8px"
+        aria-label="日本国債イールドカーブ"></canvas>
+      <div class="sub" style="margin-top:2px">カーブ実額: 1年${jgb.curve[1] == null ? "--" : jgb.curve[1].toFixed(2)} / 2年${jgb.curve[2] == null ? "--" : jgb.curve[2].toFixed(2)} / 10年${jgb.y10.toFixed(2)} / 30年${jgb.curve[30] == null ? "--" : jgb.curve[30].toFixed(2)}%</div></div>`);
+  }
+
+  // --- 次の政策イベント(日銀・FOMCの結果発表日) ---
+  const evs = MARKET.events || [];
+  let eventChip = "";
+  if (evs.length) {
+    const warn = evs.some(e => e.days <= 3);
+    eventChip = `<div class="pulse-chip"><div class="label">POLICY EVENTS / 次の政策イベント</div>
+      <div class="num ${warn ? "warn" : ""}" style="font-size:14px">${evs.map(e =>
+        `${esc(e.label)} ${esc(e.date)}(あと${e.days}日)`).join(" / ")}</div>
+      <div class="sub">${warn ? "イベント直前: 結果次第で相場が急変しやすい" : "日銀・FRBの結果発表日(2026年公式日程)"}</div></div>`;
+  }
+
+  // --- 総合判定(先頭に置く) ---
+  const tail = weathers.filter(w => w.c === "pos").length;
+  const head = weathers.filter(w => w.c === "neg").length;
+  const mid = weathers.length - tail - head;
+  const verdict = tail - head >= 2 ? { t: "追い風寄り", c: "pos" }
+    : head - tail >= 2 ? { t: "向かい風寄り", c: "neg" } : { t: "中立", c: "dim" };
+  chips.unshift(`<div class="pulse-chip weather-chip"><div class="label">MARKET WEATHER / 全体観</div>
+    <div class="num ${verdict.c}">${esc(verdict.t)}</div>
+    <div class="sub">追い風${tail} / 中立${mid} / 向かい風${head} (${weathers.length}項目)<br>
+    基準: 株価指数=200日線の上下±2% / VIX=20未満・30超 / 金利=過去1年の順位70%(ゆっくり動く基準のみ採用)</div></div>`);
+  if (eventChip) chips.splice(1, 0, eventChip);
+
+  el.innerHTML = chips.join("");
+  if (jgb) drawJgbCurve(jgb.curve);
+}
+
+function drawJgbCurve(curve) {
+  const cv = document.getElementById("jgb-curve");
+  if (!cv) return;
+  const ctx = cv.getContext("2d");
+  const mats = [1, 2, 5, 10, 20, 30, 40].filter(m => curve[m] != null);
+  if (mats.length < 3) return;
+  const vals = mats.map(m => curve[m]);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const x = i => 14 + i / (mats.length - 1) * (cv.width - 28);
+  const y = v => cv.height - 18 - (v - min) / (max - min || 1) * (cv.height - 30);
+  ctx.clearRect(0, 0, cv.width, cv.height);
+  ctx.strokeStyle = "#00a82d";
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  mats.forEach((m, i) => i ? ctx.lineTo(x(i), y(curve[m])) : ctx.moveTo(x(i), y(curve[m])));
+  ctx.stroke();
+  ctx.fillStyle = "#00ff41";
+  mats.forEach((m, i) => { ctx.beginPath(); ctx.arc(x(i), y(curve[m]), 3, 0, Math.PI * 2); ctx.fill(); });
+  ctx.fillStyle = "#7a8a7c";
+  ctx.font = "10px Menlo, monospace";
+  mats.forEach((m, i) => ctx.fillText(`${m}年`, x(i) - 10, cv.height - 4));
+}
+
+/* ===== 市況パルス(F&G / CoinGecko / DefiLlama) ===== */
+const fmtUsdBig = v => {
+  if (v == null) return "--";
+  if (v >= 1e12) return "$" + (v / 1e12).toFixed(2) + "T";
+  if (v >= 1e9) return "$" + (v / 1e9).toFixed(1) + "B";
+  return "$" + Math.round(v / 1e6).toLocaleString() + "M";
+};
+function renderPulse() {
+  const el = document.getElementById("pulse-grid");
+  if (!PULSE) { el.innerHTML = '<span class="dim">市況データを取得できませんでした([REFRESH]で再試行)</span>'; return; }
+  const chips = [];
+  const f = PULSE.fng;
+  if (f) {
+    const diff7 = f.history.length >= 8 ? f.value - f.history[f.history.length - 8] : null;
+    const avg30 = Math.round(f.history.reduce((s, v) => s + v, 0) / f.history.length);
+    chips.push(`
+      <div class="pulse-chip">
+        <div class="label">FEAR &amp; GREED / 恐怖と強欲</div>
+        <div class="num">${f.value} <span style="font-size:12px">${esc(f.label)}</span></div>
+        <div class="fng-gauge"><div class="fng-marker" style="left:${f.value}%"></div></div>
+        <div class="sub">30日平均 ${avg30}${diff7 == null ? "" : ` / 7日前比 ${diff7 >= 0 ? "+" : ""}${diff7}`} / 逆張りの文脈指標</div>
+      </div>`);
+  }
+  const g = PULSE.crypto_global;
+  if (g) {
+    chips.push(`
+      <div class="pulse-chip">
+        <div class="label">BTC DOMINANCE / BTC占有率</div>
+        <div class="num">${g.btc_dominance.toFixed(1)}%</div>
+        <div class="sub">ETH ${g.eth_dominance.toFixed(1)}%・上昇=資金がBTCへ退避傾向</div>
+      </div>
+      <div class="pulse-chip">
+        <div class="label">CRYPTO MCAP / 暗号資産の総時価総額</div>
+        <div class="num">${fmtUsdBig(g.total_mcap_usd)} <span class="${cls(g.mcap_change_24h)}" style="font-size:12px">${g.mcap_change_24h >= 0 ? "+" : ""}${g.mcap_change_24h.toFixed(1)}%/24h</span></div>
+      </div>`);
+  }
+  const d = PULSE.defi;
+  if (d) {
+    chips.push(`
+      <div class="pulse-chip">
+        <div class="label">DeFi TVL / DeFiへの預入総額</div>
+        <div class="num">${fmtUsdBig(d.tvl_usd)}</div>
+        <div class="sub"><span class="${cls(d.change_7d)}">${fmtPct(d.change_7d)}/週</span>・<span class="${cls(d.change_1y)}">1年前比${fmtPct(d.change_1y)}</span>${d.range_pos_1y != null ? `・1年レンジ${Math.round(d.range_pos_1y * 100)}%地点` : ""}<br>増加=リスク選好</div>
+      </div>`);
+  }
+  chips.push(`<div class="pulse-chip"><div class="label">SOURCE</div>
+    <div class="sub">alternative.me / CoinGecko / DefiLlama<br>更新 ${esc(PULSE.updated_at || "--")}</div></div>`);
+  el.innerHTML = chips.join("");
+}
+
+/* ===== ニュース(株式・経済 / 暗号資産の2ペイン) ===== */
+function renderNewsList(elId, items) {
+  const el = document.getElementById(elId);
+  if (!items || !items.length) {
+    el.className = "dim";
+    el.textContent = "ニュースを取得できませんでした([REFRESH]で再試行)";
+    return;
+  }
+  el.className = "";
+  el.innerHTML = items.map(n => `
+    <div class="news-item"><span class="t">${esc(n.published)}${n.source ? " " + esc(n.source) : ""}</span><a href="${esc(n.link)}"
+      target="_blank" rel="noopener noreferrer">${esc(n.title)}</a></div>`).join("");
+}
+function renderNews() {
+  renderNewsList("news-jp-list", PULSE && PULSE.news_jp);
+  renderNewsList("news-crypto-list", PULSE && PULSE.news_crypto);
+}
+
+function renderTabs() {
+  const counts = { all: MARKET.assets.length };
+  MARKET.assets.forEach(a => { counts[a.asset_class] = (counts[a.asset_class] || 0) + 1; });
+  const tabs = ["all", "crypto", "jp", "other"].filter(k => k === "all" || counts[k]);
+  document.getElementById("class-tabs").innerHTML = tabs.map(k => `
+    <button class="tab ${FILTER === k ? "active" : ""}" role="tab"
+            aria-selected="${FILTER === k}" onclick="setFilter('${k}')">
+      ${k === "all" ? "ALL" : esc(CLASS_LABEL[k])} (${counts[k] || 0})
+    </button>`).join("");
+}
+function setFilter(k) { FILTER = k; renderTabs(); renderBoard(); }
+
+// 円換算できない銘柄(EUR建てなど)は現地通貨のまま表示する
+const fmtPrice = a => a.price_jpy != null ? fmtJPY(a.price_jpy)
+  : (a.price == null ? "--" : a.price.toLocaleString("en-US", { maximumFractionDigits: 2 }) + " " + esc(a.currency));
+
+const OPEN_GROUPS = { LONG: true, NEUTRAL: false, AVOID: false, CHANGES: false };
+const GROUP_LABEL = { LONG: "買い候補", NEUTRAL: "様子見", AVOID: "避ける" };
+const scoreDesc = (x, y) => y.signal.score - x.signal.score;
+
+function rowHtml(a) {
+  return `
+    <tr class="asset ${a.symbol === SELECTED ? "selected" : ""}" data-sym="${esc(a.symbol)}"
+        tabindex="0" role="button" aria-label="${esc(a.name)}の詳細を表示">
+      <td>${esc(a.symbol)} <span class="name-jp">${esc(a.name)}</span>
+          ${a.stale ? '<span class="stale">STALE</span>' : ""}</td>
+      <td>${fmtPrice(a)}</td>
+      <td class="${cls(a.ret1)}">${fmtPct(a.ret1)}</td>
+      <td class="${cls(a.ret63)}">${fmtPct(a.ret63)}</td>
+      <td class="${a.z20 != null && Math.abs(a.z20) > 2 ? "warn" : "dim"}">${a.z20 == null ? "--" : (a.z20 >= 0 ? "+" : "") + a.z20.toFixed(1)}</td>
+      <td>${fmtNum(a.rsi14, 0)}</td>
+      <td style="text-align:center"><span class="badge ${esc(a.signal.label)}">${esc(a.signal.label)}</span>${(() => {
+        if (a.signal.label !== "LONG") return "";
+        const es = entryState(a);
+        return `<div class="${es.c}" style="font-size:10px">${esc(es.label)}</div>`;
+      })()}</td>
+    </tr>`;
+}
+
+function syncOpenGroups() {
+  // 再描画の直前にDOMの開閉状態を保存(toggleイベントの遅延に依存しない)
+  document.querySelectorAll("details.siggroup").forEach(d => {
+    OPEN_GROUPS[d.dataset.group] = d.open;
+  });
+}
+
+function renderBoard() {
+  syncOpenGroups();
+  const visible = MARKET.assets.filter(a => FILTER === "all" || a.asset_class === FILTER);
+
+  ["LONG", "NEUTRAL", "AVOID"].forEach(g => {
+    const det = document.querySelector(`details[data-group="${g}"]`);
+    let rows = visible.filter(a => a.signal.label === g).slice().sort(scoreDesc);
+    let extra = "";
+    if (g === "LONG") {
+      // 買い頃(押し目圏)→通常圏→押し目待ちの順に並べ、内訳を見出しに出す
+      rows.sort((x, y) => (ENTRY_ORDER[entryState(x).k] - ENTRY_ORDER[entryState(y).k])
+        || (y.signal.score - x.signal.score));
+      const n = k => rows.filter(a => entryState(a).k === k).length;
+      extra = ` <span style="font-size:11px">(<span class="pos">押し目圏${n("DIP")}</span> / <span class="dim">通常圏${n("OK")}</span> / <span class="warn">押し目待ち${n("WAIT")}</span>)</span>`;
+    }
+    det.open = OPEN_GROUPS[g];
+    det.querySelector("summary").innerHTML =
+      `<span class="badge ${g}">${g}</span> ${GROUP_LABEL[g]} ${rows.length}銘柄${extra}`;
+    det.querySelector("tbody").innerHTML = rows.map(rowHtml).join("")
+      || '<tr><td colspan="7" class="dim">該当なし</td></tr>';
+  });
+
+  document.querySelectorAll(".sigrows tr.asset").forEach(tr => {
+    const pick = () => { SELECTED = tr.dataset.sym; renderBoard(); renderDetail(); renderKelly(); renderCorr(); };
+    tr.addEventListener("click", pick);
+    tr.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
+  });
+}
+
+function renderDetail() {
+  const el = document.getElementById("detail");
+  const a = MARKET.assets.find(x => x.symbol === SELECTED);
+  if (!a) { el.className = "dim"; el.textContent = "SIGNAL BOARD の銘柄をクリックしてください"; return; }
+  el.className = "";
+  const SIG_MEANING = { LONG: "買い候補(複数の好条件が合致)", NEUTRAL: "待ち(条件がまだ揃っていない)", AVOID: "避ける(悪条件が優勢)" };
+  const metricRows = judgeMetrics(a).map(([label, val, j]) => label === "#"
+    ? `<tr><td colspan="3" class="dim" style="padding-top:9px; font-size:10px; letter-spacing:1px; border-bottom:none">── ${esc(val)} ──</td></tr>`
+    : `<tr><td>${label}</td><td>${val}</td>
+        <td class="${j ? j.c : "dim"}">${j ? esc(j.t) : "--"}</td></tr>`).join("");
+  el.innerHTML = `
+    <div style="margin-bottom:4px"><b>${esc(a.symbol)}</b> <span class="name-jp">${esc(a.name)}</span>${sectorLabel(a) ? `<span class="tag dim">${esc(sectorLabel(a))}</span>` : ""}
+      <span class="badge ${esc(a.signal.label)}" style="float:right">${esc(a.signal.label)}</span></div>
+    <div class="dim" style="font-size:11px; margin-bottom:4px">総合判定: ${esc(SIG_MEANING[a.signal.label] || "")}</div>
+    <ul class="reasons">${a.signal.reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+    ${(() => {
+      if (a.signal.label !== "LONG") return "";
+      const es = entryState(a);
+      return `<div style="margin-top:6px; padding:5px 8px; border:1px dashed var(--green-faint); font-size:12px">
+        エントリー判定: <b class="${es.c}">${esc(es.label)}</b>
+        <span class="dim">─ ${esc(es.note)}</span></div>`;
+    })()}
+    <div class="dim" style="font-size:10px; letter-spacing:1px; margin:8px 0 2px">── 時間軸ビュー(同じ銘柄でも時間軸で答えは変わる) ──</div>
+    ${horizonViews(a).map(([h, t, c]) => `
+      <div style="display:flex; gap:8px; font-size:12px; padding:1px 0">
+        <span class="dim" style="flex:none; width:118px">${esc(h)}</span>
+        <span class="${c}">${esc(t)}</span>
+      </div>`).join("")}
+    <hr style="border:none;border-top:1px solid var(--grid);margin:8px 0">
+    <div style="display:flex; justify-content:space-between">
+      <span class="dim">価格(円換算)</span><b>${fmtJPY(a.price_jpy)}</b></div>
+    <table class="metric-table">
+      <thead><tr><th style="text-align:left">指標</th><th>値</th><th style="text-align:left">判定(目安)</th></tr></thead>
+      <tbody>${metricRows}</tbody>
+    </table>
+    <div class="dim" style="font-size:10px; margin-top:3px">判定の色: <span class="pos">緑=買い材料</span> / <span class="warn">橙=注意・待つ</span> / <span class="neg">赤=警戒</span> / 灰=中立</div>
+    <canvas id="detail-chart" aria-label="${esc(a.name)}の1年チャート" role="img"></canvas>
+    <div class="chart-legend">直近1年${a.currency !== "JPY" ? "・" + esc(a.currency) + "建て" : ""} ─ <span class="c">終値</span> / <span class="m50">MA50</span> / <span class="m200">MA200(点線)</span></div>
+    <div class="ext-links">${externalLinks(a).map(([label, url]) =>
+      `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`).join("")}</div>
+    ${STATIC_MODE ? "" : `<div style="margin-top:10px; text-align:right">
+      <button class="btn sell" onclick="removeSymbol('${esc(a.symbol)}')">− REMOVE 監視から外す</button>
+    </div>`}`;
+  drawChart(a.spark);
+}
+
+
+/* LONG銘柄の「今入るか、押し目を待つか」のエントリー判定(短期の過熱を測る) */
+function entryState(a) {
+  // 短期の過熱は「短期の物差し」であるZとRSIだけで測る。
+  // MA200乖離は長期の伸びすぎ指標なので、ここでは使わない
+  // (強いトレンド銘柄は乖離が常に大きく、入れると全銘柄が押し目待ちになる)
+  const z = a.z20, rsi = a.rsi14;
+  const hot = [];
+  if (z != null && z > 1.5) hot.push(`Z+${z.toFixed(1)}`);
+  if (rsi != null && rsi > 70) hot.push(`RSI${Math.round(rsi)}`);
+  if (hot.length) {
+    return { k: "WAIT", label: "押し目待ち", c: "warn",
+             note: `短期過熱(${hot.join("・")})。今すぐ飛び乗るより、下がるのを待って拾う方が分が良い` };
+  }
+  if ((z ?? 1) <= 0 && (rsi ?? 60) <= 55) {
+    return { k: "DIP", label: "押し目圏", c: "pos",
+             note: "上昇トレンド内で短期の熱が冷めている状態。エントリー好機になりやすい" };
+  }
+  return { k: "OK", label: "通常圏", c: "dim",
+           note: "過熱なし。入るなら一括ではなく分割で" };
+}
+const ENTRY_ORDER = { DIP: 0, OK: 1, WAIT: 2 };
+
+/* 時間軸ごとの見立て(総合シグナルがLONGでも短期は過熱、のズレを明示する) */
+function horizonViews(a) {
+  const out = [];
+  // 短期(数日〜数週): 過熱/売られすぎの調整リスク
+  if ((a.z20 ?? 0) > 2 || (a.rsi14 ?? 50) > 70) {
+    out.push(["短期(〜数週)", "過熱気味。飛び乗りは不利になりやすく、押し目待ちが定石", "warn"]);
+  } else if ((a.z20 ?? 0) < -2 || (a.rsi14 ?? 50) < 30) {
+    out.push(["短期(〜数週)", "売られすぎ圏。自律反発はあり得るが、逆張りは慎重に", "warn"]);
+  } else if ((a.ma200_gap ?? -1) >= 0) {
+    out.push(["短期(〜数週)", "過熱なしの通常圏。上昇トレンド内の押し目は買い候補", "pos"]);
+  } else {
+    out.push(["短期(〜数週)", "通常圏だが下降トレンド内。戻りは売られやすい", "dim"]);
+  }
+  // スイング(数週〜数ヶ月): 勢いと相対力
+  const rsOk = a.rs63 == null || a.rs63 > 0;
+  if ((a.ret63 ?? 0) > 0.05 && rsOk) {
+    out.push(["スイング(〜数ヶ月)", "勢い+相対力あり。順張りが機能しやすい局面", "pos"]);
+  } else if ((a.ret63 ?? 0) > 0.05) {
+    out.push(["スイング(〜数ヶ月)", "上昇の勢いはあるが、市場平均と比べると見劣り", "dim"]);
+  } else if ((a.ret63 ?? 0) < -0.05) {
+    out.push(["スイング(〜数ヶ月)", "中期の勢いは下向き。逆風", "neg"]);
+  } else {
+    out.push(["スイング(〜数ヶ月)", "方向感なし。無理に張る場面ではない", "dim"]);
+  }
+  // 長期(数ヶ月〜年): 大きなトレンド
+  if ((a.ma200_gap ?? -1) > 0 && (a.mom121 ?? 0) > 0) {
+    out.push(["長期(数ヶ月〜)", "長期上昇トレンド。下がったところは買い場候補", "pos"]);
+  } else if ((a.ma200_gap ?? -1) > 0) {
+    out.push(["長期(数ヶ月〜)", "長期線の上だが勢いは鈍化気味", "dim"]);
+  } else {
+    out.push(["長期(数ヶ月〜)", "長期下降局面。買いは「逆張り」であることを自覚して", "neg"]);
+  }
+  return out;
+}
+
+/* ===== 業種(セクター)の日本語化と、監視リスト内での業種比較 ===== */
+const SECTOR_JA = {
+  "Technology": "テクノロジー", "Financial Services": "金融",
+  "Consumer Cyclical": "一般消費財", "Consumer Defensive": "生活必需品",
+  "Industrials": "資本財・産業", "Basic Materials": "素材",
+  "Healthcare": "ヘルスケア", "Communication Services": "通信",
+  "Energy": "エネルギー", "Utilities": "公益", "Real Estate": "不動産",
+};
+function sectorLabel(a) { return a.sector ? (SECTOR_JA[a.sector] || a.sector) : null; }
+
+function sectorMedian(sector, key) {
+  const vals = MARKET.assets
+    .filter(x => x.sector === sector && x[key] != null)
+    .map(x => x[key]).sort((p, q) => p - q);
+  if (vals.length < 3) return null;  // 母数3未満の比較は誤解のもと
+  return { n: vals.length, med: vals[Math.floor(vals.length / 2)] };
+}
+
+/* 「業種の中で高いか低いか」の注記(PERは業種で相場が違う、への答え) */
+function vsSector(a, key, fmt) {
+  const s = a.sector && sectorMedian(a.sector, key);
+  if (!s || a[key] == null || s.med === 0) return "";
+  const ratio = a[key] / s.med;
+  const rel = ratio > 1.3 ? "業種内では高め" : ratio < 0.77 ? "業種内では低め" : "業種並み";
+  return ` / 監視中の同業種${s.n}社の中央値${fmt(s.med)}→${rel}`;
+}
+
+/* 時価総額の表示(日本株=兆/億円、その他=ドル) */
+function fmtMcap(v, currency) {
+  if (v == null) return "--";
+  if (currency === "JPY") {
+    return v >= 1e12 ? (v / 1e12).toFixed(1) + "兆円"
+      : Math.round(v / 1e8).toLocaleString("ja-JP") + "億円";
+  }
+  return "$" + (v / 1e9).toFixed(0) + "B";
+}
+
+/* 各指標の「値」と「判定(買い材料/中立/注意/警戒)」を組で返す。
+   判定基準は経験則+学術研究の一般的な目安。絶対の基準ではない。
+   ["#", "見出し"] はセクション区切り行 */
+function judgeMetrics(a) {
+  const J = (t, c) => ({ t, c });
+  const bench = RS_BENCH_LABEL[a.asset_class] || "指数";
+  const rows = [];
+
+  // ── ファンダメンタルズ(株式のみ。暗号資産には財務諸表が無い) ──
+  if (a.asset_class !== "crypto") {
+    rows.push(["#", "ファンダメンタルズ(Yahoo速報値・日次更新。精査はIR資料で)"]);
+    rows.push(["PER(直近12ヶ月の実績)",
+      a.per == null ? "--" : a.per.toFixed(1) + "倍",
+      a.per == null ? null
+        : a.per < 10 ? J("割安圏(10倍未満)" + vsSector(a, "per", v => v.toFixed(1) + "倍"), "pos")
+        : a.per <= 25 ? J("標準圏(10〜25倍)" + vsSector(a, "per", v => v.toFixed(1) + "倍"), "dim")
+        : a.per <= 60 ? J("割高圏(25倍超=高い成長期待の裏返し)" + vsSector(a, "per", v => v.toFixed(1) + "倍"), "warn")
+        : J("参考外(60倍超は一時的な減益でEPSが縮んだ見かけの可能性。PBR・ROEで補完を)", "warn")]);
+    rows.push(["PSR(株価売上倍率)",
+      a.psr == null ? "--" : a.psr.toFixed(1) + "倍",
+      a.psr == null ? null
+        : a.per == null
+          ? (a.psr <= 2 ? J("PERが使えない(赤字等)銘柄の代替指標。売上比では割安圏(2倍以下)", "pos")
+            : a.psr <= 10 ? J("PERが使えない銘柄の代替指標。新興・成長株の標準圏(2〜10倍)", "dim")
+            : J("高評価(10倍超)。大きな成長期待が既に織り込み済み", "warn"))
+          : (a.psr < 1 ? J("売上比で割安(1倍未満)", "pos")
+            : a.psr <= 5 ? J("標準圏(1〜5倍)", "dim")
+            : J("高評価(5倍超=新興・高成長型の水準)", "warn"))]);
+    rows.push(["予想PER(来期ベース)",
+      a.per_fwd == null ? "--" : a.per_fwd.toFixed(1) + "倍",
+      a.per_fwd == null ? null
+        : a.per != null && a.per_fwd < a.per * 0.8 ? J("来期は増益予想(実績PERより大幅に低い)", "pos")
+        : a.per != null && a.per_fwd > a.per * 1.2 ? J("来期は減益予想(実績PERより高い)", "warn")
+        : J("実績と同水準の予想", "dim")]);
+    rows.push(["PBR(株価純資産倍率)",
+      a.pbr == null ? "--" : a.pbr.toFixed(2) + "倍",
+      a.pbr == null ? null
+        : a.pbr < 1 ? J("1倍割れ=解散価値以下(割安。ただし理由の確認を)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "pos")
+        : a.pbr <= 3 ? J("標準圏(1〜3倍)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "dim")
+        : J("割高圏(3倍超)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "warn")]);
+    rows.push(["配当利回り",
+      fmtPct(a.div_yield).replace("+", ""),
+      a.div_yield == null ? null
+        : a.div_yield >= 0.06 ? J("6%超は要注意(株価下落の結果のことも。配当性向・自己資本比率と併読を)", "warn")
+        : a.div_yield >= 0.035 ? J("高配当(3.5%超)", "pos")
+        : a.div_yield >= 0.015 ? J("ふつう(1.5〜3.5%)", "dim")
+        : J("低め(成長投資型)", "dim")]);
+    rows.push(["ROE(稼ぐ力)",
+      fmtPct(a.roe).replace("+", ""),
+      a.roe == null ? null
+        : a.roe < 0 ? J("赤字(自己資本を減らしている)", "neg")
+        : a.roe < 0.08 ? J("低収益(8%未満)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "warn")
+        : a.roe <= 0.15 ? J("標準(8〜15%)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "dim")
+        : J("稼ぐ力が強い(15%超)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "pos")]);
+    rows.push(["営業利益率",
+      a.op_margin == null ? "--" : fmtPct(a.op_margin).replace("+", ""),
+      a.op_margin == null ? null
+        : a.op_margin < 0 ? J("本業が赤字", "neg")
+        : a.op_margin < 0.05 ? J("薄利(5%未満)。競争が厳しい可能性", "warn")
+        : a.op_margin <= 0.15 ? J("ふつう(5〜15%)", "dim")
+        : J("高収益体質(15%超)", "pos")]);
+    rows.push(["増収率(前年比)",
+      fmtPct(a.rev_growth),
+      a.rev_growth == null ? null
+        : a.rev_growth < 0 ? J("減収(売上が縮小)", "warn")
+        : a.rev_growth <= 0.10 ? J("横ばい〜微増", "dim")
+        : J("二桁成長(10%超)", "pos")]);
+    rows.push(["増益率(前年比)",
+      fmtPct(a.earn_growth),
+      a.earn_growth == null ? null
+        : a.earn_growth < 0 ? J("減益", "warn")
+        : a.earn_growth <= 0.15 ? J("ふつう", "dim")
+        : J("大幅増益(15%超)", "pos")]);
+    rows.push(["配当性向",
+      a.payout == null ? "--" : Math.round(a.payout * 100) + "%",
+      a.payout == null ? null
+        : a.payout > 1 ? J("利益以上に配当(タコ配。減配リスク大)", "neg")
+        : a.payout > 0.6 ? J("高め(60%超。減配余地に注意)", "warn")
+        : a.payout >= 0.3 ? J("健全(30〜60%)", "dim")
+        : J("余力あり(30%未満=成長投資優先)", "dim")]);
+    rows.push(["自己資本比率(概算)",
+      a.equity_ratio == null ? "--" : Math.round(a.equity_ratio * 100) + "%",
+      a.equity_ratio == null ? null
+        : a.equity_ratio > 0.5 ? J("財務堅固(50%超)", "pos")
+        : a.equity_ratio >= 0.2 ? J("ふつう(20〜50%)", "dim")
+        : J("借入依存が高め(金融・リース業は業態的に低くて正常)", "warn")]);
+    rows.push(["FCF利回り",
+      a.fcf_yield == null ? "--" : fmtPct(a.fcf_yield),
+      a.fcf_yield == null ? null
+        : a.fcf_yield < 0 ? J("現金流出(大型投資期の可能性も)", "warn")
+        : a.fcf_yield <= 0.06 ? J("ふつう(0〜6%)", "dim")
+        : J("現金創出力が高い(6%超)", "pos")]);
+    rows.push(["時価総額",
+      fmtMcap(a.mcap, a.currency),
+      a.mcap == null ? null
+        : (a.currency === "JPY" ? a.mcap >= 1e12 : a.mcap >= 1e10) ? J("大型(流動性が高く値付きが安定)", "dim")
+        : (a.currency === "JPY" ? a.mcap >= 3e11 : a.mcap >= 3e9) ? J("中型", "dim")
+        : J("小型(値動きが荒れやすい)", "warn")]);
+    rows.push((() => {
+      if (a.earnings_ts == null) return ["次回決算(目安)", "--", J("日程を取得できず(株探等で確認を)", "dim")];
+      const d = new Date(a.earnings_ts * 1000);
+      const days = Math.round((d.getTime() - Date.now()) / 86400000);
+      const md = `${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
+      if (days < -2) return ["直近決算(目安)", md, J("次回日程は未配信(株探等で確認を)", "dim")];
+      if (days <= 7) return ["次回決算(目安)", `${md}(あと${Math.max(days, 0)}日)`, J("決算接近: 直前の新規買いは急変注意", "warn")];
+      return ["次回決算(目安)", `${md}(あと${days}日)`, J("当面は決算イベントなし", "dim")];
+    })());
+  }
+
+  rows.push(["#", "テクニカル(値動き)"]);
+  rows.push(...[
+    ["相対強さRS(63日)",
+     a.rs63 == null ? "--" : `${fmtPct(a.rs63)} vs ${esc(bench)}`,
+     a.rs63 == null ? null
+       : a.rs63 > 0.02 ? J("買い材料: 市場平均より強い(基準+2%超)", "pos")
+       : a.rs63 < -0.02 ? J("警戒: 市場平均より弱い(基準-2%未満)", "neg")
+       : J("中立: 市場並み(±2%以内)", "dim")],
+    ["1年リターン", fmtPct(a.ret252),
+     a.ret252 == null ? null
+       : a.ret252 > 0.15 ? J("買い材料: 長期の上昇力あり(+15%超)", "pos")
+       : a.ret252 < -0.10 ? J("警戒: 長期で下落(-10%未満)", "neg")
+       : J("中立", "dim")],
+    ["12-1モメンタム", fmtPct(a.mom121),
+     a.mom121 == null ? null
+       : a.mom121 > 0.10 ? J("買い材料: 中期の勢いあり(+10%超)", "pos")
+       : a.mom121 < -0.10 ? J("警戒: 中期の勢いなし(-10%未満)", "neg")
+       : J("中立", "dim")],
+    ["52週高値から", fmtPct(a.off_high52),
+     a.off_high52 == null ? null
+       : a.off_high52 > -0.05 ? J("買い材料: 高値圏は強さの証拠(-5%以内)", "pos")
+       : a.off_high52 > -0.20 ? J("中立: 調整中(-5〜-20%)", "dim")
+       : J("警戒: 深押し。安易な逆張りは危険(-20%超)", "neg")],
+    ["52週レンジ位置",
+     a.range_pos52 == null ? "--" : Math.round(a.range_pos52 * 100) + "% (100=高値)",
+     a.range_pos52 == null ? null
+       : a.range_pos52 >= 0.7 ? J("買い材料: レンジ上方(70%以上)", "pos")
+       : a.range_pos52 <= 0.3 ? J("警戒: レンジ下方(30%以下)", "neg")
+       : J("中立", "dim")],
+    ["MA200乖離", fmtPct(a.ma200_gap),
+     a.ma200_gap == null ? null
+       : a.ma200_gap < 0 ? J("警戒: 長期線の下(下降局面のサイン)", "neg")
+       : a.ma200_gap <= 0.15 ? J("買い材料: 健全な上昇(0〜+15%)", "pos")
+       : J("注意: 伸びすぎ。押し目を待つ手も(+15%超)", "warn")],
+    ["Zスコア(20日)",
+     a.z20 == null ? "--" : (a.z20 >= 0 ? "+" : "") + a.z20.toFixed(2),
+     a.z20 == null ? null
+       : a.z20 > 2 ? J("待つ: 買われすぎ(+2超)。飛び乗り注意", "warn")
+       : a.z20 < -2 ? J("注意: 売られすぎ(-2未満)。逆張りは上級者向け", "warn")
+       : J("通常圏(±2以内)", "dim")],
+    ["RSI(14)", fmtNum(a.rsi14, 0),
+     a.rsi14 == null ? null
+       : a.rsi14 > 70 ? J("待つ: 買われすぎ(70超)", "warn")
+       : a.rsi14 < 30 ? J("注意: 売られすぎ(30未満)", "warn")
+       : J("通常圏(30〜70)", "dim")],
+    ["出来高(20日平均比)",
+     a.vol_ratio == null ? "--" : a.vol_ratio.toFixed(1) + "倍",
+     a.vol_ratio == null ? null
+       : a.vol_ratio >= 1.5 ? J("信頼度高: 商い活発(1.5倍以上)", "pos")
+       : a.vol_ratio < 0.7 ? J("注意: 閑散。動きの信頼度低(0.7倍未満)", "warn")
+       : J("ふつう", "dim")],
+    ["ATR(値動きの荒さ)", fmtPct(a.atr_pct) + "/日",
+     a.atr_pct == null ? null
+       : a.atr_pct > 0.04 ? J("警戒: 非常に荒い→投入額を絞る(4%超)", "neg")
+       : a.atr_pct > 0.02 ? J("注意: 荒め→量を控えめに(2〜4%)", "warn")
+       : J("おだやか(2%未満)", "dim")],
+    ["年率ボラティリティ", fmtPct(a.vol20),
+     a.vol20 == null ? null
+       : a.vol20 > 0.6 ? J("警戒: 高ボラ→投入額を絞る(60%超)", "neg")
+       : a.vol20 > 0.25 ? J("中程度(25〜60%)", "dim")
+       : J("低め: 値動き安定(25%未満)", "pos")],
+    ["シャープレシオ(1年・金利控除なし)", fmtNum(a.sharpe1y, 2),
+     a.sharpe1y == null ? null
+       : a.sharpe1y > 1 ? J("買い材料: リスクに見合う成績(1超)", "pos")
+       : a.sharpe1y < 0 ? J("警戒: リスクに見合っていない(0未満)", "neg")
+       : J("ふつう(0〜1)", "dim")],
+    ["最大ドローダウン(1年)", fmtPct(a.mdd1y),
+     a.mdd1y == null ? null
+       : a.mdd1y < -0.4 ? J("警戒: 1年内に大暴落の履歴(-40%超)", "neg")
+       : a.mdd1y < -0.2 ? J("注意: 深めの下落を経験(-20〜-40%)", "warn")
+       : J("比較的浅い(-20%以内)", "dim")],
+  ]);
+  return rows;
+}
+
+/* 選択銘柄の詳細調査用リンク集(情報源ガイドの無料ソースに直行) */
+function externalLinks(a) {
+  const links = [];
+  if (a.asset_class === "jp") {
+    const code = a.symbol.replace(".T", "");
+    links.push(
+      ["株探", `https://kabutan.jp/stock/?code=${code}`],
+      ["IR BANK", `https://irbank.net/${code}`],
+      ["Yahoo!ファイナンス", `https://finance.yahoo.co.jp/quote/${a.symbol}`],
+      ["バフェット・コード", `https://www.buffett-code.com/company/${code}/`],
+      ["みんかぶ", `https://minkabu.jp/stock/${code}`],
+      ["TradingView", `https://www.tradingview.com/chart/?symbol=${encodeURIComponent("TSE:" + code)}`]);
+  } else if (a.asset_class === "crypto") {
+    const base = a.symbol.split("-")[0];
+    links.push(
+      ["CoinGecko", `https://www.coingecko.com/ja/search?query=${encodeURIComponent(base)}`],
+      ["CoinPost検索", `https://coinpost.jp/?s=${encodeURIComponent(base)}`],
+      ["DefiLlama", "https://defillama.com/"],
+      ["TradingView", `https://www.tradingview.com/chart/?symbol=${encodeURIComponent("CRYPTO:" + base + "USD")}`]);
+  } else {
+    links.push(
+      ["Yahoo Finance", `https://finance.yahoo.com/quote/${encodeURIComponent(a.symbol)}`],
+      ["TradingView", `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(a.symbol)}`]);
+  }
+  return links;
+}
+
+/* 1年チャート(終値+MA50+MA200)をcanvasに描く */
+function drawChart(spark) {
+  const cv = document.getElementById("detail-chart");
+  if (!cv || !spark || !spark.close) return;
+  const dpr = window.devicePixelRatio || 1;
+  const w = cv.clientWidth || 400, h = cv.clientHeight || 150;
+  cv.width = w * dpr; cv.height = h * dpr;
+  const ctx = cv.getContext("2d");
+  ctx.scale(dpr, dpr);
+  const all = [...spark.close, ...spark.ma50, ...spark.ma200].filter(v => v != null);
+  if (!all.length) return;
+  const min = Math.min(...all), max = Math.max(...all);
+  const n = spark.close.length;
+  const px = i => 2 + i / (n - 1) * (w - 4);
+  const py = v => h - 14 - (v - min) / (max - min || 1) * (h - 26);
+  const line = (arr, color, width, dash) => {
+    ctx.strokeStyle = color; ctx.lineWidth = width; ctx.setLineDash(dash || []);
+    ctx.beginPath();
+    let started = false;
+    arr.forEach((v, i) => {
+      if (v == null) return;
+      if (!started) { ctx.moveTo(px(i), py(v)); started = true; }
+      else ctx.lineTo(px(i), py(v));
+    });
+    ctx.stroke(); ctx.setLineDash([]);
+  };
+  ctx.clearRect(0, 0, w, h);
+  line(spark.ma200, "#ffb86c", 1.2, [4, 3]);
+  line(spark.ma50, "#00a82d", 1.2);
+  line(spark.close, "#00ff41", 1.8);
+  ctx.fillStyle = "#7a8a7c";
+  ctx.font = "10px Menlo, monospace";
+  const fmtN = v => v >= 1000 ? Math.round(v).toLocaleString("en-US") : v.toPrecision(4);
+  ctx.fillText(fmtN(max), 4, 10);
+  ctx.fillText(fmtN(min), 4, h - 3);
+}
+
+function renderKelly() {
+  const el = document.getElementById("kelly");
+  const a = MARKET.assets.find(x => x.symbol === SELECTED);
+  if (!a) { el.className = "dim"; el.textContent = "銘柄を選択すると表示されます"; return; }
+  const k = a.kelly;
+  el.className = "";
+  const equity = PAPER ? PAPER.equity : null;
+  const parts = [];
+  let kellyAmt = null, onePctAmt = null;
+  const sec = t => `<div class="dim" style="border-top:1px solid var(--grid); margin-top:9px; padding-top:6px; font-size:10px; letter-spacing:1px">── ${t} ──</div>`;
+
+  parts.push(`<div class="dim" style="font-size:11px">ケリー基準 = 過去の勝率と勝ち負けの大きさから「賭けてよい上限」を計算する式</div>`);
+
+  // ① 過去の成績
+  parts.push(sec("① 過去の成績(トレンドフォロー・10年)"));
+  if (k.insufficient) {
+    parts.push(`<div class="dim" style="font-size:12px">売買チャンスが${k.trades}回のみで統計が取れず、ケリーは計算不可。③の1%ルールだけを目安に</div>`);
+  } else {
+    const wins = Math.round(k.win_rate * k.trades);
+    parts.push(`<div style="font-size:12px">${k.trades}回中 <b>${wins}回勝ち(勝率${(k.win_rate * 100).toFixed(0)}%)</b>・勝ちの平均は負けの<b>${k.payoff == null ? "∞" : k.payoff > 99 ? "99倍超" : k.payoff.toFixed(1) + "倍"}</b><span class="dim">(翌日終値で約定の想定)</span></div>`);
+  }
+
+  // ② 攻めの上限(ケリー)
+  if (!k.insufficient) {
+    const pct = k.position_pct * 100;
+    kellyAmt = equity ? equity * k.position_pct : null;
+    parts.push(sec("② 攻めの上限(ケリーの半分に減額)"));
+    parts.push(`
+      <div style="font-size:14px"><b class="pos" style="font-size:17px">${kellyAmt != null ? fmtJPY(kellyAmt) : "資金の" + pct.toFixed(1) + "%"}</b>
+        <span class="dim">(資金の${pct.toFixed(1)}%)</span></div>
+      <div class="kelly-bar" role="img" aria-label="推奨比率 ${pct.toFixed(1)}パーセント">
+        <div class="kelly-fill" style="width:${(pct / 25 * 100).toFixed(0)}%"></div>
+      </div>
+      <div class="kelly-scale"><span>0%</span><span>12.5%</span><span>25%(上限)</span></div>`);
+  }
+
+  // ③ 守りの上限(1%ルール)
+  if (a.atr_pct != null && a.price_jpy != null && equity) {
+    const stopJpy = a.price_jpy * (1 - 2 * a.atr_pct);
+    const riskPerUnit = a.price_jpy * 2 * a.atr_pct;
+    const riskBudget = equity * 0.01;
+    onePctAmt = Math.min((riskBudget / riskPerUnit) * a.price_jpy, equity);
+    parts.push(sec("③ 守りの上限(1%ルール・2×ATR損切り前提)"));
+    parts.push(`
+      <div style="font-size:14px"><b style="font-size:17px">${fmtJPY(onePctAmt)}</b>
+        <span class="dim">(損切りしても失うのは資金の1%=${fmtJPY(riskBudget)})</span></div>
+      <div class="dim" style="font-size:12px">前提の損切りライン: <span class="neg">${fmtJPY(stopJpy)}</span>(現値−${(2 * a.atr_pct * 100).toFixed(1)}%)。※これから新規で買う場合の目安(現値基準)。保有分のラインは下の保有一覧(取得時基準)を参照</div>`);
+  } else if (a.price_jpy == null) {
+    parts.push(`<div class="dim" style="margin-top:6px">この銘柄は円換算不可のため金額計算は非対応です</div>`);
+  }
+
+  // ④ 結論(小さい方)。株式は「何株買えるか」を主役に
+  const final = kellyAmt != null && onePctAmt != null ? Math.min(kellyAmt, onePctAmt)
+    : (kellyAmt ?? onePctAmt);
+  if (final != null) {
+    const waiting = a.signal.label === "LONG" && entryState(a).k === "WAIT";
+    let main = "", subLine = "";
+    if (a.asset_class === "jp" && a.price_jpy) {
+      const unitCost = a.price_jpy * 100;
+      const units = Math.floor(final / unitCost);
+      if (units >= 1) {
+        main = `買うなら <b class="pos" style="font-size:19px">${units}単元(${units * 100}株)</b> まで`;
+        subLine = `使う資金 ${fmtJPY(units * unitCost)}(1単元=${fmtJPY(unitCost)}) / 金額上限 ${fmtJPY(final)}`;
+      } else {
+        const oddLot = Math.floor(final / a.price_jpy);
+        main = `<b class="warn" style="font-size:15px">単元(100株)では買えません</b>`;
+        subLine = `1単元=${fmtJPY(unitCost)}が金額上限${fmtJPY(final)}を超過。単元未満株サービス(S株・ミニ株等。証券会社により名称と手数料が異なる)なら <b>${oddLot}株</b>(≒${fmtJPY(oddLot * a.price_jpy)})まで`;
+      }
+    } else if (a.asset_class !== "crypto" && a.price_jpy) {
+      const shares = Math.floor(final / a.price_jpy);
+      main = `買うなら <b class="pos" style="font-size:19px">${shares}株</b> まで`;
+      subLine = `使う資金 ${fmtJPY(shares * a.price_jpy)} / 金額上限 ${fmtJPY(final)}`;
+    } else {
+      main = `買うなら <b class="pos" style="font-size:19px">${fmtJPY(final)}</b> まで`;
+      subLine = "暗号資産は端数で買えるため金額そのまま";
+    }
+    parts.push(sec(`④ 結論(②と③の小さい方)${STATIC_MODE ? "・仮想資金100万円と仮定" : ""}`));
+    parts.push(`
+      <div style="border:1px solid var(--green); padding:7px 10px; font-size:14px; margin-top:4px">
+        ${main}
+        <div class="dim" style="font-size:11px; margin-top:2px">${subLine}</div>
+        ${waiting ? '<div class="warn" style="font-size:12px; margin-top:3px">ただし今は押し目待ち。この量は「下がって来たときの予算」として</div>' : ""}
+      </div>
+      <div class="dim" style="font-size:11px; margin-top:4px">買う前に損切りラインを決めること。上限いっぱいまで使う必要はありません</div>`);
+  }
+  el.innerHTML = parts.join("");
+}
+
+function renderPaper() {
+  if (!PAPER) return;
+  const s = document.getElementById("paper-summary");
+  const pnlCls = cls(PAPER.total_pnl);
+  s.innerHTML = `
+    <div><div class="label">現金</div><div class="num">${fmtJPY(PAPER.cash)}</div></div>
+    <div><div class="label">総資産(評価)</div><div class="num">${fmtJPY(PAPER.equity)}</div></div>
+    <div><div class="label">損益</div><div class="num ${pnlCls}">${(PAPER.total_pnl >= 0 ? "+" : "") + fmtJPY(PAPER.total_pnl)}</div></div>`;
+  const sel = document.getElementById("trade-symbol");
+  const cur = sel.value;
+  sel.innerHTML = MARKET.assets.map(a => `<option value="${esc(a.symbol)}">${esc(a.symbol)} ${esc(a.name)}</option>`).join("");
+  if (cur) sel.value = cur;
+  updateTradeForm();
+  document.getElementById("positions").innerHTML = PAPER.positions.length
+    ? PAPER.positions.map(p => {
+      const asset = MARKET && MARKET.assets.find(x => x.symbol === p.symbol);
+      const ac = asset ? asset.asset_class : null;
+      let qtyText;
+      if (ac === "crypto" || ac == null) qtyText = fmtQty(p.qty);
+      else if (Math.abs(p.qty - Math.round(p.qty)) > 1e-6) qtyText = `${fmtQty(p.qty)}株<span class="dim" style="font-size:10px">(旧形式の端数)</span>`;
+      else {
+        const n = Math.round(p.qty);
+        qtyText = `${n.toLocaleString("ja-JP")}株${ac === "jp" && n % 100 === 0 ? `<span class="dim">(${n / 100}単元)</span>` : ""}`;
+      }
+      const lb = asset ? asset.signal.label : null;
+      const sigHtml = lb == null ? "" : `<div><span class="badge ${esc(lb)}" style="font-size:10px; min-width:0; padding:0 4px">${esc(lb)}</span>${lb !== "LONG" ? `<span class="${lb === "AVOID" ? "neg" : "warn"}" style="font-size:10px"> 売却検討</span>` : ""}</div>`;
+      return `
+      <tr>
+        <td>${esc(p.symbol)}${sigHtml}</td>
+        <td>${qtyText}<br><span class="dim">@${fmtJPY(p.avg_cost_jpy)}</span></td>
+        <td>${fmtJPY(p.value_jpy)}<br><span class="${cls(p.pnl_jpy)}">${p.pnl_jpy == null ? "--" : (p.pnl_jpy >= 0 ? "+" : "") + fmtJPY(p.pnl_jpy) + " (" + fmtPct(p.pnl_pct) + ")"}</span></td>
+        <td>${p.stop_jpy == null ? '<span class="dim">--</span>'
+          : p.stop_breached ? `<span class="neg">${fmtJPY(p.stop_jpy)} 割れ!</span>`
+          : fmtJPY(p.stop_jpy) + (p.stop_estimated ? '<span class="dim" style="font-size:10px">(推定・現在のボラ基準で日々変動)</span>' : "")}</td>
+        <td><button class="btn sell" onclick="sellAll('${esc(p.symbol)}', ${p.qty})">SELL</button></td>
+      </tr>`;
+    }).join("")
+    : '<tr><td colspan="5" class="dim">保有ポジションなし</td></tr>';
+  const breached = PAPER.positions.filter(p => p.stop_breached);
+  document.getElementById("stop-alert").innerHTML = breached.length
+    ? `<div class="neg" style="font-size:12px; margin-top:6px">⚠ ${breached.map(p => esc(p.symbol)).join("・")} が損切りラインを割っています。ルール上は売り(守れたかも検証の一部です)</div>`
+    : "";
+  renderBreakdown();
+}
+
+/* 保有の内訳と集中度チェック(相関だけでは見えない「偏り」を監視する) */
+function renderBreakdown() {
+  const el = document.getElementById("paper-breakdown");
+  if (!el || !PAPER) return;
+  if (!PAPER.positions.length) { el.innerHTML = ""; return; }
+  const eq = PAPER.equity || 1;
+  const pct = v => Math.round(v / eq * 100);
+  const byClass = {}, bySector = {};
+  let maxPos = null;
+  PAPER.positions.forEach(p => {
+    const a = MARKET && MARKET.assets.find(x => x.symbol === p.symbol);
+    const v = p.value_jpy || 0;
+    const cl = a ? CLASS_LABEL[a.asset_class] : "その他";
+    byClass[cl] = (byClass[cl] || 0) + v;
+    const s = a ? (a.asset_class === "crypto" ? "暗号資産" : (sectorLabel(a) || "業種不明")) : "不明";
+    bySector[s] = (bySector[s] || 0) + v;
+    if (!maxPos || v > maxPos.v) maxPos = { s: p.symbol, v };
+  });
+  const chips = [`現金${pct(PAPER.cash)}%`];
+  Object.entries(byClass).forEach(([k2, v]) => chips.push(`${k2}${pct(v)}%`));
+  const warns = [];
+  if (maxPos && maxPos.v / eq > 0.3) warns.push(`⚠ 1銘柄集中: ${maxPos.s}が資産の${pct(maxPos.v)}%(目安30%超)`);
+  Object.entries(bySector).forEach(([k2, v]) => {
+    if (v / eq > 0.5) warns.push(`⚠ 集中: ${k2}が資産の${pct(v)}%(50%超)`);
+  });
+  const secList = Object.entries(bySector).sort((x, y) => y[1] - x[1]).slice(0, 3)
+    .map(([k2, v]) => `${k2}${pct(v)}%`).join(" / ");
+  el.innerHTML = `内訳: ${chips.map(esc).join(" / ")}<br>業種の偏り: ${esc(secList)}${maxPos ? ` / 最大銘柄 ${esc(maxPos.s)} ${pct(maxPos.v)}%` : ""}`
+    + (warns.length ? `<div class="warn">${warns.map(esc).join("<br>")}</div>` : "");
+}
+
+function renderCorr() {
+  const c = MARKET.correlation;
+  const el = document.getElementById("corr-content");
+  const i = SELECTED ? c.symbols.indexOf(SELECTED) : -1;
+  if (i < 0) {
+    el.className = "dim";
+    el.textContent = "銘柄を選択すると、相性の良い/悪い組み合わせを表示します";
+    return;
+  }
+  const nameOf = s => { const a = MARKET.assets.find(x => x.symbol === s); return a ? a.name : s; };
+  const pairs = c.symbols
+    .map((s, j) => ({ s, v: c.matrix[i][j] }))
+    .filter(p => p.s !== SELECTED && p.v != null)
+    .sort((a, b) => a.v - b.v);
+  const row = p => `
+    <div class="corr-row">
+      <span class="sym">${esc(p.s)} <span class="name-jp">${esc(nameOf(p.s))}</span></span>
+      <span class="corr-bar-wrap"><span class="corr-bar" style="display:block;width:${Math.round(Math.max(0, Math.min(1, (p.v + 0.2) / 1.2)) * 100)}%"></span></span>
+      <span class="corr-val">${p.v.toFixed(2)}</span>
+    </div>`;
+  el.className = "";
+  el.innerHTML = `
+    <div class="dim" style="font-size:11px; margin-bottom:2px">▼ ${esc(SELECTED)} と相関が低い(分散に良い)Top5</div>
+    ${pairs.slice(0, 5).map(row).join("")}
+    <div class="dim" style="font-size:11px; margin:6px 0 2px">▲ 相関が高い(同じ方向に動きやすい)Top5</div>
+    ${pairs.slice(-5).reverse().map(row).join("")}`;
+}
+
+/* ===== 売買 ===== */
+function tradeAsset() {
+  return MARKET && MARKET.assets.find(a => a.symbol === document.getElementById("trade-symbol").value);
+}
+
+/* 銘柄の種類に応じて入力欄を切り替える(日本株=単元数、米国株=株数、暗号資産=金額) */
+function updateTradeForm() {
+  const a = tradeAsset();
+  if (!a) return;
+  const label = document.getElementById("trade-input-label");
+  const input = document.getElementById("trade-amount");
+  const cost = document.getElementById("trade-cost");
+  const modeChanged = input.dataset.mode !== a.asset_class;
+  if (a.asset_class === "crypto") {
+    if (modeChanged) { input.value = 100000; input.min = 1; input.step = 10000; }
+    label.textContent = "金額(円)";
+    cost.textContent = "";
+  } else if (a.asset_class === "jp") {
+    if (modeChanged) { input.value = 1; input.min = 1; input.step = 1; }
+    label.textContent = "単元数(1単元=100株)";
+    const units = Math.max(1, Math.floor(Number(input.value) || 1));
+    cost.textContent = a.price_jpy ? `= ${units * 100}株 ${fmtJPY(units * 100 * a.price_jpy)}` : "";
+  } else {
+    if (modeChanged) { input.value = 1; input.min = 1; input.step = 1; }
+    label.textContent = "株数";
+    const n = Math.max(1, Math.floor(Number(input.value) || 1));
+    cost.textContent = a.price_jpy ? `= ${fmtJPY(n * a.price_jpy)}` : "";
+  }
+  input.dataset.mode = a.asset_class;
+}
+
+function showMsg(kind, text) {
+  const m = document.getElementById("trade-msg");
+  m.className = kind;
+  m.textContent = text;
+}
+async function trade(side, symbol, qty) {
+  if (!SERVED) { showMsg("err", NOT_SERVED_MSG); return; }
+  const body = { side, symbol: symbol || document.getElementById("trade-symbol").value };
+  if (side === "buy") {
+    const a = tradeAsset();
+    const v = Number(document.getElementById("trade-amount").value);
+    if (!Number.isFinite(v) || v <= 0) { showMsg("err", "数値を入力してください"); return; }
+    if (a && a.asset_class === "jp") body.qty = Math.floor(v) * 100;       // 単元数→株数
+    else if (a && a.asset_class !== "crypto") body.qty = Math.floor(v);    // 株数
+    else body.jpy_amount = v;                                              // 金額(円)
+  } else body.qty = qty;
+  try {
+    const res = await fetch("/api/trade", {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+      const d = data.detail;
+      throw new Error(typeof d === "string" ? d : "売買に失敗しました(入力内容を確認してください)");
+    }
+    PAPER = data;
+    showMsg("ok", `約定: ${body.symbol} を${side === "buy" ? "買いました" : "売りました"}(仮想)`);
+    renderPaper(); renderKelly(); renderSigChanges();
+  } catch (e) {
+    showMsg("err", e.message);
+  }
+}
+function sellAll(symbol, qty) { trade("sell", symbol, qty); }
+
+/* ===== ウォッチリスト管理 ===== */
+function showBoardMsg(kind, text) {
+  const m = document.getElementById("board-msg");
+  m.className = kind;
+  m.textContent = text;
+}
+async function postWatchlist(path, body) {
+  const res = await fetch(path, {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+  });
+  const data = await res.json();
+  if (!res.ok) {
+    const d = data.detail;
+    throw new Error(typeof d === "string" ? d : "操作に失敗しました");
+  }
+  return data;
+}
+async function addSymbol(ev) {
+  ev.preventDefault();
+  if (!SERVED) { showBoardMsg("err", NOT_SERVED_MSG); return; }
+  const btn = document.getElementById("add-btn");
+  const symbol = document.getElementById("add-symbol").value.trim();
+  const name = document.getElementById("add-name").value.trim();
+  btn.disabled = true;
+  showBoardMsg("ok", `${symbol} を確認してデータ取得中(10秒ほど)...`);
+  try {
+    MARKET = await postWatchlist("/api/watchlist/add", { symbol, name: name || null });
+    document.getElementById("add-symbol").value = "";
+    document.getElementById("add-name").value = "";
+    renderAll();
+    showBoardMsg("ok", `${symbol.toUpperCase()} を監視リストに追加しました`);
+  } catch (e) {
+    showBoardMsg("err", e.message);
+  } finally {
+    btn.disabled = false;
+  }
+}
+async function removeSymbol(symbol) {
+  if (!SERVED) { showBoardMsg("err", NOT_SERVED_MSG); return; }
+  if (!confirm(`${symbol} を監視リストから外しますか？`)) return;
+  showBoardMsg("ok", `${symbol} を削除して再計算中...`);
+  try {
+    MARKET = await postWatchlist("/api/watchlist/remove", { symbol });
+    if (SELECTED === symbol) SELECTED = null;
+    renderAll();
+    showBoardMsg("ok", `${symbol} を監視リストから外しました`);
+  } catch (e) {
+    showBoardMsg("err", e.message);
+  }
+}
+
+/* ===== アプリ終了 ===== */
+async function shutdownApp() {
+  if (!SERVED) { showMsg("err", NOT_SERVED_MSG); return; }
+  if (!confirm("MATRIX QUANT TERMINAL を終了しますか？(仮想売買の記録は保存されています)")) return;
+  try { await fetch("/api/shutdown", { method: "POST" }); } catch (e) { /* 終了により切断されるのは正常 */ }
+  document.body.innerHTML = `
+    <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;
+                background:#050805;color:#00ff41;font-family:'SF Mono',Menlo,monospace;text-align:center">
+      <div>
+        <div style="font-size:18px;letter-spacing:3px">SYSTEM OFFLINE</div>
+        <div style="color:#00a82d;margin-top:10px">サーバーを終了しました。このタブは閉じてください。<br>
+        再開するときはアプリのアイコンをダブルクリック。</div>
+      </div>
+    </div>`;
+}
+
+/* ===== Matrixレイン ===== */
+function startRain() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const cv = document.getElementById("rain"), ctx = cv.getContext("2d");
+  const CHARS = "アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789$¥%+-";
+  let cols, drops;
+  const size = 16;
+  function resize() {
+    cv.width = innerWidth; cv.height = innerHeight;
+    cols = Math.floor(cv.width / size);
+    drops = Array.from({ length: cols }, () => Math.floor(Math.random() * -50));
+  }
+  resize();
+  addEventListener("resize", resize);
+  setInterval(() => {
+    ctx.fillStyle = "rgba(5, 8, 5, 0.10)";
+    ctx.fillRect(0, 0, cv.width, cv.height);
+    ctx.font = size + "px monospace";
+    for (let i = 0; i < cols; i++) {
+      const ch = CHARS[Math.floor(Math.random() * CHARS.length)];
+      ctx.fillStyle = Math.random() < 0.08 ? "#9dffb0" : "#00a82d";
+      ctx.fillText(ch, i * size, drops[i] * size);
+      if (drops[i] * size > cv.height && Math.random() > 0.975) drops[i] = 0;
+      drops[i]++;
+    }
+  }, 55);
+}
+
+/* ===== ブート演出 ===== */
+async function bootSequence(lines) {
+  const log = document.getElementById("boot-log");
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  for (const line of lines) {
+    const fixed = log.textContent;  // ここまでの確定分
+    // 非表示タブではタイマーが制限され演出が凍結するため、即時表示に切り替える
+    if (!reduced && !document.hidden) {
+      for (let i = 1; i <= line.length; i++) {
+        if (document.hidden) break;
+        log.textContent = fixed + line.slice(0, i);
+        await sleep(8);
+      }
+    }
+    log.textContent = fixed + line + "\n";
+    if (!reduced && !document.hidden) await sleep(120);
+  }
+}
+
+/* ===== 起動 ===== */
+(async function init() {
+  document.getElementById("app-version").textContent = APP_VERSION;
+  if (STATIC_MODE) {
+    document.body.classList.add("static-mode");
+    document.getElementById("static-note").style.display = "";
+  }
+  startRain();
+  if (!SERVED) {
+    // HTMLファイルを直接開いている(サーバー未接続)場合の案内
+    await bootSequence([
+      `> MATRIX QUANT TERMINAL ${APP_VERSION}`,
+      "> ERROR: サーバーに接続されていません",
+      "",
+      "> このファイルを直接開いても動きません。",
+      "> 1. matrix-quant フォルダの start.command をダブルクリック",
+      "> 2. 自動で開くブラウザ画面 (http://127.0.0.1:8801) を使う",
+      "",
+      "> ※すでに起動済みなら上のURLをブラウザで開くだけでOKです",
+    ]);
+    showMsg("err", NOT_SERVED_MSG);
+    return; // ブート画面を出したまま操作させない
+  }
+  const boot = bootSequence([
+    `> MATRIX QUANT TERMINAL ${APP_VERSION}`,
+    "> INITIALIZING QUANT ENGINE ............ OK",
+    "> LOADING: momentum / mean-reversion / kelly / MPT ... OK",
+    "> CONNECTING MARKET DATA FEED .......... ",
+  ]);
+  try {
+    await Promise.all([loadMarket(), loadPaper(), loadPulse(), boot]);
+    await bootSequence(["> DATA LINK ESTABLISHED ................ OK", "> SYSTEM ONLINE"]);
+    renderAll();
+  } catch (e) {
+    await bootSequence(["> ERROR: " + e.message, "> [REFRESH]ボタンで再試行してください"]);
+  }
+  setTimeout(() => document.getElementById("boot").classList.add("done"), 600);
+})();
+</script>
+</body>
+</html>
