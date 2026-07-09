@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-09 12:38:06",
+ "updated_at": "2026-07-09 12:47:08",
  "fng": {
   "value": 22,
   "label": "極度の恐怖",
@@ -37,10 +37,10 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 55.91741519737656,
-  "eth_dominance": 9.398062448455617,
-  "total_mcap_usd": 2223231983329.7607,
-  "mcap_change_24h": -0.9634360689415687
+  "btc_dominance": 55.88589544784332,
+  "eth_dominance": 9.392703460524459,
+  "total_mcap_usd": 2221339520513.221,
+  "mcap_change_24h": -1.0477381193450583
  },
  "defi": {
   "tvl_usd": 72484204693.0,
