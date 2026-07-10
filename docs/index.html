@@ -381,9 +381,9 @@
       </section>
 
       <section class="panel">
-        <h2>INDEX REGIME <span class="jp">/ 相場レジーム(月末確定・翌営業日始値執行で検証)</span></h2>
+        <h2>INDEX REGIME <span class="jp">/ 相場全体の地合い(月1回更新)</span></h2>
         <div id="regime-content" class="dim">読込中...</div>
-        <div class="dim" style="font-size:11px; margin-top:4px">見方: 弱気レジーム中は新規買いを絞り、ドローダウン回避を優先。月1回しか変わらない「遅い」基準なので日々の値動きに振らされない</div>
+        <div class="dim" style="font-size:11px; margin-top:4px">見方: 「弱気」の間は新しく買う量を減らすのが基本の使い方。判定は月1回しか変わらないゆっくりした物差しなので、日々の上げ下げには反応しません</div>
       </section>
 
     </div>
@@ -394,7 +394,7 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.3";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.4";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -1533,29 +1533,29 @@ function renderRegime() {
   const pct = v => v == null ? "--" : (v * 100).toFixed(1) + "%";
   el.innerHTML = list.map(r => {
     const s1 = r.sig_sma, s2 = r.sig_mom;
-    const overall = s1 && s2 ? { t: "強気(2シグナル一致)", c: "pos" }
-      : !s1 && !s2 ? { t: "弱気(2シグナル一致)", c: "neg" }
-      : { t: "中立(シグナル不一致)", c: "warn" };
+    const overall = s1 && s2 ? { t: "強気(2つの物差しが両方OK)", c: "pos" }
+      : !s1 && !s2 ? { t: "弱気(2つとも下向き)", c: "neg" }
+      : { t: "中立(判断が割れている)", c: "warn" };
     const m = r.backtest && r.backtest.filtered;
     const h = r.backtest && r.backtest.buyhold;
     const row = (label, f, b) => `<tr><td>${label}</td><td>${f}</td><td>${b}</td></tr>`;
     return `
       <div style="margin-bottom:12px">
         <div><b>${esc(r.name)}</b> ${tag(overall)}
-          <span class="dim" style="font-size:11px">(${esc(r.as_of)} 月末確定)</span></div>
+          <span class="dim" style="font-size:11px">(${esc(r.as_of.slice(0, 7))}月末の判定)</span></div>
         ${r.source_note ? `<div class="dim" style="font-size:10px">${esc(r.source_note)}</div>` : ""}
         <div style="font-size:12px; padding:2px 0 4px">
-          ・SMA200判定: <span class="${s1 ? "pos" : "neg"}">${s1 ? "強気(終値が200日線の上)" : "弱気(200日線の下)"}</span><br>
-          ・12-1モメンタム: <span class="${s2 ? "pos" : "neg"}">${s2 ? "強気" : "弱気"}(${fmtPct(r.mom121)})</span>
+          ・長期の流れ(200日平均線): <span class="${s1 ? "pos" : "neg"}">${s1 ? "線より上=上昇基調" : "線より下=下降基調"}</span><br>
+          ・この1年の勢い: <span class="${s2 ? "pos" : "neg"}">${s2 ? "プラス" : "マイナス"}(${fmtPct(r.mom121)})</span>
         </div>
         ${m && h ? `
         <table class="metric-table">
-          <thead><tr><th style="text-align:left">過去10年の検証</th><th>SMA200ﾌｨﾙﾀｰ</th><th>ﾊﾞｲ&ﾎｰﾙﾄﾞ</th></tr></thead>
+          <thead><tr><th style="text-align:left">過去10年で試すと</th><th>弱気の間は<br>休む作戦</th><th>ずっと<br>持ちっぱなし</th></tr></thead>
           <tbody>
-            ${row("CAGR(年率成長)", pct(m.cagr), pct(h.cagr))}
-            ${row("最大ドローダウン", `<span class="${(m.max_dd ?? -1) > (h.max_dd ?? -1) ? "pos" : ""}">${pct(m.max_dd)}</span>`, pct(h.max_dd))}
-            ${row("シャープレシオ", m.sharpe != null ? m.sharpe.toFixed(2) : "--", h.sharpe != null ? h.sharpe.toFixed(2) : "--")}
-            ${row("勝率 / 損益比", m.win_rate != null ? `${Math.round(m.win_rate * 100)}% / ${m.payoff != null ? m.payoff.toFixed(1) : "--"} (${m.trades}回)` : "--", "—")}
+            ${row("1年あたりの増え方", pct(m.cagr), pct(h.cagr))}
+            ${row("いちばん深い下落", `<span class="${(m.max_dd ?? -1) > (h.max_dd ?? -1) ? "pos" : ""}">${pct(m.max_dd)}</span>`, pct(h.max_dd))}
+            ${row("リスク効率(高いほど良)", m.sharpe != null ? m.sharpe.toFixed(2) : "--", h.sharpe != null ? h.sharpe.toFixed(2) : "--")}
+            ${row("勝率 / 勝ちの大きさ", m.win_rate != null ? `${Math.round(m.win_rate * 100)}% / 負けの${m.payoff != null ? m.payoff.toFixed(1) : "--"}倍 (${m.trades}回)` : "--", "—")}
           </tbody>
         </table>` : ""}
       </div>`;
@@ -1580,7 +1580,7 @@ function renderRegimeCompare() {
   const diffList = d.diffs.map(x => `${esc(x.month)}(日経=${esc(x.a)}/TOPIX=${esc(x.b)})`).join("、 ");
   return `
     <details class="siggroup">
-      <summary>検証記録: 3指数比較と日経×TOPIXの判定不一致(切替判断の根拠)</summary>
+      <summary>検証メモ: 3指数の成績くらべと、日経とTOPIXで判定が割れた月(TOPIXを選んだ理由)</summary>
       <div style="padding:6px 10px 10px">
         <table class="metric-table">
           <thead><tr><th style="text-align:left">指数</th><th>CAGR<br>ﾌｨﾙﾀｰ/BH</th><th>最大DD<br>ﾌｨﾙﾀｰ/BH</th><th>Sharpe<br>ﾌｨﾙﾀｰ/BH</th><th>勝率/損益比</th></tr></thead>
