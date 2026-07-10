@@ -394,7 +394,7 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.4";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.5";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -1472,7 +1472,7 @@ function renderPaper() {
       const sigHtml = lb == null ? "" : `<div><span class="badge ${esc(lb)}" style="font-size:10px; min-width:0; padding:0 4px">${esc(lb)}</span>${lb !== "LONG" ? `<span class="${lb === "AVOID" ? "neg" : "warn"}" style="font-size:10px"> 売却検討</span>` : ""}</div>`;
       return `
       <tr>
-        <td>${esc(p.symbol)}${sigHtml}</td>
+        <td>${esc(p.symbol)} <span class="name-jp">${esc(asset ? asset.name : "")}</span>${sigHtml}</td>
         <td>${qtyText}<br><span class="dim">@${fmtJPY(p.avg_cost_jpy)}</span></td>
         <td>${fmtJPY(p.value_jpy)}<br><span class="${cls(p.pnl_jpy)}">${p.pnl_jpy == null ? "--" : (p.pnl_jpy >= 0 ? "+" : "") + fmtJPY(p.pnl_jpy) + " (" + fmtPct(p.pnl_pct) + ")"}</span></td>
         <td>${p.stop_jpy == null ? '<span class="dim">--</span>'
