@@ -394,7 +394,7 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.5";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.6";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -975,10 +975,44 @@ function renderDetail() {
   if (!a) { el.className = "dim"; el.textContent = "SIGNAL BOARD の銘柄をクリックしてください"; return; }
   el.className = "";
   const SIG_MEANING = { LONG: "買い候補(複数の好条件が合致)", NEUTRAL: "待ち(条件がまだ揃っていない)", AVOID: "避ける(悪条件が優勢)" };
-  const metricRows = judgeMetrics(a).map(([label, val, j]) => label === "#"
-    ? `<tr><td colspan="3" class="dim" style="padding-top:9px; font-size:10px; letter-spacing:1px; border-bottom:none">── ${esc(val)} ──</td></tr>`
-    : `<tr><td>${label}</td><td>${val}</td>
-        <td class="${j ? j.c : "dim"}">${j ? esc(j.t) : "--"}</td></tr>`).join("");
+
+  // セクションごとの判定を機械集計して「総評」を作る(個別判定と同じソースから)
+  const allRows = judgeMetrics(a);
+  const counts = [];
+  let cur = null;
+  allRows.forEach(r => {
+    if (r[0] === "#") { cur = { pos: 0, dim: 0, warn: 0, neg: 0 }; counts.push(cur); }
+    else if (cur && r[2]) cur[r[2].c] = (cur[r[2].c] || 0) + 1;
+  });
+  const fundVerdict = c => {
+    const s = c.pos - c.neg - 0.5 * c.warn;
+    return s >= 2.5 ? { t: "良好: 買い材料が優勢", c: "pos" }
+      : s > -0.5 ? { t: "中立: 強弱まちまち", c: "dim" }
+      : s > -2.5 ? { t: "注意: 弱い材料がやや多い", c: "warn" }
+      : { t: "弱い: 警戒材料が優勢", c: "neg" };
+  };
+  const techVerdict = () => {
+    if (a.signal.label === "AVOID") return { t: "弱い: シグナルは「避ける」判定", c: "neg" };
+    if (a.signal.label === "NEUTRAL") return { t: "様子見: 条件がまだ揃わない", c: "dim" };
+    const es = entryState(a);
+    return es.k === "WAIT" ? { t: "強いが短期過熱: 押し目待ち", c: "warn" }
+      : es.k === "DIP" ? { t: "強い+押し目圏: エントリー好機になりやすい", c: "pos" }
+      : { t: "強い(過熱なし): 分割で入るなら可", c: "pos" };
+  };
+  let secIdx = -1;
+  const metricRows = allRows.map(([label, val, j]) => {
+    if (label === "#") {
+      secIdx++;
+      const isFund = val.startsWith("ファンダ");
+      const v = isFund ? fundVerdict(counts[secIdx]) : techVerdict();
+      const c = counts[secIdx];
+      return `<tr><td colspan="3" class="dim" style="padding-top:9px; font-size:10px; letter-spacing:1px; border-bottom:none">── ${esc(val)} ──</td></tr>
+        <tr><td><b>▶ 総評</b></td><td colspan="2"><b class="${v.c}">${esc(v.t)}</b>
+          <span class="dim" style="font-size:10px">(買い材料${c.pos}・中立${c.dim}・注意${c.warn}・警戒${c.neg})</span></td></tr>`;
+    }
+    return `<tr><td>${label}</td><td>${val}</td>
+        <td class="${j ? j.c : "dim"}">${j ? esc(j.t) : "--"}</td></tr>`;
+  }).join("");
   el.innerHTML = `
     <div style="margin-bottom:4px"><b>${esc(a.symbol)}</b> <span class="name-jp">${esc(a.name)}</span>${sectorLabel(a) ? `<span class="tag dim">${esc(sectorLabel(a))}</span>` : ""}
       <span class="badge ${esc(a.signal.label)}" style="float:right">${esc(a.signal.label)}</span></div>
@@ -1531,7 +1565,22 @@ function renderRegime() {
   }
   el.className = "";
   const pct = v => v == null ? "--" : (v * 100).toFixed(1) + "%";
-  el.innerHTML = list.map(r => {
+
+  // 総評: 対象指数の判定をまとめてひとこと化
+  const stance = r => (r.sig_sma && r.sig_mom) ? "強気" : (!r.sig_sma && !r.sig_mom) ? "弱気" : "中立";
+  const bulls = list.filter(r => stance(r) === "強気").length;
+  const bears = list.filter(r => stance(r) === "弱気").length;
+  const rv = bulls === list.length ? { t: "追い風", c: "pos", note: "対象の指数がすべて強気。押し目は買い場になりやすい地合い" }
+    : bears === list.length ? { t: "向かい風", c: "neg", note: "すべて弱気。新規買いは最小限に、守り優先" }
+    : bears > 0 ? { t: "強弱が混在", c: "warn", note: "指数によって判定が割れている。買う量は控えめに" }
+    : { t: "やや追い風", c: "warn", note: "一部が中立。強気一辺倒ではないので慎重に" };
+  const summary = `
+    <div style="margin-bottom:10px; padding:6px 10px; border:1px solid var(--green-dim)">
+      <b>▶ 総評</b> ${tag(rv)} <span style="font-size:12px">${list.map(r => `${esc(r.name)}=${stance(r)}`).join(" / ")}</span>
+      <div class="dim" style="font-size:11px">${esc(rv.note)}</div>
+    </div>`;
+
+  el.innerHTML = summary + list.map(r => {
     const s1 = r.sig_sma, s2 = r.sig_mom;
     const overall = s1 && s2 ? { t: "強気(2つの物差しが両方OK)", c: "pos" }
       : !s1 && !s2 ? { t: "弱気(2つとも下向き)", c: "neg" }
