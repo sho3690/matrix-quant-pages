@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-10 18:24:57",
+ "updated_at": "2026-07-10 18:56:21",
  "fng": {
   "value": 23,
   "label": "極度の恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.3892360749664,
-  "eth_dominance": 9.424570668186588,
-  "total_mcap_usd": 2282252548779.696,
-  "mcap_change_24h": 1.5214071355788128
+  "btc_dominance": 56.41070093125826,
+  "eth_dominance": 9.444815243662106,
+  "total_mcap_usd": 2289981862559.5854,
+  "mcap_change_24h": 1.8652300887161946
  },
  "defi": {
-  "tvl_usd": 73394070658.0,
-  "change_1d": 0.01208678227725235,
-  "change_7d": 0.01021658486443977,
-  "change_1y": -0.3781487120349667,
-  "range_pos_1y": 0.04077553847033486
+  "tvl_usd": 73418674789.0,
+  "change_1d": 0.012426123586709803,
+  "change_7d": 0.010555242541262277,
+  "change_1y": -0.37794024682225347,
+  "range_pos_1y": 0.04101729098106783
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "コメ 1年半ぶり5kg3500円下回る",
+   "link": "https://news.yahoo.co.jp/pickup/6587456?source=rss",
+   "published": "07/10 18:55",
+   "ts": 1783677353.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "サンマ1匹21万6000円 客は驚き",
+   "link": "https://news.yahoo.co.jp/pickup/6587455?source=rss",
+   "published": "07/10 18:40",
+   "ts": 1783676438.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イトーヨーカドー運営 なぜ急回復",
+   "link": "https://news.yahoo.co.jp/pickup/6587448?source=rss",
+   "published": "07/10 18:26",
+   "ts": 1783675611.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "東京Dシティ事故 遊園地を再開へ",
    "link": "https://news.yahoo.co.jp/pickup/6587447?source=rss",
    "published": "07/10 18:02",
@@ -155,30 +179,6 @@
    "ts": 1783670099.0,
    "source": "NHK",
    "desc": "10日の東京株式市場、AI市場の拡大が続くという見方が広がったことなどから、AI・半導体関連の銘柄を中心に買い注文が出て、日経平均株価は値上がりしました。"
-  },
-  {
-   "title": "シニア派遣 83歳のトップ営業マン",
-   "link": "https://news.yahoo.co.jp/pickup/6587424?source=rss",
-   "published": "07/10 15:24",
-   "ts": 1783664681.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "地方税収 初の50兆円超 5年連続過去最高更新 総務省",
-   "link": "http://www3.nhk.or.jp/news/html/20260710/k10015173551000.html",
-   "published": "07/10 14:00",
-   "ts": 1783659629.0,
-   "source": "NHK",
-   "desc": "昨年度の地方税収は、賃上げや好調な企業業績を背景に個人住民税などが伸びたことから、過去最高を更新して初めて50兆円を超えました。"
-  },
-  {
-   "title": "全東信破産 店側の資金繰り支援へ",
-   "link": "https://news.yahoo.co.jp/pickup/6587419?source=rss",
-   "published": "07/10 13:37",
-   "ts": 1783658270.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
