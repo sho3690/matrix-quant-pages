@@ -10,21 +10,22 @@ from pathlib import Path
 
 from backend.util import atomic_write_json, load_json_safe
 
+# 損切りライン = 価格 − STOP_K × ATR (スイングトレードの一般的なパラメータ)
+STOP_K = 2.5
+
 
 def validate_stock_qty(asset_class: str, qty) -> int:
-    """株式の数量ルールを検証して整数株数を返す。
+    """株式の数量を検証して整数株数を返す(1株単位)。
 
-    日本株は単元株制度(2018年に100株へ統一)に合わせて100株単位のみ。
-    米国株等は1株単位。暗号資産はこの関数の対象外(端数OK)。
+    日本株の取引所ルールは100株単元だが、利用者は証券会社の
+    単元未満株サービス(S株・ミニ株等)での1株単位取引が基本のため、
+    シミュレーションも1株単位に合わせる。暗号資産は対象外(端数OK)。
     """
     if qty is None or qty <= 0:
         raise ValueError("株数を指定してください")
     if abs(qty - round(qty)) > 1e-9:
         raise ValueError("株数は整数で指定してください")
-    q = int(round(qty))
-    if asset_class == "jp" and q % 100 != 0:
-        raise ValueError(f"日本株は100株単位(単元株)です。{q}株は買えません(例: 100株、200株)")
-    return q
+    return int(round(qty))
 
 
 class PaperBroker:
@@ -117,8 +118,8 @@ class PaperBroker:
             stop = p.get("stop_jpy")
             estimated = False
             if stop is None and atr_pct and atr_pct.get(symbol) and avg_cost:
-                # 記録なし(旧仕様の買い)は平均取得単価−2×ATRで推定ラインを補完
-                stop = avg_cost * (1 - 2 * atr_pct[symbol])
+                # 記録なし(旧仕様の買い)は平均取得単価−STOP_K×ATRで推定ラインを補完
+                stop = avg_cost * (1 - STOP_K * atr_pct[symbol])
                 estimated = True
             positions.append({
                 "symbol": symbol,

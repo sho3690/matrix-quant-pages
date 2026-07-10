@@ -155,11 +155,6 @@
   .chart-legend .c { color: var(--green); } .chart-legend .m50 { color: var(--green-dim); }
   .chart-legend .m200 { color: var(--amber); }
 
-  .corr-row { display: flex; align-items: center; gap: 8px; padding: 2px 0; }
-  .corr-row .sym { width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .corr-bar-wrap { flex: 1; height: 10px; border: 1px solid var(--green-faint); }
-  .corr-bar { height: 100%; background: var(--green-dim); }
-  .corr-val { width: 48px; text-align: right; }
 
   /* minmax(0,…)が無いとグリッドの子が中身(幅広テーブル)より縮めず、ページ全体が横に溢れる */
   .grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 14px; }
@@ -233,10 +228,6 @@
   .sigrows td:first-child { white-space: normal; }
   #trade-msg.err { color: var(--red); }
   #trade-msg.ok { color: var(--green); }
-
-  /* ===== 相関 ===== */
-  #corr-table td, #corr-table th { padding: 2px 4px; font-size: 10px; text-align: center; border: none; }
-  #corr-table td.cell { min-width: 34px; color: #05130a; }
 
   footer {
     position: fixed; bottom: 0; left: 0; right: 0; z-index: 2;
@@ -357,7 +348,7 @@
         <h2>PAPER TRADE <span class="jp">/ 仮想売買(実際のお金は動きません)</span></h2>
         <div class="paper-summary" id="paper-summary"></div>
         <div id="paper-breakdown" class="dim" style="font-size:11px; margin:2px 0 8px"></div>
-        <div class="dim" style="font-size:11px; margin-bottom:4px">日本株=100株単位(単元株制度) / 米国株=1株単位 / 暗号資産=金額指定。手数料・税・配当は含まない簡略シミュレーションです</div>
+        <div class="dim" style="font-size:11px; margin-bottom:4px">株式=1株単位(日本株は単元未満株S株等での取引を想定) / 暗号資産=金額指定。手数料・税・配当は含まない簡略シミュレーションです</div>
         <div class="trade-form">
           <label for="trade-symbol">銘柄</label>
           <select id="trade-symbol" onchange="updateTradeForm()"></select>
@@ -390,10 +381,9 @@
       </section>
 
       <section class="panel">
-        <h2>CORRELATION <span class="jp">/ 選択銘柄との相関(90日)</span></h2>
-        <div id="corr-content" class="dim">銘柄を選択すると、相性の良い/悪い組み合わせを表示します</div>
-        <div class="dim" style="font-size:11px; margin-top:4px">1.0=同じ動き / 0=無関係。低いほど組み合わせたときの分散効果が高い<br>
-        注意: これは「平時」の相関。暴落時はどの資産も一斉に下がりやすい(相関の崩れ)ため、最後の分散は現金比率です</div>
+        <h2>INDEX REGIME <span class="jp">/ 相場レジーム(月末確定・翌営業日始値執行で検証)</span></h2>
+        <div id="regime-content" class="dim">読込中...</div>
+        <div class="dim" style="font-size:11px; margin-top:4px">見方: 弱気レジーム中は新規買いを絞り、ドローダウン回避を優先。月1回しか変わらない「遅い」基準なので日々の値動きに振らされない</div>
       </section>
 
     </div>
@@ -404,7 +394,8 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.1";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.2";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
 const STATIC_MODE = !!window.STATIC_MODE;
@@ -482,7 +473,7 @@ async function refresh() {
 function renderAll() {
   document.getElementById("usdjpy").textContent = "USD/JPY " + fmtNum(MARKET.usdjpy, 2);
   document.getElementById("updated").textContent = "最終更新 " + MARKET.updated_at;
-  renderTabs(); renderBoard(); renderDetail(); renderKelly(); renderPaper(); renderCorr();
+  renderTabs(); renderBoard(); renderDetail(); renderKelly(); renderPaper(); renderRegime();
   renderIndices(); renderPulse(); renderNews(); renderBrief(); renderSigChanges();
   renderSeasonality();
 }
@@ -972,7 +963,7 @@ function renderBoard() {
   });
 
   document.querySelectorAll(".sigrows tr.asset").forEach(tr => {
-    const pick = () => { SELECTED = tr.dataset.sym; renderBoard(); renderDetail(); renderKelly(); renderCorr(); };
+    const pick = () => { SELECTED = tr.dataset.sym; renderBoard(); renderDetail(); renderKelly(); };
     tr.addEventListener("click", pick);
     tr.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
   });
@@ -1405,15 +1396,15 @@ function renderKelly() {
 
   // ③ 守りの上限(1%ルール)
   if (a.atr_pct != null && a.price_jpy != null && equity) {
-    const stopJpy = a.price_jpy * (1 - 2 * a.atr_pct);
-    const riskPerUnit = a.price_jpy * 2 * a.atr_pct;
+    const stopJpy = a.price_jpy * (1 - K_ATR * a.atr_pct);
+    const riskPerUnit = a.price_jpy * K_ATR * a.atr_pct;
     const riskBudget = equity * 0.01;
     onePctAmt = Math.min((riskBudget / riskPerUnit) * a.price_jpy, equity);
-    parts.push(sec("③ 守りの上限(1%ルール・2×ATR損切り前提)"));
+    parts.push(sec(`③ 守りの上限(1%ルール・${K_ATR}×ATR損切り前提)`));
     parts.push(`
       <div style="font-size:14px"><b style="font-size:17px">${fmtJPY(onePctAmt)}</b>
         <span class="dim">(損切りしても失うのは資金の1%=${fmtJPY(riskBudget)})</span></div>
-      <div class="dim" style="font-size:12px">前提の損切りライン: <span class="neg">${fmtJPY(stopJpy)}</span>(現値−${(2 * a.atr_pct * 100).toFixed(1)}%)。※これから新規で買う場合の目安(現値基準)。保有分のラインは下の保有一覧(取得時基準)を参照</div>`);
+      <div class="dim" style="font-size:12px">前提の損切りライン: <span class="neg">${fmtJPY(stopJpy)}</span>(現値−${(K_ATR * a.atr_pct * 100).toFixed(1)}%)。※これから新規で買う場合の目安(現値基準)。保有分のラインは下の保有一覧(取得時基準)を参照</div>`);
   } else if (a.price_jpy == null) {
     parts.push(`<div class="dim" style="margin-top:6px">この銘柄は円換算不可のため金額計算は非対応です</div>`);
   }
@@ -1424,21 +1415,19 @@ function renderKelly() {
   if (final != null) {
     const waiting = a.signal.label === "LONG" && entryState(a).k === "WAIT";
     let main = "", subLine = "";
-    if (a.asset_class === "jp" && a.price_jpy) {
-      const unitCost = a.price_jpy * 100;
-      const units = Math.floor(final / unitCost);
-      if (units >= 1) {
-        main = `買うなら <b class="pos" style="font-size:19px">${units}単元(${units * 100}株)</b> まで`;
-        subLine = `使う資金 ${fmtJPY(units * unitCost)}(1単元=${fmtJPY(unitCost)}) / 金額上限 ${fmtJPY(final)}`;
-      } else {
-        const oddLot = Math.floor(final / a.price_jpy);
-        main = `<b class="warn" style="font-size:15px">単元(100株)では買えません</b>`;
-        subLine = `1単元=${fmtJPY(unitCost)}が金額上限${fmtJPY(final)}を超過。単元未満株サービス(S株・ミニ株等。証券会社により名称と手数料が異なる)なら <b>${oddLot}株</b>(≒${fmtJPY(oddLot * a.price_jpy)})まで`;
-      }
-    } else if (a.asset_class !== "crypto" && a.price_jpy) {
+    if (a.asset_class !== "crypto" && a.price_jpy) {
+      // 単元未満株(S株等)での1株単位取引を前提に、素直に株数で示す
       const shares = Math.floor(final / a.price_jpy);
-      main = `買うなら <b class="pos" style="font-size:19px">${shares}株</b> まで`;
-      subLine = `使う資金 ${fmtJPY(shares * a.price_jpy)} / 金額上限 ${fmtJPY(final)}`;
+      if (shares >= 1) {
+        main = `買うなら <b class="pos" style="font-size:19px">${shares.toLocaleString("ja-JP")}株</b> まで`;
+        subLine = `使う資金 ≒${fmtJPY(shares * a.price_jpy)} / 金額上限 ${fmtJPY(final)}`
+          + (a.asset_class === "jp"
+            ? `・1株単位(単元未満株)を想定${shares >= 100 ? ` / 100株単位なら${Math.floor(shares / 100)}単元` : ""}`
+            : "");
+      } else {
+        main = `<b class="warn" style="font-size:15px">1株も買えません</b>`;
+        subLine = `1株=${fmtJPY(a.price_jpy)}が金額上限${fmtJPY(final)}を超えています`;
+      }
     } else {
       main = `買うなら <b class="pos" style="font-size:19px">${fmtJPY(final)}</b> まで`;
       subLine = "暗号資産は端数で買えるため金額そのまま";
@@ -1531,32 +1520,45 @@ function renderBreakdown() {
     + (warns.length ? `<div class="warn">${warns.map(esc).join("<br>")}</div>` : "");
 }
 
-function renderCorr() {
-  const c = MARKET.correlation;
-  const el = document.getElementById("corr-content");
-  const i = SELECTED ? c.symbols.indexOf(SELECTED) : -1;
-  if (i < 0) {
+/* 指数レジーム(月末確定のSMA200×12-1モメンタム)とフィルターの過去検証 */
+function renderRegime() {
+  const el = document.getElementById("regime-content");
+  const list = MARKET.regimes || [];
+  if (!list.length) {
     el.className = "dim";
-    el.textContent = "銘柄を選択すると、相性の良い/悪い組み合わせを表示します";
+    el.textContent = "レジームデータなし([REFRESH]で再取得してください)";
     return;
   }
-  const nameOf = s => { const a = MARKET.assets.find(x => x.symbol === s); return a ? a.name : s; };
-  const pairs = c.symbols
-    .map((s, j) => ({ s, v: c.matrix[i][j] }))
-    .filter(p => p.s !== SELECTED && p.v != null)
-    .sort((a, b) => a.v - b.v);
-  const row = p => `
-    <div class="corr-row">
-      <span class="sym">${esc(p.s)} <span class="name-jp">${esc(nameOf(p.s))}</span></span>
-      <span class="corr-bar-wrap"><span class="corr-bar" style="display:block;width:${Math.round(Math.max(0, Math.min(1, (p.v + 0.2) / 1.2)) * 100)}%"></span></span>
-      <span class="corr-val">${p.v.toFixed(2)}</span>
-    </div>`;
   el.className = "";
-  el.innerHTML = `
-    <div class="dim" style="font-size:11px; margin-bottom:2px">▼ ${esc(SELECTED)} と相関が低い(分散に良い)Top5</div>
-    ${pairs.slice(0, 5).map(row).join("")}
-    <div class="dim" style="font-size:11px; margin:6px 0 2px">▲ 相関が高い(同じ方向に動きやすい)Top5</div>
-    ${pairs.slice(-5).reverse().map(row).join("")}`;
+  const pct = v => v == null ? "--" : (v * 100).toFixed(1) + "%";
+  el.innerHTML = list.map(r => {
+    const s1 = r.sig_sma, s2 = r.sig_mom;
+    const overall = s1 && s2 ? { t: "強気(2シグナル一致)", c: "pos" }
+      : !s1 && !s2 ? { t: "弱気(2シグナル一致)", c: "neg" }
+      : { t: "中立(シグナル不一致)", c: "warn" };
+    const m = r.backtest && r.backtest.filtered;
+    const h = r.backtest && r.backtest.buyhold;
+    const row = (label, f, b) => `<tr><td>${label}</td><td>${f}</td><td>${b}</td></tr>`;
+    return `
+      <div style="margin-bottom:12px">
+        <div><b>${esc(r.name)}</b> ${tag(overall)}
+          <span class="dim" style="font-size:11px">(${esc(r.as_of)} 月末確定)</span></div>
+        <div style="font-size:12px; padding:2px 0 4px">
+          ・SMA200判定: <span class="${s1 ? "pos" : "neg"}">${s1 ? "強気(終値が200日線の上)" : "弱気(200日線の下)"}</span><br>
+          ・12-1モメンタム: <span class="${s2 ? "pos" : "neg"}">${s2 ? "強気" : "弱気"}(${fmtPct(r.mom121)})</span>
+        </div>
+        ${m && h ? `
+        <table class="metric-table">
+          <thead><tr><th style="text-align:left">過去10年の検証</th><th>SMA200ﾌｨﾙﾀｰ</th><th>ﾊﾞｲ&ﾎｰﾙﾄﾞ</th></tr></thead>
+          <tbody>
+            ${row("CAGR(年率成長)", pct(m.cagr), pct(h.cagr))}
+            ${row("最大ドローダウン", `<span class="${(m.max_dd ?? -1) > (h.max_dd ?? -1) ? "pos" : ""}">${pct(m.max_dd)}</span>`, pct(h.max_dd))}
+            ${row("シャープレシオ", m.sharpe != null ? m.sharpe.toFixed(2) : "--", h.sharpe != null ? h.sharpe.toFixed(2) : "--")}
+            ${row("勝率 / 損益比", m.win_rate != null ? `${Math.round(m.win_rate * 100)}% / ${m.payoff != null ? m.payoff.toFixed(1) : "--"} (${m.trades}回)` : "--", "—")}
+          </tbody>
+        </table>` : ""}
+      </div>`;
+  }).join("");
 }
 
 /* ===== 売買 ===== */
@@ -1576,14 +1578,9 @@ function updateTradeForm() {
     if (modeChanged) { input.value = 100000; input.min = 1; input.step = 10000; }
     label.textContent = "金額(円)";
     cost.textContent = "";
-  } else if (a.asset_class === "jp") {
-    if (modeChanged) { input.value = 1; input.min = 1; input.step = 1; }
-    label.textContent = "単元数(1単元=100株)";
-    const units = Math.max(1, Math.floor(Number(input.value) || 1));
-    cost.textContent = a.price_jpy ? `= ${units * 100}株 ${fmtJPY(units * 100 * a.price_jpy)}` : "";
   } else {
     if (modeChanged) { input.value = 1; input.min = 1; input.step = 1; }
-    label.textContent = "株数";
+    label.textContent = a.asset_class === "jp" ? "株数(1株単位・単元未満株を想定)" : "株数";
     const n = Math.max(1, Math.floor(Number(input.value) || 1));
     cost.textContent = a.price_jpy ? `= ${fmtJPY(n * a.price_jpy)}` : "";
   }
@@ -1602,9 +1599,8 @@ async function trade(side, symbol, qty) {
     const a = tradeAsset();
     const v = Number(document.getElementById("trade-amount").value);
     if (!Number.isFinite(v) || v <= 0) { showMsg("err", "数値を入力してください"); return; }
-    if (a && a.asset_class === "jp") body.qty = Math.floor(v) * 100;       // 単元数→株数
-    else if (a && a.asset_class !== "crypto") body.qty = Math.floor(v);    // 株数
-    else body.jpy_amount = v;                                              // 金額(円)
+    if (a && a.asset_class !== "crypto") body.qty = Math.floor(v);  // 株数(1株単位)
+    else body.jpy_amount = v;                                        // 金額(円)
   } else body.qty = qty;
   try {
     const res = await fetch("/api/trade", {

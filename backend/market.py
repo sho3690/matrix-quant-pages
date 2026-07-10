@@ -13,6 +13,7 @@ import yfinance as yf
 
 from backend import fundamentals as fnd
 from backend import indicators as ind
+from backend import regime as rg
 from backend.signals import (trend_score, composite_signal, kelly_backtest,
                              caution_notes)
 from backend.util import atomic_write_json, load_json_safe
@@ -274,7 +275,6 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
         usdjpy = (prev or {}).get("usdjpy") or FALLBACK_USDJPY
 
     assets = []
-    valid_closes = {}
     for a in assets_def:
         sym = a["symbol"]
         col = closes[sym].dropna() if sym in closes.columns else pd.Series(dtype=float)
@@ -309,7 +309,6 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
                        "equity_ratio": f.get("equity_ratio"),
                        "fcf_yield": f.get("fcf_yield"),
                        "earnings_ts": f.get("earnings_ts")})
-        valid_closes[sym] = col
 
     # 世界の指数(GLOBAL MARKETSパネル用)
     indices = []
@@ -333,14 +332,20 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
             "pct_rank_1y": ind.pct_rank(s, 252),
         })
 
-    # 相関マトリックス(直近90日の日次リターン)
-    correlation = {"symbols": [], "matrix": []}
-    if len(valid_closes) >= 2:
-        df = pd.DataFrame(valid_closes).pct_change().tail(90)
-        corr = df.corr().round(2)
-        matrix = [[None if pd.isna(v) else float(v) for v in row]
-                  for row in corr.values]
-        correlation = {"symbols": list(corr.columns), "matrix": matrix}
+    # 指数レジーム判定+バックテスト(日経225とS&P500、月末確定値ベース)
+    opens = raw["Open"] if "Open" in raw else pd.DataFrame()
+    regimes = []
+    for sym, name in [("^N225", "日経225"), ("^GSPC", "S&P500")]:
+        if sym not in closes.columns:
+            continue
+        c = closes[sym].dropna()
+        o = opens[sym] if sym in opens.columns else pd.Series(dtype=float)
+        try:
+            r = rg.build_regime(c, o, sym, name)
+            if r:
+                regimes.append(r)
+        except Exception:
+            pass  # レジームが作れなくても他は配信する
 
     snapshot = {
         "updated_at": datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S"),
@@ -350,7 +355,7 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
         "indices": indices,
         "events": upcoming_events(),
         "signal_changes": update_signal_log(assets),
-        "correlation": correlation,
+        "regimes": regimes,
     }
     atomic_write_json(out_path, snapshot, allow_nan=False, default=str, indent=1)
     return snapshot

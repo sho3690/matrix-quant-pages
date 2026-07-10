@@ -10,7 +10,7 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 from backend import market, pulse
-from backend.paper import PaperBroker, validate_stock_qty
+from backend.paper import PaperBroker, validate_stock_qty, STOP_K
 
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "frontend" / "index.html"
@@ -127,9 +127,9 @@ def _execute_trade(req: TradeRequest, snap: dict, price, asset: dict):
     broker = PaperBroker(TRADES_PATH)
     try:
         if req.side == "buy":
-            # 買った瞬間の2×ATR損切りラインを記録する(あとで割れ警告に使う)
+            # 買った瞬間のSTOP_K×ATR損切りラインを記録する(あとで割れ警告に使う)
             atr = asset.get("atr_pct")
-            stop = price * (1 - 2 * atr) if (price and atr) else None
+            stop = price * (1 - STOP_K * atr) if (price and atr) else None
             if asset.get("asset_class") == "crypto":
                 # 暗号資産は現実でも端数で買えるため金額指定
                 if not req.jpy_amount:
@@ -137,7 +137,7 @@ def _execute_trade(req: TradeRequest, snap: dict, price, asset: dict):
                 broker.buy(req.symbol, jpy_amount=req.jpy_amount, price_jpy=price,
                            stop_jpy=stop)
             else:
-                # 株式は現実の売買単位に合わせて数量指定(日本株=100株単位)
+                # 株式は1株単位で数量指定(日本株は単元未満株S株等での取引を想定)
                 q = validate_stock_qty(asset.get("asset_class"), req.qty)
                 broker.buy(req.symbol, qty=q, price_jpy=price, stop_jpy=stop)
         elif req.side == "sell":
