@@ -394,7 +394,7 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.2";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.3";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -1543,6 +1543,7 @@ function renderRegime() {
       <div style="margin-bottom:12px">
         <div><b>${esc(r.name)}</b> ${tag(overall)}
           <span class="dim" style="font-size:11px">(${esc(r.as_of)} 月末確定)</span></div>
+        ${r.source_note ? `<div class="dim" style="font-size:10px">${esc(r.source_note)}</div>` : ""}
         <div style="font-size:12px; padding:2px 0 4px">
           ・SMA200判定: <span class="${s1 ? "pos" : "neg"}">${s1 ? "強気(終値が200日線の上)" : "弱気(200日線の下)"}</span><br>
           ・12-1モメンタム: <span class="${s2 ? "pos" : "neg"}">${s2 ? "強気" : "弱気"}(${fmtPct(r.mom121)})</span>
@@ -1558,7 +1559,41 @@ function renderRegime() {
           </tbody>
         </table>` : ""}
       </div>`;
+  }).join("") + renderRegimeCompare();
+}
+
+/* 3指数の検証比較(切替判断の記録。日経225の結果も削除せず残す) */
+function renderRegimeCompare() {
+  const rc = MARKET.regime_compare;
+  if (!rc) return "";
+  const pct = v => v == null ? "--" : (v * 100).toFixed(1) + "%";
+  const rows = rc.rows.map(r => {
+    const m = r.backtest.filtered, h = r.backtest.buyhold;
+    const judge = r.key === rc.judge_key ? ' <span class="tag pos">判定に採用</span>' : "";
+    return `<tr><td>${esc(r.name)}${judge}</td>
+      <td>${pct(m.cagr)} / ${pct(h.cagr)}</td>
+      <td class="${(m.max_dd ?? -1) > (h.max_dd ?? -1) ? "pos" : "warn"}">${pct(m.max_dd)} / ${pct(h.max_dd)}</td>
+      <td>${m.sharpe != null ? m.sharpe.toFixed(2) : "--"} / ${h.sharpe != null ? h.sharpe.toFixed(2) : "--"}</td>
+      <td>${m.win_rate != null ? Math.round(m.win_rate * 100) + "% / " + (m.payoff != null ? m.payoff.toFixed(1) : "--") + ` (${m.trades}回)` : "--"}</td></tr>`;
   }).join("");
+  const d = rc.disagreements;
+  const diffList = d.diffs.map(x => `${esc(x.month)}(日経=${esc(x.a)}/TOPIX=${esc(x.b)})`).join("、 ");
+  return `
+    <details class="siggroup">
+      <summary>検証記録: 3指数比較と日経×TOPIXの判定不一致(切替判断の根拠)</summary>
+      <div style="padding:6px 10px 10px">
+        <table class="metric-table">
+          <thead><tr><th style="text-align:left">指数</th><th>CAGR<br>ﾌｨﾙﾀｰ/BH</th><th>最大DD<br>ﾌｨﾙﾀｰ/BH</th><th>Sharpe<br>ﾌｨﾙﾀｰ/BH</th><th>勝率/損益比</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+        <div style="font-size:12px; margin-top:6px">
+          判定不一致: 共通${d.common_months}ヶ月中 <b>${d.diff_count}回</b>(${Math.round(d.diff_count / d.common_months * 100)}%)
+        </div>
+        <div class="dim" style="font-size:10px; margin-top:2px">${diffList || "なし"}</div>
+        ${rc.topix_note ? `<div class="dim" style="font-size:10px; margin-top:4px">${esc(rc.topix_note)}</div>` : ""}
+        <div class="dim" style="font-size:10px; margin-top:2px">判定指数の切替: config.json の "regime_index" を "n225" にすると日経225判定に戻せます</div>
+      </div>
+    </details>`;
 }
 
 /* ===== 売買 ===== */

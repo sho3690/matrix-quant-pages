@@ -20,7 +20,17 @@ from backend.util import atomic_write_json, load_json_safe
 
 ROOT = Path(__file__).resolve().parent.parent
 WATCHLIST_PATH = ROOT / "watchlist.json"
+CONFIG_PATH = ROOT / "config.json"
 MARKET_PATH = ROOT / "data" / "market.json"
+
+# レジーム判定用TOPIXのデータ源(優先順)。^TPXはYahooで取得不可のことが多く
+# その場合はTOPIX連動ETFの1306.Tを代理に使う(調整済み価格)
+TOPIX_CANDIDATES = ["^TPX", "1306.T"]
+
+
+def load_config() -> dict:
+    """config.json(regime_index: "topix"|"n225")。無ければ既定値。"""
+    return {"regime_index": "topix", **load_json_safe(CONFIG_PATH, {})}
 JST = timezone(timedelta(hours=9))
 FALLBACK_USDJPY = 150.0
 
@@ -242,7 +252,9 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
     wl = load_watchlist(watchlist_path)
     assets_def = wl["assets"]
     index_symbols = [i["symbol"] for i in INDICES]
-    symbols = [a["symbol"] for a in assets_def] + [wl["fx"]] + index_symbols
+    symbols = list(dict.fromkeys(
+        [a["symbol"] for a in assets_def] + [wl["fx"]]
+        + index_symbols + TOPIX_CANDIDATES))
     prev = load_snapshot(out_path)
     prev_assets = {a["symbol"]: a for a in (prev or {}).get("assets", [])}
 
@@ -332,20 +344,69 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
             "pct_rank_1y": ind.pct_rank(s, 252),
         })
 
-    # 指数レジーム判定+バックテスト(日経225とS&P500、月末確定値ベース)
+    # 指数レジーム判定+バックテスト(月末確定値ベース)
+    # 判定用の日本指数はconfig.jsonで選択(既定=TOPIX、"n225"で日経225に戻せる)
     opens = raw["Open"] if "Open" in raw else pd.DataFrame()
-    regimes = []
-    for sym, name in [("^N225", "日経225"), ("^GSPC", "S&P500")]:
-        if sym not in closes.columns:
+
+    topix_sym, topix_note = None, None
+    for cand in TOPIX_CANDIDATES:
+        if cand in closes.columns and len(closes[cand].dropna()) >= 500:
+            topix_sym = cand
+            break
+    if topix_sym == "1306.T":
+        topix_note = ("データ源: 1306.T(TOPIX連動ETF)による代理。指数^TPXがYahooで取得不可のため。"
+                      "調整済み価格で分配金はおおむね補正済みだが、指数とは微差がありうる")
+    elif topix_sym == "^TPX":
+        topix_note = "データ源: ^TPX(TOPIX指数)"
+    print(f"[regime] TOPIXデータ源: {topix_sym or '取得不可'}")
+
+    specs = [("n225", "^N225", "日経225", None),
+             ("topix", topix_sym, "TOPIX", topix_note),
+             ("spx", "^GSPC", "S&P500", None)]
+    built = {}
+    for key, sym, name, note in specs:
+        if not sym or sym not in closes.columns:
             continue
-        c = closes[sym].dropna()
-        o = opens[sym] if sym in opens.columns else pd.Series(dtype=float)
+        c = rg.remove_bad_ticks(closes[sym].dropna())  # 誤配信ティックを除去
+        if len(c) < 500:
+            continue
+        o = (opens[sym] if sym in opens.columns
+             else pd.Series(dtype=float)).reindex(c.index)
         try:
             r = rg.build_regime(c, o, sym, name)
             if r:
-                regimes.append(r)
+                r["key"] = key
+                if note:
+                    r["source_note"] = note
+                built[key] = (r, c)
         except Exception:
             pass  # レジームが作れなくても他は配信する
+
+    cfg = load_config()
+    jp_key = cfg.get("regime_index", "topix")
+    if jp_key not in ("topix", "n225"):
+        jp_key = "topix"
+    regimes = []
+    if jp_key in built:
+        regimes.append(built[jp_key][0])
+    elif "n225" in built:  # TOPIXが取れない場合のフォールバック
+        regimes.append(built["n225"][0])
+    if "spx" in built:
+        regimes.append(built["spx"][0])
+
+    # 比較検証の記録(日経225の結果は削除せず残す・判定不一致の一覧)
+    regime_compare = None
+    if "n225" in built and "topix" in built:
+        dis = rg.stance_disagreements(rg.monthly_stances(built["n225"][1]),
+                                      rg.monthly_stances(built["topix"][1]))
+        regime_compare = {
+            "judge_key": jp_key,
+            "topix_note": topix_note,
+            "rows": [{"key": k, "name": built[k][0]["name"],
+                      "backtest": built[k][0]["backtest"]}
+                     for k in ("n225", "topix", "spx") if k in built],
+            "disagreements": dis,
+        }
 
     snapshot = {
         "updated_at": datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S"),
@@ -356,6 +417,7 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
         "events": upcoming_events(),
         "signal_changes": update_signal_log(assets),
         "regimes": regimes,
+        "regime_compare": regime_compare,
     }
     atomic_write_json(out_path, snapshot, allow_nan=False, default=str, indent=1)
     return snapshot

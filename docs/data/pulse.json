@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-10 17:24:30",
+ "updated_at": "2026-07-10 18:24:57",
  "fng": {
   "value": 23,
   "label": "極度の恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.36046517290967,
-  "eth_dominance": 9.407383595788692,
-  "total_mcap_usd": 2279317800748.0,
-  "mcap_change_24h": 1.5133332823109378
+  "btc_dominance": 56.3892360749664,
+  "eth_dominance": 9.424570668186588,
+  "total_mcap_usd": 2282252548779.696,
+  "mcap_change_24h": 1.5214071355788128
  },
  "defi": {
-  "tvl_usd": 73341581445.0,
-  "change_1d": 0.011362677030370083,
-  "change_7d": 0.009494108606838969,
-  "change_1y": -0.37859344121289196,
-  "range_pos_1y": 0.04025979584853092
+  "tvl_usd": 73394070658.0,
+  "change_1d": 0.01208678227725235,
+  "change_7d": 0.01021658486443977,
+  "change_1y": -0.3781487120349667,
+  "range_pos_1y": 0.04077553847033486
  },
  "news_crypto": [
+  {
+   "title": "OKJ、カントンコイン（CC）取扱い開始予定 板取引でのCC取扱いは国内初",
+   "link": "https://coinpost.jp/?p=723834",
+   "published": "07/10 18:00",
+   "ts": 1783674001.0,
+   "source": "CoinPost",
+   "desc": "OKJが7月15日、カントンコイン（CC）の取扱いを開始予定で、対応暗号資産は54種類に。板取引での提供は国内初。Canton NetworkにはGoldman Sachs等大手金融機関に加え、SBIグループのSBIデジタルアセットホールディングスも運営参加している。"
+  },
   {
    "title": "メタプラネット・JPYCら4社、デジタルクレジット共同検討",
    "link": "https://coinpost.jp/?p=723820",
@@ -105,17 +113,17 @@
    "ts": 1783652440.0,
    "source": "CoinPost",
    "desc": "仮想通貨ウォレット「ファントム」とDEX「ハイパーリキッド」の関連団体が米CFTCに意見書を提出。DeFiなど非カストディアル型プロトコルの法的取り扱い明確化など3点を求めた。"
-  },
-  {
-   "title": "NEC、生体認証と分散型IDのオンチェーンサービスをアバランチと共同検討",
-   "link": "https://coinpost.jp/?p=723563",
-   "published": "07/10 11:30",
-   "ts": 1783650656.0,
-   "source": "CoinPost",
-   "desc": "NEC（日本電気）は10日、アバランチ開発のアバ・ラボズと覚書を締結し、生体認証技術を活用した分散型デジタルID（DID/VC）とアバランチを組み合わせた次世代オンチェーンサービスの共同検討を開始した。インバウンド向けユースケースを解説するホワイトペーパーも公開している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "東京Dシティ事故 遊園地を再開へ",
+   "link": "https://news.yahoo.co.jp/pickup/6587447?source=rss",
+   "published": "07/10 18:02",
+   "ts": 1783674146.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "グリコ ビスコなどを順次値上げ",
    "link": "https://news.yahoo.co.jp/pickup/6587438?source=rss",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587419?source=rss",
    "published": "07/10 13:37",
    "ts": 1783658270.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "国産「日本茶」保護登録 農水省",
-   "link": "https://news.yahoo.co.jp/pickup/6587416?source=rss",
-   "published": "07/10 13:17",
-   "ts": 1783657076.0,
    "source": "Yahoo!",
    "desc": ""
   }

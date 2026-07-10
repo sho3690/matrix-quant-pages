@@ -12,6 +12,19 @@ import numpy as np
 import pandas as pd
 
 
+def remove_bad_ticks(s: pd.Series, threshold: float = 0.4) -> pd.Series:
+    """明白な誤配信(1日だけ価格が数分の1/数倍に飛んで戻る類)を欠測として除去する。
+
+    前後5日の中央値から±threshold(既定40%)以上乖離した点を落とす。
+    本物の暴落(数日かけた下落)は中央値も追随するため除去されない。
+    実例: 1306.Tの2026-03-30/31に約1/10の誤配信があり、放置すると
+    バックテストのMaxDDが-91%になる(実際のTOPIXはそんな下落をしていない)。
+    """
+    med = s.rolling(11, center=True, min_periods=3).median()
+    bad = (s / med - 1).abs() > threshold
+    return s[~bad]
+
+
 def month_end_trading_days(close: pd.Series) -> pd.DatetimeIndex:
     """各月の最終「取引日」を返す(進行中の月も末尾に含まれる点に注意)。"""
     return pd.DatetimeIndex(close.resample("ME").apply(
@@ -129,6 +142,42 @@ def _metrics(daily_rets: pd.Series, trade_rets: list) -> dict:
               if wins and losses and np.mean(losses) > 0 else None)
     return {"cagr": cagr, "max_dd": dd, "sharpe": sharpe,
             "win_rate": win_rate, "payoff": payoff, "trades": len(trade_rets)}
+
+
+def monthly_stances(close: pd.Series) -> list:
+    """確定月末ごとの2シグナル判定の履歴(比較検証用)。判定ルールはregime_signalsと同一。"""
+    me_days = confirmed_month_ends(close)
+    if len(me_days) < 14 or len(close) < 210:
+        return []
+    me = close.loc[me_days]
+    sma200 = close.rolling(200).mean()
+    out = []
+    for i in range(12, len(me_days)):
+        d = me_days[i]
+        sma = sma200.loc[d]
+        if pd.isna(sma):
+            continue
+        s1 = bool(me.iloc[i] > sma)
+        mom = float(me.iloc[i - 1] / me.iloc[i - 12] - 1)
+        s2 = bool(mom > 0)
+        stance = "強気" if (s1 and s2) else ("弱気" if (not s1 and not s2) else "中立")
+        out.append({"month": d.strftime("%Y-%m"), "sig_sma": s1,
+                    "sig_mom": s2, "stance": stance})
+    return out
+
+
+def stance_disagreements(a: list, b: list) -> dict:
+    """2指数の月次判定(強気/中立/弱気)が食い違った月を一覧化する。共通月のみ比較。"""
+    b_by_month = {r["month"]: r for r in b}
+    diffs, common = [], 0
+    for r in a:
+        o = b_by_month.get(r["month"])
+        if o is None:
+            continue
+        common += 1
+        if r["stance"] != o["stance"]:
+            diffs.append({"month": r["month"], "a": r["stance"], "b": o["stance"]})
+    return {"common_months": common, "diff_count": len(diffs), "diffs": diffs}
 
 
 def build_regime(close: pd.Series, open_: pd.Series, symbol: str, name: str):
