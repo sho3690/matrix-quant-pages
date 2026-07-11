@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-11 17:16:51",
+ "updated_at": "2026-07-11 19:37:01",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.31017904631537,
-  "eth_dominance": 9.504274540603259,
-  "total_mcap_usd": 2283506716899.348,
-  "mcap_change_24h": -0.023164371705210313
+  "btc_dominance": 56.315498926531724,
+  "eth_dominance": 9.49492252866127,
+  "total_mcap_usd": 2283163688678.2563,
+  "mcap_change_24h": -0.2760964348909924
  },
  "defi": {
-  "tvl_usd": 74326976023.0,
-  "change_1d": 0.024838881398345336,
-  "change_7d": 0.002192940046648051,
-  "change_1y": -0.3947679234258198,
-  "range_pos_1y": 0.0499419753692851
+  "tvl_usd": 74376504459.0,
+  "change_1d": 0.025521791825535933,
+  "change_7d": 0.0028607601510928227,
+  "change_1y": -0.39436462169374775,
+  "range_pos_1y": 0.050428626320528906
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "花火大会 警備費増で苦渋の判断",
+   "link": "https://news.yahoo.co.jp/pickup/6587573?source=rss",
+   "published": "07/11 17:28",
+   "ts": 1783758498.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "V字回復した大戸屋 社長交代の訳",
    "link": "https://news.yahoo.co.jp/pickup/6587567?source=rss",
    "published": "07/11 16:47",
@@ -145,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587529?source=rss",
    "published": "07/11 12:00",
    "ts": 1783738810.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "成城石井ソーセージ回収 腐敗恐れ",
-   "link": "https://news.yahoo.co.jp/pickup/6587518?source=rss",
-   "published": "07/11 10:14",
-   "ts": 1783732494.0,
    "source": "Yahoo!",
    "desc": ""
   },
