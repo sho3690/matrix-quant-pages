@@ -15,7 +15,7 @@ def main() -> int:
     snap = market.build_snapshot(watchlist_path=ROOT / "watchlist.json",
                                  out_path=OUT / "market.json")
     n = len(snap.get("assets", []))
-    if n < 50:
+    if n < 120:  # ウォッチリスト223銘柄の半分強。大量欠落=Yahoo制限とみなす
         print(f"取得銘柄が{n}件と少なすぎる(Yahoo制限の可能性)。コミットを中止", file=sys.stderr)
         return 1
     try:
