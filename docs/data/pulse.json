@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-11 12:47:45",
+ "updated_at": "2026-07-11 17:16:51",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.31702217361383,
-  "eth_dominance": 9.490047793227385,
-  "total_mcap_usd": 2283501935767.641,
-  "mcap_change_24h": 0.3775284711365672
+  "btc_dominance": 56.31017904631537,
+  "eth_dominance": 9.504274540603259,
+  "total_mcap_usd": 2283506716899.348,
+  "mcap_change_24h": -0.023164371705210313
  },
  "defi": {
-  "tvl_usd": 74176020327.0,
-  "change_1d": 0.022510127634232324,
-  "change_7d": 0.00015751844219291655,
-  "change_1y": -0.3959971302932229,
-  "range_pos_1y": 0.048458731823010595
+  "tvl_usd": 74326976023.0,
+  "change_1d": 0.024838881398345336,
+  "change_7d": 0.002192940046648051,
+  "change_1y": -0.3947679234258198,
+  "range_pos_1y": 0.0499419753692851
  },
  "news_crypto": [
+  {
+   "title": "イーサリアム、温室効果ガス排出量を99%以上削減",
+   "link": "https://coinpost.jp/?p=723954",
+   "published": "07/11 13:30",
+   "ts": 1783744241.0,
+   "source": "CoinPost",
+   "desc": "ケンブリッジ大学オルタナティブ金融センターは、PoS移行後の仮想通貨イーサリアムが電力需要を大幅低下させ、温室効果ガス排出量が99%以上減少したとする報告書を公表した。"
+  },
   {
    "title": "ソラナ初期クジラ、23億円相当SOL盗まれたか",
    "link": "https://coinpost.jp/?p=723953",
@@ -105,17 +113,33 @@
    "ts": 1783720530.0,
    "source": "CoinPost",
    "desc": "米ナスダック上場のエンペリー・デジタルが5月7日以降にビットコイン1,400BTCを売却し、約8,710万ドルを調達した。AIデータセンター投資や債務返済に充てる方針で、7月10日時点の保有残高は1,514BTCとなった。"
-  },
-  {
-   "title": "暗号屋、銀行振込対応のステーブルコイン決済「すてぶるペイ」を発表",
-   "link": "https://coinpost.jp/?p=723911",
-   "published": "07/11 06:25",
-   "ts": 1783718732.0,
-   "source": "CoinPost",
-   "desc": "合同会社暗号屋は10日、銀行振込でステーブルコイン決済を実現する「すてぶるペイ（STBLpay）」を発表した。利用者はウォレット不要、加盟店は与信審査なしで導入でき、7月開催のWebX2026でもデモ展示を実施する。"
   }
  ],
  "news_jp": [
+  {
+   "title": "V字回復した大戸屋 社長交代の訳",
+   "link": "https://news.yahoo.co.jp/pickup/6587567?source=rss",
+   "published": "07/11 16:47",
+   "ts": 1783756027.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "全東信が破産 契約店から憤りの声",
+   "link": "https://news.yahoo.co.jp/pickup/6587556?source=rss",
+   "published": "07/11 15:18",
+   "ts": 1783750711.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新幹線に「弱冷房車」JR東海見解",
+   "link": "https://news.yahoo.co.jp/pickup/6587544?source=rss",
+   "published": "07/11 13:47",
+   "ts": 1783745240.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "洗顔20回すすぐ 美容目覚めた男性",
    "link": "https://news.yahoo.co.jp/pickup/6587529?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587492?source=rss",
    "published": "07/11 07:31",
    "ts": 1783722674.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ソフトバンクやPayPayなど セブン＆アイHDに出資を検討",
-   "link": "http://www3.nhk.or.jp/news/html/20260711/k10015174161000.html",
-   "published": "07/11 00:14",
-   "ts": 1783696469.0,
-   "source": "NHK",
-   "desc": "通信大手のソフトバンクとスマホ決済大手のPayPayなどが、セブン＆アイ・ホールディングスに出資を検討していることがわかりました。通信、決済、コンビニの連携で、ポイント経済圏を一気に拡大し、利用客の拡大につなげるねらいがあるとみられます。"
-  },
-  {
-   "title": "所得税7.8億円を脱税疑い 逮捕",
-   "link": "https://news.yahoo.co.jp/pickup/6587474?source=rss",
-   "published": "07/10 22:37",
-   "ts": 1783690625.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "全東信が破産 飲食店の混乱拡大",
-   "link": "https://news.yahoo.co.jp/pickup/6587467?source=rss",
-   "published": "07/10 20:53",
-   "ts": 1783684394.0,
    "source": "Yahoo!",
    "desc": ""
   }
