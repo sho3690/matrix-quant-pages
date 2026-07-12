@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-12 17:34:22",
+ "updated_at": "2026-07-12 19:47:28",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.28736664425234,
-  "eth_dominance": 9.550237238323705,
-  "total_mcap_usd": 2278526510876.4595,
-  "mcap_change_24h": -0.33528268224023916
+  "btc_dominance": 56.252835572328486,
+  "eth_dominance": 9.538936980446971,
+  "total_mcap_usd": 2275497260568.653,
+  "mcap_change_24h": -0.3715295431580709
  },
  "defi": {
-  "tvl_usd": 73885134431.0,
-  "change_1d": -0.004518061275181839,
-  "change_7d": -0.006350734466542662,
-  "change_1y": -0.40059655783796166,
-  "range_pos_1y": 0.045595052677297646
+  "tvl_usd": 73911957274.0,
+  "change_1d": -0.004148521731239696,
+  "change_7d": -0.005990005634529005,
+  "change_1y": -0.4003789537888307,
+  "range_pos_1y": 0.045858607085285094
  },
  "news_crypto": [
+  {
+   "title": "CoinPost、AIニュース速報と相場分析FAQをトップに追加",
+   "link": "https://coinpost.jp/?p=724045",
+   "published": "07/12 19:15",
+   "ts": 1783851317.0,
+   "source": "CoinPost",
+   "desc": "CoinPostは12日、トップページにAIによるニュースヘッドライン速報と、反転シグナル・機関投資家動向など相場テーマ別の分析FAQを追加した。タイムスタンプ付きで最新情報を確認でき、相場の読み解きにも対応する。"
+  },
   {
    "title": "週刊仮想通貨ニュース（7/10）｜ストラテジーのBTC売却・BTC相場分析・ETH開発計画の動向まとめ",
    "link": "https://coinpost.jp/?p=723557",
@@ -105,17 +113,33 @@
    "ts": 1783726528.0,
    "source": "CoinPost",
    "desc": "韓国の半導体大手SKハイニックスが10日、米ナスダックにADR上場。約280億ドルの調達額は2014年アリババIPO以来最大の外国企業上場規模で、同日ソラナ上でもトークン化株式の取引が始まった。"
-  },
-  {
-   "title": "AIエージェントで新たな取引体験の実現へ、ビットバンクが実証実験開始",
-   "link": "https://coinpost.jp/?p=723918",
-   "published": "07/11 07:15",
-   "ts": 1783721729.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨取引所ビットバンクは、AIエージェントを通じた新たな取引体験の実現に向けて実証実験を開始。実証実験の背景や内容、将来的な目標について説明している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "プリウス3年で売れ行き半減 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6587701?source=rss",
+   "published": "07/12 18:53",
+   "ts": 1783850020.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "福岡住宅高騰 JR佐賀駅前に勢い",
+   "link": "https://news.yahoo.co.jp/pickup/6587700?source=rss",
+   "published": "07/12 18:33",
+   "ts": 1783848790.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "緑茶飲料 収益面で板挟み状態",
+   "link": "https://news.yahoo.co.jp/pickup/6587699?source=rss",
+   "published": "07/12 18:29",
+   "ts": 1783848550.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "日本ではホルムズ海峡を通らない代替ルートでの原油調達が進む",
    "link": "http://www3.nhk.or.jp/news/html/20260712/k10015175001000.html",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587590?source=rss",
    "published": "07/11 20:20",
    "ts": 1783768824.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "花火大会 警備費増で苦渋の判断",
-   "link": "https://news.yahoo.co.jp/pickup/6587573?source=rss",
-   "published": "07/11 17:28",
-   "ts": 1783758498.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "V字回復した大戸屋 社長交代の訳",
-   "link": "https://news.yahoo.co.jp/pickup/6587567?source=rss",
-   "published": "07/11 16:47",
-   "ts": 1783756027.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "全東信が破産 契約店から憤りの声",
-   "link": "https://news.yahoo.co.jp/pickup/6587556?source=rss",
-   "published": "07/11 15:18",
-   "ts": 1783750711.0,
    "source": "Yahoo!",
    "desc": ""
   }
