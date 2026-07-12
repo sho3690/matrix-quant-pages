@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-12 23:00:18",
+ "updated_at": "2026-07-13 07:11:12",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.223830152000545,
-  "eth_dominance": 9.54702379739726,
-  "total_mcap_usd": 2282084067019.3984,
-  "mcap_change_24h": -0.23862709510263216
+  "btc_dominance": 56.21621132126818,
+  "eth_dominance": 9.572064320769321,
+  "total_mcap_usd": 2277899133239.1006,
+  "mcap_change_24h": -0.43613500670648214
  },
  "defi": {
-  "tvl_usd": 74042579180.0,
-  "change_1d": -0.002388677766488323,
-  "change_7d": -0.0042333280300415055,
-  "change_1y": -0.39931926538627005,
-  "range_pos_1y": 0.04714206458850438
+  "tvl_usd": 74330082299.0,
+  "change_1d": 0.0014765356228068072,
+  "change_7d": -0.0003668227413530234,
+  "change_1y": -0.3969868562962946,
+  "range_pos_1y": 0.04996699684205377
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "ホルムズ海峡封鎖表明で週明けの金融市場 影響に注目",
+   "link": "http://www3.nhk.or.jp/news/html/20260713/k10015175161000.html",
+   "published": "07/13 06:48",
+   "ts": 1783892926.0,
+   "source": "NHK",
+   "desc": "週明けの金融市場ではイランの革命防衛隊がホルムズ海峡を封鎖すると表明したことを受けて、原油の先物価格の動向に関心が集まっています。下落傾向にあった原油価格が大幅に上昇した場合、歴史的な水準まで進んだ円安がさらに進むことがないか、影響が注目されています。"
+  },
+  {
    "title": "ナフサ不足続く シンナー再利用も",
    "link": "https://news.yahoo.co.jp/pickup/6587711?source=rss",
    "published": "07/12 20:46",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587602?source=rss",
    "published": "07/11 22:10",
    "ts": 1783775400.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "モンストを欧州展開 MIXIが検討",
-   "link": "https://news.yahoo.co.jp/pickup/6587597?source=rss",
-   "published": "07/11 21:31",
-   "ts": 1783773095.0,
    "source": "Yahoo!",
    "desc": ""
   }
