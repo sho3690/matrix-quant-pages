@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-12 19:47:28",
+ "updated_at": "2026-07-12 23:00:18",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.252835572328486,
-  "eth_dominance": 9.538936980446971,
-  "total_mcap_usd": 2275497260568.653,
-  "mcap_change_24h": -0.3715295431580709
+  "btc_dominance": 56.223830152000545,
+  "eth_dominance": 9.54702379739726,
+  "total_mcap_usd": 2282084067019.3984,
+  "mcap_change_24h": -0.23862709510263216
  },
  "defi": {
-  "tvl_usd": 73911957274.0,
-  "change_1d": -0.004148521731239696,
-  "change_7d": -0.005990005634529005,
-  "change_1y": -0.4003789537888307,
-  "range_pos_1y": 0.045858607085285094
+  "tvl_usd": 74042579180.0,
+  "change_1d": -0.002388677766488323,
+  "change_7d": -0.0042333280300415055,
+  "change_1y": -0.39931926538627005,
+  "range_pos_1y": 0.04714206458850438
  },
  "news_crypto": [
   {
@@ -117,10 +117,18 @@
  ],
  "news_jp": [
   {
-   "title": "プリウス3年で売れ行き半減 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6587701?source=rss",
-   "published": "07/12 18:53",
-   "ts": 1783850020.0,
+   "title": "ナフサ不足続く シンナー再利用も",
+   "link": "https://news.yahoo.co.jp/pickup/6587711?source=rss",
+   "published": "07/12 20:46",
+   "ts": 1783856763.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "プリウスも ハイブリッド市場変化",
+   "link": "https://news.yahoo.co.jp/pickup/6587706?source=rss",
+   "published": "07/12 20:05",
+   "ts": 1783854342.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587597?source=rss",
    "published": "07/11 21:31",
    "ts": 1783773095.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "玩具店ハローマック なぜ消えた",
-   "link": "https://news.yahoo.co.jp/pickup/6587590?source=rss",
-   "published": "07/11 20:20",
-   "ts": 1783768824.0,
    "source": "Yahoo!",
    "desc": ""
   }
