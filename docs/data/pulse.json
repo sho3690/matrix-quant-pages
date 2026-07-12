@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-12 13:04:13",
+ "updated_at": "2026-07-12 17:34:22",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.3074508330606,
-  "eth_dominance": 9.557151679782917,
-  "total_mcap_usd": 2285184749340.551,
-  "mcap_change_24h": 0.13567409919385817
+  "btc_dominance": 56.28736664425234,
+  "eth_dominance": 9.550237238323705,
+  "total_mcap_usd": 2278526510876.4595,
+  "mcap_change_24h": -0.33528268224023916
  },
  "defi": {
-  "tvl_usd": 74035923932.0,
-  "change_1d": -0.002172522780805486,
-  "change_7d": -0.0043228315863126365,
-  "change_1y": -0.39937325701246607,
-  "range_pos_1y": 0.047076671820606895
+  "tvl_usd": 73885134431.0,
+  "change_1d": -0.004518061275181839,
+  "change_7d": -0.006350734466542662,
+  "change_1y": -0.40059655783796166,
+  "range_pos_1y": 0.045595052677297646
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "日本ではホルムズ海峡を通らない代替ルートでの原油調達が進む",
+   "link": "http://www3.nhk.or.jp/news/html/20260712/k10015175001000.html",
+   "published": "07/12 16:21",
+   "ts": 1783840888.0,
+   "source": "NHK",
+   "desc": "政府はホルムズ海峡が事実上、封鎖されて以降、ホルムズ海峡を通らないルートでの原油の調達、代替調達を進めていて、原油の輸入量の減少幅は縮小傾向にあります。"
+  },
+  {
+   "title": "富士山頂の郵便局 初勤務の舞台裏",
+   "link": "https://news.yahoo.co.jp/pickup/6587670?source=rss",
+   "published": "07/12 14:47",
+   "ts": 1783835258.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「居酒屋」逆風 倒産が上半期最多",
    "link": "https://news.yahoo.co.jp/pickup/6587602?source=rss",
    "published": "07/11 22:10",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6587556?source=rss",
    "published": "07/11 15:18",
    "ts": 1783750711.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "新幹線に「弱冷房車」JR東海見解",
-   "link": "https://news.yahoo.co.jp/pickup/6587544?source=rss",
-   "published": "07/11 13:47",
-   "ts": 1783745240.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "洗顔20回すすぐ 美容目覚めた男性",
-   "link": "https://news.yahoo.co.jp/pickup/6587529?source=rss",
-   "published": "07/11 12:00",
-   "ts": 1783738810.0,
    "source": "Yahoo!",
    "desc": ""
   }
