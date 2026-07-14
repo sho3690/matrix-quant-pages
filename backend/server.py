@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from backend import market, pulse
+from backend import forecast, market, pulse
 from backend.paper import PaperBroker, validate_stock_qty, STOP_K
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -99,6 +99,11 @@ def get_pulse():
         except Exception as e:
             raise HTTPException(status_code=502, detail=f"市況データの取得に失敗しました: {e}")
     return cached
+
+
+@app.get("/api/forecast")
+def get_forecast():
+    return forecast.load_forecast()  # 未生成なら{}(404にはしない)
 
 
 @app.get("/api/paper")

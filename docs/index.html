@@ -19,6 +19,8 @@
     --amber: #ffb86c;
     --gray: #7a8a7c;
     --grid: #0f2513;
+    --cyan: #00e5ff;
+    --cyan-dim: #00a8b8;
     --font: "SF Mono", Menlo, Monaco, "Courier New", monospace;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -154,6 +156,7 @@
   .chart-legend { color: var(--gray); font-size: 10px; margin-top: 2px; }
   .chart-legend .c { color: var(--green); } .chart-legend .m50 { color: var(--green-dim); }
   .chart-legend .m200 { color: var(--amber); }
+  .chart-legend .fc { color: var(--cyan); }
 
 
   /* minmax(0,…)が無いとグリッドの子が中身(幅広テーブル)より縮めず、ページ全体が横に溢れる */
@@ -394,15 +397,15 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.7";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.8";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
 const STATIC_MODE = !!window.STATIC_MODE;
 const apiPath = p => STATIC_MODE
-  ? ({ "/api/market": "data/market.json", "/api/pulse": "data/pulse.json" }[p] || p)
+  ? ({ "/api/market": "data/market.json", "/api/pulse": "data/pulse.json", "/api/forecast": "data/forecast.json" }[p] || p)
   : p;
-let MARKET = null, PAPER = null, PULSE = null, SELECTED = null, FILTER = "all";
+let MARKET = null, PAPER = null, PULSE = null, FORECAST = null, SELECTED = null, FILTER = "all";
 const CLASS_LABEL = { crypto: "暗号通貨", jp: "日本株", other: "海外株など" };
 const RS_BENCH_LABEL = { jp: "日経225", crypto: "BTC", other: "S&P500" };
 
@@ -419,6 +422,13 @@ const fmtJPY = v => v == null ? "--"
 const fmtQty = v => v == null ? "--" : (v >= 100 ? Math.round(v).toLocaleString("ja-JP") : v.toPrecision(4));
 const cls = v => v == null ? "dim" : (v >= 0 ? "pos" : "neg");
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// TimesFM予測のUNIX秒(FORECAST.generated_at)を "YYYY-MM-DD HH:MM" に整形(ブラウザのローカル時刻表示)
+const fmtDateTime = ts => {
+  if (ts == null) return "--";
+  const d = new Date(ts * 1000);
+  const p = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+};
 
 /* ===== データ取得 ===== */
 async function loadMarket() {
@@ -442,6 +452,17 @@ async function loadPulse() {
     PULSE = null;  // 市況パルスが取れなくても本体は動かす
   }
 }
+async function loadForecast() {
+  // TimesFM予測は未生成/404/壊れたJSONいずれでも本体表示を止めない(表示専用の付加情報のため)
+  try {
+    const res = await fetch(apiPath("/api/forecast"));
+    if (!res.ok) { FORECAST = null; return; }
+    const j = await res.json();
+    FORECAST = (j && j.data && Object.keys(j.data).length) ? j : null;  // 未生成時の{}はnull扱い
+  } catch (e) {
+    FORECAST = null;
+  }
+}
 async function refresh() {
   if (!SERVED) { showMsg("err", NOT_SERVED_MSG); return; }
   const btn = document.getElementById("refresh-btn");
@@ -457,7 +478,7 @@ async function refresh() {
       .finally(() => clearTimeout(timer));
     if (!res.ok) throw new Error((await res.json()).detail || "更新失敗");
     MARKET = await res.json();
-    await Promise.all([loadPaper(), loadPulse()]);
+    await Promise.all([loadPaper(), loadPulse(), loadForecast()]);
     renderAll();
   } catch (e) {
     showMsg("err", e.name === "AbortError"
@@ -910,6 +931,11 @@ function setFilter(k) { FILTER = k; renderTabs(); renderBoard(); }
 const fmtPrice = a => a.price_jpy != null ? fmtJPY(a.price_jpy)
   : (a.price == null ? "--" : a.price.toLocaleString("en-US", { maximumFractionDigits: 2 }) + " " + esc(a.currency));
 
+// TimesFM予測値は資産の生値(spark.closeと同じ単位: 日本株=円/暗号通貨等=USD)で来るのでfmtPriceと同じ通貨規則で整形
+const fmtAssetPrice = (v, a) => v == null ? "--"
+  : a.currency === "JPY" ? fmtJPY(v)
+  : v.toLocaleString("en-US", { maximumFractionDigits: 2 }) + " " + esc(a.currency);
+
 const OPEN_GROUPS = { LONG: true, NEUTRAL: false, AVOID: false, CHANGES: false };
 const GROUP_LABEL = { LONG: "買い候補", NEUTRAL: "様子見", AVOID: "避ける" };
 const scoreDesc = (x, y) => y.signal.score - x.signal.score;
@@ -967,6 +993,42 @@ function renderBoard() {
     tr.addEventListener("click", pick);
     tr.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
   });
+}
+
+/* ===== TimesFM株価予測(表示専用。シグナル/ケリー/ペーパートレードの判定には一切使わない) ===== */
+// 選択銘柄のFORECASTエントリ({anchor_date, anchor_close, median, p10, p90})を返す。無ければnull
+function forecastFor(a) {
+  return (FORECAST && FORECAST.data && FORECAST.data[a.symbol]) || null;
+}
+// MARKET.fetched_at(無ければ現在時刻)からFORECAST.generated_atが14日超離れていたら「古い」とみなす
+function isForecastStale() {
+  if (!FORECAST || FORECAST.generated_at == null) return true;
+  const now = (MARKET && MARKET.fetched_at != null) ? MARKET.fetched_at : Date.now() / 1000;
+  return (now - FORECAST.generated_at) > 14 * 86400;
+}
+// ASSET DETAILの「AI FORECAST」ブロックのHTML。予測データが無い銘柄ではブロックごと非表示("")
+function forecastBlock(a) {
+  const f = forecastFor(a);
+  if (!f || !f.median || !f.median.length) return "";
+  const head = `<div class="dim" style="font-size:10px; letter-spacing:1px; margin:10px 0 4px; color:var(--cyan-dim)">── AI FORECAST <span style="text-transform:none; letter-spacing:0">/ TimesFM株価予測</span> ──</div>`;
+  if (isForecastStale()) {
+    return `${head}
+      <div class="warn" style="font-size:12px">予測データが古いため非表示(REFRESHで再生成されます)</div>`;
+  }
+  const anchor = f.anchor_close;
+  const pct = v => (anchor == null || v == null) ? null : (v - anchor) / anchor;
+  const medLast = f.median[f.median.length - 1];
+  const p10Last = f.p10 ? f.p10[f.p10.length - 1] : null;
+  const p90Last = f.p90 ? f.p90[f.p90.length - 1] : null;
+  return `${head}
+    <div style="font-size:12px; padding:1px 0">${f.median.length}日後の中央値:
+      <b>${fmtAssetPrice(medLast, a)}</b>
+      <span class="${cls(pct(medLast))}">(現在比 ${fmtPct(pct(medLast))})</span></div>
+    <div style="font-size:12px; padding:1px 0">予測レンジ(10〜90%):
+      ${fmtAssetPrice(p10Last, a)} 〜 ${fmtAssetPrice(p90Last, a)}
+      <span class="dim">(${fmtPct(pct(p10Last))} 〜 ${fmtPct(pct(p90Last))})</span></div>
+    <div class="dim" style="font-size:11px; margin-top:3px">生成: ${fmtDateTime(FORECAST.generated_at)} / モデル: TimesFM 2.5 (Google)</div>
+    <div class="dim" style="font-size:10px; line-height:1.5; margin-top:5px">帯(10〜90%)が本体で、中央線は当たりません。株価はほぼランダムウォークで、どんなAIでも短期の点予測は原理的に不可能です。この予測はシグナル判定(LONG/AVOID)には一切使っていません。投資助言ではありません。</div>`;
 }
 
 function renderDetail() {
@@ -1039,14 +1101,15 @@ function renderDetail() {
       <tbody>${metricRows}</tbody>
     </table>
     <div class="dim" style="font-size:10px; margin-top:3px">判定の色: <span class="pos">緑=買い材料</span> / <span class="warn">橙=注意・待つ</span> / <span class="neg">赤=警戒</span> / 灰=中立</div>
-    <canvas id="detail-chart" aria-label="${esc(a.name)}の1年チャート" role="img"></canvas>
-    <div class="chart-legend">直近1年${a.currency !== "JPY" ? "・" + esc(a.currency) + "建て" : ""} ─ <span class="c">終値</span> / <span class="m50">MA50</span> / <span class="m200">MA200(点線)</span></div>
+    <canvas id="detail-chart" aria-label="${esc(a.name)}の1年チャート${forecastFor(a) && !isForecastStale() ? "とAI予測(TimesFM)" : ""}" role="img"></canvas>
+    <div class="chart-legend">直近1年${a.currency !== "JPY" ? "・" + esc(a.currency) + "建て" : ""} ─ <span class="c">終値</span> / <span class="m50">MA50</span> / <span class="m200">MA200(点線)</span>${forecastFor(a) && !isForecastStale() ? ' / <span class="fc">AI予測帯(シアン)</span>' : ""}</div>
+    ${forecastBlock(a)}
     <div class="ext-links">${externalLinks(a).map(([label, url]) =>
       `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`).join("")}</div>
     ${STATIC_MODE ? "" : `<div style="margin-top:10px; text-align:right">
       <button class="btn sell" onclick="removeSymbol('${esc(a.symbol)}')">− REMOVE 監視から外す</button>
     </div>`}`;
-  drawChart(a.spark);
+  drawChart(a.spark, isForecastStale() ? null : forecastFor(a));
 }
 
 
@@ -1355,8 +1418,8 @@ function externalLinks(a) {
   return links;
 }
 
-/* 1年チャート(終値+MA50+MA200)をcanvasに描く */
-function drawChart(spark) {
+/* 1年チャート(終値+MA50+MA200)をcanvasに描く。forecastがあればp10〜p90帯+中央値を右側に継ぎ足す(表示専用) */
+function drawChart(spark, forecast) {
   const cv = document.getElementById("detail-chart");
   if (!cv || !spark || !spark.close) return;
   const dpr = window.devicePixelRatio || 1;
@@ -1364,24 +1427,66 @@ function drawChart(spark) {
   cv.width = w * dpr; cv.height = h * dpr;
   const ctx = cv.getContext("2d");
   ctx.scale(dpr, dpr);
-  const all = [...spark.close, ...spark.ma50, ...spark.ma200].filter(v => v != null);
-  if (!all.length) return;
-  const min = Math.min(...all), max = Math.max(...all);
   const n = spark.close.length;
-  const px = i => 2 + i / (n - 1) * (w - 4);
+  const fc = (forecast && forecast.median && forecast.median.length) ? forecast : null;
+  const horizon = fc ? fc.median.length : 0;
+  const total = n + horizon;  // x軸ドメイン: 実測n点 + 予測horizon点
+  const all = [...spark.close, ...spark.ma50, ...spark.ma200];
+  if (fc) all.push(...(fc.median || []), ...(fc.p10 || []), ...(fc.p90 || []));
+  const nums = all.filter(v => v != null);
+  if (!nums.length) return;
+  const min = Math.min(...nums), max = Math.max(...nums);
+  const px = i => 2 + i / (total - 1) * (w - 4);
   const py = v => h - 14 - (v - min) / (max - min || 1) * (h - 26);
-  const line = (arr, color, width, dash) => {
+  const line = (arr, color, width, dash, offset = 0) => {
     ctx.strokeStyle = color; ctx.lineWidth = width; ctx.setLineDash(dash || []);
     ctx.beginPath();
     let started = false;
     arr.forEach((v, i) => {
       if (v == null) return;
-      if (!started) { ctx.moveTo(px(i), py(v)); started = true; }
-      else ctx.lineTo(px(i), py(v));
+      if (!started) { ctx.moveTo(px(offset + i), py(v)); started = true; }
+      else ctx.lineTo(px(offset + i), py(v));
     });
     ctx.stroke(); ctx.setLineDash([]);
   };
   ctx.clearRect(0, 0, w, h);
+
+  if (fc) {
+    // 帯・中央値は実測の最終点(現在値)から接続して連続させる
+    let lastIdx = n - 1;
+    while (lastIdx >= 0 && spark.close[lastIdx] == null) lastIdx--;
+    const lastVal = lastIdx >= 0 ? spark.close[lastIdx] : null;
+    if (lastVal != null && fc.p10 && fc.p90) {
+      ctx.beginPath();
+      ctx.moveTo(px(lastIdx), py(lastVal));
+      fc.p90.forEach((v, i) => { if (v != null) ctx.lineTo(px(n + i), py(v)); });
+      for (let i = fc.p10.length - 1; i >= 0; i--) {
+        if (fc.p10[i] != null) ctx.lineTo(px(n + i), py(fc.p10[i]));
+      }
+      ctx.closePath();
+      ctx.fillStyle = "rgba(0, 229, 255, 0.13)";
+      ctx.fill();
+    }
+    if (lastVal != null && fc.median) {
+      ctx.strokeStyle = "#00e5ff"; ctx.lineWidth = 1.5; ctx.setLineDash([5, 3]);
+      ctx.beginPath();
+      ctx.moveTo(px(lastIdx), py(lastVal));
+      fc.median.forEach((v, i) => { if (v != null) ctx.lineTo(px(n + i), py(v)); });
+      ctx.stroke(); ctx.setLineDash([]);
+    }
+    // 「今日」の区切り線(実測の最終点の位置)
+    ctx.strokeStyle = "rgba(122, 138, 124, 0.55)"; ctx.lineWidth = 1; ctx.setLineDash([2, 2]);
+    ctx.beginPath();
+    ctx.moveTo(px(lastIdx), 4);
+    ctx.lineTo(px(lastIdx), h - 14);
+    ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle = "#00e5ff";
+    ctx.font = "10px Menlo, monospace";
+    ctx.textAlign = "right";
+    ctx.fillText("AI予測", w - 3, 10);
+    ctx.textAlign = "left";
+  }
+
   line(spark.ma200, "#ffb86c", 1.2, [4, 3]);
   line(spark.ma50, "#00a82d", 1.2);
   line(spark.close, "#00ff41", 1.8);
@@ -1849,7 +1954,7 @@ async function bootSequence(lines) {
     "> CONNECTING MARKET DATA FEED .......... ",
   ]);
   try {
-    await Promise.all([loadMarket(), loadPaper(), loadPulse(), boot]);
+    await Promise.all([loadMarket(), loadPaper(), loadPulse(), loadForecast(), boot]);
     await bootSequence(["> DATA LINK ESTABLISHED ................ OK", "> SYSTEM ONLINE"]);
     renderAll();
   } catch (e) {

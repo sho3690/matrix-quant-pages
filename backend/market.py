@@ -11,6 +11,7 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
+from backend import forecast as fc
 from backend import fundamentals as fnd
 from backend import indicators as ind
 from backend import regime as rg
@@ -322,6 +323,18 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
                        "fcf_yield": f.get("fcf_yield"),
                        "earnings_ts": f.get("earnings_ts")})
 
+    # TimesFM予測(隔離venvでサブプロセス実行。失敗してもスナップショット生成は止めない)
+    try:
+        forecast_inputs = {a["symbol"]: closes[a["symbol"]].dropna()
+                           for a in assets_def if a["symbol"] in closes.columns}
+        fc_doc, fc_note = fc.build_forecast(forecast_inputs)
+        forecast_meta = {"generated_at": fc_doc.get("generated_at"),
+                         "horizon": fc_doc.get("horizon", fc.HORIZON),
+                         "count": len(fc_doc.get("data", {})),
+                         "note": fc_note}
+    except Exception:
+        forecast_meta = {"note": "予測処理でエラー(スナップショットは正常)"}
+
     # 世界の指数(GLOBAL MARKETSパネル用)
     indices = []
     for idef in INDICES:
@@ -418,6 +431,7 @@ def build_snapshot(watchlist_path=WATCHLIST_PATH, out_path=MARKET_PATH) -> dict:
         "signal_changes": update_signal_log(assets),
         "regimes": regimes,
         "regime_compare": regime_compare,
+        "forecast_meta": forecast_meta,
     }
     atomic_write_json(out_path, snapshot, allow_nan=False, default=str, indent=1)
     return snapshot
