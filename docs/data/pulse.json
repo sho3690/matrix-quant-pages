@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-18 19:44:27",
+ "updated_at": "2026-07-18 22:54:20",
  "fng": {
   "value": 25,
   "label": "極度の恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.43086993824961,
-  "eth_dominance": 9.789909003641881,
-  "total_mcap_usd": 2273278421840.7896,
-  "mcap_change_24h": 0.8187561989083759
+  "btc_dominance": 56.469575850478506,
+  "eth_dominance": 9.767054023199409,
+  "total_mcap_usd": 2273684572529.0703,
+  "mcap_change_24h": 1.045938125507983
  },
  "defi": {
-  "tvl_usd": 74999103480.0,
-  "change_1d": 0.0008222256400718386,
-  "change_7d": 0.015641882352461778,
-  "change_1y": -0.43256345985490696,
-  "range_pos_1y": 0.05915707701906767
+  "tvl_usd": 75057504194.0,
+  "change_1d": 0.001601107337316332,
+  "change_7d": 0.016432747954121973,
+  "change_1y": -0.43212160525189824,
+  "range_pos_1y": 0.05972931637020416
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "トレカ人気 ブックオフG株が高値",
+   "link": "https://news.yahoo.co.jp/pickup/6588438?source=rss",
+   "published": "07/18 21:45",
+   "ts": 1784378726.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "食品消費税1% 効果に不透明感も",
+   "link": "https://news.yahoo.co.jp/pickup/6588426?source=rss",
+   "published": "07/18 20:13",
+   "ts": 1784373197.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結",
+   "link": "http://www3.nhk.or.jp/news/html/20260718/k10015180281000.html",
+   "published": "07/18 19:44",
+   "ts": 1784371449.0,
+   "source": "NHK",
+   "desc": "次世代の交通の大動脈とされるリニア中央新幹線をめぐり、静岡県とJR東海は、18日、着工の前提となる「自然環境保全協定」を締結し、こう着していた静岡県内の工事が動きだすことになりました。JR東海は今後、地元での説明会などを行った上で工事に着手する方針です。"
+  },
+  {
    "title": "米イランが攻撃応酬 原油は大幅高",
    "link": "https://news.yahoo.co.jp/pickup/6588408?source=rss",
    "published": "07/18 16:59",
@@ -129,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6588387?source=rss",
    "published": "07/18 14:20",
    "ts": 1784352021.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "防衛産業 生産能力の増強が課題",
-   "link": "https://news.yahoo.co.jp/pickup/6588385?source=rss",
-   "published": "07/18 14:13",
-   "ts": 1784351622.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6588374?source=rss",
    "published": "07/18 12:10",
    "ts": 1784344234.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "EU 「排出量取引制度」排出規制の緩和などを提案 産業界に配慮",
-   "link": "http://www3.nhk.or.jp/news/html/20260718/k10015180071000.html",
-   "published": "07/18 08:19",
-   "ts": 1784330344.0,
-   "source": "NHK",
-   "desc": "EU＝ヨーロッパ連合の執行機関は17日、二酸化炭素の排出枠を取り引きする「排出量取引制度」について排出規制の緩和などを提案しました。環境政策が優先されることで競争力の低下を懸念する産業界に配慮した形です。"
-  },
-  {
-   "title": "お盆渋滞予測 中央道で最大45km",
-   "link": "https://news.yahoo.co.jp/pickup/6588357?source=rss",
-   "published": "07/18 08:18",
-   "ts": 1784330292.0,
    "source": "Yahoo!",
    "desc": ""
   }
