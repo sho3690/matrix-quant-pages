@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-19 13:03:25",
+ "updated_at": "2026-07-19 17:38:36",
  "fng": {
   "value": 28,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.53685946971236,
-  "eth_dominance": 9.81386017536978,
-  "total_mcap_usd": 2294038668067.859,
-  "mcap_change_24h": 0.9148327908484278
+  "btc_dominance": 56.50269037460024,
+  "eth_dominance": 9.825036688601351,
+  "total_mcap_usd": 2294061124886.5796,
+  "mcap_change_24h": 0.8960225082812462
  },
  "defi": {
-  "tvl_usd": 75613671085.0,
-  "change_1d": 0.007895481141400262,
-  "change_7d": 0.03325259528425395,
-  "change_1y": -0.4341961730113181,
-  "range_pos_1y": 0.06517891722319089
+  "tvl_usd": 75666627569.0,
+  "change_1d": 0.008694763232764302,
+  "change_7d": 0.033976239881123416,
+  "change_1y": -0.433799908937889,
+  "range_pos_1y": 0.06569781129086666
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "解説滑らか 87歳の男性バスガイド",
+   "link": "https://news.yahoo.co.jp/pickup/6588519?source=rss",
+   "published": "07/19 16:30",
+   "ts": 1784446249.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ニチレイの障害 物流復旧へ正念場",
+   "link": "https://news.yahoo.co.jp/pickup/6588516?source=rss",
+   "published": "07/19 16:12",
+   "ts": 1784445142.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "冷やし甘酒が特産品に 海外輸出も",
+   "link": "https://news.yahoo.co.jp/pickup/6588506?source=rss",
+   "published": "07/19 14:41",
+   "ts": 1784439677.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "1円玉1億3200万枚量産 背景",
    "link": "https://news.yahoo.co.jp/pickup/6588483?source=rss",
    "published": "07/19 10:59",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6588408?source=rss",
    "published": "07/18 16:59",
    "ts": 1784361542.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "JR東海と静岡県 リニア巡り協定",
-   "link": "https://news.yahoo.co.jp/pickup/6588387?source=rss",
-   "published": "07/18 14:20",
-   "ts": 1784352021.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米アップル 日本でiPhoneの販売価格を約10％値上げ",
-   "link": "http://www3.nhk.or.jp/news/html/20260718/k10015180171000.html",
-   "published": "07/18 12:40",
-   "ts": 1784346021.0,
-   "source": "NHK",
-   "desc": "アメリカのIT大手、「アップル」は、日本国内での「iPhone」の販売価格を10％程度引き上げました。円安の影響を反映したものとみられます。"
-  },
-  {
-   "title": "子の夏休み 体験格差どう埋める",
-   "link": "https://news.yahoo.co.jp/pickup/6588377?source=rss",
-   "published": "07/18 12:27",
-   "ts": 1784345277.0,
    "source": "Yahoo!",
    "desc": ""
   }
