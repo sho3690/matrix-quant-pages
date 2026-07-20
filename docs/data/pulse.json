@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-07-20 07:12:26",
+ "updated_at": "2026-07-20 13:10:58",
  "fng": {
-  "value": 28,
+  "value": 29,
   "label": "恐怖",
   "history": [
-   23,
    23,
    20,
    23,
@@ -33,23 +32,72 @@
    25,
    27,
    25,
-   28
+   28,
+   29
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.492062235862164,
-  "eth_dominance": 9.825138718459701,
-  "total_mcap_usd": 2289783924667.3037,
-  "mcap_change_24h": -0.2815318175989035
+  "btc_dominance": 56.54225112761575,
+  "eth_dominance": 9.858013711299522,
+  "total_mcap_usd": 2297981321217.904,
+  "mcap_change_24h": 0.14724003817353237
  },
  "defi": {
-  "tvl_usd": 75486537400.0,
-  "change_1d": 0.006299519642188889,
-  "change_7d": 0.03151532729965045,
-  "change_1y": -0.43514749205825753,
-  "range_pos_1y": 0.0639331979086635
+  "tvl_usd": 75532909591.0,
+  "change_1d": -0.00037315102644308595,
+  "change_7d": 0.030210663912593194,
+  "change_1y": -0.43892156165359886,
+  "range_pos_1y": 0.06438757578645138
  },
  "news_crypto": [
+  {
+   "title": "仏ギャンブル規制当局、予測市場ポリマーケットをブロック　ワールドカップで取引急増の中",
+   "link": "https://coinpost.jp/?p=725989",
+   "published": "07/20 12:27",
+   "ts": 1784518053.0,
+   "source": "CoinPost",
+   "desc": "フランス国立ギャンブル局が予測市場ポリマーケットへの接続遮断を命令。気象センサーへの不正操作疑惑やKYC不備、W杯に伴う取引急増を背景とした規制強化の経緯を解説。"
+  },
+  {
+   "title": "ジーニアス法の実施規則、期限内に完成せず　発行体は未確定案で準備継続",
+   "link": "https://coinpost.jp/?p=725983",
+   "published": "07/20 10:27",
+   "ts": 1784510836.0,
+   "source": "CoinPost",
+   "desc": "ジーニアス法が定めた規則制定の1年期限を、OCC・FRB・FDIC・NCUA・財務省の5当局がそろって徒過した。柱となる規則は今も提案段階のまま。2027年1月の施行日は動かず、発行体は未確定の草案を前提に準備を迫られている。"
+  },
+  {
+   "title": "物流大手AZ-COM丸和ホールディングス、JPYC導入へ　企業による大規模採用事例に",
+   "link": "https://coinpost.jp/?p=725970",
+   "published": "07/20 09:38",
+   "ts": 1784507899.0,
+   "source": "CoinPost",
+   "desc": "物流大手AZ-COM丸和ホールディングスが、協力会社約2,300社への支払いに日本円建てステーブルコイン「JPYC」を導入する。国内企業による大規模採用の初事例となる見通しだ。"
+  },
+  {
+   "title": "ビットコイン、弱気相場終盤入りのシグナル点灯か＝アナリスト",
+   "link": "https://coinpost.jp/?p=725974",
+   "published": "07/20 09:07",
+   "ts": 1784506042.0,
+   "source": "CoinPost",
+   "desc": "オンチェーンアナリストのDarkfost氏が、ビットコインのSTH/LTHコストベース逆転を確認し弱気相場終盤入りのシグナルが点灯したと指摘した。過去サイクルとの共通点や、強気相場入りを示す条件・DCA終点の目安も解説する。"
+  },
+  {
+   "title": "韓国政府、ウォン建てステーブルコイン発行の法的根拠整備へ",
+   "link": "https://coinpost.jp/?p=725962",
+   "published": "07/20 08:07",
+   "ts": 1784502439.0,
+   "source": "CoinPost",
+   "desc": "韓国政府がウォン国際化ロードマップを発表。デジタル資産基本法制定に合わせ、ウォン建てステーブルコインの発行・流通根拠を整備するほか、CBDC連動の国債トークン化実証やBIS主導プロジェクトへの参加も打ち出した。"
+  },
+  {
+   "title": "ギャラクシーCEO「3条件揃えば」ビットコイン10万ドルも",
+   "link": "https://coinpost.jp/?p=725956",
+   "published": "07/20 07:30",
+   "ts": 1784500222.0,
+   "source": "CoinPost",
+   "desc": "ギャラクシーデジタルのノボグラッツCEOが、クラリティー法可決とFRBの利下げが条件になるとの見方を番組で示した。基本シナリオは6万から8万ドルのレンジとし、ストラテジー社の含み損リスクにも言及した。"
+  },
   {
    "title": "ビットコインCPI下振れで持ち直すも上値重く、米株決算と中東情勢が焦点｜bitbankアナリスト寄稿",
    "link": "https://coinpost.jp/?p=725786",
@@ -65,57 +113,57 @@
    "ts": 1784420731.0,
    "source": "CoinPost",
    "desc": "今週は、金融商品取引法改正案の参院本会議での成立、仮想通貨ビットコインとイーサリアムの現物ETFの資金フロー、リップル社のブラッド・ガーリングハウスCEOの講演に関する記事が関心を集めた。"
-  },
-  {
-   "title": "パンテラが語る次の資金の潮流、ジーニアス法とAIが変える市場の未来｜WebX2026",
-   "link": "https://coinpost.jp/?p=724587",
-   "published": "07/19 09:00",
-   "ts": 1784419200.0,
-   "source": "CoinPost",
-   "desc": "WebX2026に登壇したパンテラキャピタルのゼネラルパートナー、フランクリン・ビ氏が仮想通貨市場の新サイクルを解説した。ジーニアス法が世界の規制に与える影響、DAT企業の台頭、ブロックチェーンとAIの収束が拓く次の10年について、機関投資家視点で語った。"
-  },
-  {
-   "title": "量子脅威が現実となる『Qデイ』後でもビットコイン所有権を証明、Project Elevenが技術開発",
-   "link": "https://coinpost.jp/?p=725901",
-   "published": "07/18 14:00",
-   "ts": 1784350821.0,
-   "source": "CoinPost",
-   "desc": "Project Elevenが、量子コンピュータ登場後もビットコインウォレットの所有権を証明できるゼロ知識証明技術を開発。移行期限を逃したユーザーにも対応するとしている。"
-  },
-  {
-   "title": "セキュリタイズとキャンター、企業IPOにトークン化技術を活用する提携を発表",
-   "link": "https://coinpost.jp/?p=725855",
-   "published": "07/18 13:10",
-   "ts": 1784347850.0,
-   "source": "CoinPost",
-   "desc": "RWAトークン化企業セキュリタイズと世界的金融サービス企業キャンターは今週、企業がIPOや追加株式発行をブロックチェーン上で実施できるようにする業務提携を発表した。"
-  },
-  {
-   "title": "米グレースケール、ソラナETFのステーキング報酬を四半期現金分配へ",
-   "link": "https://coinpost.jp/?p=725899",
-   "published": "07/18 11:32",
-   "ts": 1784341927.0,
-   "source": "CoinPost",
-   "desc": "グレースケールは17日、ソラナステーキング現物ETF（GSOL）の信託契約改定をSECに申請した。8月7日頃に発効しステーキング報酬を四半期ごとに現金化して株主に分配する枠組みに移行。"
-  },
-  {
-   "title": "Trezor幹部、ZachXBT氏のハードウォレット批判発言に反論",
-   "link": "https://coinpost.jp/?p=725878",
-   "published": "07/18 10:15",
-   "ts": 1784337317.0,
-   "source": "CoinPost",
-   "desc": "ZachXBT氏によるハードウェアウォレットに対する痛烈批判に対してTrezorのCCOが反論した。iPhoneで仮想通貨を保管することについても業界で議論が巻き起こった。"
-  },
-  {
-   "title": "ビットコイン相場はもみ合い継続か、コインシェアーズが分析公開",
-   "link": "https://coinpost.jp/?p=725865",
-   "published": "07/18 09:45",
-   "ts": 1784335511.0,
-   "source": "CoinPost",
-   "desc": "コインシェアーズは、仮想通貨相場のレポートを公開し、まだビットコイン価格はもみ合いを継続するとの見方を示した。投資商品の資金フローも報告している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "今年の夏はウナギが値下がり なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6588621?source=rss",
+   "published": "07/20 13:10",
+   "ts": 1784520620.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "運営もう無理 酷暑で海水浴離れ",
+   "link": "https://news.yahoo.co.jp/pickup/6588617?source=rss",
+   "published": "07/20 12:30",
+   "ts": 1784518238.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日米合意1年 関税の負担依然重く",
+   "link": "https://news.yahoo.co.jp/pickup/6588606?source=rss",
+   "published": "07/20 10:54",
+   "ts": 1784512468.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "契約書や許可なし ヤミ小作の実態",
+   "link": "https://news.yahoo.co.jp/pickup/6588600?source=rss",
+   "published": "07/20 09:49",
+   "ts": 1784508568.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マンジャロの違法転売 取り巻く闇",
+   "link": "https://news.yahoo.co.jp/pickup/6588598?source=rss",
+   "published": "07/20 09:32",
+   "ts": 1784507561.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "NY原油市場 1バレル＝85ドル台に上昇 1か月ぶりの高値水準",
+   "link": "http://www3.nhk.or.jp/news/html/20260720/k10015181071000.html",
+   "published": "07/20 08:02",
+   "ts": 1784502163.0,
+   "source": "NHK",
+   "desc": "19日のニューヨーク原油市場では、国際的な取り引きの指標となるWTIの先物価格が一時、1バレル＝85ドル台に上昇しました。これは6月12日以来、およそ1か月ぶりの高値水準です。アメリカとイランの対立が激しくなるなか、エネルギー輸送の要衝であるホルムズ海峡の航行にも悪影響が及ぶとの"
+  },
   {
    "title": "換気扇24h使う?浴室売る2社見解",
    "link": "https://news.yahoo.co.jp/pickup/6588568?source=rss",
@@ -129,54 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6588540?source=rss",
    "published": "07/19 19:06",
    "ts": 1784455576.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "解説滑らか 87歳の男性バスガイド",
-   "link": "https://news.yahoo.co.jp/pickup/6588519?source=rss",
-   "published": "07/19 16:30",
-   "ts": 1784446249.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニチレイの障害 物流復旧へ正念場",
-   "link": "https://news.yahoo.co.jp/pickup/6588516?source=rss",
-   "published": "07/19 16:12",
-   "ts": 1784445142.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "冷やし甘酒が特産品に 海外輸出も",
-   "link": "https://news.yahoo.co.jp/pickup/6588506?source=rss",
-   "published": "07/19 14:41",
-   "ts": 1784439677.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "1円玉1億3200万枚量産 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6588483?source=rss",
-   "published": "07/19 10:59",
-   "ts": 1784426389.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "トレカ人気 ブックオフG株が高値",
-   "link": "https://news.yahoo.co.jp/pickup/6588438?source=rss",
-   "published": "07/18 21:45",
-   "ts": 1784378726.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "食品消費税1% 効果に不透明感も",
-   "link": "https://news.yahoo.co.jp/pickup/6588426?source=rss",
-   "published": "07/18 20:13",
-   "ts": 1784373197.0,
    "source": "Yahoo!",
    "desc": ""
   }
