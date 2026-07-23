@@ -136,6 +136,16 @@
   .metric-table td:nth-child(2) { text-align: right; white-space: nowrap; }
   .metric-table td:last-child { font-size: 11px; }
 
+  /* ===== FUND REPORT(ファンダメンタルズ総括) ===== */
+  .fund-report { border: 1px solid var(--green-faint); padding: 8px 10px; margin: 10px 0; }
+  /* minmax(0,…)で列を縮められるようにし、375px幅でも横はみ出しさせない */
+  .fund-cat-grid { display: grid; grid-template-columns: minmax(0, 84px) minmax(0, 1fr) minmax(0, 64px);
+                   gap: 3px 8px; font-size: 12px; align-items: baseline; }
+  .fund-cat-grid .fc-h { color: var(--green-dim); font-size: 10px; border-bottom: 1px solid var(--grid);
+                          padding-bottom: 3px; margin-bottom: 2px; }
+  .fund-cat-grid .fc-grade { text-align: right; white-space: nowrap; }
+  .fund-report .comment { font-size: 12px; line-height: 1.7; margin-top: 8px; }
+
   /* ===== 市況パルス・ニュース・リンク ===== */
   .pulse-grid { display: flex; gap: 26px; flex-wrap: wrap; align-items: flex-start; }
   .pulse-chip .label { color: var(--green-dim); font-size: 11px; }
@@ -397,7 +407,7 @@
 
 <script>
 "use strict";
-const APP_VERSION = "v3.8";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v3.9";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -1096,6 +1106,7 @@ function renderDetail() {
     <hr style="border:none;border-top:1px solid var(--grid);margin:8px 0">
     <div style="display:flex; justify-content:space-between">
       <span class="dim">価格(円換算)</span><b>${fmtJPY(a.price_jpy)}</b></div>
+    ${fundReportBlock(a)}
     <table class="metric-table">
       <thead><tr><th style="text-align:left">指標</th><th>値</th><th style="text-align:left">判定(目安)</th></tr></thead>
       <tbody>${metricRows}</tbody>
@@ -1224,7 +1235,8 @@ function judgeMetrics(a) {
         : a.per < 10 ? J("割安圏(10倍未満)" + vsSector(a, "per", v => v.toFixed(1) + "倍"), "pos")
         : a.per <= 25 ? J("標準圏(10〜25倍)" + vsSector(a, "per", v => v.toFixed(1) + "倍"), "dim")
         : a.per <= 60 ? J("割高圏(25倍超=高い成長期待の裏返し)" + vsSector(a, "per", v => v.toFixed(1) + "倍"), "warn")
-        : J("参考外(60倍超は一時的な減益でEPSが縮んだ見かけの可能性。PBR・ROEで補完を)", "warn")]);
+        : J("参考外(60倍超は一時的な減益でEPSが縮んだ見かけの可能性。PBR・ROEで補完を)", "warn"),
+      "val"]);
     rows.push(["PSR(株価売上倍率)",
       a.psr == null ? "--" : a.psr.toFixed(1) + "倍",
       a.psr == null ? null
@@ -1234,71 +1246,82 @@ function judgeMetrics(a) {
             : J("高評価(10倍超)。大きな成長期待が既に織り込み済み", "warn"))
           : (a.psr < 1 ? J("売上比で割安(1倍未満)", "pos")
             : a.psr <= 5 ? J("標準圏(1〜5倍)", "dim")
-            : J("高評価(5倍超=新興・高成長型の水準)", "warn"))]);
+            : J("高評価(5倍超=新興・高成長型の水準)", "warn")),
+      "val"]);
     rows.push(["予想PER(来期ベース)",
       a.per_fwd == null ? "--" : a.per_fwd.toFixed(1) + "倍",
       a.per_fwd == null ? null
         : a.per != null && a.per_fwd < a.per * 0.8 ? J("来期は増益予想(実績PERより大幅に低い)", "pos")
         : a.per != null && a.per_fwd > a.per * 1.2 ? J("来期は減益予想(実績PERより高い)", "warn")
-        : J("実績と同水準の予想", "dim")]);
+        : J("実績と同水準の予想", "dim"),
+      "val"]);
     rows.push(["PBR(株価純資産倍率)",
       a.pbr == null ? "--" : a.pbr.toFixed(2) + "倍",
       a.pbr == null ? null
         : a.pbr < 1 ? J("1倍割れ=解散価値以下(割安。ただし理由の確認を)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "pos")
         : a.pbr <= 3 ? J("標準圏(1〜3倍)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "dim")
-        : J("割高圏(3倍超)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "warn")]);
+        : J("割高圏(3倍超)" + vsSector(a, "pbr", v => v.toFixed(2) + "倍"), "warn"),
+      "val"]);
     rows.push(["配当利回り",
       fmtPct(a.div_yield).replace("+", ""),
       a.div_yield == null ? null
         : a.div_yield >= 0.06 ? J("6%超は要注意(株価下落の結果のことも。配当性向・自己資本比率と併読を)", "warn")
         : a.div_yield >= 0.035 ? J("高配当(3.5%超)", "pos")
         : a.div_yield >= 0.015 ? J("ふつう(1.5〜3.5%)", "dim")
-        : J("低め(成長投資型)", "dim")]);
+        : J("低め(成長投資型)", "dim"),
+      "ret"]);
     rows.push(["ROE(稼ぐ力)",
       fmtPct(a.roe).replace("+", ""),
       a.roe == null ? null
         : a.roe < 0 ? J("赤字(自己資本を減らしている)", "neg")
         : a.roe < 0.08 ? J("低収益(8%未満)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "warn")
         : a.roe <= 0.15 ? J("標準(8〜15%)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "dim")
-        : J("稼ぐ力が強い(15%超)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "pos")]);
+        : J("稼ぐ力が強い(15%超)" + vsSector(a, "roe", v => (v * 100).toFixed(0) + "%"), "pos"),
+      "profit"]);
     rows.push(["営業利益率",
       a.op_margin == null ? "--" : fmtPct(a.op_margin).replace("+", ""),
       a.op_margin == null ? null
         : a.op_margin < 0 ? J("本業が赤字", "neg")
         : a.op_margin < 0.05 ? J("薄利(5%未満)。競争が厳しい可能性", "warn")
         : a.op_margin <= 0.15 ? J("ふつう(5〜15%)", "dim")
-        : J("高収益体質(15%超)", "pos")]);
+        : J("高収益体質(15%超)", "pos"),
+      "profit"]);
     rows.push(["増収率(前年比)",
       fmtPct(a.rev_growth),
       a.rev_growth == null ? null
         : a.rev_growth < 0 ? J("減収(売上が縮小)", "warn")
         : a.rev_growth <= 0.10 ? J("横ばい〜微増", "dim")
-        : J("二桁成長(10%超)", "pos")]);
+        : J("二桁成長(10%超)", "pos"),
+      "growth"]);
     rows.push(["増益率(前年比)",
       fmtPct(a.earn_growth),
       a.earn_growth == null ? null
         : a.earn_growth < 0 ? J("減益", "warn")
         : a.earn_growth <= 0.15 ? J("ふつう", "dim")
-        : J("大幅増益(15%超)", "pos")]);
+        : J("大幅増益(15%超)", "pos"),
+      "growth"]);
     rows.push(["配当性向",
       a.payout == null ? "--" : Math.round(a.payout * 100) + "%",
       a.payout == null ? null
         : a.payout > 1 ? J("利益以上に配当(タコ配。減配リスク大)", "neg")
         : a.payout > 0.6 ? J("高め(60%超。減配余地に注意)", "warn")
         : a.payout >= 0.3 ? J("健全(30〜60%)", "dim")
-        : J("余力あり(30%未満=成長投資優先)", "dim")]);
+        : J("余力あり(30%未満=成長投資優先)", "dim"),
+      "ret"]);
     rows.push(["自己資本比率(概算)",
       a.equity_ratio == null ? "--" : Math.round(a.equity_ratio * 100) + "%",
       a.equity_ratio == null ? null
         : a.equity_ratio > 0.5 ? J("財務堅固(50%超)", "pos")
         : a.equity_ratio >= 0.2 ? J("ふつう(20〜50%)", "dim")
-        : J("借入依存が高め(金融・リース業は業態的に低くて正常)", "warn")]);
+        : J("借入依存が高め(金融・リース業は業態的に低くて正常)", "warn"),
+      "fin"]);
     rows.push(["FCF利回り",
       a.fcf_yield == null ? "--" : fmtPct(a.fcf_yield),
       a.fcf_yield == null ? null
         : a.fcf_yield < 0 ? J("現金流出(大型投資期の可能性も)", "warn")
         : a.fcf_yield <= 0.06 ? J("ふつう(0〜6%)", "dim")
-        : J("現金創出力が高い(6%超)", "pos")]);
+        : J("現金創出力が高い(6%超)", "pos"),
+      "profit"]);
     rows.push(["時価総額",
       fmtMcap(a.mcap, a.currency),
       a.mcap == null ? null
@@ -1389,6 +1412,198 @@ function judgeMetrics(a) {
        : J("比較的浅い(-20%以内)", "dim")],
   ]);
   return rows;
+}
+
+/* ===== FUND REPORT(ファンダメンタルズ総括) =====
+   投信のファンドレポート「概況」に相当するブロック。judgeMetrics(a)のファンダ行についた
+   4要素目のカテゴリキーで集計・グレード化し、短い総括文をルールベースで合成する。
+   LLMは使わず全てテンプレート合成(機械集計の要約であり、投資助言ではない)。 */
+const FUND_CATS = [
+  ["val", "割安性"],
+  ["profit", "収益性"],
+  ["growth", "成長性"],
+  ["fin", "財務健全性"],
+  ["ret", "株主還元"],
+];
+// カテゴリ内のpos/dim/warn/neg件数から「◎良好/○標準/△注意/▲弱い」を出す。
+// score式は総評(fundVerdict)と同じ pos−neg−0.5*warn。指標が1つも無ければデータ不足扱い
+function fundCatGrade(c) {
+  const n = c.pos + c.dim + c.warn + c.neg;
+  if (n === 0) return { t: "−", c: "dim", insufficient: true, score: null };
+  const s = c.pos - c.neg - 0.5 * c.warn;
+  const g = s >= 1 ? { t: "◎ 良好", c: "pos" }
+    : s > -0.5 ? { t: "○ 標準", c: "dim" }
+    : s > -1.5 ? { t: "△ 注意", c: "warn" }
+    : { t: "▲ 弱い", c: "neg" };
+  return { ...g, insufficient: false, score: s };
+}
+
+/* ASSET DETAILの「FUND REPORT」ブロックのHTML。暗号資産は財務諸表が無いため非表示("") */
+function fundReportBlock(a) {
+  if (a.asset_class === "crypto") return "";
+
+  // judgeMetrics(a)のファンダ区間(先頭の"#"〜次の"#"の手前)だけを見て集計する
+  const rows = judgeMetrics(a);
+  const totalC = { pos: 0, dim: 0, warn: 0, neg: 0 };
+  const catC = {};
+  FUND_CATS.forEach(([key]) => catC[key] = { pos: 0, dim: 0, warn: 0, neg: 0 });
+  let filled = 0, totalMetrics = 0, secCount = -1;
+  for (const r of rows) {
+    if (r[0] === "#") { secCount++; if (secCount >= 1) break; continue; }
+    const [, , j, key] = r;
+    if (j) totalC[j.c] = (totalC[j.c] || 0) + 1;
+    if (key) {
+      totalMetrics++;
+      if (j) { filled++; catC[key][j.c] = (catC[key][j.c] || 0) + 1; }
+    }
+  }
+  const grade = {};
+  FUND_CATS.forEach(([key]) => grade[key] = fundCatGrade(catC[key]));
+
+  // ── カテゴリ行の代表値(nullは"--") ──
+  const REP = {
+    val: (() => {
+      const usePer = a.per != null, usePsr = !usePer && a.psr != null;
+      const left = usePer ? `PER ${a.per.toFixed(1)}倍` : usePsr ? `PSR ${a.psr.toFixed(1)}倍` : "PER --";
+      const pbr = a.pbr != null ? `PBR ${a.pbr.toFixed(2)}倍` : "PBR --";
+      return `${left} / ${pbr}`;
+    })(),
+    profit: `ROE ${a.roe != null ? (a.roe * 100).toFixed(1) + "%" : "--"} / 営業利益率 ${a.op_margin != null ? (a.op_margin * 100).toFixed(1) + "%" : "--"}`,
+    growth: `増収率 ${a.rev_growth != null ? (a.rev_growth * 100).toFixed(1) + "%" : "--"} / 増益率 ${a.earn_growth != null ? (a.earn_growth * 100).toFixed(1) + "%" : "--"}`,
+    fin: `自己資本比率 ${a.equity_ratio != null ? Math.round(a.equity_ratio * 100) + "%" : "--"}`,
+    ret: `配当利回り ${a.div_yield != null ? (a.div_yield * 100).toFixed(1) + "%" : "--"} / 配当性向 ${a.payout != null ? Math.round(a.payout * 100) + "%" : "--"}`,
+  };
+
+  const comment = fundReportComment(a, grade, totalC, filled, totalMetrics);
+
+  const catRows = FUND_CATS.map(([key, name]) => `
+    <div class="dim">${esc(name)}</div>
+    <div>${esc(REP[key])}</div>
+    <div class="fc-grade ${grade[key].c}">${esc(grade[key].t)}</div>`).join("");
+
+  return `
+    <div class="fund-report">
+      <div class="dim" style="font-size:10px; letter-spacing:1px; margin-bottom:6px">── FUND REPORT <span style="text-transform:none; letter-spacing:0">/ ファンダメンタルズ総括</span> ──</div>
+      <div style="font-size:11px; margin-bottom:6px">業種: ${esc(sectorLabel(a) || "--")} / 時価総額: ${esc(fmtMcap(a.mcap, a.currency))} / 指標取得: ${filled}/${totalMetrics}</div>
+      <div class="fund-cat-grid">
+        <div class="fc-h">カテゴリ</div><div class="fc-h">代表値</div><div class="fc-h fc-grade">グレード</div>
+        ${catRows}
+      </div>
+      <div class="comment">${esc(comment)}</div>
+      <div class="dim" style="font-size:10px; margin-top:6px">Yahoo速報値による機械集計の要約。投資助言ではない。精査は決算短信・IR資料で。</div>
+    </div>`;
+}
+
+/* fundReportBlockの総括コメント(2〜4文・だ/である調)を組み立てる。カテゴリの実データから合成する */
+function fundReportComment(a, grade, totalC, filled, totalMetrics) {
+  const parts = [];
+  if (filled < 6) parts.push(`速報データの取得が不完全(${filled}/${totalMetrics}項目)のため参考程度に。`);
+
+  // ① 割安性
+  const val = grade.val;
+  if (a.per == null && a.psr == null) {
+    parts.push("バリュエーション指標は取得できず。");
+  } else {
+    const usePer = a.per != null;
+    const label = usePer ? "PER" : "PSR";
+    const num = (usePer ? a.per : a.psr).toFixed(1);
+    const pbrPart = a.pbr != null ? `・PBR ${a.pbr.toFixed(2)}倍` : "";
+    const lvl = val.c === "pos" ? "割安な水準" : val.c === "dim" ? "標準的な水準" : "割高な水準";
+    let s = `${label} ${num}倍${pbrPart}と${lvl}。`;
+    if (usePer) {
+      const sm = a.sector && sectorMedian(a.sector, "per");
+      if (sm) {
+        const ratio = a.per / sm.med;
+        const rel = ratio > 1.3 ? "高め" : ratio < 0.77 ? "低め" : "同水準";
+        s += `監視中の同業種${sm.n}社の中央値${sm.med.toFixed(1)}倍と比べ${rel}。`;
+      }
+    }
+    parts.push(s);
+  }
+
+  // ② 収益性×成長性
+  const s2 = fundProfitGrowthSentence(a, grade.profit, grade.growth);
+  if (s2) parts.push(s2);
+
+  // ③ 財務・還元
+  const s3 = fundFinRetSentence(a);
+  if (s3) parts.push(s3);
+
+  // ④ 総合(既存fundVerdictと同じscore式) + 弱点(▲が△より優先される通常の重篤度順)
+  const ts = totalC.pos - totalC.neg - 0.5 * totalC.warn;
+  const verdict = ts >= 2.5 ? "良好" : ts > -0.5 ? "中立" : ts > -2.5 ? "注意" : "弱い";
+  let s4 = `総合評価は『${verdict}』。`;
+  const SEV = { pos: 3, dim: 2, warn: 1, neg: 0 };
+  let weakest = null;
+  FUND_CATS.forEach(([key, name]) => {
+    const g = grade[key];
+    if (g.insufficient || (g.c !== "warn" && g.c !== "neg")) return;
+    if (!weakest || SEV[g.c] < SEV[weakest.g.c]) weakest = { name, g };
+  });
+  // 「弱点なし」と言い切るのは個別の警戒(neg)項目もゼロのときだけ
+  // (例: カテゴリ計は標準でもタコ配警告と矛盾する文にならないように)
+  if (weakest) s4 += `弱点は${weakest.name}。`;
+  else if (totalC.neg === 0) s4 += "明確な弱点は見当たらない。";
+  parts.push(s4);
+
+  return parts.join("");
+}
+
+/* 収益性×成長性の文(グレードの組合せで分岐)。データが無いカテゴリには触れない */
+function fundProfitGrowthSentence(a, profitG, growthG) {
+  if (profitG.insufficient && growthG.insufficient) return "";
+  const tier = g => g.insufficient ? null : g.c === "pos" ? "good" : g.c === "dim" ? "mid" : "weak";
+  const pTier = tier(profitG), gTier = tier(growthG);
+  const roeTxt = a.roe != null ? `ROE ${(a.roe * 100).toFixed(1)}%`
+    : a.op_margin != null ? `営業利益率 ${(a.op_margin * 100).toFixed(1)}%` : null;
+  const revNeg = a.rev_growth != null && a.rev_growth < 0;
+  const earnNeg = a.earn_growth != null && a.earn_growth < 0;
+  const declineWord = revNeg && earnNeg ? "減収減益" : revNeg ? "減収" : earnNeg ? "減益" : "成長の鈍化";
+
+  if (pTier == null) {
+    if (gTier === "good") return "成長性は良好で、増収・増益ともに確保している。";
+    if (gTier === "weak") return `足元は${declineWord}で成長に陰りがある。`;
+    return "成長は横ばい圏で推移している。";
+  }
+  if (gTier == null) {
+    if (pTier === "good") return `${roeTxt ? roeTxt + "と" : ""}収益性は高い。`;
+    if (pTier === "weak") return `収益性に課題を残す${roeTxt ? `(${roeTxt})` : ""}。`;
+    return "収益性は標準的な水準。";
+  }
+  if (pTier === "good" && gTier === "good") {
+    return `${roeTxt || "収益性"}と稼ぐ力が強く、増収${fmtPct(a.rev_growth)}・増益${fmtPct(a.earn_growth)}と成長も伴う。`;
+  }
+  if (pTier === "good" && gTier === "weak") {
+    return `収益性は高い一方、足元は${declineWord}で成長に陰りがある。`;
+  }
+  if (pTier === "weak" && gTier === "good") {
+    return `成長は続くが、収益性${roeTxt ? `(${roeTxt})` : ""}に課題を残す。`;
+  }
+  if (pTier === "weak" && gTier === "weak") {
+    return "収益性・成長性ともに弱く、業績面の追い風は乏しい。";
+  }
+  const profitDesc = pTier === "good" ? "高め" : pTier === "weak" ? "低め" : "標準的";
+  const growthDesc = gTier === "good" ? "二桁成長" : gTier === "weak" ? "縮小" : "横ばい圏";
+  return `収益性は${profitDesc}、成長は${growthDesc}。`;
+}
+
+/* 財務健全性・株主還元の文。タコ配(配当性向>100%)は必ず注意文を入れる */
+function fundFinRetSentence(a) {
+  const parts = [];
+  if (a.equity_ratio != null) {
+    const pct = Math.round(a.equity_ratio * 100);
+    const desc = a.equity_ratio > 0.5 ? "堅固" : a.equity_ratio >= 0.2 ? "標準的" : "借入依存が高め";
+    parts.push(`財務は自己資本比率${pct}%と${desc}。`);
+  }
+  if (a.div_yield != null) {
+    const pct = (a.div_yield * 100).toFixed(1);
+    const desc = a.div_yield >= 0.035 ? "高配当" : a.div_yield >= 0.015 ? "標準" : "低め=成長投資型";
+    parts.push(`配当利回り${pct}%(${desc})。`);
+  }
+  if (a.payout != null && a.payout > 1) {
+    parts.push("利益超過の配当(タコ配)で減配リスクに注意。");
+  }
+  return parts.join("");
 }
 
 /* 選択銘柄の詳細調査用リンク集(情報源ガイドの無料ソースに直行) */
