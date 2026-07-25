@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-25 17:27:25",
+ "updated_at": "2026-07-25 19:48:19",
  "fng": {
   "value": 27,
   "label": "恐怖",
@@ -36,18 +36,13 @@
    27
   ]
  },
- "crypto_global": {
-  "btc_dominance": 56.534921599855736,
-  "eth_dominance": 9.859443907414045,
-  "total_mcap_usd": 2268204300610.322,
-  "mcap_change_24h": -1.6813488093536506
- },
+ "crypto_global": null,
  "defi": {
-  "tvl_usd": 75411460532.0,
-  "change_1d": -0.006703047723709776,
-  "change_7d": 0.005285155038980971,
-  "change_1y": -0.44497255716541084,
-  "range_pos_1y": 0.06319720464489692
+  "tvl_usd": 75211042075.0,
+  "change_1d": -0.00932122824191417,
+  "change_7d": 0.0026134430976318956,
+  "change_1y": -0.44644763459927594,
+  "range_pos_1y": 0.061233403809174664
  },
  "news_crypto": [
   {
@@ -117,6 +112,30 @@
  ],
  "news_jp": [
   {
+   "title": "ジャングリア売上100億円超見通し",
+   "link": "https://news.yahoo.co.jp/pickup/6589278?source=rss",
+   "published": "07/25 17:57",
+   "ts": 1784969865.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "最賃で競争「チキンレース」の声",
+   "link": "https://news.yahoo.co.jp/pickup/6589279?source=rss",
+   "published": "07/25 17:47",
+   "ts": 1784969225.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "Trip.comGに1250億円処分 中国",
+   "link": "https://news.yahoo.co.jp/pickup/6589275?source=rss",
+   "published": "07/25 17:40",
+   "ts": 1784968804.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "かゆみ止め薬「ムヒ」 ギネス認定",
    "link": "https://news.yahoo.co.jp/pickup/6589270?source=rss",
    "published": "07/25 16:53",
@@ -125,26 +144,10 @@
    "desc": ""
   },
   {
-   "title": "最賃 近隣県を意識した競争過熱",
-   "link": "https://news.yahoo.co.jp/pickup/6589266?source=rss",
-   "published": "07/25 16:49",
-   "ts": 1784965754.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "商社→タクシー運転手 給料倍以上",
    "link": "https://news.yahoo.co.jp/pickup/6589261?source=rss",
    "published": "07/25 15:34",
    "ts": 1784961268.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ジャングリア1年 来場者数100万人",
-   "link": "https://news.yahoo.co.jp/pickup/6589256?source=rss",
-   "published": "07/25 14:42",
-   "ts": 1784958135.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -171,14 +174,6 @@
    "ts": 1784923719.0,
    "source": "NHK",
    "desc": "クレジットカードの決済代行サービスを行う「全東信」が経営破綻し、利用していた飲食店を中心に影響が広がっていることを受けて、経済産業省と金融庁は、決済代行サービスの実態や、この会社に融資していた金融機関の審査体制などに関する調査に乗り出しました。"
-  },
-  {
-   "title": "コメの民間在庫量 243万トン 6月末時点で過去最大に",
-   "link": "http://www3.nhk.or.jp/news/html/20260725/k10015185671000.html",
-   "published": "07/25 05:06",
-   "ts": 1784923586.0,
-   "source": "NHK",
-   "desc": "6月末時点の民間のコメの在庫量は243万トンと、過去最大となったことが農林水産省の調査で分かりました。適正な水準とされる量を大幅に上回る状況で、新米の価格に与える影響が焦点です。"
   }
  ],
  "jgb": {
