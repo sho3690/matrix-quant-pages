@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-26 17:42:18",
+ "updated_at": "2026-07-26 19:55:48",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.44770598634027,
-  "eth_dominance": 9.916860265937421,
-  "total_mcap_usd": 2286858286173.72,
-  "mcap_change_24h": 0.9347689169381935
+  "btc_dominance": 56.47639049798075,
+  "eth_dominance": 9.92683251647181,
+  "total_mcap_usd": 2290071329901.334,
+  "mcap_change_24h": 0.8407361024378647
  },
  "defi": {
-  "tvl_usd": 75886888937.0,
-  "change_1d": 0.006108069124829862,
-  "change_7d": 0.004263689684112837,
-  "change_1y": -0.44927251736669527,
-  "range_pos_1y": 0.06785569125855799
+  "tvl_usd": 75903882872.0,
+  "change_1d": 0.0063331893403910655,
+  "change_7d": 0.004488582180094847,
+  "change_1y": -0.44914918872358334,
+  "range_pos_1y": 0.06802220638024266
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "ウナギ店 仕入れ値安いがコスト増",
+   "link": "https://news.yahoo.co.jp/pickup/6589406?source=rss",
+   "published": "07/26 19:32",
+   "ts": 1785061927.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "結婚相談所「お見合い」実態は",
    "link": "https://news.yahoo.co.jp/pickup/6589385?source=rss",
    "published": "07/26 16:26",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6589279?source=rss",
    "published": "07/25 17:47",
    "ts": 1784969225.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "Trip.comGに1250億円処分 中国",
-   "link": "https://news.yahoo.co.jp/pickup/6589275?source=rss",
-   "published": "07/25 17:40",
-   "ts": 1784968804.0,
    "source": "Yahoo!",
    "desc": ""
   }
