@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-30 20:24:15",
+ "updated_at": "2026-07-30 23:37:56",
  "fng": {
   "value": 28,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.62312861893136,
-  "eth_dominance": 10.11722860477869,
-  "total_mcap_usd": 2285936257612.7153,
-  "mcap_change_24h": 0.165725639066894
+  "btc_dominance": 56.62771693415329,
+  "eth_dominance": 10.100859269115684,
+  "total_mcap_usd": 2293064934222.5024,
+  "mcap_change_24h": 0.9933797019176085
  },
  "defi": {
-  "tvl_usd": 75719302103.0,
-  "change_1d": 0.0004439399916555953,
-  "change_7d": -0.01693906481648444,
-  "change_1y": -0.45492467437687933,
-  "range_pos_1y": 0.06621363514095067
+  "tvl_usd": 75987721146.0,
+  "change_1d": 0.004345096698382456,
+  "change_7d": -0.013454190179450709,
+  "change_1y": -0.45299242469676937,
+  "range_pos_1y": 0.06884373979318506
  },
  "news_crypto": [
   {
@@ -117,6 +117,54 @@
  ],
  "news_jp": [
   {
+   "title": "一時1ドル157円台 為替介入か",
+   "link": "https://news.yahoo.co.jp/pickup/6589962?source=rss",
+   "published": "07/30 23:33",
+   "ts": 1785421990.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "NY市場 1ドル＝157円台後半まで値上がり",
+   "link": "http://www3.nhk.or.jp/news/html/20260730/k10015191381000.html",
+   "published": "07/30 23:29",
+   "ts": 1785421796.0,
+   "source": "NHK",
+   "desc": "30日のニューヨーク外国為替市場ではドルを売って円を買う動きが急激に進み、日本時間の30日午後11時すぎ、円相場は一時、1ドル＝157円台後半まで値上がりしました。それまでは1ドル＝162円台で推移していて、およそ5円、円高ドル安が急速に進行したかたちです。金融市場ではこのところ"
+  },
+  {
+   "title": "イオンモール爆発 経産省が調査",
+   "link": "https://news.yahoo.co.jp/pickup/6589951?source=rss",
+   "published": "07/30 21:32",
+   "ts": 1785414731.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "【熊本地震 企業影響 30日】半導体関連 稼働再開の動きも",
+   "link": "http://www3.nhk.or.jp/news/html/20260730/k10015190621000.html",
+   "published": "07/30 20:55",
+   "ts": 1785412501.0,
+   "source": "NHK",
+   "desc": "今回の地震の影響で、熊本県など九州にある大手メーカーの工場では操業に影響が出ています。"
+  },
+  {
+   "title": "森永乳業 ピノなど61商品値上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6589945?source=rss",
+   "published": "07/30 20:31",
+   "ts": 1785411075.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "食料品消費税1% 生活への影響は",
+   "link": "https://news.yahoo.co.jp/pickup/6589946?source=rss",
+   "published": "07/30 20:27",
+   "ts": 1785410828.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "九州新幹線 31日に博多-熊本再開",
    "link": "https://news.yahoo.co.jp/pickup/6589941?source=rss",
    "published": "07/30 20:10",
@@ -131,54 +179,6 @@
    "ts": 1785407842.0,
    "source": "Yahoo!",
    "desc": ""
-  },
-  {
-   "title": "食料品消費税 来年4月から1％方針 日本経済・消費者への影響は",
-   "link": "http://www3.nhk.or.jp/news/html/20260730/k10015190741000.html",
-   "published": "07/30 19:28",
-   "ts": 1785407309.0,
-   "source": "NHK",
-   "desc": "食料品の消費税減税をめぐり、高市総理大臣が来年4月から2年間、税率を1％に引き下げ、あわせて中低所得の人への給付を行い実質ゼロとする方針を表明しました。消費税率の引き下げで消費者・市場への影響や経済界の受け止めをまとめました。記事の後半にはQ＆A解説も掲載しています。"
-  },
-  {
-   "title": "【熊本地震 企業影響 30日】半導体関連 稼働再開の動きも",
-   "link": "http://www3.nhk.or.jp/news/html/20260730/k10015190621000.html",
-   "published": "07/30 19:16",
-   "ts": 1785406619.0,
-   "source": "NHK",
-   "desc": "今回の地震の影響で、熊本県など九州にある大手メーカーの工場では操業に影響が出ています。"
-  },
-  {
-   "title": "備蓄米買い戻し 判断時期巡る課題",
-   "link": "https://news.yahoo.co.jp/pickup/6589931?source=rss",
-   "published": "07/30 18:49",
-   "ts": 1785404966.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "食料品消費税1% 生活どう変化",
-   "link": "https://news.yahoo.co.jp/pickup/6589927?source=rss",
-   "published": "07/30 18:41",
-   "ts": 1785404469.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "円相場 小幅な値動き",
-   "link": "http://www3.nhk.or.jp/news/html/20260730/k10015191041000.html",
-   "published": "07/30 18:39",
-   "ts": 1785404342.0,
-   "source": "NHK",
-   "desc": "30日の東京外国為替市場、円相場はドルに対して小幅な値動きとなりました。"
-  },
-  {
-   "title": "経産省 熊本地震で被害の中小企業向けに相談窓口などの支援",
-   "link": "http://www3.nhk.or.jp/news/html/20260730/k10015191051000.html",
-   "published": "07/30 18:38",
-   "ts": 1785404283.0,
-   "source": "NHK",
-   "desc": "経済産業省は、今回の地震で被害を受けた中小企業に対して、相談窓口を設けるなどの支援を始めています。"
   }
  ],
  "jgb": {
