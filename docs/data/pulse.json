@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-08-02 07:14:47",
+ "updated_at": "2026-08-02 13:00:04",
  "fng": {
   "value": 27,
   "label": "恐怖",
   "history": [
-   21,
    22,
    23,
    24,
@@ -33,23 +32,40 @@
    29,
    28,
    25,
+   27,
    27
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.3174177537669,
-  "eth_dominance": 9.9565841384769,
-  "total_mcap_usd": 2236205494481.1714,
-  "mcap_change_24h": -0.31933903194269814
+  "btc_dominance": 56.34381195149852,
+  "eth_dominance": 10.023991903911018,
+  "total_mcap_usd": 2256845674836.876,
+  "mcap_change_24h": 0.4408626875716856
  },
  "defi": {
-  "tvl_usd": 73468867045.0,
-  "change_1d": -0.024482170046826845,
-  "change_7d": -0.02585415203317054,
-  "change_1y": -0.4587171829558534,
-  "range_pos_1y": 0.04416554497695659
+  "tvl_usd": 74178607275.0,
+  "change_1d": 0.002659387270387059,
+  "change_7d": -0.020550284235850258,
+  "change_1y": -0.4323794936173396,
+  "range_pos_1y": 0.05111991596831682
  },
  "news_crypto": [
+  {
+   "title": "ビットコインFOMC通過も上値重く、クラリティ法案とFRB政策観測が焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=729103",
+   "published": "08/02 11:30",
+   "ts": 1785637837.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン（BTC）はFOMC通過後も1030万円台で方向感を欠き、物価指標発表後の円高急進が重石となった。クラリティ法案の休会前採決動向とFRBの追加利上げ観測が、目先の相場を左右する。"
+  },
+  {
+   "title": "週刊仮想通貨ニュース（7/31）｜クラリティー法の動向・ETHとSOLのETP提供・XRP運用戦略のまとめ",
+   "link": "https://coinpost.jp/?p=728969",
+   "published": "08/02 09:25",
+   "ts": 1785630300.0,
+   "source": "CoinPost",
+   "desc": "今週は、米仮想通貨市場構造法案（クラリティー法案）の動向、イーサリアムとソラナのETPの新規提供、エバーノースCEOが語るXRP運用戦略に関する記事が関心を集めた。"
+  },
   {
    "title": "ハイパーリキッドHIP-4、パーミッションレス予測市場をテストネットで有効化",
    "link": "https://coinpost.jp/?p=729236",
@@ -97,30 +113,22 @@
    "ts": 1785536130.0,
    "source": "CoinPost",
    "desc": "研究者が7件のビットコイン無期限先物清算連鎖を分析した結果、相場崩壊の予兆信号は事象ごとに異なり、共通する指標は注文フロー変動の低下のみだったことが分かった。投資家は単一事象の予兆パターンを過信すべきでない。"
-  },
-  {
-   "title": "暗号資産取引所BTCBOX、8月3日から段階再開へ",
-   "link": "https://coinpost.jp/?p=729185",
-   "published": "08/01 06:35",
-   "ts": 1785533732.0,
-   "source": "CoinPost",
-   "desc": "BTCボックスが運営する暗号資産取引所BTCBOXは、長い間停止していたサービスを8月3日から段階的に再開する。ログインにはパスキー認証、日本円出金には2段階認証が必須となる。"
-  },
-  {
-   "title": "テザー財務報告書、ビットコイン冬相場でステーブルコインの超過準備金が半減",
-   "link": "https://coinpost.jp/?p=729186",
-   "published": "08/01 06:15",
-   "ts": 1785532534.0,
-   "source": "CoinPost",
-   "desc": "ステーブルコイン発行大手テザーは2026年第2四半期の決算で、資産が負債を上回る超過準備金が82億ドルから41億ドルへと半減したことを開示した。ビットコインや貴金属の評価額低下が背景にある。"
   }
  ],
  "news_jp": [
   {
-   "title": "日米両政府 円安是正の方針表明へ",
-   "link": "https://news.yahoo.co.jp/pickup/6590196?source=rss",
-   "published": "08/01 22:44",
-   "ts": 1785591875.0,
+   "title": "ジェリーシューズ なぜ大人が支持",
+   "link": "https://news.yahoo.co.jp/pickup/6590228?source=rss",
+   "published": "08/02 10:15",
+   "ts": 1785633335.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日米が協調為替介入 15年ぶり",
+   "link": "https://news.yahoo.co.jp/pickup/6590202?source=rss",
+   "published": "08/02 07:28",
+   "ts": 1785623328.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6590135?source=rss",
    "published": "08/01 12:58",
    "ts": 1785556681.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "TDR「DPA」対象10→16に拡大",
-   "link": "https://news.yahoo.co.jp/pickup/6590123?source=rss",
-   "published": "08/01 12:08",
-   "ts": 1785553682.0,
    "source": "Yahoo!",
    "desc": ""
   }
