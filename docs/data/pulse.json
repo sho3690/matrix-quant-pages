@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-02 13:00:04",
+ "updated_at": "2026-08-02 17:40:27",
  "fng": {
   "value": 27,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.34381195149852,
-  "eth_dominance": 10.023991903911018,
-  "total_mcap_usd": 2256845674836.876,
-  "mcap_change_24h": 0.4408626875716856
+  "btc_dominance": 56.28628640673503,
+  "eth_dominance": 10.006776707409456,
+  "total_mcap_usd": 2255837552408.7354,
+  "mcap_change_24h": 0.28536335881794406
  },
  "defi": {
-  "tvl_usd": 74178607275.0,
-  "change_1d": 0.002659387270387059,
-  "change_7d": -0.020550284235850258,
-  "change_1y": -0.4323794936173396,
-  "range_pos_1y": 0.05111991596831682
+  "tvl_usd": 74309414735.0,
+  "change_1d": 0.00441350558654241,
+  "change_7d": -0.01882311067161957,
+  "change_1y": -0.4313785446994317,
+  "range_pos_1y": 0.052401629427447506
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "「見せる延長コード」開発の情熱",
+   "link": "https://news.yahoo.co.jp/pickup/6590275?source=rss",
+   "published": "08/02 17:20",
+   "ts": 1785658839.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "【熊本地震 企業影響 2日】九州のメーカー工場で操業に影響",
+   "link": "http://www3.nhk.or.jp/news/html/20260802/k10015194101000.html",
+   "published": "08/02 16:48",
+   "ts": 1785656915.0,
+   "source": "NHK",
+   "desc": "今回の地震の影響で、九州にある大手メーカーの工場などでは操業に影響が出ています。"
+  },
+  {
+   "title": "日本製紙の工場被災 経営に打撃",
+   "link": "https://news.yahoo.co.jp/pickup/6590265?source=rss",
+   "published": "08/02 15:35",
+   "ts": 1785652524.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ジェリーシューズ なぜ大人が支持",
    "link": "https://news.yahoo.co.jp/pickup/6590228?source=rss",
    "published": "08/02 10:15",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6590174?source=rss",
    "published": "08/01 18:44",
    "ts": 1785577461.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "BYDオート社長 EV補助金に見解",
-   "link": "https://news.yahoo.co.jp/pickup/6590164?source=rss",
-   "published": "08/01 16:46",
-   "ts": 1785570365.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "被災地のコンビニで飲料などの需要高まる 店舗への配送強化",
-   "link": "http://www3.nhk.or.jp/news/html/20260801/k10015193571000.html",
-   "published": "08/01 16:36",
-   "ts": 1785569764.0,
-   "source": "NHK",
-   "desc": "熊本県内のコンビニエンスストアでは、地震のあと飲料やおにぎりなどの需要が高まっていて、各社とも商品をきらさないよう、輸送体制を強化するなどの対応をとっています。"
-  },
-  {
-   "title": "日銀の金融政策 利上げ加速が焦点",
-   "link": "https://news.yahoo.co.jp/pickup/6590135?source=rss",
-   "published": "08/01 12:58",
-   "ts": 1785556681.0,
    "source": "Yahoo!",
    "desc": ""
   }
