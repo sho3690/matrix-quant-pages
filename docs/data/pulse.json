@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-02 17:40:27",
+ "updated_at": "2026-08-02 19:54:14",
  "fng": {
   "value": 27,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.28628640673503,
-  "eth_dominance": 10.006776707409456,
-  "total_mcap_usd": 2255837552408.7354,
-  "mcap_change_24h": 0.28536335881794406
+  "btc_dominance": 56.25585470113047,
+  "eth_dominance": 10.00667602034576,
+  "total_mcap_usd": 2252059064838.794,
+  "mcap_change_24h": 0.28246157762146173
  },
  "defi": {
-  "tvl_usd": 74309414735.0,
-  "change_1d": 0.00441350558654241,
-  "change_7d": -0.01882311067161957,
-  "change_1y": -0.4313785446994317,
-  "range_pos_1y": 0.052401629427447506
+  "tvl_usd": 74166202080.0,
+  "change_1d": 0.0024777182912669726,
+  "change_7d": -0.020714081658895767,
+  "change_1y": -0.43247441914002527,
+  "range_pos_1y": 0.05099836399112346
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "地震で商品落下 コストコの回答",
+   "link": "https://news.yahoo.co.jp/pickup/6590283?source=rss",
+   "published": "08/02 17:54",
+   "ts": 1785660899.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「見せる延長コード」開発の情熱",
    "link": "https://news.yahoo.co.jp/pickup/6590275?source=rss",
    "published": "08/02 17:20",
@@ -171,14 +179,6 @@
    "ts": 1785578662.0,
    "source": "NHK",
    "desc": "今回の地震の影響で、九州にある大手メーカーの工場などでは操業に影響が出ています。"
-  },
-  {
-   "title": "SNS時代に日記 今広がり見せる訳",
-   "link": "https://news.yahoo.co.jp/pickup/6590174?source=rss",
-   "published": "08/01 18:44",
-   "ts": 1785577461.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
