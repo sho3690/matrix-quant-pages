@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-06 20:36:53",
+ "updated_at": "2026-08-06 23:40:06",
  "fng": {
   "value": 25,
   "label": "極度の恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.688559387270296,
-  "eth_dominance": 10.062370133000785,
-  "total_mcap_usd": 2285321697884.9106,
-  "mcap_change_24h": 0.5225989204475687
+  "btc_dominance": 56.611496571652864,
+  "eth_dominance": 10.078048074437591,
+  "total_mcap_usd": 2284009456806.0176,
+  "mcap_change_24h": 0.029493777179043973
  },
  "defi": {
-  "tvl_usd": 75298279531.0,
-  "change_1d": 0.007434217290007039,
-  "change_7d": 5.218618647018225e-05,
-  "change_1y": -0.44273362679408357,
-  "range_pos_1y": 0.06208835455353698
+  "tvl_usd": 75144546872.0,
+  "change_1d": 0.00537775657261208,
+  "change_7d": -0.0019895693845574103,
+  "change_1y": -0.4438713691416888,
+  "range_pos_1y": 0.06058202637780927
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "“現場職への転職”に20代の約半数が関心 背景にAIへの危機感",
+   "link": "http://www3.nhk.or.jp/news/html/20260806/k10015198141000.html",
+   "published": "08/06 22:34",
+   "ts": 1786023258.0,
+   "source": "NHK",
+   "desc": "物流や建設などの「現場職」への転職について、20代の転職希望者の半数近くが関心を寄せていることが就職情報会社の調査で明らかになりました。背景にはデスクワークなどの「事務職」がAIに代替される危機感があり、調査した会社は、今後、若者を中心に現場職への転職が増える可能性があるとみてい"
+  },
+  {
+   "title": "国債買い入れ 増額ならどんな懸念",
+   "link": "https://news.yahoo.co.jp/pickup/6590791?source=rss",
+   "published": "08/06 21:28",
+   "ts": 1786019301.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "みんなで大家さん債務超過額 判明",
+   "link": "https://news.yahoo.co.jp/pickup/6590792?source=rss",
+   "published": "08/06 21:23",
+   "ts": 1786019031.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "イオン爆発 ガス供給会社コメント",
    "link": "https://news.yahoo.co.jp/pickup/6590785?source=rss",
    "published": "08/06 20:29",
@@ -155,30 +179,6 @@
    "ts": 1786003493.0,
    "source": "Yahoo!",
    "desc": ""
-  },
-  {
-   "title": "大手の夏ボーナス過去最高 経団連",
-   "link": "https://news.yahoo.co.jp/pickup/6590752?source=rss",
-   "published": "08/06 17:01",
-   "ts": 1786003319.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "レイバン 値下げ禁止で公取が処分",
-   "link": "https://news.yahoo.co.jp/pickup/6590746?source=rss",
-   "published": "08/06 16:32",
-   "ts": 1786001568.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "株価 値下がり 半導体関連銘柄中心に売り注文",
-   "link": "http://www3.nhk.or.jp/news/html/20260806/k10015198001000.html",
-   "published": "08/06 15:58",
-   "ts": 1785999523.0,
-   "source": "NHK",
-   "desc": "6日の東京株式市場、このところ値上がりしていた半導体関連の銘柄を中心に当面の利益を確定しようという売り注文が広がり、日経平均株価は値下がりしました。"
   }
  ],
  "jgb": {
