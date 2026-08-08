@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-08 16:25:23",
+ "updated_at": "2026-08-08 18:58:00",
  "fng": {
   "value": 30,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.771567370603485,
-  "eth_dominance": 10.064360062201878,
-  "total_mcap_usd": 2296136829067.305,
-  "mcap_change_24h": 0.8364883102376983
+  "btc_dominance": 56.74943672444075,
+  "eth_dominance": 10.077342191878573,
+  "total_mcap_usd": 2297529067551.569,
+  "mcap_change_24h": 0.28054202060847666
  },
  "defi": {
-  "tvl_usd": 75668093345.0,
-  "change_1d": 0.00745303203579728,
-  "change_7d": 0.022775662323623047,
-  "change_1y": -0.47259828331708953,
-  "range_pos_1y": 0.06571192401122472
+  "tvl_usd": 75624597247.0,
+  "change_1d": 0.006873990411401243,
+  "change_7d": 0.02218774278615565,
+  "change_1y": -0.4729014483069831,
+  "range_pos_1y": 0.06528573351677934
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "テーマパーク値上げ 30施設超に",
+   "link": "https://news.yahoo.co.jp/pickup/6590991?source=rss",
+   "published": "08/08 16:27",
+   "ts": 1786174063.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "オープンAI 開発一時中断 AIみずからサイバー攻撃実行のおそれ",
    "link": "http://www3.nhk.or.jp/news/html/20260808/k10015200151000.html",
    "published": "08/08 15:10",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6590936?source=rss",
    "published": "08/08 08:54",
    "ts": 1786146869.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日本郵便で障害 一部で受け取れず",
-   "link": "https://news.yahoo.co.jp/pickup/6590928?source=rss",
-   "published": "08/08 08:00",
-   "ts": 1786143609.0,
    "source": "Yahoo!",
    "desc": ""
   },
