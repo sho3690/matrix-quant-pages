@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-09 16:27:25",
+ "updated_at": "2026-08-09 19:00:32",
  "fng": {
   "value": 31,
   "label": "恐怖",
@@ -36,18 +36,13 @@
    31
   ]
  },
- "crypto_global": {
-  "btc_dominance": 56.60870854359956,
-  "eth_dominance": 10.066786752901532,
-  "total_mcap_usd": 2297211117483.0347,
-  "mcap_change_24h": 0.08247979883863449
- },
+ "crypto_global": null,
  "defi": {
-  "tvl_usd": 75611433730.0,
-  "change_1d": 0.002853963720407693,
-  "change_7d": 0.027391257308816863,
-  "change_1y": -0.4770190046978732,
-  "range_pos_1y": 0.06515675261787503
+  "tvl_usd": 75727506895.0,
+  "change_1d": 0.004393472110623797,
+  "change_7d": 0.02896843352471823,
+  "change_1y": -0.4762161623714556,
+  "range_pos_1y": 0.066294079455404
  },
  "news_crypto": [
   {
@@ -117,6 +112,14 @@
  ],
  "news_jp": [
   {
+   "title": "米Z世代 高リスク投資に走る背景",
+   "link": "https://news.yahoo.co.jp/pickup/6591098?source=rss",
+   "published": "08/09 16:31",
+   "ts": 1786260710.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "66歳で司法試験に合格 挑戦の理由",
    "link": "https://news.yahoo.co.jp/pickup/6591088?source=rss",
    "published": "08/09 15:00",
@@ -171,14 +174,6 @@
    "ts": 1786169411.0,
    "source": "NHK",
    "desc": "生成AIの「ChatGPT」の開発を手がけるアメリカのオープンAIは、AIモデル「アストラ」の開発の一時中断を7日、発表しました。理由について、AIの能力が大幅に向上し、みずからの判断で重大なサイバー攻撃を実行するおそれが排除できないとしています。"
-  },
-  {
-   "title": "大分 被害なしでも旅先変更相次ぐ",
-   "link": "https://news.yahoo.co.jp/pickup/6590967?source=rss",
-   "published": "08/08 13:08",
-   "ts": 1786162126.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
