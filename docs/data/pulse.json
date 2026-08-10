@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-10 17:09:38",
+ "updated_at": "2026-08-10 19:39:37",
  "fng": {
   "value": 30,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.692784474671775,
-  "eth_dominance": 10.065645443316349,
-  "total_mcap_usd": 2307278784025.4106,
-  "mcap_change_24h": 0.5074489601195886
+  "btc_dominance": 56.66614570798677,
+  "eth_dominance": 10.057130468771874,
+  "total_mcap_usd": 2301624816469.1963,
+  "mcap_change_24h": 0.08175874841300786
  },
  "defi": {
-  "tvl_usd": 75902565229.0,
-  "change_1d": 0.002533465183924166,
-  "change_7d": 0.021153937065323536,
-  "change_1y": -0.49119787044122465,
-  "range_pos_1y": 0.06800936430519088
+  "tvl_usd": 75956859103.0,
+  "change_1d": 0.003245874282403527,
+  "change_7d": 0.021884378823469053,
+  "change_1y": -0.49083391912245367,
+  "range_pos_1y": 0.06854135531287657
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "議員秘書を経て屋台バー営業 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6591230?source=rss",
+   "published": "08/10 18:44",
+   "ts": 1786355048.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "合格者0人の年も 宮城ご当地検定",
+   "link": "https://news.yahoo.co.jp/pickup/6591214?source=rss",
+   "published": "08/10 17:33",
+   "ts": 1786350799.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "塩入りキャンディ市場 猛暑で拡大",
    "link": "https://news.yahoo.co.jp/pickup/6591202?source=rss",
    "published": "08/10 17:03",
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "家電激戦池袋 ヨドバシが狙う商圏",
-   "link": "https://news.yahoo.co.jp/pickup/6591148?source=rss",
-   "published": "08/10 08:02",
-   "ts": 1786316537.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "イオン 自己判断で店内戻った人も",
    "link": "https://news.yahoo.co.jp/pickup/6591135?source=rss",
    "published": "08/09 23:12",
    "ts": 1786284772.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "JR東海「夜行」新幹線 客4割女性",
-   "link": "https://news.yahoo.co.jp/pickup/6591134?source=rss",
-   "published": "08/09 22:32",
-   "ts": 1786282362.0,
    "source": "Yahoo!",
    "desc": ""
   }
