@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-10 13:58:58",
+ "updated_at": "2026-08-10 17:09:38",
  "fng": {
   "value": 30,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.69119937997507,
-  "eth_dominance": 10.051272758045384,
-  "total_mcap_usd": 2300291983704.3984,
-  "mcap_change_24h": 0.24571337967103382
+  "btc_dominance": 56.692784474671775,
+  "eth_dominance": 10.065645443316349,
+  "total_mcap_usd": 2307278784025.4106,
+  "mcap_change_24h": 0.5074489601195886
  },
  "defi": {
-  "tvl_usd": 75799175044.0,
-  "change_1d": 0.0011646610272322278,
-  "change_7d": 0.019762978879020787,
-  "change_1y": -0.49189093194902433,
-  "range_pos_1y": 0.06699630989129955
+  "tvl_usd": 75902565229.0,
+  "change_1d": 0.002533465183924166,
+  "change_7d": 0.021153937065323536,
+  "change_1y": -0.49119787044122465,
+  "range_pos_1y": 0.06800936430519088
  },
  "news_crypto": [
+  {
+   "title": "英当局、金トークン化で大手銀行と協議＝FT報道",
+   "link": "https://coinpost.jp/?p=730695",
+   "published": "08/10 15:50",
+   "ts": 1786344616.0,
+   "source": "CoinPost",
+   "desc": "英FCAとイングランド銀行が5月公表の文書で、トークン化した金を担保に使う検討に言及していた。FT報道によると、FCAは大手銀行と個別協議を進め、数カ月以内に金に特化した規制方針を示す見通しだという。"
+  },
+  {
+   "title": "CMEヘッジファンド、ビットコイン先物で稀な買い越しに＝アナリスト",
+   "link": "https://coinpost.jp/?p=730689",
+   "published": "08/10 15:17",
+   "ts": 1786342639.0,
+   "source": "CoinPost",
+   "desc": "CryptoQuant CEOのKi Young Ju氏が10日、CME上のヘッジファンドがビットコイン先物でネットロングに転換したと指摘。ベーシス取引による構造的ショートが崩れた稀な動きで、強気転換のシグナルとして注目される。"
+  },
   {
    "title": "米上場Empery Digital、1635BTCのビットコイン売却",
    "link": "https://coinpost.jp/?p=730685",
@@ -97,25 +113,17 @@
    "ts": 1786322238.0,
    "source": "CoinPost",
    "desc": "仮想通貨ビットコインは8日、「BIP-110」を支持するチェーンが少数派で分岐した。「BIP-110」への賛成はわずか2.5%にとどまり、大半の採掘者は既存ルールを支持している。"
-  },
-  {
-   "title": "RWA取引高、無期限先物DEXで7月過去最高＝CryptoRank",
-   "link": "https://coinpost.jp/?p=730643",
-   "published": "08/10 08:34",
-   "ts": 1786318495.0,
-   "source": "CoinPost",
-   "desc": "クリプトランクの調査によると、無期限先物DEXでの7月のRWA取引高が月間約1,410億ドルの過去最高を記録。前月比約19.5％増で、株式の比率が51.1％に上昇したという。年初来の伸びと注目材料を整理する。"
-  },
-  {
-   "title": "キャシー・ウッドCEO、米雇用統計後も強気　ビットコインへ期待表明",
-   "link": "https://coinpost.jp/?p=730638",
-   "published": "08/10 07:50",
-   "ts": 1786315822.0,
-   "source": "CoinPost",
-   "desc": "アークインベストのキャシー・ウッドCEOが8月9日、雇用統計を受けても景気認識は強気と表明。デフレ懸念やドル指数、原油安を指摘し、ビットコインとステーブルコインをエージェント商取引の受益者に挙げた。"
   }
  ],
  "news_jp": [
+  {
+   "title": "塩入りキャンディ市場 猛暑で拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6591202?source=rss",
+   "published": "08/10 17:03",
+   "ts": 1786348997.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "日銀委員 利上げペース加速の意見",
    "link": "https://news.yahoo.co.jp/pickup/6591178?source=rss",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591134?source=rss",
    "published": "08/09 22:32",
    "ts": 1786282362.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "車内で運転手寝入り バス47分遅延",
-   "link": "https://news.yahoo.co.jp/pickup/6591116?source=rss",
-   "published": "08/09 19:46",
-   "ts": 1786272412.0,
    "source": "Yahoo!",
    "desc": ""
   }
