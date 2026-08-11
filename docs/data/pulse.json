@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-11 16:42:37",
+ "updated_at": "2026-08-11 19:15:14",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.52698184579668,
-  "eth_dominance": 9.957542556591761,
-  "total_mcap_usd": 2269226059342.4917,
-  "mcap_change_24h": -1.6021571775696648
+  "btc_dominance": 56.542223492214504,
+  "eth_dominance": 9.980525993162097,
+  "total_mcap_usd": 2278649107393.451,
+  "mcap_change_24h": -0.922028713559701
  },
  "defi": {
-  "tvl_usd": 75081666029.0,
-  "change_1d": -0.007660452829048481,
-  "change_7d": 0.01725855112820862,
-  "change_1y": -0.4955798188755217,
-  "range_pos_1y": 0.05996513991400144
+  "tvl_usd": 74981592300.0,
+  "change_1d": -0.00897438757256852,
+  "change_7d": 0.015902682752442665,
+  "change_1y": -0.4962521429085085,
+  "range_pos_1y": 0.05898458054520707
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "台風帰省ラッシュ直撃 混乱広がる",
+   "link": "https://news.yahoo.co.jp/pickup/6591346?source=rss",
+   "published": "08/11 18:50",
+   "ts": 1786441847.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "全国の鉄道・フライト 最新情報",
+   "link": "https://news.yahoo.co.jp/pickup/6585817?source=rss",
+   "published": "08/11 17:53",
+   "ts": 1786438388.0,
+   "source": "Yahoo!",
+   "desc": "最新の鉄道運行情報、フライト情報。災害による交通機関への影響を確認。"
+  },
+  {
    "title": "半蔵門線の運転再開は「本日中」",
    "link": "https://news.yahoo.co.jp/pickup/6591330?source=rss",
    "published": "08/11 16:34",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591282?source=rss",
    "published": "08/11 08:46",
    "ts": 1786405613.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "シャインマスカット 盗難相次ぐ",
-   "link": "https://news.yahoo.co.jp/pickup/6591273?source=rss",
-   "published": "08/11 07:44",
-   "ts": 1786401846.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "協調介入 日銀利上げ示唆が決め手",
-   "link": "https://news.yahoo.co.jp/pickup/6591255?source=rss",
-   "published": "08/10 22:13",
-   "ts": 1786367623.0,
    "source": "Yahoo!",
    "desc": ""
   }
