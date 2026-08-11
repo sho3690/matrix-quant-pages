@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-08-11 07:02:17",
+ "updated_at": "2026-08-11 11:32:01",
  "fng": {
-  "value": 30,
+  "value": 29,
   "label": "恐怖",
   "history": [
-   26,
    28,
    22,
    25,
@@ -33,102 +32,70 @@
    29,
    30,
    31,
-   30
+   30,
+   29
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.48095249218446,
-  "eth_dominance": 9.949399562928306,
-  "total_mcap_usd": 2271651226481.463,
-  "mcap_change_24h": -1.5884940620876808
+  "btc_dominance": 56.49106257743865,
+  "eth_dominance": 9.957513882792066,
+  "total_mcap_usd": 2273525032386.056,
+  "mcap_change_24h": -1.2795890471600018
  },
  "defi": {
-  "tvl_usd": 75288301082.0,
-  "change_1d": -0.005615773437271376,
-  "change_7d": 0.012888823964241292,
-  "change_1y": -0.49531550342454034,
-  "range_pos_1y": 0.06198982649503907
+  "tvl_usd": 75128563423.0,
+  "change_1d": -0.006938688921420577,
+  "change_7d": 0.017893912684507907,
+  "change_1y": -0.49526474872288806,
+  "range_pos_1y": 0.060424657906568105
  },
- "news_crypto": [
-  {
-   "title": "英当局、金トークン化で大手銀行と協議＝FT報道",
-   "link": "https://coinpost.jp/?p=730695",
-   "published": "08/10 15:50",
-   "ts": 1786344616.0,
-   "source": "CoinPost",
-   "desc": "英FCAとイングランド銀行が5月公表の文書で、トークン化した金を担保に使う検討に言及していた。FT報道によると、FCAは大手銀行と個別協議を進め、数カ月以内に金に特化した規制方針を示す見通しだという。"
-  },
-  {
-   "title": "CMEヘッジファンド、ビットコイン先物で稀な買い越しに＝アナリスト",
-   "link": "https://coinpost.jp/?p=730689",
-   "published": "08/10 15:17",
-   "ts": 1786342639.0,
-   "source": "CoinPost",
-   "desc": "CryptoQuant CEOのKi Young Ju氏が10日、CME上のヘッジファンドがビットコイン先物でネットロングに転換したと指摘。ベーシス取引による構造的ショートが崩れた稀な動きで、強気転換のシグナルとして注目される。"
-  },
-  {
-   "title": "米上場Empery Digital、1635BTCのビットコイン売却",
-   "link": "https://coinpost.jp/?p=730685",
-   "published": "08/10 13:51",
-   "ts": 1786337480.0,
-   "source": "CoinPost",
-   "desc": "米ナスダック上場のエンペリーデジタル（Empery Digital）が7月1日から8月6日にBTCを1,635BTC売却したと10-Qで開示。担保954BTCを除く非拘束BTCは325BTCまで減少し、6月末比76%減となった。AI事業への追加出資リスクも残る。"
-  },
-  {
-   "title": "「クラリティー法不成立でも仮想通貨業界は前進可能」グレースケール分析",
-   "link": "https://coinpost.jp/?p=730676",
-   "published": "08/10 13:27",
-   "ts": 1786336073.0,
-   "source": "CoinPost",
-   "desc": "グレースケールは、クラリティー法が不成立でも仮想通貨市場の発展は続くと分析している。一方で法制度が整わなければ投資や起業が海外に流出するリスクを指摘した。9月の上院採決が最初の関門となる。"
-  },
-  {
-   "title": "ビットコインの新規ウォレット数が過去一年で最高水準",
-   "link": "https://coinpost.jp/?p=730662",
-   "published": "08/10 12:59",
-   "ts": 1786334357.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン自己管理型ウォレット「コールドカード」からの資金盗難を受けて、ビットコインの新規ウォレット作成数やアクティブウォレット数が急増している。"
-  },
-  {
-   "title": "米納税者の仮想通貨申告、32％から56％にとどまる＝研究",
-   "link": "https://coinpost.jp/?p=730666",
-   "published": "08/10 11:24",
-   "ts": 1786328650.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨を保有する米国内納税者の申告率は32％から56％にとどまるとの推定も。米IRSは仲介業者による申告様式「1099-DA」提出を2025年分から義務化し、業者報告との不整合が税務調査の焦点になるとみられる。米CNBCが報じた。"
-  },
-  {
-   "title": "サムスン電子、今年中にウォレットへステーブルコイン導入＝報道",
-   "link": "https://coinpost.jp/?p=730656",
-   "published": "08/10 10:31",
-   "ts": 1786325480.0,
-   "source": "CoinPost",
-   "desc": "サムスン電子は今年中、一部国でウォレットへステーブルコインの口座開設・海外送金・決済機能を導入すると表明。米サンドマークの取材に書面で回答し、7月のGalaxy Unpacked構想に初めて導入時期を示した。既存機能との違いも解説する。"
-  },
-  {
-   "title": "ビットコインBIP-110分岐、セイラー氏「フォークに意味なし」",
-   "link": "https://coinpost.jp/?p=730650",
-   "published": "08/10 09:37",
-   "ts": 1786322238.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインは8日、「BIP-110」を支持するチェーンが少数派で分岐した。「BIP-110」への賛成はわずか2.5%にとどまり、大半の採掘者は既存ルールを支持している。"
-  }
- ],
+ "news_crypto": [],
  "news_jp": [
+  {
+   "title": "ANAが計58便欠航 台風がお盆直撃",
+   "link": "https://news.yahoo.co.jp/pickup/6591289?source=rss",
+   "published": "08/11 10:06",
+   "ts": 1786410388.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "推し活でビッグカツ人気 社長驚く",
+   "link": "https://news.yahoo.co.jp/pickup/6591291?source=rss",
+   "published": "08/11 09:53",
+   "ts": 1786409633.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "半蔵門線の一部 午後再開を目指す",
+   "link": "https://news.yahoo.co.jp/pickup/6591283?source=rss",
+   "published": "08/11 08:56",
+   "ts": 1786406200.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ケーキや菓子店などの倒産 急増",
+   "link": "https://news.yahoo.co.jp/pickup/6591282?source=rss",
+   "published": "08/11 08:46",
+   "ts": 1786405613.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "シャインマスカット 盗難相次ぐ",
+   "link": "https://news.yahoo.co.jp/pickup/6591273?source=rss",
+   "published": "08/11 07:44",
+   "ts": 1786401846.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "協調介入 日銀利上げ示唆が決め手",
    "link": "https://news.yahoo.co.jp/pickup/6591255?source=rss",
    "published": "08/10 22:13",
    "ts": 1786367623.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "台風 東北新幹線で遅れや運休恐れ",
-   "link": "https://news.yahoo.co.jp/pickup/6591237?source=rss",
-   "published": "08/10 19:48",
-   "ts": 1786358910.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -141,42 +108,10 @@
    "desc": ""
   },
   {
-   "title": "合格者0人の年も 宮城ご当地検定",
-   "link": "https://news.yahoo.co.jp/pickup/6591214?source=rss",
-   "published": "08/10 17:33",
-   "ts": 1786350799.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "塩入りキャンディ市場 猛暑で拡大",
-   "link": "https://news.yahoo.co.jp/pickup/6591202?source=rss",
-   "published": "08/10 17:03",
-   "ts": 1786348997.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀委員 利上げペース加速の意見",
-   "link": "https://news.yahoo.co.jp/pickup/6591178?source=rss",
-   "published": "08/10 12:41",
-   "ts": 1786333262.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "世帯年収1000万円 理想とは遠い家",
    "link": "https://news.yahoo.co.jp/pickup/6591171?source=rss",
    "published": "08/10 11:38",
    "ts": 1786329500.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "休暇中に会社の電話無視 法的には",
-   "link": "https://news.yahoo.co.jp/pickup/6591154?source=rss",
-   "published": "08/10 08:57",
-   "ts": 1786319869.0,
    "source": "Yahoo!",
    "desc": ""
   }
