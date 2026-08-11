@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-11 13:44:48",
+ "updated_at": "2026-08-11 16:42:37",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.514517642213725,
-  "eth_dominance": 9.95692916809887,
-  "total_mcap_usd": 2273913451334.536,
-  "mcap_change_24h": -1.0967695115690803
+  "btc_dominance": 56.52698184579668,
+  "eth_dominance": 9.957542556591761,
+  "total_mcap_usd": 2269226059342.4917,
+  "mcap_change_24h": -1.6021571775696648
  },
  "defi": {
-  "tvl_usd": 75229013137.0,
-  "change_1d": -0.005690884451918676,
-  "change_7d": 0.01925491207122665,
-  "change_1y": -0.4945898987147621,
-  "range_pos_1y": 0.061408901315299434
+  "tvl_usd": 75081666029.0,
+  "change_1d": -0.007660452829048481,
+  "change_7d": 0.01725855112820862,
+  "change_1y": -0.4955798188755217,
+  "range_pos_1y": 0.05996513991400144
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "半蔵門線の運転再開は「本日中」",
+   "link": "https://news.yahoo.co.jp/pickup/6591330?source=rss",
+   "published": "08/11 16:34",
+   "ts": 1786433648.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン 再入館した人数確認できず",
+   "link": "https://news.yahoo.co.jp/pickup/6591324?source=rss",
+   "published": "08/11 16:06",
+   "ts": 1786431985.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "イオン 避難後の一時入館認めた",
    "link": "https://news.yahoo.co.jp/pickup/6591305?source=rss",
    "published": "08/11 12:27",
@@ -141,14 +157,6 @@
    "desc": ""
   },
   {
-   "title": "半蔵門線の一部 午後再開を目指す",
-   "link": "https://news.yahoo.co.jp/pickup/6591283?source=rss",
-   "published": "08/11 08:56",
-   "ts": 1786406200.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ケーキや菓子店などの倒産 急増",
    "link": "https://news.yahoo.co.jp/pickup/6591282?source=rss",
    "published": "08/11 08:46",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591255?source=rss",
    "published": "08/10 22:13",
    "ts": 1786367623.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "議員秘書を経て屋台バー営業 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6591230?source=rss",
-   "published": "08/10 18:44",
-   "ts": 1786355048.0,
    "source": "Yahoo!",
    "desc": ""
   }
