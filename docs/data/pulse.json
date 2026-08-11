@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-11 22:47:51",
+ "updated_at": "2026-08-12 07:09:12",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.4872517242306,
-  "eth_dominance": 10.00414245454015,
-  "total_mcap_usd": 2278842489824.538,
-  "mcap_change_24h": -0.43678477004245625
+  "btc_dominance": 56.27876864995655,
+  "eth_dominance": 10.010257178491317,
+  "total_mcap_usd": 2271107317893.844,
+  "mcap_change_24h": -0.02410919545115575
  },
  "defi": {
-  "tvl_usd": 75361824430.0,
-  "change_1d": -0.0039504366948976966,
-  "change_7d": 0.021054335696374826,
-  "change_1y": -0.4936976343310101,
-  "range_pos_1y": 0.06271023543099771
+  "tvl_usd": 74966545255.0,
+  "change_1d": -0.009173200821282923,
+  "change_7d": 0.01569928153150335,
+  "change_1y": -0.49635323327538117,
+  "range_pos_1y": 0.05883714403919438
  },
  "news_crypto": [
   {
@@ -117,18 +117,26 @@
  ],
  "news_jp": [
   {
-   "title": "イオン 爆発事故で遺族に補償方針",
-   "link": "https://news.yahoo.co.jp/pickup/6591365?source=rss",
-   "published": "08/11 22:38",
-   "ts": 1786455531.0,
+   "title": "元・経団連会長 奥田碩さん死去",
+   "link": "https://news.yahoo.co.jp/pickup/6591379?source=rss",
+   "published": "08/12 06:48",
+   "ts": 1786484894.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "東北道下りで全車線塞ぐ倒木 栃木",
-   "link": "https://news.yahoo.co.jp/pickup/6591362?source=rss",
-   "published": "08/11 22:22",
-   "ts": 1786454573.0,
+   "title": "猛暑でお盆変化 オンライン参拝も",
+   "link": "https://news.yahoo.co.jp/pickup/6591368?source=rss",
+   "published": "08/11 22:50",
+   "ts": 1786456253.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン 爆発事故で遺族に補償方針",
+   "link": "https://news.yahoo.co.jp/pickup/6591365?source=rss",
+   "published": "08/11 22:38",
+   "ts": 1786455531.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591305?source=rss",
    "published": "08/11 12:27",
    "ts": 1786418857.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ケーキや菓子店などの倒産 急増",
-   "link": "https://news.yahoo.co.jp/pickup/6591282?source=rss",
-   "published": "08/11 08:46",
-   "ts": 1786405613.0,
    "source": "Yahoo!",
    "desc": ""
   }
