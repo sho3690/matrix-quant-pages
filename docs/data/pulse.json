@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-11 19:15:14",
+ "updated_at": "2026-08-11 22:47:51",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.542223492214504,
-  "eth_dominance": 9.980525993162097,
-  "total_mcap_usd": 2278649107393.451,
-  "mcap_change_24h": -0.922028713559701
+  "btc_dominance": 56.4872517242306,
+  "eth_dominance": 10.00414245454015,
+  "total_mcap_usd": 2278842489824.538,
+  "mcap_change_24h": -0.43678477004245625
  },
  "defi": {
-  "tvl_usd": 74981592300.0,
-  "change_1d": -0.00897438757256852,
-  "change_7d": 0.015902682752442665,
-  "change_1y": -0.4962521429085085,
-  "range_pos_1y": 0.05898458054520707
+  "tvl_usd": 75361824430.0,
+  "change_1d": -0.0039504366948976966,
+  "change_7d": 0.021054335696374826,
+  "change_1y": -0.4936976343310101,
+  "range_pos_1y": 0.06271023543099771
  },
  "news_crypto": [
   {
@@ -117,6 +117,46 @@
  ],
  "news_jp": [
   {
+   "title": "イオン 爆発事故で遺族に補償方針",
+   "link": "https://news.yahoo.co.jp/pickup/6591365?source=rss",
+   "published": "08/11 22:38",
+   "ts": 1786455531.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東北道下りで全車線塞ぐ倒木 栃木",
+   "link": "https://news.yahoo.co.jp/pickup/6591362?source=rss",
+   "published": "08/11 22:22",
+   "ts": 1786454573.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン再入館 証言から浮かぶ混乱",
+   "link": "https://news.yahoo.co.jp/pickup/6591360?source=rss",
+   "published": "08/11 22:14",
+   "ts": 1786454046.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "第2の麻辣湯 ビャンビャン麺とは",
+   "link": "https://news.yahoo.co.jp/pickup/6591353?source=rss",
+   "published": "08/11 20:39",
+   "ts": 1786448367.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "アスベスト影響 半蔵門線運転再開",
+   "link": "https://news.yahoo.co.jp/pickup/6591350?source=rss",
+   "published": "08/11 19:39",
+   "ts": 1786444772.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "台風帰省ラッシュ直撃 混乱広がる",
    "link": "https://news.yahoo.co.jp/pickup/6591346?source=rss",
    "published": "08/11 18:50",
@@ -125,50 +165,10 @@
    "desc": ""
   },
   {
-   "title": "全国の鉄道・フライト 最新情報",
-   "link": "https://news.yahoo.co.jp/pickup/6585817?source=rss",
-   "published": "08/11 17:53",
-   "ts": 1786438388.0,
-   "source": "Yahoo!",
-   "desc": "最新の鉄道運行情報、フライト情報。災害による交通機関への影響を確認。"
-  },
-  {
-   "title": "半蔵門線の運転再開は「本日中」",
-   "link": "https://news.yahoo.co.jp/pickup/6591330?source=rss",
-   "published": "08/11 16:34",
-   "ts": 1786433648.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン 再入館した人数確認できず",
-   "link": "https://news.yahoo.co.jp/pickup/6591324?source=rss",
-   "published": "08/11 16:06",
-   "ts": 1786431985.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "イオン 避難後の一時入館認めた",
    "link": "https://news.yahoo.co.jp/pickup/6591305?source=rss",
    "published": "08/11 12:27",
    "ts": 1786418857.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ANAが計58便欠航 台風がお盆直撃",
-   "link": "https://news.yahoo.co.jp/pickup/6591289?source=rss",
-   "published": "08/11 10:06",
-   "ts": 1786410388.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "推し活でビッグカツ人気 社長驚く",
-   "link": "https://news.yahoo.co.jp/pickup/6591291?source=rss",
-   "published": "08/11 09:53",
-   "ts": 1786409633.0,
    "source": "Yahoo!",
    "desc": ""
   },
