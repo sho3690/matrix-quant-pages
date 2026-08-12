@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-12 19:31:13",
+ "updated_at": "2026-08-12 22:53:02",
  "fng": {
   "value": 27,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.31831666739302,
-  "eth_dominance": 10.106332575040785,
-  "total_mcap_usd": 2281526601303.85,
-  "mcap_change_24h": 0.13075513944358466
+  "btc_dominance": 56.320967365803895,
+  "eth_dominance": 10.084829079870005,
+  "total_mcap_usd": 2277641127415.151,
+  "mcap_change_24h": -0.03152523996160713
  },
  "defi": {
-  "tvl_usd": 75171197660.0,
-  "change_1d": 0.0005440856610281486,
-  "change_7d": 0.005730984327127375,
-  "change_1y": -0.49096724142544224,
-  "range_pos_1y": 0.060842403911833376
+  "tvl_usd": 75577611877.0,
+  "change_1d": 0.005953520285898906,
+  "change_7d": 0.01116864951867047,
+  "change_1y": -0.4882151481178547,
+  "range_pos_1y": 0.06482471260649676
  },
  "news_crypto": [
   {
@@ -117,10 +117,42 @@
  ],
  "news_jp": [
   {
-   "title": "ハッピーターン50年 売れ続ける訳",
-   "link": "https://news.yahoo.co.jp/pickup/6591479?source=rss",
-   "published": "08/12 19:07",
-   "ts": 1786529239.0,
+   "title": "夜間の墓参りも 変化する供養の形",
+   "link": "https://news.yahoo.co.jp/pickup/6591491?source=rss",
+   "published": "08/12 21:22",
+   "ts": 1786537358.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "地震で観光業約60億円被害 熊本県",
+   "link": "https://news.yahoo.co.jp/pickup/6591493?source=rss",
+   "published": "08/12 21:19",
+   "ts": 1786537170.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン爆発 ハビタが「補償模索」",
+   "link": "https://news.yahoo.co.jp/pickup/6591485?source=rss",
+   "published": "08/12 20:37",
+   "ts": 1786534641.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "コメ収穫始まる 倉庫は古米山積み",
+   "link": "https://news.yahoo.co.jp/pickup/6591486?source=rss",
+   "published": "08/12 20:35",
+   "ts": 1786534517.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新幹線乗り遅れ緊急停止 動画拡散",
+   "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
+   "published": "08/12 19:53",
+   "ts": 1786531991.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -133,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "人が入る箱型冷房 建設業など注目",
-   "link": "https://news.yahoo.co.jp/pickup/6591455?source=rss",
-   "published": "08/12 16:30",
-   "ts": 1786519839.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "新幹線「独りぼっち席」が話題",
    "link": "https://news.yahoo.co.jp/pickup/6591425?source=rss",
    "published": "08/12 12:51",
@@ -149,34 +173,10 @@
    "desc": ""
   },
   {
-   "title": "奥田碩さん死去 プリウスに尽力",
-   "link": "https://news.yahoo.co.jp/pickup/6591420?source=rss",
-   "published": "08/12 12:25",
-   "ts": 1786505135.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "スポーツ用品大手オン 株価急落",
    "link": "https://news.yahoo.co.jp/pickup/6591414?source=rss",
    "published": "08/12 11:33",
    "ts": 1786502033.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「四国新幹線」実現なるか 現状は",
-   "link": "https://news.yahoo.co.jp/pickup/6591392?source=rss",
-   "published": "08/12 08:17",
-   "ts": 1786490228.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン 爆発事故で遺族に補償方針",
-   "link": "https://news.yahoo.co.jp/pickup/6591365?source=rss",
-   "published": "08/11 22:38",
-   "ts": 1786455531.0,
    "source": "Yahoo!",
    "desc": ""
   }
