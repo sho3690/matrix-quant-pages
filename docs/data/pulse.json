@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-13 16:58:25",
+ "updated_at": "2026-08-13 19:32:01",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,33 +37,114 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.289479727930804,
-  "eth_dominance": 10.048369744419503,
-  "total_mcap_usd": 2274569895157.12,
-  "mcap_change_24h": 0.11792294009784587
+  "btc_dominance": 56.27010225847251,
+  "eth_dominance": 10.027193738761914,
+  "total_mcap_usd": 2267313116202.473,
+  "mcap_change_24h": -0.6698502069375178
  },
  "defi": {
-  "tvl_usd": 75176923485.0,
-  "change_1d": 0.003854892464935089,
-  "change_7d": -0.0011048159903743748,
-  "change_1y": -0.5137049450800273,
-  "range_pos_1y": 0.06132238513946771
+  "tvl_usd": 75147547000.0,
+  "change_1d": 0.0034618061182312143,
+  "change_7d": -0.0014951489280541352,
+  "change_1y": -0.5138949720021756,
+  "range_pos_1y": 0.06103467340797763
  },
- "news_crypto": [],
+ "news_crypto": [
+  {
+   "title": "MUFG、国債レポのオンチェーン化実証へ　カントン基盤を活用",
+   "link": "https://coinpost.jp/?p=730935",
+   "published": "08/13 16:40",
+   "ts": 1786606802.0,
+   "source": "CoinPost",
+   "desc": "MUFGなど4社が米デジタルアセット、Progmatと組み、カントン基盤で日本国債レポのオンチェーン化実証を開始。振替国債の法的性質を保ったまま同時決済（DvP）を検証し、トークン化預金での決済も検討する。"
+  },
+  {
+   "title": "米フィデリティ、イーサリアムETF「FETH」にステーキング機能追加へ",
+   "link": "https://coinpost.jp/?p=730922",
+   "published": "08/13 12:56",
+   "ts": 1786593369.0,
+   "source": "CoinPost",
+   "desc": "米フィデリティが現物イーサリアムETF「FETH」にステーキング機能を追加する予定であることが明らかになった。SECへ修正登録届出書を提出し、報酬の85%をファンドに充当、四半期ごとに現金分配する計画となっている。"
+  },
+  {
+   "title": "ゴールドマン、ネオス買収合意　ビットコイン・イーサリアムETFも獲得",
+   "link": "https://coinpost.jp/?p=730906",
+   "published": "08/13 11:53",
+   "ts": 1786589629.0,
+   "source": "CoinPost",
+   "desc": "ゴールドマン・サックスがオプション運用ETF大手ネオスを最大22.5億ドルで買収へ。BTCIなどの仮想通貨インカムETFも取得し、世界有数のアクティブETF運用会社となる見通しだ、"
+  },
+  {
+   "title": "メタプラネットCEO、ビットコイン移動は売却でないと説明",
+   "link": "https://coinpost.jp/?p=730916",
+   "published": "08/13 11:43",
+   "ts": 1786589014.0,
+   "source": "CoinPost",
+   "desc": "メタプラネットのサイモン・ゲロヴィッチCEOは13日、過去24時間でカストディ用アドレス間において5,014BTCを移動したと明らかにした。売却ではなく通常のカストディ運用と説明し、保有量は43,000BTCで変わらないとしている。"
+  },
+  {
+   "title": "ビットコインが2.1万ドルに下落でも担保不足にならず、ストラテジーがデータ共有",
+   "link": "https://coinpost.jp/?p=730899",
+   "published": "08/13 11:24",
+   "ts": 1786587845.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨ビットコインの財務企業ストラテジーのマイケル・セイラー会長は、同社の資本市場での戦略による影響を追跡できるウェブページを共有。同社もビットコインの価格基準の新たな指標だとして同じウェブページを紹介した。"
+  },
+  {
+   "title": "グレースケール、ビットコイン相場安定化局面で3要因分析",
+   "link": "https://coinpost.jp/?p=730904",
+   "published": "08/13 11:11",
+   "ts": 1786587116.0,
+   "source": "CoinPost",
+   "desc": "グレースケール調査部門が、ビットコイン需要拡大を支える3つの構造要因を分析した。政府債務の膨張と代替資産需要、ブロックチェーン技術の金融浸透、投資家の世代交代を挙げ、相場調整下でも普及基調は続くとの見方を示した。"
+  },
+  {
+   "title": "DAT企業Hyperion DeFi、HYPE高騰で純利益3.5倍",
+   "link": "https://coinpost.jp/?p=730896",
+   "published": "08/13 10:17",
+   "ts": 1786583824.0,
+   "source": "CoinPost",
+   "desc": "Hyperion DeFi（HYPD）の2026年4月から6月期決算で、純利益が前四半期の880万ドルから3,100万ドルへ約3.5倍に拡大した。要因はHYPE価格上昇による保有資産の評価益で、本業の粗利益の伸びは緩やかにとどまる。"
+  },
+  {
+   "title": "韓国スマホ決済カカオペイ、ウォン建てステーブルコイン発行を準備中　サークル社と提携も",
+   "link": "https://coinpost.jp/?p=730881",
+   "published": "08/13 09:43",
+   "ts": 1786581834.0,
+   "source": "CoinPost",
+   "desc": "カカオペイがウォン建てステーブルコイン発行や、ステーブルコイン土台の一連の金融サービスを計画している。米サークル社とも提携し基盤整備を進めていく。"
+  }
+ ],
  "news_jp": [
+  {
+   "title": "大雨 関東の鉄道の運行情報",
+   "link": "https://news.yahoo.co.jp/pickup/6591612?source=rss",
+   "published": "08/13 19:11",
+   "ts": 1786615881.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「プチプチ」なぜ原油危機に強い",
+   "link": "https://news.yahoo.co.jp/pickup/6591610?source=rss",
+   "published": "08/13 18:42",
+   "ts": 1786614162.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "秋葉原駅に熊本産の牛乳 売上急増",
+   "link": "https://news.yahoo.co.jp/pickup/6591602?source=rss",
+   "published": "08/13 17:47",
+   "ts": 1786610873.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "すかいらーく 宅配専門店を導入へ",
    "link": "https://news.yahoo.co.jp/pickup/6591593?source=rss",
    "published": "08/13 16:51",
    "ts": 1786607479.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "そごう 19年ぶり「本店」名称復活",
-   "link": "https://news.yahoo.co.jp/pickup/6591590?source=rss",
-   "published": "08/13 16:38",
-   "ts": 1786606683.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -92,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "バブル・氷河期・Z 各世代の働く",
-   "link": "https://news.yahoo.co.jp/pickup/6591554?source=rss",
-   "published": "08/13 11:36",
-   "ts": 1786588566.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "高密度の金含む鉱石 相次ぎ発見",
    "link": "https://news.yahoo.co.jp/pickup/6591523?source=rss",
    "published": "08/13 08:15",
    "ts": 1786576503.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "新幹線乗り遅れ緊急停止 動画拡散",
-   "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
-   "published": "08/12 19:53",
-   "ts": 1786531991.0,
    "source": "Yahoo!",
    "desc": ""
   }
