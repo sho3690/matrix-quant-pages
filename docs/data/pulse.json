@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-13 22:52:58",
+ "updated_at": "2026-08-14 07:07:08",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.302787007694356,
-  "eth_dominance": 10.045019065744277,
-  "total_mcap_usd": 2270367143068.82,
-  "mcap_change_24h": -0.23380465862071612
+  "btc_dominance": 56.22822231044326,
+  "eth_dominance": 10.060558908974555,
+  "total_mcap_usd": 2262972191235.739,
+  "mcap_change_24h": 0.017038983187755943
  },
  "defi": {
-  "tvl_usd": 74955956506.0,
-  "change_1d": 0.0009059477182231657,
-  "change_7d": -0.004040861267517126,
-  "change_1y": -0.515134308562955,
-  "range_pos_1y": 0.05915824630086188
+  "tvl_usd": 75023892215.0,
+  "change_1d": 0.0015931330634488816,
+  "change_7d": -0.003347351257434239,
+  "change_1y": -0.5147404519701015,
+  "range_pos_1y": 0.059646793495928156
  },
  "news_crypto": [
   {
@@ -117,10 +117,18 @@
  ],
  "news_jp": [
   {
-   "title": "大雨 関東の鉄道の運行情報",
-   "link": "https://news.yahoo.co.jp/pickup/6591612?source=rss",
-   "published": "08/13 19:11",
-   "ts": 1786615881.0,
+   "title": "午前1時 成田空港に6600人が滞留",
+   "link": "https://news.yahoo.co.jp/pickup/6591647?source=rss",
+   "published": "08/14 05:00",
+   "ts": 1786651216.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "千葉県内のJR各線 始発から運休",
+   "link": "https://news.yahoo.co.jp/pickup/6591646?source=rss",
+   "published": "08/14 04:46",
+   "ts": 1786650362.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591568?source=rss",
    "published": "08/13 13:11",
    "ts": 1786594272.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "高密度の金含む鉱石 相次ぎ発見",
-   "link": "https://news.yahoo.co.jp/pickup/6591523?source=rss",
-   "published": "08/13 08:15",
-   "ts": 1786576503.0,
    "source": "Yahoo!",
    "desc": ""
   }
