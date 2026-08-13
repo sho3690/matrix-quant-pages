@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-13 12:03:17",
+ "updated_at": "2026-08-13 14:12:50",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.26857841492371,
-  "eth_dominance": 10.014995919404578,
-  "total_mcap_usd": 2264796013049.884,
-  "mcap_change_24h": -0.2596377626299257
+  "btc_dominance": 56.272380644232086,
+  "eth_dominance": 10.050679408979557,
+  "total_mcap_usd": 2271115509856.936,
+  "mcap_change_24h": -0.11996935728164197
  },
  "defi": {
-  "tvl_usd": 74974193281.0,
-  "change_1d": 0.0012394726322288996,
-  "change_7d": -0.0037985396471702515,
-  "change_1y": -0.515016340799856,
-  "range_pos_1y": 0.05933685971389542
+  "tvl_usd": 74866620212.0,
+  "change_1d": -0.00025932411445839243,
+  "change_7d": -0.005227890784444744,
+  "change_1y": -0.5157121959781767,
+  "range_pos_1y": 0.0582832948019757
  },
  "news_crypto": [
+  {
+   "title": "米フィデリティ、イーサリアムETF「FETH」にステーキング機能追加へ",
+   "link": "https://coinpost.jp/?p=730922",
+   "published": "08/13 12:56",
+   "ts": 1786593369.0,
+   "source": "CoinPost",
+   "desc": "米フィデリティが現物イーサリアムETF「FETH」にステーキング機能を追加する予定であることが明らかになった。SECへ修正登録届出書を提出し、報酬の85%をファンドに充当、四半期ごとに現金分配する計画となっている。"
+  },
   {
    "title": "ゴールドマン、ネオス買収合意　ビットコイン・イーサリアムETFも獲得",
    "link": "https://coinpost.jp/?p=730906",
@@ -105,22 +113,30 @@
    "ts": 1786580492.0,
    "source": "CoinPost",
    "desc": "MUFGが2027年度にも日本国債のレポ取引をブロックチェーン上で即時決済する計画が判明した。トークン化預金やステーブルコインを活用し、270兆円規模の市場の資金効率を高める。"
-  },
-  {
-   "title": "香港ステーブルコインHKDAPがローンチを開始、まずは国際決済やRWAトークン化などで利用へ",
-   "link": "https://coinpost.jp/?p=730873",
-   "published": "08/13 08:17",
-   "ts": 1786576676.0,
-   "source": "CoinPost",
-   "desc": "アンカーポイントは、香港ドル連動のステーブルコインHKDAPのローンチ開始を発表。まずは機関やプロの投資家向けに提供し、国際決済やRWAトークン化などで利用する。"
   }
  ],
  "news_jp": [
   {
-   "title": "TDLトゥモローランド 27年春進化",
-   "link": "https://news.yahoo.co.jp/pickup/6591552?source=rss",
-   "published": "08/13 11:50",
-   "ts": 1786589451.0,
+   "title": "芸能プロの佐藤企画 破産開始決定",
+   "link": "https://news.yahoo.co.jp/pickup/6591573?source=rss",
+   "published": "08/13 13:40",
+   "ts": 1786596047.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新スペース・マウンテン 名称決定",
+   "link": "https://news.yahoo.co.jp/pickup/6591568?source=rss",
+   "published": "08/13 13:11",
+   "ts": 1786594272.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米国外初 表参道にグーグル直営店",
+   "link": "https://news.yahoo.co.jp/pickup/6591566?source=rss",
+   "published": "08/13 13:08",
+   "ts": 1786594085.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -129,14 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591554?source=rss",
    "published": "08/13 11:36",
    "ts": 1786588566.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日経平均 一時6万8000円台回復",
-   "link": "https://news.yahoo.co.jp/pickup/6591539?source=rss",
-   "published": "08/13 09:58",
-   "ts": 1786582710.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591523?source=rss",
    "published": "08/13 08:15",
    "ts": 1786576503.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "猛暑常態化 工事の「夏季休工」増",
-   "link": "https://news.yahoo.co.jp/pickup/6591517?source=rss",
-   "published": "08/13 07:26",
-   "ts": 1786573606.0,
    "source": "Yahoo!",
    "desc": ""
   },
