@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-14 16:54:40",
+ "updated_at": "2026-08-14 19:28:15",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.16271165759446,
-  "eth_dominance": 10.04845782219261,
-  "total_mcap_usd": 2249778824589.868,
-  "mcap_change_24h": -1.0867549605737377
+  "btc_dominance": 56.10638467273361,
+  "eth_dominance": 10.06934107064151,
+  "total_mcap_usd": 2247562544744.0005,
+  "mcap_change_24h": -0.8559338566422282
  },
  "defi": {
-  "tvl_usd": 74894557400.0,
-  "change_1d": -0.000967145724740881,
-  "change_7d": -0.003231893758561921,
-  "change_1y": -0.5254711551367756,
-  "range_pos_1y": 0.05838047721910279
+  "tvl_usd": 74662174554.0,
+  "change_1d": -0.004064973672674443,
+  "change_7d": -0.006324666002382573,
+  "change_1y": -0.5269435233208808,
+  "range_pos_1y": 0.056105218385317
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "宝くじ・ロト7 千葉県で1等12億円",
+   "link": "https://news.yahoo.co.jp/pickup/6591723?source=rss",
+   "published": "08/14 18:34",
+   "ts": 1786700080.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "初任給100万円の会社 応募1300人",
+   "link": "https://news.yahoo.co.jp/pickup/6591715?source=rss",
+   "published": "08/14 17:44",
+   "ts": 1786697044.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "アシックス商事 解散・清算の方針",
    "link": "https://news.yahoo.co.jp/pickup/6591697?source=rss",
    "published": "08/14 15:46",
@@ -129,14 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591682?source=rss",
    "published": "08/14 12:57",
    "ts": 1786679872.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大雨から一夜 関東の鉄道運行情報",
-   "link": "https://news.yahoo.co.jp/pickup/6591678?source=rss",
-   "published": "08/14 12:38",
-   "ts": 1786678689.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591610?source=rss",
    "published": "08/13 18:42",
    "ts": 1786614162.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "秋葉原駅に熊本産の牛乳 売上急増",
-   "link": "https://news.yahoo.co.jp/pickup/6591602?source=rss",
-   "published": "08/13 17:47",
-   "ts": 1786610873.0,
    "source": "Yahoo!",
    "desc": ""
   }
