@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-14 19:28:15",
+ "updated_at": "2026-08-14 22:49:26",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.10638467273361,
-  "eth_dominance": 10.06934107064151,
-  "total_mcap_usd": 2247562544744.0005,
-  "mcap_change_24h": -0.8559338566422282
+  "btc_dominance": 56.080429044062974,
+  "eth_dominance": 10.054147309447954,
+  "total_mcap_usd": 2241687418180.1426,
+  "mcap_change_24h": -1.2364608076340706
  },
  "defi": {
-  "tvl_usd": 74662174554.0,
-  "change_1d": -0.004064973672674443,
-  "change_7d": -0.006324666002382573,
-  "change_1y": -0.5269435233208808,
-  "range_pos_1y": 0.056105218385317
+  "tvl_usd": 74687789039.0,
+  "change_1d": -0.003724589663422373,
+  "change_7d": -0.005983764038441697,
+  "change_1y": -0.5267812309941649,
+  "range_pos_1y": 0.05635600963033482
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "高さ日本一 観覧車8カ月以上停止",
+   "link": "https://news.yahoo.co.jp/pickup/6591731?source=rss",
+   "published": "08/14 19:37",
+   "ts": 1786703867.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "宝くじ・ロト7 千葉県で1等12億円",
    "link": "https://news.yahoo.co.jp/pickup/6591723?source=rss",
    "published": "08/14 18:34",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591667?source=rss",
    "published": "08/14 09:52",
    "ts": 1786668735.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "成田空港に7000人が滞留 大雨影響",
-   "link": "https://news.yahoo.co.jp/pickup/6591657?source=rss",
-   "published": "08/14 08:01",
-   "ts": 1786662112.0,
    "source": "Yahoo!",
    "desc": ""
   },
