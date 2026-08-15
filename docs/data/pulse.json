@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15 16:02:11",
+ "updated_at": "2026-08-15 18:45:42",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.111219962173976,
-  "eth_dominance": 10.062128428913141,
-  "total_mcap_usd": 2255127424647.154,
-  "mcap_change_24h": 0.20899168135570756
+  "btc_dominance": 56.10308764617464,
+  "eth_dominance": 10.06317038909562,
+  "total_mcap_usd": 2251620822247.133,
+  "mcap_change_24h": 0.278620143100054
  },
  "defi": {
-  "tvl_usd": 74885272303.0,
-  "change_1d": 0.0018889049167993832,
-  "change_7d": -0.007126518119159431,
-  "change_1y": -0.5108816617356642,
-  "range_pos_1y": 0.058289566898760956
+  "tvl_usd": 74851272471.0,
+  "change_1d": 0.0014355022952636798,
+  "change_7d": -0.007577308114882775,
+  "change_1y": -0.5111037339912315,
+  "range_pos_1y": 0.05795667477941221
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "大人がおもちゃに夢中 市場急拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6591849?source=rss",
+   "published": "08/15 17:54",
+   "ts": 1786784056.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "コミケ近くのベローチェ 高速提供",
+   "link": "https://news.yahoo.co.jp/pickup/6591836?source=rss",
+   "published": "08/15 16:34",
+   "ts": 1786779295.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "人生に挫折した元東大生たち 実態",
    "link": "https://news.yahoo.co.jp/pickup/6591829?source=rss",
    "published": "08/15 15:59",
@@ -129,14 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
    "published": "08/15 14:06",
    "ts": 1786770404.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大人がおもちゃ 夢中になる理由は",
-   "link": "https://news.yahoo.co.jp/pickup/6591806?source=rss",
-   "published": "08/15 13:21",
-   "ts": 1786767667.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591715?source=rss",
    "published": "08/14 17:44",
    "ts": 1786697044.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "アシックス商事 解散・清算の方針",
-   "link": "https://news.yahoo.co.jp/pickup/6591697?source=rss",
-   "published": "08/14 15:46",
-   "ts": 1786689963.0,
    "source": "Yahoo!",
    "desc": ""
   }
