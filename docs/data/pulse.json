@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15 22:03:07",
+ "updated_at": "2026-08-16 06:40:01",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.105651882740126,
-  "eth_dominance": 10.075540223111517,
-  "total_mcap_usd": 2252986071210.579,
-  "mcap_change_24h": 0.6122824727699154
+  "btc_dominance": 56.14351436428513,
+  "eth_dominance": 10.076152710693599,
+  "total_mcap_usd": 2254919402510.1714,
+  "mcap_change_24h": 0.31817859008149263
  },
  "defi": {
-  "tvl_usd": 74813122893.0,
-  "change_1d": 0.000925314364665919,
-  "change_7d": -0.008083117911338866,
-  "change_1y": -0.511352910599969,
-  "range_pos_1y": 0.05758315252575283
+  "tvl_usd": 74921711046.0,
+  "change_1d": 0.0023780413537703993,
+  "change_7d": -0.006643391590736347,
+  "change_1y": -0.5106436595641225,
+  "range_pos_1y": 0.058646338378798686
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "物価高 具材ない麺商品の投入加速",
+   "link": "https://news.yahoo.co.jp/pickup/6591874?source=rss",
+   "published": "08/15 22:06",
+   "ts": 1786799166.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "SUVの国内販売競争 激しさ増す",
    "link": "https://news.yahoo.co.jp/pickup/6591858?source=rss",
    "published": "08/15 19:18",
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
    "published": "08/15 14:06",
    "ts": 1786770404.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ファミ通 紙媒体にこだわる理由",
-   "link": "https://news.yahoo.co.jp/pickup/6591794?source=rss",
-   "published": "08/15 11:20",
-   "ts": 1786760453.0,
    "source": "Yahoo!",
    "desc": ""
   },
