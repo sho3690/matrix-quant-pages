@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15 10:53:31",
+ "updated_at": "2026-08-15 12:58:02",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.10043975635604,
-  "eth_dominance": 10.083821503783476,
-  "total_mcap_usd": 2252427751414.354,
-  "mcap_change_24h": -0.5973137915815107
+  "btc_dominance": 56.095609516242995,
+  "eth_dominance": 10.072481632879219,
+  "total_mcap_usd": 2254040790399.6265,
+  "mcap_change_24h": -0.24271631264927768
  },
  "defi": {
-  "tvl_usd": 74501608960.0,
-  "change_1d": 0.001884118060317297,
-  "change_7d": -0.012212426840449542,
-  "change_1y": -0.5133875854107735,
-  "range_pos_1y": 0.05453312176786459
+  "tvl_usd": 74839736855.0,
+  "change_1d": 0.0013941159114425616,
+  "change_7d": -0.007730254173183959,
+  "change_1y": -0.5111790796654243,
+  "range_pos_1y": 0.057843729643147025
  },
  "news_crypto": [
+  {
+   "title": "コンヴァノ、保有暗号資産の売却を完了　損失は約3億円",
+   "link": "https://coinpost.jp/?p=731057",
+   "published": "08/15 11:25",
+   "ts": 1786760706.0,
+   "source": "CoinPost",
+   "desc": "上場企業コンヴァノは13日、保有する仮想通貨について8月10日付で売却を完了したと発表した。売却損は約2億9,800万円で、2027年3月期第2四半期の連結会計期間に計上する予定だ。"
+  },
   {
    "title": "メタプラネットが「BitBonds」創設、初回社債発行完了",
    "link": "https://coinpost.jp/?p=731036",
@@ -105,17 +113,17 @@
    "ts": 1786743038.0,
    "source": "CoinPost",
    "desc": "米SECが準備するトークン化証券の特例措置公表が再び延期された。クラリティー法案の条項調整が影響しており、関連する仮想通貨規則の公開会合も中止となった。"
-  },
-  {
-   "title": "米Cboe、ビットコインなど3倍レバレッジETFを申請",
-   "link": "https://coinpost.jp/?p=731026",
-   "published": "08/15 06:05",
-   "ts": 1786741504.0,
-   "source": "CoinPost",
-   "desc": "米Cboe BZXが仮想通貨や貴金属を対象とした3倍レバレッジ型ETF6本の上場をSECに申請し、投資家はより大きなリスクとリターンを伴う先物型商品への関心を強めている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ファミ通 紙媒体にこだわる理由",
+   "link": "https://news.yahoo.co.jp/pickup/6591794?source=rss",
+   "published": "08/15 11:20",
+   "ts": 1786760453.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "高さ日本一 観覧車8カ月以上停止",
    "link": "https://news.yahoo.co.jp/pickup/6591731?source=rss",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591667?source=rss",
    "published": "08/14 09:52",
    "ts": 1786668735.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「プチプチ」なぜ原油危機に強い",
-   "link": "https://news.yahoo.co.jp/pickup/6591610?source=rss",
-   "published": "08/13 18:42",
-   "ts": 1786614162.0,
    "source": "Yahoo!",
    "desc": ""
   }
