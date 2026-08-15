@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15 18:45:42",
+ "updated_at": "2026-08-15 22:03:07",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.10308764617464,
-  "eth_dominance": 10.06317038909562,
-  "total_mcap_usd": 2251620822247.133,
-  "mcap_change_24h": 0.278620143100054
+  "btc_dominance": 56.105651882740126,
+  "eth_dominance": 10.075540223111517,
+  "total_mcap_usd": 2252986071210.579,
+  "mcap_change_24h": 0.6122824727699154
  },
  "defi": {
-  "tvl_usd": 74851272471.0,
-  "change_1d": 0.0014355022952636798,
-  "change_7d": -0.007577308114882775,
-  "change_1y": -0.5111037339912315,
-  "range_pos_1y": 0.05795667477941221
+  "tvl_usd": 74813122893.0,
+  "change_1d": 0.000925314364665919,
+  "change_7d": -0.008083117911338866,
+  "change_1y": -0.511352910599969,
+  "range_pos_1y": 0.05758315252575283
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "SUVの国内販売競争 激しさ増す",
+   "link": "https://news.yahoo.co.jp/pickup/6591858?source=rss",
+   "published": "08/15 19:18",
+   "ts": 1786789087.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "大人がおもちゃに夢中 市場急拡大",
    "link": "https://news.yahoo.co.jp/pickup/6591849?source=rss",
    "published": "08/15 17:54",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591731?source=rss",
    "published": "08/14 19:37",
    "ts": 1786703867.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "宝くじ・ロト7 千葉県で1等12億円",
-   "link": "https://news.yahoo.co.jp/pickup/6591723?source=rss",
-   "published": "08/14 18:34",
-   "ts": 1786700080.0,
    "source": "Yahoo!",
    "desc": ""
   },
