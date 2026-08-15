@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15 12:58:02",
+ "updated_at": "2026-08-15 16:02:11",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.095609516242995,
-  "eth_dominance": 10.072481632879219,
-  "total_mcap_usd": 2254040790399.6265,
-  "mcap_change_24h": -0.24271631264927768
+  "btc_dominance": 56.111219962173976,
+  "eth_dominance": 10.062128428913141,
+  "total_mcap_usd": 2255127424647.154,
+  "mcap_change_24h": 0.20899168135570756
  },
  "defi": {
-  "tvl_usd": 74839736855.0,
-  "change_1d": 0.0013941159114425616,
-  "change_7d": -0.007730254173183959,
-  "change_1y": -0.5111790796654243,
-  "range_pos_1y": 0.057843729643147025
+  "tvl_usd": 74885272303.0,
+  "change_1d": 0.0018889049167993832,
+  "change_7d": -0.007126518119159431,
+  "change_1y": -0.5108816617356642,
+  "range_pos_1y": 0.058289566898760956
  },
  "news_crypto": [
+  {
+   "title": "イーサリアム、ポスト量子暗号のハッシュ関数を従来型へ転換方針",
+   "link": "https://coinpost.jp/?p=731073",
+   "published": "08/15 13:45",
+   "ts": 1786769131.0,
+   "source": "CoinPost",
+   "desc": "イーサリアム財団のドレイク氏が、L1の耐量子コンピュータ暗号で使うハッシュ関数を従来型のSHA2などへ切り替える方針を発表した。セキュリティと開発速度の両立が期待される。"
+  },
+  {
+   "title": "米上場ハイパースケール・データ、685BTCのビットコイン売却しAIデータセンター拡張へ",
+   "link": "https://coinpost.jp/?p=731072",
+   "published": "08/15 13:10",
+   "ts": 1786767052.0,
+   "source": "CoinPost",
+   "desc": "米ハイパースケール・データは685BTCのビットコインを売却し約4300万ドルを確保、負債を約3000万ドル分圧縮した。資金はミシガン州データセンター拡張に充当し、マイニングは継続する方針だ。"
+  },
   {
    "title": "コンヴァノ、保有暗号資産の売却を完了　損失は約3億円",
    "link": "https://coinpost.jp/?p=731057",
@@ -97,25 +113,33 @@
    "ts": 1786749007.0,
    "source": "CoinPost",
    "desc": "ホワイトハウスが来週水曜、仮想通貨・予測市場業界関係者との会合を開催予定。トランプ大統領や米CFTC・SEC両委員長のほか、コインベースなど大手企業幹部の参加も見込まれている。"
-  },
-  {
-   "title": "ノルウェー政府系ファンド、ビットコイン間接保有数が過去最高に",
-   "link": "https://coinpost.jp/?p=731028",
-   "published": "08/15 07:15",
-   "ts": 1786745734.0,
-   "source": "CoinPost",
-   "desc": "ノルウェー中央銀行投資管理部門（NBIM）の間接的ビットコイン保有量が過去最高の1万1,549BTCに達したと、K33のデータで判明。イーサリアムの間接保有やスペースX株の初開示も明らかになった。"
-  },
-  {
-   "title": "米SEC、証券トークン化特例規則の公表を再度延期",
-   "link": "https://coinpost.jp/?p=731029",
-   "published": "08/15 06:30",
-   "ts": 1786743038.0,
-   "source": "CoinPost",
-   "desc": "米SECが準備するトークン化証券の特例措置公表が再び延期された。クラリティー法案の条項調整が影響しており、関連する仮想通貨規則の公開会合も中止となった。"
   }
  ],
  "news_jp": [
+  {
+   "title": "人生に挫折した元東大生たち 実態",
+   "link": "https://news.yahoo.co.jp/pickup/6591829?source=rss",
+   "published": "08/15 15:59",
+   "ts": 1786777151.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "車水没 保険適用のためすべきこと",
+   "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
+   "published": "08/15 14:06",
+   "ts": 1786770404.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "大人がおもちゃ 夢中になる理由は",
+   "link": "https://news.yahoo.co.jp/pickup/6591806?source=rss",
+   "published": "08/15 13:21",
+   "ts": 1786767667.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ファミ通 紙媒体にこだわる理由",
    "link": "https://news.yahoo.co.jp/pickup/6591794?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591697?source=rss",
    "published": "08/14 15:46",
    "ts": 1786689963.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "千葉大雨でガス異常 1万戸超停止",
-   "link": "https://news.yahoo.co.jp/pickup/6591682?source=rss",
-   "published": "08/14 12:57",
-   "ts": 1786679872.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "単独では限界 日米協調介入の内幕",
-   "link": "https://news.yahoo.co.jp/pickup/6591671?source=rss",
-   "published": "08/14 10:26",
-   "ts": 1786670805.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マスク氏 スペースX株48.4%保有",
-   "link": "https://news.yahoo.co.jp/pickup/6591667?source=rss",
-   "published": "08/14 09:52",
-   "ts": 1786668735.0,
    "source": "Yahoo!",
    "desc": ""
   }
