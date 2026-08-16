@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16 13:04:09",
+ "updated_at": "2026-08-16 16:05:03",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.17498966373624,
-  "eth_dominance": 10.076772270984108,
-  "total_mcap_usd": 2253130602388.7163,
-  "mcap_change_24h": -0.10888752213469893
+  "btc_dominance": 56.17522179694079,
+  "eth_dominance": 10.071727394506619,
+  "total_mcap_usd": 2250806118037.668,
+  "mcap_change_24h": -0.1797335455038307
  },
  "defi": {
-  "tvl_usd": 74880093904.0,
-  "change_1d": 0.005030599975428096,
-  "change_7d": -0.011316152546027247,
-  "change_1y": -0.5018792632913254,
-  "range_pos_1y": 0.058238865230060256
+  "tvl_usd": 74867790826.0,
+  "change_1d": 0.004866073192679732,
+  "change_7d": -0.011478596980300515,
+  "change_1y": -0.501961106381493,
+  "range_pos_1y": 0.058118405878674846
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "脱「絶叫遊園地」富士急G転換点",
+   "link": "https://news.yahoo.co.jp/pickup/6591952?source=rss",
+   "published": "08/16 16:03",
+   "ts": 1786863839.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "高専「ネーミングライツ」広がる",
+   "link": "https://news.yahoo.co.jp/pickup/6591951?source=rss",
+   "published": "08/16 15:46",
+   "ts": 1786862777.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "世界でブームのスクイーズ 事故も",
+   "link": "https://news.yahoo.co.jp/pickup/6591949?source=rss",
+   "published": "08/16 15:28",
+   "ts": 1786861690.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "お盆休み最終日 交通混雑がピーク",
    "link": "https://news.yahoo.co.jp/pickup/6591931?source=rss",
    "published": "08/16 12:22",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591902?source=rss",
    "published": "08/16 09:02",
    "ts": 1786838574.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "物価高 具材ない麺商品の投入加速",
-   "link": "https://news.yahoo.co.jp/pickup/6591874?source=rss",
-   "published": "08/15 22:06",
-   "ts": 1786799166.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "SUVの国内販売競争 激しさ増す",
-   "link": "https://news.yahoo.co.jp/pickup/6591858?source=rss",
-   "published": "08/15 19:18",
-   "ts": 1786789087.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "車水没 保険適用のためすべきこと",
-   "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
-   "published": "08/15 14:06",
-   "ts": 1786770404.0,
    "source": "Yahoo!",
    "desc": ""
   }
