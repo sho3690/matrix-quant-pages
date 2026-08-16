@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16 11:00:40",
+ "updated_at": "2026-08-16 13:04:09",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.16103355628256,
-  "eth_dominance": 10.06600053704356,
-  "total_mcap_usd": 2251495134812.875,
-  "mcap_change_24h": -0.041457596990891805
+  "btc_dominance": 56.17498966373624,
+  "eth_dominance": 10.076772270984108,
+  "total_mcap_usd": 2253130602388.7163,
+  "mcap_change_24h": -0.10888752213469893
  },
  "defi": {
-  "tvl_usd": 74873261692.0,
-  "change_1d": 0.0006802506826038002,
-  "change_7d": -0.01140636207027601,
-  "change_1y": -0.5019247128400286,
-  "range_pos_1y": 0.058171971089744506
+  "tvl_usd": 74880093904.0,
+  "change_1d": 0.005030599975428096,
+  "change_7d": -0.011316152546027247,
+  "change_1y": -0.5018792632913254,
+  "range_pos_1y": 0.058238865230060256
  },
  "news_crypto": [
+  {
+   "title": "ビットコインCPI通過も中東リスクで上値重く、来週も軟調継続か｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=730997",
+   "published": "08/16 11:30",
+   "ts": 1786847401.0,
+   "source": "CoinPost",
+   "desc": "bitbankアナリスト長谷川氏による週次レポート。米CPI・PPIのインフレ鈍化で9月利上げ観測は後退したものの、米・イラン和平進展なく原油高リスクが継続。先物資金調達率の上昇によるロスカットリスクにも警戒が必要な局面を解説。"
+  },
   {
    "title": "週刊仮想通貨ニュース（8/14）｜ヘイズの相場分析・BTCのフォーク・ETHのロードマップ刷新のまとめ",
    "link": "https://coinpost.jp/?p=730975",
@@ -105,30 +113,38 @@
    "ts": 1786754431.0,
    "source": "CoinPost",
    "desc": "仮想通貨取引所バイナンスが、規制動向を理由にHTXやEXMOなど計16の事業者・プラットフォームとの取引処理を段階的に制限すると発表した。23日には新たに11社が対象となる。"
-  },
-  {
-   "title": "イスラエル最大手レウミ銀行、ビットコインなどの仮想通貨取引サービス提供へ",
-   "link": "https://coinpost.jp/?p=731044",
-   "published": "08/15 08:20",
-   "ts": 1786749625.0,
-   "source": "CoinPost",
-   "desc": "イスラエル最大手レウミ銀行とギャラクシーは、同行の顧客に仮想通貨取引サービスを提供するために協業。ビットコインやイーサリアム、ソラナなどの銘柄を取り扱う。"
   }
  ],
  "news_jp": [
+  {
+   "title": "お盆休み最終日 交通混雑がピーク",
+   "link": "https://news.yahoo.co.jp/pickup/6591931?source=rss",
+   "published": "08/16 12:22",
+   "ts": 1786850521.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "プロテイン 価格の高騰止まらず",
+   "link": "https://news.yahoo.co.jp/pickup/6591929?source=rss",
+   "published": "08/16 11:55",
+   "ts": 1786848948.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米金融 新顔「ヨール街」に存在感",
+   "link": "https://news.yahoo.co.jp/pickup/6591924?source=rss",
+   "published": "08/16 11:14",
+   "ts": 1786846442.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "命の危険に直面 炎天下で働く人々",
    "link": "https://news.yahoo.co.jp/pickup/6591917?source=rss",
    "published": "08/16 10:38",
    "ts": 1786844315.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "お盆休み最終日 Uターン混雑予想",
-   "link": "https://news.yahoo.co.jp/pickup/6591906?source=rss",
-   "published": "08/16 09:16",
-   "ts": 1786839365.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,22 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591858?source=rss",
    "published": "08/15 19:18",
    "ts": 1786789087.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大人がおもちゃに夢中 市場急拡大",
-   "link": "https://news.yahoo.co.jp/pickup/6591849?source=rss",
-   "published": "08/15 17:54",
-   "ts": 1786784056.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "コミケ近くのベローチェ 高速提供",
-   "link": "https://news.yahoo.co.jp/pickup/6591836?source=rss",
-   "published": "08/15 16:34",
-   "ts": 1786779295.0,
    "source": "Yahoo!",
    "desc": ""
   },
