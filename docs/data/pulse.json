@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16 16:05:03",
+ "updated_at": "2026-08-16 18:47:07",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.17522179694079,
-  "eth_dominance": 10.071727394506619,
-  "total_mcap_usd": 2250806118037.668,
-  "mcap_change_24h": -0.1797335455038307
+  "btc_dominance": 56.1450035537441,
+  "eth_dominance": 10.074267676286535,
+  "total_mcap_usd": 2251203012936.526,
+  "mcap_change_24h": -0.05970078540994653
  },
  "defi": {
-  "tvl_usd": 74867790826.0,
-  "change_1d": 0.004866073192679732,
-  "change_7d": -0.011478596980300515,
-  "change_1y": -0.501961106381493,
-  "range_pos_1y": 0.058118405878674846
+  "tvl_usd": 74857090374.0,
+  "change_1d": 0.0047227349540459596,
+  "change_7d": -0.011619881045280778,
+  "change_1y": -0.5020322884107276,
+  "range_pos_1y": 0.05801363782734243
  },
  "news_crypto": [
   {
@@ -117,10 +117,18 @@
  ],
  "news_jp": [
   {
-   "title": "脱「絶叫遊園地」富士急G転換点",
-   "link": "https://news.yahoo.co.jp/pickup/6591952?source=rss",
-   "published": "08/16 16:03",
-   "ts": 1786863839.0,
+   "title": "千葉の車両撤去 JAFに要請が殺到",
+   "link": "https://news.yahoo.co.jp/pickup/6591972?source=rss",
+   "published": "08/16 18:37",
+   "ts": 1786873075.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "地震で停電 教室育ちサーモン全滅",
+   "link": "https://news.yahoo.co.jp/pickup/6591970?source=rss",
+   "published": "08/16 18:11",
+   "ts": 1786871481.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591929?source=rss",
    "published": "08/16 11:55",
    "ts": 1786848948.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米金融 新顔「ヨール街」に存在感",
-   "link": "https://news.yahoo.co.jp/pickup/6591924?source=rss",
-   "published": "08/16 11:14",
-   "ts": 1786846442.0,
    "source": "Yahoo!",
    "desc": ""
   },
