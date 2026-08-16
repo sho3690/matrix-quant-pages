@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-08-16 06:40:01",
+ "updated_at": "2026-08-16 11:00:40",
  "fng": {
   "value": 34,
   "label": "恐怖",
   "history": [
-   27,
    25,
    28,
    29,
@@ -33,23 +32,32 @@
    27,
    29,
    29,
+   34,
    34
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.14351436428513,
-  "eth_dominance": 10.076152710693599,
-  "total_mcap_usd": 2254919402510.1714,
-  "mcap_change_24h": 0.31817859008149263
+  "btc_dominance": 56.16103355628256,
+  "eth_dominance": 10.06600053704356,
+  "total_mcap_usd": 2251495134812.875,
+  "mcap_change_24h": -0.041457596990891805
  },
  "defi": {
-  "tvl_usd": 74921711046.0,
-  "change_1d": 0.0023780413537703993,
-  "change_7d": -0.006643391590736347,
-  "change_1y": -0.5106436595641225,
-  "range_pos_1y": 0.058646338378798686
+  "tvl_usd": 74873261692.0,
+  "change_1d": 0.0006802506826038002,
+  "change_7d": -0.01140636207027601,
+  "change_1y": -0.5019247128400286,
+  "range_pos_1y": 0.058171971089744506
  },
  "news_crypto": [
+  {
+   "title": "週刊仮想通貨ニュース（8/14）｜ヘイズの相場分析・BTCのフォーク・ETHのロードマップ刷新のまとめ",
+   "link": "https://coinpost.jp/?p=730975",
+   "published": "08/16 09:25",
+   "ts": 1786839930.0,
+   "source": "CoinPost",
+   "desc": "今週は、アーサー・ヘイズ氏の仮想通貨ビットコインの相場予想、ビットコインのeCashフォーク、イーサリアムのロードマップ大幅刷新に関する記事が関心を集めた。"
+  },
   {
    "title": "イーサリアム、ポスト量子暗号のハッシュ関数を従来型へ転換方針",
    "link": "https://coinpost.jp/?p=731073",
@@ -105,17 +113,33 @@
    "ts": 1786749625.0,
    "source": "CoinPost",
    "desc": "イスラエル最大手レウミ銀行とギャラクシーは、同行の顧客に仮想通貨取引サービスを提供するために協業。ビットコインやイーサリアム、ソラナなどの銘柄を取り扱う。"
-  },
-  {
-   "title": "トランプ大統領、来週の仮想通貨・予測市場会合に出席見込み＝報道",
-   "link": "https://coinpost.jp/?p=731037",
-   "published": "08/15 08:10",
-   "ts": 1786749007.0,
-   "source": "CoinPost",
-   "desc": "ホワイトハウスが来週水曜、仮想通貨・予測市場業界関係者との会合を開催予定。トランプ大統領や米CFTC・SEC両委員長のほか、コインベースなど大手企業幹部の参加も見込まれている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "命の危険に直面 炎天下で働く人々",
+   "link": "https://news.yahoo.co.jp/pickup/6591917?source=rss",
+   "published": "08/16 10:38",
+   "ts": 1786844315.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "お盆休み最終日 Uターン混雑予想",
+   "link": "https://news.yahoo.co.jp/pickup/6591906?source=rss",
+   "published": "08/16 09:16",
+   "ts": 1786839365.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "粗悪なモバイル電池 会社の闇追跡",
+   "link": "https://news.yahoo.co.jp/pickup/6591902?source=rss",
+   "published": "08/16 09:02",
+   "ts": 1786838574.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "物価高 具材ない麺商品の投入加速",
    "link": "https://news.yahoo.co.jp/pickup/6591874?source=rss",
@@ -149,34 +173,10 @@
    "desc": ""
   },
   {
-   "title": "人生に挫折した元東大生たち 実態",
-   "link": "https://news.yahoo.co.jp/pickup/6591829?source=rss",
-   "published": "08/15 15:59",
-   "ts": 1786777151.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "車水没 保険適用のためすべきこと",
    "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
    "published": "08/15 14:06",
    "ts": 1786770404.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "高さ日本一 観覧車8カ月以上停止",
-   "link": "https://news.yahoo.co.jp/pickup/6591731?source=rss",
-   "published": "08/14 19:37",
-   "ts": 1786703867.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "初任給100万円の会社 応募1300人",
-   "link": "https://news.yahoo.co.jp/pickup/6591715?source=rss",
-   "published": "08/14 17:44",
-   "ts": 1786697044.0,
    "source": "Yahoo!",
    "desc": ""
   }
