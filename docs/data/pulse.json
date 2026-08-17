@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17 10:58:20",
+ "updated_at": "2026-08-17 13:07:35",
  "fng": {
   "value": 31,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.15424466909058,
-  "eth_dominance": 10.114741159349904,
-  "total_mcap_usd": 2255333648656.522,
-  "mcap_change_24h": 0.19462727163833007
+  "btc_dominance": 56.21054751789275,
+  "eth_dominance": 10.128956392230897,
+  "total_mcap_usd": 2264491590329.7593,
+  "mcap_change_24h": 0.566619485781077
  },
  "defi": {
-  "tvl_usd": 74711656247.0,
-  "change_1d": -0.001108694244559727,
-  "change_7d": -0.01282807522787277,
-  "change_1y": -0.5034731611161525,
-  "range_pos_1y": 0.056589693298361686
+  "tvl_usd": 75165007330.0,
+  "change_1d": 0.0038740873145985955,
+  "change_7d": -0.006837906040308983,
+  "change_1y": -0.5004602312541458,
+  "range_pos_1y": 0.061028450608366
  },
  "news_crypto": [
+  {
+   "title": "ハーバード大学、ビットコインETF「IBIT」の売却停止　チューダー氏ファンドは増加",
+   "link": "https://coinpost.jp/?p=731169",
+   "published": "08/17 12:52",
+   "ts": 1786938744.0,
+   "source": "CoinPost",
+   "desc": "2026年4～6月期の開示で、ハーバード大学基金がビットコイン現物ETF売却を停止したことが判明。UAE政府系ファンドやポール・チューダー・ジョーンズ氏のファンドの動向も解説する。"
+  },
+  {
+   "title": "SafePal、注文追跡プラグインに不正アクセス　約4万人に影響",
+   "link": "https://coinpost.jp/?p=731162",
+   "published": "08/17 11:13",
+   "ts": 1786932791.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨ウォレットのSafePalが、注文追跡プラグインの認可不備で顧客情報に不正アクセスがあったと公表した。影響は約39,798人で、氏名や住所、電話番号などが流出したという。シードフレーズや秘密鍵は無事としている。"
+  },
   {
    "title": "JPモルガン、ポリマーケット口座解消　IPO関与に意欲＝報道",
    "link": "https://coinpost.jp/?p=731141",
@@ -97,25 +113,33 @@
    "ts": 1786839930.0,
    "source": "CoinPost",
    "desc": "今週は、アーサー・ヘイズ氏の仮想通貨ビットコインの相場予想、ビットコインのeCashフォーク、イーサリアムのロードマップ大幅刷新に関する記事が関心を集めた。"
-  },
-  {
-   "title": "イーサリアム、ポスト量子暗号のハッシュ関数を従来型へ転換方針",
-   "link": "https://coinpost.jp/?p=731073",
-   "published": "08/15 13:45",
-   "ts": 1786769131.0,
-   "source": "CoinPost",
-   "desc": "イーサリアム財団のドレイク氏が、L1の耐量子コンピュータ暗号で使うハッシュ関数を従来型のSHA2などへ切り替える方針を発表した。セキュリティと開発速度の両立が期待される。"
-  },
-  {
-   "title": "米上場ハイパースケール・データ、685BTCのビットコイン売却しAIデータセンター拡張へ",
-   "link": "https://coinpost.jp/?p=731072",
-   "published": "08/15 13:10",
-   "ts": 1786767052.0,
-   "source": "CoinPost",
-   "desc": "米ハイパースケール・データは685BTCのビットコインを売却し約4300万ドルを確保、負債を約3000万ドル分圧縮した。資金はミシガン州データセンター拡張に充当し、マイニングは継続する方針だ。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「カレー焼きそば」再評価 なぜ今",
+   "link": "https://news.yahoo.co.jp/pickup/6592049?source=rss",
+   "published": "08/17 12:39",
+   "ts": 1786937963.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "定着するか 稼げるブルーカラー",
+   "link": "https://news.yahoo.co.jp/pickup/6592038?source=rss",
+   "published": "08/17 11:21",
+   "ts": 1786933288.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "長期金利が上昇 約30年ぶり高水準",
+   "link": "https://news.yahoo.co.jp/pickup/6592041?source=rss",
+   "published": "08/17 11:16",
+   "ts": 1786933008.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "キャッシュレス決済 浸透に地域差",
    "link": "https://news.yahoo.co.jp/pickup/6592030?source=rss",
@@ -133,34 +157,10 @@
    "desc": ""
   },
   {
-   "title": "大戸屋HD社長 海外出店を加速",
-   "link": "https://news.yahoo.co.jp/pickup/6592019?source=rss",
-   "published": "08/17 08:14",
-   "ts": 1786922056.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "京急上大岡駅 液晶の「パタパタ」",
-   "link": "https://news.yahoo.co.jp/pickup/6591992?source=rss",
-   "published": "08/16 21:38",
-   "ts": 1786883912.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "早期退職 第二の人生は甘くない?",
    "link": "https://news.yahoo.co.jp/pickup/6591977?source=rss",
    "published": "08/16 19:26",
    "ts": 1786875965.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "千葉の車両撤去 JAFに要請が殺到",
-   "link": "https://news.yahoo.co.jp/pickup/6591972?source=rss",
-   "published": "08/16 18:37",
-   "ts": 1786873075.0,
    "source": "Yahoo!",
    "desc": ""
   },
