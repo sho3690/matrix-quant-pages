@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17 22:10:56",
+ "updated_at": "2026-08-18 06:44:58",
  "fng": {
   "value": 31,
   "label": "恐怖",
@@ -37,20 +37,101 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.25616143594082,
-  "eth_dominance": 10.107412699322508,
-  "total_mcap_usd": 2263747629823.754,
-  "mcap_change_24h": 0.5249437461949774
+  "btc_dominance": 56.51495267406078,
+  "eth_dominance": 10.071861289250872,
+  "total_mcap_usd": 2283358584926.299,
+  "mcap_change_24h": 1.607748203426276
  },
  "defi": {
-  "tvl_usd": 75321616924.0,
-  "change_1d": 0.006039717945053313,
-  "change_7d": -0.004768609198118168,
-  "change_1y": -0.49941941820630464,
-  "range_pos_1y": 0.0625618140572503
+  "tvl_usd": 75576309837.0,
+  "change_1d": 0.009441632542865452,
+  "change_7d": -0.0014033285206185298,
+  "change_1y": -0.49772675238505826,
+  "range_pos_1y": 0.06505551060232956
  },
- "news_crypto": [],
+ "news_crypto": [
+  {
+   "title": "米SECの仮想通貨会合延期背景、ホワイトハウス要請か＝報道",
+   "link": "https://coinpost.jp/?p=731417",
+   "published": "08/18 06:34",
+   "ts": 1787002448.0,
+   "source": "CoinPost",
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+  },
+  {
+   "title": "バイナンス、ロシア当局に顧客情報提供＝報道",
+   "link": "https://coinpost.jp/?p=731418",
+   "published": "08/18 05:55",
+   "ts": 1787000111.0,
+   "source": "CoinPost",
+   "desc": "バイナンスがウクライナへの寄付情報をロシア当局に提供していたことが判明した。データはロシア人技術者の訴追証拠となり、専門家は同社が完全撤退を公表していた点や欧州データ保護規則との整合性に疑問を投げかけている。"
+  },
+  {
+   "title": "ビットマイン、先週30億円相当のイーサリアムを追加購入",
+   "link": "https://coinpost.jp/?p=731419",
+   "published": "08/18 05:45",
+   "ts": 1786999513.0,
+   "source": "CoinPost",
+   "desc": "米上場企業ビットマインは直近1週間で9926ETHを追加購入し、ETH保有量が581万5164ETHに達した。仮想通貨・現金等の保有総額は114億ドルとなり、供給量5%の獲得目標に迫る。"
+  },
+  {
+   "title": "ストラテジー、ビットコイン購入停止継続　MSTR株売却で530億円調達",
+   "link": "https://coinpost.jp/?p=731405",
+   "published": "08/17 21:30",
+   "ts": 1786969810.0,
+   "source": "CoinPost",
+   "desc": "ストラテジーは8月10日から16日、ビットコインの購入・売却を見送り保有量840,447BTCを維持。同期間のMSTR株売却による3億3370万ドルは、STRC買い戻しや配当原資、米ドル準備金の積み増しに充てられた。"
+  },
+  {
+   "title": "ADVASA、ナスダック上場承認　8月18日にADBTで取引開始",
+   "link": "https://coinpost.jp/?p=731349",
+   "published": "08/17 20:50",
+   "ts": 1786967442.0,
+   "source": "CoinPost",
+   "desc": "フィンテック企業のAdvasa Holdingsが登録届出書の効力発生とNasdaq Global Marketへの上場承認を発表した。普通株式は8月18日、ティッカー「ADBT」で取引を開始する予定。"
+  },
+  {
+   "title": "米消費者信頼感が最低水準、ビットコインは資金流入蚊帳の外＝グラスノード",
+   "link": "https://coinpost.jp/?p=731262",
+   "published": "08/17 16:24",
+   "ts": 1786951456.0,
+   "source": "CoinPost",
+   "desc": "オンチェーン分析のグラスノードは17日、米消費者信頼感が過去最低水準に落ち込む一方で株式市場が最高値を更新していると指摘した。資金は株式・AI関連銘柄・コモディティへ向かい、ビットコイン（BTC）はこの流れの外に置かれているという。"
+  },
+  {
+   "title": "イスラエル最大の規制下仮想通貨ブローカー「Bits of Gold」で顧客情報流出の可能性",
+   "link": "https://coinpost.jp/?p=731182",
+   "published": "08/17 15:08",
+   "ts": 1786946899.0,
+   "source": "CoinPost",
+   "desc": "イスラエル最大手の仮想通貨ブローカーBits of Goldで、外部委託システムへの不正アクセスにより顧客の氏名・連絡先・本人確認情報などが流出した恐れがある。資金や仮想通貨、秘密鍵への影響はないが、漏洩したデータを利用したフィッシング詐欺などへの注意を呼びかけている。"
+  },
+  {
+   "title": "ハーバード大学、ビットコインETF「IBIT」の売却停止　チューダー氏ファンドは増加",
+   "link": "https://coinpost.jp/?p=731169",
+   "published": "08/17 12:52",
+   "ts": 1786938744.0,
+   "source": "CoinPost",
+   "desc": "2026年4～6月期の開示で、ハーバード大学基金がビットコイン現物ETF売却を停止したことが判明。UAE政府系ファンドやポール・チューダー・ジョーンズ氏のファンドの動向も解説する。"
+  }
+ ],
  "news_jp": [
+  {
+   "title": "豪雨で車が浸水 金銭負担が心配",
+   "link": "https://news.yahoo.co.jp/pickup/6592117?source=rss",
+   "published": "08/17 22:36",
+   "ts": 1786973811.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「夜に経済活動」夏暑すぎて注目",
+   "link": "https://news.yahoo.co.jp/pickup/6592113?source=rss",
+   "published": "08/17 22:27",
+   "ts": 1786973241.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ANAとJAL 互いにダイヤを調整へ",
    "link": "https://news.yahoo.co.jp/pickup/6592102?source=rss",
@@ -76,14 +157,6 @@
    "desc": ""
   },
   {
-   "title": "「カレー焼きそば」再評価 なぜ今",
-   "link": "https://news.yahoo.co.jp/pickup/6592049?source=rss",
-   "published": "08/17 12:39",
-   "ts": 1786937963.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "定着するか 稼げるブルーカラー",
    "link": "https://news.yahoo.co.jp/pickup/6592038?source=rss",
    "published": "08/17 11:21",
@@ -96,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592041?source=rss",
    "published": "08/17 11:16",
    "ts": 1786933008.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "キャッシュレス決済 浸透に地域差",
-   "link": "https://news.yahoo.co.jp/pickup/6592030?source=rss",
-   "published": "08/17 09:54",
-   "ts": 1786928058.0,
    "source": "Yahoo!",
    "desc": ""
   },
