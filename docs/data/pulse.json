@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17 16:27:17",
+ "updated_at": "2026-08-17 19:01:11",
  "fng": {
   "value": 31,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.20655548469517,
-  "eth_dominance": 10.128971133029125,
-  "total_mcap_usd": 2267402079694.8325,
-  "mcap_change_24h": 0.7092528514004999
+  "btc_dominance": 56.180324283658024,
+  "eth_dominance": 10.105648568024,
+  "total_mcap_usd": 2259703333368.4277,
+  "mcap_change_24h": 0.43513408069664916
  },
  "defi": {
-  "tvl_usd": 75295490171.0,
-  "change_1d": 0.005663473011972231,
-  "change_7d": -0.005113824367245057,
-  "change_1y": -0.4995930542187965,
-  "range_pos_1y": 0.06230600719979667
+  "tvl_usd": 75270935783.0,
+  "change_1d": 0.00534617892493916,
+  "change_7d": -0.005438263734288795,
+  "change_1y": -0.4997562404372101,
+  "range_pos_1y": 0.062065595357154876
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "葬儀の料金複雑化 トラブル絶えず",
+   "link": "https://news.yahoo.co.jp/pickup/6592088?source=rss",
+   "published": "08/17 18:12",
+   "ts": 1786957935.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "楽天 迎撃ドローンで独企業と提携",
+   "link": "https://news.yahoo.co.jp/pickup/6592073?source=rss",
+   "published": "08/17 16:33",
+   "ts": 1786951999.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「カレー焼きそば」再評価 なぜ今",
    "link": "https://news.yahoo.co.jp/pickup/6592049?source=rss",
    "published": "08/17 12:39",
@@ -149,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "4-6月期の実質GDP 3期連続プラス",
-   "link": "https://news.yahoo.co.jp/pickup/6592026?source=rss",
-   "published": "08/17 09:15",
-   "ts": 1786925729.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "早期退職 第二の人生は甘くない?",
    "link": "https://news.yahoo.co.jp/pickup/6591977?source=rss",
    "published": "08/16 19:26",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6591970?source=rss",
    "published": "08/16 18:11",
    "ts": 1786871481.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "世界でブームのスクイーズ 事故も",
-   "link": "https://news.yahoo.co.jp/pickup/6591949?source=rss",
-   "published": "08/16 15:28",
-   "ts": 1786861690.0,
    "source": "Yahoo!",
    "desc": ""
   }
