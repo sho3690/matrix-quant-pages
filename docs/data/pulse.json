@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-18 16:09:44",
+ "updated_at": "2026-08-18 18:53:21",
  "fng": {
   "value": 41,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.54605951992973,
-  "eth_dominance": 10.057864267177546,
-  "total_mcap_usd": 2280376014573.026,
-  "mcap_change_24h": 0.6108828322854671
+  "btc_dominance": 56.53569551341744,
+  "eth_dominance": 10.047452593862609,
+  "total_mcap_usd": 2275168345749.9897,
+  "mcap_change_24h": 0.6913621049389912
  },
  "defi": {
-  "tvl_usd": 75460782432.0,
-  "change_1d": 0.010025333734025255,
-  "change_7d": 0.004033208022306667,
-  "change_1y": -0.4996738004998905,
-  "range_pos_1y": 0.0639243825810702
+  "tvl_usd": 75554336091.0,
+  "change_1d": 0.011277718832663375,
+  "change_7d": 0.0052779735460757315,
+  "change_1y": -0.499053513442849,
+  "range_pos_1y": 0.06484036580761496
  },
  "news_crypto": [
+  {
+   "title": "韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断",
+   "link": "https://coinpost.jp/?p=731628",
+   "published": "08/18 17:05",
+   "ts": 1787040302.0,
+   "source": "CoinPost",
+   "desc": "韓国放送通信審議委員会（KCSC）は18日、予測市場ポリマーケットが国内で違法な賭博環境を提供していると判断し、接続遮断を求める是正要求を議決した。判断の根拠と、非保管型取引を理由に反論した運営側の主張を整理する。"
+  },
+  {
+   "title": "仮想通貨市場デレバレッジ、2022年と異なる秩序ある減少＝ギャラクシー・リサーチ",
+   "link": "https://coinpost.jp/?p=731617",
+   "published": "08/18 16:30",
+   "ts": 1787038215.0,
+   "source": "CoinPost",
+   "desc": "ギャラクシー・リサーチは、仮想通貨市場が3四半期連続でデレバレッジ局面にあると分析した。2022年の弱気相場のような無秩序な崩壊ではなく、秩序だった段階的なリスク縮小が進んでいる点を指摘している。"
+  },
   {
    "title": "イーサリアム財団、「グラムステルダム」のガス上限変更でツール破損を警告",
    "link": "https://coinpost.jp/?p=731604",
@@ -97,30 +113,46 @@
    "ts": 1787025756.0,
    "source": "CoinPost",
    "desc": "Compound Financeが新経営体制と5200万ドルの開発予算を発表した。プロトコル史上最大規模で、機関投資家向けの与信基盤やRWA対応、統合ツールの整備を進める。数週間以内に第1弾製品も投入予定。"
-  },
-  {
-   "title": "ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結",
-   "link": "https://coinpost.jp/?p=731496",
-   "published": "08/18 11:15",
-   "ts": 1787019306.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインのマイニング企業のハイブは完全子会社を通じて投資適格企業の顧客と5年間のGPUクラウドサービス契約を締結したと発表。この契約は合計で550億円超の価値があると説明した。"
-  },
-  {
-   "title": "クラーケン運営元ペイワード、脆弱性対策にクロード導入",
-   "link": "https://coinpost.jp/?p=731491",
-   "published": "08/18 10:50",
-   "ts": 1787017830.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨取引所クラーケンの親会社ペイワードが、アンソロピックのセキュリティ強化計画に参加し、AIモデルを使った脆弱性対策を進める方針だ。米国が重要インフラ関連組織への提供を認めたことを受けた動きで、業界全体への波及も見込まれる。"
   }
  ],
  "news_jp": [
   {
-   "title": "大型クロマグロ 漁獲枠拡大で合意",
-   "link": "https://news.yahoo.co.jp/pickup/6592177?source=rss",
-   "published": "08/18 15:52",
-   "ts": 1787035975.0,
+   "title": "日本で走る ベトナム人運転手の今",
+   "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
+   "published": "08/18 18:51",
+   "ts": 1787046681.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "三木谷氏 消費減税に否定的な見解",
+   "link": "https://news.yahoo.co.jp/pickup/6592199?source=rss",
+   "published": "08/18 18:42",
+   "ts": 1787046174.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "大型クロマグロ 漁獲枠25%拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6592194?source=rss",
+   "published": "08/18 18:00",
+   "ts": 1787043655.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "四千頭身・都築のブランド休止",
+   "link": "https://news.yahoo.co.jp/pickup/6592191?source=rss",
+   "published": "08/18 17:28",
+   "ts": 1787041688.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "開店祝いに著名人名無断使用 謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6592184?source=rss",
+   "published": "08/18 16:40",
+   "ts": 1787038806.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -129,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592173?source=rss",
    "published": "08/18 14:31",
    "ts": 1787031117.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ちいかわに登場 しるこサンド話題",
-   "link": "https://news.yahoo.co.jp/pickup/6592157?source=rss",
-   "published": "08/18 11:59",
-   "ts": 1787021966.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592117?source=rss",
    "published": "08/17 22:36",
    "ts": 1786973811.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「夜に経済活動」夏暑すぎて注目",
-   "link": "https://news.yahoo.co.jp/pickup/6592113?source=rss",
-   "published": "08/17 22:27",
-   "ts": 1786973241.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ANAとJAL 互いにダイヤを調整へ",
-   "link": "https://news.yahoo.co.jp/pickup/6592102?source=rss",
-   "published": "08/17 20:12",
-   "ts": 1786965158.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "定着するか 稼げるブルーカラー",
-   "link": "https://news.yahoo.co.jp/pickup/6592038?source=rss",
-   "published": "08/17 11:21",
-   "ts": 1786933288.0,
    "source": "Yahoo!",
    "desc": ""
   }
