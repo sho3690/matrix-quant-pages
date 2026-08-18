@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-18 10:54:21",
+ "updated_at": "2026-08-18 13:02:36",
  "fng": {
   "value": 41,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.51723224141547,
-  "eth_dominance": 10.07190629948335,
-  "total_mcap_usd": 2280848467434.286,
-  "mcap_change_24h": 1.1916751218310688
+  "btc_dominance": 56.55843290114498,
+  "eth_dominance": 10.040635192034744,
+  "total_mcap_usd": 2275019408887.764,
+  "mcap_change_24h": 0.47125165871585734
  },
  "defi": {
-  "tvl_usd": 75712517578.0,
-  "change_1d": 0.005968614267074734,
-  "change_7d": 0.007479424701352766,
-  "change_1y": -0.49800472571932775,
-  "range_pos_1y": 0.06638911964996234
+  "tvl_usd": 75600716210.0,
+  "change_1d": 0.011827982994828012,
+  "change_7d": 0.005991723836070717,
+  "change_1y": -0.4987460002164582,
+  "range_pos_1y": 0.06529447323113272
  },
  "news_crypto": [
+  {
+   "title": "ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結",
+   "link": "https://coinpost.jp/?p=731496",
+   "published": "08/18 11:15",
+   "ts": 1787019306.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨ビットコインのマイニング企業のハイブは完全子会社を通じて投資適格企業の顧客と5年間のGPUクラウドサービス契約を締結したと発表。この契約は合計で550億円超の価値があると説明した。"
+  },
   {
    "title": "クラーケン運営元ペイワード、脆弱性対策にクロード導入",
    "link": "https://coinpost.jp/?p=731491",
@@ -105,17 +113,25 @@
    "ts": 1787004307.0,
    "source": "CoinPost",
    "desc": "米仮想通貨資産運用大手グレースケールは17日、ビットコイン相場の出来高やボラティリティ低下を指摘し、2023年夏との類似性から今後の転換点の可能性を示した。"
-  },
-  {
-   "title": "米SECの仮想通貨会合延期背景、ホワイトハウス要請か＝報道",
-   "link": "https://coinpost.jp/?p=731417",
-   "published": "08/18 06:34",
-   "ts": 1787002448.0,
-   "source": "CoinPost",
-   "desc": "米SECが仮想通貨関連の会合を延期した背景に、ホワイトハウスと業界団体の働きかけがあったことが分かった。クラリティー法案交渉への影響も懸念されている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ちいかわに登場 しるこサンド話題",
+   "link": "https://news.yahoo.co.jp/pickup/6592157?source=rss",
+   "published": "08/18 11:59",
+   "ts": 1787021966.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ジム倒産「料金前払い」リスクは",
+   "link": "https://news.yahoo.co.jp/pickup/6592152?source=rss",
+   "published": "08/18 11:40",
+   "ts": 1787020822.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "「NISA貧乏」なぜ生まれる",
    "link": "https://news.yahoo.co.jp/pickup/6592140?source=rss",
@@ -149,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "葬儀の料金複雑化 トラブル絶えず",
-   "link": "https://news.yahoo.co.jp/pickup/6592088?source=rss",
-   "published": "08/17 18:12",
-   "ts": 1786957935.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "定着するか 稼げるブルーカラー",
    "link": "https://news.yahoo.co.jp/pickup/6592038?source=rss",
    "published": "08/17 11:21",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592041?source=rss",
    "published": "08/17 11:16",
    "ts": 1786933008.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "早期退職 第二の人生は甘くない?",
-   "link": "https://news.yahoo.co.jp/pickup/6591977?source=rss",
-   "published": "08/16 19:26",
-   "ts": 1786875965.0,
    "source": "Yahoo!",
    "desc": ""
   }
