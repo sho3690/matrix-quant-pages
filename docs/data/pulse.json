@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-18 18:53:21",
+ "updated_at": "2026-08-18 22:13:46",
  "fng": {
   "value": 41,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.53569551341744,
-  "eth_dominance": 10.047452593862609,
-  "total_mcap_usd": 2275168345749.9897,
-  "mcap_change_24h": 0.6913621049389912
+  "btc_dominance": 56.53086848359953,
+  "eth_dominance": 10.04988995707757,
+  "total_mcap_usd": 2276572995418.5093,
+  "mcap_change_24h": 0.3383950284369078
  },
  "defi": {
-  "tvl_usd": 75554336091.0,
-  "change_1d": 0.011277718832663375,
-  "change_7d": 0.0052779735460757315,
-  "change_1y": -0.499053513442849,
-  "range_pos_1y": 0.06484036580761496
+  "tvl_usd": 75536010106.0,
+  "change_1d": 0.011032835691280996,
+  "change_7d": 0.005034139637696944,
+  "change_1y": -0.49917501987482127,
+  "range_pos_1y": 0.06466093621555687
  },
  "news_crypto": [
   {
@@ -117,18 +117,34 @@
  ],
  "news_jp": [
   {
-   "title": "日本で走る ベトナム人運転手の今",
-   "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
-   "published": "08/18 18:51",
-   "ts": 1787046681.0,
+   "title": "通販生活が楽天市場から撤退",
+   "link": "https://news.yahoo.co.jp/pickup/6592215?source=rss",
+   "published": "08/18 21:20",
+   "ts": 1787055622.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "三木谷氏 消費減税に否定的な見解",
-   "link": "https://news.yahoo.co.jp/pickup/6592199?source=rss",
-   "published": "08/18 18:42",
-   "ts": 1787046174.0,
+   "title": "LINEクレジット 都が業務改善命令",
+   "link": "https://news.yahoo.co.jp/pickup/6592197?source=rss",
+   "published": "08/18 20:38",
+   "ts": 1787053138.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ANAとJAL 互いのダイヤ調整発表",
+   "link": "https://news.yahoo.co.jp/pickup/6592208?source=rss",
+   "published": "08/18 19:46",
+   "ts": 1787049998.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日本で走る ベトナム人運転手の今",
+   "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
+   "published": "08/18 18:51",
+   "ts": 1787046681.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "フィットネス倒産 会員のリスクは",
-   "link": "https://news.yahoo.co.jp/pickup/6592173?source=rss",
-   "published": "08/18 14:31",
-   "ts": 1787031117.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "「NISA貧乏」なぜ生まれる",
    "link": "https://news.yahoo.co.jp/pickup/6592140?source=rss",
    "published": "08/18 10:10",
    "ts": 1787015419.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "豪雨で車が浸水 金銭負担が心配",
-   "link": "https://news.yahoo.co.jp/pickup/6592117?source=rss",
-   "published": "08/17 22:36",
-   "ts": 1786973811.0,
    "source": "Yahoo!",
    "desc": ""
   }
