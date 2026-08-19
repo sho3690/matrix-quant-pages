@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-19 16:10:26",
+ "updated_at": "2026-08-19 18:53:23",
  "fng": {
   "value": 46,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.45850111776265,
-  "eth_dominance": 10.115623084116145,
-  "total_mcap_usd": 2283386720906.2544,
-  "mcap_change_24h": 0.26608112226367026
+  "btc_dominance": 56.463890791648176,
+  "eth_dominance": 10.117880107331302,
+  "total_mcap_usd": 2286175225759.0703,
+  "mcap_change_24h": 0.4026916136280068
  },
  "defi": {
-  "tvl_usd": 75910655361.0,
-  "change_1d": 0.0025137914817174867,
-  "change_7d": 0.012972784095932166,
-  "change_1y": -0.4874885099095051,
-  "range_pos_1y": 0.0683290853093789
+  "tvl_usd": 75890123151.0,
+  "change_1d": 0.0022472318212478637,
+  "change_7d": 0.012698796605922436,
+  "change_1y": -0.4876271333147689,
+  "range_pos_1y": 0.06812805458364432
  },
  "news_crypto": [
+  {
+   "title": "SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘",
+   "link": "https://coinpost.jp/?p=731797",
+   "published": "08/19 16:55",
+   "ts": 1787126155.0,
+   "source": "CoinPost",
+   "desc": "SkyBridgeのスカラムッチ氏はCNBCで、ビットコインは明確な弱気相場にあるとしつつ、下落幅は過去より小さく次の強気局面への好材料だと分析した。"
+  },
   {
    "title": "ビットバンク、ビットコイン入出金一時停止　eCash分岐へ対応",
    "link": "https://coinpost.jp/?p=731789",
@@ -105,17 +113,25 @@
    "ts": 1787113823.0,
    "source": "CoinPost",
    "desc": "ファルコン・ファイナンスはトークン化資産のパイプラインをエルサルバドルで立ち上げる。第一弾はGPUフォワード契約で、コモディティ・貴金属その他への展開も視野に入れている。"
-  },
-  {
-   "title": "ブラックロック、ビットコイン下落でも分散効果健在と分析",
-   "link": "https://coinpost.jp/?p=731701",
-   "published": "08/19 11:15",
-   "ts": 1787105747.0,
-   "source": "CoinPost",
-   "desc": "ブラックロックのデジタル資産調査チームが最新リポートを発表。ビットコインは2025年10月の高値から約50％下落したが、分散投資効果や通貨代替としての投資価値は不変と分析。60/40ポートフォリオへの1〜2％配分は有効との見解を示した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "訪日客 7月として過去最多344万人",
+   "link": "https://news.yahoo.co.jp/pickup/6592317?source=rss",
+   "published": "08/19 18:25",
+   "ts": 1787131540.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東証続落 中東混乱の景気減速懸念",
+   "link": "https://news.yahoo.co.jp/pickup/6592295?source=rss",
+   "published": "08/19 16:19",
+   "ts": 1787123942.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "万博 盛況の影で工事の不祥事続々",
    "link": "https://news.yahoo.co.jp/pickup/6592290?source=rss",
@@ -137,22 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592284?source=rss",
    "published": "08/19 14:42",
    "ts": 1787118133.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "洋麺屋五右衛門 出店ラッシュの訳",
-   "link": "https://news.yahoo.co.jp/pickup/6592278?source=rss",
-   "published": "08/19 13:17",
-   "ts": 1787113060.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "自転車ヘルメット 大人向けに動き",
-   "link": "https://news.yahoo.co.jp/pickup/6592275?source=rss",
-   "published": "08/19 12:59",
-   "ts": 1787111948.0,
    "source": "Yahoo!",
    "desc": ""
   },
