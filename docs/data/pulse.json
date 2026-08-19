@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-19 10:56:26",
+ "updated_at": "2026-08-19 13:04:15",
  "fng": {
   "value": 46,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.55430120886914,
-  "eth_dominance": 10.101955413145014,
-  "total_mcap_usd": 2284415179503.89,
-  "mcap_change_24h": 0.30719298845491483
+  "btc_dominance": 56.518907192586,
+  "eth_dominance": 10.101700529298299,
+  "total_mcap_usd": 2282709505559.909,
+  "mcap_change_24h": 0.3456358534656977
  },
  "defi": {
-  "tvl_usd": 76093108752.0,
-  "change_1d": 0.0030975053425106314,
-  "change_7d": 0.0154074926170229,
-  "change_1y": -0.4862566741566877,
-  "range_pos_1y": 0.0701154851954829
+  "tvl_usd": 75935764790.0,
+  "change_1d": 0.002775631314479554,
+  "change_7d": 0.013307851262461368,
+  "change_1y": -0.4873189833679292,
+  "range_pos_1y": 0.0685749315546029
  },
  "news_crypto": [
+  {
+   "title": "ブラックロック、ビットコイン下落でも分散効果健在と分析",
+   "link": "https://coinpost.jp/?p=731701",
+   "published": "08/19 11:15",
+   "ts": 1787105747.0,
+   "source": "CoinPost",
+   "desc": "ブラックロックのデジタル資産調査チームが最新リポートを発表。ビットコインは2025年10月の高値から約50％下落したが、分散投資効果や通貨代替としての投資価値は不変と分析。60/40ポートフォリオへの1〜2％配分は有効との見解を示した。"
+  },
+  {
+   "title": "新たに8行が中国デジタル人民元に参加、地域サービスや貿易の分野を補強",
+   "link": "https://coinpost.jp/?p=731680",
+   "published": "08/19 11:15",
+   "ts": 1787105731.0,
+   "source": "CoinPost",
+   "desc": "中国人民銀行がデジタル人民元の認可運営機関に平安銀行など8行を追加し、合計30行になった。地方の中小企業向けサービスの拡充などが期待される。"
+  },
   {
    "title": "米ワイオミング州、ステーブルコインの相互運用基盤をチェーンリンクへ移行",
    "link": "https://coinpost.jp/?p=731663",
@@ -97,30 +113,46 @@
    "ts": 1787088612.0,
    "source": "CoinPost",
    "desc": "米セキュリタイズは米ノイバーガー・バーマンと提携し、高利回り債券に投資するトークン化ファンド『HINC』を開始した。複数のブロックチェーンで機関投資家に提供し、資産運用のトークン化を後押しする。"
-  },
-  {
-   "title": "メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化",
-   "link": "https://coinpost.jp/?p=731658",
-   "published": "08/19 06:00",
-   "ts": 1787086808.0,
-   "source": "CoinPost",
-   "desc": "メタプラネットは2100BTCのビットコインと250万米ドルを米スーパーリーグ社に出資し、株式95.7%を保有する連結子会社とする。商号は『スーパープラネット』に変更し、米国でビットコイン・トレジャリー事業を展開する。"
-  },
-  {
-   "title": "米SEC、仮想通貨資金調達の新規則「レギュレーション・クリプトアセット」を提案",
-   "link": "https://coinpost.jp/?p=731659",
-   "published": "08/19 05:40",
-   "ts": 1787085610.0,
-   "source": "CoinPost",
-   "desc": "米SECは仮想通貨に関連する投資契約向けの新規則案「レギュレーション・クリプトアセット」の提案を明らかにした。最大7500万ドルの資金調達を可能にする例外規定などが含まれ、仮想通貨分野での起業や資金調達の選択肢が広がる見通しだ。"
   }
  ],
  "news_jp": [
   {
-   "title": "すしやコナン 空港の愛称の効果は",
-   "link": "https://news.yahoo.co.jp/pickup/6592256?source=rss",
-   "published": "08/19 10:45",
-   "ts": 1787103903.0,
+   "title": "自転車ヘルメット 大人向けに動き",
+   "link": "https://news.yahoo.co.jp/pickup/6592275?source=rss",
+   "published": "08/19 12:59",
+   "ts": 1787111948.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "洋麺屋五右衛門の出店加速 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6592274?source=rss",
+   "published": "08/19 12:44",
+   "ts": 1787111098.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日立 日立建機の全株式売却へ",
+   "link": "https://news.yahoo.co.jp/pickup/6592264?source=rss",
+   "published": "08/19 11:42",
+   "ts": 1787107370.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "従業員逮捕 竹中工務店がコメント",
+   "link": "https://news.yahoo.co.jp/pickup/6592265?source=rss",
+   "published": "08/19 11:41",
+   "ts": 1787107291.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "アニメ制作市場 ピークアウトか",
+   "link": "https://news.yahoo.co.jp/pickup/6592258?source=rss",
+   "published": "08/19 11:02",
+   "ts": 1787104938.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -145,38 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592243?source=rss",
    "published": "08/19 08:45",
    "ts": 1787096727.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ジムニーノマド 担当語るデザイン",
-   "link": "https://news.yahoo.co.jp/pickup/6592235?source=rss",
-   "published": "08/19 07:41",
-   "ts": 1787092918.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "LINEクレジット 都が業務改善命令",
-   "link": "https://news.yahoo.co.jp/pickup/6592197?source=rss",
-   "published": "08/18 20:38",
-   "ts": 1787053138.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "四千頭身・都築のブランド休止",
-   "link": "https://news.yahoo.co.jp/pickup/6592191?source=rss",
-   "published": "08/18 17:28",
-   "ts": 1787041688.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "開店祝いに著名人名無断使用 謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6592184?source=rss",
-   "published": "08/18 16:40",
-   "ts": 1787038806.0,
    "source": "Yahoo!",
    "desc": ""
   }
