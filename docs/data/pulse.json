@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-19 18:53:23",
+ "updated_at": "2026-08-19 22:14:56",
  "fng": {
   "value": 46,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.463890791648176,
-  "eth_dominance": 10.117880107331302,
-  "total_mcap_usd": 2286175225759.0703,
-  "mcap_change_24h": 0.4026916136280068
+  "btc_dominance": 56.5353466453455,
+  "eth_dominance": 10.147550479699621,
+  "total_mcap_usd": 2299300491472.13,
+  "mcap_change_24h": 0.890518779659198
  },
  "defi": {
-  "tvl_usd": 75890123151.0,
-  "change_1d": 0.0022472318212478637,
-  "change_7d": 0.012698796605922436,
-  "change_1y": -0.4876271333147689,
-  "range_pos_1y": 0.06812805458364432
+  "tvl_usd": 76000371763.0,
+  "change_1d": 0.0037154052941057447,
+  "change_7d": 0.014169984582225181,
+  "change_1y": -0.48688278879359703,
+  "range_pos_1y": 0.06920749797924514
  },
  "news_crypto": [
+  {
+   "title": "UPBOND、アパホテル宿泊者向け観光予約にJPYC決済を検討",
+   "link": "https://coinpost.jp/?p=731818",
+   "published": "08/19 19:33",
+   "ts": 1787135638.0,
+   "source": "CoinPost",
+   "desc": "UPBONDがアパホテル宿泊者向けにJapanTicketの観光体験・飲食店予約を案内するテスト運用を6月に開始した。円建てステーブルコインJPYCを使った決済の実装も視野に入れる。約100万人のウォレット基盤を持つ同社の狙いを整理した。"
+  },
+  {
+   "title": "BCCC、年会費支払いにJPYC導入",
+   "link": "https://coinpost.jp/?p=731808",
+   "published": "08/19 18:30",
+   "ts": 1787131821.0,
+   "source": "CoinPost",
+   "desc": "ブロックチェーン推進協会（BCCC）が2026年7月、年会費の支払いに日本円建て電子決済手段型ステーブルコイン「JPYC」を追加した。unWallet等で受付。JPYC社の岡部典孝代表も歓迎のコメントを寄せた。"
+  },
   {
    "title": "SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘",
    "link": "https://coinpost.jp/?p=731797",
@@ -97,25 +113,25 @@
    "ts": 1787115332.0,
    "source": "CoinPost",
    "desc": "デジタルガレージはJCB、ローソンと基本合意書を締結し、訪日外国人向けにUSDCを用いた店頭決済の実証実験を20日に実施する。国内では加盟店のキャッシュレス対応拡大に伴い、ステーブルコイン活用の動きが広がっている。"
-  },
-  {
-   "title": "15年間休眠8.54BTCのビットコイン始動、含み益4000倍超",
-   "link": "https://coinpost.jp/?p=731737",
-   "published": "08/19 13:44",
-   "ts": 1787114652.0,
-   "source": "CoinPost",
-   "desc": "ギャラクシー・リサーチは18日、2011年6月受領のまま15年以上動きのなかった8.54BTCが16日に移動したとXで報告した。取得単価は1BTCあたり約14ドルで、含み益は約4,621倍に達する。"
-  },
-  {
-   "title": "ファルコン・ファイナンス、エルサルバドルでRWAトークン化基盤を始動へ　第一弾はGPUフォワード契約",
-   "link": "https://coinpost.jp/?p=731718",
-   "published": "08/19 13:30",
-   "ts": 1787113823.0,
-   "source": "CoinPost",
-   "desc": "ファルコン・ファイナンスはトークン化資産のパイプラインをエルサルバドルで立ち上げる。第一弾はGPUフォワード契約で、コモディティ・貴金属その他への展開も視野に入れている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ガチ中華競争激化 レーン回る店も",
+   "link": "https://news.yahoo.co.jp/pickup/6592339?source=rss",
+   "published": "08/19 22:13",
+   "ts": 1787145185.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JR九州被害額16年地震上回る恐れ",
+   "link": "https://news.yahoo.co.jp/pickup/6592335?source=rss",
+   "published": "08/19 21:49",
+   "ts": 1787143761.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "訪日客 7月として過去最多344万人",
    "link": "https://news.yahoo.co.jp/pickup/6592317?source=rss",
@@ -145,22 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592288?source=rss",
    "published": "08/19 15:35",
    "ts": 1787121320.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "フードデリバリー「menu」終了へ",
-   "link": "https://news.yahoo.co.jp/pickup/6592284?source=rss",
-   "published": "08/19 14:42",
-   "ts": 1787118133.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日立 日立建機の全株式売却へ",
-   "link": "https://news.yahoo.co.jp/pickup/6592264?source=rss",
-   "published": "08/19 11:42",
-   "ts": 1787107370.0,
    "source": "Yahoo!",
    "desc": ""
   },
