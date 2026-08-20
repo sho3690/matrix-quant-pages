@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20 22:16:47",
+ "updated_at": "2026-08-21 06:48:30",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.69182402581333,
-  "eth_dominance": 11.237624647796677,
-  "total_mcap_usd": 2456948357746.4893,
-  "mcap_change_24h": 7.2027492735795215
+  "btc_dominance": 58.661711277367736,
+  "eth_dominance": 11.240442480890113,
+  "total_mcap_usd": 2482938528640.336,
+  "mcap_change_24h": 1.9008959262743725
  },
  "defi": {
-  "tvl_usd": 83215854443.0,
-  "change_1d": 0.0914590241625668,
-  "change_7d": 0.10961766063165301,
-  "change_1y": -0.4171239627736457,
-  "range_pos_1y": 0.13985423887223367
+  "tvl_usd": 83845175092.0,
+  "change_1d": 0.09971362810628359,
+  "change_7d": 0.11800915420274216,
+  "change_1y": -0.41271595749040857,
+  "range_pos_1y": 0.14601591298260677
  },
  "news_crypto": [
+  {
+   "title": "米フランクリン、トークン化資産を伝統型ファンドに組み入れへ＝報道",
+   "link": "https://coinpost.jp/?p=732219",
+   "published": "08/21 06:15",
+   "ts": 1787260555.0,
+   "source": "CoinPost",
+   "desc": "米フランクリン・テンプルトンがトークン化マネー・マーケット・ファンドをETFや投資信託に組み入れる計画を示した。米SECが伝統的ファンドでのデジタルネイティブ商品活用を初めて認め、投資家が意図せずトークン化資産を保有し得る状況が生まれる。"
+  },
+  {
+   "title": "米CFTC委員長、クラリティー法案未成立でも仮想通貨規制整備へ",
+   "link": "https://coinpost.jp/?p=732220",
+   "published": "08/21 05:50",
+   "ts": 1787259057.0,
+   "source": "CoinPost",
+   "desc": "米CFTCのセリグ委員長は20日、クラリティー法が成立しなくても仮想通貨の市場構造ルールを既存の権限で整備する考えを示した。予測市場やAI関連の規制方針にも言及しており、取引所や仮想通貨関連銘柄の事業戦略に影響を与える可能性がある。"
+  },
+  {
+   "title": "イーロン・マスク率いるX、ステーブルコインでクリエイター報酬支払いを検討＝報道",
+   "link": "https://coinpost.jp/?p=732197",
+   "published": "08/21 05:00",
+   "ts": 1787256056.0,
+   "source": "CoinPost",
+   "desc": "SNS大手Xが投稿者への報酬支払いにUSDCなどのステーブルコインを活用できないか検討していると報じられた。ステーブルコイン発行体への需要拡大を示す一例だ。"
+  },
+  {
+   "title": "ADVASA、ナスダック上場　取引開始を8月25日に再延期",
+   "link": "https://coinpost.jp/?p=731349",
+   "published": "08/20 22:19",
+   "ts": 1787231982.0,
+   "source": "CoinPost",
+   "desc": "フィンテック企業のAdvasa Holdingsが登録届出書の効力発生とNasdaq Global Marketへの上場承認を発表した。普通株式は8月20日、ティッカー「ADBT」で取引を開始する予定。"
+  },
   {
    "title": "ビットコイン急騰、短期保有者が年初来最大利確＝アナリスト",
    "link": "https://coinpost.jp/?p=732138",
@@ -81,41 +113,25 @@
    "ts": 1787204030.0,
    "source": "CoinPost",
    "desc": "元BitMEX創業者のアーサー・ヘイズ氏が、AIエージェント向け分散型コンピュート網「Flopネットワーク」の構想をブログで発表した。プレセールを行わず自己資金で運営し、テストネット参加者へ供給量の一部を配布する計画を明らかにした。"
-  },
-  {
-   "title": "Rapid7、88万件超の電話番号検証から始まる仮想通貨詐欺「Operation ASTERIX」の全容を公開",
-   "link": "https://coinpost.jp/?p=732025",
-   "published": "08/20 14:15",
-   "ts": 1787202913.0,
-   "source": "CoinPost",
-   "desc": "米サイバーセキュリティ企業Rapid7が、電話番号88.5万件を悪用した仮想通貨詐欺キャンペーン「Operation ASTERIX」の全容を公開した。ターゲットを精密に絞り、巧妙なフィッシングメールや電話で信頼させ、偽ウォレットアプリでリカバリーフレーズを窃取するスキームが、A"
-  },
-  {
-   "title": "ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上",
-   "link": "https://coinpost.jp/?p=731983",
-   "published": "08/20 13:15",
-   "ts": 1787199323.0,
-   "source": "CoinPost",
-   "desc": "スウェーデンのビットコイン・トレジャリー企業H100が2026年上半期決算を発表。2社買収でBTC保有量は欧州上場企業2位に浮上した一方、BTC含み損主因で42億円の損失を計上した。"
-  },
-  {
-   "title": "ビットコイン急伸、仮想通貨関連株も全面高",
-   "link": "https://coinpost.jp/?p=731950",
-   "published": "08/20 11:23",
-   "ts": 1787192611.0,
-   "source": "CoinPost",
-   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
-  },
-  {
-   "title": "米投資銀キャンター、予測市場取引サービスを機関投資家に提供へ",
-   "link": "https://coinpost.jp/?p=731931",
-   "published": "08/20 11:15",
-   "ts": 1787192100.0,
-   "source": "CoinPost",
-   "desc": "投資銀行のキャンター・フィッツジェラルドは、機関投資家の顧客向けに予測市場取引サービスを開始すると発表。まずはカルシに対応後、サービス拡大を予定する。"
   }
  ],
  "news_jp": [
+  {
+   "title": "26年産新米 大幅値下がりの見通し",
+   "link": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
+   "published": "08/20 23:47",
+   "ts": 1787237274.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "郵便事業 縮小も視野に検討開始",
+   "link": "https://news.yahoo.co.jp/pickup/6592469?source=rss",
+   "published": "08/20 23:05",
+   "ts": 1787234735.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "千葉豪雨 農業被害など約19億円",
    "link": "https://news.yahoo.co.jp/pickup/6592460?source=rss",
@@ -133,26 +149,10 @@
    "desc": ""
   },
   {
-   "title": "メガネにコスメ的な機能 各社注力",
-   "link": "https://news.yahoo.co.jp/pickup/6592448?source=rss",
-   "published": "08/20 19:51",
-   "ts": 1787223086.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "マンション「共連れ」進む対策",
    "link": "https://news.yahoo.co.jp/pickup/6592444?source=rss",
    "published": "08/20 19:24",
    "ts": 1787221484.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "作業員4人死亡 東武鉄道が謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6592440?source=rss",
-   "published": "08/20 18:55",
-   "ts": 1787219744.0,
    "source": "Yahoo!",
    "desc": ""
   },
