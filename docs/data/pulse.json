@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20 16:11:23",
+ "updated_at": "2026-08-20 18:53:56",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.31890968595525,
-  "eth_dominance": 11.342992581076295,
-  "total_mcap_usd": 2401465507232.5483,
-  "mcap_change_24h": 5.338072351779297
+  "btc_dominance": 58.74073293387644,
+  "eth_dominance": 11.224297788804778,
+  "total_mcap_usd": 2446613351420.1294,
+  "mcap_change_24h": 8.39929434382536
  },
  "defi": {
-  "tvl_usd": 81738300191.0,
-  "change_1d": 0.07207942477216678,
-  "change_7d": 0.08991564226586646,
-  "change_1y": -0.4274733243621437,
-  "range_pos_1y": 0.1253875154295764
+  "tvl_usd": 82656321843.0,
+  "change_1d": 0.08412019540606508,
+  "change_7d": 0.10215673556136573,
+  "change_1y": -0.4210431455676866,
+  "range_pos_1y": 0.13437585905851893
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン急騰、短期保有者が年初来最大利確＝アナリスト",
+   "link": "https://coinpost.jp/?p=732138",
+   "published": "08/20 16:37",
+   "ts": 1787211420.0,
+   "source": "CoinPost",
+   "desc": "アナリストのダークフォスト氏は、短期保有者が8月19日に4万4,300BTCを取引所に送ったと指摘した。2026年最大の利確規模で、取得コスト6万7,100ドルを上回るビットコインの急騰が引き金になったという。財務省の政策やトランプ発言との関係を整理する。"
+  },
   {
    "title": "ナスダック、米国株23時間取引へ　トークン化株式との競争が本格化",
    "link": "https://coinpost.jp/?p=732072",
@@ -105,46 +113,46 @@
    "ts": 1787192100.0,
    "source": "CoinPost",
    "desc": "投資銀行のキャンター・フィッツジェラルドは、機関投資家の顧客向けに予測市場取引サービスを開始すると発表。まずはカルシに対応後、サービス拡大を予定する。"
-  },
-  {
-   "title": "ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点",
-   "link": "https://coinpost.jp/?p=731917",
-   "published": "08/20 10:53",
-   "ts": 1787190801.0,
-   "source": "CoinPost",
-   "desc": "暗号資産（仮想通貨）市場では、ビットコインが日足で約10カ月ぶりに200日移動平均線を上抜けた。米財務省による国債買い戻し倍増が起点で、約14億ドルのショートが清算された。トランプ大統領の発言も追い風に。"
   }
  ],
  "news_jp": [
   {
-   "title": "京王ライナー 10月から立席導入へ",
-   "link": "https://news.yahoo.co.jp/pickup/6592409?source=rss",
-   "published": "08/20 15:43",
-   "ts": 1787208185.0,
+   "title": "豚や鶏も肉価格高騰 食卓の今後は",
+   "link": "https://news.yahoo.co.jp/pickup/6592436?source=rss",
+   "published": "08/20 18:38",
+   "ts": 1787218707.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "伊丹21時過ぎる離着陸制限 厳格化",
-   "link": "https://news.yahoo.co.jp/pickup/6592408?source=rss",
-   "published": "08/20 15:26",
-   "ts": 1787207189.0,
+   "title": "クールジャパン機構廃止へ 経産省",
+   "link": "https://news.yahoo.co.jp/pickup/6592424?source=rss",
+   "published": "08/20 17:40",
+   "ts": 1787215234.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "外食で「ダブル看板」広がる 戦略",
-   "link": "https://news.yahoo.co.jp/pickup/6592387?source=rss",
-   "published": "08/20 13:32",
-   "ts": 1787200327.0,
+   "title": "イオン 爆発巡り事故調査委を発足",
+   "link": "https://news.yahoo.co.jp/pickup/6592419?source=rss",
+   "published": "08/20 16:49",
+   "ts": 1787212163.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "フードデリバリー「3強」死角は",
-   "link": "https://news.yahoo.co.jp/pickup/6592390?source=rss",
-   "published": "08/20 13:20",
-   "ts": 1787199610.0,
+   "title": "布施博が代表の芸能プロ 破産",
+   "link": "https://news.yahoo.co.jp/pickup/6592413?source=rss",
+   "published": "08/20 16:21",
+   "ts": 1787210500.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "23区新築マンション平均2.6億円超",
+   "link": "https://news.yahoo.co.jp/pickup/6592414?source=rss",
+   "published": "08/20 16:20",
+   "ts": 1787210403.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592366?source=rss",
    "published": "08/20 09:16",
    "ts": 1787185016.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン 避難後「客も戻れた」証言",
-   "link": "https://news.yahoo.co.jp/pickup/6592361?source=rss",
-   "published": "08/20 08:50",
-   "ts": 1787183423.0,
    "source": "Yahoo!",
    "desc": ""
   }
