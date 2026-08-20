@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20 10:55:29",
+ "updated_at": "2026-08-20 13:03:45",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,26 +37,42 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 56.69020717416745,
-  "eth_dominance": 11.075444231008422,
-  "total_mcap_usd": 2469260047899.3257,
-  "mcap_change_24h": 8.155821424609357
+  "btc_dominance": 58.17621155200094,
+  "eth_dominance": 11.388578170327015,
+  "total_mcap_usd": 2377964554205.382,
+  "mcap_change_24h": 4.626266613634693
  },
  "defi": {
-  "tvl_usd": 81969161859.0,
-  "change_1d": 0.02253654095459212,
-  "change_7d": 0.09297848894889227,
-  "change_1y": -0.42585627992883157,
-  "range_pos_1y": 0.12764788042011244
+  "tvl_usd": 81968886727.0,
+  "change_1d": 0.07492964669668245,
+  "change_7d": 0.0929903315106273,
+  "change_1y": -0.4258582070597966,
+  "range_pos_1y": 0.12764518660460825
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン急伸、仮想通貨関連株も全面高",
+   "link": "https://coinpost.jp/?p=731950",
+   "published": "08/20 11:23",
+   "ts": 1787192611.0,
+   "source": "CoinPost",
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+  },
+  {
+   "title": "米投資銀キャンター、予測市場取引サービスを機関投資家に提供へ",
+   "link": "https://coinpost.jp/?p=731931",
+   "published": "08/20 11:15",
+   "ts": 1787192100.0,
+   "source": "CoinPost",
+   "desc": "投資銀行のキャンター・フィッツジェラルドは、機関投資家の顧客向けに予測市場取引サービスを開始すると発表。まずはカルシに対応後、サービス拡大を予定する。"
+  },
   {
    "title": "ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点",
    "link": "https://coinpost.jp/?p=731917",
    "published": "08/20 10:53",
    "ts": 1787190801.0,
    "source": "CoinPost",
-   "desc": "20日午前の仮想通貨市場で、ビットコイン（BTC）は1BTC＝1100万円前後で推移している。ドル建てでは6万9300ドル前後と、24時間前と比べて約7％高い水準にある。19日の海外市場では一時6万9700ドル台まで上昇し、6月2日以来およ..."
+   "desc": "暗号資産（仮想通貨）市場では、ビットコインが日足で約10カ月ぶりに200日移動平均線を上抜けた。米財務省による国債買い戻し倍増が起点で、約14億ドルのショートが清算された。トランプ大統領の発言も追い風に。"
   },
   {
    "title": "米国債利回り低下などの条件なければ弱気相場継続の可能性＝グラスノード見解",
@@ -97,25 +113,33 @@
    "ts": 1787183158.0,
    "source": "CoinPost",
    "desc": "ビットワイズの最高投資責任者は、自身が認識している仮想通貨投資家の3つの誤解を共有。業界の変化の速さと認識が追いつく速さの差にチャンスがあると主張した。"
-  },
-  {
-   "title": "バイナンス、バンコクでブロックチェーンウィークのアジア版開催予定",
-   "link": "https://coinpost.jp/?p=731846",
-   "published": "08/20 07:55",
-   "ts": 1787180155.0,
-   "source": "CoinPost",
-   "desc": "バイナンスは、タイ・バンコクで11月に『ブロックチェーンウィーク』のアジア版を開催すると発表した。現地では合法的に仮想通貨を扱うバイナンスTHが運営を支え、投資家はアジア市場での事業展開を注視できる。"
-  },
-  {
-   "title": "HSBCとスタンダードチャータード、初のトークン化預金取引を実施",
-   "link": "https://coinpost.jp/?p=731841",
-   "published": "08/20 07:05",
-   "ts": 1787177110.0,
-   "source": "CoinPost",
-   "desc": "HSBCとスタンダードチャータードが、SWIFTのブロックチェーン基盤の台帳を通じてトークン化預金による初の銀行間クロスボーダー取引を実施し、24時間対応の国際決済の実用化に向けた動きが進んでいる。"
   }
  ],
  "news_jp": [
+  {
+   "title": "くら寿司 最低価格の値下げ発表",
+   "link": "https://news.yahoo.co.jp/pickup/6592386?source=rss",
+   "published": "08/20 12:05",
+   "ts": 1787195130.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "エンジン不具合で航空機停止 成田",
+   "link": "https://news.yahoo.co.jp/pickup/6592380?source=rss",
+   "published": "08/20 11:40",
+   "ts": 1787193616.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "うどん業界競争 丸亀に急ブレーキ",
+   "link": "https://news.yahoo.co.jp/pickup/6592377?source=rss",
+   "published": "08/20 11:36",
+   "ts": 1787193404.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "万博工事背任疑い 関係者に動揺",
    "link": "https://news.yahoo.co.jp/pickup/6592370?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592335?source=rss",
    "published": "08/19 21:49",
    "ts": 1787143761.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "訪日客 7月として過去最多344万人",
-   "link": "https://news.yahoo.co.jp/pickup/6592317?source=rss",
-   "published": "08/19 18:25",
-   "ts": 1787131540.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東証続落 中東混乱の景気減速懸念",
-   "link": "https://news.yahoo.co.jp/pickup/6592295?source=rss",
-   "published": "08/19 16:19",
-   "ts": 1787123942.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "万博 盛況の影で工事の不祥事続々",
-   "link": "https://news.yahoo.co.jp/pickup/6592290?source=rss",
-   "published": "08/19 16:00",
-   "ts": 1787122832.0,
    "source": "Yahoo!",
    "desc": ""
   }
