@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20 18:53:56",
+ "updated_at": "2026-08-20 22:16:47",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.74073293387644,
-  "eth_dominance": 11.224297788804778,
-  "total_mcap_usd": 2446613351420.1294,
-  "mcap_change_24h": 8.39929434382536
+  "btc_dominance": 58.69182402581333,
+  "eth_dominance": 11.237624647796677,
+  "total_mcap_usd": 2456948357746.4893,
+  "mcap_change_24h": 7.2027492735795215
  },
  "defi": {
-  "tvl_usd": 82656321843.0,
-  "change_1d": 0.08412019540606508,
-  "change_7d": 0.10215673556136573,
-  "change_1y": -0.4210431455676866,
-  "range_pos_1y": 0.13437585905851893
+  "tvl_usd": 83215854443.0,
+  "change_1d": 0.0914590241625668,
+  "change_7d": 0.10961766063165301,
+  "change_1y": -0.4171239627736457,
+  "range_pos_1y": 0.13985423887223367
  },
  "news_crypto": [
   {
@@ -117,10 +117,42 @@
  ],
  "news_jp": [
   {
-   "title": "豚や鶏も肉価格高騰 食卓の今後は",
-   "link": "https://news.yahoo.co.jp/pickup/6592436?source=rss",
-   "published": "08/20 18:38",
-   "ts": 1787218707.0,
+   "title": "千葉豪雨 農業被害など約19億円",
+   "link": "https://news.yahoo.co.jp/pickup/6592460?source=rss",
+   "published": "08/20 22:06",
+   "ts": 1787231176.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "時間外労働 一律抑制見直しに反発",
+   "link": "https://news.yahoo.co.jp/pickup/6592452?source=rss",
+   "published": "08/20 20:57",
+   "ts": 1787227021.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "メガネにコスメ的な機能 各社注力",
+   "link": "https://news.yahoo.co.jp/pickup/6592448?source=rss",
+   "published": "08/20 19:51",
+   "ts": 1787223086.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マンション「共連れ」進む対策",
+   "link": "https://news.yahoo.co.jp/pickup/6592444?source=rss",
+   "published": "08/20 19:24",
+   "ts": 1787221484.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "作業員4人死亡 東武鉄道が謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6592440?source=rss",
+   "published": "08/20 18:55",
+   "ts": 1787219744.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -133,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "イオン 爆発巡り事故調査委を発足",
-   "link": "https://news.yahoo.co.jp/pickup/6592419?source=rss",
-   "published": "08/20 16:49",
-   "ts": 1787212163.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "布施博が代表の芸能プロ 破産",
    "link": "https://news.yahoo.co.jp/pickup/6592413?source=rss",
    "published": "08/20 16:21",
@@ -149,34 +173,10 @@
    "desc": ""
   },
   {
-   "title": "23区新築マンション平均2.6億円超",
-   "link": "https://news.yahoo.co.jp/pickup/6592414?source=rss",
-   "published": "08/20 16:20",
-   "ts": 1787210403.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "くら寿司 最低価格の値下げ発表",
-   "link": "https://news.yahoo.co.jp/pickup/6592386?source=rss",
-   "published": "08/20 12:05",
-   "ts": 1787195130.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "うどん業界競争 丸亀に急ブレーキ",
    "link": "https://news.yahoo.co.jp/pickup/6592377?source=rss",
    "published": "08/20 11:36",
    "ts": 1787193404.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "残業月45h以内の一律指導見直しへ",
-   "link": "https://news.yahoo.co.jp/pickup/6592366?source=rss",
-   "published": "08/20 09:16",
-   "ts": 1787185016.0,
    "source": "Yahoo!",
    "desc": ""
   }
