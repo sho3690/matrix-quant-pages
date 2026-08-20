@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20 13:03:45",
+ "updated_at": "2026-08-20 16:11:23",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,19 +37,59 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.17621155200094,
-  "eth_dominance": 11.388578170327015,
-  "total_mcap_usd": 2377964554205.382,
-  "mcap_change_24h": 4.626266613634693
+  "btc_dominance": 58.31890968595525,
+  "eth_dominance": 11.342992581076295,
+  "total_mcap_usd": 2401465507232.5483,
+  "mcap_change_24h": 5.338072351779297
  },
  "defi": {
-  "tvl_usd": 81968886727.0,
-  "change_1d": 0.07492964669668245,
-  "change_7d": 0.0929903315106273,
-  "change_1y": -0.4258582070597966,
-  "range_pos_1y": 0.12764518660460825
+  "tvl_usd": 81738300191.0,
+  "change_1d": 0.07207942477216678,
+  "change_7d": 0.08991564226586646,
+  "change_1y": -0.4274733243621437,
+  "range_pos_1y": 0.1253875154295764
  },
  "news_crypto": [
+  {
+   "title": "ナスダック、米国株23時間取引へ　トークン化株式との競争が本格化",
+   "link": "https://coinpost.jp/?p=732072",
+   "published": "08/20 15:49",
+   "ts": 1787208551.0,
+   "source": "CoinPost",
+   "desc": "ナスダックが2026年12月6日、米国株の23時間取引を開始する。SECは4月に承認済み。ブロックチェーン上で発行されるトークン化株式はRWA市場でシェア14.9％まで拡大しており、DeFiの価格参照にも影響が及ぶ。"
+  },
+  {
+   "title": "ビットゴー、韓国で仮想通貨事業者に登録＝報道",
+   "link": "https://coinpost.jp/?p=732067",
+   "published": "08/20 15:20",
+   "ts": 1787206826.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨インフラ企業ビットゴーの韓国法人が、韓国金融情報分析院からVASP登録を受理されたと聯合ニュースが報道。外資系企業の韓国法人としては初の直接取得と説明。ハナ金融グループやSKテレコムが出資する同社の狙いを解説する。"
+  },
+  {
+   "title": "アーサー・ヘイズ氏、AI経済圏向け新トークンFLOP構想発表",
+   "link": "https://coinpost.jp/?p=732049",
+   "published": "08/20 14:33",
+   "ts": 1787204030.0,
+   "source": "CoinPost",
+   "desc": "元BitMEX創業者のアーサー・ヘイズ氏が、AIエージェント向け分散型コンピュート網「Flopネットワーク」の構想をブログで発表した。プレセールを行わず自己資金で運営し、テストネット参加者へ供給量の一部を配布する計画を明らかにした。"
+  },
+  {
+   "title": "Rapid7、88万件超の電話番号検証から始まる仮想通貨詐欺「Operation ASTERIX」の全容を公開",
+   "link": "https://coinpost.jp/?p=732025",
+   "published": "08/20 14:15",
+   "ts": 1787202913.0,
+   "source": "CoinPost",
+   "desc": "米サイバーセキュリティ企業Rapid7が、電話番号88.5万件を悪用した仮想通貨詐欺キャンペーン「Operation ASTERIX」の全容を公開した。ターゲットを精密に絞り、巧妙なフィッシングメールや電話で信頼させ、偽ウォレットアプリでリカバリーフレーズを窃取するスキームが、A"
+  },
+  {
+   "title": "ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上",
+   "link": "https://coinpost.jp/?p=731983",
+   "published": "08/20 13:15",
+   "ts": 1787199323.0,
+   "source": "CoinPost",
+   "desc": "スウェーデンのビットコイン・トレジャリー企業H100が2026年上半期決算を発表。2社買収でBTC保有量は欧州上場企業2位に浮上した一方、BTC含み損主因で42億円の損失を計上した。"
+  },
   {
    "title": "ビットコイン急伸、仮想通貨関連株も全面高",
    "link": "https://coinpost.jp/?p=731950",
@@ -73,49 +113,41 @@
    "ts": 1787190801.0,
    "source": "CoinPost",
    "desc": "暗号資産（仮想通貨）市場では、ビットコインが日足で約10カ月ぶりに200日移動平均線を上抜けた。米財務省による国債買い戻し倍増が起点で、約14億ドルのショートが清算された。トランプ大統領の発言も追い風に。"
-  },
-  {
-   "title": "米国債利回り低下などの条件なければ弱気相場継続の可能性＝グラスノード見解",
-   "link": "https://coinpost.jp/?p=731868",
-   "published": "08/20 10:30",
-   "ts": 1787189444.0,
-   "source": "CoinPost",
-   "desc": "グラスノードが週次仮想通貨市場レポートで、ビットコイン価格を分析。米10年債利回りの低下など複数条件が整うまで反発は一時的なものになるとの見解を示した。"
-  },
-  {
-   "title": "ガレゴ米上院議員、クラリティー法案の成立に自信示すも倫理条項で膠着",
-   "link": "https://coinpost.jp/?p=731857",
-   "published": "08/20 10:15",
-   "ts": 1787188535.0,
-   "source": "CoinPost",
-   "desc": "米ガレゴ上院議員は19日にクラリティー法は成立可能と述べたが、トランプ大統領の仮想通貨事業に絡む倫理条項の協議は難航しており、上院は9月15日の手続き投票を予定している。仮想通貨市場の規制明確化を待つ投資家にとって節目となる。"
-  },
-  {
-   "title": "FalconX、エセナUSDe活用し10億ドル融資枠を組成",
-   "link": "https://coinpost.jp/?p=731893",
-   "published": "08/20 09:54",
-   "ts": 1787187255.0,
-   "source": "CoinPost",
-   "desc": "FalconXとエセナが特別目的会社を通じ10億ドル規模の担保付き与信枠を組成したと発表した。USDeを裏付ける資産を機関投資家向け信用に振り向け、両社の既存の協業関係をさらに一段と拡大する狙いがある。"
-  },
-  {
-   "title": "ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI",
-   "link": "https://coinpost.jp/?p=731856",
-   "published": "08/20 09:35",
-   "ts": 1787186142.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインは8月20日未明に急騰した。主な背景は、米財務省が超長期国債の買い入れ消却を従来計画の少なくとも2倍に増額する方針を突如発表したことである。"
-  },
-  {
-   "title": "仮想通貨投資家の3つの誤解、ビットワイズ幹部が指摘",
-   "link": "https://coinpost.jp/?p=731850",
-   "published": "08/20 08:45",
-   "ts": 1787183158.0,
-   "source": "CoinPost",
-   "desc": "ビットワイズの最高投資責任者は、自身が認識している仮想通貨投資家の3つの誤解を共有。業界の変化の速さと認識が追いつく速さの差にチャンスがあると主張した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "京王ライナー 10月から立席導入へ",
+   "link": "https://news.yahoo.co.jp/pickup/6592409?source=rss",
+   "published": "08/20 15:43",
+   "ts": 1787208185.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "伊丹21時過ぎる離着陸制限 厳格化",
+   "link": "https://news.yahoo.co.jp/pickup/6592408?source=rss",
+   "published": "08/20 15:26",
+   "ts": 1787207189.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "外食で「ダブル看板」広がる 戦略",
+   "link": "https://news.yahoo.co.jp/pickup/6592387?source=rss",
+   "published": "08/20 13:32",
+   "ts": 1787200327.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "フードデリバリー「3強」死角は",
+   "link": "https://news.yahoo.co.jp/pickup/6592390?source=rss",
+   "published": "08/20 13:20",
+   "ts": 1787199610.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "くら寿司 最低価格の値下げ発表",
    "link": "https://news.yahoo.co.jp/pickup/6592386?source=rss",
@@ -125,26 +157,10 @@
    "desc": ""
   },
   {
-   "title": "エンジン不具合で航空機停止 成田",
-   "link": "https://news.yahoo.co.jp/pickup/6592380?source=rss",
-   "published": "08/20 11:40",
-   "ts": 1787193616.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "うどん業界競争 丸亀に急ブレーキ",
    "link": "https://news.yahoo.co.jp/pickup/6592377?source=rss",
    "published": "08/20 11:36",
    "ts": 1787193404.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "万博工事背任疑い 関係者に動揺",
-   "link": "https://news.yahoo.co.jp/pickup/6592370?source=rss",
-   "published": "08/20 10:07",
-   "ts": 1787188030.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592361?source=rss",
    "published": "08/20 08:50",
    "ts": 1787183423.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「エヴァ」とコラボ ショベル人気",
-   "link": "https://news.yahoo.co.jp/pickup/6592357?source=rss",
-   "published": "08/20 08:05",
-   "ts": 1787180701.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "JR九州被害額16年地震上回る恐れ",
-   "link": "https://news.yahoo.co.jp/pickup/6592335?source=rss",
-   "published": "08/19 21:49",
-   "ts": 1787143761.0,
    "source": "Yahoo!",
    "desc": ""
   }
