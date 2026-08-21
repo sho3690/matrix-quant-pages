@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-21 11:01:25",
+ "updated_at": "2026-08-21 13:06:15",
  "fng": {
   "value": 72,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.23409442267632,
-  "eth_dominance": 11.183633783326153,
-  "total_mcap_usd": 2545109342571.7188,
-  "mcap_change_24h": 3.8693590621672094
+  "btc_dominance": 59.03208581746778,
+  "eth_dominance": 11.153817957366806,
+  "total_mcap_usd": 2528095233237.926,
+  "mcap_change_24h": 3.467187886463108
  },
  "defi": {
-  "tvl_usd": 84132308374.0,
-  "change_1d": 0.010501963210274079,
-  "change_7d": 0.12516124426859054,
-  "change_1y": -0.4317121383972603,
-  "range_pos_1y": 0.14882723295556044
+  "tvl_usd": 84675410039.0,
+  "change_1d": 0.031196597180049856,
+  "change_7d": 0.132424529407984,
+  "change_1y": -0.42804365372352804,
+  "range_pos_1y": 0.15414473759146988
  },
  "news_crypto": [
+  {
+   "title": "米司法省、イラン拠点サイバー窃盗グループ起訴　世界中の大学から知的財産窃取の容疑",
+   "link": "https://coinpost.jp/?p=732338",
+   "published": "08/21 13:00",
+   "ts": 1787284821.0,
+   "source": "CoinPost",
+   "desc": "米司法省はイラン拠点のサイバー攻撃組織「マブナ・インスティテュート」所属の17人を起訴した。世界の322大学や企業などからデータやアカウント情報を窃取した容疑で訴えている。"
+  },
+  {
+   "title": "ビットコイン続伸、仮想通貨関連株も軒並み高",
+   "link": "https://coinpost.jp/?p=732355",
+   "published": "08/21 12:21",
+   "ts": 1787282465.0,
+   "source": "CoinPost",
+   "desc": "ビットコインが続伸し8月21日午前に7万4000ドル台へ上昇。ストラテジーやビットマインなど米国株、メタプラネット・ANAP・リミックスポイントなど国内関連株も軒並み急伸した。CFTCは独自の規制整備をスタッフに指示している。"
+  },
+  {
+   "title": "バイナンス、仮想通貨3銘柄を9月3日上場廃止",
+   "link": "https://coinpost.jp/?p=732335",
+   "published": "08/21 11:24",
+   "ts": 1787279096.0,
+   "source": "CoinPost",
+   "desc": "バイナンスは、ICX（ICON）・SCRT（Secret）・STORJ（Storj）の現物取引を2026年9月3日3時（UTC）に終了すると発表した。先物やSimple Earn等も段階的に停止し、出金停止は11月3日3時（UTC）予定。"
+  },
   {
    "title": "フォーティチュード、ジーキャッシュ採掘好調も設備減損で四半期赤字　ナスダック上場目指す",
    "link": "https://coinpost.jp/?p=732247",
@@ -89,33 +113,25 @@
    "ts": 1787267449.0,
    "source": "CoinPost",
    "desc": "仮想通貨ビットコインの含み益にあるUTXO移動が過去最大規模に達したとクリプトクアントの分析が示した。短期保有者の取得コスト水準を巡る需給バランスが今後の相場を左右する。"
-  },
-  {
-   "title": "バイナンス、AIエージェント向けプラットフォーム「Binance Agent OS」をローンチ",
-   "link": "https://coinpost.jp/?p=732233",
-   "published": "08/21 07:20",
-   "ts": 1787264433.0,
-   "source": "CoinPost",
-   "desc": "バイナンスは、AIエージェントとバイナンスをつなぐための開発者向けプラットフォーム「バイナンス・エージェントOS」をローンチ。AIエージェントの仮想通貨体験のためのインフラを構築する。"
-  },
-  {
-   "title": "ストラテジーのMSTR株、前四半期に上位15機関投資家のうち12社が保有増",
-   "link": "https://coinpost.jp/?p=732218",
-   "published": "08/21 07:10",
-   "ts": 1787263853.0,
-   "source": "CoinPost",
-   "desc": "最大手ビットコイントレジャリーのストラテジーは機関投資家の保有動向を公表し、上位15社中12社が保有を増やしたことが分かった。ビットコインの急伸を背景に同社株は今週18%超上昇しており、投資家心理の改善を映している。"
-  },
-  {
-   "title": "米フランクリン、トークン化資産を伝統型ファンドに組み入れへ＝報道",
-   "link": "https://coinpost.jp/?p=732219",
-   "published": "08/21 06:15",
-   "ts": 1787260555.0,
-   "source": "CoinPost",
-   "desc": "米フランクリン・テンプルトンがトークン化マネー・マーケット・ファンドをETFや投資信託に組み入れる計画を示した。米SECが伝統的ファンドでのデジタルネイティブ商品活用を初めて認め、投資家が意図せずトークン化資産を保有し得る状況が生まれる。"
   }
  ],
  "news_jp": [
+  {
+   "title": "芸能事務所に異変 倒産が相次ぐ",
+   "link": "https://news.yahoo.co.jp/pickup/6592514?source=rss",
+   "published": "08/21 12:14",
+   "ts": 1787282099.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "秋サケ激減の異常事態 転換した漁",
+   "link": "https://news.yahoo.co.jp/pickup/6592517?source=rss",
+   "published": "08/21 12:06",
+   "ts": 1787281614.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "金融庁が企画室新設へ 検査司令塔",
    "link": "https://news.yahoo.co.jp/pickup/6592503?source=rss",
@@ -141,14 +157,6 @@
    "desc": ""
   },
   {
-   "title": "くら寿司最低価格下げる なぜ逆行",
-   "link": "https://news.yahoo.co.jp/pickup/6592483?source=rss",
-   "published": "08/21 07:56",
-   "ts": 1787266607.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "26年産新米 大幅値下がりの見通し",
    "link": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
    "published": "08/20 23:47",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592452?source=rss",
    "published": "08/20 20:57",
    "ts": 1787227021.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マンション「共連れ」進む対策",
-   "link": "https://news.yahoo.co.jp/pickup/6592444?source=rss",
-   "published": "08/20 19:24",
-   "ts": 1787221484.0,
    "source": "Yahoo!",
    "desc": ""
   },
