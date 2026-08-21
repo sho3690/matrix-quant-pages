@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-21 16:12:31",
+ "updated_at": "2026-08-21 18:55:19",
  "fng": {
   "value": 72,
   "label": "強欲",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.21924800480976,
-  "eth_dominance": 11.164669833994022,
-  "total_mcap_usd": 2559200439727.506,
-  "mcap_change_24h": 3.890582135816842
+  "btc_dominance": 60.00845505248237,
+  "eth_dominance": 11.130403298541031,
+  "total_mcap_usd": 2602844812732.6323,
+  "mcap_change_24h": 3.919955095607585
  },
  "defi": {
-  "tvl_usd": 84963614278.0,
-  "change_1d": 0.03571159765270071,
-  "change_7d": 0.13627888983650327,
-  "change_1y": -0.4260969227488105,
-  "range_pos_1y": 0.15696654329698403
+  "tvl_usd": 85871054212.0,
+  "change_1d": 0.04677836249609335,
+  "change_7d": 0.14841472997890914,
+  "change_1y": -0.419967445148679,
+  "range_pos_1y": 0.16585128139819083
  },
  "news_crypto": [
+  {
+   "title": "HashPort、JPYC決済対応のNFTマーケット提供開始",
+   "link": "https://coinpost.jp/?p=732516",
+   "published": "08/21 18:12",
+   "ts": 1787303544.0,
+   "source": "CoinPost",
+   "desc": "HashPortが「HashPort Market｜αU」の提供を開始した。電子決済手段型ステーブルコインJPYCでの決済に対応するNFTマーケットで、CryptoGamesと提携したトレカNFTオリパの販売と二次流通も始めた。"
+  },
+  {
+   "title": "ビットコインの強気指数、10カ月ぶり60超え＝アナリスト",
+   "link": "https://coinpost.jp/?p=732457",
+   "published": "08/21 16:49",
+   "ts": 1787298567.0,
+   "source": "CoinPost",
+   "desc": "クリプトクアントのブルスコア指数が60を回復し、2025年10月以来となる強気圏入りをアナリストが指摘した。10指標中6指標がグリーン転換し、需要成長やステーブルコイン流動性、実現価格の改善が背景にあるという。"
+  },
   {
    "title": "ハイパーリキッド上半期手数料31％増、収益3.8％減＝21シェアーズ",
    "link": "https://coinpost.jp/?p=732432",
@@ -57,6 +73,14 @@
    "ts": 1787294832.0,
    "source": "CoinPost",
    "desc": "ハイパーリキッド（HYPE）の2026年上半期は総手数料が前年同期比31%増の4億1930万ドルとなった一方、プロトコル収益は3.8%減の3億530万ドルに縮小。21シェアーズがオンチェーン市場での地位とHYPEのバリュエーションを分析した。"
+  },
+  {
+   "title": "「先物上場が転換点」中国著名エコノミストが語るビットコイン資産化の本質",
+   "link": "https://coinpost.jp/?p=732109",
+   "published": "08/21 15:00",
+   "ts": 1787292024.0,
+   "source": "CoinPost",
+   "desc": "新火集団チーフエコノミスト付鵬氏が独占インタビューに登場。ビットコイン先物上場を「資産化」の転換点と位置づけ、日本市場は今後10年で円高局面へ移行すると予測。伝統金融と仮想通貨融合の未来像を語る。"
   },
   {
    "title": "RWA特化レイヤー1のマントラが障害、入出金を一時凍結",
@@ -89,33 +113,33 @@
    "ts": 1787282465.0,
    "source": "CoinPost",
    "desc": "ビットコインが続伸し8月21日午前に7万4000ドル台へ上昇。ストラテジーやビットマインなど米国株、メタプラネット・ANAP・リミックスポイントなど国内関連株も軒並み急伸した。CFTCは独自の規制整備をスタッフに指示している。"
-  },
-  {
-   "title": "バイナンス、仮想通貨3銘柄を9月3日上場廃止",
-   "link": "https://coinpost.jp/?p=732335",
-   "published": "08/21 11:24",
-   "ts": 1787279096.0,
-   "source": "CoinPost",
-   "desc": "バイナンスは、ICX（ICON）・SCRT（Secret）・STORJ（Storj）の現物取引を2026年9月3日3時（UTC）に終了すると発表した。先物やSimple Earn等も段階的に停止し、出金停止は11月3日3時（UTC）予定。"
-  },
-  {
-   "title": "フォーティチュード、ジーキャッシュ採掘好調も設備減損で四半期赤字　ナスダック上場目指す",
-   "link": "https://coinpost.jp/?p=732247",
-   "published": "08/21 10:40",
-   "ts": 1787276444.0,
-   "source": "CoinPost",
-   "desc": "DCG傘下のジーキャッシュ採掘企業フォーティチュードが2026年4-6月期決算を発表し売上高33億円を報告。AI医療技術企業との事業統合でナスダック上場を目指している。"
-  },
-  {
-   "title": "ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI",
-   "link": "https://coinpost.jp/?p=732243",
-   "published": "08/21 10:12",
-   "ts": 1787274750.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインは8月21日も上昇し3日続伸で7万3,000ドルを突破した。円建てでも過去24時間で約70万円幅の上昇となっている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "馬渕隆一さん死去 マブチモーター",
+   "link": "https://news.yahoo.co.jp/pickup/6592569?source=rss",
+   "published": "08/21 18:26",
+   "ts": 1787304399.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "20代NISA買い付け額17倍 2014年比",
+   "link": "https://news.yahoo.co.jp/pickup/6592560?source=rss",
+   "published": "08/21 17:36",
+   "ts": 1787301378.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "育児サービス利用など税優遇 方針",
+   "link": "https://news.yahoo.co.jp/pickup/6592556?source=rss",
+   "published": "08/21 17:28",
+   "ts": 1787300889.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "セコマ なぜ人口580人の村にも店",
    "link": "https://news.yahoo.co.jp/pickup/6592532?source=rss",
@@ -141,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "金融庁が企画室新設へ 検査司令塔",
-   "link": "https://news.yahoo.co.jp/pickup/6592503?source=rss",
-   "published": "08/21 10:44",
-   "ts": 1787276673.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "SKハイニックス 宮城に工場案",
    "link": "https://news.yahoo.co.jp/pickup/6592493?source=rss",
    "published": "08/21 09:07",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592487?source=rss",
    "published": "08/21 08:23",
    "ts": 1787268221.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "26年産新米 大幅値下がりの見通し",
-   "link": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
-   "published": "08/20 23:47",
-   "ts": 1787237274.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "時間外労働 一律抑制見直しに反発",
-   "link": "https://news.yahoo.co.jp/pickup/6592452?source=rss",
-   "published": "08/20 20:57",
-   "ts": 1787227021.0,
    "source": "Yahoo!",
    "desc": ""
   }
