@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-22 16:05:02",
+ "updated_at": "2026-08-22 18:47:03",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.5961186200426,
-  "eth_dominance": 11.088334209029426,
-  "total_mcap_usd": 2653044074606.463,
-  "mcap_change_24h": 0.8190184415343211
+  "btc_dominance": 58.74288919209483,
+  "eth_dominance": 11.08870722818432,
+  "total_mcap_usd": 2629577263056.7856,
+  "mcap_change_24h": -1.5930914017285365
  },
  "defi": {
-  "tvl_usd": 87014699873.0,
-  "change_1d": 0.030871033904593448,
-  "change_7d": 0.1675088196097061,
-  "change_1y": -0.40720255650690773,
-  "range_pos_1y": 0.17704870813450033
+  "tvl_usd": 87000182524.0,
+  "change_1d": 0.03072636722737787,
+  "change_7d": 0.1673140349006903,
+  "change_1y": -0.407301457582083,
+  "range_pos_1y": 0.176906568871111
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "処方箋不要 訪日客に眼鏡が人気",
+   "link": "https://news.yahoo.co.jp/pickup/6592679?source=rss",
+   "published": "08/22 18:07",
+   "ts": 1787389654.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「自販機」に逆風 飲料各社が工夫",
+   "link": "https://news.yahoo.co.jp/pickup/6592665?source=rss",
+   "published": "08/22 16:27",
+   "ts": 1787383645.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "長期休み「子どもと出勤」広がる",
    "link": "https://news.yahoo.co.jp/pickup/6592633?source=rss",
    "published": "08/22 11:29",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592569?source=rss",
    "published": "08/21 18:26",
    "ts": 1787304399.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "20代NISA買い付け額17倍 2014年比",
-   "link": "https://news.yahoo.co.jp/pickup/6592560?source=rss",
-   "published": "08/21 17:36",
-   "ts": 1787301378.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "育児サービス利用など税優遇 方針",
-   "link": "https://news.yahoo.co.jp/pickup/6592556?source=rss",
-   "published": "08/21 17:28",
-   "ts": 1787300889.0,
    "source": "Yahoo!",
    "desc": ""
   }
