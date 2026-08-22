@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-22 18:47:03",
+ "updated_at": "2026-08-22 22:05:22",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.74288919209483,
-  "eth_dominance": 11.08870722818432,
-  "total_mcap_usd": 2629577263056.7856,
-  "mcap_change_24h": -1.5930914017285365
+  "btc_dominance": 58.816497185321694,
+  "eth_dominance": 11.109442790104133,
+  "total_mcap_usd": 2625472417584.6426,
+  "mcap_change_24h": -1.5446237558627534
  },
  "defi": {
-  "tvl_usd": 87000182524.0,
-  "change_1d": 0.03072636722737787,
-  "change_7d": 0.1673140349006903,
-  "change_1y": -0.407301457582083,
-  "range_pos_1y": 0.176906568871111
+  "tvl_usd": 86759308592.0,
+  "change_1d": 0.027872636284668184,
+  "change_7d": 0.16408213913555492,
+  "change_1y": -0.4089424383738588,
+  "range_pos_1y": 0.1745481738732247
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "爆発で休業のイオン 従業員は不安",
+   "link": "https://news.yahoo.co.jp/pickup/6592697?source=rss",
+   "published": "08/22 20:24",
+   "ts": 1787397899.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "行列回避の「次世代トイレ」続々",
+   "link": "https://news.yahoo.co.jp/pickup/6592696?source=rss",
+   "published": "08/22 20:09",
+   "ts": 1787396941.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "処方箋不要 訪日客に眼鏡が人気",
    "link": "https://news.yahoo.co.jp/pickup/6592679?source=rss",
    "published": "08/22 18:07",
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "駅前に残る「廃墟モール」の盛衰",
-   "link": "https://news.yahoo.co.jp/pickup/6592618?source=rss",
-   "published": "08/22 09:36",
-   "ts": 1787358985.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "100均業界2トップ 快進撃の理由",
    "link": "https://news.yahoo.co.jp/pickup/6592604?source=rss",
    "published": "08/22 08:04",
    "ts": 1787353457.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "馬渕隆一さん死去 マブチモーター",
-   "link": "https://news.yahoo.co.jp/pickup/6592569?source=rss",
-   "published": "08/21 18:26",
-   "ts": 1787304399.0,
    "source": "Yahoo!",
    "desc": ""
   }
