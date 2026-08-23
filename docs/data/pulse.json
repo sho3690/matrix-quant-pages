@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-23 13:06:02",
+ "updated_at": "2026-08-23 16:06:55",
  "fng": {
   "value": 66,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.35311813867621,
-  "eth_dominance": 11.194616984818218,
-  "total_mcap_usd": 2594699559802.4336,
-  "mcap_change_24h": -5.702354855525355
+  "btc_dominance": 59.26304026493923,
+  "eth_dominance": 11.188545927130862,
+  "total_mcap_usd": 2568916833291.2,
+  "mcap_change_24h": -5.501367851466973
  },
  "defi": {
-  "tvl_usd": 91873221702.0,
-  "change_1d": 0.04494043952580218,
-  "change_7d": 0.2267228370460479,
-  "change_1y": -0.41915056992100574,
-  "range_pos_1y": 0.2246184616711142
+  "tvl_usd": 90645912023.0,
+  "change_1d": 0.0310072483376842,
+  "change_7d": 0.21033537633153832,
+  "change_1y": -0.426909981361805,
+  "range_pos_1y": 0.2126018811147298
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "VIVANTロケ地の県 観光振興活発",
+   "link": "https://news.yahoo.co.jp/pickup/6592774?source=rss",
+   "published": "08/23 15:40",
+   "ts": 1787467223.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "年金だけ苦しい 炎天下働くシニア",
+   "link": "https://news.yahoo.co.jp/pickup/6592772?source=rss",
+   "published": "08/23 15:05",
+   "ts": 1787465112.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "2000円台の新米 昨年産と価格逆転",
    "link": "https://news.yahoo.co.jp/pickup/6592734?source=rss",
    "published": "08/23 08:54",
@@ -129,14 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592731?source=rss",
    "published": "08/23 08:32",
    "ts": 1787441557.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "震度5弱 関東の鉄道運行情報",
-   "link": "https://news.yahoo.co.jp/pickup/6592722?source=rss",
-   "published": "08/23 07:23",
-   "ts": 1787437405.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592633?source=rss",
    "published": "08/22 11:29",
    "ts": 1787365789.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "新幹線の通路に椅子 JR東の見解",
-   "link": "https://news.yahoo.co.jp/pickup/6592622?source=rss",
-   "published": "08/22 10:09",
-   "ts": 1787360981.0,
    "source": "Yahoo!",
    "desc": ""
   }
