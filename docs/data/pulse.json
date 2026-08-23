@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-23 18:47:46",
+ "updated_at": "2026-08-23 22:06:29",
  "fng": {
   "value": 66,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.21743161699191,
-  "eth_dominance": 11.216399553688841,
-  "total_mcap_usd": 2588164739690.784,
-  "mcap_change_24h": -3.996885699735274
+  "btc_dominance": 59.260371674714285,
+  "eth_dominance": 11.19931805185871,
+  "total_mcap_usd": 2605427035743.326,
+  "mcap_change_24h": -3.2728039653631877
  },
  "defi": {
-  "tvl_usd": 90698429938.0,
-  "change_1d": 0.03160458747658379,
-  "change_7d": 0.21103661358534342,
-  "change_1y": -0.4265779477133538,
-  "range_pos_1y": 0.2131160836563125
+  "tvl_usd": 91355060285.0,
+  "change_1d": 0.03907310664924957,
+  "change_7d": 0.21980416769131672,
+  "change_1y": -0.4224265382410197,
+  "range_pos_1y": 0.21954514683042617
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "20歳の振り袖選び 高校生で契約も",
+   "link": "https://news.yahoo.co.jp/pickup/6592806?source=rss",
+   "published": "08/23 21:04",
+   "ts": 1787486649.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "戸建て売り入居する人も 団地人気",
+   "link": "https://news.yahoo.co.jp/pickup/6592805?source=rss",
+   "published": "08/23 20:38",
+   "ts": 1787485110.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ソニー 中国「TCL」と手を組む訳",
    "link": "https://news.yahoo.co.jp/pickup/6592793?source=rss",
    "published": "08/23 18:28",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592731?source=rss",
    "published": "08/23 08:32",
    "ts": 1787441557.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "爆発で休業のイオン 従業員は不安",
-   "link": "https://news.yahoo.co.jp/pickup/6592697?source=rss",
-   "published": "08/22 20:24",
-   "ts": 1787397899.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "行列回避の「次世代トイレ」続々",
-   "link": "https://news.yahoo.co.jp/pickup/6592696?source=rss",
-   "published": "08/22 20:09",
-   "ts": 1787396941.0,
    "source": "Yahoo!",
    "desc": ""
   }
