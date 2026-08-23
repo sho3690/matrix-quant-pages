@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-23 16:06:55",
+ "updated_at": "2026-08-23 18:47:46",
  "fng": {
   "value": 66,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.26304026493923,
-  "eth_dominance": 11.188545927130862,
-  "total_mcap_usd": 2568916833291.2,
-  "mcap_change_24h": -5.501367851466973
+  "btc_dominance": 59.21743161699191,
+  "eth_dominance": 11.216399553688841,
+  "total_mcap_usd": 2588164739690.784,
+  "mcap_change_24h": -3.996885699735274
  },
  "defi": {
-  "tvl_usd": 90645912023.0,
-  "change_1d": 0.0310072483376842,
-  "change_7d": 0.21033537633153832,
-  "change_1y": -0.426909981361805,
-  "range_pos_1y": 0.2126018811147298
+  "tvl_usd": 90698429938.0,
+  "change_1d": 0.03160458747658379,
+  "change_7d": 0.21103661358534342,
+  "change_1y": -0.4265779477133538,
+  "range_pos_1y": 0.2131160836563125
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "ソニー 中国「TCL」と手を組む訳",
+   "link": "https://news.yahoo.co.jp/pickup/6592793?source=rss",
+   "published": "08/23 18:28",
+   "ts": 1787477319.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "就活で障害伝えず76% 不利益懸念",
+   "link": "https://news.yahoo.co.jp/pickup/6592777?source=rss",
+   "published": "08/23 16:32",
+   "ts": 1787470371.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "VIVANTロケ地の県 観光振興活発",
    "link": "https://news.yahoo.co.jp/pickup/6592774?source=rss",
    "published": "08/23 15:40",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592696?source=rss",
    "published": "08/22 20:09",
    "ts": 1787396941.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「自販機」に逆風 飲料各社が工夫",
-   "link": "https://news.yahoo.co.jp/pickup/6592665?source=rss",
-   "published": "08/22 16:27",
-   "ts": 1787383645.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長期休み「子どもと出勤」広がる",
-   "link": "https://news.yahoo.co.jp/pickup/6592633?source=rss",
-   "published": "08/22 11:29",
-   "ts": 1787365789.0,
    "source": "Yahoo!",
    "desc": ""
   }
