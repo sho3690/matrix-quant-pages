@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-08-23 06:41:19",
+ "updated_at": "2026-08-23 11:03:43",
  "fng": {
-  "value": 71,
+  "value": 66,
   "label": "強欲",
   "history": [
-   28,
    27,
    26,
    30,
@@ -33,23 +32,32 @@
    46,
    62,
    72,
-   71
+   71,
+   66
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.83302638087012,
-  "eth_dominance": 11.091786013480105,
-  "total_mcap_usd": 2621537801374.0327,
-  "mcap_change_24h": -2.4126462314420034
+  "btc_dominance": 59.24290555203849,
+  "eth_dominance": 11.19670361150558,
+  "total_mcap_usd": 2610696369961.3735,
+  "mcap_change_24h": -4.191015506905478
  },
  "defi": {
-  "tvl_usd": 89183892586.0,
-  "change_1d": 0.0565986661759863,
-  "change_7d": 0.19661369071259926,
-  "change_1y": -0.3924246868298642,
-  "range_pos_1y": 0.19828725894534796
+  "tvl_usd": 91686300635.0,
+  "change_1d": -0.0005965340766305172,
+  "change_7d": 0.2242270027064437,
+  "change_1y": -0.4203323396818277,
+  "range_pos_1y": 0.22278831880031003
  },
  "news_crypto": [
+  {
+   "title": "週刊仮想通貨ニュース（8/21）｜相場上昇・米政府のBTC購入検討・米SECの新規則提案のまとめ",
+   "link": "https://coinpost.jp/?p=732315",
+   "published": "08/23 09:25",
+   "ts": 1787444732.0,
+   "source": "CoinPost",
+   "desc": "今週は、仮想通貨相場の上昇、米政府によるビットコイン購入検討、米証券取引委員会（SEC）による仮想通貨資金調達の新規則の提案に関する記事が関心を集めた。"
+  },
   {
    "title": "ザ・サンドボックス、5億SAND不正発行発生か　韓国大手2社が対応",
    "link": "https://coinpost.jp/?p=732613",
@@ -105,17 +113,33 @@
    "ts": 1787355608.0,
    "source": "CoinPost",
    "desc": "米ギャラクシー・リサーチは過去の弱気相場データを分析し、ビットコインが週足終値で50週移動平均線の8万2,470ドルを上回れば、強気相場入りを裏付ける確認シグナルになるとの見方を示した。"
-  },
-  {
-   "title": "ビットコイン反発の主因をコインシェアーズが分析、次の材料は？",
-   "link": "https://coinpost.jp/?p=732563",
-   "published": "08/22 07:20",
-   "ts": 1787350806.0,
-   "source": "CoinPost",
-   "desc": "コインシェアーズはビットコイン反発をマクロ要因によるものと分析し、当面はレンジ内での推移を見込むとした。グレースケールは長期投資家にとって有利な参入時期との見解を示している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "2000円台の新米 昨年産と価格逆転",
+   "link": "https://news.yahoo.co.jp/pickup/6592734?source=rss",
+   "published": "08/23 08:54",
+   "ts": 1787442841.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "発火相次ぐ「モバ充」規制強化へ",
+   "link": "https://news.yahoo.co.jp/pickup/6592731?source=rss",
+   "published": "08/23 08:32",
+   "ts": 1787441557.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "震度5弱 関東の鉄道運行情報",
+   "link": "https://news.yahoo.co.jp/pickup/6592722?source=rss",
+   "published": "08/23 07:23",
+   "ts": 1787437405.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "爆発で休業のイオン 従業員は不安",
    "link": "https://news.yahoo.co.jp/pickup/6592697?source=rss",
@@ -129,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592696?source=rss",
    "published": "08/22 20:09",
    "ts": 1787396941.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "処方箋不要 訪日客に眼鏡が人気",
-   "link": "https://news.yahoo.co.jp/pickup/6592679?source=rss",
-   "published": "08/22 18:07",
-   "ts": 1787389654.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592622?source=rss",
    "published": "08/22 10:09",
    "ts": 1787360981.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "地震で突然失業 肩落とす被災者",
-   "link": "https://news.yahoo.co.jp/pickup/6592621?source=rss",
-   "published": "08/22 10:06",
-   "ts": 1787360787.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "100均業界2トップ 快進撃の理由",
-   "link": "https://news.yahoo.co.jp/pickup/6592604?source=rss",
-   "published": "08/22 08:04",
-   "ts": 1787353457.0,
    "source": "Yahoo!",
    "desc": ""
   }
