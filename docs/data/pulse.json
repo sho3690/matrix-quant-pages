@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-24 16:33:08",
+ "updated_at": "2026-08-24 19:08:07",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.245987314040896,
-  "eth_dominance": 11.299940344408272,
-  "total_mcap_usd": 2623029639674.0254,
-  "mcap_change_24h": -0.5131627808574218
+  "btc_dominance": 59.26832848078097,
+  "eth_dominance": 11.314893551996564,
+  "total_mcap_usd": 2620215718865.243,
+  "mcap_change_24h": -1.4367668956680222
  },
  "defi": {
-  "tvl_usd": 92673979822.0,
-  "change_1d": 0.009498707887090507,
-  "change_7d": 0.24012462172270665,
-  "change_1y": -0.41845587925828753,
-  "range_pos_1y": 0.23245877484517324
+  "tvl_usd": 92574497798.0,
+  "change_1d": 0.008415187275388147,
+  "change_7d": 0.23879339468769456,
+  "change_1y": -0.4190801449506405,
+  "range_pos_1y": 0.2314847471598345
  },
  "news_crypto": [
+  {
+   "title": "ゴールドマン・サックス、XRP現物ETF保有を再開　5ファンドに約137億円",
+   "link": "https://coinpost.jp/?p=732818",
+   "published": "08/24 17:09",
+   "ts": 1787558999.0,
+   "source": "CoinPost",
+   "desc": "ゴールドマン・サックスが2026年8月14日提出のSEC13F文書で、XRP現物ETF5銘柄を合計約8650万ドル約137億5000万円）保有していることが判明。前四半期に一時ゼロにした保有を再び積み増した経緯と内訳を解説する。"
+  },
   {
    "title": "S.BLOX、NIGHT取扱い開始　「国内初」と発表、ADAも追加",
    "link": "https://coinpost.jp/?p=732773",
@@ -105,30 +113,38 @@
    "ts": 1787531666.0,
    "source": "CoinPost",
    "desc": "米国のビットコイン・イーサリアム現物ETFへの週間純流入額が合計26億ドルに達し、2025年10月以来の高水準となった。年初来では依然として純流出が上回っている。"
-  },
-  {
-   "title": "ビットコイン週間26％急伸、底打ち型の反発か＝アナリスト",
-   "link": "https://coinpost.jp/?p=732631",
-   "published": "08/24 08:16",
-   "ts": 1787526971.0,
-   "source": "CoinPost",
-   "desc": "ビットコインが週間で26.81％上昇し、約6万ドル台から7万ドル台後半まで上昇。アナリストのAli Charts氏は、2019年・2023年の弱気相場終了時と類似する反発パターンだと指摘した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ファミマがレジ端末の刷新検討",
+   "link": "https://news.yahoo.co.jp/pickup/6592899?source=rss",
+   "published": "08/24 18:05",
+   "ts": 1787562300.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ドローン報道 BERGが楽天店撤退",
+   "link": "https://news.yahoo.co.jp/pickup/6592893?source=rss",
+   "published": "08/24 17:10",
+   "ts": 1787559046.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "モコモコ 永谷園が一時休売を発表",
+   "link": "https://news.yahoo.co.jp/pickup/6592889?source=rss",
+   "published": "08/24 17:05",
+   "ts": 1787558743.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "居眠り運転など検知 搭載義務化へ",
    "link": "https://news.yahoo.co.jp/pickup/6592884?source=rss",
    "published": "08/24 16:04",
    "ts": 1787555065.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "総合居酒屋苦戦 老舗チェーンの今",
-   "link": "https://news.yahoo.co.jp/pickup/6592871?source=rss",
-   "published": "08/24 13:02",
-   "ts": 1787544176.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592805?source=rss",
    "published": "08/23 20:38",
    "ts": 1787485110.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ソニー 中国「TCL」と手を組む訳",
-   "link": "https://news.yahoo.co.jp/pickup/6592793?source=rss",
-   "published": "08/23 18:28",
-   "ts": 1787477319.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "就活で障害伝えず76% 不利益懸念",
-   "link": "https://news.yahoo.co.jp/pickup/6592777?source=rss",
-   "published": "08/23 16:32",
-   "ts": 1787470371.0,
    "source": "Yahoo!",
    "desc": ""
   }
