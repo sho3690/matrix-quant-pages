@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-24 19:08:07",
+ "updated_at": "2026-08-24 22:24:59",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,85 +37,36 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.26832848078097,
-  "eth_dominance": 11.314893551996564,
-  "total_mcap_usd": 2620215718865.243,
-  "mcap_change_24h": -1.4367668956680222
+  "btc_dominance": 58.93621168523049,
+  "eth_dominance": 11.2528799353207,
+  "total_mcap_usd": 2674370124646.391,
+  "mcap_change_24h": 0.17541941024363794
  },
  "defi": {
-  "tvl_usd": 92574497798.0,
-  "change_1d": 0.008415187275388147,
-  "change_7d": 0.23879339468769456,
-  "change_1y": -0.4190801449506405,
-  "range_pos_1y": 0.2314847471598345
+  "tvl_usd": 93180915218.0,
+  "change_1d": 0.015023910212494718,
+  "change_7d": 0.24690822017622982,
+  "change_1y": -0.41527477815843283,
+  "range_pos_1y": 0.23742217517146907
  },
- "news_crypto": [
-  {
-   "title": "ゴールドマン・サックス、XRP現物ETF保有を再開　5ファンドに約137億円",
-   "link": "https://coinpost.jp/?p=732818",
-   "published": "08/24 17:09",
-   "ts": 1787558999.0,
-   "source": "CoinPost",
-   "desc": "ゴールドマン・サックスが2026年8月14日提出のSEC13F文書で、XRP現物ETF5銘柄を合計約8650万ドル約137億5000万円）保有していることが判明。前四半期に一時ゼロにした保有を再び積み増した経緯と内訳を解説する。"
-  },
-  {
-   "title": "S.BLOX、NIGHT取扱い開始　「国内初」と発表、ADAも追加",
-   "link": "https://coinpost.jp/?p=732773",
-   "published": "08/24 15:32",
-   "ts": 1787553179.0,
-   "source": "CoinPost",
-   "desc": "S.BLOXが2026年8月24日、カルダノ（Cardano）創設者Hoskinson氏が手がけるMidnightのネイティブトークンNIGHTの取扱いを開始したと発表。「国内初」としている。ADAも同時に追加し、両銘柄で記念キャンペーンを実施する。"
-  },
-  {
-   "title": "SBIホールディングス、ステーブルコイン企業Fassetへ追加出資　企業価値10億ドルに",
-   "link": "https://coinpost.jp/?p=732763",
-   "published": "08/24 14:54",
-   "ts": 1787550898.0,
-   "source": "CoinPost",
-   "desc": "SBIホールディングスがステーブルコイン企業Fasset社へ追加出資を決定。株式取得価額を基礎にした企業価値は10億米ドルとなった。シリーズC完了後の持分法適用化やマレーシアでの協業計画も明らかにした。"
-  },
-  {
-   "title": "ウォレットのファントム、スイのサポートを9月24日終了へ",
-   "link": "https://coinpost.jp/?p=732755",
-   "published": "08/24 14:10",
-   "ts": 1787548242.0,
-   "source": "CoinPost",
-   "desc": "ウォレットのファントムは9月24日、スイ（Sui）のサポートを終了する。対応終了までに資産をソラナ上のラップドスイへ無料スワップするか、推奨ウォレットSlushへシークレットリカバリーフレーズを移すことで引き続き利用できるという。"
-  },
-  {
-   "title": "ソラナ、ブロック生成時間を350ミリ秒に短縮　段階的に200ミリ秒目指す",
-   "link": "https://coinpost.jp/?p=732728",
-   "published": "08/24 13:34",
-   "ts": 1787546094.0,
-   "source": "CoinPost",
-   "desc": "ソラナのメインネットでブロック生成時間（スロット時間）が400ミリ秒から350ミリ秒に短縮された。SIMD-0525に基づき、段階的に200ミリ秒まで縮める計画で、DAppや決済におけるユーザー体感速度向上が期待される。"
-  },
-  {
-   "title": "Term Financeから13億円以上が不正流出　ガバナンス機能の乗っ取りが原因か",
-   "link": "https://coinpost.jp/?p=732717",
-   "published": "08/24 12:50",
-   "ts": 1787543407.0,
-   "source": "CoinPost",
-   "desc": "DeFiレンディングのTerm Financeで、ガバナンス投票権の乗っ取りにより資産運用ボルトから約13.6億円相当が流出した。Termのレンディング市場は無事と報告される。"
-  },
-  {
-   "title": "ビットコイン保有企業ストライブCEO、弱気相場終了との見方",
-   "link": "https://coinpost.jp/?p=732674",
-   "published": "08/24 10:16",
-   "ts": 1787534201.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン保有企業ストライブのCEO、Matt Cole氏は24日、ビットコインが対ドル・対金の双方で上放れたとして弱気相場の終了に自信を示した。ドル安基調とAI時代の希少性需要が追い風になるとの見方を述べた。"
-  },
-  {
-   "title": "ビットコイン・イーサリアム現物ETFの純流入、昨年10月以来最大規模に",
-   "link": "https://coinpost.jp/?p=732638",
-   "published": "08/24 09:34",
-   "ts": 1787531666.0,
-   "source": "CoinPost",
-   "desc": "米国のビットコイン・イーサリアム現物ETFへの週間純流入額が合計26億ドルに達し、2025年10月以来の高水準となった。年初来では依然として純流出が上回っている。"
-  }
- ],
+ "news_crypto": [],
  "news_jp": [
+  {
+   "title": "損保J 来年1月に車保険料5%値上げ",
+   "link": "https://news.yahoo.co.jp/pickup/6592935?source=rss",
+   "published": "08/24 22:22",
+   "ts": 1787577731.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "プルデンシャル 自粛中に不祥事か",
+   "link": "https://news.yahoo.co.jp/pickup/6592910?source=rss",
+   "published": "08/24 19:18",
+   "ts": 1787566685.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ファミマがレジ端末の刷新検討",
    "link": "https://news.yahoo.co.jp/pickup/6592899?source=rss",
@@ -161,22 +112,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6592868?source=rss",
    "published": "08/24 12:33",
    "ts": 1787542417.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ローソン 手巻きおにぎり値下げへ",
-   "link": "https://news.yahoo.co.jp/pickup/6592864?source=rss",
-   "published": "08/24 12:27",
-   "ts": 1787542029.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "戸建て売り入居する人も 団地人気",
-   "link": "https://news.yahoo.co.jp/pickup/6592805?source=rss",
-   "published": "08/23 20:38",
-   "ts": 1787485110.0,
    "source": "Yahoo!",
    "desc": ""
   }
