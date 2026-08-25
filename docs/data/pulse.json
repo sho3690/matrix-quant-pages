@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-08-25 06:48:38",
+ "updated_at": "2026-08-26 06:48:34",
  "fng": {
-  "value": 73,
+  "value": 74,
   "label": "強欲",
   "history": [
-   26,
    30,
    29,
    29,
@@ -33,168 +32,169 @@
    72,
    71,
    66,
-   73
+   73,
+   74
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.086412475609116,
-  "eth_dominance": 11.163111440189107,
-  "total_mcap_usd": 2674782503640.628,
-  "mcap_change_24h": -0.7504694635496562
+  "btc_dominance": 59.22749360991887,
+  "eth_dominance": 11.062839120053278,
+  "total_mcap_usd": 2662891262472.883,
+  "mcap_change_24h": -3.19092707051552
  },
  "defi": {
-  "tvl_usd": 87619026151.0,
-  "change_1d": 0.007273124922265506,
-  "change_7d": 0.1724813358763324,
-  "change_1y": -0.45017652612851,
-  "range_pos_1y": 0.18296576469432627
+  "tvl_usd": 87947090381.0,
+  "change_1d": 0.007886649829550452,
+  "change_7d": 0.16167582830676497,
+  "change_1y": -0.4378559750556792,
+  "range_pos_1y": 0.18621948915664727
  },
  "news_crypto": [
   {
-   "title": "コインベース、米国株のトークン化サービスをベースチェーンで開始",
-   "link": "https://coinpost.jp/?p=732867",
-   "published": "08/25 06:35",
-   "ts": 1787607359.0,
+   "title": "ビットワイズ、トークン化株式の自動運用ポートフォリオを提供開始",
+   "link": "https://coinpost.jp/?p=733214",
+   "published": "08/26 06:10",
+   "ts": 1787692226.0,
    "source": "CoinPost",
-   "desc": "コインベースは米国株をトークン化し、自社のブロックチェーン「ベースチェーン」上で発行を開始したと公式発表した。規制対象カストディアンが原資産を保管し、DeFiでの活用も可能になる。"
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
   },
   {
-   "title": "米財務省がイラン制裁を拡大、デジタル資産やゴールドも対象に",
-   "link": "https://coinpost.jp/?p=732868",
-   "published": "08/25 06:00",
-   "ts": 1787605201.0,
+   "title": "グレースケール、ジーキャッシュがビットコインに対抗と見解",
+   "link": "https://coinpost.jp/?p=733209",
+   "published": "08/26 05:45",
+   "ts": 1787690709.0,
    "source": "CoinPost",
-   "desc": "米財務省のベッセント長官は24日、対イラン二次制裁を拡大する新プログラムを発表した。仮想通貨や金、航空など複数分野を対象とし、関連するビットコインアドレスも新たに指定された。"
+   "desc": "米グレースケール・リサーチは、プライバシー機能を持つジーキャッシュがビットコインのネットワーク効果に対抗しうるとの分析を示した。ZEC価格は過去1年で約19倍に上昇している。"
   },
   {
-   "title": "ビットマイン、127億円相当イーサリアムを追加購入",
-   "link": "https://coinpost.jp/?p=732869",
-   "published": "08/25 05:30",
-   "ts": 1787603403.0,
+   "title": "香港ハッシュキー、米フランクリン・テンプルトンのトークン化ファンドをアジアで提供",
+   "link": "https://coinpost.jp/?p=733202",
+   "published": "08/26 05:00",
+   "ts": 1787688038.0,
    "source": "CoinPost",
-   "desc": "イーサリアム財務戦略で世界最大手のビットマインが週間3万2,447ETHを追加購入し、保有総額が149億ドルに達したと発表した。"
+   "desc": "香港の仮想通貨取引所ハッシュキー・エクスチェンジが、米フランクリン・テンプルトンのトークン化マネー・マーケット・ファンド「grBENJI」をアジアの専門投資家向けに取り扱い開始した。米国政府資産への新たな投資機会となる。"
   },
   {
-   "title": "ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続",
-   "link": "https://coinpost.jp/?p=732849",
-   "published": "08/24 21:40",
-   "ts": 1787575257.0,
+   "title": "国内約40行、トークン化預金で相互送金実証＝日経",
+   "link": "https://coinpost.jp/?p=733193",
+   "published": "08/25 19:39",
+   "ts": 1787654397.0,
    "source": "CoinPost",
-   "desc": "ビットコイン保有最大手ストラテジーが米ドル準備金を51億ドルに拡大し、優先株式STRCの買い戻しも実施したと発表した。ビットコイン価格上昇に伴い、同社の含み益拡大が投資家心理を支えている。"
+   "desc": "GMOあおぞらネット銀行やディーカレットDCPなどが主導し、国内約40行が参加するトークン化預金の相互送金実証が8月中に始まる。全銀システムを介さず銀行間で直接やりとりし、24時間365日の即時決済を目指す。"
   },
   {
-   "title": "ゴールドマン・サックス、XRP現物ETF保有を再開　5ファンドに約137億円",
-   "link": "https://coinpost.jp/?p=732818",
-   "published": "08/24 17:09",
-   "ts": 1787558999.0,
+   "title": "Advasa Holdings, Inc.、Nasdaq Global Marketにおける普通株式の取引を本日開始",
+   "link": "https://coinpost.jp/?p=733189",
+   "published": "08/25 19:21",
+   "ts": 1787653310.0,
    "source": "CoinPost",
-   "desc": "ゴールドマン・サックスが2026年8月14日提出のSEC13F文書で、XRP現物ETF5銘柄を合計約8650万ドル約137億5000万円）保有していることが判明。前四半期に一時ゼロにした保有を再び積み増した経緯と内訳を解説する。"
+   "desc": "フィンテック企業ADVASA Holdingsが8月25日、ダイレクトリスティングでNasdaq Global Marketに上場。ティッカーはADBT。SBI証券・楽天証券など国内5社からも取引が可能になる。"
   },
   {
-   "title": "S.BLOX、NIGHT取扱い開始　「国内初」と発表、ADAも追加",
-   "link": "https://coinpost.jp/?p=732773",
-   "published": "08/24 15:32",
-   "ts": 1787553179.0,
+   "title": "ビットバンク、ETHステーキングサービスの提供を開始",
+   "link": "https://coinpost.jp/?p=733149",
+   "published": "08/25 17:50",
+   "ts": 1787647859.0,
    "source": "CoinPost",
-   "desc": "S.BLOXが2026年8月24日、カルダノ（Cardano）創設者Hoskinson氏が手がけるMidnightのネイティブトークンNIGHTの取扱いを開始したと発表。「国内初」としている。ADAも同時に追加し、両銘柄で記念キャンペーンを実施する。"
+   "desc": "ビットバンクが ETH ステーキングサービスを開始。顧客利回り年率 1.78%、ロック期間なしで毎週報酬を受け取れる。受取設定をONにするだけで開始可能。"
   },
   {
-   "title": "SBIホールディングス、ステーブルコイン企業Fassetへ追加出資　企業価値10億ドルに",
-   "link": "https://coinpost.jp/?p=732763",
-   "published": "08/24 14:54",
-   "ts": 1787550898.0,
+   "title": "イーサリアム開発者、量子コンピューター対策の新方式を提案",
+   "link": "https://coinpost.jp/?p=733161",
+   "published": "08/25 17:49",
+   "ts": 1787647777.0,
    "source": "CoinPost",
-   "desc": "SBIホールディングスがステーブルコイン企業Fasset社へ追加出資を決定。株式取得価額を基礎にした企業価値は10億米ドルとなった。シリーズC完了後の持分法適用化やマレーシアでの協業計画も明らかにした。"
+   "desc": "イーサリアムの開発者らが、将来の量子コンピューターによる攻撃に備えた新しい仕組みをGitHubへ提出した。BLS方式の署名を段階的に廃止する一方通行の切替スイッチを備え、量子時代への布石として位置づけられる。"
   },
   {
-   "title": "ウォレットのファントム、スイのサポートを9月24日終了へ",
-   "link": "https://coinpost.jp/?p=732755",
-   "published": "08/24 14:10",
-   "ts": 1787548242.0,
+   "title": "米ブロックチェーン協会、ステーブルコイン発行体のKYCルールに修正要請",
+   "link": "https://coinpost.jp/?p=733106",
+   "published": "08/25 15:52",
+   "ts": 1787640767.0,
    "source": "CoinPost",
-   "desc": "ウォレットのファントムは9月24日、スイ（Sui）のサポートを終了する。対応終了までに資産をソラナ上のラップドスイへ無料スワップするか、推奨ウォレットSlushへシークレットリカバリーフレーズを移すことで引き続き利用できるという。"
+   "desc": "米ブロックチェーン協会が8月21日、ジーニアス法（GENIUS Act）に基づくステーブルコイン発行体のKYC（本人確認）規則案について米5当局へ意見書を提出。一次市場限定の方針は支持しつつ、口座定義の明確化など複数の修正を求めた。"
   }
  ],
  "news_jp": [
   {
-   "title": "損保ジャパン 車保険料5%値上げへ",
-   "link": "https://news.yahoo.co.jp/pickup/6592942?source=rss",
-   "published": "08/24 22:33",
-   "ts": 1787578403.0,
+   "title": "消費減税で減収農家に給付金 方針",
+   "link": "https://news.yahoo.co.jp/pickup/6593076?source=rss",
+   "published": "08/25 23:20",
+   "ts": 1787667657.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "プルデンシャル 自粛中に不祥事か",
-   "link": "https://news.yahoo.co.jp/pickup/6592910?source=rss",
-   "published": "08/24 19:18",
-   "ts": 1787566685.0,
+   "title": "即席麺の待ち時間 なぜ3分が多い",
+   "link": "https://news.yahoo.co.jp/pickup/6593074?source=rss",
+   "published": "08/25 22:51",
+   "ts": 1787665876.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "ファミマがレジ端末の刷新検討",
-   "link": "https://news.yahoo.co.jp/pickup/6592899?source=rss",
-   "published": "08/24 18:05",
-   "ts": 1787562300.0,
+   "title": "「がんこ」創業 小嶋淳司さん死去",
+   "link": "https://news.yahoo.co.jp/pickup/6593057?source=rss",
+   "published": "08/25 20:30",
+   "ts": 1787657425.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "ドローン報道 BERGが楽天店撤退",
-   "link": "https://news.yahoo.co.jp/pickup/6592893?source=rss",
-   "published": "08/24 17:10",
-   "ts": 1787559046.0,
+   "title": "コメ価格暴落 備蓄米放出が要因か",
+   "link": "https://news.yahoo.co.jp/pickup/6593046?source=rss",
+   "published": "08/25 18:26",
+   "ts": 1787650009.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "モコモコ 永谷園が一時休売を発表",
-   "link": "https://news.yahoo.co.jp/pickup/6592889?source=rss",
-   "published": "08/24 17:05",
-   "ts": 1787558743.0,
+   "title": "モス スーパーなどで冷食販売へ",
+   "link": "https://news.yahoo.co.jp/pickup/6593030?source=rss",
+   "published": "08/25 17:33",
+   "ts": 1787646822.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "居眠り運転など検知 搭載義務化へ",
-   "link": "https://news.yahoo.co.jp/pickup/6592884?source=rss",
-   "published": "08/24 16:04",
-   "ts": 1787555065.0,
+   "title": "宅配業者に暴言 カスハラ被害深刻",
+   "link": "https://news.yahoo.co.jp/pickup/6593033?source=rss",
+   "published": "08/25 17:18",
+   "ts": 1787645892.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "サンマ高騰の背景 今後のポイント",
-   "link": "https://news.yahoo.co.jp/pickup/6592866?source=rss",
-   "published": "08/24 12:42",
-   "ts": 1787542934.0,
+   "title": "ハビタ 当初の報告巡り遺族に謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6593000?source=rss",
+   "published": "08/25 13:04",
+   "ts": 1787630641.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "スズキ初の軽乗用EV eスカイ公開",
-   "link": "https://news.yahoo.co.jp/pickup/6592868?source=rss",
-   "published": "08/24 12:33",
-   "ts": 1787542417.0,
+   "title": "電車でのハンディファン使用 賛否",
+   "link": "https://news.yahoo.co.jp/pickup/6592963?source=rss",
+   "published": "08/25 08:21",
+   "ts": 1787613715.0,
    "source": "Yahoo!",
    "desc": ""
   }
  ],
  "jgb": {
-  "date": "R8.8.21",
-  "y10": 2.882,
-  "chg5d": 0.0040000000000000036,
+  "date": "R8.8.24",
+  "y10": 2.887,
+  "chg5d": -0.03200000000000003,
   "rank_1y": 0.988,
   "curve": {
-   "1": 1.438,
-   "2": 1.682,
-   "5": 2.146,
-   "10": 2.882,
-   "20": 3.76,
-   "30": 4.042,
-   "40": 4.069
+   "1": 1.437,
+   "2": 1.685,
+   "5": 2.155,
+   "10": 2.887,
+   "20": 3.748,
+   "30": 4.036,
+   "40": 4.067
   },
-  "spread_10_2": 1.2000000000000002
+  "spread_10_2": 1.202
  }
 }
