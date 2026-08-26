@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-26 11:02:28",
+ "updated_at": "2026-08-26 13:07:38",
  "fng": {
   "value": 65,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.240508959044824,
-  "eth_dominance": 11.097492229572913,
-  "total_mcap_usd": 2664827554844.298,
-  "mcap_change_24h": -3.929115322673465
+  "btc_dominance": 59.287865606638626,
+  "eth_dominance": 11.112705619525675,
+  "total_mcap_usd": 2668895687410.9272,
+  "mcap_change_24h": -4.23451471929556
  },
  "defi": {
-  "tvl_usd": 87148542977.0,
-  "change_1d": -0.0010782094244476959,
-  "change_7d": 0.14331482184594724,
-  "change_1y": -0.41750464103941776,
-  "range_pos_1y": 0.178400473544977
+  "tvl_usd": 87770578741.0,
+  "change_1d": 0.0009960068811036837,
+  "change_7d": 0.15148082331492385,
+  "change_1y": -0.41334699326631474,
+  "range_pos_1y": 0.1844911668781097
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "低価格から変化 ベローチェの戦略",
+   "link": "https://news.yahoo.co.jp/pickup/6593126?source=rss",
+   "published": "08/26 13:05",
+   "ts": 1787717159.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ホンダ 米国で新工場建設を検討",
+   "link": "https://news.yahoo.co.jp/pickup/6593124?source=rss",
+   "published": "08/26 12:16",
+   "ts": 1787714205.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「ゴーストレストラン」増加の訳",
    "link": "https://news.yahoo.co.jp/pickup/6593104?source=rss",
    "published": "08/26 10:26",
@@ -129,22 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6593096?source=rss",
    "published": "08/26 09:05",
    "ts": 1787702742.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "モスも冷凍食品参入 各社強化の訳",
-   "link": "https://news.yahoo.co.jp/pickup/6593092?source=rss",
-   "published": "08/26 08:17",
-   "ts": 1787699822.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "消費減税で減収農家に給付金 方針",
-   "link": "https://news.yahoo.co.jp/pickup/6593076?source=rss",
-   "published": "08/25 23:20",
-   "ts": 1787667657.0,
    "source": "Yahoo!",
    "desc": ""
   },
