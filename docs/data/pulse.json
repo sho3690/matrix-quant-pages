@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-26 19:01:34",
+ "updated_at": "2026-08-26 22:28:11",
  "fng": {
   "value": 65,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.22902892430729,
-  "eth_dominance": 11.115414564845514,
-  "total_mcap_usd": 2654197522434.49,
-  "mcap_change_24h": -3.486979698981814
+  "btc_dominance": 59.204194164806935,
+  "eth_dominance": 11.138534634121617,
+  "total_mcap_usd": 2641799137292.811,
+  "mcap_change_24h": -3.7427161572393253
  },
  "defi": {
-  "tvl_usd": 87867255422.0,
-  "change_1d": 0.0020418682601710536,
-  "change_7d": 0.15274914518120353,
-  "change_1y": -0.4127008124343865,
-  "range_pos_1y": 0.18543778128601715
+  "tvl_usd": 87666288392.0,
+  "change_1d": -0.0002499235138397893,
+  "change_7d": 0.15011261612462268,
+  "change_1y": -0.4140440633744509,
+  "range_pos_1y": 0.1834700028709476
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "浜岡原発巡り不適切手続きか",
+   "link": "https://news.yahoo.co.jp/pickup/6593184?source=rss",
+   "published": "08/26 21:25",
+   "ts": 1787747105.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "備蓄米買い戻しへ 農水省最終調整",
+   "link": "https://news.yahoo.co.jp/pickup/6593175?source=rss",
+   "published": "08/26 19:46",
+   "ts": 1787741203.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "テレワーク導入企業の助成 終了へ",
    "link": "https://news.yahoo.co.jp/pickup/6593166?source=rss",
    "published": "08/26 18:32",
@@ -149,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "ホンダ 米国で新工場建設を検討",
-   "link": "https://news.yahoo.co.jp/pickup/6593124?source=rss",
-   "published": "08/26 12:16",
-   "ts": 1787714205.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "「ゴーストレストラン」増加の訳",
    "link": "https://news.yahoo.co.jp/pickup/6593104?source=rss",
    "published": "08/26 10:26",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6593096?source=rss",
    "published": "08/26 09:05",
    "ts": 1787702742.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「がんこ」創業 小嶋淳司さん死去",
-   "link": "https://news.yahoo.co.jp/pickup/6593057?source=rss",
-   "published": "08/25 20:30",
-   "ts": 1787657425.0,
    "source": "Yahoo!",
    "desc": ""
   }
