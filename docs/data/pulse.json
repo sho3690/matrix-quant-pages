@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-28 14:29:11",
+ "updated_at": "2026-08-29 03:50:15",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.25624574188095,
-  "eth_dominance": 11.11676759063801,
-  "total_mcap_usd": 2691513231725.038,
-  "mcap_change_24h": -1.689030408468821
+  "btc_dominance": 59.02914795605905,
+  "eth_dominance": 11.109159104945364,
+  "total_mcap_usd": 2622883462205.2183,
+  "mcap_change_24h": -5.952885265048271
  },
  "defi": {
-  "tvl_usd": 88598448560.0,
-  "change_1d": 0.0017325674256762902,
-  "change_7d": 0.04907891082911808,
-  "change_1y": -0.4233096720575874,
-  "range_pos_1y": 0.19259729433938882
+  "tvl_usd": 87660725595.0,
+  "change_1d": -0.010384668913466677,
+  "change_7d": 0.03800043386034169,
+  "change_1y": -0.4294133428666621,
+  "range_pos_1y": 0.18344336782213305
  },
  "news_crypto": [
+  {
+   "title": "米加州、公職者ミームコイン発行禁止法案が上下院通過",
+   "link": "https://coinpost.jp/?p=734099",
+   "published": "08/28 17:39",
+   "ts": 1787906380.0,
+   "source": "CoinPost",
+   "desc": "米カリフォルニア州のミームコイン規制法案AB2409が州議会上下院を通過した。公職者による発行を禁止し、2027年以降発行分の仮想通貨ミームコインは州民向け販売も制限対象となる。知事の署名を待つ段階にある。"
+  },
+  {
+   "title": "ビットコイン、1週間で23.5％高　金額ベースで史上最大＝ギャラクシー・リサーチ",
+   "link": "https://coinpost.jp/?p=734066",
+   "published": "08/28 16:28",
+   "ts": 1787902129.0,
+   "source": "CoinPost",
+   "desc": "ビットコインが8月17日から23日の週に前週比14,775ドル（23.5％）上昇し、金額ベースで史上最大の週間上昇を記録した。米財務省の長期債買い戻し拡大とクラリティー法案支持を背景に、大規模なショートスクイーズが発生した。"
+  },
+  {
+   "title": "ビッサム、誤配布ビットコイン返還訴訟で1審勝訴",
+   "link": "https://coinpost.jp/?p=734041",
+   "published": "08/28 15:13",
+   "ts": 1787897588.0,
+   "source": "CoinPost",
+   "desc": "ビッサムが、2月の62万BTC誤配布事件を巡る不当利得返還訴訟のうち、請求額約1億9,400万ウォン（約2,328万円）の1件で1審勝訴した。ソウル中央地方法院が8月27日に判決を下し、残る3件の訴訟でも回収確率が高まる見通しとなった。"
+  },
   {
    "title": "イーサリアム、アカウント抽象化をHegotáで実装確定",
    "link": "https://coinpost.jp/?p=734022",
@@ -89,94 +113,70 @@
    "ts": 1787886955.0,
    "source": "CoinPost",
    "desc": "グレースケールCEOのピーター・マインツバーグ氏が米フォーチュン誌に寄稿。ビットコイン急騰は本質ではなく、機関投資家の資金流入拡大とフォーチュン500企業のブロックチェーン活用こそが仮想通貨業界の実態だと指摘した。"
-  },
-  {
-   "title": "英財務省、イングランド銀行にステーブルコイン等の決済革新責務付与へ",
-   "link": "https://coinpost.jp/?p=733912",
-   "published": "08/28 11:45",
-   "ts": 1787885113.0,
-   "source": "CoinPost",
-   "desc": "英財務省は27日、イングランド銀行に決済システムやステーブルコインなど新興のデジタルマネー分野の技術革新を支援する新たな副次的責務を与えると発表した。金融安定という主目的は維持されつつ、投資家は英国の規制動向を注視する必要がある。"
-  },
-  {
-   "title": "ビットコイン、9月の季節性下落を警戒＝アナリスト",
-   "link": "https://coinpost.jp/?p=733935",
-   "published": "08/28 10:50",
-   "ts": 1787881834.0,
-   "source": "CoinPost",
-   "desc": "XWIN Japanが9月の季節性下落傾向を分析。米国株は過去50年平均マイナス0.8％と最弱の月で、BTCも2017年から6年連続下落。だが2023年以降は3年連続プラスに転じ、2026年は米中間選挙とETF資金動向が焦点となる。"
-  },
-  {
-   "title": "2025年1月からの仮想通貨ハッキング被害総額5800億円規模に＝コインゲッコー報告",
-   "link": "https://coinpost.jp/?p=733866",
-   "published": "08/28 10:25",
-   "ts": 1787880300.0,
-   "source": "CoinPost",
-   "desc": "コインゲッコーの最新報告によると、仮想通貨市場では2025年1月〜2026年7月の19か月間で245件のハッキング被害が発生。被害総額は約5,800億円に達したことが分かった。"
   }
  ],
  "news_jp": [
   {
-   "title": "ダイヤモンド紙版終了へ 戦略は",
-   "link": "https://news.yahoo.co.jp/pickup/6593384?source=rss",
-   "published": "08/28 13:44",
-   "ts": 1787892277.0,
+   "title": "FRBによる9月利​上げ観測高まる",
+   "link": "https://news.yahoo.co.jp/pickup/6593460?source=rss",
+   "published": "08/29 00:05",
+   "ts": 1787929519.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "USJ 大規模に拡張する方向で調整",
-   "link": "https://news.yahoo.co.jp/pickup/6593393?source=rss",
-   "published": "08/28 13:30",
-   "ts": 1787891436.0,
+   "title": "ガンホーとSME 資本業務提携",
+   "link": "https://news.yahoo.co.jp/pickup/6593456?source=rss",
+   "published": "08/28 22:50",
+   "ts": 1787925040.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "寝台特急シャワー券転売 異例警告",
-   "link": "https://news.yahoo.co.jp/pickup/6593369?source=rss",
-   "published": "08/28 10:16",
-   "ts": 1787879760.0,
+   "title": "1カ月の為替介入15兆円超 財務省",
+   "link": "https://news.yahoo.co.jp/pickup/6593438?source=rss",
+   "published": "08/28 20:42",
+   "ts": 1787917335.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "なぜ「定年廃止」 変わる人事制度",
-   "link": "https://news.yahoo.co.jp/pickup/6593356?source=rss",
-   "published": "08/28 08:37",
-   "ts": 1787873839.0,
+   "title": "9月の電気ガス 全地域で値上がり",
+   "link": "https://news.yahoo.co.jp/pickup/6593433?source=rss",
+   "published": "08/28 19:35",
+   "ts": 1787913355.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "イオン145品目値下げへ 期間限定",
-   "link": "https://news.yahoo.co.jp/pickup/6593319?source=rss",
-   "published": "08/27 19:27",
-   "ts": 1787826465.0,
+   "title": "大阪知事 USJ拡張意向聞いていた",
+   "link": "https://news.yahoo.co.jp/pickup/6593431?source=rss",
+   "published": "08/28 18:59",
+   "ts": 1787911140.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "コメ価格左右「概算金」なぜ必要",
-   "link": "https://news.yahoo.co.jp/pickup/6593317?source=rss",
-   "published": "08/27 19:09",
-   "ts": 1787825379.0,
+   "title": "社員逮捕 竹中工務店の副社長謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6593423?source=rss",
+   "published": "08/28 18:09",
+   "ts": 1787908156.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "バレるの怖い 発達障害伏せて就労",
-   "link": "https://news.yahoo.co.jp/pickup/6593303?source=rss",
-   "published": "08/27 17:55",
-   "ts": 1787820907.0,
+   "title": "交通費で200万円 実家じまいの今",
+   "link": "https://news.yahoo.co.jp/pickup/6593403?source=rss",
+   "published": "08/28 16:47",
+   "ts": 1787903251.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "政府が九州応援割実施へ 熊本地震",
-   "link": "https://news.yahoo.co.jp/pickup/6593288?source=rss",
-   "published": "08/27 16:36",
-   "ts": 1787816163.0,
+   "title": "「NISA貧乏」極限の投資生活 実態",
+   "link": "https://news.yahoo.co.jp/pickup/6593404?source=rss",
+   "published": "08/28 16:22",
+   "ts": 1787901775.0,
    "source": "Yahoo!",
    "desc": ""
   }
