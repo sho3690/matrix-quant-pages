@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-30 14:32:43",
+ "updated_at": "2026-08-30 21:01:40",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.482603934895316,
-  "eth_dominance": 11.23648079416461,
-  "total_mcap_usd": 2631736773950.401,
-  "mcap_change_24h": -2.8122441220969336
+  "btc_dominance": 59.472522716799105,
+  "eth_dominance": 11.24922823619335,
+  "total_mcap_usd": 2632653747893.8486,
+  "mcap_change_24h": -2.6457666251461407
  },
  "defi": {
-  "tvl_usd": 87892119436.0,
-  "change_1d": 0.002866032069003488,
-  "change_7d": 0.00953232991451336,
-  "change_1y": -0.417314807080281,
-  "range_pos_1y": 0.18570891615188725
+  "tvl_usd": 87765918711.0,
+  "change_1d": 0.0009472485251500462,
+  "change_7d": 0.008078644122853751,
+  "change_1y": -0.41815146108595413,
+  "range_pos_1y": 0.18447325763601752
  },
  "news_crypto": [
   {
@@ -117,10 +117,50 @@
  ],
  "news_jp": [
   {
-   "title": "緑色の丸 長崎にある「謎の標識」",
-   "link": "https://news.yahoo.co.jp/pickup/6593534?source=rss",
-   "published": "08/29 18:07",
-   "ts": 1787994423.0,
+   "title": "ソニー生命に立ち入り検査へ",
+   "link": "https://news.yahoo.co.jp/pickup/6593651?source=rss",
+   "published": "08/30 18:28",
+   "ts": 1788082080.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "各地に存在「廃墟モール」の盛衰",
+   "link": "https://news.yahoo.co.jp/pickup/6593646?source=rss",
+   "published": "08/30 17:49",
+   "ts": 1788079795.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "仕事向けのハーフパンツ 各社が力",
+   "link": "https://news.yahoo.co.jp/pickup/6593645?source=rss",
+   "published": "08/30 17:49",
+   "ts": 1788079795.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「ヤミ民泊一掃」Airbnbの勝算",
+   "link": "https://news.yahoo.co.jp/pickup/6593637?source=rss",
+   "published": "08/30 17:09",
+   "ts": 1788077351.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "小売り事業の税優遇要望へ 経産省",
+   "link": "https://news.yahoo.co.jp/pickup/6593631?source=rss",
+   "published": "08/30 16:23",
+   "ts": 1788074596.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "外国人が駆け込むクリニック 密着",
+   "link": "https://news.yahoo.co.jp/pickup/6593628?source=rss",
+   "published": "08/30 16:05",
+   "ts": 1788073544.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6593489?source=rss",
    "published": "08/29 12:01",
    "ts": 1787972485.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "17年で社長が7人 百貨店消滅の街",
-   "link": "https://news.yahoo.co.jp/pickup/6593483?source=rss",
-   "published": "08/29 10:47",
-   "ts": 1787968057.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "FRBによる9月利​上げ観測高まる",
-   "link": "https://news.yahoo.co.jp/pickup/6593460?source=rss",
-   "published": "08/29 00:05",
-   "ts": 1787929519.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "9月の電気ガス 全地域で値上がり",
-   "link": "https://news.yahoo.co.jp/pickup/6593433?source=rss",
-   "published": "08/28 19:35",
-   "ts": 1787913355.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大阪知事 USJ拡張意向聞いていた",
-   "link": "https://news.yahoo.co.jp/pickup/6593431?source=rss",
-   "published": "08/28 18:59",
-   "ts": 1787911140.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "社員逮捕 竹中工務店の副社長謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6593423?source=rss",
-   "published": "08/28 18:09",
-   "ts": 1787908156.0,
    "source": "Yahoo!",
    "desc": ""
   }
