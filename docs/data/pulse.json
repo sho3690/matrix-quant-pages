@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-31 14:46:43",
+ "updated_at": "2026-08-31 23:05:41",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.63363823208624,
-  "eth_dominance": 11.189731353140756,
-  "total_mcap_usd": 2615634235094.9946,
-  "mcap_change_24h": -3.0425791143179617
+  "btc_dominance": 59.137955285170584,
+  "eth_dominance": 11.138020000484204,
+  "total_mcap_usd": 2633355947651.509,
+  "mcap_change_24h": -3.214255230535307
  },
  "defi": {
-  "tvl_usd": 86991503885.0,
-  "change_1d": -0.01148183834523786,
-  "change_7d": -0.004140477470213955,
-  "change_1y": -0.4243242788348651,
-  "range_pos_1y": 0.17689079505854283
+  "tvl_usd": 87494237701.0,
+  "change_1d": -0.005777011500031737,
+  "change_7d": 0.0016147082157720316,
+  "change_1y": -0.42099738322834146,
+  "range_pos_1y": 0.18181317027434357
  },
  "news_crypto": [
+  {
+   "title": "ストラテジー、2カ月ぶりビットコイン購入再開　590億円相当",
+   "link": "https://coinpost.jp/?p=734476",
+   "published": "08/31 21:20",
+   "ts": 1788178845.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨ビットコインDAT大手ストラテジーが4603BTCを平均8万ドルで購入し、前回から約2カ月ぶりの買い増しとなった。保有量は845050BTCに達し、優先株STRCの買戻しも実施した。"
+  },
+  {
+   "title": "金融庁、信託型ステーブルコインの調書提出免除を要望　2027年度税制改正",
+   "link": "https://coinpost.jp/?p=734402",
+   "published": "08/31 15:19",
+   "ts": 1788157171.0,
+   "source": "CoinPost",
+   "desc": "金融庁は8月31日、令和9（2027）年度税制改正要望を公表した。信託型ステーブルコインの受益者変更時に必要な税務書類の提出免除を求めており、転々流通する決済手段のため受託者が保有者の変更を把握できない点を課題としている。"
+  },
+  {
+   "title": "金融庁27年度予算134億円増を要求、暗号資産監視で新室設置へ",
+   "link": "https://coinpost.jp/?p=734395",
+   "published": "08/31 14:50",
+   "ts": 1788155438.0,
+   "source": "CoinPost",
+   "desc": "金融庁が2027年度（令和9年度）予算・機構定員要求を公表した。総額403億円（前年度比134億円増）を要求し、暗号資産取引業者のモニタリング体制強化やフロンティアAIのリスク対応を担う新室の設置、定員14人の純増を求めた。"
+  },
   {
    "title": "BIS総支配人、ステーブルコインは大規模決済に不適格と指摘",
    "link": "https://coinpost.jp/?p=734357",
@@ -89,33 +113,57 @@
    "ts": 1788140946.0,
    "source": "CoinPost",
    "desc": "IMF専務理事クリスタリナ・ゲオルギエバ（Kristalina Georgieva）氏が8月28日、米ジャクソンホール経済政策シンポジウムで講演。ステーブルコインの国際協調規制の必要性を訴えるとともに、新興国の外貨準備強化や発行国の財政規律も不可欠と指摘した。"
-  },
-  {
-   "title": "米地域銀行協会CEO、クラリティー法案でステーブルコイン利回りに「妥協なし」",
-   "link": "https://coinpost.jp/?p=734242",
-   "published": "08/31 10:01",
-   "ts": 1788138068.0,
-   "source": "CoinPost",
-   "desc": "ICBAのCEOが、クラリティー法案の論点としてステーブルコインへの利回り付与の問題があると指摘。銀行の預金流出リスクが存在しており採決の障壁になると述べた。"
-  },
-  {
-   "title": "Tectonicで7500万ドル流出と推計、Cronosが緊急停止",
-   "link": "https://coinpost.jp/?p=734235",
-   "published": "08/31 09:10",
-   "ts": 1788135002.0,
-   "source": "CoinPost",
-   "desc": "CronosがレンディングプロトコルTectonicの不正流出を受けてチェーンを停止。研究者はTONICトークンの価格操作による被害を約7500万ドルと推定するが確定額・原因は未確認。Crypto.comは自社アプリへの影響を否定した。"
-  },
-  {
-   "title": "バイビット、スペースXとエヌビディアの無期限先物オプション開始へ",
-   "link": "https://coinpost.jp/?p=734232",
-   "published": "08/31 08:23",
-   "ts": 1788132213.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨デリバティブ取引所バイビットが、株式の無期限先物を原資産とするオプション取引「Perp Options」を導入。フェーズ1はSPCXとNVDAが対象で、9月17日午後8時（UTC）に開始する。USDT建て決済で24時間取引でき、対象銘柄は今後拡大予定だ。"
   }
  ],
  "news_jp": [
+  {
+   "title": "障害者雇用で広がる「代行」実態",
+   "link": "https://news.yahoo.co.jp/pickup/6593784?source=rss",
+   "published": "08/31 22:30",
+   "ts": 1788183003.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "広告で60年前の自社製品探す 発見",
+   "link": "https://news.yahoo.co.jp/pickup/6593782?source=rss",
+   "published": "08/31 22:10",
+   "ts": 1788181823.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "住宅ローン変動金利 2行引き上げ",
+   "link": "https://news.yahoo.co.jp/pickup/6593780?source=rss",
+   "published": "08/31 21:54",
+   "ts": 1788180847.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "法定速度30kmへ「生活道路」とは",
+   "link": "https://news.yahoo.co.jp/pickup/6593770?source=rss",
+   "published": "08/31 19:13",
+   "ts": 1788171237.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "スタバだらけの街 なぜ増え続ける",
+   "link": "https://news.yahoo.co.jp/pickup/6593763?source=rss",
+   "published": "08/31 19:03",
+   "ts": 1788170599.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ホンダ&日産 次世代車OS共同開発",
+   "link": "https://news.yahoo.co.jp/pickup/6593765?source=rss",
+   "published": "08/31 18:20",
+   "ts": 1788168026.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ハウス食品 ココイチ売却検討背景",
    "link": "https://news.yahoo.co.jp/pickup/6593724?source=rss",
@@ -125,58 +173,10 @@
    "desc": ""
   },
   {
-   "title": "米軍が攻撃 原油先物が2%超上昇",
-   "link": "https://news.yahoo.co.jp/pickup/6593732?source=rss",
-   "published": "08/31 12:21",
-   "ts": 1788146474.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ハウス食品G 壱番屋の売却検討",
    "link": "https://news.yahoo.co.jp/pickup/6593727?source=rss",
    "published": "08/31 11:50",
    "ts": 1788144630.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "飲食料品の値上げ 9月は4923品目",
-   "link": "https://news.yahoo.co.jp/pickup/6593723?source=rss",
-   "published": "08/31 11:35",
-   "ts": 1788143707.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日経平均 一時1500円超値下がり",
-   "link": "https://news.yahoo.co.jp/pickup/6593712?source=rss",
-   "published": "08/31 09:57",
-   "ts": 1788137822.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀‌総裁の判断期待 米財務長官",
-   "link": "https://news.yahoo.co.jp/pickup/6593708?source=rss",
-   "published": "08/31 09:03",
-   "ts": 1788134618.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "なぜ 吉祥寺駅周辺にスタバ9店舗",
-   "link": "https://news.yahoo.co.jp/pickup/6593702?source=rss",
-   "published": "08/31 08:33",
-   "ts": 1788132817.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「ヤミ民泊一掃」Airbnbの勝算",
-   "link": "https://news.yahoo.co.jp/pickup/6593637?source=rss",
-   "published": "08/30 17:09",
-   "ts": 1788077351.0,
    "source": "Yahoo!",
    "desc": ""
   }
