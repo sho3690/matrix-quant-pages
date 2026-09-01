@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-01 23:12:16",
+ "updated_at": "2026-09-02 08:22:48",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,85 +37,36 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.13751005346795,
-  "eth_dominance": 11.127487277825706,
-  "total_mcap_usd": 2652258250066.419,
-  "mcap_change_24h": -2.18007861917509
+  "btc_dominance": 59.11153090228962,
+  "eth_dominance": 11.095823208236135,
+  "total_mcap_usd": 2615834568275.7676,
+  "mcap_change_24h": -4.138160775372515
  },
  "defi": {
-  "tvl_usd": 87253544760.0,
-  "change_1d": 0.003938784153779684,
-  "change_7d": -0.0060359218949367355,
-  "change_1y": -0.4210627603588516,
-  "range_pos_1y": 0.17945649377936795
+  "tvl_usd": 85304568150.0,
+  "change_1d": -3.7302402039030014e-05,
+  "change_7d": -0.009515816557499002,
+  "change_1y": -0.43399444286896816,
+  "range_pos_1y": 0.1690394866803242
  },
- "news_crypto": [
-  {
-   "title": "金融庁、仮想通貨関連サービス「IZAKA-YA」運営会社に警告書　無登録で交換業",
-   "link": "https://coinpost.jp/?p=734772",
-   "published": "09/01 18:55",
-   "ts": 1788256508.0,
-   "source": "CoinPost",
-   "desc": "金融庁は9月1日、香港法人Izakaya Limitedに対し、無登録で暗号資産交換業を行う者として警告書を発出した。同社は仮想通貨のレンディングとスワップを扱う「IZAKA-YA」を運営。8月には送金と出金の一部を停止していた。"
-  },
-  {
-   "title": "トム・リー氏、ビットコイン「15万ドル」視野に　機関マネー流入を指摘",
-   "link": "https://coinpost.jp/?p=734756",
-   "published": "09/01 18:09",
-   "ts": 1788253783.0,
-   "source": "CoinPost",
-   "desc": "ファンドストラット共同創設者のトム・リー氏がCNBCで、ビットコインが意識する水準として15万ドルを指摘。仮想通貨相場の上昇はまだ「第一波」とし、機関投資家の買いが続くと分析。9月15日のFOMCが焦点になるとの見方を示した。"
-  },
-  {
-   "title": "アルパカ、カルシと提携　株式・仮想通貨などの基盤に予測市場追加へ",
-   "link": "https://coinpost.jp/?p=734719",
-   "published": "09/01 17:31",
-   "ts": 1788251482.0,
-   "source": "CoinPost",
-   "desc": "米フィンテック企業アルパカが予測市場のカルシと提携。株式・仮想通貨を扱う同社のブローカレッジ基盤にCFTC規制下のイベント契約を統合する。カルシの取引高は7月に400億ドル超と急拡大しており、両社は世界的な需要を追い風に事業を広げる。"
-  },
-  {
-   "title": "NOT A HOTEL、ポケモンスリープとコラボ発表",
-   "link": "https://coinpost.jp/?p=734689",
-   "published": "09/01 16:28",
-   "ts": 1788247723.0,
-   "source": "CoinPost",
-   "desc": "ポケモン公式が「Pokémon Sleep」とNOT A HOTELのコラボを発表。モンスターボールを模した宿泊可能な空間を用意し、詳細は2026年9月15日に公開予定。同社はNFTで宿泊権を提供するWeb3事業でも知られる。"
-  },
-  {
-   "title": "コインチェックG、仏DFNSと提携　機関投資家向けカストディ検討",
-   "link": "https://coinpost.jp/?p=734656",
-   "published": "09/01 15:20",
-   "ts": 1788243642.0,
-   "source": "CoinPost",
-   "desc": "コインチェックの親会社Coincheck Group N.V.が仏DFNSと戦略的パートナーシップを締結。国内金融機関向けに機関投資家水準のデジタル資産カストディ基盤の構築を目指す。KDDIとの資本提携に続く機関投資家事業拡大の一手を読む。"
-  },
-  {
-   "title": "ハイパーリキッド、クラーケン親会社ペイワードと米国進出を協議＝報道",
-   "link": "https://coinpost.jp/?p=734612",
-   "published": "09/01 14:22",
-   "ts": 1788240138.0,
-   "source": "CoinPost",
-   "desc": "分散型デリバティブ取引所ハイパーリキッドが、クラーケン親会社ペイワード傘下のCFTC登録取引所ビットノミアルを通じ、米国ユーザー向けに無期限先物を提供する計画を協議中だと報じられた。トランプ政権の仮想通貨政策も追い風になっている。"
-  },
-  {
-   "title": "NYSE親会社ICE、tZEROとトークン化証券の公開市場開発で提携",
-   "link": "https://coinpost.jp/?p=734587",
-   "published": "09/01 14:00",
-   "ts": 1788238821.0,
-   "source": "CoinPost",
-   "desc": "NYSE親会社のインターコンチネンタル取引所とブロックチェーン企業tZEROがトークン化証券インフラでの提携を発表。ICEはtZEROへの出資と特許ライセンス取得に合意した。"
-  },
-  {
-   "title": "ロビンフッドチェーン、DEX出来高1日で最高約1400億円に",
-   "link": "https://coinpost.jp/?p=734613",
-   "published": "09/01 12:47",
-   "ts": 1788234451.0,
-   "source": "CoinPost",
-   "desc": "ロビンフッドチェーンのDEX出来高が8月30日、1日で8億7,500万ドル（1ドル＝160円換算で約1,400億円）の過去最高を記録した。ユニスワップv4が4億3,200万ドル（約691億円）、v3が3億5,700万ドル（約571億円）を牽引し、取引件数も552万件で過去最高を更"
-  }
- ],
+ "news_crypto": [],
  "news_jp": [
+  {
+   "title": "SBエナジー 米国でIPOを申請",
+   "link": "https://news.yahoo.co.jp/pickup/6593931?source=rss",
+   "published": "09/02 07:46",
+   "ts": 1788302816.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "フラット35 9月の適用金利3.46%",
+   "link": "https://news.yahoo.co.jp/pickup/6593916?source=rss",
+   "published": "09/01 23:33",
+   "ts": 1788273237.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "レクサス 新型「NX」世界初公開",
    "link": "https://news.yahoo.co.jp/pickup/6593911?source=rss",
@@ -161,22 +112,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6593850?source=rss",
    "published": "09/01 15:07",
    "ts": 1788242862.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長期金利一時3% 30年ぶり高水準",
-   "link": "https://news.yahoo.co.jp/pickup/6593841?source=rss",
-   "published": "09/01 12:42",
-   "ts": 1788234162.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "備蓄米21万t 今月買い戻し実施へ",
-   "link": "https://news.yahoo.co.jp/pickup/6593829?source=rss",
-   "published": "09/01 11:12",
-   "ts": 1788228758.0,
    "source": "Yahoo!",
    "desc": ""
   }
