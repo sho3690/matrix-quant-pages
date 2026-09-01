@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-01 17:46:05",
+ "updated_at": "2026-09-01 23:12:16",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.11347871859235,
-  "eth_dominance": 11.169486624482435,
-  "total_mcap_usd": 2637517006478.201,
-  "mcap_change_24h": -1.9872269747459388
+  "btc_dominance": 59.13751005346795,
+  "eth_dominance": 11.127487277825706,
+  "total_mcap_usd": 2652258250066.419,
+  "mcap_change_24h": -2.18007861917509
  },
  "defi": {
-  "tvl_usd": 87962675353.0,
-  "change_1d": 0.012097715550369648,
-  "change_7d": 0.002042263788706311,
-  "change_1y": -0.4163575978444145,
-  "range_pos_1y": 0.1863997443518524
+  "tvl_usd": 87253544760.0,
+  "change_1d": 0.003938784153779684,
+  "change_7d": -0.0060359218949367355,
+  "change_1y": -0.4210627603588516,
+  "range_pos_1y": 0.17945649377936795
  },
  "news_crypto": [
+  {
+   "title": "金融庁、仮想通貨関連サービス「IZAKA-YA」運営会社に警告書　無登録で交換業",
+   "link": "https://coinpost.jp/?p=734772",
+   "published": "09/01 18:55",
+   "ts": 1788256508.0,
+   "source": "CoinPost",
+   "desc": "金融庁は9月1日、香港法人Izakaya Limitedに対し、無登録で暗号資産交換業を行う者として警告書を発出した。同社は仮想通貨のレンディングとスワップを扱う「IZAKA-YA」を運営。8月には送金と出金の一部を停止していた。"
+  },
+  {
+   "title": "トム・リー氏、ビットコイン「15万ドル」視野に　機関マネー流入を指摘",
+   "link": "https://coinpost.jp/?p=734756",
+   "published": "09/01 18:09",
+   "ts": 1788253783.0,
+   "source": "CoinPost",
+   "desc": "ファンドストラット共同創設者のトム・リー氏がCNBCで、ビットコインが意識する水準として15万ドルを指摘。仮想通貨相場の上昇はまだ「第一波」とし、機関投資家の買いが続くと分析。9月15日のFOMCが焦点になるとの見方を示した。"
+  },
   {
    "title": "アルパカ、カルシと提携　株式・仮想通貨などの基盤に予測市場追加へ",
    "link": "https://coinpost.jp/?p=734719",
@@ -97,46 +113,46 @@
    "ts": 1788234451.0,
    "source": "CoinPost",
    "desc": "ロビンフッドチェーンのDEX出来高が8月30日、1日で8億7,500万ドル（1ドル＝160円換算で約1,400億円）の過去最高を記録した。ユニスワップv4が4億3,200万ドル（約691億円）、v3が3億5,700万ドル（約571億円）を牽引し、取引件数も552万件で過去最高を更"
-  },
-  {
-   "title": "イオレ、ハイパーリキッド追加取得完了　累計1億円に到達",
-   "link": "https://coinpost.jp/?p=734572",
-   "published": "09/01 10:57",
-   "ts": 1788227828.0,
-   "source": "CoinPost",
-   "desc": "東証グロース上場のイオレ（2334）が仮想通貨ハイパーリキッド（HYPE）の追加取得完了を発表。7月30日から8月31日までに約8,709HYPEを8,991万円で購入し、累計取得額が1億円に到達した。"
-  },
-  {
-   "title": "ストライブ、先週1800BTCのビットコインを買い増し",
-   "link": "https://coinpost.jp/?p=734507",
-   "published": "09/01 10:27",
-   "ts": 1788226033.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインの財務企業であるストライブは、8月24日〜28日の間に1,800BTCを買い増ししたことを米SECに報告。保有数量は2万3,156BTCに増加した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "レクサス 新型「NX」世界初公開",
+   "link": "https://news.yahoo.co.jp/pickup/6593911?source=rss",
+   "published": "09/01 22:58",
+   "ts": 1788271134.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「走る回転寿司店」成功するか",
+   "link": "https://news.yahoo.co.jp/pickup/6593906?source=rss",
+   "published": "09/01 22:04",
+   "ts": 1788267851.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "景品巡るX投稿拡散 くら寿司説明",
+   "link": "https://news.yahoo.co.jp/pickup/6593896?source=rss",
+   "published": "09/01 20:40",
+   "ts": 1788262803.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "キユーピー マヨネーズなど値上げ",
+   "link": "https://news.yahoo.co.jp/pickup/6593895?source=rss",
+   "published": "09/01 20:30",
+   "ts": 1788262210.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "みんなで大家さん 事実上の終了へ",
    "link": "https://news.yahoo.co.jp/pickup/6593873?source=rss",
    "published": "09/01 17:25",
    "ts": 1788251120.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "スシローNY店開業へ 1皿800円〜",
-   "link": "https://news.yahoo.co.jp/pickup/6593860?source=rss",
-   "published": "09/01 15:52",
-   "ts": 1788245536.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "服ブランド「hakka kids」休止へ",
-   "link": "https://news.yahoo.co.jp/pickup/6593858?source=rss",
-   "published": "09/01 15:45",
-   "ts": 1788245123.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "「働きたい年齢」平均62歳に 調査",
-   "link": "https://news.yahoo.co.jp/pickup/6593834?source=rss",
-   "published": "09/01 12:21",
-   "ts": 1788232891.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "備蓄米21万t 今月買い戻し実施へ",
    "link": "https://news.yahoo.co.jp/pickup/6593829?source=rss",
    "published": "09/01 11:12",
    "ts": 1788228758.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米財務長官 日銀の利上げを示唆か",
-   "link": "https://news.yahoo.co.jp/pickup/6593803?source=rss",
-   "published": "09/01 08:00",
-   "ts": 1788217259.0,
    "source": "Yahoo!",
    "desc": ""
   }
