@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-01 09:40:58",
+ "updated_at": "2026-09-01 17:46:05",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,146 +37,146 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.201108499397726,
-  "eth_dominance": 11.17183094773897,
-  "total_mcap_usd": 2661435886219.5674,
-  "mcap_change_24h": -0.36803615882345264
+  "btc_dominance": 59.11347871859235,
+  "eth_dominance": 11.169486624482435,
+  "total_mcap_usd": 2637517006478.201,
+  "mcap_change_24h": -1.9872269747459388
  },
  "defi": {
-  "tvl_usd": 88248744747.0,
-  "change_1d": 0.0028034784395740697,
-  "change_7d": 0.010252317396494348,
-  "change_1y": -0.41600435093860855,
-  "range_pos_1y": 0.18920071148437714
+  "tvl_usd": 87962675353.0,
+  "change_1d": 0.012097715550369648,
+  "change_7d": 0.002042263788706311,
+  "change_1y": -0.4163575978444145,
+  "range_pos_1y": 0.1863997443518524
  },
  "news_crypto": [
   {
-   "title": "ビットマイン、先週5万3501ETHのイーサリアムを買い増し",
-   "link": "https://coinpost.jp/?p=734487",
-   "published": "09/01 09:02",
-   "ts": 1788220947.0,
+   "title": "アルパカ、カルシと提携　株式・仮想通貨などの基盤に予測市場追加へ",
+   "link": "https://coinpost.jp/?p=734719",
+   "published": "09/01 17:31",
+   "ts": 1788251482.0,
    "source": "CoinPost",
-   "desc": "仮想通貨イーサリアムの大手財務企業ビットマインは、先週5万3,501ETHを買い増ししたことを発表。イーサリアム保有量は計590万1,112ETHに増加した。"
+   "desc": "米フィンテック企業アルパカが予測市場のカルシと提携。株式・仮想通貨を扱う同社のブローカレッジ基盤にCFTC規制下のイベント契約を統合する。カルシの取引高は7月に400億ドル超と急拡大しており、両社は世界的な需要を追い風に事業を広げる。"
   },
   {
-   "title": "ストラテジー、2カ月ぶりにビットコイン購入再開　590億円相当",
-   "link": "https://coinpost.jp/?p=734476",
-   "published": "08/31 21:20",
-   "ts": 1788178845.0,
+   "title": "NOT A HOTEL、ポケモンスリープとコラボ発表",
+   "link": "https://coinpost.jp/?p=734689",
+   "published": "09/01 16:28",
+   "ts": 1788247723.0,
    "source": "CoinPost",
-   "desc": "仮想通貨ビットコインDAT大手ストラテジーが4603BTCを平均8万ドルで購入し、前回から約2カ月ぶりの買い増しとなった。保有量は845050BTCに達し、優先株STRCの買戻しも実施した。"
+   "desc": "ポケモン公式が「Pokémon Sleep」とNOT A HOTELのコラボを発表。モンスターボールを模した宿泊可能な空間を用意し、詳細は2026年9月15日に公開予定。同社はNFTで宿泊権を提供するWeb3事業でも知られる。"
   },
   {
-   "title": "金融庁、信託型ステーブルコインの調書提出免除を要望　2027年度税制改正",
-   "link": "https://coinpost.jp/?p=734402",
-   "published": "08/31 15:19",
-   "ts": 1788157171.0,
+   "title": "コインチェックG、仏DFNSと提携　機関投資家向けカストディ検討",
+   "link": "https://coinpost.jp/?p=734656",
+   "published": "09/01 15:20",
+   "ts": 1788243642.0,
    "source": "CoinPost",
-   "desc": "金融庁は8月31日、令和9（2027）年度税制改正要望を公表した。信託型ステーブルコインの受益者変更時に必要な税務書類の提出免除を求めており、転々流通する決済手段のため受託者が保有者の変更を把握できない点を課題としている。"
+   "desc": "コインチェックの親会社Coincheck Group N.V.が仏DFNSと戦略的パートナーシップを締結。国内金融機関向けに機関投資家水準のデジタル資産カストディ基盤の構築を目指す。KDDIとの資本提携に続く機関投資家事業拡大の一手を読む。"
   },
   {
-   "title": "金融庁27年度予算134億円増を要求、暗号資産監視で新室設置へ",
-   "link": "https://coinpost.jp/?p=734395",
-   "published": "08/31 14:50",
-   "ts": 1788155438.0,
+   "title": "ハイパーリキッド、クラーケン親会社ペイワードと米国進出を協議＝報道",
+   "link": "https://coinpost.jp/?p=734612",
+   "published": "09/01 14:22",
+   "ts": 1788240138.0,
    "source": "CoinPost",
-   "desc": "金融庁が2027年度（令和9年度）予算・機構定員要求を公表した。総額403億円（前年度比134億円増）を要求し、暗号資産取引業者のモニタリング体制強化やフロンティアAIのリスク対応を担う新室の設置、定員14人の純増を求めた。"
+   "desc": "分散型デリバティブ取引所ハイパーリキッドが、クラーケン親会社ペイワード傘下のCFTC登録取引所ビットノミアルを通じ、米国ユーザー向けに無期限先物を提供する計画を協議中だと報じられた。トランプ政権の仮想通貨政策も追い風になっている。"
   },
   {
-   "title": "BIS総支配人、ステーブルコインは大規模決済に不適格と指摘",
-   "link": "https://coinpost.jp/?p=734357",
-   "published": "08/31 14:04",
-   "ts": 1788152670.0,
+   "title": "NYSE親会社ICE、tZEROとトークン化証券の公開市場開発で提携",
+   "link": "https://coinpost.jp/?p=734587",
+   "published": "09/01 14:00",
+   "ts": 1788238821.0,
    "source": "CoinPost",
-   "desc": "BISのデ・コス総支配人がジャクソンホール会議でステーブルコインに対する懸念を表明し、トークン化預金を推奨した。これに対しテザーのアルドイノCEOが銀行預金の「部分準備制度」への懸念を指摘し反論した。"
+   "desc": "NYSE親会社のインターコンチネンタル取引所とブロックチェーン企業tZEROがトークン化証券インフラでの提携を発表。ICEはtZEROへの出資と特許ライセンス取得に合意した。"
   },
   {
-   "title": "enish、株主優待でBTC・SOLを抽選配布　SBI VCトレードと連携",
-   "link": "https://coinpost.jp/?p=734343",
-   "published": "08/31 13:35",
-   "ts": 1788150948.0,
+   "title": "ロビンフッドチェーン、DEX出来高1日で最高約1400億円に",
+   "link": "https://coinpost.jp/?p=734613",
+   "published": "09/01 12:47",
+   "ts": 1788234451.0,
    "source": "CoinPost",
-   "desc": "enishは株主優待制度でSBI VCトレードとの連携を発表。2026年12月31日を基準日とする500株以上の株主を対象に、ビットコイン（BTC）およびソラナ（SOL）を総額1,000万円相当・計580名に抽選で進呈する。"
+   "desc": "ロビンフッドチェーンのDEX出来高が8月30日、1日で8億7,500万ドル（1ドル＝160円換算で約1,400億円）の過去最高を記録した。ユニスワップv4が4億3,200万ドル（約691億円）、v3が3億5,700万ドル（約571億円）を牽引し、取引件数も552万件で過去最高を更"
   },
   {
-   "title": "トランプ大統領の元テレプロンプター、カルシでのインサイダー取引で約2750万円支払いへ",
-   "link": "https://coinpost.jp/?p=734309",
-   "published": "08/31 13:08",
-   "ts": 1788149308.0,
+   "title": "イオレ、ハイパーリキッド追加取得完了　累計1億円に到達",
+   "link": "https://coinpost.jp/?p=734572",
+   "published": "09/01 10:57",
+   "ts": 1788227828.0,
    "source": "CoinPost",
-   "desc": "米商品先物取引委員会は、トランプ大統領の元テレプロンプター操作者が予測市場カルシにおけるインサイダー取引の件で制裁金支払いなどに同意したと発表した。"
+   "desc": "東証グロース上場のイオレ（2334）が仮想通貨ハイパーリキッド（HYPE）の追加取得完了を発表。7月30日から8月31日までに約8,709HYPEを8,991万円で購入し、累計取得額が1億円に到達した。"
   },
   {
-   "title": "ビットコイン、8月に30％高でも出来高3年ぶり低水準＝アナリスト",
-   "link": "https://coinpost.jp/?p=734296",
-   "published": "08/31 11:11",
-   "ts": 1788142306.0,
+   "title": "ストライブ、先週1800BTCのビットコインを買い増し",
+   "link": "https://coinpost.jp/?p=734507",
+   "published": "09/01 10:27",
+   "ts": 1788226033.0,
    "source": "CoinPost",
-   "desc": "ビットコインは8月に30％を超える上昇を記録した一方、主要取引所の出来高は約3年ぶりの低水準にとどまっている。バイナンス・ゲート・バイビットの出来高推移データから、価格上昇と出来高の乖離が示す意味を読み解く。"
+   "desc": "仮想通貨ビットコインの財務企業であるストライブは、8月24日〜28日の間に1,800BTCを買い増ししたことを米SECに報告。保有数量は2万3,156BTCに増加した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "みんなで大家さん 事実上の終了へ",
+   "link": "https://news.yahoo.co.jp/pickup/6593873?source=rss",
+   "published": "09/01 17:25",
+   "ts": 1788251120.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "スシローNY店開業へ 1皿800円〜",
+   "link": "https://news.yahoo.co.jp/pickup/6593860?source=rss",
+   "published": "09/01 15:52",
+   "ts": 1788245536.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "服ブランド「hakka kids」休止へ",
+   "link": "https://news.yahoo.co.jp/pickup/6593858?source=rss",
+   "published": "09/01 15:45",
+   "ts": 1788245123.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "残業一律抑制 9/1から取りやめ",
+   "link": "https://news.yahoo.co.jp/pickup/6593850?source=rss",
+   "published": "09/01 15:07",
+   "ts": 1788242862.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "長期金利一時3% 30年ぶり高水準",
+   "link": "https://news.yahoo.co.jp/pickup/6593841?source=rss",
+   "published": "09/01 12:42",
+   "ts": 1788234162.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「働きたい年齢」平均62歳に 調査",
+   "link": "https://news.yahoo.co.jp/pickup/6593834?source=rss",
+   "published": "09/01 12:21",
+   "ts": 1788232891.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "備蓄米21万t 今月買い戻し実施へ",
+   "link": "https://news.yahoo.co.jp/pickup/6593829?source=rss",
+   "published": "09/01 11:12",
+   "ts": 1788228758.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "米財務長官 日銀の利上げを示唆か",
    "link": "https://news.yahoo.co.jp/pickup/6593803?source=rss",
    "published": "09/01 08:00",
    "ts": 1788217259.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "信組不祥事 金融庁が検査拡充へ",
-   "link": "https://news.yahoo.co.jp/pickup/6593788?source=rss",
-   "published": "08/31 23:05",
-   "ts": 1788185106.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "障害者雇用で広がる「代行」実態",
-   "link": "https://news.yahoo.co.jp/pickup/6593784?source=rss",
-   "published": "08/31 22:30",
-   "ts": 1788183003.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "住宅ローン変動金利 2行引き上げ",
-   "link": "https://news.yahoo.co.jp/pickup/6593780?source=rss",
-   "published": "08/31 21:54",
-   "ts": 1788180847.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "法定速度30kmへ「生活道路」とは",
-   "link": "https://news.yahoo.co.jp/pickup/6593770?source=rss",
-   "published": "08/31 19:13",
-   "ts": 1788171237.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "スタバだらけの街 なぜ増え続ける",
-   "link": "https://news.yahoo.co.jp/pickup/6593763?source=rss",
-   "published": "08/31 19:03",
-   "ts": 1788170599.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ホンダ&日産 次世代車OS共同開発",
-   "link": "https://news.yahoo.co.jp/pickup/6593765?source=rss",
-   "published": "08/31 18:20",
-   "ts": 1788168026.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ハウス食品 ココイチ売却検討背景",
-   "link": "https://news.yahoo.co.jp/pickup/6593724?source=rss",
-   "published": "08/31 14:00",
-   "ts": 1788152445.0,
    "source": "Yahoo!",
    "desc": ""
   }
