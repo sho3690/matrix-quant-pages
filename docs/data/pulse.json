@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-02 08:22:48",
+ "updated_at": "2026-09-02 13:45:39",
  "fng": {
-  "value": 69,
+  "value": 63,
   "label": "強欲",
   "history": [
-   28,
    25,
    27,
    25,
@@ -33,24 +32,130 @@
    68,
    69,
    62,
-   69
+   69,
+   63
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.11153090228962,
-  "eth_dominance": 11.095823208236135,
-  "total_mcap_usd": 2615834568275.7676,
-  "mcap_change_24h": -4.138160775372515
+  "btc_dominance": 59.09609794957134,
+  "eth_dominance": 11.067887661289442,
+  "total_mcap_usd": 2628132553842.5024,
+  "mcap_change_24h": -3.956905420643323
  },
  "defi": {
-  "tvl_usd": 85304568150.0,
-  "change_1d": -3.7302402039030014e-05,
-  "change_7d": -0.009515816557499002,
-  "change_1y": -0.43399444286896816,
-  "range_pos_1y": 0.1690394866803242
+  "tvl_usd": 85205522711.0,
+  "change_1d": -0.015503841316719225,
+  "change_7d": -0.004688531511851002,
+  "change_1y": -0.4267246838923844,
+  "range_pos_1y": 0.16807972054542314
  },
- "news_crypto": [],
+ "news_crypto": [
+  {
+   "title": "テレグラム、「グラム・ウォレット」を一部に先行提供",
+   "link": "https://coinpost.jp/?p=734895",
+   "published": "09/02 13:25",
+   "ts": 1788323155.0,
+   "source": "CoinPost",
+   "desc": "メッセージアプリのテレグラムが自己管理型「グラム・ウォレット」を一部ユーザー向けに先行公開。数週間で10億人超のユーザーに向けて拡大予定だ。"
+  },
+  {
+   "title": "エセナ、金融アプリ「Ethena Pay」をローンチ開始　決済層でアバランチ採用",
+   "link": "https://coinpost.jp/?p=734886",
+   "published": "09/02 13:15",
+   "ts": 1788322529.0,
+   "source": "CoinPost",
+   "desc": "エセナは、ノンカストディアル型金融アプリのエセナ・ペイのローンチを開始。決済レイヤーには仮想通貨アバランチのブロックチェーンを採用した。"
+  },
+  {
+   "title": "HYPE保有企業ハイパーリキッド・ストラテジーズ、増資枠を2倍超に拡大",
+   "link": "https://coinpost.jp/?p=734878",
+   "published": "09/02 10:34",
+   "ts": 1788312895.0,
+   "source": "CoinPost",
+   "desc": "HYPE保有企業ハイパーリキッド・ストラテジーズ（Nasdaq：PURR）は9月1日、Chardanとの株式引受契約を改定し、増資枠を10億ドルから25億ドルへ拡大。1株12.02ドル未満の発行には上限も設けた。"
+  },
+  {
+   "title": "G20財務相会合、デジタル資産の経済成長寄与認める",
+   "link": "https://coinpost.jp/?p=734814",
+   "published": "09/02 10:15",
+   "ts": 1788311711.0,
+   "source": "CoinPost",
+   "desc": "G20財務相・中央銀行総裁会議は9月1日、デジタル資産を含む技術革新が経済成長を後押しすると声明で明記し、規制整備を進める方針を示した。デジタル資産市場の環境整備が進む可能性がある。"
+  },
+  {
+   "title": "ビットコイン現物ETF、8月に35億ドル純流入　1年ぶりの高水準",
+   "link": "https://coinpost.jp/?p=734854",
+   "published": "09/02 09:54",
+   "ts": 1788310497.0,
+   "source": "CoinPost",
+   "desc": "米ビットコイン現物ETFに8月35億ドルが流入し2025年7月以来の高水準となった。ベッセント財務長官の国債買い戻し表明を機に資金回帰が強まったが、8万ドル台定着は未確認。SoSoValueのデータで流入実態を検証する。"
+  },
+  {
+   "title": "デファイ・デベロップメント、最大32億円の資金調達計画　ソラナ追加購入などに充当予定",
+   "link": "https://coinpost.jp/?p=734824",
+   "published": "09/02 09:40",
+   "ts": 1788309649.0,
+   "source": "CoinPost",
+   "desc": "ソラナ保有企業デファイ・デベロップメントが、変動金利型シリーズC永久優先株「CHAD」発行により最大2,000万ドルの資金調達を計画。ソラナ追加購入などに充当する方針だ。"
+  },
+  {
+   "title": "トランプ・ジュニア関与のファンド、ポリマーケットに480億円追加出資",
+   "link": "https://coinpost.jp/?p=734799",
+   "published": "09/02 09:33",
+   "ts": 1788309188.0,
+   "source": "CoinPost",
+   "desc": "トランプ大統領の長男が関わる投資ファンド『1789キャピタル』が、予測市場運営大手ポリマーケットへ約3億ドルの追加出資を行う。関連ラウンドで評価額は210億ドル規模となる見通しだ。"
+  },
+  {
+   "title": "ロビンフッドとFomo、ミームコインのクレカ購入に本人確認不要か　NY州が調査",
+   "link": "https://coinpost.jp/?p=734800",
+   "published": "09/02 08:20",
+   "ts": 1788304843.0,
+   "source": "CoinPost",
+   "desc": "ロビンフッドウォレットとFomoは本人確認なしでミームコインをクレカ購入できる仕組みとなっており、米規制当局が実態把握に乗り出している。規制強化に動けば投資家の購入経路にも影響しうる。"
+  }
+ ],
  "news_jp": [
+  {
+   "title": "GoPro 米企業に株式90%売却へ",
+   "link": "https://news.yahoo.co.jp/pickup/6593966?source=rss",
+   "published": "09/02 13:07",
+   "ts": 1788322022.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「街の顔」百貨店の閉店加速 背景",
+   "link": "https://news.yahoo.co.jp/pickup/6593962?source=rss",
+   "published": "09/02 12:47",
+   "ts": 1788320875.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "車田正美さん 28億円賠償求め提訴",
+   "link": "https://news.yahoo.co.jp/pickup/6593960?source=rss",
+   "published": "09/02 12:03",
+   "ts": 1788318181.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米財務長官 日本の円安是正を支持",
+   "link": "https://news.yahoo.co.jp/pickup/6593944?source=rss",
+   "published": "09/02 10:02",
+   "ts": 1788310925.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ツムラが「養命酒製造」買収完了",
+   "link": "https://news.yahoo.co.jp/pickup/6593936?source=rss",
+   "published": "09/02 08:23",
+   "ts": 1788305014.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "SBエナジー 米国でIPOを申請",
    "link": "https://news.yahoo.co.jp/pickup/6593931?source=rss",
@@ -60,50 +165,10 @@
    "desc": ""
   },
   {
-   "title": "フラット35 9月の適用金利3.46%",
-   "link": "https://news.yahoo.co.jp/pickup/6593916?source=rss",
-   "published": "09/01 23:33",
-   "ts": 1788273237.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "レクサス 新型「NX」世界初公開",
    "link": "https://news.yahoo.co.jp/pickup/6593911?source=rss",
    "published": "09/01 22:58",
    "ts": 1788271134.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「走る回転寿司店」成功するか",
-   "link": "https://news.yahoo.co.jp/pickup/6593906?source=rss",
-   "published": "09/01 22:04",
-   "ts": 1788267851.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "景品巡るX投稿拡散 くら寿司説明",
-   "link": "https://news.yahoo.co.jp/pickup/6593896?source=rss",
-   "published": "09/01 20:40",
-   "ts": 1788262803.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "キユーピー マヨネーズなど値上げ",
-   "link": "https://news.yahoo.co.jp/pickup/6593895?source=rss",
-   "published": "09/01 20:30",
-   "ts": 1788262210.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "みんなで大家さん 事実上の終了へ",
-   "link": "https://news.yahoo.co.jp/pickup/6593873?source=rss",
-   "published": "09/01 17:25",
-   "ts": 1788251120.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -117,19 +182,19 @@
   }
  ],
  "jgb": {
-  "date": "R8.8.31",
-  "y10": 2.943,
-  "chg5d": 0.05600000000000005,
+  "date": "R8.9.1",
+  "y10": 2.987,
+  "chg5d": 0.31300000000000017,
   "rank_1y": 1.0,
   "curve": {
-   "1": 1.502,
-   "2": 1.743,
-   "5": 2.233,
-   "10": 2.943,
-   "20": 3.815,
-   "30": 4.092,
-   "40": 4.094
+   "1": 1.527,
+   "2": 1.802,
+   "5": 2.28,
+   "10": 2.987,
+   "20": 3.859,
+   "30": 4.131,
+   "40": 4.145
   },
-  "spread_10_2": 1.2
+  "spread_10_2": 1.185
  }
 }
