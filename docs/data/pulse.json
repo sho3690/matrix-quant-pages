@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-02 13:45:39",
+ "updated_at": "2026-09-02 20:29:11",
  "fng": {
   "value": 63,
   "label": "強欲",
@@ -37,19 +37,59 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.09609794957134,
-  "eth_dominance": 11.067887661289442,
-  "total_mcap_usd": 2628132553842.5024,
-  "mcap_change_24h": -3.956905420643323
+  "btc_dominance": 59.00403115289292,
+  "eth_dominance": 11.121119236639402,
+  "total_mcap_usd": 2590321211819.3945,
+  "mcap_change_24h": -4.469160793622857
  },
  "defi": {
-  "tvl_usd": 85205522711.0,
-  "change_1d": -0.015503841316719225,
-  "change_7d": -0.004688531511851002,
-  "change_1y": -0.4267246838923844,
-  "range_pos_1y": 0.16807972054542314
+  "tvl_usd": 84594919255.0,
+  "change_1d": -0.022602697030510766,
+  "change_7d": -0.01182117506732383,
+  "change_1y": -0.43083291394740186,
+  "range_pos_1y": 0.16216287546058938
  },
  "news_crypto": [
+  {
+   "title": "ビットフィネックス証券、メタプラネット等株連動商品5種上場",
+   "link": "https://coinpost.jp/?p=735064",
+   "published": "09/02 17:30",
+   "ts": 1788337800.0,
+   "source": "CoinPost",
+   "desc": "ビットフィネックス証券が、ストラテジーやメタプラネットなどビットコイン財務企業4社の株価に連動する商品5種を上場。エルサルバドル規制下でリキッドネットワーク上に発行され、USDTやBTCでも取引できる。"
+  },
+  {
+   "title": "TDコーウェン、ビットコイン年末目標9万7500ドルに下方修正＝報道",
+   "link": "https://coinpost.jp/?p=735024",
+   "published": "09/02 15:50",
+   "ts": 1788331822.0,
+   "source": "CoinPost",
+   "desc": "TDコーウェンのアナリスト、ランス・ビタンザ氏がビットコインの年末目標を9万7500ドルに下方修正。ストラテジーの目標株価も260ドルに引き下げる一方、ストライブには33%の上値余地を示した。"
+  },
+  {
+   "title": "ラザルス関連ウォレット、ハイパーリキッド経由で3000万ドル超を移動",
+   "link": "https://coinpost.jp/?p=734904",
+   "published": "09/02 14:50",
+   "ts": 1788328236.0,
+   "source": "CoinPost",
+   "desc": "北朝鮮の国家支援ハッカー集団ラザルスに関連するウォレットが、分散型取引所ハイパーリキッド経由で3,000万ドル超を移動していたことが判明した。トランプ政権がハイパーリキッドの米国導入を検討する中、パーミッションレス構造の規制リスクが改めて浮き彫りとなった。"
+  },
+  {
+   "title": "ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査",
+   "link": "https://coinpost.jp/?p=734974",
+   "published": "09/02 14:15",
+   "ts": 1788326156.0,
+   "source": "CoinPost",
+   "desc": "アーク・インベストとグラスノードの共同レポート「The Decentralization Spectrum」を紹介。ビットコインは監査性や所有分布など複数の指標でイーサリアム・ソラナより高評価となった比較結果を解説する。"
+  },
+  {
+   "title": "リミックスポイント、保有中のアルトコイン4銘柄を全売却",
+   "link": "https://coinpost.jp/?p=734815",
+   "published": "09/02 13:47",
+   "ts": 1788324435.0,
+   "source": "CoinPost",
+   "desc": "リミックスポイントが保有するイーサリアムやソラナなどアルトコイン4銘柄を全て売却したことを報告した。売却後の保有暗号資産はビットコインのみとなり、売却益は2027年3月期第2四半期に計上される見通しだ。"
+  },
   {
    "title": "テレグラム、「グラム・ウォレット」を一部に先行提供",
    "link": "https://coinpost.jp/?p=734895",
@@ -73,62 +113,62 @@
    "ts": 1788312895.0,
    "source": "CoinPost",
    "desc": "HYPE保有企業ハイパーリキッド・ストラテジーズ（Nasdaq：PURR）は9月1日、Chardanとの株式引受契約を改定し、増資枠を10億ドルから25億ドルへ拡大。1株12.02ドル未満の発行には上限も設けた。"
-  },
-  {
-   "title": "G20財務相会合、デジタル資産の経済成長寄与認める",
-   "link": "https://coinpost.jp/?p=734814",
-   "published": "09/02 10:15",
-   "ts": 1788311711.0,
-   "source": "CoinPost",
-   "desc": "G20財務相・中央銀行総裁会議は9月1日、デジタル資産を含む技術革新が経済成長を後押しすると声明で明記し、規制整備を進める方針を示した。デジタル資産市場の環境整備が進む可能性がある。"
-  },
-  {
-   "title": "ビットコイン現物ETF、8月に35億ドル純流入　1年ぶりの高水準",
-   "link": "https://coinpost.jp/?p=734854",
-   "published": "09/02 09:54",
-   "ts": 1788310497.0,
-   "source": "CoinPost",
-   "desc": "米ビットコイン現物ETFに8月35億ドルが流入し2025年7月以来の高水準となった。ベッセント財務長官の国債買い戻し表明を機に資金回帰が強まったが、8万ドル台定着は未確認。SoSoValueのデータで流入実態を検証する。"
-  },
-  {
-   "title": "デファイ・デベロップメント、最大32億円の資金調達計画　ソラナ追加購入などに充当予定",
-   "link": "https://coinpost.jp/?p=734824",
-   "published": "09/02 09:40",
-   "ts": 1788309649.0,
-   "source": "CoinPost",
-   "desc": "ソラナ保有企業デファイ・デベロップメントが、変動金利型シリーズC永久優先株「CHAD」発行により最大2,000万ドルの資金調達を計画。ソラナ追加購入などに充当する方針だ。"
-  },
-  {
-   "title": "トランプ・ジュニア関与のファンド、ポリマーケットに480億円追加出資",
-   "link": "https://coinpost.jp/?p=734799",
-   "published": "09/02 09:33",
-   "ts": 1788309188.0,
-   "source": "CoinPost",
-   "desc": "トランプ大統領の長男が関わる投資ファンド『1789キャピタル』が、予測市場運営大手ポリマーケットへ約3億ドルの追加出資を行う。関連ラウンドで評価額は210億ドル規模となる見通しだ。"
-  },
-  {
-   "title": "ロビンフッドとFomo、ミームコインのクレカ購入に本人確認不要か　NY州が調査",
-   "link": "https://coinpost.jp/?p=734800",
-   "published": "09/02 08:20",
-   "ts": 1788304843.0,
-   "source": "CoinPost",
-   "desc": "ロビンフッドウォレットとFomoは本人確認なしでミームコインをクレカ購入できる仕組みとなっており、米規制当局が実態把握に乗り出している。規制強化に動けば投資家の購入経路にも影響しうる。"
   }
  ],
  "news_jp": [
   {
-   "title": "GoPro 米企業に株式90%売却へ",
-   "link": "https://news.yahoo.co.jp/pickup/6593966?source=rss",
-   "published": "09/02 13:07",
-   "ts": 1788322022.0,
+   "title": "「スクイーズ」安全に遊ぶには",
+   "link": "https://news.yahoo.co.jp/pickup/6594006?source=rss",
+   "published": "09/02 18:38",
+   "ts": 1788341883.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "「街の顔」百貨店の閉店加速 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6593962?source=rss",
-   "published": "09/02 12:47",
-   "ts": 1788320875.0,
+   "title": "「小京都」脱却の動き 各地で加速",
+   "link": "https://news.yahoo.co.jp/pickup/6593997?source=rss",
+   "published": "09/02 17:50",
+   "ts": 1788339012.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日本郵便に勧告 フリーランス巡り",
+   "link": "https://news.yahoo.co.jp/pickup/6593989?source=rss",
+   "published": "09/02 16:55",
+   "ts": 1788335706.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "パジェロ復活 なぜ今本格クロカン",
+   "link": "https://news.yahoo.co.jp/pickup/6593987?source=rss",
+   "published": "09/02 16:49",
+   "ts": 1788335361.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "長期金利3% 住宅ローンの相談殺到",
+   "link": "https://news.yahoo.co.jp/pickup/6593983?source=rss",
+   "published": "09/02 15:45",
+   "ts": 1788331554.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "車田正美氏 46億円の横領被害訴え",
+   "link": "https://news.yahoo.co.jp/pickup/6593974?source=rss",
+   "published": "09/02 14:50",
+   "ts": 1788328232.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "三菱自 新型パジェロを世界初公開",
+   "link": "https://news.yahoo.co.jp/pickup/6593972?source=rss",
+   "published": "09/02 14:22",
+   "ts": 1788326548.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6593960?source=rss",
    "published": "09/02 12:03",
    "ts": 1788318181.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米財務長官 日本の円安是正を支持",
-   "link": "https://news.yahoo.co.jp/pickup/6593944?source=rss",
-   "published": "09/02 10:02",
-   "ts": 1788310925.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ツムラが「養命酒製造」買収完了",
-   "link": "https://news.yahoo.co.jp/pickup/6593936?source=rss",
-   "published": "09/02 08:23",
-   "ts": 1788305014.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "SBエナジー 米国でIPOを申請",
-   "link": "https://news.yahoo.co.jp/pickup/6593931?source=rss",
-   "published": "09/02 07:46",
-   "ts": 1788302816.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "レクサス 新型「NX」世界初公開",
-   "link": "https://news.yahoo.co.jp/pickup/6593911?source=rss",
-   "published": "09/01 22:58",
-   "ts": 1788271134.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "残業一律抑制 9/1から取りやめ",
-   "link": "https://news.yahoo.co.jp/pickup/6593850?source=rss",
-   "published": "09/01 15:07",
-   "ts": 1788242862.0,
    "source": "Yahoo!",
    "desc": ""
   }
