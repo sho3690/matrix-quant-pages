@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-02 20:29:11",
+ "updated_at": "2026-09-03 01:41:50",
  "fng": {
   "value": 63,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.00403115289292,
-  "eth_dominance": 11.121119236639402,
-  "total_mcap_usd": 2590321211819.3945,
-  "mcap_change_24h": -4.469160793622857
+  "btc_dominance": 59.13158961895526,
+  "eth_dominance": 11.12900814261494,
+  "total_mcap_usd": 2619786472065.7886,
+  "mcap_change_24h": -3.279401743969131
  },
  "defi": {
-  "tvl_usd": 84594919255.0,
-  "change_1d": -0.022602697030510766,
-  "change_7d": -0.01182117506732383,
-  "change_1y": -0.43083291394740186,
-  "range_pos_1y": 0.16216287546058938
+  "tvl_usd": 85062445194.0,
+  "change_1d": -0.017204768283146987,
+  "change_7d": -0.006359848499477461,
+  "change_1y": -0.42768733051640984,
+  "range_pos_1y": 0.16669327653680674
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "パワハラ報道巡り 東京MKが会見",
+   "link": "https://news.yahoo.co.jp/pickup/6594031?source=rss",
+   "published": "09/02 22:36",
+   "ts": 1788356216.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "長期金利「3%突破」は異常か",
+   "link": "https://news.yahoo.co.jp/pickup/6594029?source=rss",
+   "published": "09/02 21:42",
+   "ts": 1788352969.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ファミマ おにぎり4品値下げ発表",
+   "link": "https://news.yahoo.co.jp/pickup/6594014?source=rss",
+   "published": "09/02 20:39",
+   "ts": 1788349183.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「スクイーズ」安全に遊ぶには",
    "link": "https://news.yahoo.co.jp/pickup/6594006?source=rss",
    "published": "09/02 18:38",
@@ -125,26 +149,10 @@
    "desc": ""
   },
   {
-   "title": "「小京都」脱却の動き 各地で加速",
-   "link": "https://news.yahoo.co.jp/pickup/6593997?source=rss",
-   "published": "09/02 17:50",
-   "ts": 1788339012.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "日本郵便に勧告 フリーランス巡り",
    "link": "https://news.yahoo.co.jp/pickup/6593989?source=rss",
    "published": "09/02 16:55",
    "ts": 1788335706.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "パジェロ復活 なぜ今本格クロカン",
-   "link": "https://news.yahoo.co.jp/pickup/6593987?source=rss",
-   "published": "09/02 16:49",
-   "ts": 1788335361.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6593974?source=rss",
    "published": "09/02 14:50",
    "ts": 1788328232.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "三菱自 新型パジェロを世界初公開",
-   "link": "https://news.yahoo.co.jp/pickup/6593972?source=rss",
-   "published": "09/02 14:22",
-   "ts": 1788326548.0,
    "source": "Yahoo!",
    "desc": ""
   },
