@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-03 13:41:18",
+ "updated_at": "2026-09-03 20:25:41",
  "fng": {
   "value": 65,
   "label": "強欲",
@@ -37,19 +37,67 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.078577838814894,
-  "eth_dominance": 11.098401336235678,
-  "total_mcap_usd": 2628538336200.1177,
-  "mcap_change_24h": -2.4668539875408015
+  "btc_dominance": 59.55634649912736,
+  "eth_dominance": 11.161692618669337,
+  "total_mcap_usd": 2619485682565.6104,
+  "mcap_change_24h": -1.9111818077468181
  },
  "defi": {
-  "tvl_usd": 85315755666.0,
-  "change_1d": 0.004182216066675126,
-  "change_7d": -0.018198742303509263,
-  "change_1y": -0.43044296184933706,
-  "range_pos_1y": 0.16914789549852796
+  "tvl_usd": 85413572758.0,
+  "change_1d": 0.005382488372802863,
+  "change_7d": -0.017073077492829047,
+  "change_1y": -0.42978994749383936,
+  "range_pos_1y": 0.1700957587546654
  },
  "news_crypto": [
+  {
+   "title": "ヘイズ氏、仏銀行の信用不安でFRB資金供給拡大へ　仮想通貨市場に追い風と予測",
+   "link": "https://coinpost.jp/?p=735445",
+   "published": "09/03 17:59",
+   "ts": 1788425981.0,
+   "source": "CoinPost",
+   "desc": "アーサー・ヘイズ氏は最新エッセイで、ユーロ円の下落と仏銀行の信用不安がFRBの資金供給拡大を招き、仮想通貨相場の追い風になるとの見方を示した。イーサリアムの価格目標にも言及している。"
+  },
+  {
+   "title": "ステーブルコイン純流入、113日ぶりプラス転換＝アナリスト",
+   "link": "https://coinpost.jp/?p=735411",
+   "published": "09/03 17:04",
+   "ts": 1788422685.0,
+   "source": "CoinPost",
+   "desc": "オンチェーンアナリストのアドラー氏は、ステーブルコインの取引所純流入が113日ぶりにプラス転換したと指摘。9月1日の1,385万ドルから3日には685万ドルへ急減し、SSR(供給比率)も高止まりが続くため需給は中立とみる。"
+  },
+  {
+   "title": "アトキンスSEC委員長、クラリティー法案の可決に期待",
+   "link": "https://coinpost.jp/?p=735384",
+   "published": "09/03 16:24",
+   "ts": 1788420268.0,
+   "source": "CoinPost",
+   "desc": "米SEC委員長ポール・アトキンス氏は、仮想通貨の市場構造を定めるクラリティー法案について、上院可決と大統領署名を経た成立への期待を語った。上院は15日に手続き上の採決を予定。銀行業界との対立で難航してきた法案の行方を追う。"
+  },
+  {
+   "title": "X、数十万アカウント標的の乗っ取り未遂　米司法省が捜査",
+   "link": "https://coinpost.jp/?p=735364",
+   "published": "09/03 15:57",
+   "ts": 1788418672.0,
+   "source": "CoinPost",
+   "desc": "米司法省が、Xの数十万アカウントを狙ったパスワード復旧攻撃の捜査でXと連携していると発表した。攻撃は事前に阻止されたが、仮想通貨関連の著名アカウントを狙った乗っ取り詐欺の手口としても知られ、ユーザーには改めて注意が必要だ。"
+  },
+  {
+   "title": "コーネル大学調査、ビットコイン認知9割でも理解1割強",
+   "link": "https://coinpost.jp/?p=735341",
+   "published": "09/03 14:14",
+   "ts": 1788412471.0,
+   "source": "CoinPost",
+   "desc": "米コーネル大学が25カ国・2万5880人を対象にした仮想通貨の意識調査で、認知度は90％に達した一方、供給上限を正しく知る人は認知者のわずか13％だった。知識と認知の大きなギャップを読み解く。"
+  },
+  {
+   "title": "「ソラナのインフレ削減加速は時期尚早」、SOLストラテジーズCEOが批判",
+   "link": "https://coinpost.jp/?p=735287",
+   "published": "09/03 13:50",
+   "ts": 1788411001.0,
+   "source": "CoinPost",
+   "desc": "ソラナが可決したインフレ率削減の加速案について、SOLストラテジーズCEOは「まだ早い」と批判した。発行抑制がSOL価格を直接押し上げるとは限らないとし、否決されたSGP-0003の投票手続きにも疑問を呈した。"
+  },
   {
    "title": "カルシ、無期限原油先物を米CFTCへ申請計画",
    "link": "https://coinpost.jp/?p=735302",
@@ -65,57 +113,57 @@
    "ts": 1788408155.0,
    "source": "CoinPost",
    "desc": "米ビットコイン金融企業リバーが、ビットコインが3〜5年で25万〜84万ドルに達し得るとの分析を公表。投資顧問や銀行の参入拡大による資金流入を試算したものだ。"
-  },
-  {
-   "title": "MUFGとProgmat、トークン化投信の実証実験を開始　実環境で",
-   "link": "https://coinpost.jp/?p=735263",
-   "published": "09/03 13:00",
-   "ts": 1788408040.0,
-   "source": "CoinPost",
-   "desc": "三菱UFJアセットマネジメントとProgmatなど4社が国内籍のトークン化投資信託を実証目的で設定。券面表示は維持し原簿のオンチェーン管理を予定、実環境で検証する。"
-  },
-  {
-   "title": "XRPレジャー、口座あたり出来高が前年比3倍に＝エバーノース調査",
-   "link": "https://coinpost.jp/?p=735282",
-   "published": "09/03 12:46",
-   "ts": 1788407205.0,
-   "source": "CoinPost",
-   "desc": "エバーノースの分析リポートによると、2026年第2四半期はXRPレジャーのDEXで担い手が減る一方、1口座あたりの出来高が約3倍に拡大。RLUSD残高は約7倍に伸び、ネットワーク資産価値は四半期平均42.6億ドルと過去最高を更新した。"
-  },
-  {
-   "title": "米CFTC、仮想通貨無期限先物巡るCME提訴の却下を申し立て",
-   "link": "https://coinpost.jp/?p=735147",
-   "published": "09/03 11:05",
-   "ts": 1788401145.0,
-   "source": "CoinPost",
-   "desc": "米CFTCは、仮想通貨の無期限先物契約の分類を巡る米CMEの訴訟について、原告適格の欠如を理由に却下を裁判所に申し立てた。無期限先物の法的位置付けは仮想通貨デリバティブ市場の流動性などにも影響し得る。"
-  },
-  {
-   "title": "アービトラム、DAO上半期収入約9.8億円　ロビンフッドチェーンも貢献",
-   "link": "https://coinpost.jp/?p=735230",
-   "published": "09/03 10:51",
-   "ts": 1788400260.0,
-   "source": "CoinPost",
-   "desc": "アービトラム財団が2026年上半期の進捗報告を公表。取引処理は4.78億件、生態系GDPは2.06億ドルに到達。DAO収入は4系統に多角化し、7月はロビンフッドチェーン稼働で拡大プログラム収入が35%を占めた。"
-  },
-  {
-   "title": "コインベース、カナダで規制準拠の仮想通貨先物取引を提供開始",
-   "link": "https://coinpost.jp/?p=735168",
-   "published": "09/03 10:10",
-   "ts": 1788397820.0,
-   "source": "CoinPost",
-   "desc": "コインベースはカナダの適格投資家向けに、コインベース・フィナンシャル・マーケッツを通じて規制先物取引の提供を開始し、規制された環境でビットコインなどのデリバティブ取引に参入できるようになる。"
-  },
-  {
-   "title": "強気相場の次の柱はRWAか、ウィンターミュート分析",
-   "link": "https://coinpost.jp/?p=735188",
-   "published": "09/03 10:00",
-   "ts": 1788397251.0,
-   "source": "CoinPost",
-   "desc": "ウィンターミュートは、ビットコインETFやステーブルコインに続く次の資金流入チャネルとしてRWA（現実資産のトークン化）に着目していると分析した。評価額は1年で3倍に拡大し、規制整備や担保活用が追い風になっているという。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「純金」実は銅と鉄 偽サイト被害",
+   "link": "https://news.yahoo.co.jp/pickup/6594130?source=rss",
+   "published": "09/03 20:10",
+   "ts": 1788433845.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "最低賃金改定額 33府県で目安超え",
+   "link": "https://news.yahoo.co.jp/pickup/6594116?source=rss",
+   "published": "09/03 18:27",
+   "ts": 1788427647.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ヤマトとJAL 国内線貨物機終了へ",
+   "link": "https://news.yahoo.co.jp/pickup/6594120?source=rss",
+   "published": "09/03 18:18",
+   "ts": 1788427082.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "30代でFIRE生活も 高まる投資熱",
+   "link": "https://news.yahoo.co.jp/pickup/6594106?source=rss",
+   "published": "09/03 16:39",
+   "ts": 1788421151.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中国などナマコ需要増 乱獲深刻化",
+   "link": "https://news.yahoo.co.jp/pickup/6594100?source=rss",
+   "published": "09/03 15:23",
+   "ts": 1788416631.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "皿に吸い殻で店主激怒 客の責任は",
+   "link": "https://news.yahoo.co.jp/pickup/6594097?source=rss",
+   "published": "09/03 14:10",
+   "ts": 1788412210.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "大戸屋などが好調 なぜ定食店人気",
    "link": "https://news.yahoo.co.jp/pickup/6594090?source=rss",
@@ -125,58 +173,10 @@
    "desc": ""
   },
   {
-   "title": "ウーバー 世界従業員の1割削減へ",
-   "link": "https://news.yahoo.co.jp/pickup/6594050?source=rss",
-   "published": "09/03 07:57",
-   "ts": 1788389840.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大阪市「民泊」開業の規制強化へ",
-   "link": "https://news.yahoo.co.jp/pickup/6594043?source=rss",
-   "published": "09/03 07:20",
-   "ts": 1788387619.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "パワハラ報道巡り 東京MKが会見",
    "link": "https://news.yahoo.co.jp/pickup/6594031?source=rss",
    "published": "09/02 22:36",
    "ts": 1788356216.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長期金利「3%突破」は異常か",
-   "link": "https://news.yahoo.co.jp/pickup/6594029?source=rss",
-   "published": "09/02 21:42",
-   "ts": 1788352969.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ファミマ おにぎり4品値下げ発表",
-   "link": "https://news.yahoo.co.jp/pickup/6594014?source=rss",
-   "published": "09/02 20:39",
-   "ts": 1788349183.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「スクイーズ」安全に遊ぶには",
-   "link": "https://news.yahoo.co.jp/pickup/6594006?source=rss",
-   "published": "09/02 18:38",
-   "ts": 1788341883.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長期金利3% 住宅ローンの相談殺到",
-   "link": "https://news.yahoo.co.jp/pickup/6593983?source=rss",
-   "published": "09/02 15:45",
-   "ts": 1788331554.0,
    "source": "Yahoo!",
    "desc": ""
   }
