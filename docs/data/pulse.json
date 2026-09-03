@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-03 20:25:41",
+ "updated_at": "2026-09-04 01:32:57",
  "fng": {
   "value": 65,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.55634649912736,
-  "eth_dominance": 11.161692618669337,
-  "total_mcap_usd": 2619485682565.6104,
-  "mcap_change_24h": -1.9111818077468181
+  "btc_dominance": 59.30776258886379,
+  "eth_dominance": 11.122981471825943,
+  "total_mcap_usd": 2721481481594.8994,
+  "mcap_change_24h": 1.3876156873671914
  },
  "defi": {
-  "tvl_usd": 85413572758.0,
-  "change_1d": 0.005382488372802863,
-  "change_7d": -0.017073077492829047,
-  "change_1y": -0.42978994749383936,
-  "range_pos_1y": 0.1700957587546654
+  "tvl_usd": 86831608899.0,
+  "change_1d": 0.022056095689017674,
+  "change_7d": -0.0007550018018670501,
+  "change_1y": -0.42032332016159835,
+  "range_pos_1y": 0.18383637296432712
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "大和ハウス 一戸建ての部門再編へ",
+   "link": "https://news.yahoo.co.jp/pickup/6594146?source=rss",
+   "published": "09/03 23:16",
+   "ts": 1788444981.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「純金」実は銅と鉄 偽サイト被害",
    "link": "https://news.yahoo.co.jp/pickup/6594130?source=rss",
    "published": "09/03 20:10",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594090?source=rss",
    "published": "09/03 13:06",
    "ts": 1788408363.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "パワハラ報道巡り 東京MKが会見",
-   "link": "https://news.yahoo.co.jp/pickup/6594031?source=rss",
-   "published": "09/02 22:36",
-   "ts": 1788356216.0,
    "source": "Yahoo!",
    "desc": ""
   }
