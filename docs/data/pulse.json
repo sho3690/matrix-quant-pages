@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-04 13:43:29",
+ "updated_at": "2026-09-04 20:28:25",
  "fng": {
   "value": 74,
   "label": "強欲",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.29974762935407,
-  "eth_dominance": 11.190245662485552,
-  "total_mcap_usd": 2734724776748.247,
-  "mcap_change_24h": 1.333262026053107
+  "btc_dominance": 59.77350587515112,
+  "eth_dominance": 11.289790820118021,
+  "total_mcap_usd": 2719637338965.0034,
+  "mcap_change_24h": 1.3431775984413958
  },
  "defi": {
-  "tvl_usd": 87884758563.0,
-  "change_1d": 0.03455468525567773,
-  "change_7d": 0.0018632790176829062,
-  "change_1y": -0.4265515922203621,
-  "range_pos_1y": 0.19404156632392963
+  "tvl_usd": 88343998245.0,
+  "change_1d": 0.04000945732378658,
+  "change_7d": 0.007098491370616022,
+  "change_1y": -0.42355505142377625,
+  "range_pos_1y": 0.198491674331762
  },
  "news_crypto": [
+  {
+   "title": "韓国、トークン化証券制度27年2月施行へ",
+   "link": "https://coinpost.jp/?p=735616",
+   "published": "09/04 14:15",
+   "ts": 1788498911.0,
+   "source": "CoinPost",
+   "desc": "韓国金融委員会はトークン証券制度で資産プーリングを条件付き容認し、私募から個人向け証券、決済までの段階拡大を検討している。2027年2月の制度施行を予定する。"
+  },
+  {
+   "title": "国際決済銀行、XRP台帳を使ったデータ検証プロトタイプで論文公開",
+   "link": "https://coinpost.jp/?p=735563",
+   "published": "09/04 13:45",
+   "ts": 1788497137.0,
+   "source": "CoinPost",
+   "desc": "国際決済銀行の職員らがXRP台帳を使い統計データの検証を行う実験システムを紹介する論文を発表した。概念実証段階だが、XRP台帳の利点を評価し用途を説明した。"
+  },
   {
    "title": "SBI VCトレードとビットポイント、計9銘柄の取扱い廃止へ",
    "link": "https://coinpost.jp/?p=735603",
@@ -97,46 +113,38 @@
    "ts": 1788482447.0,
    "source": "CoinPost",
    "desc": "米上場ストライブのマット・コールCEOは、ビットコインが2030年までに50万〜100万ドルに達するとの予測を示し、同社は保有拡大と財務規律の両立を進めている。"
-  },
-  {
-   "title": "セキュリタイズとSocios.comが提携、プロスポーツチームの株式をトークン化へ",
-   "link": "https://coinpost.jp/?p=735509",
-   "published": "09/04 08:15",
-   "ts": 1788477338.0,
-   "source": "CoinPost",
-   "desc": "セキュリタイズとSocios.comは提携を発表。プロスポーツチームの少数持分の株式を規制に準拠してトークン化し、提供することを計画している。"
-  },
-  {
-   "title": "コインベース、米国株式の無期限先物提供を申請　広がる需要受け",
-   "link": "https://coinpost.jp/?p=735493",
-   "published": "09/04 07:45",
-   "ts": 1788475549.0,
-   "source": "CoinPost",
-   "desc": "米仮想通貨取引所大手コインベースは、米国内で単一銘柄の株式に連動する無期限先物取引の提供に向けてSECへ届出登録を行ったと発表した。CFTCとの連携も進め、米国投資家向けの規制下取引の実現を目指す。"
   }
  ],
  "news_jp": [
+  {
+   "title": "アルファード中古価格が下落 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6594222?source=rss",
+   "published": "09/04 18:15",
+   "ts": 1788513312.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "大手居酒屋も100円台の酒 狙いは",
+   "link": "https://news.yahoo.co.jp/pickup/6594220?source=rss",
+   "published": "09/04 18:15",
+   "ts": 1788513312.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "三省堂書店池袋本店 12/31閉店へ",
+   "link": "https://news.yahoo.co.jp/pickup/6594204?source=rss",
+   "published": "09/04 14:29",
+   "ts": 1788499794.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ニデックの品質不正844件認定",
    "link": "https://news.yahoo.co.jp/pickup/6594197?source=rss",
    "published": "09/04 13:25",
    "ts": 1788495940.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "子が過去最少も 子供服なぜ売れる",
-   "link": "https://news.yahoo.co.jp/pickup/6594194?source=rss",
-   "published": "09/04 12:27",
-   "ts": 1788492444.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "独VW 5万人追加削減の計画承認",
-   "link": "https://news.yahoo.co.jp/pickup/6594187?source=rss",
-   "published": "09/04 11:57",
-   "ts": 1788490661.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594178?source=rss",
    "published": "09/04 11:03",
    "ts": 1788487416.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "退職代行 弁護士参入で存在感薄れ",
-   "link": "https://news.yahoo.co.jp/pickup/6594173?source=rss",
-   "published": "09/04 10:12",
-   "ts": 1788484345.0,
    "source": "Yahoo!",
    "desc": ""
   },
