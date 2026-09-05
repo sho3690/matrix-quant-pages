@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05 13:39:56",
+ "updated_at": "2026-09-05 19:45:03",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.145144639380796,
-  "eth_dominance": 11.07807845126317,
-  "total_mcap_usd": 2694626395395.003,
-  "mcap_change_24h": -3.8861071738840924
+  "btc_dominance": 59.01808109191472,
+  "eth_dominance": 11.056894318662133,
+  "total_mcap_usd": 2704377655300.0703,
+  "mcap_change_24h": -3.0973871830037405
  },
  "defi": {
-  "tvl_usd": 87264374114.0,
-  "change_1d": -0.00945930080987456,
-  "change_7d": 0.014750644635816768,
-  "change_1y": -0.4191149002157658,
-  "range_pos_1y": 0.18802993902722115
+  "tvl_usd": 87282852156.0,
+  "change_1d": -0.009367400152363925,
+  "change_7d": 0.01496551588449635,
+  "change_1y": -0.41899189905544165,
+  "range_pos_1y": 0.18820899429160062
  },
  "news_crypto": [
+  {
+   "title": "リップル社、フロリダ大学アスレティクスと提携　スタジアムにXRPロゴ掲出へ",
+   "link": "https://coinpost.jp/?p=735744",
+   "published": "09/05 14:30",
+   "ts": 1788586228.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨大手リップル社が米フロリダ大学アスレチックスと複数年パートナーシップを締結した。スタジアムにXRPロゴを掲出するほか、学生向け金融教育も支援する。"
+  },
   {
    "title": "新種ETF審査、速度か安全性か　米仮想通貨業界内で意見対立",
    "link": "https://coinpost.jp/?p=735719",
@@ -105,17 +113,49 @@
    "ts": 1788560111.0,
    "source": "CoinPost",
    "desc": "ロビンフッドはAMCエンターテインメントの株式トークン取引停止要求を拒否した。対象国や米国内での法的位置づけについて外部の弁護士も見解を示した。"
-  },
-  {
-   "title": "ロビンフッドチェーン、4日夜約14分のブロック生成障害が発生",
-   "link": "https://coinpost.jp/?p=735698",
-   "published": "09/05 06:40",
-   "ts": 1788558013.0,
-   "source": "CoinPost",
-   "desc": "米ロビンフッドのレイヤー2「ロビンフッドチェーン」で9月4日夜、ブロック生成が約14分間停止し送金や取引が一時滞った。現在は復旧済み。"
   }
  ],
  "news_jp": [
+  {
+   "title": "くら寿司「ちいかわ」コラボ中止",
+   "link": "https://news.yahoo.co.jp/pickup/6594339?source=rss",
+   "published": "09/05 19:42",
+   "ts": 1788604943.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マンション一室で旅館業 民泊問題",
+   "link": "https://news.yahoo.co.jp/pickup/6594334?source=rss",
+   "published": "09/05 18:54",
+   "ts": 1788602060.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "水道代の値上げ相次ぐ 家計を圧迫",
+   "link": "https://news.yahoo.co.jp/pickup/6594315?source=rss",
+   "published": "09/05 16:24",
+   "ts": 1788593046.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "家買う若者と3畳住む若者 共通点",
+   "link": "https://news.yahoo.co.jp/pickup/6594316?source=rss",
+   "published": "09/05 16:20",
+   "ts": 1788592827.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "まんじゅうをネット転売 通常便で",
+   "link": "https://news.yahoo.co.jp/pickup/6594297?source=rss",
+   "published": "09/05 13:49",
+   "ts": 1788583766.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "住宅購入急ぐ若年層 リスクに警鐘",
    "link": "https://news.yahoo.co.jp/pickup/6594274?source=rss",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594267?source=rss",
    "published": "09/05 08:38",
    "ts": 1788565086.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "神奈川県民の生涯通勤 労働8年分",
-   "link": "https://news.yahoo.co.jp/pickup/6594263?source=rss",
-   "published": "09/05 08:29",
-   "ts": 1788564582.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "セブンがアパレルに本格参入 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6594250?source=rss",
-   "published": "09/05 07:02",
-   "ts": 1788559364.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "アルファード中古価格が下落 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6594222?source=rss",
-   "published": "09/04 18:15",
-   "ts": 1788513312.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "三省堂書店池袋本店 12/31閉店へ",
-   "link": "https://news.yahoo.co.jp/pickup/6594204?source=rss",
-   "published": "09/04 14:29",
-   "ts": 1788499794.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニデックの品質不正844件認定",
-   "link": "https://news.yahoo.co.jp/pickup/6594197?source=rss",
-   "published": "09/04 13:25",
-   "ts": 1788495940.0,
    "source": "Yahoo!",
    "desc": ""
   }
