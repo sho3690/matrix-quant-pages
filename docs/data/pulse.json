@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-05 08:05:09",
+ "updated_at": "2026-09-05 13:39:56",
  "fng": {
-  "value": 74,
+  "value": 73,
   "label": "強欲",
   "history": [
-   25,
    29,
    30,
    31,
@@ -33,23 +32,64 @@
    69,
    63,
    65,
-   74
+   74,
+   73
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.2295421588092,
-  "eth_dominance": 11.078274712837317,
-  "total_mcap_usd": 2693665406311.65,
-  "mcap_change_24h": -4.128656521361702
+  "btc_dominance": 59.145144639380796,
+  "eth_dominance": 11.07807845126317,
+  "total_mcap_usd": 2694626395395.003,
+  "mcap_change_24h": -3.8861071738840924
  },
  "defi": {
-  "tvl_usd": 87232063974.0,
-  "change_1d": 0.02696451362766883,
-  "change_7d": -0.005575133228196694,
-  "change_1y": -0.43081042707350825,
-  "range_pos_1y": 0.18771684845951714
+  "tvl_usd": 87264374114.0,
+  "change_1d": -0.00945930080987456,
+  "change_7d": 0.014750644635816768,
+  "change_1y": -0.4191149002157658,
+  "range_pos_1y": 0.18802993902722115
  },
  "news_crypto": [
+  {
+   "title": "新種ETF審査、速度か安全性か　米仮想通貨業界内で意見対立",
+   "link": "https://coinpost.jp/?p=735719",
+   "published": "09/05 13:35",
+   "ts": 1788582956.0,
+   "source": "CoinPost",
+   "desc": "米SECが検討する新種ETFの規制枠組みを巡り、グレースケールや21シェアーズ、a16zなど複数の仮想通貨企業が意見書を提出した。SECは対応時期をまだ示していない。"
+  },
+  {
+   "title": "ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ",
+   "link": "https://coinpost.jp/?p=735720",
+   "published": "09/05 11:20",
+   "ts": 1788574858.0,
+   "source": "CoinPost",
+   "desc": "ビットワイズは、ビットコインと金の90日相関性2020年以来の高水準に達したと分析。ビットコイン相場と米国株の連動性は低下しており、投資家心理の変化を示唆している。"
+  },
+  {
+   "title": "バイナンス、MiCAライセンス未取得でもEU事業継続＝報道",
+   "link": "https://coinpost.jp/?p=735695",
+   "published": "09/05 10:15",
+   "ts": 1788570905.0,
+   "source": "CoinPost",
+   "desc": "ブルームバーグの報道によると、バイナンスはMiCAライセンス未取得のままEUで事業を続けており、反転勧誘条項やアブダビ法人への取引誘導など複数の抜け道が背景にあると指摘。"
+  },
+  {
+   "title": "金融庁、暗号資産・ステーブルコイン政策の戦略的対応などで「目標達成」と報告",
+   "link": "https://coinpost.jp/?p=735726",
+   "published": "09/05 09:55",
+   "ts": 1788569740.0,
+   "source": "CoinPost",
+   "desc": "金融庁が金融行政に関する実績評価書を公開。仮想通貨の金商法移管やステーブルコイン活用などデジタル金融戦略の取組みを「目標達成」と自己評価したことがわかった。"
+  },
+  {
+   "title": "ビットコインが金と同様の値動きに、コインシェアーズ分析",
+   "link": "https://coinpost.jp/?p=735696",
+   "published": "09/05 09:10",
+   "ts": 1788567008.0,
+   "source": "CoinPost",
+   "desc": "コインシェアーズは4日付リポートで、米財政懸念から仮想通貨ビットコインが金と同様の値動きを強め一時8万100ドルまで上昇したと分析、9月のFRB利上げ確率や資金フロー動向にも言及した。"
+  },
   {
    "title": "仮想通貨ウォレットTrezorの配送委託先で情報漏洩、新たに約6.7万人の被害を公表",
    "link": "https://coinpost.jp/?p=735713",
@@ -73,49 +113,41 @@
    "ts": 1788558013.0,
    "source": "CoinPost",
    "desc": "米ロビンフッドのレイヤー2「ロビンフッドチェーン」で9月4日夜、ブロック生成が約14分間停止し送金や取引が一時滞った。現在は復旧済み。"
-  },
-  {
-   "title": "ジーキャッシュが約10年ぶりの高値に、時価総額は一時10位突入",
-   "link": "https://coinpost.jp/?p=735699",
-   "published": "09/05 06:15",
-   "ts": 1788556522.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ジーキャッシュ（ZEC）が1000ドルを突破した。グレースケールの現物ETFへの資金流入とマイニング参入増加が相場を押し上げ、時価総額は170億ドル規模に達した。"
-  },
-  {
-   "title": "全米保安官協会が中立表明、クラリティー法案の上院採決に追い風か",
-   "link": "https://coinpost.jp/?p=735700",
-   "published": "09/05 05:50",
-   "ts": 1788555024.0,
-   "source": "CoinPost",
-   "desc": "全米保安官協会が9月3日付の書簡で、クラリティー法案への立場を反対から中立に変更したと明らかにした。警察系団体の抵抗後退は9月15日の上院採決を後押しする材料となりそうだ。"
-  },
-  {
-   "title": "IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ",
-   "link": "https://coinpost.jp/?p=735685",
-   "published": "09/05 05:00",
-   "ts": 1788552045.0,
-   "source": "CoinPost",
-   "desc": "IMFはエルサルバドルとの審査合意を発表し、同国の第1次審査以降のビットコイン積み増しが民間寄付のみによるものだと確認した。理事会承認を経て約1億4,000万ドルの供与が見込まれる。"
-  },
-  {
-   "title": "韓国、トークン化証券制度27年2月施行へ",
-   "link": "https://coinpost.jp/?p=735616",
-   "published": "09/04 14:15",
-   "ts": 1788498911.0,
-   "source": "CoinPost",
-   "desc": "韓国金融委員会はトークン証券制度で資産プーリングを条件付き容認し、私募から個人向け証券、決済までの段階拡大を検討している。2027年2月の制度施行を予定する。"
-  },
-  {
-   "title": "国際決済銀行、XRP台帳を使ったデータ検証プロトタイプで論文公開",
-   "link": "https://coinpost.jp/?p=735563",
-   "published": "09/04 13:45",
-   "ts": 1788497137.0,
-   "source": "CoinPost",
-   "desc": "国際決済銀行の職員らがXRP台帳を使い統計データの検証を行う実験システムを紹介する論文を発表した。概念実証段階だが、XRP台帳の利点を評価し用途を説明した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "住宅購入急ぐ若年層 リスクに警鐘",
+   "link": "https://news.yahoo.co.jp/pickup/6594274?source=rss",
+   "published": "09/05 09:37",
+   "ts": 1788568634.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ニデック不正 利益至上主義が浸透",
+   "link": "https://news.yahoo.co.jp/pickup/6594268?source=rss",
+   "published": "09/05 09:03",
+   "ts": 1788566584.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "障害者雇用巡り那覇の業者を調査",
+   "link": "https://news.yahoo.co.jp/pickup/6594267?source=rss",
+   "published": "09/05 08:38",
+   "ts": 1788565086.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "神奈川県民の生涯通勤 労働8年分",
+   "link": "https://news.yahoo.co.jp/pickup/6594263?source=rss",
+   "published": "09/05 08:29",
+   "ts": 1788564582.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "セブンがアパレルに本格参入 なぜ",
    "link": "https://news.yahoo.co.jp/pickup/6594250?source=rss",
@@ -125,24 +157,8 @@
    "desc": ""
   },
   {
-   "title": "米8月雇用16.2万人増 予想上回る",
-   "link": "https://news.yahoo.co.jp/pickup/6594237?source=rss",
-   "published": "09/04 22:21",
-   "ts": 1788528082.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "アルファード中古価格が下落 なぜ",
    "link": "https://news.yahoo.co.jp/pickup/6594222?source=rss",
-   "published": "09/04 18:15",
-   "ts": 1788513312.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大手居酒屋も100円台の酒 狙いは",
-   "link": "https://news.yahoo.co.jp/pickup/6594220?source=rss",
    "published": "09/04 18:15",
    "ts": 1788513312.0,
    "source": "Yahoo!",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594197?source=rss",
    "published": "09/04 13:25",
    "ts": 1788495940.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "保育園の倒産・廃業 1-8月で最多",
-   "link": "https://news.yahoo.co.jp/pickup/6594179?source=rss",
-   "published": "09/04 11:20",
-   "ts": 1788488444.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン爆発 避難後に客も再入館",
-   "link": "https://news.yahoo.co.jp/pickup/6594178?source=rss",
-   "published": "09/04 11:03",
-   "ts": 1788487416.0,
    "source": "Yahoo!",
    "desc": ""
   }
