@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05 19:45:03",
+ "updated_at": "2026-09-06 00:20:53",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.01808109191472,
-  "eth_dominance": 11.056894318662133,
-  "total_mcap_usd": 2704377655300.0703,
-  "mcap_change_24h": -3.0973871830037405
+  "btc_dominance": 58.92446502980798,
+  "eth_dominance": 11.043457250175594,
+  "total_mcap_usd": 2711824491734.228,
+  "mcap_change_24h": -1.25444115764075
  },
  "defi": {
-  "tvl_usd": 87282852156.0,
-  "change_1d": -0.009367400152363925,
-  "change_7d": 0.01496551588449635,
-  "change_1y": -0.41899189905544165,
-  "range_pos_1y": 0.18820899429160062
+  "tvl_usd": 87549878010.0,
+  "change_1d": -0.006720692284469587,
+  "change_7d": 0.0180706164508162,
+  "change_1y": -0.41721441149054916,
+  "range_pos_1y": 0.19079651871026615
  },
  "news_crypto": [
   {
@@ -117,10 +117,26 @@
  ],
  "news_jp": [
   {
-   "title": "くら寿司「ちいかわ」コラボ中止",
-   "link": "https://news.yahoo.co.jp/pickup/6594339?source=rss",
-   "published": "09/05 19:42",
-   "ts": 1788604943.0,
+   "title": "くら寿司コラボ中止 従業員が不正",
+   "link": "https://news.yahoo.co.jp/pickup/6594359?source=rss",
+   "published": "09/05 22:39",
+   "ts": 1788615567.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "盛んな国も 実在する「時間銀行」",
+   "link": "https://news.yahoo.co.jp/pickup/6594354?source=rss",
+   "published": "09/05 22:07",
+   "ts": 1788613656.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "獺祭が1億円寄付 豪雨被災地など",
+   "link": "https://news.yahoo.co.jp/pickup/6594343?source=rss",
+   "published": "09/05 20:19",
+   "ts": 1788607173.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594274?source=rss",
    "published": "09/05 09:37",
    "ts": 1788568634.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニデック不正 利益至上主義が浸透",
-   "link": "https://news.yahoo.co.jp/pickup/6594268?source=rss",
-   "published": "09/05 09:03",
-   "ts": 1788566584.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "障害者雇用巡り那覇の業者を調査",
-   "link": "https://news.yahoo.co.jp/pickup/6594267?source=rss",
-   "published": "09/05 08:38",
-   "ts": 1788565086.0,
    "source": "Yahoo!",
    "desc": ""
   }
