@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-06 20:06:36",
+ "updated_at": "2026-09-07 00:33:58",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,10 +37,10 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.1986434550458,
-  "eth_dominance": 11.252285471912504,
-  "total_mcap_usd": 2705976034201.2944,
-  "mcap_change_24h": -2.478553399939683
+  "btc_dominance": 59.27086623007942,
+  "eth_dominance": 11.214623158851968,
+  "total_mcap_usd": 2692413872093.6772,
+  "mcap_change_24h": -3.331000558965392
  },
  "defi": {
   "tvl_usd": 88172136234.0,
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "全国の鉄道・フライト 最新情報",
+   "link": "https://news.yahoo.co.jp/pickup/6591369?source=rss",
+   "published": "09/06 23:22",
+   "ts": 1788704566.0,
+   "source": "Yahoo!",
+   "desc": "最新の鉄道運行情報、フライト情報。災害による交通機関への影響を確認。"
+  },
+  {
+   "title": "おせち商戦 若者取り込みへ新趣向",
+   "link": "https://news.yahoo.co.jp/pickup/6594464?source=rss",
+   "published": "09/06 21:30",
+   "ts": 1788697845.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "長期金利上昇 市場が積極財政警戒",
    "link": "https://news.yahoo.co.jp/pickup/6594441?source=rss",
    "published": "09/06 17:36",
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "「直パケレシピ」企業が次々公開",
-   "link": "https://news.yahoo.co.jp/pickup/6594403?source=rss",
-   "published": "09/06 11:56",
-   "ts": 1788663388.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "コラボ中止のくら寿司 割引を発表",
    "link": "https://news.yahoo.co.jp/pickup/6594399?source=rss",
    "published": "09/06 11:01",
    "ts": 1788660108.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ピュアラルグミの販売終了を発表",
-   "link": "https://news.yahoo.co.jp/pickup/6594392?source=rss",
-   "published": "09/06 10:22",
-   "ts": 1788657757.0,
    "source": "Yahoo!",
    "desc": ""
   }
