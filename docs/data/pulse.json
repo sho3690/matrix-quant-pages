@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-06 07:59:37",
+ "updated_at": "2026-09-06 13:50:01",
  "fng": {
   "value": 73,
   "label": "強欲",
   "history": [
-   29,
    30,
    31,
    30,
@@ -33,23 +32,32 @@
    63,
    65,
    74,
+   73,
    73
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.81401594334048,
-  "eth_dominance": 11.110330695815408,
-  "total_mcap_usd": 2718065743840.1147,
-  "mcap_change_24h": -1.7571853465115232
+  "btc_dominance": 59.21003093558329,
+  "eth_dominance": 11.269639025568404,
+  "total_mcap_usd": 2704456965451.5503,
+  "mcap_change_24h": -2.3361246453352065
  },
  "defi": {
-  "tvl_usd": 87945366163.0,
-  "change_1d": -0.002230890688051379,
-  "change_7d": 0.022669536253739464,
-  "change_1y": -0.41458180021531366,
-  "range_pos_1y": 0.19462886392272796
+  "tvl_usd": 88172136234.0,
+  "change_1d": 0.014842409017569391,
+  "change_7d": 0.022464999870745572,
+  "change_1y": -0.4151112039681366,
+  "range_pos_1y": 0.19682630318692376
  },
  "news_crypto": [
+  {
+   "title": "週刊仮想通貨ニュース（9/4）｜相場分析・ストラテジーBTC戦略・金融庁の税制改正要望のまとめ",
+   "link": "https://coinpost.jp/?p=735559",
+   "published": "09/06 09:25",
+   "ts": 1788654357.0,
+   "source": "CoinPost",
+   "desc": "今週は、アーサー・ヘイズ氏らによる仮想通貨の相場分析、ストラテジーのビットコイン戦略、金融庁による税制改正要望の公表に関する記事が関心を集めた。"
+  },
   {
    "title": "リップル社、フロリダ大学アスレティクスと提携　スタジアムにXRPロゴ掲出へ",
    "link": "https://coinpost.jp/?p=735744",
@@ -105,17 +113,49 @@
    "ts": 1788561900.0,
    "source": "CoinPost",
    "desc": "仮想通貨ハードウェアウォレット大手のTrezorは、物流パートナーShipMonkで起きたデータ侵害について新たな情報を公表。被害の範囲が当初の説明よりも広いことが判明したと報告した。"
-  },
-  {
-   "title": "ロビンフッド、AMCの株式トークン停止要求を拒否",
-   "link": "https://coinpost.jp/?p=735697",
-   "published": "09/05 07:15",
-   "ts": 1788560111.0,
-   "source": "CoinPost",
-   "desc": "ロビンフッドはAMCエンターテインメントの株式トークン取引停止要求を拒否した。対象国や米国内での法的位置づけについて外部の弁護士も見解を示した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「直パケレシピ」企業が次々公開",
+   "link": "https://news.yahoo.co.jp/pickup/6594403?source=rss",
+   "published": "09/06 11:56",
+   "ts": 1788663388.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "コラボ中止のくら寿司 割引を発表",
+   "link": "https://news.yahoo.co.jp/pickup/6594399?source=rss",
+   "published": "09/06 11:01",
+   "ts": 1788660108.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ピュアラルグミの販売終了を発表",
+   "link": "https://news.yahoo.co.jp/pickup/6594392?source=rss",
+   "published": "09/06 10:22",
+   "ts": 1788657757.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "子供の「憧れの島」佐渡島が話題",
+   "link": "https://news.yahoo.co.jp/pickup/6594391?source=rss",
+   "published": "09/06 09:37",
+   "ts": 1788655036.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "出版業の倒産急増 利益が悪化傾向",
+   "link": "https://news.yahoo.co.jp/pickup/6594376?source=rss",
+   "published": "09/06 08:07",
+   "ts": 1788649647.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "くら寿司コラボ中止 従業員が不正",
    "link": "https://news.yahoo.co.jp/pickup/6594359?source=rss",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594343?source=rss",
    "published": "09/05 20:19",
    "ts": 1788607173.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マンション一室で旅館業 民泊問題",
-   "link": "https://news.yahoo.co.jp/pickup/6594334?source=rss",
-   "published": "09/05 18:54",
-   "ts": 1788602060.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "水道代の値上げ相次ぐ 家計を圧迫",
-   "link": "https://news.yahoo.co.jp/pickup/6594315?source=rss",
-   "published": "09/05 16:24",
-   "ts": 1788593046.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "家買う若者と3畳住む若者 共通点",
-   "link": "https://news.yahoo.co.jp/pickup/6594316?source=rss",
-   "published": "09/05 16:20",
-   "ts": 1788592827.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "まんじゅうをネット転売 通常便で",
-   "link": "https://news.yahoo.co.jp/pickup/6594297?source=rss",
-   "published": "09/05 13:49",
-   "ts": 1788583766.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "住宅購入急ぐ若年層 リスクに警鐘",
-   "link": "https://news.yahoo.co.jp/pickup/6594274?source=rss",
-   "published": "09/05 09:37",
-   "ts": 1788568634.0,
    "source": "Yahoo!",
    "desc": ""
   }
