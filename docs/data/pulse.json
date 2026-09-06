@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-07 00:33:58",
+ "updated_at": "2026-09-07 07:55:54",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,10 +37,10 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.27086623007942,
-  "eth_dominance": 11.214623158851968,
-  "total_mcap_usd": 2692413872093.6772,
-  "mcap_change_24h": -3.331000558965392
+  "btc_dominance": 59.191329270831886,
+  "eth_dominance": 11.272045765711589,
+  "total_mcap_usd": 2710065767434.5435,
+  "mcap_change_24h": -3.113222886522582
  },
  "defi": {
   "tvl_usd": 88172136234.0,
@@ -50,6 +50,14 @@
   "range_pos_1y": 0.19682630318692376
  },
  "news_crypto": [
+  {
+   "title": "メタプラネットCEO、透明性強化を表明　MMXX出資巡り説明",
+   "link": "https://coinpost.jp/?p=735784",
+   "published": "09/07 07:32",
+   "ts": 1788733959.0,
+   "source": "CoinPost",
+   "desc": "メタプラネットCEOのサイモン・ゲロヴィッチ氏が9月6日、株主向けにXで声明を発表。株主のMMXXベンチャーズとの資本関係や第10回新株予約権の設計見直しを説明し、ビットコイン保有企業として企業統治・情報開示を強化する方針を示した。"
+  },
   {
    "title": "ETH・SOL・HYPEをファストフードチェーンに例えると？　アークインベストがL1のビジネスモデルを分析",
    "link": "https://coinpost.jp/?p=735613",
@@ -105,17 +113,17 @@
    "ts": 1788569740.0,
    "source": "CoinPost",
    "desc": "金融庁が金融行政に関する実績評価書を公開。仮想通貨の金商法移管やステーブルコイン活用などデジタル金融戦略の取組みを「目標達成」と自己評価したことがわかった。"
-  },
-  {
-   "title": "ビットコインが金と同様の値動きに、コインシェアーズ分析",
-   "link": "https://coinpost.jp/?p=735696",
-   "published": "09/05 09:10",
-   "ts": 1788567008.0,
-   "source": "CoinPost",
-   "desc": "コインシェアーズは4日付リポートで、米財政懸念から仮想通貨ビットコインが金と同様の値動きを強め一時8万100ドルまで上昇したと分析、9月のFRB利上げ確率や資金フロー動向にも言及した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "東北新幹線一部見合わせ 人身事故",
+   "link": "https://news.yahoo.co.jp/pickup/6594492?source=rss",
+   "published": "09/07 07:46",
+   "ts": 1788734775.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "全国の鉄道・フライト 最新情報",
    "link": "https://news.yahoo.co.jp/pickup/6591369?source=rss",
@@ -145,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594432?source=rss",
    "published": "09/06 16:25",
    "ts": 1788679531.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "複数作業員に列車接近 JR西で3月",
-   "link": "https://news.yahoo.co.jp/pickup/6594428?source=rss",
-   "published": "09/06 16:18",
-   "ts": 1788679118.0,
    "source": "Yahoo!",
    "desc": ""
   },
