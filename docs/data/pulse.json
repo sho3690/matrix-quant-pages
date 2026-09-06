@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-06 13:50:01",
+ "updated_at": "2026-09-06 20:06:36",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,10 +37,10 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.21003093558329,
-  "eth_dominance": 11.269639025568404,
-  "total_mcap_usd": 2704456965451.5503,
-  "mcap_change_24h": -2.3361246453352065
+  "btc_dominance": 59.1986434550458,
+  "eth_dominance": 11.252285471912504,
+  "total_mcap_usd": 2705976034201.2944,
+  "mcap_change_24h": -2.478553399939683
  },
  "defi": {
   "tvl_usd": 88172136234.0,
@@ -50,6 +50,14 @@
   "range_pos_1y": 0.19682630318692376
  },
  "news_crypto": [
+  {
+   "title": "ETH・SOL・HYPEをファストフードチェーンに例えると？　アークインベストがL1のビジネスモデルを分析",
+   "link": "https://coinpost.jp/?p=735613",
+   "published": "09/06 14:00",
+   "ts": 1788670803.0,
+   "source": "CoinPost",
+   "desc": "アークインベストのリサーチディレクターが、イーサリアム・ソラナ・ハイパーリキッドの3大L1をファストフード業界に例えた分析を発表した。3つを同一のビジネスモデルとして比較するのではなく、それぞれ異なる事業構造・収益モデルを持つものとして個別に評価すべきだと主張している。"
+  },
   {
    "title": "週刊仮想通貨ニュース（9/4）｜相場分析・ストラテジーBTC戦略・金融庁の税制改正要望のまとめ",
    "link": "https://coinpost.jp/?p=735559",
@@ -105,17 +113,49 @@
    "ts": 1788567008.0,
    "source": "CoinPost",
    "desc": "コインシェアーズは4日付リポートで、米財政懸念から仮想通貨ビットコインが金と同様の値動きを強め一時8万100ドルまで上昇したと分析、9月のFRB利上げ確率や資金フロー動向にも言及した。"
-  },
-  {
-   "title": "仮想通貨ウォレットTrezorの配送委託先で情報漏洩、新たに約6.7万人の被害を公表",
-   "link": "https://coinpost.jp/?p=735713",
-   "published": "09/05 07:45",
-   "ts": 1788561900.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ハードウェアウォレット大手のTrezorは、物流パートナーShipMonkで起きたデータ侵害について新たな情報を公表。被害の範囲が当初の説明よりも広いことが判明したと報告した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "長期金利上昇 市場が積極財政警戒",
+   "link": "https://news.yahoo.co.jp/pickup/6594441?source=rss",
+   "published": "09/06 17:36",
+   "ts": 1788683782.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "包丁の保有率 20代女性で9割切る",
+   "link": "https://news.yahoo.co.jp/pickup/6594432?source=rss",
+   "published": "09/06 16:25",
+   "ts": 1788679531.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "複数作業員に列車接近 JR西で3月",
+   "link": "https://news.yahoo.co.jp/pickup/6594428?source=rss",
+   "published": "09/06 16:18",
+   "ts": 1788679118.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "くら寿司巡る騒動 割引で収まる?",
+   "link": "https://news.yahoo.co.jp/pickup/6594424?source=rss",
+   "published": "09/06 15:34",
+   "ts": 1788676462.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "くら寿司コラボ中止 客は落胆の声",
+   "link": "https://news.yahoo.co.jp/pickup/6594416?source=rss",
+   "published": "09/06 13:51",
+   "ts": 1788670265.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "「直パケレシピ」企業が次々公開",
    "link": "https://news.yahoo.co.jp/pickup/6594403?source=rss",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594392?source=rss",
    "published": "09/06 10:22",
    "ts": 1788657757.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "子供の「憧れの島」佐渡島が話題",
-   "link": "https://news.yahoo.co.jp/pickup/6594391?source=rss",
-   "published": "09/06 09:37",
-   "ts": 1788655036.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "出版業の倒産急増 利益が悪化傾向",
-   "link": "https://news.yahoo.co.jp/pickup/6594376?source=rss",
-   "published": "09/06 08:07",
-   "ts": 1788649647.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "くら寿司コラボ中止 従業員が不正",
-   "link": "https://news.yahoo.co.jp/pickup/6594359?source=rss",
-   "published": "09/05 22:39",
-   "ts": 1788615567.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "盛んな国も 実在する「時間銀行」",
-   "link": "https://news.yahoo.co.jp/pickup/6594354?source=rss",
-   "published": "09/05 22:07",
-   "ts": 1788613656.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "獺祭が1億円寄付 豪雨被災地など",
-   "link": "https://news.yahoo.co.jp/pickup/6594343?source=rss",
-   "published": "09/05 20:19",
-   "ts": 1788607173.0,
    "source": "Yahoo!",
    "desc": ""
   }
