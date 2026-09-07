@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-07 13:54:59",
+ "updated_at": "2026-09-07 21:46:07",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,10 +37,10 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.17814167356181,
-  "eth_dominance": 11.272353586372578,
-  "total_mcap_usd": 2697668760871.999,
-  "mcap_change_24h": -3.037830165182041
+  "btc_dominance": 59.107660594287125,
+  "eth_dominance": 11.266813121972435,
+  "total_mcap_usd": 2693945280365.7144,
+  "mcap_change_24h": -3.031785222964306
  },
  "defi": {
   "tvl_usd": 88172136234.0,
@@ -50,6 +50,30 @@
   "range_pos_1y": 0.19682630318692376
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン現物ETFに先週約1539億円純流入、3週連続",
+   "link": "https://coinpost.jp/?p=735999",
+   "published": "09/07 16:32",
+   "ts": 1788766332.0,
+   "source": "CoinPost",
+   "desc": "米ビットコイン現物ETFが週間で約1539億円の純流入を記録し、3週連続のプラスとなった。イーサリアムは約341億円、ソラナは10週連続の流入となるなど、複数銘柄でETF資金流入が広がっている状況を整理した。"
+  },
+  {
+   "title": "イラン紛争でビットコインが中東の「リスク回避手段」に浮上＝BPI分析",
+   "link": "https://coinpost.jp/?p=735943",
+   "published": "09/07 14:27",
+   "ts": 1788758863.0,
+   "source": "CoinPost",
+   "desc": "米シンクタンクBPIの分析によると、イランをめぐる紛争を機に中東・北アフリカ地域でビットコインがリスク回避手段としての存在感を高めている。エジプトやトルコでは通貨安対策、UAEやサウジでは経済多角化戦略として、域内での活用が二極化している。"
+  },
+  {
+   "title": "リキッド準備金ウォレットから約4000BTC流出",
+   "link": "https://coinpost.jp/?p=735899",
+   "published": "09/07 14:09",
+   "ts": 1788757772.0,
+   "source": "CoinPost",
+   "desc": "リキッドネットワークの準備金ウォレットから約4,000BTC（約499億円）が引き出された。公式はSideSwapのペグアウト承認キー経由と説明しつつ鍵の侵害を否定。返還は未確定で、ネットワークは停止中だ。"
+  },
   {
    "title": "米ルミス上院議員、クラリティー法「2030年待ち」回避へ再警告",
    "link": "https://coinpost.jp/?p=735931",
@@ -89,33 +113,49 @@
    "ts": 1788740196.0,
    "source": "CoinPost",
    "desc": "レイヤー1仮想通貨プロジェクト「ハーモニー」が度重なる攻撃を背景にネットワーク終了とONEトークンのイーサリアム移行を提案した。新たにAI動画事業の構想も発表している。"
-  },
-  {
-   "title": "2010年採掘の100ビットコイン、16年半ぶりに移動か",
-   "link": "https://coinpost.jp/?p=735795",
-   "published": "09/07 09:11",
-   "ts": 1788739901.0,
-   "source": "CoinPost",
-   "desc": "2010年3月採掘とされる100BTC（約12.5億円相当）が16年半ぶりに新アドレスへ移動したことが判明。当時はビットコイン取引所が存在せずOTC中心で市場価格が形成されていなかった時代の資金とされ、移動の背景や真相に迫る。"
-  },
-  {
-   "title": "ビットコイン短期保有者、売却益が1年ぶりプラス圏へ＝アナリスト",
-   "link": "https://coinpost.jp/?p=735790",
-   "published": "09/07 08:28",
-   "ts": 1788737292.0,
-   "source": "CoinPost",
-   "desc": "ビットコインの短期保有者（STH）の売却益を示す指標が、1年以上ぶりにプラス圏へ浮上したとアナリストが指摘。前回の弱気相場では約1年マイナス圏が続いており、今回の変化が持つ意味を仮想通貨市場の文脈で解説する。"
-  },
-  {
-   "title": "メタプラネットCEO、透明性強化を表明　MMXX出資巡り説明",
-   "link": "https://coinpost.jp/?p=735784",
-   "published": "09/07 07:32",
-   "ts": 1788733959.0,
-   "source": "CoinPost",
-   "desc": "メタプラネットCEOのサイモン・ゲロヴィッチ氏が9月6日、株主向けにXで声明を発表。株主のMMXXベンチャーズとの資本関係や第10回新株予約権の設計見直しを説明し、ビットコイン保有企業として企業統治・情報開示を強化する方針を示した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「1000円」ジーンズ イオンが販売",
+   "link": "https://news.yahoo.co.jp/pickup/6594563?source=rss",
+   "published": "09/07 18:45",
+   "ts": 1788774326.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "円高進行 一時1ドル154円台前半",
+   "link": "https://news.yahoo.co.jp/pickup/6594561?source=rss",
+   "published": "09/07 18:17",
+   "ts": 1788772644.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "与良正男さん死去 元毎日新聞",
+   "link": "https://news.yahoo.co.jp/pickup/6594548?source=rss",
+   "published": "09/07 16:46",
+   "ts": 1788767167.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新米出回り コメさらに値下がりか",
+   "link": "https://news.yahoo.co.jp/pickup/6594538?source=rss",
+   "published": "09/07 14:41",
+   "ts": 1788759718.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "くら寿司がコラボ急きょ中止 背景",
+   "link": "https://news.yahoo.co.jp/pickup/6594537?source=rss",
+   "published": "09/07 14:30",
+   "ts": 1788759020.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "みずほ楽天カード P還元率2%に",
    "link": "https://news.yahoo.co.jp/pickup/6594530?source=rss",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594513?source=rss",
    "published": "09/07 11:56",
    "ts": 1788749801.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大雨で道路影響 無理な移動避けて",
-   "link": "https://news.yahoo.co.jp/pickup/6594508?source=rss",
-   "published": "09/07 10:50",
-   "ts": 1788745836.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "高知でガソリン看板価格調整 証言",
-   "link": "https://news.yahoo.co.jp/pickup/6594501?source=rss",
-   "published": "09/07 10:06",
-   "ts": 1788743183.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "新宿区の民泊 住宅地の営業禁止へ",
-   "link": "https://news.yahoo.co.jp/pickup/6594497?source=rss",
-   "published": "09/07 09:13",
-   "ts": 1788740001.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長期金利上昇 市場が積極財政警戒",
-   "link": "https://news.yahoo.co.jp/pickup/6594441?source=rss",
-   "published": "09/06 17:36",
-   "ts": 1788683782.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "包丁の保有率 20代女性で9割切る",
-   "link": "https://news.yahoo.co.jp/pickup/6594432?source=rss",
-   "published": "09/06 16:25",
-   "ts": 1788679531.0,
    "source": "Yahoo!",
    "desc": ""
   }
