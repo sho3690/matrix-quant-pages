@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08 13:50:18",
+ "updated_at": "2026-09-08 20:28:37",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,19 +37,59 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.031509242153355,
-  "eth_dominance": 11.30698353165082,
-  "total_mcap_usd": 2674368733902.306,
-  "mcap_change_24h": -3.409714124165704
+  "btc_dominance": 58.89781704500863,
+  "eth_dominance": 11.30033886618975,
+  "total_mcap_usd": 2663387186817.9087,
+  "mcap_change_24h": -3.5903190842388604
  },
  "defi": {
-  "tvl_usd": 87736354907.0,
-  "change_1d": -0.008462281181971787,
-  "change_7d": 0.013663978256311049,
-  "change_1y": -0.42053986334221605,
-  "range_pos_1y": 0.19261193780268127
+  "tvl_usd": 87692976579.0,
+  "change_1d": -0.009036502930793389,
+  "change_7d": 0.01316329421722151,
+  "change_1y": -0.420826358169788,
+  "range_pos_1y": 0.19219192570383392
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン需給構造改善も現物需要が課題＝レポート",
+   "link": "https://coinpost.jp/?p=736325",
+   "published": "09/08 17:39",
+   "ts": 1788856764.0,
+   "source": "CoinPost",
+   "desc": "CryptoQuantのアナリストが公開した最新オンチェーン分析。ETF資金の流入や大口投資家の買いが進む一方、バイナンスのビットコイン準備高や取引所純流入は高水準を維持。デリバティブは一部リセットも現物主導の反発かは見極めが必要な段階にある。"
+  },
+  {
+   "title": "ビットコイン8月25％高、上位銘柄8割上昇＝CryptoRank",
+   "link": "https://coinpost.jp/?p=736308",
+   "published": "09/08 16:51",
+   "ts": 1788853890.0,
+   "source": "CoinPost",
+   "desc": "米CryptoRankの月次分析を基に、8月の仮想通貨相場の実態を解説する。ビットコインは月間25％高と史上3番目の好調な8月を記録し、米国スポットETFへの資金流入も年初来最大となった背景を詳しく読み解く。"
+  },
+  {
+   "title": "ハウス食品、抽選100名にJPYC贈呈へ　万博SBTで当選10倍",
+   "link": "https://coinpost.jp/?p=736271",
+   "published": "09/08 15:17",
+   "ts": 1788848248.0,
+   "source": "CoinPost",
+   "desc": "ハウス食品グループは9月8日、抽選100名にステーブルコインJPYCを贈呈するキャンペーンを開始した。大阪・関西万博で実施したNFT・SBT施策の後継で、HashPortが技術協力する。9月27日まで実施。"
+  },
+  {
+   "title": "山陰合同銀行、NTTデータ、Securitize Japanがデジタル証券検討",
+   "link": "https://coinpost.jp/?p=736258",
+   "published": "09/08 14:43",
+   "ts": 1788846195.0,
+   "source": "CoinPost",
+   "desc": "山陰合同銀行がNTTデータ、Securitize Japanとデジタル証券活用モデル構築の本格検討を開始。自ら発行体となる社債型セキュリティ・トークンの発行可能性を検証し、実現すれば地銀本体初の事例（同社調べ）となる。"
+  },
+  {
+   "title": "AIエージェント経済の「通貨」を目指すFLOP、AIが計算資源を自律的に調達できるネットワーク",
+   "link": "https://coinpost.jp/?p=736215",
+   "published": "09/08 13:50",
+   "ts": 1788843049.0,
+   "source": "CoinPost",
+   "desc": "アーサー・ヘイズ氏が手がけるFLOPネットワークの技術仕様が公開された。同ネットワークは、AIエージェントが自律的に必要な計算資源を調達しその対価を仮想通貨で支払えるインフラの構築を目指している。"
+  },
   {
    "title": "イーサリアム財団、メインネットの量子耐性化を29年12月に目標設定",
    "link": "https://coinpost.jp/?p=736181",
@@ -73,49 +113,33 @@
    "ts": 1788829227.0,
    "source": "CoinPost",
    "desc": "グラスノードは仮想通貨市場が昨年10月高値から全般的に下落している中、プライバシーセクターは+213%を記録していると報告した。特にジーキャッシュが牽引している。"
-  },
-  {
-   "title": "シティとDBSが週末に国際決済を実施、トークン化預金を活用",
-   "link": "https://coinpost.jp/?p=736088",
-   "published": "09/08 08:20",
-   "ts": 1788823249.0,
-   "source": "CoinPost",
-   "desc": "シンガポール大手銀行DBSは、週末にシティとの米ドルの国際決済に成功したと発表。Swiftのデジタル台帳とトークン化預金を使って取引を行ったと説明している。"
-  },
-  {
-   "title": "SBIグループ、JPYSCの裏付け資産の一部を国債で運用",
-   "link": "https://coinpost.jp/?p=736076",
-   "published": "09/08 08:00",
-   "ts": 1788822002.0,
-   "source": "CoinPost",
-   "desc": "SBI新生信託銀行とSBI VCトレードは、円建てステーブルコインJPYSCの裏付け資産の一部を国債で運用開始したと発表した。デジタル金融と伝統的金融をつなぐ新たな資金循環の創出を目指す取り組みで、資産の信用力向上にもつながる。"
-  },
-  {
-   "title": "英当局、予測市場の個人投資家向け解禁を検討",
-   "link": "https://coinpost.jp/?p=736077",
-   "published": "09/08 07:20",
-   "ts": 1788819604.0,
-   "source": "CoinPost",
-   "desc": "英FCAは個人投資家向け予測市場の禁止について緩和を検討していることが分かった。カルシやポリマーケットなど海外プラットフォームの利用拡大を受けた動きだ。"
-  },
-  {
-   "title": "イーサリアム、ETHガス代をトークン払いにする新提案が前進",
-   "link": "https://coinpost.jp/?p=736079",
-   "published": "09/08 06:40",
-   "ts": 1788817213.0,
-   "source": "CoinPost",
-   "desc": "ヴィタリック・ブテリン氏が進展を明かしたイーサリアム提案「EIP-8141」は、ガス代をETH以外のトークンで払える仕組みを導入するものだ。2027年予定の次期アップグレードへの搭載も決まり、手数料体系の設計に影響する。"
-  },
-  {
-   "title": "リキッドのビットコイン流出事件、自称ホワイトハットが3400BTC返還",
-   "link": "https://coinpost.jp/?p=736080",
-   "published": "09/08 06:15",
-   "ts": 1788815716.0,
-   "source": "CoinPost",
-   "desc": "リキッドネットワークのビットコイン流出事件で、自称ホワイトハットが3400BTCを返還し600BTCを保有継続。流出原因はエレメンツのバグと判明。"
   }
  ],
  "news_jp": [
+  {
+   "title": "日銀 今月の会合で利上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6594679?source=rss",
+   "published": "09/08 20:16",
+   "ts": 1788866165.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "なぜ突然の円高に 背景と見通し",
+   "link": "https://news.yahoo.co.jp/pickup/6594665?source=rss",
+   "published": "09/08 19:53",
+   "ts": 1788864831.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東海道・山陽新幹線 運転を再開",
+   "link": "https://news.yahoo.co.jp/pickup/6594663?source=rss",
+   "published": "09/08 17:39",
+   "ts": 1788856796.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "一時1ドル152円台 約半年ぶり水準",
    "link": "https://news.yahoo.co.jp/pickup/6594633?source=rss",
@@ -133,14 +157,6 @@
    "desc": ""
   },
   {
-   "title": "リユース市場拡大 悪質業者に注意",
-   "link": "https://news.yahoo.co.jp/pickup/6594626?source=rss",
-   "published": "09/08 11:24",
-   "ts": 1788834259.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "小田急駅員の胸元にカメラ 効果は",
    "link": "https://news.yahoo.co.jp/pickup/6594623?source=rss",
    "published": "09/08 11:08",
@@ -149,26 +165,10 @@
    "desc": ""
   },
   {
-   "title": "アデランス子会社 ステマを謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6594619?source=rss",
-   "published": "09/08 10:14",
-   "ts": 1788830095.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "銀行の「個人マネー争奪戦」激化",
    "link": "https://news.yahoo.co.jp/pickup/6594614?source=rss",
    "published": "09/08 09:38",
    "ts": 1788827907.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "英JLR 従業員4000人を削減へ",
-   "link": "https://news.yahoo.co.jp/pickup/6594613?source=rss",
-   "published": "09/08 09:15",
-   "ts": 1788826514.0,
    "source": "Yahoo!",
    "desc": ""
   },
