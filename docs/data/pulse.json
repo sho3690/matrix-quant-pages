@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-08 08:35:22",
+ "updated_at": "2026-09-08 13:50:18",
  "fng": {
-  "value": 71,
+  "value": 69,
   "label": "強欲",
   "history": [
-   31,
    30,
    29,
    27,
@@ -33,23 +32,48 @@
    74,
    73,
    73,
-   71
+   71,
+   69
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.11051484566254,
-  "eth_dominance": 11.295081011814355,
-  "total_mcap_usd": 2676135204920.744,
-  "mcap_change_24h": -3.7587410769756158
+  "btc_dominance": 59.031509242153355,
+  "eth_dominance": 11.30698353165082,
+  "total_mcap_usd": 2674368733902.306,
+  "mcap_change_24h": -3.409714124165704
  },
  "defi": {
-  "tvl_usd": 88072318046.0,
-  "change_1d": 0.0019608000910413814,
-  "change_7d": 0.032447378716743414,
-  "change_1y": -0.4122486034119148,
-  "range_pos_1y": 0.19585922648116819
+  "tvl_usd": 87736354907.0,
+  "change_1d": -0.008462281181971787,
+  "change_7d": 0.013663978256311049,
+  "change_1y": -0.42053986334221605,
+  "range_pos_1y": 0.19261193780268127
  },
  "news_crypto": [
+  {
+   "title": "イーサリアム財団、メインネットの量子耐性化を29年12月に目標設定",
+   "link": "https://coinpost.jp/?p=736181",
+   "published": "09/08 13:15",
+   "ts": 1788840935.0,
+   "source": "CoinPost",
+   "desc": "イーサリアム財団がL1の実行・合意・データの全層で量子耐性を2029年12月までに実現する目標を掲げた。「グラムステルダム」から五回のアップグレードで完了する計画だ。"
+  },
+  {
+   "title": "ソラナ、9日にオンチェーン取引容量3倍超に拡大へ",
+   "link": "https://coinpost.jp/?p=736119",
+   "published": "09/08 10:35",
+   "ts": 1788831327.0,
+   "source": "CoinPost",
+   "desc": "ソラナは9日、取引データ量の上限を1,232バイトから4,096バイトへ拡大する新形式を稼働させる（仮）予定だ。次期アップグレード「アルペングロー」への移行も進んでおり、投資家の注目を集めている。"
+  },
+  {
+   "title": "「ジーキャッシュなどプライバシー銘柄のリターンが他を圧倒」グラスノード報告",
+   "link": "https://coinpost.jp/?p=736097",
+   "published": "09/08 10:00",
+   "ts": 1788829227.0,
+   "source": "CoinPost",
+   "desc": "グラスノードは仮想通貨市場が昨年10月高値から全般的に下落している中、プライバシーセクターは+213%を記録していると報告した。特にジーキャッシュが牽引している。"
+  },
   {
    "title": "シティとDBSが週末に国際決済を実施、トークン化預金を活用",
    "link": "https://coinpost.jp/?p=736088",
@@ -89,33 +113,65 @@
    "ts": 1788815716.0,
    "source": "CoinPost",
    "desc": "リキッドネットワークのビットコイン流出事件で、自称ホワイトハットが3400BTCを返還し600BTCを保有継続。流出原因はエレメンツのバグと判明。"
-  },
-  {
-   "title": "バイデン前大統領の息子がミームコイン発行へ、トランプコイン保有者にも配布",
-   "link": "https://coinpost.jp/?p=736075",
-   "published": "09/08 05:55",
-   "ts": 1788814555.0,
-   "source": "CoinPost",
-   "desc": "バイデン前大統領の息子ハンターが9日、ミームコイン「LAPTOP」を発行する予定。トランプ大統領の「TRUMPコイン」による損失投資家にもトークンを配布する計画だ。"
-  },
-  {
-   "title": "キャピタルB、46億円相当ビットコインを追加取得　1年ぶりの大型購入に",
-   "link": "https://coinpost.jp/?p=736068",
-   "published": "09/08 05:00",
-   "ts": 1788811249.0,
-   "source": "CoinPost",
-   "desc": "仏キャピタルBは7日、増資で調達した資金により376BTCの仮想通貨ビットコインを2,530万ユーロで追加取得したと発表した。2025年9月以来約1年ぶりの大型購入となる。"
-  },
-  {
-   "title": "ビットコイン現物ETFに先週約1539億円純流入、3週連続",
-   "link": "https://coinpost.jp/?p=735999",
-   "published": "09/07 16:32",
-   "ts": 1788766332.0,
-   "source": "CoinPost",
-   "desc": "米ビットコイン現物ETFが週間で約1539億円の純流入を記録し、3週連続のプラスとなった。イーサリアムは約341億円、ソラナは10週連続の流入となるなど、複数銘柄でETF資金流入が広がっている状況を整理した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "一時1ドル152円台 約半年ぶり水準",
+   "link": "https://news.yahoo.co.jp/pickup/6594633?source=rss",
+   "published": "09/08 12:08",
+   "ts": 1788836933.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "景気拡大 円安と物価高で実感薄く",
+   "link": "https://news.yahoo.co.jp/pickup/6594628?source=rss",
+   "published": "09/08 11:34",
+   "ts": 1788834889.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "リユース市場拡大 悪質業者に注意",
+   "link": "https://news.yahoo.co.jp/pickup/6594626?source=rss",
+   "published": "09/08 11:24",
+   "ts": 1788834259.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "小田急駅員の胸元にカメラ 効果は",
+   "link": "https://news.yahoo.co.jp/pickup/6594623?source=rss",
+   "published": "09/08 11:08",
+   "ts": 1788833309.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "アデランス子会社 ステマを謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6594619?source=rss",
+   "published": "09/08 10:14",
+   "ts": 1788830095.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "銀行の「個人マネー争奪戦」激化",
+   "link": "https://news.yahoo.co.jp/pickup/6594614?source=rss",
+   "published": "09/08 09:38",
+   "ts": 1788827907.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "英JLR 従業員4000人を削減へ",
+   "link": "https://news.yahoo.co.jp/pickup/6594613?source=rss",
+   "published": "09/08 09:15",
+   "ts": 1788826514.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "金利上昇 住宅ローン返済者ら悩み",
    "link": "https://news.yahoo.co.jp/pickup/6594597?source=rss",
@@ -123,78 +179,22 @@
    "ts": 1788817682.0,
    "source": "Yahoo!",
    "desc": ""
-  },
-  {
-   "title": "景気拡大期 戦後最長超えの公算大",
-   "link": "https://news.yahoo.co.jp/pickup/6594592?source=rss",
-   "published": "09/07 23:53",
-   "ts": 1788792805.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「1000円」ジーンズ イオンが販売",
-   "link": "https://news.yahoo.co.jp/pickup/6594563?source=rss",
-   "published": "09/07 18:45",
-   "ts": 1788774326.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "円高進行 一時1ドル154円台前半",
-   "link": "https://news.yahoo.co.jp/pickup/6594561?source=rss",
-   "published": "09/07 18:17",
-   "ts": 1788772644.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "与良正男さん死去 元毎日新聞",
-   "link": "https://news.yahoo.co.jp/pickup/6594548?source=rss",
-   "published": "09/07 16:46",
-   "ts": 1788767167.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "新米出回り コメさらに値下がりか",
-   "link": "https://news.yahoo.co.jp/pickup/6594538?source=rss",
-   "published": "09/07 14:41",
-   "ts": 1788759718.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "くら寿司がコラボ急きょ中止 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6594537?source=rss",
-   "published": "09/07 14:30",
-   "ts": 1788759020.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "みずほ楽天カード P還元率2%に",
-   "link": "https://news.yahoo.co.jp/pickup/6594530?source=rss",
-   "published": "09/07 13:25",
-   "ts": 1788755132.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
-  "date": "R8.9.4",
-  "y10": 2.91,
-  "chg5d": 0.266,
+  "date": "R8.9.7",
+  "y10": 2.935,
+  "chg5d": 0.2450000000000001,
   "rank_1y": 0.988,
   "curve": {
-   "1": 1.546,
-   "2": 1.83,
-   "5": 2.25,
-   "10": 2.91,
-   "20": 3.717,
-   "30": 3.965,
-   "40": 3.966
+   "1": 1.564,
+   "2": 1.852,
+   "5": 2.272,
+   "10": 2.935,
+   "20": 3.751,
+   "30": 4.009,
+   "40": 4.013
   },
-  "spread_10_2": 1.08
+  "spread_10_2": 1.083
  }
 }
