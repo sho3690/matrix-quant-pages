@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09 20:34:24",
+ "updated_at": "2026-09-10 01:46:00",
  "fng": {
   "value": 66,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.92735664324794,
-  "eth_dominance": 11.302878736519741,
-  "total_mcap_usd": 2689899666750.14,
-  "mcap_change_24h": -2.2427039359175516
+  "btc_dominance": 58.4298287051262,
+  "eth_dominance": 11.247119941936797,
+  "total_mcap_usd": 2703190160096.669,
+  "mcap_change_24h": -2.888497297211592
  },
  "defi": {
-  "tvl_usd": 88207092894.0,
-  "change_1d": 0.0027614671399267543,
-  "change_7d": 0.03748780596724588,
-  "change_1y": -0.4207427039841486,
-  "range_pos_1y": 0.19715351771702025
+  "tvl_usd": 88145170752.0,
+  "change_1d": 0.0020623914917314856,
+  "change_7d": 0.03676382478728257,
+  "change_1y": -0.4211493476151946,
+  "range_pos_1y": 0.19655570338016057
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "ニデック不正会計 株主28人が提訴",
+   "link": "https://news.yahoo.co.jp/pickup/6594785?source=rss",
+   "published": "09/09 21:14",
+   "ts": 1788956069.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "同意なく性的接触 NHK記者を免職",
    "link": "https://news.yahoo.co.jp/pickup/6594761?source=rss",
    "published": "09/09 17:12",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594679?source=rss",
    "published": "09/08 20:16",
    "ts": 1788866165.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "なぜ突然の円高に 背景と見通し",
-   "link": "https://news.yahoo.co.jp/pickup/6594665?source=rss",
-   "published": "09/08 19:53",
-   "ts": 1788864831.0,
    "source": "Yahoo!",
    "desc": ""
   }
