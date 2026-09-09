@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09 13:53:14",
+ "updated_at": "2026-09-09 20:34:24",
  "fng": {
   "value": 66,
   "label": "強欲",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.401211698942134,
-  "eth_dominance": 11.245858097443774,
-  "total_mcap_usd": 2714297969606.097,
-  "mcap_change_24h": -1.2912933067185561
+  "btc_dominance": 58.92735664324794,
+  "eth_dominance": 11.302878736519741,
+  "total_mcap_usd": 2689899666750.14,
+  "mcap_change_24h": -2.2427039359175516
  },
  "defi": {
-  "tvl_usd": 88033226492.0,
-  "change_1d": 0.0007990139108724481,
-  "change_7d": 0.035442721032616475,
-  "change_1y": -0.42188448724200467,
-  "range_pos_1y": 0.19546881060189045
+  "tvl_usd": 88207092894.0,
+  "change_1d": 0.0027614671399267543,
+  "change_7d": 0.03748780596724588,
+  "change_1y": -0.4207427039841486,
+  "range_pos_1y": 0.19715351771702025
  },
  "news_crypto": [
+  {
+   "title": "DeFiデベロップメント、優先株発行で17億円調達　大部分はソラナ取得へ",
+   "link": "https://coinpost.jp/?p=736412",
+   "published": "09/09 19:20",
+   "ts": 1788949208.0,
+   "source": "CoinPost",
+   "desc": "デファイ・デベロップメントが優先株CHADの発行を完了し、約1,100万ドルを調達。資金の大部分をソラナ取得に充て、1株当たりSOL保有量の増加を目指す予定だとしている。"
+  },
+  {
+   "title": "オンチェーン金融サミット10月開催　登壇者第1弾に三井住友FGら12名",
+   "link": "https://coinpost.jp/?p=736508",
+   "published": "09/09 17:40",
+   "ts": 1788943206.0,
+   "source": "CoinPost",
+   "desc": "Pacific Metaは10月5日、ブロックチェーンと金融をテーマにしたカンファレンス「Blockchain Summit 2026 Autumn」を東京・大手町で開く。登壇者第1弾は三井住友FGやa16z cryptoの担当者ら12名。"
+  },
+  {
+   "title": "ストラテジー、ビットコイン柄ジョーダン即完売　決済は仮想通貨非対応",
+   "link": "https://coinpost.jp/?p=736534",
+   "published": "09/09 17:00",
+   "ts": 1788940827.0,
+   "source": "CoinPost",
+   "desc": "ストラテジーが250ドルのBTC柄ナイキ製ジョーダンを自社ストアで発売し即完売した。決済はカード・Apple Payのみでビットコイン非対応のため、海外の仮想通貨コミュニティから皮肉交じりの批判が相次いでいる。"
+  },
+  {
+   "title": "オンチェーン決済、勝ち筋は「カード」と「AIエージェント」＝Dune分析",
+   "link": "https://coinpost.jp/?p=736486",
+   "published": "09/09 14:00",
+   "ts": 1788930028.0,
+   "source": "CoinPost",
+   "desc": "即時決済網の普及で「速い・安い」はもはや差別化にならない中、オンチェーン決済の強みは銀行口座不要のカード決済とAIエージェントによる超少額決済にあるとDuneは分析している。"
+  },
   {
    "title": "GMOコイン、３銘柄取扱廃止　10月24日で終了",
    "link": "https://coinpost.jp/?p=736490",
@@ -81,54 +113,46 @@
    "ts": 1788922823.0,
    "source": "CoinPost",
    "desc": "米ニューヨーク州プラッツバーグ市が、電力需要300kW以上のAIデータセンターや仮想通貨マイニング施設を対象に、新規承認を12カ月停止する条例案を検討している。"
-  },
-  {
-   "title": "ビットコイン、7.9万ドル圏で横ばい　強弱材料で拮抗＝グラスノード",
-   "link": "https://coinpost.jp/?p=736450",
-   "published": "09/09 10:40",
-   "ts": 1788918033.0,
-   "source": "CoinPost",
-   "desc": "グラスノードの週次レポートによると、ビットコインは7.9万ドル圏で横ばい推移。現物モメンタムは急減速する一方、先物・オプション建玉は拡大し、オプション市場ではコール需要優勢で上値を意識したポジショニングが鮮明になった。"
-  },
-  {
-   "title": "ジャック・ドーシー率いるブロック、米信託銀行設立を申請",
-   "link": "https://coinpost.jp/?p=736410",
-   "published": "09/09 10:05",
-   "ts": 1788915956.0,
-   "source": "CoinPost",
-   "desc": "米フィンテック大手ブロックが、ビットコインやステーブルコインのカストディ業務を担う信託銀行「ビルダーズバンク」設立をOCCに申請した。認可されれば、ビットコイン・ステーブルコイン関連業務に連邦レベルの監督枠組みが加わることになる。"
-  },
-  {
-   "title": "リキッド公式説明、検証機能の脆弱性で4000ビットコイン流出",
-   "link": "https://coinpost.jp/?p=736424",
-   "published": "09/09 09:51",
-   "ts": 1788915080.0,
-   "source": "CoinPost",
-   "desc": "ビットコインのサイドチェーン「リキッドネットワーク」で検証機能の脆弱性が悪用され、4000BTCのビットコインが不正流出。ブロックストリームが修正パッチを適用し、攻撃者から3400BTCの返還を受けたが、残る約598BTCの回収交渉が続く。"
-  },
-  {
-   "title": "ドバイDMCC、世界最大の銀の延べ棒を初トークン化",
-   "link": "https://coinpost.jp/?p=736381",
-   "published": "09/09 09:25",
-   "ts": 1788913522.0,
-   "source": "CoinPost",
-   "desc": "ドバイの政府系機関DMCCは1971キロの世界最大銀地金を初のトークン化商品資産として発表した。VARA規制のトークインベストが7日から分割出資の受け付けを開始し、投資家は少額から現物資産に投資できる。"
   }
  ],
  "news_jp": [
+  {
+   "title": "同意なく性的接触 NHK記者を免職",
+   "link": "https://news.yahoo.co.jp/pickup/6594761?source=rss",
+   "published": "09/09 17:12",
+   "ts": 1788941554.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "丸亀製麺の運営会社に勧告 公取委",
+   "link": "https://news.yahoo.co.jp/pickup/6594758?source=rss",
+   "published": "09/09 16:35",
+   "ts": 1788939317.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "コメ農家の廃業 過去最多ペース",
+   "link": "https://news.yahoo.co.jp/pickup/6594753?source=rss",
+   "published": "09/09 16:02",
+   "ts": 1788937373.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "浸水の車 点検前エンジン始動NG",
+   "link": "https://news.yahoo.co.jp/pickup/6594747?source=rss",
+   "published": "09/09 14:56",
+   "ts": 1788933402.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "「清和源氏発祥」神社 民事再生へ",
    "link": "https://news.yahoo.co.jp/pickup/6594738?source=rss",
    "published": "09/09 12:36",
    "ts": 1788924988.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "NY原油3カ月ぶり高値 6日続伸",
-   "link": "https://news.yahoo.co.jp/pickup/6594720?source=rss",
-   "published": "09/09 10:35",
-   "ts": 1788917730.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594665?source=rss",
    "published": "09/08 19:53",
    "ts": 1788864831.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "小田急駅員の胸元にカメラ 効果は",
-   "link": "https://news.yahoo.co.jp/pickup/6594623?source=rss",
-   "published": "09/08 11:08",
-   "ts": 1788833309.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "銀行の「個人マネー争奪戦」激化",
-   "link": "https://news.yahoo.co.jp/pickup/6594614?source=rss",
-   "published": "09/08 09:38",
-   "ts": 1788827907.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "金利上昇 住宅ローン返済者ら悩み",
-   "link": "https://news.yahoo.co.jp/pickup/6594597?source=rss",
-   "published": "09/08 06:48",
-   "ts": 1788817682.0,
    "source": "Yahoo!",
    "desc": ""
   }
