@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-10 20:30:52",
+ "updated_at": "2026-09-11 01:31:56",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.55400985538619,
-  "eth_dominance": 11.248979023154257,
-  "total_mcap_usd": 2666716817857.041,
-  "mcap_change_24h": -3.2530656498418673
+  "btc_dominance": 58.546360396318676,
+  "eth_dominance": 11.267737609877043,
+  "total_mcap_usd": 2637016758642.3906,
+  "mcap_change_24h": -4.9871227264879305
  },
  "defi": {
-  "tvl_usd": 87873660539.0,
-  "change_1d": -0.007488939409280748,
-  "change_7d": 0.027201992773504324,
-  "change_1y": -0.4233505215386675,
-  "range_pos_1y": 0.18958042149030924
+  "tvl_usd": 87106526214.0,
+  "change_1d": -0.016153530116565284,
+  "change_7d": 0.01823455130661311,
+  "change_1y": -0.428384653560796,
+  "range_pos_1y": 0.18211678335741693
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "半導体巡る日中摩擦 企業に影響は",
+   "link": "https://news.yahoo.co.jp/pickup/6594883?source=rss",
+   "published": "09/10 22:14",
+   "ts": 1789046096.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ニデック創業者らに株主代表訴訟",
    "link": "https://news.yahoo.co.jp/pickup/6594887?source=rss",
    "published": "09/10 18:54",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594836?source=rss",
    "published": "09/10 11:53",
    "ts": 1789008786.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タワマン宅配 駐車場不足嘆く業者",
-   "link": "https://news.yahoo.co.jp/pickup/6594805?source=rss",
-   "published": "09/10 07:38",
-   "ts": 1788993487.0,
    "source": "Yahoo!",
    "desc": ""
   },
