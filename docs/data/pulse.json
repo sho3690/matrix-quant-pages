@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-10 13:54:33",
+ "updated_at": "2026-09-10 20:30:52",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.54086470879841,
-  "eth_dominance": 11.246034100719593,
-  "total_mcap_usd": 2681528180287.6343,
-  "mcap_change_24h": -3.2777863178410147
+  "btc_dominance": 58.55400985538619,
+  "eth_dominance": 11.248979023154257,
+  "total_mcap_usd": 2666716817857.041,
+  "mcap_change_24h": -3.2530656498418673
  },
  "defi": {
-  "tvl_usd": 87572710169.0,
-  "change_1d": -0.010831693053148905,
-  "change_7d": 0.023684030106135623,
-  "change_1y": -0.4253254349864375,
-  "range_pos_1y": 0.18665235900504917
+  "tvl_usd": 87873660539.0,
+  "change_1d": -0.007488939409280748,
+  "change_7d": 0.027201992773504324,
+  "change_1y": -0.4233505215386675,
+  "range_pos_1y": 0.18958042149030924
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン反発、現物より先物優勢　準備高は改善傾向＝アナリスト",
+   "link": "https://coinpost.jp/?p=736765",
+   "published": "09/10 17:29",
+   "ts": 1789028966.0,
+   "source": "CoinPost",
+   "desc": "CryptoQuantのアナリストDarkfost氏が10日、ビットコインは安値から約45%反発しRSIは67まで上昇したと分析。一方で現物需要とバイナンスの準備高は依然力不足で、流動性回復にはなお時間を要するとした。"
+  },
+  {
+   "title": "バイデン前大統領の息子のミームコイン、上場後98％急落　流動性強化へ",
+   "link": "https://coinpost.jp/?p=736735",
+   "published": "09/10 15:52",
+   "ts": 1789023172.0,
+   "source": "CoinPost",
+   "desc": "ハンター・バイデン氏の名を冠したミームコイン「LAPTOP」が上場直後に急落し、24時間で97.78%下落する場面があった。運営はスナイパーボットによる流動性不足が原因と説明し、流動性追加やバーンによる供給削減策を発表した。"
+  },
+  {
+   "title": "ウォレット大手トレザー、委託先メール侵害　偽警告に注意",
+   "link": "https://coinpost.jp/?p=736713",
+   "published": "09/10 14:02",
+   "ts": 1789016526.0,
+   "source": "CoinPost",
+   "desc": "ハードウェアウォレット大手トレザーは9日、委託先のメール配信基盤が第三者に侵害されたと発表。「STM32エントロピー脆弱性」を騙る偽警告メールが拡散し、リンクを開かないよう注意を呼びかけた。同社は該当ドメインを停止済みとしている。"
+  },
+  {
+   "title": "ビットコイン、8.3万〜8.6万ドル手前で足踏み＝Glassnode分析",
+   "link": "https://coinpost.jp/?p=736687",
+   "published": "09/10 14:00",
+   "ts": 1789016415.0,
+   "source": "CoinPost",
+   "desc": "Glassnodeは長期保有者の取得原価・先物清算マップ・ETF損益分岐点の3指標が上値抵抗として、同じ水準である8万3,000〜8万6,000ドルの価格帯を示していると分析した。現在はすぐその下でレンジ相場が形成されているが、売り圧力が低いことが特徴的だ。"
+  },
   {
    "title": "米当局、中国系違法市場シンビ摘発｜ステーブルコインUSDTを80億円相当凍結",
    "link": "https://coinpost.jp/?p=736664",
@@ -81,41 +113,41 @@
    "ts": 1789005698.0,
    "source": "CoinPost",
    "desc": "米ブロックチェーン・アソシエーション（BA）とクリプト・カウンシル・フォー・イノベーションは9日、イリノイ州の仮想通貨取引税の執行差止めを求め、州裁判所に予備的差止命令を申し立てた。2027年1月の施行を前に業界が反発を強めている。"
-  },
-  {
-   "title": "イラン中央銀行、仮想通貨での輸出代金還流を容認＝報道",
-   "link": "https://coinpost.jp/?p=736595",
-   "published": "09/10 10:45",
-   "ts": 1789004736.0,
-   "source": "CoinPost",
-   "desc": "イラン中央銀行が仮想通貨を使った輸出収益の還流を容認し、貿易企業が市場レートでの外貨交換や輸入決済を行えるようになった。米国の制裁下で仮想通貨は資金移動の新たな経路となっている。"
-  },
-  {
-   "title": "米老舗レストラン、加盟店売上19％増　ビットコイン決済効果",
-   "link": "https://coinpost.jp/?p=736635",
-   "published": "09/10 10:15",
-   "ts": 1789002902.0,
-   "source": "CoinPost",
-   "desc": "米老舗レストラン「ステーキンシェイク（Steak 'n Shake）」が2025年5月に導入したビットコイン（BTC）決済の効果を発表。既存店売上高は2桁増が継続し、今四半期はフランチャイズ加盟店で19％増を記録したという。"
-  },
-  {
-   "title": "ハイパーリキッド関連団体、無期限先物めぐりCFTCを支持　CME原告訴訟で",
-   "link": "https://coinpost.jp/?p=736620",
-   "published": "09/10 10:00",
-   "ts": 1789002008.0,
-   "source": "CoinPost",
-   "desc": "ハイパーリキッド関連団体は、CMEがCFTCによるカルシのビットコイン無期限先物承認を不服として起こした訴訟でCFTC支持の助言書を提出した。"
-  },
-  {
-   "title": "USバンク、独自ステーブルコイン「USBDC」で越境送金実証に成功",
-   "link": "https://coinpost.jp/?p=736596",
-   "published": "09/10 09:40",
-   "ts": 1789000838.0,
-   "source": "CoinPost",
-   "desc": "USバンクがドル建てステーブルコインUSBDCの実証実験に成功し、ステラブロックチェーン上で北米・欧州拠点間の国際送金を完了した。凍結や強制回収などの機能も検証済みで、独自のデジタル資産基盤の実用性が確認された。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ニデック創業者らに株主代表訴訟",
+   "link": "https://news.yahoo.co.jp/pickup/6594887?source=rss",
+   "published": "09/10 18:54",
+   "ts": 1789034065.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "鳥貴族 均一価格410円に値上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6594875?source=rss",
+   "published": "09/10 17:43",
+   "ts": 1789029797.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "あいち・三十三FG 統合合意解消",
+   "link": "https://news.yahoo.co.jp/pickup/6594874?source=rss",
+   "published": "09/10 17:32",
+   "ts": 1789029178.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "減少止まらぬ銭湯 活路にサウナ",
+   "link": "https://news.yahoo.co.jp/pickup/6594870?source=rss",
+   "published": "09/10 17:02",
+   "ts": 1789027367.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "中部電力が過大徴収 12億円返還へ",
    "link": "https://news.yahoo.co.jp/pickup/6594841?source=rss",
@@ -145,38 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594798?source=rss",
    "published": "09/10 06:22",
    "ts": 1788988946.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニデック不正会計 株主28人が提訴",
-   "link": "https://news.yahoo.co.jp/pickup/6594785?source=rss",
-   "published": "09/09 21:14",
-   "ts": 1788956069.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "同意なく性的接触 NHK記者を免職",
-   "link": "https://news.yahoo.co.jp/pickup/6594761?source=rss",
-   "published": "09/09 17:12",
-   "ts": 1788941554.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "丸亀製麺の運営会社に勧告 公取委",
-   "link": "https://news.yahoo.co.jp/pickup/6594758?source=rss",
-   "published": "09/09 16:35",
-   "ts": 1788939317.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "コメ農家の廃業 過去最多ペース",
-   "link": "https://news.yahoo.co.jp/pickup/6594753?source=rss",
-   "published": "09/09 16:02",
-   "ts": 1788937373.0,
    "source": "Yahoo!",
    "desc": ""
   }
