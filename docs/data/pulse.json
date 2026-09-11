@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-11 20:33:34",
+ "updated_at": "2026-09-12 01:36:34",
  "fng": {
   "value": 56,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.525741100620934,
-  "eth_dominance": 11.366969758992184,
-  "total_mcap_usd": 2629291840643.1875,
-  "mcap_change_24h": -3.9811852285714933
+  "btc_dominance": 58.19809324305451,
+  "eth_dominance": 11.682759781392296,
+  "total_mcap_usd": 2670041519356.608,
+  "mcap_change_24h": -1.572585430829546
  },
  "defi": {
-  "tvl_usd": 86763947546.0,
-  "change_1d": -0.006003207185267145,
-  "change_7d": -0.019310385842777444,
-  "change_1y": -0.4376707478376525,
-  "range_pos_1y": 0.18067909294222836
+  "tvl_usd": 88919904876.0,
+  "change_1d": 0.018682744707444465,
+  "change_7d": 0.005041270557889499,
+  "change_1y": -0.4236976875129126,
+  "range_pos_1y": 0.20163929418244883
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "業界初 迷惑客の対応費補償の保険",
+   "link": "https://news.yahoo.co.jp/pickup/6594995?source=rss",
+   "published": "09/11 22:51",
+   "ts": 1789134719.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "くら寿司苦戦 大手3社で業績に差",
    "link": "https://news.yahoo.co.jp/pickup/6594979?source=rss",
    "published": "09/11 19:26",
@@ -145,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594960?source=rss",
    "published": "09/11 16:25",
    "ts": 1789111540.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "浜岡原発 審査申請取り下げで調整",
-   "link": "https://news.yahoo.co.jp/pickup/6594957?source=rss",
-   "published": "09/11 15:51",
-   "ts": 1789109514.0,
    "source": "Yahoo!",
    "desc": ""
   },
