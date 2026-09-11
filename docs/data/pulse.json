@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-11 13:50:58",
+ "updated_at": "2026-09-11 20:33:34",
  "fng": {
   "value": 56,
   "label": "強欲",
@@ -37,21 +37,53 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.4705638051503,
-  "eth_dominance": 11.332333439602499,
-  "total_mcap_usd": 2642903526559.57,
-  "mcap_change_24h": -4.056016785175277
+  "btc_dominance": 58.525741100620934,
+  "eth_dominance": 11.366969758992184,
+  "total_mcap_usd": 2629291840643.1875,
+  "mcap_change_24h": -3.9811852285714933
  },
  "defi": {
-  "tvl_usd": 86349455683.0,
-  "change_1d": -0.01007803082169112,
-  "change_7d": -0.023995371677259736,
-  "change_1y": -0.4403571274450879,
-  "range_pos_1y": 0.17665060183370274
+  "tvl_usd": 86763947546.0,
+  "change_1d": -0.006003207185267145,
+  "change_7d": -0.019310385842777444,
+  "change_1y": -0.4376707478376525,
+  "range_pos_1y": 0.18067909294222836
  },
  "news_crypto": [
   {
-   "title": "耐量子プライバシー取引のコスト99%超削減案、ヴィタリックが解説",
+   "title": "ビットコイン市場が弱含み、変わらねば調整局面も＝アナリスト",
+   "link": "https://coinpost.jp/?p=737016",
+   "published": "09/11 17:32",
+   "ts": 1789115567.0,
+   "source": "CoinPost",
+   "desc": "アナリストのダークフォスト氏が9月11日、ビットコインの需給動向を分析。現物・先物需要は減速し、機関投資家の指標も悪化。ビットコインETFは2カ月ぶりの大幅流出となり、早期に改善しなければ調整局面もあり得ると指摘した。"
+  },
+  {
+   "title": "金融庁、4〜6月期の投資商品・暗号資産など詐欺勧誘1961件相談　8割超被害",
+   "link": "https://coinpost.jp/?p=736988",
+   "published": "09/11 16:40",
+   "ts": 1789112413.0,
+   "source": "CoinPost",
+   "desc": "金融庁が2026年4〜6月期の相談受付状況を公表。投資商品・暗号資産（仮想通貨）等の詐欺的投資勧誘の相談は1,961件、うち1,616件（8割超）で被害発生。暗号資産等の相談は1,374件で前期比92件減。"
+  },
+  {
+   "title": "ブロックストリーム、リキッド攻撃者への身代金拒否を表明",
+   "link": "https://coinpost.jp/?p=736967",
+   "published": "09/11 16:14",
+   "ts": 1789110847.0,
+   "source": "CoinPost",
+   "desc": "ブロックストリームが公式X声明で、リキッドネットワークから窃取された約4,000BTCのビットコインについて、攻撃者側への身代金支払いを明確に拒否すると表明。法執行機関や取引所と連携した追跡・法的措置の継続方針を示した。"
+  },
+  {
+   "title": "イーサリアム、Glamsterdamのテスト実装日を暫定決定",
+   "link": "https://coinpost.jp/?p=736954",
+   "published": "09/11 15:10",
+   "ts": 1789107032.0,
+   "source": "CoinPost",
+   "desc": "イーサリアム開発者は9月3日、次期アップグレード「Glamsterdam」を10月6日にSepoliaで暫定実装すると決定。テストネットは未完成のまま日程を設定し、バグも見つかっており本番適用の時期は流動的だ。"
+  },
+  {
+   "title": "イーサリアム、耐量子プライバシー取引のコスト99%超削減案｜ヴィタリックが解説",
    "link": "https://coinpost.jp/?p=736930",
    "published": "09/11 13:45",
    "ts": 1789101911.0,
@@ -81,41 +113,49 @@
    "ts": 1789092049.0,
    "source": "CoinPost",
    "desc": "マネーグラムは、ステーブルコインを使用できるマネーグラムカードをローンチ。仮想通貨ステラのブロックチェーンを採用しており、コロンビアから段階的に提供を広げる。"
-  },
-  {
-   "title": "ステーブルコイン、しきい値上昇で銘柄数が急減＝アークインベスト",
-   "link": "https://coinpost.jp/?p=736850",
-   "published": "09/11 09:59",
-   "ts": 1789088359.0,
-   "source": "CoinPost",
-   "desc": "ステーブルコインは規模が大きいほど生存者が絞られるネットワーク効果が働く。アークインベストのヴァレンテ氏によると、1000億ドル級はテザーとサークルの2社体制に向かう可能性がある。各階層の推移を整理した。"
-  },
-  {
-   "title": "リップル社、企業財務AI「Gスマート」を機能拡張　人間によるガバナンスなどを強化",
-   "link": "https://coinpost.jp/?p=736833",
-   "published": "09/11 09:45",
-   "ts": 1789087532.0,
-   "source": "CoinPost",
-   "desc": "リップル社が財務管理プラットフォーム「リップル・トレジャリー」組み込みのAI「Gスマート」を拡張した。予測・リスク管理などの領域で企業ポリシーに基づく機能を追加している。"
-  },
-  {
-   "title": "米地域銀行にステーブルコイン決済基盤、コインベースとムーブが提供",
-   "link": "https://coinpost.jp/?p=736804",
-   "published": "09/11 09:30",
-   "ts": 1789086615.0,
-   "source": "CoinPost",
-   "desc": "コインベースは決済インフラ企業ムーブと提携し、全米1000超の地域銀行・信用組合にステーブルコインの受け入れ・決済・即時資金化機能を提供する体制を整えた。既存の銀行システムに組み込まれ、地域金融機関の仮想通貨対応を後押しする。"
-  },
-  {
-   "title": "XRPレジャーの量子耐性移行、2027年に着実な進展との見方",
-   "link": "https://coinpost.jp/?p=736821",
-   "published": "09/11 08:15",
-   "ts": 1789082159.0,
-   "source": "CoinPost",
-   "desc": "XRPレジャー財団の貢献者Vet氏は、XRPLの量子コンピュータ対策について2027年に着実な進展が見込めるとの見方を示した。また、作業には慎重さが必要であることも説明している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "くら寿司苦戦 大手3社で業績に差",
+   "link": "https://news.yahoo.co.jp/pickup/6594979?source=rss",
+   "published": "09/11 19:26",
+   "ts": 1789122408.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ソニー生命新たに5千万円詐取判明",
+   "link": "https://news.yahoo.co.jp/pickup/6594977?source=rss",
+   "published": "09/11 19:00",
+   "ts": 1789120850.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "九州の応援割「便乗値上げ」警戒",
+   "link": "https://news.yahoo.co.jp/pickup/6594968?source=rss",
+   "published": "09/11 17:29",
+   "ts": 1789115393.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日銀利上げの公算大 1.25%程度に",
+   "link": "https://news.yahoo.co.jp/pickup/6594960?source=rss",
+   "published": "09/11 16:25",
+   "ts": 1789111540.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "浜岡原発 審査申請取り下げで調整",
+   "link": "https://news.yahoo.co.jp/pickup/6594957?source=rss",
+   "published": "09/11 15:51",
+   "ts": 1789109514.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "東京で551豚まん 朝から長蛇の列",
    "link": "https://news.yahoo.co.jp/pickup/6594947?source=rss",
@@ -133,50 +173,10 @@
    "desc": ""
   },
   {
-   "title": "浜岡原発の審査 申請取り下げ検討",
-   "link": "https://news.yahoo.co.jp/pickup/6594937?source=rss",
-   "published": "09/11 11:43",
-   "ts": 1789094587.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "武田薬品元社長 長谷川閑史氏死去",
-   "link": "https://news.yahoo.co.jp/pickup/6594930?source=rss",
-   "published": "09/11 11:10",
-   "ts": 1789092631.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日経平均 一時2000円以上値下がり",
-   "link": "https://news.yahoo.co.jp/pickup/6594924?source=rss",
-   "published": "09/11 09:32",
-   "ts": 1789086732.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "1泊20万円の高野山宿坊も 嘆く声",
    "link": "https://news.yahoo.co.jp/pickup/6594923?source=rss",
    "published": "09/11 09:13",
    "ts": 1789085628.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "3月導入のEVバス 早くも運行停止",
-   "link": "https://news.yahoo.co.jp/pickup/6594915?source=rss",
-   "published": "09/11 07:39",
-   "ts": 1789079981.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "鳥貴族 均一価格410円に値上げへ",
-   "link": "https://news.yahoo.co.jp/pickup/6594875?source=rss",
-   "published": "09/10 17:43",
-   "ts": 1789029797.0,
    "source": "Yahoo!",
    "desc": ""
   }
