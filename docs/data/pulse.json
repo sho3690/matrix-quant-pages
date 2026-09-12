@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-12 13:44:21",
+ "updated_at": "2026-09-12 19:57:07",
  "fng": {
   "value": 63,
   "label": "強欲",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.247194830891445,
-  "eth_dominance": 11.512434503678184,
-  "total_mcap_usd": 2660373554851.5903,
-  "mcap_change_24h": -1.7349756322696912
+  "btc_dominance": 58.174975823220656,
+  "eth_dominance": 11.575141474115444,
+  "total_mcap_usd": 2663452470228.0796,
+  "mcap_change_24h": -1.803160768337193
  },
  "defi": {
-  "tvl_usd": 87614387921.0,
-  "change_1d": 0.012617573408300498,
-  "change_7d": 0.004523290415048731,
-  "change_1y": -0.4415093702330817,
-  "range_pos_1y": 0.1889509329776068
+  "tvl_usd": 88408634741.0,
+  "change_1d": 0.021942151650762298,
+  "change_7d": 0.013668135832647366,
+  "change_1y": -0.43644650992876566,
+  "range_pos_1y": 0.19667024332387276
  },
  "news_crypto": [
+  {
+   "title": "コインベース、ソーシャル機能撤退　ウォレット名を旧称に戻す",
+   "link": "https://coinpost.jp/?p=737111",
+   "published": "09/12 14:14",
+   "ts": 1789190095.0,
+   "source": "CoinPost",
+   "desc": "米仮想通貨取引所大手コインベースは自己保管型ウォレット「ベースアプリ」の名称を「コインベースウォレット」に戻すと発表した。取引機能を軸とした運営方針への転換に伴うもので、無期限先物や予測市場など取扱い資産の拡大も進めている。"
+  },
+  {
+   "title": "FTX創業者バンクマン＝フリード氏、詐欺罪判決見直しを米最高裁に申し立て",
+   "link": "https://coinpost.jp/?p=737098",
+   "published": "09/12 13:45",
+   "ts": 1789188324.0,
+   "source": "CoinPost",
+   "desc": "FTX創業者・前CEOのサム・バンクマン=フリード氏が有罪判決の見直しを米最高裁に申し立てた。元顧客への返済が行われたことなどを改めて論拠にしている。"
+  },
   {
    "title": "機関向け融資のクリアプール、XRPレジャーへ事業拡大",
    "link": "https://coinpost.jp/?p=737054",
@@ -97,25 +113,33 @@
    "ts": 1789169144.0,
    "source": "CoinPost",
    "desc": "米銀行大手スタンダードチャータードがスカイ（旧メイカーダオ）の評価カバレッジを開始し、SKYトークンが2028年末までに現在の5倍の0.325ドルに達すると予想。融資枠拡大が投資家還元を左右する。"
-  },
-  {
-   "title": "米8月CPI、コア指数が予想上振れ｜ビットコインは急伸後反落",
-   "link": "https://coinpost.jp/?p=737057",
-   "published": "09/12 06:50",
-   "ts": 1789163441.0,
-   "source": "CoinPost",
-   "desc": "米労働省が発表した8月の消費者物価指数はコア指数が市場予想を上回り、FRBの利上げ観測を強めた。仮想通貨ビットコインとイーサリアムは発表後に上昇したものの上値を伸ばしきれず反落した。"
-  },
-  {
-   "title": "クラリティー法案不成立でも規制明確化へ、コインベースCEOが見方示す",
-   "link": "https://coinpost.jp/?p=737058",
-   "published": "09/12 06:15",
-   "ts": 1789161347.0,
-   "source": "CoinPost",
-   "desc": "コインベースのアームストロングCEOは、クラリティー法案が不成立でも米規制当局による明確化は確実に進むとの見方を示した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "MUFG 富裕層囲い込み戦略の裏側",
+   "link": "https://news.yahoo.co.jp/pickup/6595083?source=rss",
+   "published": "09/12 19:32",
+   "ts": 1789209143.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「VAIO T」発表 再挑戦する理由",
+   "link": "https://news.yahoo.co.jp/pickup/6595069?source=rss",
+   "published": "09/12 16:58",
+   "ts": 1789199929.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日本の新幹線輸出 印で難航の背景",
+   "link": "https://news.yahoo.co.jp/pickup/6595056?source=rss",
+   "published": "09/12 15:06",
+   "ts": 1789193216.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "サーティワン絶好調 売れる理由",
    "link": "https://news.yahoo.co.jp/pickup/6595028?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6594979?source=rss",
    "published": "09/11 19:26",
    "ts": 1789122408.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ソニー生命新たに5千万円詐取判明",
-   "link": "https://news.yahoo.co.jp/pickup/6594977?source=rss",
-   "published": "09/11 19:00",
-   "ts": 1789120850.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "九州の応援割「便乗値上げ」警戒",
-   "link": "https://news.yahoo.co.jp/pickup/6594968?source=rss",
-   "published": "09/11 17:29",
-   "ts": 1789115393.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀利上げの公算大 1.25%程度に",
-   "link": "https://news.yahoo.co.jp/pickup/6594960?source=rss",
-   "published": "09/11 16:25",
-   "ts": 1789111540.0,
    "source": "Yahoo!",
    "desc": ""
   }
