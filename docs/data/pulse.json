@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13 13:58:20",
+ "updated_at": "2026-09-13 21:03:09",
  "fng": {
   "value": 61,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.73149454322402,
-  "eth_dominance": 11.652568118204496,
-  "total_mcap_usd": 2634395602963.958,
-  "mcap_change_24h": -3.525757127701376
+  "btc_dominance": 58.84376119722495,
+  "eth_dominance": 11.554817695429383,
+  "total_mcap_usd": 2613629712465.4883,
+  "mcap_change_24h": -4.477392556018718
  },
  "defi": {
-  "tvl_usd": 88241898269.0,
-  "change_1d": 0.0020935325298869767,
-  "change_7d": 8.109115230059416e-05,
-  "change_1y": -0.4559400762512126,
-  "range_pos_1y": 0.19504972619871827
+  "tvl_usd": 87603823518.0,
+  "change_1d": -0.005131791206812175,
+  "change_7d": -0.007150467843308639,
+  "change_1y": -0.4598741586676721,
+  "range_pos_1y": 0.1888482572056345
  },
  "news_crypto": [
   {
@@ -117,10 +117,34 @@
  ],
  "news_jp": [
   {
-   "title": "役員が店舗掃除も ASICSの経営",
-   "link": "https://news.yahoo.co.jp/pickup/6595143?source=rss",
-   "published": "09/13 13:54",
-   "ts": 1789275242.0,
+   "title": "日銀の利上げ公算大 家計への影響",
+   "link": "https://news.yahoo.co.jp/pickup/6595177?source=rss",
+   "published": "09/13 20:12",
+   "ts": 1789297969.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "オープンAIのCEO 年内IPOを否定",
+   "link": "https://news.yahoo.co.jp/pickup/6595170?source=rss",
+   "published": "09/13 17:56",
+   "ts": 1789289789.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "景気拡大 企業と家計の「明暗」",
+   "link": "https://news.yahoo.co.jp/pickup/6595168?source=rss",
+   "published": "09/13 17:41",
+   "ts": 1789288912.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中部電力 社長と会長が辞任見通し",
+   "link": "https://news.yahoo.co.jp/pickup/6595151?source=rss",
+   "published": "09/13 15:00",
+   "ts": 1789279250.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -149,34 +173,10 @@
    "desc": ""
   },
   {
-   "title": "相次ぐ災害 無料車貸し出し需要増",
-   "link": "https://news.yahoo.co.jp/pickup/6595125?source=rss",
-   "published": "09/13 09:49",
-   "ts": 1789260592.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "富川悠太氏 テレ朝→トヨタの真相",
    "link": "https://news.yahoo.co.jp/pickup/6595118?source=rss",
    "published": "09/13 09:10",
    "ts": 1789258254.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米利上げ予想高まる インフレ続く",
-   "link": "https://news.yahoo.co.jp/pickup/6595097?source=rss",
-   "published": "09/12 22:09",
-   "ts": 1789218587.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "対米投資第3弾 次世代原発が有力",
-   "link": "https://news.yahoo.co.jp/pickup/6595098?source=rss",
-   "published": "09/12 22:06",
-   "ts": 1789218364.0,
    "source": "Yahoo!",
    "desc": ""
   }
