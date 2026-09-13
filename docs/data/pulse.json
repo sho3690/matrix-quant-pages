@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-13 08:05:42",
+ "updated_at": "2026-09-13 13:58:20",
  "fng": {
-  "value": 63,
+  "value": 61,
   "label": "強欲",
   "history": [
-   29,
    34,
    34,
    31,
@@ -33,23 +32,40 @@
    66,
    69,
    56,
-   63
+   63,
+   61
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.23879011734881,
-  "eth_dominance": 11.560891082718376,
-  "total_mcap_usd": 2657344048276.734,
-  "mcap_change_24h": -2.4485774911216263
+  "btc_dominance": 58.73149454322402,
+  "eth_dominance": 11.652568118204496,
+  "total_mcap_usd": 2634395602963.958,
+  "mcap_change_24h": -3.525757127701376
  },
  "defi": {
-  "tvl_usd": 88263025747.0,
-  "change_1d": 0.020258962543752368,
-  "change_7d": 0.011998624727302953,
-  "change_1y": -0.4373746823521365,
-  "range_pos_1y": 0.1952550648357882
+  "tvl_usd": 88241898269.0,
+  "change_1d": 0.0020935325298869767,
+  "change_7d": 8.109115230059416e-05,
+  "change_1y": -0.4559400762512126,
+  "range_pos_1y": 0.19504972619871827
  },
  "news_crypto": [
+  {
+   "title": "ビットコインPPI上振れで1200万円割れ、FOMCと原油高が焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=737000",
+   "published": "09/13 11:30",
+   "ts": 1789266620.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン（BTC）は米PPIの上振れや原油高を受け対円で1200万円を割り込み、1190万円台で推移している。目先はFOMCの利上げ判断とクラリティ法案の審議動向が焦点で、下値リスクへの警戒が続く。"
+  },
+  {
+   "title": "週刊仮想通貨ニュース（9/11）｜クラリティー法案審議・8月の相場解説・ETH量子耐性化計画のまとめ",
+   "link": "https://coinpost.jp/?p=736890",
+   "published": "09/13 09:25",
+   "ts": 1789259107.0,
+   "source": "CoinPost",
+   "desc": "今週は、米クラリティー法案審議、米CryptoRankの月次分析を基にした8月のビットコインなどの仮想通貨相場解説、イーサリアム財団の量子耐性化計画に関する記事が関心を集めた。"
+  },
   {
    "title": "コインベース、ソーシャル機能撤退　ウォレット名を旧称に戻す",
    "link": "https://coinpost.jp/?p=737111",
@@ -97,25 +113,57 @@
    "ts": 1789173917.0,
    "source": "CoinPost",
    "desc": "バイナンス・リサーチの分析によると、トークン化株式の取引高は年初来急拡大している。bStocksとロビンフッドが取引高の多くを占めており、DeFiでの活用も進んでいる。"
-  },
-  {
-   "title": "インドのトークン化社債の実験プロジェクト「Demat 2.0」、3社が計約165億円を調達",
-   "link": "https://coinpost.jp/?p=737071",
-   "published": "09/12 09:30",
-   "ts": 1789173009.0,
-   "source": "CoinPost",
-   "desc": "インド証券取引委員会は、社債をトークン化するパイロットプロジェクトDemat 2.0を開始したことを発表。すでに3社が計約165億円を調達したという実績も紹介した。"
-  },
-  {
-   "title": "仮想通貨スカイ価格5倍予想、オフチェーン中央銀行的存在＝スタンダードチャータード",
-   "link": "https://coinpost.jp/?p=737056",
-   "published": "09/12 08:25",
-   "ts": 1789169144.0,
-   "source": "CoinPost",
-   "desc": "米銀行大手スタンダードチャータードがスカイ（旧メイカーダオ）の評価カバレッジを開始し、SKYトークンが2028年末までに現在の5倍の0.325ドルに達すると予想。融資枠拡大が投資家還元を左右する。"
   }
  ],
  "news_jp": [
+  {
+   "title": "役員が店舗掃除も ASICSの経営",
+   "link": "https://news.yahoo.co.jp/pickup/6595143?source=rss",
+   "published": "09/13 13:54",
+   "ts": 1789275242.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "タッチパネル注文 利用者らの本音",
+   "link": "https://news.yahoo.co.jp/pickup/6595142?source=rss",
+   "published": "09/13 13:43",
+   "ts": 1789274603.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "純ガソリン車 次々廃止される事情",
+   "link": "https://news.yahoo.co.jp/pickup/6595140?source=rss",
+   "published": "09/13 12:38",
+   "ts": 1789270723.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "支持広げる「横長バッグ」魅力は",
+   "link": "https://news.yahoo.co.jp/pickup/6595126?source=rss",
+   "published": "09/13 09:52",
+   "ts": 1789260764.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "相次ぐ災害 無料車貸し出し需要増",
+   "link": "https://news.yahoo.co.jp/pickup/6595125?source=rss",
+   "published": "09/13 09:49",
+   "ts": 1789260592.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "富川悠太氏 テレ朝→トヨタの真相",
+   "link": "https://news.yahoo.co.jp/pickup/6595118?source=rss",
+   "published": "09/13 09:10",
+   "ts": 1789258254.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "米利上げ予想高まる インフレ続く",
    "link": "https://news.yahoo.co.jp/pickup/6595097?source=rss",
@@ -129,54 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595098?source=rss",
    "published": "09/12 22:06",
    "ts": 1789218364.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「時給100円」ブラックインターン",
-   "link": "https://news.yahoo.co.jp/pickup/6595093?source=rss",
-   "published": "09/12 21:00",
-   "ts": 1789214450.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "MUFG 富裕層囲い込み戦略の裏側",
-   "link": "https://news.yahoo.co.jp/pickup/6595083?source=rss",
-   "published": "09/12 19:32",
-   "ts": 1789209143.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「VAIO T」発表 再挑戦する理由",
-   "link": "https://news.yahoo.co.jp/pickup/6595069?source=rss",
-   "published": "09/12 16:58",
-   "ts": 1789199929.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日本の新幹線輸出 印で難航の背景",
-   "link": "https://news.yahoo.co.jp/pickup/6595056?source=rss",
-   "published": "09/12 15:06",
-   "ts": 1789193216.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "サーティワン絶好調 売れる理由",
-   "link": "https://news.yahoo.co.jp/pickup/6595028?source=rss",
-   "published": "09/12 10:50",
-   "ts": 1789177810.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン熊本 専門店に契約解除打診",
-   "link": "https://news.yahoo.co.jp/pickup/6595021?source=rss",
-   "published": "09/12 09:59",
-   "ts": 1789174758.0,
    "source": "Yahoo!",
    "desc": ""
   }
