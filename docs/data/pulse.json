@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-14 14:07:24",
+ "updated_at": "2026-09-14 22:01:42",
  "fng": {
   "value": 57,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.873170306611975,
-  "eth_dominance": 11.585799930026067,
-  "total_mcap_usd": 2642932012854.057,
-  "mcap_change_24h": -2.393800574064618
+  "btc_dominance": 58.400904396513795,
+  "eth_dominance": 11.44472468583919,
+  "total_mcap_usd": 2663653544430.1396,
+  "mcap_change_24h": -0.7476500436455855
  },
  "defi": {
-  "tvl_usd": 88364982747.0,
-  "change_1d": -0.0018442457170961823,
-  "change_7d": -0.0056404921928341345,
-  "change_1y": -0.4529263896981378,
-  "range_pos_1y": 0.19624598819255307
+  "tvl_usd": 88204173037.0,
+  "change_1d": -0.003974796626251886,
+  "change_7d": -0.007450062671040758,
+  "change_1y": -0.4539219735356086,
+  "range_pos_1y": 0.1946830734575806
  },
  "news_crypto": [
+  {
+   "title": "ストラテジー、2週連続ビットコイン購入見送り｜優先株買い戻しを継続",
+   "link": "https://coinpost.jp/?p=737367",
+   "published": "09/14 21:50",
+   "ts": 1789390225.0,
+   "source": "CoinPost",
+   "desc": "ビットコインDAT最大手ストラテジーは9月8日から13日にビットコインを購入せず、2週連続で追加取得を見送った。代わりに約1.4億ドルを投じてSTRC優先株を買い戻した。"
+  },
+  {
+   "title": "ビットコイン現物ETF、3週ぶりに流出転換",
+   "link": "https://coinpost.jp/?p=737281",
+   "published": "09/14 14:52",
+   "ts": 1789365168.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン現物ETFは9月7日週に4.63億ドルの週間純流出を記録し、3週連続の資金流入が途切れた。SoSoValueのデータからARKB・GBTC・MSBTの内訳と市場全体の状況を解説する。"
+  },
+  {
+   "title": "ビットバンク、ENJ価格乖離で10月16日に取扱い廃止へ",
+   "link": "https://coinpost.jp/?p=737276",
+   "published": "09/14 14:12",
+   "ts": 1789362740.0,
+   "source": "CoinPost",
+   "desc": "ビットバンクが2026年10月16日にエンジンコイン（ENJ）の取扱いを廃止すると発表。イーサリアム版とEnjin Relay Chain版の価格乖離が理由で、信用取引の追証リスクや出金期限、廃止後の円転換の流れを解説する。"
+  },
   {
    "title": "SWIFTのブロックチェーン活用加速、シンガポール3行が銀行間トークン化預金取引に成功",
    "link": "https://coinpost.jp/?p=737222",
@@ -89,38 +113,54 @@
    "ts": 1789343295.0,
    "source": "CoinPost",
    "desc": "グレースケールが9月11日、ライトコイン信託をETFへ転換する修正S-3をSECへ提出した。資産は1年で半減し約126億円に、NYSE Arca上場の可否はなお審査中で、ブルームバーグのアナリストは2025年9月時点で承認の可能性は高いとみていた。"
-  },
-  {
-   "title": "ブラジル中銀の資本規制、仮想通貨業者9割超が撤退の可能性＝報道",
-   "link": "https://coinpost.jp/?p=737146",
-   "published": "09/14 08:01",
-   "ts": 1789340478.0,
-   "source": "CoinPost",
-   "desc": "ブラジル中央銀行の新資本規制で、仮想通貨事業者9割超（300社中290社規模）が撤退の可能性。認可取得は10社程度の見通しで、最大約720万ドル相当の資本要件とコンプライアンス負担が要因。10月30日の申請期限後に再編の全容が判明する。"
-  },
-  {
-   "title": "ビットコイン、ATH未更新365日に接近　更新ペース加速の可能性＝アナリスト",
-   "link": "https://coinpost.jp/?p=737143",
-   "published": "09/14 07:35",
-   "ts": 1789338932.0,
-   "source": "CoinPost",
-   "desc": "アナリストのDarkfost氏は、ビットコインが史上最高値を更新せぬまま365日に迫り、更新ペースが加速する可能性があると指摘。過去3サイクルでは高値形成から次のATH更新までの日数が短縮しており、次回半減期は2028年4月と見込まれる。"
-  },
-  {
-   "title": "ビットコインPPI上振れで1200万円割れ、FOMCと原油高が焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=737000",
-   "published": "09/13 11:30",
-   "ts": 1789266620.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン（BTC）は米PPIの上振れや原油高を受け対円で1200万円を割り込み、1190万円台で推移している。目先はFOMCの利上げ判断とクラリティ法案の審議動向が焦点で、下値リスクへの警戒が続く。"
   }
  ],
  "news_jp": [
   {
-   "title": "中継 データ不正巡り中部電が会見",
-   "link": "https://news.yahoo.co.jp/pickup/6595253?source=rss",
-   "published": "09/14 13:58",
-   "ts": 1789361903.0,
+   "title": "光通信 レオパレス21にTOB実施",
+   "link": "https://news.yahoo.co.jp/pickup/6595298?source=rss",
+   "published": "09/14 21:51",
+   "ts": 1789390302.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "38社で1万1610人「国保逃れ」確認",
+   "link": "https://news.yahoo.co.jp/pickup/6595292?source=rss",
+   "published": "09/14 20:30",
+   "ts": 1789385402.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中部電の不正 経産相が厳しく批判",
+   "link": "https://news.yahoo.co.jp/pickup/6595291?source=rss",
+   "published": "09/14 20:19",
+   "ts": 1789384756.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「パスタ市場」競争さらに活発に",
+   "link": "https://news.yahoo.co.jp/pickup/6595263?source=rss",
+   "published": "09/14 15:32",
+   "ts": 1789367554.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "佐川急便かたる不審電話 見分け方",
+   "link": "https://news.yahoo.co.jp/pickup/6595257?source=rss",
+   "published": "09/14 15:00",
+   "ts": 1789365602.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "浜岡原発 再稼働の申請取り下げ",
+   "link": "https://news.yahoo.co.jp/pickup/6595258?source=rss",
+   "published": "09/14 14:27",
+   "ts": 1789363670.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595248?source=rss",
    "published": "09/14 12:46",
    "ts": 1789357607.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "中国で「はま寿司」急拡大 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6595241?source=rss",
-   "published": "09/14 12:22",
-   "ts": 1789356134.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "中部電力 データ不正で調査報告書",
-   "link": "https://news.yahoo.co.jp/pickup/6595243?source=rss",
-   "published": "09/14 12:07",
-   "ts": 1789355225.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "とうもろこし「もろ活」SNS話題",
-   "link": "https://news.yahoo.co.jp/pickup/6595240?source=rss",
-   "published": "09/14 11:55",
-   "ts": 1789354500.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀の利上げ公算大 家計への影響",
-   "link": "https://news.yahoo.co.jp/pickup/6595177?source=rss",
-   "published": "09/13 20:12",
-   "ts": 1789297969.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "オープンAIのCEO 年内IPOを否定",
-   "link": "https://news.yahoo.co.jp/pickup/6595170?source=rss",
-   "published": "09/13 17:56",
-   "ts": 1789289789.0,
    "source": "Yahoo!",
    "desc": ""
   }
