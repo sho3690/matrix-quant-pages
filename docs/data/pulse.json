@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15 14:02:42",
+ "updated_at": "2026-09-15 20:53:22",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.39506175543407,
-  "eth_dominance": 11.397786936964415,
-  "total_mcap_usd": 2659700301456.8564,
-  "mcap_change_24h": -1.9524583283282555
+  "btc_dominance": 58.32155671787351,
+  "eth_dominance": 11.406966198131176,
+  "total_mcap_usd": 2639718938170.943,
+  "mcap_change_24h": -3.740667916503735
  },
  "defi": {
-  "tvl_usd": 88207925713.0,
-  "change_1d": 0.009841215680061133,
-  "change_7d": -0.000659545644203452,
-  "change_1y": -0.4474870001658452,
-  "range_pos_1y": 0.1947221244479951
+  "tvl_usd": 87799767281.0,
+  "change_1d": 0.005195051420190611,
+  "change_7d": -0.005283724589428496,
+  "change_1y": -0.45004360534445087,
+  "range_pos_1y": 0.19075523224425875
  },
  "news_crypto": [
+  {
+   "title": "新経済連盟、2027年度税制改正提言を説明",
+   "link": "https://coinpost.jp/?p=737543",
+   "published": "09/15 18:00",
+   "ts": 1789462827.0,
+   "source": "CoinPost",
+   "desc": "新経済連盟は2026年9月15日、「2027年度税制改正提言」について報道関係者向けに説明した。ミニマムタックスの撤廃、所得税・相続税・法人税の引き下げ、事業承継税制の見直しに加え、暗号資産の申告分離課税や相続税評価の見直しなど、提言の要望内容をまとめた。"
+  },
+  {
+   "title": "ビットマイン、先週2.7万のイーサリアムを買い増し　供給4.9％保有に到達",
+   "link": "https://coinpost.jp/?p=737528",
+   "published": "09/15 14:49",
+   "ts": 1789451371.0,
+   "source": "CoinPost",
+   "desc": "ビットマインのETH保有量が595万6,378ETHに到達し、ETH供給の4.9％を保有したと発表した。仮想通貨・現金等の資産総額は158億ドルに拡大。ステーキング状況とトム・リー会長が挙げる強気材料を解説する。"
+  },
+  {
+   "title": "イーサリアム、冬相場でも取引・ステーキング比率は過去最高＝レポート",
+   "link": "https://coinpost.jp/?p=737478",
+   "published": "09/15 14:15",
+   "ts": 1789449353.0,
+   "source": "CoinPost",
+   "desc": "Token Terminalの2026年Q2レポートによると、イーサリアムは価格下落の一方でトランザクション数・TPS・ステーキング比率・保有者数が過去最高を記録した。イーサリアライズはこれを「コミットメントが強化された」と評価している。"
+  },
   {
    "title": "UAE、国民ID基盤をアバランチへ移行　1250万人規模",
    "link": "https://coinpost.jp/?p=737513",
@@ -89,46 +113,54 @@
    "ts": 1789439424.0,
    "source": "CoinPost",
    "desc": "Ethlabsのデレク・チャン氏は、アカウント抽象化の実装で仮想通貨イーサリアムのブロックチェーンとベースが別々の規格を採用することになったと報告。メリットを生む可能性にも言及した。"
-  },
-  {
-   "title": "ソラナ保有企業DeFiデベロップメント、239万SOLに拡大　3億ドルの調達枠新設",
-   "link": "https://coinpost.jp/?p=737430",
-   "published": "09/15 10:54",
-   "ts": 1789437257.0,
-   "source": "CoinPost",
-   "desc": "DFDV（DeFi Development Corp.）がSOLトレジャリーを238万8,923SOLに拡大したと発表。最大3億ドル規模のCHAD ATMも新設し、調達資金はSOLの追加購入に充てる方針。"
-  },
-  {
-   "title": "上場ビットコインマイナー3社が8月の採掘実績を報告、明暗分かれる",
-   "link": "https://coinpost.jp/?p=737404",
-   "published": "09/15 09:40",
-   "ts": 1789432801.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン採掘企業ビットフフとクリーンスパークは8月の採掘量の回復・微増を発表した。一方、カナーンは減産が継続しており、保有ETH売却資金などで自社株買いを実施した。"
-  },
-  {
-   "title": "オンチェーン金融データ『カイコ』、S&P主導の増資でシリーズBを1.1億ドルに拡大",
-   "link": "https://coinpost.jp/?p=737375",
-   "published": "09/15 09:25",
-   "ts": 1789431939.0,
-   "source": "CoinPost",
-   "desc": "オンチェーン金融データを手掛けるカイコが、S&Pグローバル主導の増資でシリーズBを1.1億ドルに拡大した。BNPパリバなど新規12社が参加し、カイコが議長を務める業界作業部会にも加わった。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ちいかわグッズ騒動 JR東海回答",
+   "link": "https://news.yahoo.co.jp/pickup/6595409?source=rss",
+   "published": "09/15 20:50",
+   "ts": 1789473030.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "長期金利が3.035% 30年ぶり水準",
+   "link": "https://news.yahoo.co.jp/pickup/6595395?source=rss",
+   "published": "09/15 18:38",
+   "ts": 1789465120.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「不気味キャラ」人気を得る背景",
+   "link": "https://news.yahoo.co.jp/pickup/6595379?source=rss",
+   "published": "09/15 16:52",
+   "ts": 1789458758.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "鉄道廃線の代替バス低迷 廃止意向",
+   "link": "https://news.yahoo.co.jp/pickup/6595368?source=rss",
+   "published": "09/15 14:46",
+   "ts": 1789451215.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "金融庁 ソニー生命に立ち入り検査",
+   "link": "https://news.yahoo.co.jp/pickup/6595362?source=rss",
+   "published": "09/15 14:09",
+   "ts": 1789448986.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "「ナウル駅」の愛称 一転して継続",
    "link": "https://news.yahoo.co.jp/pickup/6595344?source=rss",
    "published": "09/15 11:39",
    "ts": 1789439970.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東京メトロ東西線 一部で見合わせ",
-   "link": "https://news.yahoo.co.jp/pickup/6595340?source=rss",
-   "published": "09/15 11:12",
-   "ts": 1789438337.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "米長期金利一時5%台 インフレ懸念",
-   "link": "https://news.yahoo.co.jp/pickup/6595318?source=rss",
-   "published": "09/15 08:06",
-   "ts": 1789427189.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "プルデンシャル 顧客情報漏えい",
    "link": "https://news.yahoo.co.jp/pickup/6595306?source=rss",
    "published": "09/15 06:23",
    "ts": 1789420995.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "光通信 レオパレス21にTOB実施",
-   "link": "https://news.yahoo.co.jp/pickup/6595298?source=rss",
-   "published": "09/14 21:51",
-   "ts": 1789390302.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "38社で1万1610人「国保逃れ」確認",
-   "link": "https://news.yahoo.co.jp/pickup/6595292?source=rss",
-   "published": "09/14 20:30",
-   "ts": 1789385402.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "中部電の不正 経産相が厳しく批判",
-   "link": "https://news.yahoo.co.jp/pickup/6595291?source=rss",
-   "published": "09/14 20:19",
-   "ts": 1789384756.0,
    "source": "Yahoo!",
    "desc": ""
   }
