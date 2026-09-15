@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15 20:53:22",
+ "updated_at": "2026-09-16 02:07:52",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.32155671787351,
-  "eth_dominance": 11.406966198131176,
-  "total_mcap_usd": 2639718938170.943,
-  "mcap_change_24h": -3.740667916503735
+  "btc_dominance": 58.355282912712184,
+  "eth_dominance": 11.248573167272959,
+  "total_mcap_usd": 2619198139045.411,
+  "mcap_change_24h": -5.225765183113454
  },
  "defi": {
-  "tvl_usd": 87799767281.0,
-  "change_1d": 0.005195051420190611,
-  "change_7d": -0.005283724589428496,
-  "change_1y": -0.45004360534445087,
-  "range_pos_1y": 0.19075523224425875
+  "tvl_usd": 87215312358.0,
+  "change_1d": -0.0013674152982943166,
+  "change_7d": -0.011764056673341128,
+  "change_1y": -0.45370412942828053,
+  "range_pos_1y": 0.18516205193730795
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "日経新聞 広告冊子の料金を水増し",
+   "link": "https://news.yahoo.co.jp/pickup/6595414?source=rss",
+   "published": "09/15 22:18",
+   "ts": 1789478294.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ちいかわグッズ騒動 JR東海回答",
    "link": "https://news.yahoo.co.jp/pickup/6595409?source=rss",
    "published": "09/15 20:50",
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595362?source=rss",
    "published": "09/15 14:09",
    "ts": 1789448986.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「ナウル駅」の愛称 一転して継続",
-   "link": "https://news.yahoo.co.jp/pickup/6595344?source=rss",
-   "published": "09/15 11:39",
-   "ts": 1789439970.0,
    "source": "Yahoo!",
    "desc": ""
   },
