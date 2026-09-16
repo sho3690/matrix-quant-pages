@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16 20:48:29",
+ "updated_at": "2026-09-17 02:08:05",
  "fng": {
   "value": 51,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.99095744374201,
-  "eth_dominance": 11.407906904028065,
-  "total_mcap_usd": 2595352428264.814,
-  "mcap_change_24h": -4.827632720195883
+  "btc_dominance": 58.53530026755875,
+  "eth_dominance": 11.22972026142469,
+  "total_mcap_usd": 2592539408189.9995,
+  "mcap_change_24h": -3.749936202920097
  },
  "defi": {
-  "tvl_usd": 86262400337.0,
-  "change_1d": -0.028361639854910914,
-  "change_7d": -0.02281036107876655,
-  "change_1y": -0.4542579398186529,
-  "range_pos_1y": 0.17590268782161084
+  "tvl_usd": 86186346664.0,
+  "change_1d": -0.029188681198825672,
+  "change_7d": -0.023641922951616268,
+  "change_1y": -0.454739096012142,
+  "range_pos_1y": 0.17516360111673912
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "呪術廻戦コラボ巡り不正 牛角謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6595532?source=rss",
+   "published": "09/17 00:05",
+   "ts": 1789571157.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "3カ月ごと利上げ? やや期待先行",
+   "link": "https://news.yahoo.co.jp/pickup/6595525?source=rss",
+   "published": "09/16 21:58",
+   "ts": 1789563489.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "メルカリ株大幅安 1カ月で3割下落",
+   "link": "https://news.yahoo.co.jp/pickup/6595521?source=rss",
+   "published": "09/16 21:13",
+   "ts": 1789560803.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ドクターイエローを保存へ JR西",
    "link": "https://news.yahoo.co.jp/pickup/6595506?source=rss",
    "published": "09/16 17:34",
@@ -141,22 +165,6 @@
    "desc": ""
   },
   {
-   "title": "犬と登山 求められる飼い主の配慮",
-   "link": "https://news.yahoo.co.jp/pickup/6595486?source=rss",
-   "published": "09/16 14:02",
-   "ts": 1789534974.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マツダ・ロードスター 購入層変化",
-   "link": "https://news.yahoo.co.jp/pickup/6595480?source=rss",
-   "published": "09/16 12:57",
-   "ts": 1789531037.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "素朴ローカルフード 若者注目の訳",
    "link": "https://news.yahoo.co.jp/pickup/6595464?source=rss",
    "published": "09/16 11:38",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595460?source=rss",
    "published": "09/16 11:27",
    "ts": 1789525659.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "めじるしアクセ 販売停止が相次ぐ",
-   "link": "https://news.yahoo.co.jp/pickup/6595438?source=rss",
-   "published": "09/16 08:17",
-   "ts": 1789514246.0,
    "source": "Yahoo!",
    "desc": ""
   }
