@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17 14:00:46",
+ "updated_at": "2026-09-17 20:51:43",
  "fng": {
   "value": 50,
   "label": "中立",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.34868785300967,
-  "eth_dominance": 11.309919845710684,
-  "total_mcap_usd": 2621498530563.1274,
-  "mcap_change_24h": -1.5865509452618025
+  "btc_dominance": 58.83225556221976,
+  "eth_dominance": 11.3971053637517,
+  "total_mcap_usd": 2592186591716.796,
+  "mcap_change_24h": -2.854213046298277
  },
  "defi": {
-  "tvl_usd": 87128550705.0,
-  "change_1d": 0.013263154173964065,
-  "change_7d": -0.0016356282838336789,
-  "change_1y": -0.448603804016974,
-  "range_pos_1y": 0.18431973768455098
+  "tvl_usd": 87479506899.0,
+  "change_1d": 0.01734445480641278,
+  "change_7d": 0.002385810811475375,
+  "change_1y": -0.4463827650032127,
+  "range_pos_1y": 0.18773031663687018
  },
  "news_crypto": [
+  {
+   "title": "金融庁、暗号資産の「販売所」誘導に懸念表明",
+   "link": "https://coinpost.jp/?p=738218",
+   "published": "09/17 18:17",
+   "ts": 1789636651.0,
+   "source": "CoinPost",
+   "desc": "金融庁が7月15日、日本暗号資産等取引業協会との意見交換会で示した論点が9月17日までに判明した。「販売所」への誘導懸念のほか、本人確認のICチップ必須化、FATFのイラン向け対抗措置への対応も求めた。"
+  },
+  {
+   "title": "トークン化株式、時価総額が年初来3.6倍で最高＝The Kobeissi Letter",
+   "link": "https://coinpost.jp/?p=738178",
+   "published": "09/17 16:23",
+   "ts": 1789629821.0,
+   "source": "CoinPost",
+   "desc": "米Kobeissi Letterによると、トークン化株式の時価総額は8月に29億ドルの過去最高を記録、前月比12％増・年初来262％増。DEX出来高急伸で9月も最高値更新の見方。"
+  },
+  {
+   "title": "JPYC、韓国アップビット上場へ　岡部氏「大きな可能性」",
+   "link": "https://coinpost.jp/?p=738117",
+   "published": "09/17 15:41",
+   "ts": 1789627298.0,
+   "source": "CoinPost",
+   "desc": "円建てステーブルコインJPYCが9月17日、韓国最大手アップビットにウォン・BTC・USDT建てで上場する。岡部代表はCoinPostの取材に対し、国内の発行・償還100万円規制見直しへの期待を示した。"
+  },
+  {
+   "title": "Q2の仮想通貨ベンチャー投資額、冷え込んだ前期から大幅回復＝レポート",
+   "link": "https://coinpost.jp/?p=738036",
+   "published": "09/17 14:05",
+   "ts": 1789621506.0,
+   "source": "CoinPost",
+   "desc": "ギャラクシー・リサーチの調査によると、2026年Q2の仮想通貨VC投資額は56億8,300万ドルと前期比31%増加した。後期ステージの大型案件が牽引し、取引・取引所関連企業への資金集中が鮮明になった。"
+  },
   {
    "title": "レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認",
    "link": "https://coinpost.jp/?p=738095",
@@ -81,54 +113,54 @@
    "ts": 1789613026.0,
    "source": "CoinPost",
    "desc": "ビットコインコア（Bitcoin Core）32.0が9月14日にリリース候補に入り。ブロック検証高速化に加え、悪用可能なウォレット名とHTTPサーバーのメモリ枯渇を突く脆弱性2件を修正。10月10日に正式リリース予定。"
-  },
-  {
-   "title": "オンド、米証券保管大手DTCCに初のトークン化企業として加盟",
-   "link": "https://coinpost.jp/?p=737966",
-   "published": "09/17 11:35",
-   "ts": 1789612511.0,
-   "source": "CoinPost",
-   "desc": "オンド・ファイナンスの子会社がDTCCの投信取引基盤Fund/SERVに、トークン化企業として初めて加盟した。全米の投資信託取引の85%超を処理する同基盤への接続により、伝統金融とのシステム連携が可能になる。"
-  },
-  {
-   "title": "ビットコイン、下落幅は限定的も需要は停滞　クラリティー法案否決後の現在地分析＝グラスノード",
-   "link": "https://coinpost.jp/?p=737954",
-   "published": "09/17 11:15",
-   "ts": 1789611353.0,
-   "source": "CoinPost",
-   "desc": "グラスノードが仮想通貨市場レポートを発表した。ビットコインは悪材料にもかかわらず下落は限定的。一方でオンチェーン・ETF・企業購入など新規資金の流入は軒並み止まっている。"
-  },
-  {
-   "title": "反対票投じた7人の民主党議員、クラリティー法案の超党派協議継続へ",
-   "link": "https://coinpost.jp/?p=737967",
-   "published": "09/17 10:50",
-   "ts": 1789609812.0,
-   "source": "CoinPost",
-   "desc": "反対票を投じた民主党のジリブランド上院議員ら7人はクラリティー法案の超党派協議継続を表明した。採決不成立を受け、SECとCFTCの規則整備へ関心がシフトしている。"
-  },
-  {
-   "title": "クラリティー法案頓挫もビットコイン強気相場は継続、ビットワイズCIO分析",
-   "link": "https://coinpost.jp/?p=737968",
-   "published": "09/17 10:45",
-   "ts": 1789609515.0,
-   "source": "CoinPost",
-   "desc": "ビットワイズの最高投資責任者は、ビットコイン価格とクラリティー法案成立確率の逆相関データを示し、法案否決後も強気相場への影響は限定的との見方を示した。"
   }
  ],
  "news_jp": [
   {
-   "title": "地方で産業用地が不足 背景は",
-   "link": "https://news.yahoo.co.jp/pickup/6595576?source=rss",
-   "published": "09/17 12:47",
-   "ts": 1789616852.0,
+   "title": "SBI 「因縁」超えライブドア買収",
+   "link": "https://news.yahoo.co.jp/pickup/6595625?source=rss",
+   "published": "09/17 20:26",
+   "ts": 1789644395.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "戦後最長の景気拡大か 実感乏しく",
-   "link": "https://news.yahoo.co.jp/pickup/6595539?source=rss",
-   "published": "09/17 07:19",
-   "ts": 1789597198.0,
+   "title": "好調な「つるとんたん」なぜ売却",
+   "link": "https://news.yahoo.co.jp/pickup/6595619?source=rss",
+   "published": "09/17 19:38",
+   "ts": 1789641483.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "四国初の「マリオット」開業へ",
+   "link": "https://news.yahoo.co.jp/pickup/6595615?source=rss",
+   "published": "09/17 18:54",
+   "ts": 1789638863.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "TDS新規ショー決定 100億円投資",
+   "link": "https://news.yahoo.co.jp/pickup/6595601?source=rss",
+   "published": "09/17 17:03",
+   "ts": 1789632227.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "サンマルクHDがつるとんたん買収",
+   "link": "https://news.yahoo.co.jp/pickup/6595599?source=rss",
+   "published": "09/17 16:53",
+   "ts": 1789631606.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "個人金融資産 過去最高の2519兆円",
+   "link": "https://news.yahoo.co.jp/pickup/6595589?source=rss",
+   "published": "09/17 15:23",
+   "ts": 1789626201.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -145,38 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595532?source=rss",
    "published": "09/17 00:05",
    "ts": 1789571157.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "3カ月ごと利上げ? やや期待先行",
-   "link": "https://news.yahoo.co.jp/pickup/6595525?source=rss",
-   "published": "09/16 21:58",
-   "ts": 1789563489.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "メルカリ株大幅安 1カ月で3割下落",
-   "link": "https://news.yahoo.co.jp/pickup/6595521?source=rss",
-   "published": "09/16 21:13",
-   "ts": 1789560803.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ドクターイエローを保存へ JR西",
-   "link": "https://news.yahoo.co.jp/pickup/6595506?source=rss",
-   "published": "09/16 17:34",
-   "ts": 1789547660.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ガソリン補助金 過去最高の51円",
-   "link": "https://news.yahoo.co.jp/pickup/6595495?source=rss",
-   "published": "09/16 15:40",
-   "ts": 1789540810.0,
    "source": "Yahoo!",
    "desc": ""
   }
