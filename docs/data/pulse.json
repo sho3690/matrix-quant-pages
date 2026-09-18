@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18 13:53:32",
+ "updated_at": "2026-09-18 20:27:44",
  "fng": {
   "value": 56,
   "label": "強欲",
@@ -37,19 +37,59 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.050623799162395,
-  "eth_dominance": 11.290028572296597,
-  "total_mcap_usd": 2669952979910.126,
-  "mcap_change_24h": -0.9462633495839281
+  "btc_dominance": 58.68428839832725,
+  "eth_dominance": 11.4339133488616,
+  "total_mcap_usd": 2663922317758.111,
+  "mcap_change_24h": -1.0746513336819428
  },
  "defi": {
-  "tvl_usd": 88785042612.0,
-  "change_1d": 0.01926408296705162,
-  "change_7d": 0.026301687859266787,
-  "change_1y": -0.44717611693233994,
-  "range_pos_1y": 0.20041746306819602
+  "tvl_usd": 89799430509.0,
+  "change_1d": 0.03146957301546216,
+  "change_7d": 0.038027401788184756,
+  "change_1y": -0.44085998710169905,
+  "range_pos_1y": 0.21027524609109807
  },
  "news_crypto": [
+  {
+   "title": "日米豪独7機関、北朝鮮ハッカー「WaterPlum」が仮想通貨17億円窃取と公表",
+   "link": "https://coinpost.jp/?p=738590",
+   "published": "09/18 18:12",
+   "ts": 1789722775.0,
+   "source": "CoinPost",
+   "desc": "警察庁・FBIなど日米豪独7機関が北朝鮮系ハッカー集団WaterPlumによる仮想通貨窃取の実態を共同公表した。7,000超のウォレットから17億円相当を窃取したと認定し、国内初のラップトップファーム摘発事例も判明した。"
+  },
+  {
+   "title": "AI・オンチェーン金融サミット、平将明氏やメガバンク幹部が登壇",
+   "link": "https://coinpost.jp/?p=738486",
+   "published": "09/18 17:00",
+   "ts": 1789718429.0,
+   "source": "CoinPost",
+   "desc": "HashPortは18日、10月1日に東京・高輪で開く「AI・オンチェーン金融サミット」の 登壇者を先行公開した。ローソンでの円建てステーブルコインJPYCの店頭決済実証や、 ウォレットの現在地を扱う5セッションを予定する。"
+  },
+  {
+   "title": "NYSE親会社ICE、アバランチを24時間取引の基盤候補に",
+   "link": "https://coinpost.jp/?p=738543",
+   "published": "09/18 16:01",
+   "ts": 1789714906.0,
+   "source": "CoinPost",
+   "desc": "NYSE親会社ICEの幹部が、開発中の24時間取引基盤ATSの有力候補としてアバランチ（AVAX）に言及した。9月17日のアバランチ公式Xアカウントの投稿で判明。選定なら機関投資家の株式取引インフラを担うが、正式契約はまだ発表されていない。"
+  },
+  {
+   "title": "JPYC、韓国アップビット上場後に想定1円から乖離",
+   "link": "https://coinpost.jp/?p=738488",
+   "published": "09/18 14:40",
+   "ts": 1789710048.0,
+   "source": "CoinPost",
+   "desc": "電子決済手段型ステーブルコインのJPYCが韓国アップビットに上場し、二次流通市場で想定1円から一時乖離した。入出金対応はイーサリアムのみで、発行予約は一時停止後に復旧した。"
+  },
+  {
+   "title": "ブロックチェーン悪用のサイバー攻撃が急増、前年比5.2倍　国家関連活動が拡大＝チェイナリシス",
+   "link": "https://coinpost.jp/?p=738452",
+   "published": "09/18 14:00",
+   "ts": 1789707615.0,
+   "source": "CoinPost",
+   "desc": "チェイナリシスの最新レポートによると、ブロックチェーン上にマルウェアの指令情報を隠す「デッドドロップ」攻撃が過去12カ月で前年比5.2倍に急増した。北朝鮮・イランなど国家関連の関与も拡大しており、オープンソースAIの普及が参入障壁を下げていると指摘する。"
+  },
   {
    "title": "ECBラガルド総裁が自ら介入か、バイナンスEUライセンス取得の阻止めぐり",
    "link": "https://coinpost.jp/?p=738460",
@@ -73,54 +113,62 @@
    "ts": 1789698954.0,
    "source": "CoinPost",
    "desc": "仮想通貨ステラがプロトコルアップグレード「Adapter」（Protocol 28）のメインネット稼働開始を発表。コンセンサス高速化など開発者向け機能を強化している。"
-  },
-  {
-   "title": "サム・アルトマンの『ワールド』、金融スーパーアプリを150カ国超で展開",
-   "link": "https://coinpost.jp/?p=738339",
-   "published": "09/18 11:20",
-   "ts": 1789698019.0,
-   "source": "CoinPost",
-   "desc": "OpenAI創業者のアルトマン氏が共同創業した『ワールド（旧ワールドコイン）』が、金融アプリ「ワールドマネー」を150カ国以上で展開開始した。ステーブルコイン管理や資金追加の手段が広がり、利用者の資産運用の選択肢が増える。"
-  },
-  {
-   "title": "コインベース、地銀の仮想通貨取引サービス提供を支援",
-   "link": "https://coinpost.jp/?p=738263",
-   "published": "09/18 10:50",
-   "ts": 1789696255.0,
-   "source": "CoinPost",
-   "desc": "米コインベースは地銀・信用組合向けにステーブルコアと提携し、既存の銀行システムを通じて仮想通貨サービスを提供できる体制を整えた。"
-  },
-  {
-   "title": "ヴィタリック氏「セキュリティは防御側が有利」、AIハッキング悲観論に反論",
-   "link": "https://coinpost.jp/?p=738342",
-   "published": "09/18 10:45",
-   "ts": 1789695952.0,
-   "source": "CoinPost",
-   "desc": "イーサリアム共同創設者のヴィタリック・ブテリン氏は9月17日、AIハッキング増加でサイバーセキュリティが崩壊するとの悲観論にXで反論。形式検証への期待と資産の9割を仮想通貨で保有する理由を解説する。"
-  },
-  {
-   "title": "米財務省、イラン仮想通貨取引所BitBankを制裁",
-   "link": "https://coinpost.jp/?p=738326",
-   "published": "09/18 10:30",
-   "ts": 1789695021.0,
-   "source": "CoinPost",
-   "desc": "米財務省OFACは9月17日、イラン人金融家ザンジャニ系の仮想通貨取引所BitBankを制裁指定した。同取引所は6月以降、数億ドル相当のビットコインをIRGCに送金したとされる。開発元と側近3人も同時に制裁対象となった。"
-  },
-  {
-   "title": "ビットコインETFのヘッジ減れば、需要が金超えに＝JPモルガン",
-   "link": "https://coinpost.jp/?p=738242",
-   "published": "09/18 10:15",
-   "ts": 1789694154.0,
-   "source": "CoinPost",
-   "desc": "JPモルガンは、ETFのヘッジ需要が緩和されればビットコインがゴールドより需要を得やすくなるとの見方を示した。IBITの空売り比率はGLDより高く、投資家のポジション動向が今後を左右しそうだ。"
   }
  ],
  "news_jp": [
   {
-   "title": "老舗菓子店にも倒産の波 背景は",
-   "link": "https://news.yahoo.co.jp/pickup/6595686?source=rss",
-   "published": "09/18 13:26",
-   "ts": 1789705585.0,
+   "title": "日銀利上げ 金利との付き合い方は",
+   "link": "https://news.yahoo.co.jp/pickup/6595732?source=rss",
+   "published": "09/18 19:41",
+   "ts": 1789728102.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "スタバ ラテなどの定番商品値上げ",
+   "link": "https://news.yahoo.co.jp/pickup/6595729?source=rss",
+   "published": "09/18 19:13",
+   "ts": 1789726407.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "クリアアサヒをビールに転換 発表",
+   "link": "https://news.yahoo.co.jp/pickup/6595715?source=rss",
+   "published": "09/18 18:03",
+   "ts": 1789722227.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "国立美術館6施設 入館料2～3倍に",
+   "link": "https://news.yahoo.co.jp/pickup/6595717?source=rss",
+   "published": "09/18 17:52",
+   "ts": 1789721556.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日銀総裁 会見で利上げペース言及",
+   "link": "https://news.yahoo.co.jp/pickup/6595713?source=rss",
+   "published": "09/18 17:22",
+   "ts": 1789719743.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "利上げ決定後 一時1ドル157円台",
+   "link": "https://news.yahoo.co.jp/pickup/6595705?source=rss",
+   "published": "09/18 16:48",
+   "ts": 1789717732.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "おかきの播磨屋本店 廃業の方針",
+   "link": "https://news.yahoo.co.jp/pickup/6595709?source=rss",
+   "published": "09/18 16:47",
+   "ts": 1789717652.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -129,54 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595682?source=rss",
    "published": "09/18 12:03",
    "ts": 1789700608.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "広島の路面電車 一部最高50km/hに",
-   "link": "https://news.yahoo.co.jp/pickup/6595661?source=rss",
-   "published": "09/18 08:48",
-   "ts": 1789688938.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日産 新型スカイライン12月発表へ",
-   "link": "https://news.yahoo.co.jp/pickup/6595646?source=rss",
-   "published": "09/18 06:59",
-   "ts": 1789682383.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "九州新幹線 52日ぶり全線運転",
-   "link": "https://news.yahoo.co.jp/pickup/6595645?source=rss",
-   "published": "09/18 06:48",
-   "ts": 1789681714.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "SBI 「因縁」超えライブドア買収",
-   "link": "https://news.yahoo.co.jp/pickup/6595625?source=rss",
-   "published": "09/17 20:26",
-   "ts": 1789644395.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "好調な「つるとんたん」なぜ売却",
-   "link": "https://news.yahoo.co.jp/pickup/6595619?source=rss",
-   "published": "09/17 19:38",
-   "ts": 1789641483.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "四国初の「マリオット」開業へ",
-   "link": "https://news.yahoo.co.jp/pickup/6595615?source=rss",
-   "published": "09/17 18:54",
-   "ts": 1789638863.0,
    "source": "Yahoo!",
    "desc": ""
   }
