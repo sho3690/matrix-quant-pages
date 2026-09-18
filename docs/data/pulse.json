@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18 20:27:44",
+ "updated_at": "2026-09-19 01:33:04",
  "fng": {
   "value": 56,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.68428839832725,
-  "eth_dominance": 11.4339133488616,
-  "total_mcap_usd": 2663922317758.111,
-  "mcap_change_24h": -1.0746513336819428
+  "btc_dominance": 58.50595738392465,
+  "eth_dominance": 11.40375321623306,
+  "total_mcap_usd": 2772587713322.8276,
+  "mcap_change_24h": 2.1873257140063918
  },
  "defi": {
-  "tvl_usd": 89799430509.0,
-  "change_1d": 0.03146957301546216,
-  "change_7d": 0.038027401788184756,
-  "change_1y": -0.44085998710169905,
-  "range_pos_1y": 0.21027524609109807
+  "tvl_usd": 91112754748.0,
+  "change_1d": 0.04636464016281372,
+  "change_7d": 0.05301616860895031,
+  "change_1y": -0.43268251729179297,
+  "range_pos_1y": 0.22291867196802295
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "プルデンシャル フルコミ制変更へ",
+   "link": "https://news.yahoo.co.jp/pickup/6595747?source=rss",
+   "published": "09/18 22:25",
+   "ts": 1789737947.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "コメ価格2年ぶり2000円台 懸念も",
+   "link": "https://news.yahoo.co.jp/pickup/6595741?source=rss",
+   "published": "09/18 21:50",
+   "ts": 1789735841.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「小さな森の家」CMで不当表示",
+   "link": "https://news.yahoo.co.jp/pickup/6595736?source=rss",
+   "published": "09/18 21:09",
+   "ts": 1789733356.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "日銀利上げ 金利との付き合い方は",
    "link": "https://news.yahoo.co.jp/pickup/6595732?source=rss",
    "published": "09/18 19:41",
@@ -125,26 +149,10 @@
    "desc": ""
   },
   {
-   "title": "スタバ ラテなどの定番商品値上げ",
-   "link": "https://news.yahoo.co.jp/pickup/6595729?source=rss",
-   "published": "09/18 19:13",
-   "ts": 1789726407.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "クリアアサヒをビールに転換 発表",
    "link": "https://news.yahoo.co.jp/pickup/6595715?source=rss",
    "published": "09/18 18:03",
    "ts": 1789722227.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "国立美術館6施設 入館料2～3倍に",
-   "link": "https://news.yahoo.co.jp/pickup/6595717?source=rss",
-   "published": "09/18 17:52",
-   "ts": 1789721556.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595709?source=rss",
    "published": "09/18 16:47",
    "ts": 1789717652.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀 政策金利を1.25%に引き上げ",
-   "link": "https://news.yahoo.co.jp/pickup/6595682?source=rss",
-   "published": "09/18 12:03",
-   "ts": 1789700608.0,
    "source": "Yahoo!",
    "desc": ""
   }
