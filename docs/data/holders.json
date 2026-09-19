@@ -1,6 +1,6 @@
 {
- "fetched_at": 1789667126.4017122,
- "updated_at": "2026-09-18 02:45:26",
+ "fetched_at": 1789833636.3955963,
+ "updated_at": "2026-09-20 01:00:36",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -434,8 +434,8 @@
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "Fidelity Advisor Series VIII-Fidelity Advisor Intl Capital Appreciatio": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
+   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
@@ -585,9 +585,9 @@
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
+   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF": "2026-09-09",
    "Bernstein Fund Inc-International Strategic Equities Portfolio": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
@@ -864,8 +864,8 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-09-09",
+   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "Oregon Public Employees Retirement Fund": "2026-09-09"
   },
   "5108.T": {
@@ -921,7 +921,6 @@
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "2413.T": {
-   "WisdomTree Trust-WisdomTree Japan Opportunities Fund": "2026-09-09",
    "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.": "2026-09-09",
    "MFS SERIES TRUST X-MFS International Intrinsic Value Fund": "2026-09-09",
    "VANGUARD SPECIALIZED FUNDS-Vanguard Health Care Fund": "2026-09-09",
@@ -930,6 +929,7 @@
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund": "2026-09-09",
    "PUTNAM FOCUSED INTERNATIONAL EQUITY FUND": "2026-09-09",
+   "iShares Trust-iShares MSCI EAFE Small-Cap ETF": "2026-09-20",
    "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
@@ -968,8 +968,8 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-09-09",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-16",
+   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8750.T": {
@@ -1505,7 +1505,7 @@
    "American Century ETF Trust-Avantis International Small Cap Value ETF": "2026-09-09",
    "Dimensional ETF Trust-Dimensional International Small Cap Value ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE Small-Cap ETF": "2026-09-09",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09"
+   "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund": "2026-09-20"
   },
   "6473.T": {
    "American Century ETF Trust-Avantis International Small Cap Value ETF": "2026-09-09",
@@ -1581,7 +1581,7 @@
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "DFA INVESTMENT TRUST CO-The Japanese Small Company Series": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE Small-Cap ETF": "2026-09-09",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09"
+   "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.": "2026-09-20"
   },
   "6841.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -1847,10 +1847,10 @@
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-16",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-16",
-   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund": "2026-09-09",
    "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.": "2026-09-09",
    "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund": "2026-09-09",
+   "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8331.T": {
@@ -3395,10 +3395,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0018000001,
-    "shares": 162634400,
-    "pct_change": 0.0397,
+    "shares": 158505100,
+    "pct_change": -0.0254,
     "new_est": false,
     "suspect": false
    },
@@ -6577,19 +6577,6 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0021,
-    "shares": 4275731,
-    "pct_change": 0.0461,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
     "kind": "mf",
     "type": "index",
@@ -6599,6 +6586,19 @@
     "pct_held": 0.0021,
     "shares": 4276893,
     "pct_change": 0.0097,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-08-31",
+    "pct_held": 0.0021,
+    "shares": 4218931,
+    "pct_change": -0.013300001,
     "new_est": false,
     "suspect": false
    },
@@ -7688,10 +7688,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0055,
-    "shares": 351041,
-    "pct_change": 0.0162,
+    "shares": 354075,
+    "pct_change": 0.0086,
     "new_est": false,
     "suspect": false
    },
@@ -7768,10 +7768,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0069999998,
-    "shares": 6878806,
-    "pct_change": 0.0159,
+    "date": "2026-08-31",
+    "pct_held": 0.0070999996,
+    "shares": 6938666,
+    "pct_change": 0.0087,
     "new_est": false,
     "suspect": false
    },
@@ -8276,19 +8276,6 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0028,
-    "shares": 12495941,
-    "pct_change": 0.0467,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "iShares Trust-iShares MSCI EAFE ETF",
     "kind": "mf",
     "type": "index",
@@ -8311,6 +8298,19 @@
     "pct_held": 0.0027,
     "shares": 12446400,
     "pct_change": 0.0892,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-08-31",
+    "pct_held": 0.0027,
+    "shares": 12359141,
+    "pct_change": -0.0109,
     "new_est": false,
     "suspect": false
    },
@@ -9020,10 +9020,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0026,
-    "shares": 5763932,
-    "pct_change": 0.35950002,
+    "shares": 5664408,
+    "pct_change": -0.0173,
     "new_est": false,
     "suspect": false
    },
@@ -11327,19 +11327,6 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0019,
-    "shares": 2536197,
-    "pct_change": 0.0545,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
     "kind": "mf",
     "type": "index",
@@ -11349,6 +11336,19 @@
     "pct_held": 0.0019,
     "shares": 2587600,
     "pct_change": -0.0095,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-08-31",
+    "pct_held": 0.0019,
+    "shares": 2508297,
+    "pct_change": -0.011,
     "new_est": false,
     "suspect": false
    },
@@ -11948,19 +11948,6 @@
   ],
   "2413.T": [
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Opportunities Fund",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.7886,
-    "shares": 535440000,
-    "pct_change": 2399.0,
-    "new_est": false,
-    "suspect": true
-   },
-   {
     "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
     "kind": "mf",
     "type": "active",
@@ -12061,6 +12048,19 @@
     "pct_held": 0.0028,
     "shares": 1917100,
     "pct_change": 0.9154,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-06-30",
+    "pct_held": 0.0023,
+    "shares": 1589100,
+    "pct_change": 0.018099999,
     "new_est": false,
     "suspect": false
    },
@@ -12487,19 +12487,6 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0023999999,
-    "shares": 7451400,
-    "pct_change": 0.1173,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
     "kind": "mf",
     "type": "index",
@@ -12509,6 +12496,19 @@
     "pct_held": 0.0023999999,
     "shares": 7667000,
     "pct_change": 0.1733,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-08-31",
+    "pct_held": 0.0023,
+    "shares": 7369500,
+    "pct_change": -0.011,
     "new_est": false,
     "suspect": false
    },
@@ -13020,10 +13020,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0077,
-    "shares": 2040723,
-    "pct_change": 0.0159,
+    "shares": 2058517,
+    "pct_change": 0.0087,
     "new_est": false,
     "suspect": false
    },
@@ -15485,10 +15485,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0023,
-    "shares": 1152700,
-    "pct_change": 0.026199998,
+    "shares": 1164400,
+    "pct_change": 0.010199999,
     "new_est": false,
     "suspect": false
    },
@@ -18113,10 +18113,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0021,
-    "shares": 442800,
-    "pct_change": 0.0588,
+    "date": "2026-08-31",
+    "pct_held": 0.002,
+    "shares": 438300,
+    "pct_change": -0.010199999,
     "new_est": false,
     "suspect": false
    },
@@ -18424,15 +18424,15 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
     "kind": "mf",
-    "type": "index",
+    "type": "active",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0028,
-    "shares": 1407100,
-    "pct_change": 0.0049,
+    "date": "2026-05-31",
+    "pct_held": 0.0027,
+    "shares": 1326800,
+    "pct_change": -0.0728,
     "new_est": false,
     "suspect": false
    }
@@ -18535,10 +18535,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0025,
-    "shares": 790178,
-    "pct_change": 0.0050999997,
+    "shares": 781178,
+    "pct_change": -0.0114,
     "new_est": false,
     "suspect": false
    },
@@ -18760,10 +18760,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0077,
-    "shares": 1578098,
-    "pct_change": 0.015800001,
+    "shares": 1591792,
+    "pct_change": 0.0087,
     "new_est": false,
     "suspect": false
    },
@@ -19268,15 +19268,15 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
     "kind": "mf",
-    "type": "index",
+    "type": "active",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-04-30",
     "pct_held": 0.003,
-    "shares": 634000,
-    "pct_change": 0.0050999997,
+    "shares": 616604,
+    "pct_change": 0.0105,
     "new_est": false,
     "suspect": false
    }
@@ -19682,10 +19682,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "pct_held": 0.0029,
-    "shares": 701485,
-    "pct_change": 0.0156,
+    "shares": 707553,
+    "pct_change": 0.0087,
     "new_est": false,
     "suspect": false
    },
@@ -20037,10 +20037,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0025,
-    "shares": 566357,
-    "pct_change": 0.005,
+    "date": "2026-08-31",
+    "pct_held": 0.0023999999,
+    "shares": 560057,
+    "pct_change": -0.0111,
     "new_est": false,
     "suspect": false
    },
@@ -20883,10 +20883,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0034999999,
-    "shares": 2181600,
-    "pct_change": 0.005,
+    "date": "2026-08-31",
+    "pct_held": 0.0029,
+    "shares": 1848500,
+    "pct_change": -0.1527,
     "new_est": false,
     "suspect": false
    },
@@ -21926,10 +21926,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0023,
-    "shares": 2125030,
-    "pct_change": 0.048499998,
+    "date": "2026-08-31",
+    "pct_held": 0.0022,
+    "shares": 2101630,
+    "pct_change": -0.011,
     "new_est": false,
     "suspect": false
    },
@@ -22198,19 +22198,6 @@
     "suspect": false
    },
    {
-    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.017,
-    "shares": 6246400,
-    "pct_change": 2.7475,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
     "kind": "mf",
     "type": "index",
@@ -22246,6 +22233,19 @@
     "pct_held": 0.0136,
     "shares": 5000056,
     "pct_change": 3.044,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-08-31",
+    "pct_held": 0.0134000005,
+    "shares": 4915700,
+    "pct_change": -0.213,
     "new_est": false,
     "suspect": false
    },
@@ -25044,10 +25044,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-07-31",
-    "pct_held": 0.0086,
-    "shares": 1216796,
-    "pct_change": 0.1165,
+    "date": "2026-08-31",
+    "pct_held": 0.0098,
+    "shares": 1375096,
+    "pct_change": 0.1301,
     "new_est": false,
     "suspect": false
    },
@@ -27365,6 +27365,23 @@
  },
  "events": [
   {
+   "symbol": "8309.T",
+   "name": "三井住友トラスト",
+   "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+   "kind": "mf",
+   "type": "index",
+   "manager": null,
+   "notable": false,
+   "date": "2026-08-31",
+   "pct_held": 0.0134000005,
+   "shares": 4915700,
+   "pct_change": -0.213,
+   "new_est": false,
+   "suspect": false,
+   "dir": "down",
+   "new_here": false
+  },
+  {
    "symbol": "6920.T",
    "name": "レーザーテック",
    "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -27482,23 +27499,6 @@
    "suspect": false,
    "dir": "up",
    "new_here": true
-  },
-  {
-   "symbol": "8309.T",
-   "name": "三井住友トラスト",
-   "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-   "kind": "mf",
-   "type": "index",
-   "manager": null,
-   "notable": false,
-   "date": "2026-07-31",
-   "pct_held": 0.017,
-   "shares": 6246400,
-   "pct_change": 2.7475,
-   "new_est": false,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
   },
   {
    "symbol": "6963.T",
@@ -27699,23 +27699,6 @@
    "pct_held": 0.0045,
    "shares": 16998233,
    "pct_change": 0.42150003,
-   "new_est": false,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "4755.T",
-   "name": "楽天グループ",
-   "holder": "GLOBAL X FUNDS-Global X Artificial Intelligence & Technology ETF",
-   "kind": "mf",
-   "type": "index",
-   "manager": null,
-   "notable": false,
-   "date": "2026-07-31",
-   "pct_held": 0.0026,
-   "shares": 5763932,
-   "pct_change": 0.35950002,
    "new_est": false,
    "suspect": false,
    "dir": "up",
@@ -30765,6 +30748,23 @@
    "new_here": true
   },
   {
+   "symbol": "2413.T",
+   "name": "エムスリー",
+   "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+   "kind": "mf",
+   "type": "index",
+   "manager": null,
+   "notable": false,
+   "date": "2026-06-30",
+   "pct_held": 0.0023,
+   "shares": 1589100,
+   "pct_change": 0.018099999,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
+  },
+  {
    "symbol": "6503.T",
    "name": "三菱電機",
    "holder": "Boston Common Asset Management, LLC",
@@ -31698,6 +31698,23 @@
    "suspect": false,
    "dir": "up",
    "new_here": false
+  },
+  {
+   "symbol": "6471.T",
+   "name": "日本精工",
+   "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
+   "kind": "mf",
+   "type": "active",
+   "manager": null,
+   "notable": false,
+   "date": "2026-05-31",
+   "pct_held": 0.0027,
+   "shares": 1326800,
+   "pct_change": -0.0728,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
   },
   {
    "symbol": "5803.T",
