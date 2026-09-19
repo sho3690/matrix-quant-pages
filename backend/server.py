@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from backend import forecast, market, pulse
+from backend import forecast, holders, market, pulse
 from backend.paper import PaperBroker, validate_stock_qty, STOP_K
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -22,6 +22,7 @@ app = FastAPI(title="MATRIX QUANT TERMINAL")
 # (PCとiPhoneから同時に操作しても記録が消えないように)
 REFRESH_LOCK = threading.Lock()
 TRADE_LOCK = threading.Lock()
+HOLDERS_LOCK = threading.Lock()  # 組入データの初回生成を直列化(同時アクセスで二重取得しない)
 SYMBOL_RE = re.compile(r"^[A-Za-z0-9.\-^=]{1,15}$")
 
 
@@ -50,6 +51,13 @@ def _prices_jpy(snap: dict) -> dict:
 
 def _atrs(snap: dict) -> dict:
     return {a["symbol"]: a.get("atr_pct") for a in snap.get("assets", [])}
+
+
+def _stock_symbols():
+    """組入動向の対象(株式のみ。暗号資産に保有報告は無い)。(銘柄リスト, 表示名辞書)を返す"""
+    wl = market.load_watchlist()
+    stocks = [a for a in wl["assets"] if a.get("asset_class") != "crypto"]
+    return [a["symbol"] for a in stocks], {a["symbol"]: a.get("name") or a["symbol"] for a in stocks}
 
 
 @app.get("/")
@@ -87,6 +95,10 @@ def refresh():
         pulse.build_pulse()  # 市況パルスも一緒に更新(失敗しても株価更新は返す)
     except Exception:
         pass
+    try:
+        holders.build_holders(*_stock_symbols())  # 組入動向(24時間キャッシュ・失敗しても株価更新は返す)
+    except Exception:
+        pass
     return snap
 
 
@@ -104,6 +116,22 @@ def get_pulse():
 @app.get("/api/forecast")
 def get_forecast():
     return forecast.load_forecast()  # 未生成なら{}(404にはしない)
+
+
+@app.get("/api/holders")
+def get_holders():
+    """ファンド組入動向。未生成なら初回だけここで生成する(10秒前後)。失敗時は{}"""
+    doc = holders.load_holders()
+    if doc.get("data"):
+        return doc
+    with HOLDERS_LOCK:
+        doc = holders.load_holders()
+        if doc.get("data"):
+            return doc
+        try:
+            return holders.build_holders(*_stock_symbols())
+        except Exception:
+            return {}
 
 
 @app.get("/api/paper")
