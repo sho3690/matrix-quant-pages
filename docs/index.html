@@ -583,17 +583,30 @@
   .fng-marker { position: absolute; top: -4px; width: 3px; height: 16px; border-radius: 2px; background: var(--md-on-surface); transform: translateX(-50%); }
   #jgb-curve { display: block; margin-top: 8px; max-width: 100%; }
 
-  /* ===== ニュース ===== */
-  .news-duo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
-  @media (max-width: 980px) { .news-duo { grid-template-columns: minmax(0, 1fr); } }
-  .brief-h { font-size: 14px; line-height: 20px; font-weight: 500; letter-spacing: .1px; margin-bottom: 6px; }
-  .brief-text { margin: 0; font-size: 15px; line-height: 26px; letter-spacing: .3px; }
-  .news-item { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--md-outline-variant); font-size: 14px; line-height: 20px; }
-  .news-item:last-child { border-bottom: 0; }
-  .news-item .t { flex: none; width: 140px; padding-top: 2px; color: var(--md-on-surface-variant); font-size: 12px; line-height: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .news-item a { color: var(--md-on-surface); text-decoration: none; }
-  .news-item a:hover, .news-item a:focus-visible { color: var(--md-primary); text-decoration: underline; outline: none; }
-  @media (max-width: 480px) { .news-item { flex-direction: column; gap: 2px; } .news-item .t { width: auto; } }
+  /* ===== ニュース(株式・経済 / 暗号資産 の2枠。要約+引用した記事だけを見せる) ===== */
+  .news-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+  @media (max-width: 900px) { .news-grid { grid-template-columns: minmax(0, 1fr); } }
+  .story { position: relative; overflow: hidden; padding-top: 20px; margin-bottom: 0; }
+  .story::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--story-accent); }
+  .story-stocks { --story-accent: var(--md-primary); }
+  .story-crypto { --story-accent: var(--md-tertiary); }
+  .story .eyebrow { display: flex; align-items: center; gap: 8px; }
+  .story-dot { width: 8px; height: 8px; border-radius: 2px; background: var(--story-accent); flex: none; }
+  .story-body p { margin: 0 0 12px; font-size: 15px; line-height: 26px; letter-spacing: .3px; }
+  .story-body p.lead { font-size: 17px; line-height: 30px; letter-spacing: .2px; }
+  .story-body p:last-child { margin-bottom: 0; }
+  .cite { display: inline-block; min-width: 18px; height: 18px; margin: 0 2px 0 4px; padding: 0 5px; border-radius: 9px;
+          background: color-mix(in srgb, var(--story-accent) 14%, transparent); color: var(--story-accent);
+          font-size: 11px; line-height: 18px; font-weight: 500; letter-spacing: .3px; text-align: center; vertical-align: 2px; text-decoration: none; }
+  .cite:hover, .cite:focus-visible { background: color-mix(in srgb, var(--story-accent) 26%, transparent); outline: none; }
+  .cited { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--md-outline-variant); }
+  .cited-h { font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: .5px; color: var(--md-on-surface-variant); margin-bottom: 6px; }
+  .cited ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+  .cited li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 8px; align-items: baseline; font-size: 14px; line-height: 20px; }
+  .cited li .n { color: var(--story-accent); font-weight: 500; font-size: 12px; }
+  .cited li a { color: var(--md-on-surface); text-decoration: none; }
+  .cited li a:hover, .cited li a:focus-visible { color: var(--md-primary); text-decoration: underline; outline: none; }
+  .cited li .meta { display: block; color: var(--md-on-surface-variant); font-size: 12px; line-height: 16px; }
 
   /* ===== アノマリー(季節性) ===== */
   .anomaly-row {
@@ -800,7 +813,7 @@
     <a href="#detail" data-screen="detail">銘柄詳細</a>
     <a href="#funds" data-screen="funds">ファンド</a>
     <a href="#paper" data-screen="paper" class="live-only">売買練習</a>
-    <a href="#ripple" data-screen="ripple">RippleDrift</a>
+    <a href="#ripple" data-screen="ripple">スイング候補</a>
   </nav>
   <div class="progress" id="progress" hidden aria-hidden="true"></div>
 </div>
@@ -847,39 +860,25 @@
 
   <!-- ===== ニュース: 要約 → 株式・経済 → 暗号資産 ===== -->
   <section class="screen" data-screen="news" id="screen-news">
-    <section class="panel" id="sec-news">
-      <div class="panel-head">
-        <div class="eyebrow">News Brief</div>
-        <h2>ニュース要約 <span class="sub">見出しと本文からの自動生成</span></h2>
-      </div>
-      <div class="news-duo">
-        <div>
-          <div class="brief-h">株式・経済</div>
-          <p class="brief-text" id="brief-stocks">読込中...</p>
+    <div class="news-grid">
+      <section class="panel story story-stocks" id="story-stocks">
+        <div class="panel-head">
+          <div class="eyebrow"><span class="story-dot" aria-hidden="true"></span>News Brief · Stocks</div>
+          <h2>株式・経済 <span class="sub" id="story-stocks-meta">NHK・Yahoo!ニュースから自動要約</span></h2>
         </div>
-        <div>
-          <div class="brief-h">暗号資産</div>
-          <p class="brief-text" id="brief-crypto">読込中...</p>
+        <div class="story-body" id="story-stocks-body"><p class="dim">読込中...</p></div>
+        <div class="cited" id="story-stocks-cited" hidden></div>
+      </section>
+      <section class="panel story story-crypto" id="story-crypto">
+        <div class="panel-head">
+          <div class="eyebrow"><span class="story-dot" aria-hidden="true"></span>News Brief · Crypto</div>
+          <h2>暗号資産 <span class="sub" id="story-crypto-meta">CoinPostから自動要約</span></h2>
         </div>
-      </div>
-    </section>
-
-    <section class="panel" id="panel-newsjp">
-      <div class="panel-head">
-        <div class="eyebrow">News</div>
-        <h2>株式・経済 <span class="sub">NHK・Yahoo!ニュース</span></h2>
-      </div>
-      <div id="news-jp-list" class="dim">読込中...</div>
-    </section>
-
-    <section class="panel" id="panel-newscrypto">
-      <div class="panel-head">
-        <div class="eyebrow">News</div>
-        <h2>暗号資産 <span class="sub">CoinPost</span></h2>
-      </div>
-      <div id="news-crypto-list" class="dim">読込中...</div>
-    </section>
-    <div class="note-line">ニュースは判断材料のひとつ。売買前に一次情報(公式発表)で裏取りを</div>
+        <div class="story-body" id="story-crypto-body"><p class="dim">読込中...</p></div>
+        <div class="cited" id="story-crypto-cited" hidden></div>
+      </section>
+    </div>
+    <div class="note-line">要約は見出しと本文からの自動生成。文中の番号は「引用した記事」に対応し、押すと元記事が開きます。売買前に一次情報(公式発表)で裏取りを</div>
   </section>
 
   <!-- ===== シグナル: 監視銘柄の一覧(行を押すと「銘柄詳細」画面へ) ===== -->
@@ -1203,7 +1202,7 @@ Ring C = 100·(0.6·pct(CM) + 0.4·pct(gap))</div>
 
 <script>
 "use strict";
-const APP_VERSION = "v5.2";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v5.3";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -1372,7 +1371,7 @@ async function loadRipple(opts = {}) {
 }
 const inWatch = sym => MARKET && MARKET.assets.find(a => a.symbol === sym);
 const rippleTag = sym => (RIPPLE && RIPPLE.bySym.has(sym))
-  ? ' <span class="tag ripple" title="RippleDriftの候補(決算サプライズ×経営陣の自信×取引先の追い風)">RippleDrift候補</span>' : "";
+  ? ' <span class="tag ripple" title="スイング候補(RippleDrift: 決算サプライズ×経営陣の自信×取引先の追い風)">スイング候補</span>' : "";
 
 /* ---- 小さな道具(この画面専用。端末の fmt* とは単位や表記が違うので分けている) ---- */
 const rdEsc = s => esc(s ?? "");
@@ -2369,7 +2368,7 @@ function renderAll() {
   document.getElementById("usdjpy").textContent = "USD/JPY " + fmtNum(MARKET.usdjpy, 2);
   document.getElementById("updated").textContent = "最終更新 " + MARKET.updated_at;
   renderTabs(); renderBoard(); renderDetail(); renderKelly(); renderPaper(); renderRegime();
-  renderIndices(); renderPulse(); renderNews(); renderBrief(); renderSigChanges();
+  renderIndices(); renderPulse(); renderBrief(); renderSigChanges();
   renderSeasonality(); renderFundFlow(); renderRipple();
 }
 
@@ -2519,59 +2518,66 @@ const NEWS_TOPICS = {
   ],
 };
 
-function composeNewsBrief(items, side) {
-  // 記事本文(desc)を主役に、読み物として流れる要約文を組み立てる。
-  // 本文が無い記事(Yahoo等)は最後に見出しでまとめて拾う
-  if (!items || !items.length) return "ニュースを取得できていません(「更新」で再試行)。";
+// ニュース要約を「段落(引用番号つき)」と「引用した記事」に組み立てる。記事本文(desc)のある記事を主役にし、
+// 本文が無い記事(Yahoo等)は見出しで拾う。番号は下の「引用した記事」の並びと対応し、押すと元記事が開く
+function composeNewsStory(items, side) {
+  if (!items || !items.length) return null;
   const trim = (t, n = 30) => {
-    const s = t.split(/[｜|]/)[0].trim();
-    return s.length > n ? s.slice(0, n - 1) + "…" : s;
+    const x = t.split(/[｜|]/)[0].trim();
+    return x.length > n ? x.slice(0, n - 1) + "…" : x;
   };
   // 完結した文だけを取り出す(途中で切れた末尾は捨てる)
   const fullSentences = (text, n) => {
-    const parts = text.split("。").slice(0, -1).map(s => s.trim()).filter(Boolean);
+    const parts = text.split("。").slice(0, -1).map(x => x.trim()).filter(Boolean);
     return parts.length ? parts.slice(0, n).join("。") + "。" : "";
   };
-  const used = new Set();
+  const cited = [];
+  const ref = n => {
+    let i = cited.indexOf(n);
+    if (i < 0) { cited.push(n); i = cited.length - 1; }
+    return `<a class="cite" href="${esc(n.link)}" target="_blank" rel="noopener noreferrer" title="${esc(n.title)}">${i + 1}</a>`;
+  };
   const paras = [];
   const withDesc = items.filter(n => fullSentences(n.desc || "", 1).length >= 20);
-
   // リード: 最重要トピック(金利/BTC)かつ本文つきの記事を最優先
   const topicRe = NEWS_TOPICS[side][0][1];
   const lead = withDesc.find(n => topicRe.test(n.title)) || withDesc[0];
-  if (lead) {
-    used.add(lead);
-    paras.push(`${fullSentences(lead.desc, 2)}(${lead.source || "配信"})`);
-  }
-
-  // 2本目: 別の記事の本文をもう一段落
-  const second = withDesc.find(n => !used.has(n));
-  if (second) {
-    used.add(second);
-    paras.push(`また、${fullSentences(second.desc, 1)}(${second.source || "配信"})`);
-  }
-
-  // 本文つきが無い場合のリード代替: 見出しとトピック分類で組む
+  if (lead) paras.push({ lead: true, html: `${esc(fullSentences(lead.desc, 2))}${ref(lead)}` });
+  const second = withDesc.find(n => n !== lead);
+  if (second) paras.push({ html: `また、${esc(fullSentences(second.desc, 1))}${ref(second)}` });
+  // 本文つきが無い場合: 見出しとトピック分類で組む
   if (!paras.length) {
     const first = items.find(n => topicRe.test(n.title)) || items[0];
-    used.add(first);
-    paras.push(`「${trim(first.title)}」${first.source ? `(${first.source})` : ""}をはじめとする報道が出ている。`);
     const hits = NEWS_TOPICS[side]
       .map(([label, re]) => [label, items.filter(n => re.test(n.title)).length])
       .filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1]).slice(0, 2);
-    if (hits.length) paras.push(`話題の中心は${hits.map(([l]) => l).join("と")}だ。`);
+    paras.push({ lead: true, html: `「${esc(trim(first.title))}」${ref(first)}をはじめとする報道が出ている。${hits.length ? `話題の中心は${esc(hits.map(([l]) => l).join("と"))}だ。` : ""}` });
   }
-
-  // 残りは見出しで軽く拾って締める
-  const rest = items.filter(n => !used.has(n));
+  // 残りは見出しで軽く拾って締める(ここまでに引用した記事だけを下に並べる)
+  const rest = items.filter(n => !cited.includes(n));
   if (rest.length) {
-    const heads = rest.slice(0, 3).map(n => `「${trim(n.title)}」`).join("、");
-    paras.push(`このほか${heads}${rest.length > 3 ? `など計${rest.length}本` : ""}の報道が続いている。`);
+    const heads = rest.slice(0, 3).map(n => `「${esc(trim(n.title))}」${ref(n)}`).join("、");
+    paras.push({ html: `このほか${heads}${rest.length > 3 ? `など計${rest.length}本` : ""}の報道が続いている。` });
   }
-
-  const sources = [...new Set(items.map(n => n.source).filter(Boolean))].join("・");
-  paras.push(`(${items[0].published || "--"}時点・${sources}からの自動要約)`);
-  return paras.join("");
+  const sources = [...new Set(items.map(n => n.source).filter(Boolean))];
+  return { paras, cited, meta: `${items[0].published || "--"}時点 · ${sources.join("・")}から自動要約 · 引用 ${cited.length}本` };
+}
+function renderStory(key, items) {
+  const body = document.getElementById(`story-${key}-body`);
+  const citedEl = document.getElementById(`story-${key}-cited`);
+  const meta = document.getElementById(`story-${key}-meta`);
+  const st = composeNewsStory(items, key === "stocks" ? "jp" : "crypto");
+  if (!st) {
+    body.innerHTML = `<p class="dim">ニュースを取得できませんでした(「更新」で再試行)</p>`;
+    citedEl.hidden = true;
+    return;
+  }
+  meta.textContent = st.meta;
+  body.innerHTML = st.paras.map(p => `<p${p.lead ? ' class="lead"' : ""}>${p.html}</p>`).join("");
+  citedEl.hidden = false;
+  citedEl.innerHTML = `<div class="cited-h">引用した記事</div><ol>${st.cited.map((n, i) => `
+    <li><span class="n">${i + 1}</span><span><a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer">${esc(n.title)}</a>
+      <span class="meta">${esc(n.published || "")}${n.source ? " · " + esc(n.source) : ""}</span></span></li>`).join("")}</ol>`;
 }
 
 function signalCounts(cls) {
@@ -2582,10 +2588,8 @@ function signalCounts(cls) {
 }
 
 function renderBrief() {
-  document.getElementById("brief-stocks").textContent =
-    composeNewsBrief(PULSE && PULSE.news_jp, "jp");
-  document.getElementById("brief-crypto").textContent =
-    composeNewsBrief(PULSE && PULSE.news_crypto, "crypto");
+  renderStory("stocks", PULSE && PULSE.news_jp);
+  renderStory("crypto", PULSE && PULSE.news_crypto);
 }
 
 /* ===== 世界の指数(GLOBAL MARKETS) — 追い風/向かい風の判定つき ===== */
@@ -2771,23 +2775,6 @@ function renderPulse() {
 }
 
 /* ===== ニュース(株式・経済 / 暗号資産の2ペイン) ===== */
-function renderNewsList(elId, items) {
-  const el = document.getElementById(elId);
-  if (!items || !items.length) {
-    el.className = "dim";
-    el.textContent = "ニュースを取得できませんでした(「更新」で再試行)";
-    return;
-  }
-  el.className = "";
-  el.innerHTML = items.map(n => `
-    <div class="news-item"><span class="t">${esc(n.published)}${n.source ? " " + esc(n.source) : ""}</span><a href="${esc(n.link)}"
-      target="_blank" rel="noopener noreferrer">${esc(n.title)}</a></div>`).join("");
-}
-function renderNews() {
-  renderNewsList("news-jp-list", PULSE && PULSE.news_jp);
-  renderNewsList("news-crypto-list", PULSE && PULSE.news_crypto);
-}
-
 function renderTabs() {
   const counts = { all: MARKET.assets.length };
   MARKET.assets.forEach(a => { counts[a.asset_class] = (counts[a.asset_class] || 0) + 1; });
