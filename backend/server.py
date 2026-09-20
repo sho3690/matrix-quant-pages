@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from backend import forecast, holders, market, pulse
+from backend import forecast, holders, market, pulse, edinet_holdings
 from backend.paper import PaperBroker, validate_stock_qty, STOP_K
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -99,6 +99,10 @@ def refresh():
         holders.build_holders(*_stock_symbols())  # 組入動向(24時間キャッシュ・失敗しても株価更新は返す)
     except Exception:
         pass
+    try:
+        edinet_holdings.build_edinet(*_stock_symbols())  # 大量保有報告(EDINET、6時間キャッシュ。キーが無ければ何もしない)
+    except Exception:
+        pass
     return snap
 
 
@@ -132,6 +136,12 @@ def get_holders():
             return holders.build_holders(*_stock_symbols())
         except Exception:
             return {}
+
+
+@app.get("/api/edinet")
+def get_edinet():
+    """大量保有報告(EDINET)。未生成なら{}(404にはしない)。生成はREFRESH時"""
+    return edinet_holdings.load_edinet()
 
 
 @app.get("/api/paper")

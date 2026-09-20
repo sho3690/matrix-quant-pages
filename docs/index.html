@@ -688,6 +688,11 @@
   .ff-table td:first-child { min-width: 110px; }
   .ff-table td.ff-wrap { min-width: 150px; font-size: 13px; line-height: 18px; }
   .ff-note { color: var(--md-on-surface-variant); font-size: 12px; line-height: 18px; }
+  .ed-table td:nth-child(2) { min-width: 120px; }
+  .ed-table td:nth-child(3) { min-width: 190px; }
+  .ed-table td:nth-child(4), .ed-table td:nth-child(5) { white-space: nowrap; }
+  .ed-table td.ff-wrap { min-width: 220px; }
+  .ed-table .icon-btn { display: inline-flex; }
   .ff-legend { margin-top: 8px; color: var(--md-on-surface-variant); font-size: 12px; line-height: 18px; }
   .ff-legend summary { cursor: pointer; color: var(--md-primary); font-weight: 500; }
   .ff-legend summary:focus-visible { outline: 2px solid var(--md-primary); outline-offset: 2px; }
@@ -990,6 +995,22 @@
       </div>
       <div id="fundflow" class="dim">読込中...</div>
     </section>
+
+    <section class="panel" id="panel-edinet">
+      <div class="panel-head">
+        <div class="eyebrow">Large Holdings · EDINET</div>
+        <h2>日本の大量保有報告(5%ルール) <span class="sub">金融庁EDINET・提出は原則5営業日以内で鮮度が高い</span></h2>
+      </div>
+      <div class="ff-note">発行済株式の5%超を持つ保有者(運用会社・事業会社・個人など)が出す<b>大量保有報告書</b>と、その後1%以上の増減で出る<b>変更報告書</b>を、監視銘柄について直近45日分。<b>野村・日興・三井住友DS・大和など日本の運用会社の動きも含まれます</b>。証券会社の商品在庫や事業会社の持合い、アクティビストも混ざるので、既定では主要運用会社だけに絞っています。保有割合は発行済株式に対する割合(%)。シグナル判定には使っていない参考情報です</div>
+      <div class="ff-controls">
+        <div class="tabs" role="group" aria-label="絞り込み">
+          <button type="button" class="tab active" id="ed-notable" aria-pressed="true" onclick="edChip(this, 'notable')">主要運用会社のみ</button>
+          <button type="button" class="tab" id="ed-up" aria-pressed="false" onclick="edChip(this, 'upOnly')">新規・買い増しのみ</button>
+        </div>
+        <span class="ff-note" id="edinet-meta"></span>
+      </div>
+      <div id="edinet" class="dim">読込中...</div>
+    </section>
   </section>
 
   <!-- ===== 売買練習(ローカル版のみ) ===== -->
@@ -1201,15 +1222,15 @@ Ring C = 100·(0.6·pct(CM) + 0.4·pct(gap))</div>
 
 <script>
 "use strict";
-const APP_VERSION = "v5.3";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v5.4";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
 const STATIC_MODE = !!window.STATIC_MODE;
 const apiPath = p => STATIC_MODE
-  ? ({ "/api/market": "data/market.json", "/api/pulse": "data/pulse.json", "/api/forecast": "data/forecast.json", "/api/holders": "data/holders.json" }[p] || p)
+  ? ({ "/api/market": "data/market.json", "/api/pulse": "data/pulse.json", "/api/forecast": "data/forecast.json", "/api/holders": "data/holders.json", "/api/edinet": "data/edinet.json" }[p] || p)
   : p;
-let MARKET = null, PAPER = null, PULSE = null, FORECAST = null, HOLDERS = null, SELECTED = null, FILTER = "all";
+let MARKET = null, PAPER = null, PULSE = null, FORECAST = null, HOLDERS = null, EDINET = null, SELECTED = null, FILTER = "all";
 const CLASS_LABEL = { crypto: "暗号通貨", jp: "日本株", other: "海外株など" };
 const RS_BENCH_LABEL = { jp: "日経225", crypto: "BTC", other: "S&P500" };
 
@@ -2326,6 +2347,17 @@ async function loadHolders() {
     HOLDERS = null;
   }
 }
+async function loadEdinet() {
+  // 大量保有報告(EDINET)も表示専用の付加情報。未生成/404/壊れたJSONでも本体表示を止めない
+  try {
+    const res = await fetch(apiPath("/api/edinet"));
+    if (!res.ok) { EDINET = null; return; }
+    const j = await res.json();
+    EDINET = (j && Array.isArray(j.events)) ? j : null;
+  } catch (e) {
+    EDINET = null;
+  }
+}
 async function refresh() {
   if (!SERVED) { showMsg("err", NOT_SERVED_MSG); return; }
   const btn = document.getElementById("refresh-btn");
@@ -2341,7 +2373,7 @@ async function refresh() {
       .finally(() => clearTimeout(timer));
     if (!res.ok) throw new Error((await res.json()).detail || "更新失敗");
     MARKET = await res.json();
-    await Promise.all([loadPaper(), loadPulse(), loadForecast(), loadHolders()]);
+    await Promise.all([loadPaper(), loadPulse(), loadForecast(), loadHolders(), loadEdinet()]);
     renderAll();
     loadRipple();
   } catch (e) {
@@ -2368,7 +2400,7 @@ function renderAll() {
   document.getElementById("updated").textContent = "最終更新 " + MARKET.updated_at;
   renderTabs(); renderBoard(); renderDetail(); renderKelly(); renderPaper(); renderRegime();
   renderIndices(); renderPulse(); renderBrief(); renderSigChanges();
-  renderSeasonality(); renderFundFlow(); renderRipple();
+  renderSeasonality(); renderFundFlow(); renderEdinet(); renderRipple();
 }
 
 /* ===== アノマリー(季節性)と賢者の視点 =====
@@ -3024,6 +3056,70 @@ function holdersBlock(a) {
           <td class="${chgCls(r)}">${esc(newMark(r))}</td></tr>`).join("")}</tbody></table></div>`
       : '<div class="dim">主要運用会社による期間内の報告なし</div>'}
     <div class="ff-note mt4">${ok.length ? `上位${top.length}件を新規→前回比順に表示。` : ""}米国籍の投信・機関投資家が中心で国内投信は含まれない。報告は1〜2ヶ月遅れ</div>`;
+}
+
+
+/* ===== 大量保有報告(EDINET・5%ルール)。表示専用でシグナル/ケリーには使わない =====
+   backend/edinet_holdings.py が監視銘柄についての 大量保有報告書/変更報告書 を直近45日分集める。
+   既定は主要運用会社(notable)だけ。証券会社の商品在庫・事業会社・個人・アクティビストはチップを外すと見える */
+let ED_NOTABLE = true, ED_UP_ONLY = false, ED_SHOW_ALL = false;
+const ED_LIMIT = 25;
+const ED_KIND_LABEL = { manager: "運用会社", activist: "アクティビスト", broker: "証券会社", trust: "信託銀行", company: "事業会社", individual: "個人" };
+function edChip(btn, key) {
+  if (key === "notable") ED_NOTABLE = !ED_NOTABLE; else ED_UP_ONLY = !ED_UP_ONLY;
+  const on = key === "notable" ? ED_NOTABLE : ED_UP_ONLY;
+  btn.classList.toggle("active", on); btn.setAttribute("aria-pressed", String(on));
+  ED_SHOW_ALL = false;
+  renderEdinet();
+}
+const edPct = v => v == null ? "--" : (v * 100).toFixed(2) + "%";
+const edMove = e => e.direction === "new" ? '<span class="tag pos">新規</span>'
+  : e.direction === "up" ? `<span class="tag pos">買い増し +${(e.delta * 100).toFixed(2)}pt</span>`
+  : e.direction === "down" ? `<span class="tag neg">減らし ${(e.delta * 100).toFixed(2)}pt</span>`
+  : '<span class="tag dim">変更</span>';
+function renderEdinet() {
+  const el = document.getElementById("edinet"), meta = document.getElementById("edinet-meta");
+  if (!el) return;
+  if (!EDINET || !EDINET.events) {
+    el.className = "dim"; meta.textContent = "";
+    el.textContent = STATIC_MODE ? "大量保有データは次回の自動更新で反映されます"
+      : "大量保有データ未取得。「更新」を押すと取得します(初回は1〜2分)";
+    return;
+  }
+  if (EDINET.key_present === false && !EDINET.events.length) {
+    el.className = "dim"; meta.textContent = "";
+    el.textContent = "EDINETのAPIキーが見つかりません(環境変数 EDINET_FSA_KEY か data/edinet_key_fsa.txt に置くと取得できます)";
+    return;
+  }
+  el.className = "";
+  let rows = EDINET.events;
+  if (ED_NOTABLE) rows = rows.filter(e => e.notable);
+  if (ED_UP_ONLY) rows = rows.filter(e => e.direction === "new" || e.direction === "up");
+  const scope = `${ED_NOTABLE ? "主要運用会社" : "全保有者"}の${ED_UP_ONLY ? "新規・買い増し" : "新規・買い増し・減らし"}`;
+  meta.textContent = `${scope} ${rows.length}件 / 全${EDINET.n_events ?? EDINET.events.length}件(${esc(EDINET.since || "")}以降) / 取得 ${esc(EDINET.updated_at || "--")}`;
+  const shown = ED_SHOW_ALL ? rows : rows.slice(0, ED_LIMIT);
+  const short = (t, n) => (t || "").length > n ? t.slice(0, n - 1) + "…" : (t || "");
+  const holderCell = e => {
+    const name = e.manager || short(e.holder, 22);
+    // 副題: 種類 / (運用会社名で表示したときは提出者名を短く) / 共同保有の人数
+    const sub = [ED_KIND_LABEL[e.holder_kind] || "", e.manager ? `提出 ${short(e.holder.replace(/株式会社|有限会社|合同会社/g, ""), 14)}` : "", e.n_holders > 1 ? `共同${e.n_holders}者` : ""].filter(Boolean).join(" · ");
+    return `<span class="sym" title="${esc(e.holder)}${e.holders && e.holders.length > 1 ? " / " + esc(e.holders.join("、")) : ""}"><span class="sym-name">${esc(name)}</span><span class="sym-code">${esc(sub)}</span></span>`;
+  };
+  el.innerHTML = `<div class="scroll-x"><table class="ff-table ed-table">
+    <thead><tr><th scope="col">提出日</th><th scope="col" class="left">銘柄</th><th scope="col" class="left">保有者</th><th scope="col" class="left">動き</th><th scope="col">保有割合</th><th scope="col" class="left">保有目的</th><th scope="col">書類</th></tr></thead>
+    <tbody>${shown.map(e => `<tr class="asset ${e.symbol === SELECTED ? "selected" : ""}" data-sym="${esc(e.symbol)}" tabindex="0" role="button" aria-label="${esc(e.name)}の詳細を表示">
+      <td class="dim">${esc(e.date.slice(5))}${e.special ? '<span class="stale" title="特例報告(運用会社などは月2回まとめて報告できる)">特例</span>' : ""}</td>
+      <td class="left">${symCell(e.symbol, e.name)}</td>
+      <td class="left">${holderCell(e)}</td>
+      <td class="left">${edMove(e)}</td>
+      <td><b>${edPct(e.ratio)}</b>${e.prev_ratio != null ? `<br><span class="dim body-s">前回 ${edPct(e.prev_ratio)}</span>` : ""}</td>
+      <td class="ff-wrap left"><span class="dim body-s" title="${esc(e.purpose || "")}">${esc(short(e.purpose || "--", 40))}</span></td>
+      <td><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" class="icon-btn small" aria-label="EDINETで書類を開く" title="EDINETで書類を開く" onclick="event.stopPropagation()">${icon("open")}</a></td>
+    </tr>`).join("") || `<tr><td colspan="7" class="dim">該当なし(上のチップを外すと証券会社・事業会社・個人も見えます)</td></tr>`}</tbody></table></div>
+    ${rows.length > ED_LIMIT ? `<div class="mt8"><button class="btn text" onclick="ED_SHOW_ALL = !ED_SHOW_ALL; renderEdinet()">${ED_SHOW_ALL ? `先頭${ED_LIMIT}件だけ表示` : `残り${rows.length - ED_LIMIT}件を表示`}</button></div>` : ""}
+    ${EDINET.errors && EDINET.errors.length ? `<div class="legend-note">取得時の注意: ${esc(EDINET.errors.slice(0, 2).join(" / "))}</div>` : ""}
+    <div class="legend-note">「特例」は運用会社・証券会社などに認められた特例報告(基準日は月2回、提出はその5営業日以内)。「新規」は5%超えの初回報告、「買い増し/減らし」は前回報告からの保有割合の差(ポイント)。行を押すとこの端末の「銘柄詳細」へ</div>`;
+  el.querySelectorAll("tr.asset").forEach(bindPick);
 }
 
 /* ===== TimesFM株価予測(表示専用。シグナル/ケリー/ペーパートレードの判定には一切使わない) ===== */
@@ -4172,7 +4268,7 @@ async function bootSequence(lines) {
   }
   const boot = bootSequence(["市場データを読み込んでいます…"]);
   try {
-    await Promise.all([loadMarket(), loadPaper(), loadPulse(), loadForecast(), loadHolders(), boot]);
+    await Promise.all([loadMarket(), loadPaper(), loadPulse(), loadForecast(), loadHolders(), loadEdinet(), boot]);
     await bootSequence(["画面を組み立てています…"]);
     renderAll();
     setupScreens();

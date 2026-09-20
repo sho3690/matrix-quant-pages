@@ -5,7 +5,7 @@
 import sys
 from pathlib import Path
 
-from backend import holders, market, pulse
+from backend import edinet_holdings, holders, market, pulse
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs" / "data"
@@ -30,6 +30,13 @@ def main() -> int:
                               path=OUT / "holders.json")
     except Exception as e:  # 組入動向が落ちても株価データは配信する
         print("holders生成失敗(前回データを維持):", e, file=sys.stderr)
+    try:
+        # 大量保有報告(EDINET)。CIにはAPIキーが無いので前回データ(本体からコピーしたもの)を維持する
+        edinet_holdings.build_edinet([a["symbol"] for a in stocks], {a["symbol"]: a.get("name") or a["symbol"] for a in stocks},
+                                     path=OUT / "edinet.json", docs_cache_path=ROOT / "data" / "edinet_docs.json",
+                                     lists_dir=ROOT / "data" / "edinet_lists", codes_path=ROOT / "data" / "edinet_codes.json")
+    except Exception as e:
+        print("edinet生成失敗(前回データを維持):", e, file=sys.stderr)
     print(f"OK: {n}銘柄 / 指数{len(snap.get('indices', []))}件")
     return 0
 
