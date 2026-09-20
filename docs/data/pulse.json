@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-20 08:14:21",
+ "updated_at": "2026-09-20 13:58:08",
  "fng": {
   "value": 71,
   "label": "強欲",
   "history": [
-   72,
    71,
    66,
    73,
@@ -33,23 +32,40 @@
    51,
    50,
    56,
+   71,
    71
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.85072016584652,
-  "eth_dominance": 11.586010340742128,
-  "total_mcap_usd": 2767511738456.7036,
-  "mcap_change_24h": -3.3269653367786116
+  "btc_dominance": 58.93313507475841,
+  "eth_dominance": 11.488087524099978,
+  "total_mcap_usd": 2735913500786.682,
+  "mcap_change_24h": -4.575513129670267
  },
  "defi": {
-  "tvl_usd": 93231056804.0,
-  "change_1d": 0.057983210863183254,
-  "change_7d": 0.05860341825624871,
-  "change_1y": -0.4224258236745251,
-  "range_pos_1y": 0.24350760233922417
+  "tvl_usd": 92781196993.0,
+  "change_1d": 7.440607414777034e-05,
+  "change_7d": 0.04754478605363821,
+  "change_1y": -0.415552050970185,
+  "range_pos_1y": 0.23913521100405544
  },
  "news_crypto": [
+  {
+   "title": "ビットコインFOMC通過後も底堅く、米金利と中東情勢が焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=738574",
+   "published": "09/20 11:30",
+   "ts": 1789871452.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン（BTC）は25bpの利上げを決定したFOMCを通過後も1210万円台で底堅く推移している。目先は米金利の動向と中東情勢による原油価格の変動が焦点で、高値レンジ内での方向感を模索する展開が続きそうだ。"
+  },
+  {
+   "title": "週刊仮想通貨ニュース（9/18）｜クラリティー法案・日本の分離課税・米BTC準備金法案の動向まとめ",
+   "link": "https://coinpost.jp/?p=738323",
+   "published": "09/20 09:25",
+   "ts": 1789863946.0,
+   "source": "CoinPost",
+   "desc": "今週は、仮想通貨規制の米クラリティー法案の上院審議入り採決失敗、日本の分離課税、米下院金融サービス委員会のビットコイン戦略準備金法案可決に関する記事が関心を集めた。"
+  },
   {
    "title": "JPモルガン系ブロックチェーン決済網と英LSEG、24時間決済で提携",
    "link": "https://coinpost.jp/?p=738671",
@@ -97,25 +113,49 @@
    "ts": 1789773906.0,
    "source": "CoinPost",
    "desc": "Bitcoin Japanが子会社経由で初のビットコイン購入を決定した。初回投資は100万米ドルが上限で、資金は7月発行の転換社債で調達する。同社の資産運用戦略が実行段階に入ったことを示す。"
-  },
-  {
-   "title": "ジーキャッシュのアップグレード「NU7」、メインネットでの実行目標時期は11月5日に",
-   "link": "https://coinpost.jp/?p=738626",
-   "published": "09/19 08:10",
-   "ts": 1789773009.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ジーキャッシュは、アップグレードNU7を11月5日にメインネットで実行する計画を決定。NU7では、ブロック生成間隔を現行の75秒から25秒に短縮するアップグレードなどが行われる。"
-  },
-  {
-   "title": "米グレースケール、ジーキャッシュ現物ETFを3分割へ　高い需要受け",
-   "link": "https://coinpost.jp/?p=738616",
-   "published": "09/19 07:05",
-   "ts": 1789769112.0,
-   "source": "CoinPost",
-   "desc": "投資家の需要を受け、米グレースケールは運用するジーキャッシュ現物ETFを分割する予定だ。9月30日から適用され、流通株数は3倍に増える。"
   }
  ],
  "news_jp": [
+  {
+   "title": "タイパ無視 ひたすら石を磨く90分",
+   "link": "https://news.yahoo.co.jp/pickup/6595897?source=rss",
+   "published": "09/20 13:35",
+   "ts": 1789878930.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JR 21日一部で始発から見合わせ",
+   "link": "https://news.yahoo.co.jp/pickup/6595898?source=rss",
+   "published": "09/20 13:18",
+   "ts": 1789877915.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "iPhone Duo経費にできる?注意点",
+   "link": "https://news.yahoo.co.jp/pickup/6595885?source=rss",
+   "published": "09/20 10:50",
+   "ts": 1789869031.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "遊園地にカメラ50台 自動撮影好評",
+   "link": "https://news.yahoo.co.jp/pickup/6595882?source=rss",
+   "published": "09/20 10:34",
+   "ts": 1789868091.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "今年11カ所で花火大会中止 物価高",
+   "link": "https://news.yahoo.co.jp/pickup/6595871?source=rss",
+   "published": "09/20 08:54",
+   "ts": 1789862067.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "コメ価格が急落 生産者に危機感",
    "link": "https://news.yahoo.co.jp/pickup/6595828?source=rss",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595787?source=rss",
    "published": "09/19 10:41",
    "ts": 1789782071.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "八重洲口前再開発 残ったビル2棟",
-   "link": "https://news.yahoo.co.jp/pickup/6595786?source=rss",
-   "published": "09/19 10:29",
-   "ts": 1789781350.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "弁当店の倒産急増 過去最多見通し",
-   "link": "https://news.yahoo.co.jp/pickup/6595773?source=rss",
-   "published": "09/19 09:05",
-   "ts": 1789776335.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "バフェット氏 投資会社の会長退任",
-   "link": "https://news.yahoo.co.jp/pickup/6595763?source=rss",
-   "published": "09/19 07:57",
-   "ts": 1789772275.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "住宅ローン 大手行・地銀に存在感",
-   "link": "https://news.yahoo.co.jp/pickup/6595762?source=rss",
-   "published": "09/19 07:45",
-   "ts": 1789771554.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "円急騰 政府日銀が円買い介入準備",
-   "link": "https://news.yahoo.co.jp/pickup/6595754?source=rss",
-   "published": "09/19 07:15",
-   "ts": 1789769745.0,
    "source": "Yahoo!",
    "desc": ""
   }
