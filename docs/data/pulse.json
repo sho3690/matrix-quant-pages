@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20 20:36:03",
+ "updated_at": "2026-09-21 01:16:31",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.97361359466713,
-  "eth_dominance": 11.475631043077325,
-  "total_mcap_usd": 2735972730319.602,
-  "mcap_change_24h": -4.737104175558686
+  "btc_dominance": 58.890270566395344,
+  "eth_dominance": 11.570808218238398,
+  "total_mcap_usd": 2766928858041.178,
+  "mcap_change_24h": -4.135287701759525
  },
  "defi": {
-  "tvl_usd": 92171636428.0,
-  "change_1d": -0.00670994331424013,
-  "change_7d": 0.04066255115751116,
-  "change_1y": -0.41939179903951185,
-  "range_pos_1y": 0.23321061568014337
+  "tvl_usd": 92306231958.0,
+  "change_1d": -0.005259471056130782,
+  "change_7d": 0.042182200076119836,
+  "change_1y": -0.41854395395875676,
+  "range_pos_1y": 0.23451881062162136
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "油揚げの包装に職人名を記載 狙い",
+   "link": "https://news.yahoo.co.jp/pickup/6595967?source=rss",
+   "published": "09/20 22:57",
+   "ts": 1789912635.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "消えゆく銭湯 地域差の要因は",
+   "link": "https://news.yahoo.co.jp/pickup/6595955?source=rss",
+   "published": "09/20 21:29",
+   "ts": 1789907374.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "損保ジャパン 望まない転勤廃止へ",
    "link": "https://news.yahoo.co.jp/pickup/6595907?source=rss",
    "published": "09/20 15:02",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595882?source=rss",
    "published": "09/20 10:34",
    "ts": 1789868091.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "今年11カ所で花火大会中止 物価高",
-   "link": "https://news.yahoo.co.jp/pickup/6595871?source=rss",
-   "published": "09/20 08:54",
-   "ts": 1789862067.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "コメ価格が急落 生産者に危機感",
-   "link": "https://news.yahoo.co.jp/pickup/6595828?source=rss",
-   "published": "09/19 18:31",
-   "ts": 1789810310.0,
    "source": "Yahoo!",
    "desc": ""
   }
