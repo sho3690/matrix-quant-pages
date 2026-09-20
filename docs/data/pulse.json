@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20 14:01:31",
+ "updated_at": "2026-09-20 20:36:03",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.93313507475841,
-  "eth_dominance": 11.488087524099978,
-  "total_mcap_usd": 2735913500786.682,
-  "mcap_change_24h": -4.575513129670267
+  "btc_dominance": 58.97361359466713,
+  "eth_dominance": 11.475631043077325,
+  "total_mcap_usd": 2735972730319.602,
+  "mcap_change_24h": -4.737104175558686
  },
  "defi": {
-  "tvl_usd": 92781196993.0,
-  "change_1d": 7.440607414777034e-05,
-  "change_7d": 0.04754478605363821,
-  "change_1y": -0.415552050970185,
-  "range_pos_1y": 0.23913521100405544
+  "tvl_usd": 92171636428.0,
+  "change_1d": -0.00670994331424013,
+  "change_7d": 0.04066255115751116,
+  "change_1y": -0.41939179903951185,
+  "range_pos_1y": 0.23321061568014337
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "損保ジャパン 望まない転勤廃止へ",
+   "link": "https://news.yahoo.co.jp/pickup/6595907?source=rss",
+   "published": "09/20 15:02",
+   "ts": 1789884134.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "香取慎吾ブランド コラボ巡り声明",
+   "link": "https://news.yahoo.co.jp/pickup/6595905?source=rss",
+   "published": "09/20 14:34",
+   "ts": 1789882473.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "タイパ無視 ひたすら石を磨く90分",
    "link": "https://news.yahoo.co.jp/pickup/6595897?source=rss",
    "published": "09/20 13:35",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595828?source=rss",
    "published": "09/19 18:31",
    "ts": 1789810310.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "連休のイベント中止続出 台風影響",
-   "link": "https://news.yahoo.co.jp/pickup/6595824?source=rss",
-   "published": "09/19 17:45",
-   "ts": 1789807528.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "障害者雇用ビジネス巡り労災認定",
-   "link": "https://news.yahoo.co.jp/pickup/6595787?source=rss",
-   "published": "09/19 10:41",
-   "ts": 1789782071.0,
    "source": "Yahoo!",
    "desc": ""
   }
