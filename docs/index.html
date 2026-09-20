@@ -773,6 +773,47 @@
 
   /* オフライン画面(終了後) */
   .offline { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; text-align: center; background: var(--md-surface); color: var(--md-on-surface); font-family: var(--md-font); }
+
+  /* =====================================================================
+     文字の階層(ジャンプ率) v5.5 — 家の型スケール(12/14/16/18/20/24/32/40)に揃える。
+     画面タイトル 20 > 小見出し 16 > 本文 14 > 補助 12。統括する内容(総評・判定・結論)は本文より一段大きく、
+     最重要の数字(全体観・ケリーの株数・候補数)は 32〜40。KPIの数字は 24 に統一。
+     ===================================================================== */
+  .panel h2 { font-size: 20px; line-height: 28px; letter-spacing: 0; }
+  .panel-head { margin-bottom: 16px; }
+  .section-title { font-size: 16px; line-height: 24px; margin: 24px 0 8px; }
+  .section-title.first { margin-top: 16px; }
+  .eyebrow { font-size: 12px; line-height: 16px; }
+  .siggroup > summary { font-size: 16px; line-height: 24px; }
+  /* 統括する文(判定・総評・結論) */
+  .verdict-line { font-size: 16px; line-height: 24px; }
+  .verdict-line b { font-weight: 500; }
+  .callout { font-size: 16px; line-height: 24px; }
+  .callout .dim, .callout .body-s { font-size: 14px; line-height: 20px; }
+  .callout.conclusion { font-size: 18px; line-height: 28px; }
+  .metric-table tr.table-verdict > td { font-size: 16px; line-height: 24px; }
+  .metric-table tr.table-verdict > td .body-s { font-size: 12px; }
+  .fund-report .comment { font-size: 16px; line-height: 26px; }
+  .wisdom { font-size: 16px; line-height: 26px; }
+  .fc-kv > span > b { font-size: 16px; line-height: 24px; }
+  .rd-step-title { font-size: 18px; line-height: 28px; }
+  .rd-sub { font-size: 16px; line-height: 24px; }
+  /* 数字の階層: 最重要 32〜40、通常KPI 24 */
+  .pulse-chip .num { font-size: 24px; line-height: 32px; }
+  .pulse-chip.weather-chip .num { font-size: 32px; line-height: 40px; }   /* 全体観は最重要の数字なので一段大きく(後勝ちにならないよう詳細度を上げる) */
+  .paper-summary .num { font-size: 24px; line-height: 32px; }
+  .big-num { font-size: 32px; line-height: 40px; }
+  .detail-head .sym-name { font-size: 24px; line-height: 32px; }
+  .rd-hero-num { font-size: 40px; line-height: 48px; }
+  .rd-stat .rd-hero-num { font-size: 32px; line-height: 40px; }
+  .rd-pick-name { font-size: 32px; line-height: 40px; }
+  .rd-pick-price .rd-num { font-size: 24px; line-height: 32px; }
+  .rd-axis-item .v { font-size: 24px; line-height: 32px; }
+  @media (max-width: 700px) { .rd-pick-name { font-size: 24px; line-height: 32px; } .rd-hero-num { font-size: 32px; line-height: 40px; } }
+  /* 12px未満の補助文字を12pxに(読みやすさの下限) */
+  .rd-plan-step .k, .rd-axis-item .k, .rd-pick-ring, .rd-crow-score small, .rd-badge, .stale, .cite, .rd-rule .paper,
+  #positions .badge, .rd-crow .badge, .rd-cond .cell .n, .rd-hero-main .rd-pill, .cited li .n { font-size: 12px; }
+  .cite { min-width: 20px; height: 20px; line-height: 20px; border-radius: 10px; }
 </style>
 </head>
 <body>
@@ -1222,7 +1263,7 @@ Ring C = 100·(0.6·pct(CM) + 0.4·pct(gap))</div>
 
 <script>
 "use strict";
-const APP_VERSION = "v5.4";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
+const APP_VERSION = "v5.5";  // バージョンはここ1箇所だけ更新する(表記漏れ防止)
 const K_ATR = 2.5;  // 損切り = 価格 − K_ATR×ATR (backendのSTOP_Kと揃える)
 // GitHub Pages閲覧専用ビルドではwindow.STATIC_MODE=trueが注入される
 // (サーバーなし・静的JSONを読む・操作機能は非表示)
@@ -3224,7 +3265,7 @@ function renderDetail() {
       <span class="sym"><span class="sym-name">${esc(a.name)}</span><span class="sym-code">${esc(a.symbol)}${a.currency !== "JPY" ? " · " + esc(a.currency) + "建て" : ""}</span></span>
       ${sectorLabel(a) ? `<span class="tag dim">${esc(sectorLabel(a))}</span>` : ""}${rippleTag(a.symbol)}
       <span class="badge ${esc(a.signal.label)}">${esc(a.signal.label)}</span></div>
-    <div class="dim mt8">総合判定: ${esc(SIG_MEANING[a.signal.label] || "")}</div>
+    <div class="verdict-line mt8"><span class="dim">総合判定</span> <b class="${a.signal.label === "LONG" ? "pos" : a.signal.label === "AVOID" ? "neg" : "dim"}">${esc(SIG_MEANING[a.signal.label] || "")}</b></div>
     <ul class="reasons">${a.signal.reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
     ${(() => {
       if (a.signal.label !== "LONG") return "";
