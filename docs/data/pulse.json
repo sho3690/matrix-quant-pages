@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-21 14:07:48",
+ "updated_at": "2026-09-21 22:00:18",
  "fng": {
   "value": 70,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.166821908117264,
-  "eth_dominance": 11.567509241722371,
-  "total_mcap_usd": 2802264667521.33,
-  "mcap_change_24h": -0.26721554752802007
+  "btc_dominance": 58.80172406221088,
+  "eth_dominance": 11.433211751289694,
+  "total_mcap_usd": 2907285643604.4106,
+  "mcap_change_24h": 3.419795663681597
  },
  "defi": {
-  "tvl_usd": 93848782719.0,
-  "change_1d": 0.007844703817810439,
-  "change_7d": 0.0743830720123464,
-  "change_1y": -0.4145596222584669,
-  "range_pos_1y": 0.24951156039951683
+  "tvl_usd": 95621121786.0,
+  "change_1d": 0.026861473529599778,
+  "change_7d": 0.09467285133907866,
+  "change_1y": -0.4035035507484367,
+  "range_pos_1y": 0.2667377268408037
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "NHK 戸別訪問営業の外部委託再開",
+   "link": "https://news.yahoo.co.jp/pickup/6596066?source=rss",
+   "published": "09/21 21:47",
+   "ts": 1789994873.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ベーグル店「VIVANT」別パン人気",
+   "link": "https://news.yahoo.co.jp/pickup/6596040?source=rss",
+   "published": "09/21 17:17",
+   "ts": 1789978656.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "食事も「キャンセル」若者の実態",
+   "link": "https://news.yahoo.co.jp/pickup/6596013?source=rss",
+   "published": "09/21 14:19",
+   "ts": 1789967998.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "全国の鉄道・フライト 最新情報",
    "link": "https://news.yahoo.co.jp/pickup/6594476?source=rss",
    "published": "09/21 13:26",
@@ -129,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595978?source=rss",
    "published": "09/21 08:05",
    "ts": 1789945501.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "油揚げの包装に職人名を記載 狙い",
-   "link": "https://news.yahoo.co.jp/pickup/6595967?source=rss",
-   "published": "09/20 22:57",
-   "ts": 1789912635.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6595905?source=rss",
    "published": "09/20 14:34",
    "ts": 1789882473.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タイパ無視 ひたすら石を磨く90分",
-   "link": "https://news.yahoo.co.jp/pickup/6595897?source=rss",
-   "published": "09/20 13:35",
-   "ts": 1789878930.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "iPhone Duo経費にできる?注意点",
-   "link": "https://news.yahoo.co.jp/pickup/6595885?source=rss",
-   "published": "09/20 10:50",
-   "ts": 1789869031.0,
    "source": "Yahoo!",
    "desc": ""
   }
