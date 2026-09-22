@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23 02:03:35",
+ "updated_at": "2026-09-23 08:38:19",
  "fng": {
   "value": 78,
   "label": "極度の強欲",
@@ -36,20 +36,23 @@
    78
   ]
  },
- "crypto_global": {
-  "btc_dominance": 58.92488943439628,
-  "eth_dominance": 11.376444411689576,
-  "total_mcap_usd": 2936534052030.279,
-  "mcap_change_24h": -2.1422500071066457
- },
+ "crypto_global": null,
  "defi": {
-  "tvl_usd": 95992479349.0,
-  "change_1d": 0.020339735785472657,
-  "change_7d": 0.08103172112626655,
-  "change_1y": -0.3939528591317125,
-  "range_pos_1y": 0.27034938272979575
+  "tvl_usd": 96317910248.0,
+  "change_1d": 0.023798594553787744,
+  "change_7d": 0.08469660328411366,
+  "change_1y": -0.3918982558208417,
+  "range_pos_1y": 0.27351238521794174
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン8.6万ドル、利上げとクラリティー法案頓挫を消化＝ウィンターミュート",
+   "link": "https://coinpost.jp/?p=738847",
+   "published": "09/23 08:35",
+   "ts": 1790120102.0,
+   "source": "CoinPost",
+   "desc": "マーケットメイカーのウィンターミュートは週次レポートで、米利上げとクラリティー法案の頓挫という2大材料を市場が消化したと分析。ビットコインは50週線を回復し、8万6,000ドル付近まで上昇した。オプション市場の動きも読み解く。"
+  },
   {
    "title": "ビットマイン、イーサリアム保有量598万ETHに　「5％取得目標」まであとわずか",
    "link": "https://coinpost.jp/?p=738807",
@@ -105,17 +108,25 @@
    "ts": 1790037769.0,
    "source": "CoinPost",
    "desc": "ビットコイン・トレジャリー企業ストラテジーが950BTCを追加購入したと発表した。STRC優先株も約270億円分買い戻し、保有BTCは846,000枚に到達している。"
-  },
-  {
-   "title": "トランプ一族関与のワールドリバティ、WLFI新報酬制度は10月開始を提案",
-   "link": "https://coinpost.jp/?p=738771",
-   "published": "09/22 08:39",
-   "ts": 1790033967.0,
-   "source": "CoinPost",
-   "desc": "トランプ大統領の一族が関与するワールドリバティ・フィナンシャルが、WLFIを180日ロックし90日ごとに投票した保有者に報酬を配るガバナンス案を提示。10月1日開始を目指し、投票は賛成6割で優勢だが定足数の45.75％にとどまっている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "とび職に逆風 倒産過去最多ペース",
+   "link": "https://news.yahoo.co.jp/pickup/6596209?source=rss",
+   "published": "09/23 08:20",
+   "ts": 1790119205.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "退職代行サービス 1年で2割停止か",
+   "link": "https://news.yahoo.co.jp/pickup/6596208?source=rss",
+   "published": "09/23 08:06",
+   "ts": 1790118383.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "地方のキャバクラ 経営「四重苦」",
    "link": "https://news.yahoo.co.jp/pickup/6596192?source=rss",
@@ -161,22 +172,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596107?source=rss",
    "published": "09/22 09:48",
    "ts": 1790038081.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "作れば赤字 米価下落で農家窮地",
-   "link": "https://news.yahoo.co.jp/pickup/6596106?source=rss",
-   "published": "09/22 09:28",
-   "ts": 1790036923.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "NHK 戸別訪問営業の外部委託再開",
-   "link": "https://news.yahoo.co.jp/pickup/6596066?source=rss",
-   "published": "09/21 21:47",
-   "ts": 1789994873.0,
    "source": "Yahoo!",
    "desc": ""
   }
