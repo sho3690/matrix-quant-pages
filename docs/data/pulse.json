@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-22 20:50:24",
+ "updated_at": "2026-09-23 02:03:35",
  "fng": {
   "value": 78,
   "label": "極度の強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.89058879985295,
-  "eth_dominance": 11.412816035309383,
-  "total_mcap_usd": 2921813084983.9443,
-  "mcap_change_24h": -0.4971415383084814
+  "btc_dominance": 58.92488943439628,
+  "eth_dominance": 11.376444411689576,
+  "total_mcap_usd": 2936534052030.279,
+  "mcap_change_24h": -2.1422500071066457
  },
  "defi": {
-  "tvl_usd": 96210747623.0,
-  "change_1d": 0.02265978812180247,
-  "change_7d": 0.08348977752307674,
-  "change_1y": -0.3925748255159849,
-  "range_pos_1y": 0.27247082570238
+  "tvl_usd": 95992479349.0,
+  "change_1d": 0.020339735785472657,
+  "change_7d": 0.08103172112626655,
+  "change_1y": -0.3939528591317125,
+  "range_pos_1y": 0.27034938272979575
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "地方のキャバクラ 経営「四重苦」",
+   "link": "https://news.yahoo.co.jp/pickup/6596192?source=rss",
+   "published": "09/22 23:01",
+   "ts": 1790085694.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "東南アジア食品市場 日本の勝機は",
    "link": "https://news.yahoo.co.jp/pickup/6596162?source=rss",
    "published": "09/22 18:07",
@@ -129,14 +137,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596158?source=rss",
    "published": "09/22 17:30",
    "ts": 1790065829.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "成田空港で一夜 最大4000人足止め",
-   "link": "https://news.yahoo.co.jp/pickup/6596123?source=rss",
-   "published": "09/22 12:09",
-   "ts": 1790046564.0,
    "source": "Yahoo!",
    "desc": ""
   },
