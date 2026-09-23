@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-24 02:14:13",
+ "updated_at": "2026-09-24 08:47:20",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.8156950144308,
-  "eth_dominance": 11.299030202431728,
-  "total_mcap_usd": 2857119089075.1167,
-  "mcap_change_24h": -5.410578141818102
+  "btc_dominance": 58.870110696075706,
+  "eth_dominance": 11.359342462415745,
+  "total_mcap_usd": 2875571893070.729,
+  "mcap_change_24h": -4.81699212756173
  },
  "defi": {
-  "tvl_usd": 94740214560.0,
-  "change_1d": -0.016864684119169637,
-  "change_7d": 0.10152913756957349,
-  "change_1y": -0.37952286456601825,
-  "range_pos_1y": 0.25817808414306187
+  "tvl_usd": 94574221350.0,
+  "change_1d": -0.018587223874230063,
+  "change_7d": 0.09959916138888936,
+  "change_1y": -0.38060999522030936,
+  "range_pos_1y": 0.25656472493161303
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "台風影響 内房線の復旧に3カ月超",
+   "link": "https://news.yahoo.co.jp/pickup/6596323?source=rss",
+   "published": "09/24 07:36",
+   "ts": 1790202982.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ANA機脱出 重大インシデント認定",
+   "link": "https://news.yahoo.co.jp/pickup/6596318?source=rss",
+   "published": "09/24 06:22",
+   "ts": 1790198526.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ANA機が空港に緊急着陸 乗客脱出",
    "link": "https://news.yahoo.co.jp/pickup/6596316?source=rss",
    "published": "09/23 23:59",
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "進化系おにぎり専門店 売れる訳",
-   "link": "https://news.yahoo.co.jp/pickup/6596228?source=rss",
-   "published": "09/23 10:43",
-   "ts": 1790127827.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "とび職に逆風 倒産過去最多ペース",
    "link": "https://news.yahoo.co.jp/pickup/6596209?source=rss",
    "published": "09/23 08:20",
    "ts": 1790119205.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "退職代行サービス 1年で2割停止か",
-   "link": "https://news.yahoo.co.jp/pickup/6596208?source=rss",
-   "published": "09/23 08:06",
-   "ts": 1790118383.0,
    "source": "Yahoo!",
    "desc": ""
   }
