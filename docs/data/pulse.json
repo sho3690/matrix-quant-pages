@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23 13:53:51",
+ "updated_at": "2026-09-23 20:50:11",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.72844671952372,
-  "eth_dominance": 11.395328771836281,
-  "total_mcap_usd": 2973173353813.2686,
-  "mcap_change_24h": -0.7725339094232566
+  "btc_dominance": 58.706915273176094,
+  "eth_dominance": 11.34771305993134,
+  "total_mcap_usd": 2917028293617.963,
+  "mcap_change_24h": -2.836321941931698
  },
  "defi": {
-  "tvl_usd": 96684990534.0,
-  "change_1d": 0.0032181657781944484,
-  "change_7d": 0.1241407330002322,
-  "change_1y": -0.3667860449270449,
-  "range_pos_1y": 0.2770801959622047
+  "tvl_usd": 96136186257.0,
+  "change_1d": -0.002378167360980399,
+  "change_7d": 0.11775987451523817,
+  "change_1y": -0.3703803000940651,
+  "range_pos_1y": 0.27174613180606516
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "社員寮や社宅が増加 企業の期待は",
+   "link": "https://news.yahoo.co.jp/pickup/6596288?source=rss",
+   "published": "09/23 20:08",
+   "ts": 1790161697.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "脱・大手代理店 アジア大会が問う",
+   "link": "https://news.yahoo.co.jp/pickup/6596263?source=rss",
+   "published": "09/23 16:56",
+   "ts": 1790150183.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ミスドが中国に再進出 勝算は",
+   "link": "https://news.yahoo.co.jp/pickup/6596260?source=rss",
+   "published": "09/23 16:19",
+   "ts": 1790147955.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "5連休最終日 Uターンで交通混雑",
    "link": "https://news.yahoo.co.jp/pickup/6596238?source=rss",
    "published": "09/23 12:32",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596192?source=rss",
    "published": "09/22 23:01",
    "ts": 1790085694.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東南アジア食品市場 日本の勝機は",
-   "link": "https://news.yahoo.co.jp/pickup/6596162?source=rss",
-   "published": "09/22 18:07",
-   "ts": 1790068059.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "パラマウント WBD買収へ前進",
-   "link": "https://news.yahoo.co.jp/pickup/6596158?source=rss",
-   "published": "09/22 17:30",
-   "ts": 1790065829.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "修繕費計5億円超 観光施設閉園へ",
-   "link": "https://news.yahoo.co.jp/pickup/6596120?source=rss",
-   "published": "09/22 11:45",
-   "ts": 1790045108.0,
    "source": "Yahoo!",
    "desc": ""
   }
