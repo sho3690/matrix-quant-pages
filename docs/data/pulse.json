@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23 20:50:11",
+ "updated_at": "2026-09-24 02:14:13",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.706915273176094,
-  "eth_dominance": 11.34771305993134,
-  "total_mcap_usd": 2917028293617.963,
-  "mcap_change_24h": -2.836321941931698
+  "btc_dominance": 58.8156950144308,
+  "eth_dominance": 11.299030202431728,
+  "total_mcap_usd": 2857119089075.1167,
+  "mcap_change_24h": -5.410578141818102
  },
  "defi": {
-  "tvl_usd": 96136186257.0,
-  "change_1d": -0.002378167360980399,
-  "change_7d": 0.11775987451523817,
-  "change_1y": -0.3703803000940651,
-  "range_pos_1y": 0.27174613180606516
+  "tvl_usd": 94740214560.0,
+  "change_1d": -0.016864684119169637,
+  "change_7d": 0.10152913756957349,
+  "change_1y": -0.37952286456601825,
+  "range_pos_1y": 0.25817808414306187
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "ANA機が空港に緊急着陸 乗客脱出",
+   "link": "https://news.yahoo.co.jp/pickup/6596316?source=rss",
+   "published": "09/23 23:59",
+   "ts": 1790175565.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "金利上昇 住宅の駆け込み購入も",
+   "link": "https://news.yahoo.co.jp/pickup/6596308?source=rss",
+   "published": "09/23 22:52",
+   "ts": 1790171552.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "維持費高騰 減る「ご当地遊園地」",
+   "link": "https://news.yahoo.co.jp/pickup/6596298?source=rss",
+   "published": "09/23 21:12",
+   "ts": 1790165542.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "社員寮や社宅が増加 企業の期待は",
    "link": "https://news.yahoo.co.jp/pickup/6596288?source=rss",
    "published": "09/23 20:08",
@@ -129,22 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596263?source=rss",
    "published": "09/23 16:56",
    "ts": 1790150183.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ミスドが中国に再進出 勝算は",
-   "link": "https://news.yahoo.co.jp/pickup/6596260?source=rss",
-   "published": "09/23 16:19",
-   "ts": 1790147955.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "5連休最終日 Uターンで交通混雑",
-   "link": "https://news.yahoo.co.jp/pickup/6596238?source=rss",
-   "published": "09/23 12:32",
-   "ts": 1790134327.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596208?source=rss",
    "published": "09/23 08:06",
    "ts": 1790118383.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "地方のキャバクラ 経営「四重苦」",
-   "link": "https://news.yahoo.co.jp/pickup/6596192?source=rss",
-   "published": "09/22 23:01",
-   "ts": 1790085694.0,
    "source": "Yahoo!",
    "desc": ""
   }
