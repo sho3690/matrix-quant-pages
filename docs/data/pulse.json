@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-25 02:20:13",
+ "updated_at": "2026-09-25 08:54:57",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.59349503310337,
-  "eth_dominance": 11.314276543178742,
-  "total_mcap_usd": 2886477866807.987,
-  "mcap_change_24h": -2.001966168513789
+  "btc_dominance": 58.57998095171113,
+  "eth_dominance": 11.349651386677643,
+  "total_mcap_usd": 2888701172194.68,
+  "mcap_change_24h": -2.3908435507826664
  },
  "defi": {
-  "tvl_usd": 94527927373.0,
-  "change_1d": -0.019673827593060467,
-  "change_7d": 0.08556733658130655,
-  "change_1y": -0.37248212381278833,
-  "range_pos_1y": 0.2561147739204023
+  "tvl_usd": 94978319802.0,
+  "change_1d": -0.015058371701682005,
+  "change_7d": 0.0906729738343659,
+  "change_1y": -0.36949222116336655,
+  "range_pos_1y": 0.260454047867051
  },
  "news_crypto": [
+  {
+   "title": "ビットゲットから不正流出、被害額3.5億ドル相当",
+   "link": "https://coinpost.jp/?p=739148",
+   "published": "09/25 07:39",
+   "ts": 1790289589.0,
+   "source": "CoinPost",
+   "desc": "ビットゲットは9月25日、ホットウォレットから約3億5160万ドル相当の不正流出を確認したと発表した。コールドウォレットは無事で、ユーザー保護基金が全額を補填する方針だが、出金は一時停止されている。"
+  },
   {
    "title": "バイナンス、ハイパーリキッド現物上場へ　3ペアで取引予定",
    "link": "https://coinpost.jp/?p=739110",
@@ -105,17 +113,33 @@
    "ts": 1790226956.0,
    "source": "CoinPost",
    "desc": "チェイナリシスの報告によると6月末までの一年間で仮想通貨市場の時価総額が約50%減る中、取引額は微減にとどまった。日本は普及度ランキングで4位に浮上している。"
-  },
-  {
-   "title": "JR九州が金融参入へ、SBIと提携　銀行から仮想通貨まで＝日経",
-   "link": "https://coinpost.jp/?p=738978",
-   "published": "09/24 12:08",
-   "ts": 1790219294.0,
-   "source": "CoinPost",
-   "desc": "JR九州がSBIホールディングスと業務提携し、金融事業に参入する方針だと日経が報じた。SBI新生銀行の銀行代理業から始め、証券や仮想通貨も順次追加する計画。2027年度中の開始を目指す。"
   }
  ],
  "news_jp": [
+  {
+   "title": "意図せず資金移動 楽天証券不具合",
+   "link": "https://news.yahoo.co.jp/pickup/6596439?source=rss",
+   "published": "09/25 08:09",
+   "ts": 1790291370.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ファミマ「バイト改革」なぜ今",
+   "link": "https://news.yahoo.co.jp/pickup/6596440?source=rss",
+   "published": "09/25 07:57",
+   "ts": 1790290659.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米住宅ローン金利7%超 30年固定",
+   "link": "https://news.yahoo.co.jp/pickup/6596435?source=rss",
+   "published": "09/25 07:33",
+   "ts": 1790289201.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "小林製薬 株式の非公開化を検討",
    "link": "https://news.yahoo.co.jp/pickup/6596426?source=rss",
@@ -133,26 +157,10 @@
    "desc": ""
   },
   {
-   "title": "中小事業者のレジ改修補助へ 政府",
-   "link": "https://news.yahoo.co.jp/pickup/6596379?source=rss",
-   "published": "09/24 17:04",
-   "ts": 1790237083.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ジャングリア親会社 173億円赤字",
    "link": "https://news.yahoo.co.jp/pickup/6596367?source=rss",
    "published": "09/24 14:49",
    "ts": 1790228983.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオンが送風機自主回収 発火恐れ",
-   "link": "https://news.yahoo.co.jp/pickup/6596359?source=rss",
-   "published": "09/24 13:36",
-   "ts": 1790224587.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596346?source=rss",
    "published": "09/24 11:48",
    "ts": 1790218131.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ANA機脱出 重大インシデント認定",
-   "link": "https://news.yahoo.co.jp/pickup/6596318?source=rss",
-   "published": "09/24 06:22",
-   "ts": 1790198526.0,
    "source": "Yahoo!",
    "desc": ""
   }
