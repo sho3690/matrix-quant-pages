@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-24 20:58:00",
+ "updated_at": "2026-09-25 02:20:13",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.22001563721656,
-  "eth_dominance": 11.411195590448383,
-  "total_mcap_usd": 2823092685102.3564,
-  "mcap_change_24h": -6.450779384068435
+  "btc_dominance": 58.59349503310337,
+  "eth_dominance": 11.314276543178742,
+  "total_mcap_usd": 2886477866807.987,
+  "mcap_change_24h": -2.001966168513789
  },
  "defi": {
-  "tvl_usd": 94104125029.0,
-  "change_1d": -0.024068861541191366,
-  "change_7d": 0.08070035182242563,
-  "change_1y": -0.3752955098059102,
-  "range_pos_1y": 0.25199565716578504
+  "tvl_usd": 94527927373.0,
+  "change_1d": -0.019673827593060467,
+  "change_7d": 0.08556733658130655,
+  "change_1y": -0.37248212381278833,
+  "range_pos_1y": 0.2561147739204023
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "小林製薬 株式の非公開化を検討",
+   "link": "https://news.yahoo.co.jp/pickup/6596426?source=rss",
+   "published": "09/24 23:41",
+   "ts": 1790260880.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「こどもNISA」競争に熱 証券各社",
    "link": "https://news.yahoo.co.jp/pickup/6596381?source=rss",
    "published": "09/24 17:22",
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596356?source=rss",
    "published": "09/24 13:20",
    "ts": 1790223649.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "千葉県内 約1万7000軒で停電続く",
-   "link": "https://news.yahoo.co.jp/pickup/6596355?source=rss",
-   "published": "09/24 12:58",
-   "ts": 1790222316.0,
    "source": "Yahoo!",
    "desc": ""
   },
