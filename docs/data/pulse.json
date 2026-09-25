@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-25 20:59:19",
+ "updated_at": "2026-09-26 02:19:38",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.774370327768466,
-  "eth_dominance": 11.472724583170622,
-  "total_mcap_usd": 2885082022756.2573,
-  "mcap_change_24h": -1.4228609109886228
+  "btc_dominance": 58.25579538313722,
+  "eth_dominance": 11.348838952401316,
+  "total_mcap_usd": 2891074065753.7236,
+  "mcap_change_24h": -2.7045460734984177
  },
  "defi": {
-  "tvl_usd": 95372810987.0,
-  "change_1d": 0.005069968671834957,
-  "change_7d": 0.08218839070872286,
-  "change_1y": -0.36777581308148655,
-  "range_pos_1y": 0.26428873929800517
+  "tvl_usd": 95215144716.0,
+  "change_1d": 0.0034083613394446655,
+  "change_7d": 0.08039936294339256,
+  "change_1y": -0.36882097919283285,
+  "range_pos_1y": 0.2627562344036692
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "ラジオNIKKEI第2 今週末短波休止",
+   "link": "https://news.yahoo.co.jp/pickup/6596550?source=rss",
+   "published": "09/25 22:42",
+   "ts": 1790343764.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ジャングリア 追加融資などを要請",
+   "link": "https://news.yahoo.co.jp/pickup/6596547?source=rss",
+   "published": "09/25 22:02",
+   "ts": 1790341362.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ドンキ 10月からPBビール値下げ",
    "link": "https://news.yahoo.co.jp/pickup/6596532?source=rss",
    "published": "09/25 20:08",
@@ -145,22 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596500?source=rss",
    "published": "09/25 16:40",
    "ts": 1790322048.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "中部電 浜岡の再稼働申請取り下げ",
-   "link": "https://news.yahoo.co.jp/pickup/6596476?source=rss",
-   "published": "09/25 13:19",
-   "ts": 1790309970.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "トランプ氏が円安けん制 会談で",
-   "link": "https://news.yahoo.co.jp/pickup/6596467?source=rss",
-   "published": "09/25 11:49",
-   "ts": 1790304568.0,
    "source": "Yahoo!",
    "desc": ""
   },
