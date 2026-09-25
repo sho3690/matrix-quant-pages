@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-25 14:06:06",
+ "updated_at": "2026-09-25 20:59:19",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.564483083353615,
-  "eth_dominance": 11.330411318247844,
-  "total_mcap_usd": 2885668446342.8086,
-  "mcap_change_24h": -2.3245067638915735
+  "btc_dominance": 58.774370327768466,
+  "eth_dominance": 11.472724583170622,
+  "total_mcap_usd": 2885082022756.2573,
+  "mcap_change_24h": -1.4228609109886228
  },
  "defi": {
-  "tvl_usd": 94854015858.0,
-  "change_1d": -0.00041609873822257004,
-  "change_7d": 0.07630165988942705,
-  "change_1y": -0.3712148941488781,
-  "range_pos_1y": 0.2592460876940348
+  "tvl_usd": 95372810987.0,
+  "change_1d": 0.005069968671834957,
+  "change_7d": 0.08218839070872286,
+  "change_1y": -0.36777581308148655,
+  "range_pos_1y": 0.26428873929800517
  },
  "news_crypto": [
+  {
+   "title": "トークン化預金推進の新機構が10月に始動　黒田前日銀総裁らも参画",
+   "link": "https://coinpost.jp/?p=739073",
+   "published": "09/25 19:00",
+   "ts": 1790330425.0,
+   "source": "CoinPost",
+   "desc": "黒田前日銀総裁らが参画するデジタル通貨イノベーション機構が9月25日に設立会見。トークン化預金を中核に決済インフラの標準化や政策提言を進め、10月から本格始動する。"
+  },
+  {
+   "title": "円建てステーブルコインEJPY、東芝など26社が実証参加を表明",
+   "link": "https://coinpost.jp/?p=739378",
+   "published": "09/25 17:10",
+   "ts": 1790323857.0,
+   "source": "CoinPost",
+   "desc": "日本ブロックチェーン基盤が、発行準備中の円建てステーブルコイン「EJPY」を軸とする実証プログラムを開始した。東芝やSCSKなど26社・団体が参加を表明。参加費は無料で、2027年2月までの約半年間（予定）、送金・決済やRWA決済での活用を検討する。"
+  },
+  {
+   "title": "バイナンスの1日のビットコイン純流出、2023年以来最大＝アナリスト",
+   "link": "https://coinpost.jp/?p=739348",
+   "published": "09/25 15:57",
+   "ts": 1790319448.0,
+   "source": "CoinPost",
+   "desc": "クリプトクアントのDarkfost氏によると、バイナンスからのビットコイン純流出が1日で1万3800BTCを超え、2023年以来の最大規模に達した。準備金は4日間で約2万BTC減少。出遅れた投資家のFOMOが背景にあるとの見方を示した。"
+  },
+  {
+   "title": "ビットゲット、5500ビットコインの保護基金で損失負担へ　北朝鮮系集団関与か",
+   "link": "https://coinpost.jp/?p=739298",
+   "published": "09/25 14:51",
+   "ts": 1790315516.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨取引所ビットゲット（Bitget）は、約3億5,160万ドルの不正流出による損失を、5,500BTCを保有するユーザー保護基金で負担すると表明した。秘密鍵の流出は否定し、CEOは北朝鮮系集団の関与の可能性にも言及した。"
+  },
   {
    "title": "パースSEC委員、ゼロ知識証明でKYC改革を提言　過度のデータ収集から事実の証明重視へ",
    "link": "https://coinpost.jp/?p=739240",
@@ -81,41 +113,41 @@
    "ts": 1790302894.0,
    "source": "CoinPost",
    "desc": "SBIグループとJR九州が25日、Web会員専用の金融スーパーアプリ「JQ BANK」（仮称）で基本合意した。基盤のFPaaSには暗号資産（仮想通貨）やステーブルコイン決済も組み込む。2027年度中の開始を目指す。"
-  },
-  {
-   "title": "JPモルガン、ビットコイン一時生産コスト超え　維持ならマイナー売り圧緩和＝報道",
-   "link": "https://coinpost.jp/?p=739193",
-   "published": "09/25 10:49",
-   "ts": 1790300968.0,
-   "source": "CoinPost",
-   "desc": "米JPモルガンは、ビットコインが同行推計の生産コスト約8万5,000ドルを280日ぶりに一時上回ったと指摘した。水準を維持できればマイナーの強制売却リスクが和らぐとし、AI転換によるハッシュレート低下にも触れた。"
-  },
-  {
-   "title": "ビットコインの「新たな強気相場到来」か　シグナルを観測＝クリプトクアント",
-   "link": "https://coinpost.jp/?p=739160",
-   "published": "09/25 10:00",
-   "ts": 1790298016.0,
-   "source": "CoinPost",
-   "desc": "クリプトクアントが仮想通貨市場週間レポートで、ビットコインが365日移動平均線を上抜けたと指摘。新たな強気相場入りのシグナルだと分析している。"
-  },
-  {
-   "title": "オンド、ブラックロックの投資戦略をトークン化した新商品をローンチ",
-   "link": "https://coinpost.jp/?p=739154",
-   "published": "09/25 09:05",
-   "ts": 1790294749.0,
-   "source": "CoinPost",
-   "desc": "RWAトークン化大手のオンドは、新たなオンチェーン金融商品Ondo Intelligent Portfoliosを発表。投資のプロが構築したポートフォリオをトークン化する。"
-  },
-  {
-   "title": "ビットゲットから不正流出、被害額3.5億ドル相当",
-   "link": "https://coinpost.jp/?p=739148",
-   "published": "09/25 07:39",
-   "ts": 1790289589.0,
-   "source": "CoinPost",
-   "desc": "ビットゲットは9月25日、ホットウォレットから約3億5160万ドル相当の不正流出を確認したと発表した。コールドウォレットは無事で、ユーザー保護基金が全額を補填する方針だが、出金は一時停止されている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ドンキ 10月からPBビール値下げ",
+   "link": "https://news.yahoo.co.jp/pickup/6596532?source=rss",
+   "published": "09/25 20:08",
+   "ts": 1790334532.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "市販ナビ ストラーダ生産終了へ",
+   "link": "https://news.yahoo.co.jp/pickup/6596512?source=rss",
+   "published": "09/25 17:40",
+   "ts": 1790325626.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "姫路独協大 徳洲会に経営権譲渡へ",
+   "link": "https://news.yahoo.co.jp/pickup/6596507?source=rss",
+   "published": "09/25 17:05",
+   "ts": 1790323535.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JR九州27年度にも新金融サービス",
+   "link": "https://news.yahoo.co.jp/pickup/6596500?source=rss",
+   "published": "09/25 16:40",
+   "ts": 1790322048.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "中部電 浜岡の再稼働申請取り下げ",
    "link": "https://news.yahoo.co.jp/pickup/6596476?source=rss",
@@ -133,22 +165,6 @@
    "desc": ""
   },
   {
-   "title": "長期金利一時3.115% 30年ぶり水準",
-   "link": "https://news.yahoo.co.jp/pickup/6596462?source=rss",
-   "published": "09/25 11:13",
-   "ts": 1790302415.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日高屋と幸楽苑 成長を続ける理由",
-   "link": "https://news.yahoo.co.jp/pickup/6596455?source=rss",
-   "published": "09/25 10:13",
-   "ts": 1790298839.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "全東信破産 カード会社が支払いへ",
    "link": "https://news.yahoo.co.jp/pickup/6596454?source=rss",
    "published": "09/25 10:04",
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "意図せず資金移動 楽天証券不具合",
-   "link": "https://news.yahoo.co.jp/pickup/6596439?source=rss",
-   "published": "09/25 08:09",
-   "ts": 1790291370.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ファミマ「バイト改革」なぜ今",
    "link": "https://news.yahoo.co.jp/pickup/6596440?source=rss",
    "published": "09/25 07:57",
    "ts": 1790290659.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米住宅ローン金利7%超 30年固定",
-   "link": "https://news.yahoo.co.jp/pickup/6596435?source=rss",
-   "published": "09/25 07:33",
-   "ts": 1790289201.0,
    "source": "Yahoo!",
    "desc": ""
   }
