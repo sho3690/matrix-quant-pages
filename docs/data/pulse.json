@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-27 01:31:05",
+ "updated_at": "2026-09-27 08:40:41",
  "fng": {
   "value": 74,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.227241497808144,
-  "eth_dominance": 11.317471534711489,
-  "total_mcap_usd": 2895761491240.2256,
-  "mcap_change_24h": -2.3119087656778836
+  "btc_dominance": 58.28580545062636,
+  "eth_dominance": 11.3118702119961,
+  "total_mcap_usd": 2902175449618.5386,
+  "mcap_change_24h": -2.5183340350675336
  },
  "defi": {
-  "tvl_usd": 95366238010.0,
-  "change_1d": 0.002566893092703193,
-  "change_7d": 0.027596732603806462,
-  "change_1y": -0.3452264745578181,
-  "range_pos_1y": 0.2642248504238246
+  "tvl_usd": 95381661349.0,
+  "change_1d": 0.002757895582681913,
+  "change_7d": 0.027762923208500156,
+  "change_1y": -0.3451205797017154,
+  "range_pos_1y": 0.2643747641774437
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "代替コーヒー 背景に2050年問題",
+   "link": "https://news.yahoo.co.jp/pickup/6596680?source=rss",
+   "published": "09/27 08:32",
+   "ts": 1790465563.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "トキエア再延期 県からの融資返済",
    "link": "https://news.yahoo.co.jp/pickup/6596667?source=rss",
    "published": "09/26 23:03",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596547?source=rss",
    "published": "09/25 22:02",
    "ts": 1790341362.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ドンキ 10月からPBビール値下げ",
-   "link": "https://news.yahoo.co.jp/pickup/6596532?source=rss",
-   "published": "09/25 20:08",
-   "ts": 1790334532.0,
    "source": "Yahoo!",
    "desc": ""
   }
