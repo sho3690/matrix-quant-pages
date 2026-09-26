@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-26 20:34:17",
+ "updated_at": "2026-09-27 01:31:05",
  "fng": {
   "value": 74,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.298592808553096,
-  "eth_dominance": 11.31706548069,
-  "total_mcap_usd": 2895647302290.861,
-  "mcap_change_24h": -3.1012475185616126
+  "btc_dominance": 58.227241497808144,
+  "eth_dominance": 11.317471534711489,
+  "total_mcap_usd": 2895761491240.2256,
+  "mcap_change_24h": -2.3119087656778836
  },
  "defi": {
-  "tvl_usd": 95244970123.0,
-  "change_1d": 0.0013074846792111572,
-  "change_7d": 0.02631138971506708,
-  "change_1y": -0.346059085800023,
-  "range_pos_1y": 0.26304613522255565
+  "tvl_usd": 95366238010.0,
+  "change_1d": 0.002566893092703193,
+  "change_7d": 0.027596732603806462,
+  "change_1y": -0.3452264745578181,
+  "range_pos_1y": 0.2642248504238246
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "トキエア再延期 県からの融資返済",
+   "link": "https://news.yahoo.co.jp/pickup/6596667?source=rss",
+   "published": "09/26 23:03",
+   "ts": 1790431426.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「超エルニーニョ」経済的損失は",
+   "link": "https://news.yahoo.co.jp/pickup/6596649?source=rss",
+   "published": "09/26 20:33",
+   "ts": 1790422410.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "10月値上げラッシュ 家計負担重く",
    "link": "https://news.yahoo.co.jp/pickup/6596639?source=rss",
    "published": "09/26 18:54",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596532?source=rss",
    "published": "09/25 20:08",
    "ts": 1790334532.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "市販ナビ ストラーダ生産終了へ",
-   "link": "https://news.yahoo.co.jp/pickup/6596512?source=rss",
-   "published": "09/25 17:40",
-   "ts": 1790325626.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "姫路独協大 徳洲会に経営権譲渡へ",
-   "link": "https://news.yahoo.co.jp/pickup/6596507?source=rss",
-   "published": "09/25 17:05",
-   "ts": 1790323535.0,
    "source": "Yahoo!",
    "desc": ""
   }
