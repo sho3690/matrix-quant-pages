@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-09-27 08:40:41",
+ "updated_at": "2026-09-27 14:26:52",
  "fng": {
-  "value": 74,
+  "value": 70,
   "label": "強欲",
   "history": [
-   73,
    68,
    69,
    62,
@@ -33,23 +32,32 @@
    71,
    71,
    71,
-   74
+   74,
+   70
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.28580545062636,
-  "eth_dominance": 11.3118702119961,
-  "total_mcap_usd": 2902175449618.5386,
-  "mcap_change_24h": -2.5183340350675336
+  "btc_dominance": 58.314489631344436,
+  "eth_dominance": 11.318974510135783,
+  "total_mcap_usd": 2902483836891.244,
+  "mcap_change_24h": -2.3642438792174767
  },
  "defi": {
-  "tvl_usd": 95381661349.0,
-  "change_1d": 0.002757895582681913,
-  "change_7d": 0.027762923208500156,
-  "change_1y": -0.3451205797017154,
-  "range_pos_1y": 0.2643747641774437
+  "tvl_usd": 95596358940.0,
+  "change_1d": 0.001667990227278482,
+  "change_7d": 0.026529755312690417,
+  "change_1y": -0.35819991883116453,
+  "range_pos_1y": 0.26646160942929115
  },
  "news_crypto": [
+  {
+   "title": "週刊仮想通貨ニュース（9/25）｜BTC相場・ストラテジーの財務戦略・機関投資家の動向まとめ",
+   "link": "https://coinpost.jp/?p=739190",
+   "published": "09/27 09:25",
+   "ts": 1790468750.0,
+   "source": "CoinPost",
+   "desc": "今週は、仮想通貨ビットコインの相場分析、ストラテジーのビットコイン買い増し、主要機関投資家15社への聞き取り調査に関する記事が関心を集めた。"
+  },
   {
    "title": "米控訴裁「予測市場のスポーツイベント契約は州が規制可能」と判決、カルシ敗訴",
    "link": "https://coinpost.jp/?p=739441",
@@ -105,17 +113,41 @@
    "ts": 1790378026.0,
    "source": "CoinPost",
    "desc": "米証券決済大手のDTCCが、自社インフラが扱う114兆ドル規模の資産を対象にブロックチェーン基盤のトークン化サービスを始動すると発表した。証券決済インフラのオンチェーン化が進めば、機関投資家の取引環境にも影響が及ぶとみられる。"
-  },
-  {
-   "title": "米上場シークアンスがビットコイン財務戦略を終了、残りの314BTCを売却",
-   "link": "https://coinpost.jp/?p=739412",
-   "published": "09/26 07:40",
-   "ts": 1790376059.0,
-   "source": "CoinPost",
-   "desc": "シークアンスは、仮想通貨ビットコインの財務戦略を完全に終了したことを発表。残りの314BTCを売却したと説明し、今後は半導体事業の成長戦略に注力していくとした。"
   }
  ],
  "news_jp": [
+  {
+   "title": "刀・森岡代表巡る評価 識者見解",
+   "link": "https://news.yahoo.co.jp/pickup/6596710?source=rss",
+   "published": "09/27 14:19",
+   "ts": 1790486363.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "家計影響も 10月から変わる暮らし",
+   "link": "https://news.yahoo.co.jp/pickup/6596703?source=rss",
+   "published": "09/27 13:02",
+   "ts": 1790481725.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「回転ずしバス」試行錯誤100回超",
+   "link": "https://news.yahoo.co.jp/pickup/6596695?source=rss",
+   "published": "09/27 11:36",
+   "ts": 1790476585.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "混雑率177%も増発できず 3つの壁",
+   "link": "https://news.yahoo.co.jp/pickup/6596691?source=rss",
+   "published": "09/27 10:54",
+   "ts": 1790474045.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "代替コーヒー 背景に2050年問題",
    "link": "https://news.yahoo.co.jp/pickup/6596680?source=rss",
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "10月値上げラッシュ 家計負担重く",
-   "link": "https://news.yahoo.co.jp/pickup/6596639?source=rss",
-   "published": "09/26 18:54",
-   "ts": 1790416474.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ダイナム クレーンゲームに手応え",
    "link": "https://news.yahoo.co.jp/pickup/6596621?source=rss",
    "published": "09/26 16:46",
    "ts": 1790408805.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "コメ下落「大盛り」値下げの動き",
-   "link": "https://news.yahoo.co.jp/pickup/6596619?source=rss",
-   "published": "09/26 16:25",
-   "ts": 1790407545.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "外国人の起業 制度厳格化で急減",
-   "link": "https://news.yahoo.co.jp/pickup/6596569?source=rss",
-   "published": "09/26 08:40",
-   "ts": 1790379616.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ジャングリア 追加融資などを要請",
-   "link": "https://news.yahoo.co.jp/pickup/6596547?source=rss",
-   "published": "09/25 22:02",
-   "ts": 1790341362.0,
    "source": "Yahoo!",
    "desc": ""
   }
