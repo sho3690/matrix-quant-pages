@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-27 14:26:52",
+ "updated_at": "2026-09-27 21:13:05",
  "fng": {
   "value": 70,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.314489631344436,
-  "eth_dominance": 11.318974510135783,
-  "total_mcap_usd": 2902483836891.244,
-  "mcap_change_24h": -2.3642438792174767
+  "btc_dominance": 58.74880743045483,
+  "eth_dominance": 11.403828654603503,
+  "total_mcap_usd": 2900022880786.766,
+  "mcap_change_24h": -2.648203463688984
  },
  "defi": {
-  "tvl_usd": 95596358940.0,
-  "change_1d": 0.001667990227278482,
-  "change_7d": 0.026529755312690417,
-  "change_1y": -0.35819991883116453,
-  "range_pos_1y": 0.26646160942929115
+  "tvl_usd": 96066891703.0,
+  "change_1d": 0.006594133513324385,
+  "change_7d": 0.031559860252910354,
+  "change_1y": -0.35504092858473124,
+  "range_pos_1y": 0.27103515428245734
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "長雨で作物が根腐れ 絶句する農家",
+   "link": "https://news.yahoo.co.jp/pickup/6596754?source=rss",
+   "published": "09/27 19:04",
+   "ts": 1790503464.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "国と攻防30年 ビール系飲料の税率",
+   "link": "https://news.yahoo.co.jp/pickup/6596729?source=rss",
+   "published": "09/27 16:18",
+   "ts": 1790493515.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "台風25号被害 千葉の観光地に爪痕",
+   "link": "https://news.yahoo.co.jp/pickup/6596719?source=rss",
+   "published": "09/27 15:00",
+   "ts": 1790488856.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "刀・森岡代表巡る評価 識者見解",
    "link": "https://news.yahoo.co.jp/pickup/6596710?source=rss",
    "published": "09/27 14:19",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596680?source=rss",
    "published": "09/27 08:32",
    "ts": 1790465563.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "トキエア再延期 県からの融資返済",
-   "link": "https://news.yahoo.co.jp/pickup/6596667?source=rss",
-   "published": "09/26 23:03",
-   "ts": 1790431426.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「超エルニーニョ」経済的損失は",
-   "link": "https://news.yahoo.co.jp/pickup/6596649?source=rss",
-   "published": "09/26 20:33",
-   "ts": 1790422410.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ダイナム クレーンゲームに手応え",
-   "link": "https://news.yahoo.co.jp/pickup/6596621?source=rss",
-   "published": "09/26 16:46",
-   "ts": 1790408805.0,
    "source": "Yahoo!",
    "desc": ""
   }
