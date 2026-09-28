@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-28 14:34:51",
+ "updated_at": "2026-09-28 23:10:42",
  "fng": {
   "value": 74,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.69855168331546,
-  "eth_dominance": 11.365469273490616,
-  "total_mcap_usd": 2839471602466.185,
-  "mcap_change_24h": -4.771554642964388
+  "btc_dominance": 58.11495183310355,
+  "eth_dominance": 11.361062889458243,
+  "total_mcap_usd": 2874936066883.0938,
+  "mcap_change_24h": -3.3485350443992123
  },
  "defi": {
-  "tvl_usd": 94886730010.0,
-  "change_1d": -0.006438154712799848,
-  "change_7d": 0.008518821756094752,
-  "change_1y": -0.36823811663411843,
-  "range_pos_1y": 0.25956406690798683
+  "tvl_usd": 94458311405.0,
+  "change_1d": -0.010778745048405924,
+  "change_7d": 0.003965305930568208,
+  "change_1y": -0.3710905549543688,
+  "range_pos_1y": 0.25539986866298947
  },
  "news_crypto": [
+  {
+   "title": "ストラテジー、224億円相当ビットコインを追加購入　二週連続で実施",
+   "link": "https://coinpost.jp/?p=739651",
+   "published": "09/28 21:15",
+   "ts": 1790597745.0,
+   "source": "CoinPost",
+   "desc": "ストラテジーが9月21日から27日に1665BTCの仮想通貨ビットコインを追加取得し、保有量は847666BTCとなった。同時にSTRC優先株の買い戻しも実施した。"
+  },
+  {
+   "title": "ビットコイン需要、17.1万BTCのマイナス　価格上昇と乖離＝アナリスト",
+   "link": "https://coinpost.jp/?p=739620",
+   "published": "09/28 16:05",
+   "ts": 1790579135.0,
+   "source": "CoinPost",
+   "desc": "CryptoQuantのアナリスト、ダークフォスト氏は28日、ビットコインの総需要推計が30日間の合計でマイナス17.1万BTCまで悪化したと指摘した。価格が15日間で8.4万ドルまで上昇するなか、先物需要は3,000BTCに縮小した。"
+  },
+  {
+   "title": "「ヘゴタ」が最後の通常フォークか、ヴィタリック氏が描く2030年のイーサリアム像",
+   "link": "https://coinpost.jp/?p=739562",
+   "published": "09/28 14:35",
+   "ts": 1790573759.0,
+   "source": "CoinPost",
+   "desc": "ヴィタリック・ブテリン氏はブログで、イーサリアムは2030年に向け、従来の「ブロックチェーン」という枠には収まらない「暗号学的ワールドコンピュータ」へ進化するとの見方を示した。"
+  },
   {
    "title": "コインチェック、2銘柄の取扱い廃止へ　11月2日付",
    "link": "https://coinpost.jp/?p=739579",
@@ -89,33 +113,57 @@
    "ts": 1790556645.0,
    "source": "CoinPost",
    "desc": "フィデリティのジュリアン・ティマー氏が26日、ビットコインのパワーロー分析から、6万ドル維持を受け新たな強気サイクルが始まったとの見方を示し、2029年に30万ドルを目標に挙げた。7月の慎重姿勢からの転換点を整理する。"
-  },
-  {
-   "title": "ロビンフッドチェーンのミーム53銘柄、1843万ドル抜き取りか＝報道",
-   "link": "https://coinpost.jp/?p=739475",
-   "published": "09/28 08:29",
-   "ts": 1790551792.0,
-   "source": "CoinPost",
-   "desc": "ロビンフッドチェーンで、主にローンチパッドPons V2を通じて発行されたミームコイン53銘柄から少なくとも1843万ドルが抜き取られたとオンチェーン分析者Wazz氏が指摘。買い占め防止税の免除を悪用した手口と、売却益が次のローンチへ回る資金の流れを追う。"
-  },
-  {
-   "title": "バイナンス上場アルトコインの87％が200日線超え、過熱警戒も＝アナリスト",
-   "link": "https://coinpost.jp/?p=739471",
-   "published": "09/28 07:38",
-   "ts": 1790548738.0,
-   "source": "CoinPost",
-   "desc": "CryptoQuantのDarkfost氏が、アルトコイン市場の過熱シグナルを指摘。バイナンス上場銘柄の87％が200日移動平均線を上回り、取引所への入金も2025年10月以来の水準に増加。RSIには弱気ダイバージェンスが出始めている。"
-  },
-  {
-   "title": "週刊仮想通貨ニュース（9/25）｜BTC相場・ストラテジーの財務戦略・機関投資家の動向まとめ",
-   "link": "https://coinpost.jp/?p=739190",
-   "published": "09/27 09:25",
-   "ts": 1790468750.0,
-   "source": "CoinPost",
-   "desc": "今週は、仮想通貨ビットコインの相場分析、ストラテジーのビットコイン買い増し、主要機関投資家15社への聞き取り調査に関する記事が関心を集めた。"
   }
  ],
  "news_jp": [
+  {
+   "title": "くら寿司 不正転売の再発防止説明",
+   "link": "https://news.yahoo.co.jp/pickup/6596891?source=rss",
+   "published": "09/28 22:37",
+   "ts": 1790602636.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "談合対象マンション名 なぜ公表",
+   "link": "https://news.yahoo.co.jp/pickup/6596878?source=rss",
+   "published": "09/28 19:56",
+   "ts": 1790592962.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「iDeCo貧乏」 NISAより注意必要",
+   "link": "https://news.yahoo.co.jp/pickup/6596876?source=rss",
+   "published": "09/28 18:57",
+   "ts": 1790589476.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ミスドが上海出店 100人以上が列",
+   "link": "https://news.yahoo.co.jp/pickup/6596863?source=rss",
+   "published": "09/28 17:49",
+   "ts": 1790585384.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "大規模修繕で談合 38社に排除命令",
+   "link": "https://news.yahoo.co.jp/pickup/6596852?source=rss",
+   "published": "09/28 16:29",
+   "ts": 1790580553.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ニデック 大規模な減損処理を検討",
+   "link": "https://news.yahoo.co.jp/pickup/6596842?source=rss",
+   "published": "09/28 14:59",
+   "ts": 1790575173.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "酒税一本化 政府だけにメリット?",
    "link": "https://news.yahoo.co.jp/pickup/6596837?source=rss",
@@ -125,58 +173,10 @@
    "desc": ""
   },
   {
-   "title": "ボジョレ例年より1カ月早く日本に",
-   "link": "https://news.yahoo.co.jp/pickup/6596830?source=rss",
-   "published": "09/28 12:53",
-   "ts": 1790567600.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "都心の鉄道高架下 有効活用で注目",
-   "link": "https://news.yahoo.co.jp/pickup/6596805?source=rss",
-   "published": "09/28 09:30",
-   "ts": 1790555403.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東証IPO最少ペース 1-8月に22社",
-   "link": "https://news.yahoo.co.jp/pickup/6596802?source=rss",
-   "published": "09/28 09:04",
-   "ts": 1790553880.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ユニクロ好調も国内の店舗減 なぜ",
    "link": "https://news.yahoo.co.jp/pickup/6596796?source=rss",
    "published": "09/28 08:12",
    "ts": 1790550727.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長雨で作物が根腐れ 絶句する農家",
-   "link": "https://news.yahoo.co.jp/pickup/6596754?source=rss",
-   "published": "09/27 19:04",
-   "ts": 1790503464.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "台風25号被害 千葉の観光地に爪痕",
-   "link": "https://news.yahoo.co.jp/pickup/6596719?source=rss",
-   "published": "09/27 15:00",
-   "ts": 1790488856.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "刀・森岡代表巡る評価 識者見解",
-   "link": "https://news.yahoo.co.jp/pickup/6596710?source=rss",
-   "published": "09/27 14:19",
-   "ts": 1790486363.0,
    "source": "Yahoo!",
    "desc": ""
   }
