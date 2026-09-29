@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-29 18:58:28",
+ "updated_at": "2026-09-30 03:08:41",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.77763712007804,
-  "eth_dominance": 11.535004929439186,
-  "total_mcap_usd": 2875919132359.9614,
-  "mcap_change_24h": -1.427026272272149
+  "btc_dominance": 58.34116568729423,
+  "eth_dominance": 11.408662623387565,
+  "total_mcap_usd": 2869816538596.1997,
+  "mcap_change_24h": -3.624323938183792
  },
  "defi": {
-  "tvl_usd": 95383904047.0,
-  "change_1d": -0.0006742123156798785,
-  "change_7d": -0.009941158094410096,
-  "change_1y": -0.3810729747002175,
-  "range_pos_1y": 0.26439656304184095
+  "tvl_usd": 94557476966.0,
+  "change_1d": -0.009310588879533399,
+  "change_7d": -0.018494867271646953,
+  "change_1y": -0.3864559255435501,
+  "range_pos_1y": 0.25635065940943214
  },
  "news_crypto": [
   {
@@ -117,6 +117,46 @@
  ],
  "news_jp": [
   {
+   "title": "ドンキ トイザらス日本事業買収へ",
+   "link": "https://news.yahoo.co.jp/pickup/6596995?source=rss",
+   "published": "09/29 22:41",
+   "ts": 1790689260.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "TDL新ショー プレビュー公演取材",
+   "link": "https://news.yahoo.co.jp/pickup/6596989?source=rss",
+   "published": "09/29 21:39",
+   "ts": 1790685559.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ミスド上海は成功するか 識者見解",
+   "link": "https://news.yahoo.co.jp/pickup/6596971?source=rss",
+   "published": "09/29 20:03",
+   "ts": 1790679817.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "伊藤園 株主優待制度を廃止",
+   "link": "https://news.yahoo.co.jp/pickup/6596978?source=rss",
+   "published": "09/29 19:02",
+   "ts": 1790676178.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ニデック岸田社長が辞任 不正巡り",
+   "link": "https://news.yahoo.co.jp/pickup/6596980?source=rss",
+   "published": "09/29 18:59",
+   "ts": 1790675999.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "民間の平均給与 過去最高487万円",
    "link": "https://news.yahoo.co.jp/pickup/6596963?source=rss",
    "published": "09/29 16:57",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6596954?source=rss",
    "published": "09/29 14:39",
    "ts": 1790660369.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「ベランダ」なしの新築増 背景は",
-   "link": "https://news.yahoo.co.jp/pickup/6596914?source=rss",
-   "published": "09/29 08:04",
-   "ts": 1790636698.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マンション修繕談合 コンサル謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6596906?source=rss",
-   "published": "09/29 06:41",
-   "ts": 1790631662.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "くら寿司 不正転売の再発防止説明",
-   "link": "https://news.yahoo.co.jp/pickup/6596891?source=rss",
-   "published": "09/28 22:37",
-   "ts": 1790602636.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "談合対象マンション名 なぜ公表",
-   "link": "https://news.yahoo.co.jp/pickup/6596878?source=rss",
-   "published": "09/28 19:56",
-   "ts": 1790592962.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「iDeCo貧乏」 NISAより注意必要",
-   "link": "https://news.yahoo.co.jp/pickup/6596876?source=rss",
-   "published": "09/28 18:57",
-   "ts": 1790589476.0,
    "source": "Yahoo!",
    "desc": ""
   }
