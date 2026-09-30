@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-30 18:50:12",
+ "updated_at": "2026-10-01 03:02:07",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.27161759984205,
-  "eth_dominance": 11.389047394040125,
-  "total_mcap_usd": 2875821944463.171,
-  "mcap_change_24h": -2.3017724687150043
+  "btc_dominance": 58.38447534268266,
+  "eth_dominance": 11.32168140400331,
+  "total_mcap_usd": 2881422328049.977,
+  "mcap_change_24h": -1.8336252178890282
  },
  "defi": {
-  "tvl_usd": 94494563879.0,
-  "change_1d": -0.002788712510731095,
-  "change_7d": -0.019766279309513024,
-  "change_1y": -0.3943324614113547,
-  "range_pos_1y": 0.2557522401285256
+  "tvl_usd": 95032860522.0,
+  "change_1d": 0.0029097021304198556,
+  "change_7d": -0.014182291199056674,
+  "change_1y": -0.3908822226948311,
+  "range_pos_1y": 0.2609844450558695
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "西武渋谷店が閉店 入り口は大混雑",
+   "link": "https://news.yahoo.co.jp/pickup/6597110?source=rss",
+   "published": "09/30 21:47",
+   "ts": 1790772454.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ビル火災報知機 大雨で誤作動多発",
    "link": "https://news.yahoo.co.jp/pickup/6597080?source=rss",
    "published": "09/30 17:18",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597026?source=rss",
    "published": "09/30 09:58",
    "ts": 1790729932.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "早朝の高速バス乗り場に行列 千葉",
-   "link": "https://news.yahoo.co.jp/pickup/6597019?source=rss",
-   "published": "09/30 08:38",
-   "ts": 1790725094.0,
    "source": "Yahoo!",
    "desc": ""
   },
