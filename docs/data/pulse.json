@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01 09:37:12",
+ "updated_at": "2026-10-01 19:17:38",
  "fng": {
   "value": 74,
   "label": "強欲",
@@ -37,146 +37,146 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.26252589424175,
-  "eth_dominance": 11.38082643782601,
-  "total_mcap_usd": 2871704200812.889,
-  "mcap_change_24h": -2.7489456161775943
+  "btc_dominance": 58.37680252790839,
+  "eth_dominance": 11.392600497683851,
+  "total_mcap_usd": 2875436351775.3623,
+  "mcap_change_24h": -2.8698827721893263
  },
  "defi": {
-  "tvl_usd": 94821614286.0,
-  "change_1d": 0.0015810650014362881,
-  "change_7d": -0.0003863327512012571,
-  "change_1y": -0.3895345827800677,
-  "range_pos_1y": 0.2589311467209596
+  "tvl_usd": 94602546855.0,
+  "change_1d": -0.0009832483846718976,
+  "change_7d": -0.0027246956723320226,
+  "change_1y": -0.39094494782891986,
+  "range_pos_1y": 0.25680182694360904
  },
  "news_crypto": [
   {
-   "title": "企業コンソーシアム型ステーブルコイン「OUSD」がローンチ、イーサリアムなど4チェーンで発行可能に",
-   "link": "https://coinpost.jp/?p=740305",
-   "published": "10/01 09:15",
-   "ts": 1790813750.0,
+   "title": "ビットコイン短期保有者の含み益、13.7％に縮小＝アナリスト",
+   "link": "https://coinpost.jp/?p=740477",
+   "published": "10/01 17:41",
+   "ts": 1790844077.0,
    "source": "CoinPost",
-   "desc": "オープンスタンダードが提供する企業コンソーシアム型の米ドルステーブルコインOUSDがローンチ。発行可能なブロックチェーンや参加企業の役割が明らかになった。"
+   "desc": "ビットコインの短期保有者の平均含み益は13.7％となり、前週の15.4％から縮小した。取得単価（実現価格）は7.37万ドルに上昇した。BTC価格は8.37万ドルで、取得単価を約14％上回る。長期保有者の取得単価は4.88万ドルに低下した。"
   },
   {
-   "title": "ビットバンク、JADAT全株式を三井住友信託銀行に譲渡へ",
-   "link": "https://coinpost.jp/?p=740242",
-   "published": "09/30 17:27",
-   "ts": 1790756865.0,
+   "title": "SBIグループ、ビットバンクの完全子会社化を完了",
+   "link": "https://coinpost.jp/?p=740447",
+   "published": "10/01 16:30",
+   "ts": 1790839800.0,
    "source": "CoinPost",
-   "desc": "仮想通貨取引所のビットバンクは9月25日、デジタルアセット特化の信託会社設立準備会社JADATの全株式を三井住友信託銀行に譲渡すると発表した。2022年に両社が合意した共同構想は、三井住友トラストグループ傘下で進むことになる。"
+   "desc": "暗号資産取引所ビットバンクは10月1日、SBIホールディングスによる完全子会社化が完了したと発表した。MIXIとセレスからの自己株式取得で一連の取引を終えた。廣末紀之CEOは続投し、SBI VCトレードの近藤智彦社長が取締役に就く。"
   },
   {
-   "title": "HSBC、香港ドル建てステーブルコイン「HSBC RedCoin」を年内提供へ",
-   "link": "https://coinpost.jp/?p=740227",
-   "published": "09/30 16:48",
-   "ts": 1790754518.0,
+   "title": "ビットコイン現物需要なお弱く　ETFは9月下旬から2.8万BTC増＝アナリスト",
+   "link": "https://coinpost.jp/?p=740420",
+   "published": "10/01 15:41",
+   "ts": 1790836890.0,
    "source": "CoinPost",
-   "desc": "HSBC香港は30日、香港ドル建てステーブルコインの名称を「HSBC RedCoin」と発表した。4月に取得したHKMAのライセンスに基づき、PayMeと同行アプリで2026年後半に提供を始める。個人間送金から始め、法人向けへ広げる計画だ。"
+   "desc": "ビットコインの見かけの需要はマイナス11.25万BTCで、依然として弱い。9月20日から約9.5万BTC改善し、その間にETFが約2.8万BTCを積み増した。CryptoQuantのアナリストDarkfost氏は、需要を探る下落が起きる可能性に言及した。"
   },
   {
-   "title": "財務省、国債のオンチェーン即時決済に関する研究会　10月8日初開催＝報道",
-   "link": "https://coinpost.jp/?p=740156",
-   "published": "09/30 15:27",
-   "ts": 1790749667.0,
+   "title": "ソラナ・カンパニー、約24億円を調達　自社株買いやSOL取得に充当",
+   "link": "https://coinpost.jp/?p=740407",
+   "published": "10/01 15:04",
+   "ts": 1790834677.0,
    "source": "CoinPost",
-   "desc": "財務省は9月30日、国債取引の即時決済を念頭に「オンチェーン対応に関する研究会」を立ち上げると発表した。東大・早大の研究者らで構成し、日銀・金融庁も交えて、翌営業日決済の現行慣行と比べたメリットとデメリットを整理する。"
+   "desc": "ソラナ（SOL）を保有する米上場企業ソラナ・カンパニーが、機関投資家1社から約1,500万ドル（約24億円）を調達する。発行価格は1株あたり純資産価値（NAV）を5％上回る水準。資金は自社株買いのほか、株主にとって魅力的と判断すればSOLの追加取得にも充てる。"
   },
   {
-   "title": "KDDIら、au PAYアプリで暗号資産ウォレット提供開始",
-   "link": "https://coinpost.jp/?p=740129",
-   "published": "09/30 15:01",
-   "ts": 1790748087.0,
+   "title": "ビットコイン政策研究所、MSCIの指数除外案に撤回要求",
+   "link": "https://coinpost.jp/?p=740397",
+   "published": "10/01 14:06",
+   "ts": 1790831178.0,
    "source": "CoinPost",
-   "desc": "KDDIなど3社は30日、au PAYアプリ上で使える暗号資産ウォレット「αU wallet」の提供を開始した。PontaポイントでETHやJPYCに交換でき、au PAY残高へのチャージにも対応する。HashPort吉田CEOが取材に応じた。"
+   "desc": "米ビットコイン政策研究所は、MSCIが8月に示した「非事業会社」の指数除外案について撤回を求めるレポートを公表した。「事業資産」の定義が曖昧で、ビットコインを保有するトレジャリー企業が標的になっていると指摘する。"
   },
   {
-   "title": "バイナンスペイ、訪日旅行者向けに仮想通貨でのPayPay加盟店決済に対応",
-   "link": "https://coinpost.jp/?p=740085",
-   "published": "09/30 13:25",
-   "ts": 1790742304.0,
+   "title": "仮想通貨投資商品に年初来最大の週間流入、約5600億円＝コインシェアーズ",
+   "link": "https://coinpost.jp/?p=740375",
+   "published": "10/01 13:30",
+   "ts": 1790829008.0,
    "source": "CoinPost",
-   "desc": "バイナンスは9月30日、訪日外国人旅行者が全国のペイペイ加盟店で仮想通貨決済を行えると発表。期間限定で10%割引も受けられる。"
+   "desc": "コインシェアーズは、先週の世界の仮想通貨投資商品への流入額が35.5億ドルと年初来最大になったと報告した。ビットコインが牽引し、地域別では米国からの資金が大半を占めた。"
   },
   {
-   "title": "カカオペイ証券、オンドおよびディナリと提携──韓国上場株のトークン化を検討",
-   "link": "https://coinpost.jp/?p=740035",
-   "published": "09/30 11:32",
-   "ts": 1790735578.0,
+   "title": "エルサルバドルでステーブルコイン送金アプリ始動、ビットコイン局は報道に反論",
+   "link": "https://coinpost.jp/?p=740346",
+   "published": "10/01 11:55",
+   "ts": 1790823310.0,
    "source": "CoinPost",
-   "desc": "カカオペイ証券がオンド・ファイナンス、ディナリとそれぞれMOUを締結。韓国上場株のトークン化と海外投資家への流通を検討する。"
+   "desc": "エルサルバドルとモドヴェオンは、ステーブルコインを活用した送金もできるSivarをローンチしたことを発表。一方、ビットコイン・オフィスは、政府は仮想通貨やステーブルコインのウォレットを運営する計画はないと述べている。"
   },
   {
-   "title": "メタプラネット独立取締役が書簡、新株予約権の希薄化批判に回答",
-   "link": "https://coinpost.jp/?p=740029",
-   "published": "09/30 10:55",
-   "ts": 1790733336.0,
+   "title": "米CFTC、予測市場イベント契約めぐる規則2件をホワイトハウスに提出",
+   "link": "https://coinpost.jp/?p=740322",
+   "published": "10/01 11:25",
+   "ts": 1790821531.0,
    "source": "CoinPost",
-   "desc": "ビットコイン保有企業メタプラネットの独立社外取締役が、経営陣向け第10回新株予約権の経緯を説明する書簡を公表した。対象株式を約41％削減した見直しの内容と、ヴァンエックが関連分析を削除した経緯を伝える。"
+   "desc": "米CFTCは、予測市場のイベント契約を「スワップ」に含める提案規則とカジノ型ギャンブル商品を除外する規則の2件をOIRAに提出。州との管轄争いが背景にある。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ビール類の税率一本化 競争激化へ",
+   "link": "https://news.yahoo.co.jp/pickup/6597199?source=rss",
+   "published": "10/01 19:02",
+   "ts": 1790848921.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ニデック 上場維持できるかが焦点",
+   "link": "https://news.yahoo.co.jp/pickup/6597183?source=rss",
+   "published": "10/01 18:44",
+   "ts": 1790847862.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ドンキ運営 トイザらス事業を取得",
+   "link": "https://news.yahoo.co.jp/pickup/6597192?source=rss",
+   "published": "10/01 17:55",
+   "ts": 1790844924.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "フラット35 金利3.830%で過去最高",
+   "link": "https://news.yahoo.co.jp/pickup/6597190?source=rss",
+   "published": "10/01 17:50",
+   "ts": 1790844631.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マック一部バーガー 北海道で休止",
+   "link": "https://news.yahoo.co.jp/pickup/6597187?source=rss",
+   "published": "10/01 17:30",
+   "ts": 1790843423.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "京都・二条城 二重価格を導入へ",
+   "link": "https://news.yahoo.co.jp/pickup/6597164?source=rss",
+   "published": "10/01 13:54",
+   "ts": 1790830448.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ラーメン店の倒産 再び増加傾向に",
+   "link": "https://news.yahoo.co.jp/pickup/6597158?source=rss",
+   "published": "10/01 12:19",
+   "ts": 1790824798.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "トヨタ 祝日勤務の業界慣行見直し",
    "link": "https://news.yahoo.co.jp/pickup/6597133?source=rss",
    "published": "10/01 08:21",
    "ts": 1790810460.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニデック極まる混乱 再生不透明",
-   "link": "https://news.yahoo.co.jp/pickup/6597129?source=rss",
-   "published": "10/01 07:43",
-   "ts": 1790808239.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "西武渋谷店が閉店 入り口は大混雑",
-   "link": "https://news.yahoo.co.jp/pickup/6597110?source=rss",
-   "published": "09/30 21:47",
-   "ts": 1790772454.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ビル火災報知機 大雨で誤作動多発",
-   "link": "https://news.yahoo.co.jp/pickup/6597080?source=rss",
-   "published": "09/30 17:18",
-   "ts": 1790756291.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニデック25年度決算 5646億円赤字",
-   "link": "https://news.yahoo.co.jp/pickup/6597077?source=rss",
-   "published": "09/30 17:05",
-   "ts": 1790755515.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ポケモン×スタバ商品 希望者殺到",
-   "link": "https://news.yahoo.co.jp/pickup/6597047?source=rss",
-   "published": "09/30 12:08",
-   "ts": 1790737690.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "飲食料品値上げ 10月は3153品目",
-   "link": "https://news.yahoo.co.jp/pickup/6597045?source=rss",
-   "published": "09/30 11:59",
-   "ts": 1790737155.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ドンキ「トイザらス」買収へ 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6597026?source=rss",
-   "published": "09/30 09:58",
-   "ts": 1790729932.0,
    "source": "Yahoo!",
    "desc": ""
   }
