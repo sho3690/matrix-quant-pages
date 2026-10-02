@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-02 18:54:56",
+ "updated_at": "2026-10-03 02:55:10",
  "fng": {
   "value": 72,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.79148044388949,
-  "eth_dominance": 11.366941368256395,
-  "total_mcap_usd": 2948989085405.783,
-  "mcap_change_24h": -0.31320236924663214
+  "btc_dominance": 58.62495702870597,
+  "eth_dominance": 11.281689505567035,
+  "total_mcap_usd": 2904188721387.437,
+  "mcap_change_24h": -2.034350071646028
  },
  "defi": {
-  "tvl_usd": 96417292937.0,
-  "change_1d": 0.017465218791799186,
-  "change_7d": 0.0135932864919448,
-  "change_1y": -0.402350332963786,
-  "range_pos_1y": 0.2744410005568203
+  "tvl_usd": 95832476559.0,
+  "change_1d": 0.011293806825536379,
+  "change_7d": 0.007445351136793121,
+  "change_1y": -0.4059753602067454,
+  "range_pos_1y": 0.26875662690262275
  },
  "news_crypto": [
   {
@@ -59,7 +59,7 @@
    "desc": "SMBC日興証券とNethermindは2日、Uniswap Labs、Baseらと覚書を締結し、規制対応型の流動性プール「DeFi Gateway」の開発に着手すると発表した。AML・CFT対策を組み込み、2027年半ばの完成を目指す。"
   },
   {
-   "title": "メタプラネット、有報など4件訂正　CEOはMMXX議決権の過半数保有せず",
+   "title": "メタプラネット、CEOと株主MMXXの関係訂正｜議決権の過半数は保有せず",
    "link": "https://coinpost.jp/?p=740780",
    "published": "10/02 18:20",
    "ts": 1790932810.0,
@@ -107,7 +107,7 @@
    "desc": "コインベースの市場分析によると、ビットコインの利益確定は9月22日に2.57万BTCと2026年で最大を記録した。短期トレーダーの含み益率は33％に達した一方、現物の見かけ需要は30日で17万BTC縮小し、先物需要の伸びも急減している。"
   },
   {
-   "title": "米上院議員が仮想通貨税制法案、ステーブルコイン決済の課税除外を提案",
+   "title": "米上院議員が仮想通貨税制法案提出、ステーブルコイン決済を非課税に",
    "link": "https://coinpost.jp/?p=740658",
    "published": "10/02 15:14",
    "ts": 1790921644.0,
@@ -116,6 +116,30 @@
   }
  ],
  "news_jp": [
+  {
+   "title": "プルデンシャルの処分検討 金融庁",
+   "link": "https://news.yahoo.co.jp/pickup/6597329?source=rss",
+   "published": "10/02 23:04",
+   "ts": 1790949882.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東北3地銀 28年4月統合向け協議へ",
+   "link": "https://news.yahoo.co.jp/pickup/6597317?source=rss",
+   "published": "10/02 20:46",
+   "ts": 1790941600.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "スガキヤが「ドムドム」子会社化",
+   "link": "https://news.yahoo.co.jp/pickup/6597315?source=rss",
+   "published": "10/02 20:10",
+   "ts": 1790939440.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "佐川急便 宅配便平均13%値上げへ",
    "link": "https://news.yahoo.co.jp/pickup/6597309?source=rss",
@@ -141,22 +165,6 @@
    "desc": ""
   },
   {
-   "title": "ニデック会見 異例の監査法人同席",
-   "link": "https://news.yahoo.co.jp/pickup/6597273?source=rss",
-   "published": "10/02 14:00",
-   "ts": 1790917214.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ローソン「297円弁当」なぜ安い",
-   "link": "https://news.yahoo.co.jp/pickup/6597270?source=rss",
-   "published": "10/02 13:56",
-   "ts": 1790917004.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "もう辞めたい「フキハラ」の実態",
    "link": "https://news.yahoo.co.jp/pickup/6597263?source=rss",
    "published": "10/02 12:49",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597230?source=rss",
    "published": "10/02 07:39",
    "ts": 1790894357.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マックのドナルド 「ロナルド」に",
-   "link": "https://news.yahoo.co.jp/pickup/6597212?source=rss",
-   "published": "10/01 21:24",
-   "ts": 1790857465.0,
    "source": "Yahoo!",
    "desc": ""
   }
