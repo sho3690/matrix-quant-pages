@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03 18:17:18",
+ "updated_at": "2026-10-03 23:20:56",
  "fng": {
   "value": 67,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.6918286775069,
-  "eth_dominance": 11.315960926782727,
-  "total_mcap_usd": 2892407844036.2134,
-  "mcap_change_24h": -4.457263133603972
+  "btc_dominance": 58.74156853675531,
+  "eth_dominance": 11.278965413778673,
+  "total_mcap_usd": 2895005196557.676,
+  "mcap_change_24h": -4.589396147391623
  },
  "defi": {
-  "tvl_usd": 95180471630.0,
-  "change_1d": 0.00040504312827538413,
-  "change_7d": -0.002662601292283018,
-  "change_1y": -0.4218948335588115,
-  "range_pos_1y": 0.262419190138619
+  "tvl_usd": 95222529450.0,
+  "change_1d": 0.0008548869124220815,
+  "change_7d": -0.0022219033730495052,
+  "change_1y": -0.4216393836475548,
+  "range_pos_1y": 0.2628279897419335
  },
  "news_crypto": [
   {
@@ -117,18 +117,26 @@
  ],
  "news_jp": [
   {
-   "title": "食品消費税1%に賛否 減税効果は",
-   "link": "https://news.yahoo.co.jp/pickup/6597415?source=rss",
-   "published": "10/03 18:00",
-   "ts": 1791018018.0,
+   "title": "米国産ジャガイモ解禁 前倒し浮上",
+   "link": "https://news.yahoo.co.jp/pickup/6597453?source=rss",
+   "published": "10/03 22:57",
+   "ts": 1791035877.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "コンビニ おしゃれ目的に衣料強化",
-   "link": "https://news.yahoo.co.jp/pickup/6597399?source=rss",
-   "published": "10/03 16:32",
-   "ts": 1791012762.0,
+   "title": "ハラル対応食品 商機見いだす企業",
+   "link": "https://news.yahoo.co.jp/pickup/6597429?source=rss",
+   "published": "10/03 19:57",
+   "ts": 1791025074.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "食品消費税1%に賛否 減税効果は",
+   "link": "https://news.yahoo.co.jp/pickup/6597415?source=rss",
+   "published": "10/03 18:00",
+   "ts": 1791018018.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597329?source=rss",
    "published": "10/02 23:04",
    "ts": 1790949882.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東北3地銀 28年4月統合向け協議へ",
-   "link": "https://news.yahoo.co.jp/pickup/6597317?source=rss",
-   "published": "10/02 20:46",
-   "ts": 1790941600.0,
    "source": "Yahoo!",
    "desc": ""
   }
