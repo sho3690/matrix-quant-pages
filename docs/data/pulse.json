@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03 23:20:56",
+ "updated_at": "2026-10-04 08:54:50",
  "fng": {
   "value": 67,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.74156853675531,
-  "eth_dominance": 11.278965413778673,
-  "total_mcap_usd": 2895005196557.676,
-  "mcap_change_24h": -4.589396147391623
+  "btc_dominance": 58.6147170261911,
+  "eth_dominance": 11.294184649303759,
+  "total_mcap_usd": 2900049507755.2573,
+  "mcap_change_24h": -2.2098456961848187
  },
  "defi": {
-  "tvl_usd": 95222529450.0,
-  "change_1d": 0.0008548869124220815,
-  "change_7d": -0.0022219033730495052,
-  "change_1y": -0.4216393836475548,
-  "range_pos_1y": 0.2628279897419335
+  "tvl_usd": 95447686284.0,
+  "change_1d": 0.00322144150743231,
+  "change_7d": 0.0001432214138490373,
+  "change_1y": -0.42027218574876746,
+  "range_pos_1y": 0.2650165218304594
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "サザン関口氏会社5.8億円申告漏れ",
+   "link": "https://news.yahoo.co.jp/pickup/6597461?source=rss",
+   "published": "10/04 07:35",
+   "ts": 1791066932.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "米国産ジャガイモ解禁 前倒し浮上",
    "link": "https://news.yahoo.co.jp/pickup/6597453?source=rss",
    "published": "10/03 22:57",
@@ -137,14 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597415?source=rss",
    "published": "10/03 18:00",
    "ts": 1791018018.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "和菓子店の倒産 過去最多ペース",
-   "link": "https://news.yahoo.co.jp/pickup/6597393?source=rss",
-   "published": "10/03 16:15",
-   "ts": 1791011714.0,
    "source": "Yahoo!",
    "desc": ""
   },
