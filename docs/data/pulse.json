@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03 09:33:27",
+ "updated_at": "2026-10-03 18:17:18",
  "fng": {
   "value": 67,
   "label": "強欲",
@@ -37,26 +37,42 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.70692188632095,
-  "eth_dominance": 11.26900599327859,
-  "total_mcap_usd": 2888691179677.2964,
-  "mcap_change_24h": -3.3000194747252394
+  "btc_dominance": 58.6918286775069,
+  "eth_dominance": 11.315960926782727,
+  "total_mcap_usd": 2892407844036.2134,
+  "mcap_change_24h": -4.457263133603972
  },
  "defi": {
-  "tvl_usd": 94906273788.0,
-  "change_1d": -0.00027525375761527915,
-  "change_7d": -0.005529949498199183,
-  "change_1y": -0.42356060367835946,
-  "range_pos_1y": 0.2597540310344239
+  "tvl_usd": 95180471630.0,
+  "change_1d": 0.00040504312827538413,
+  "change_7d": -0.002662601292283018,
+  "change_1y": -0.4218948335588115,
+  "range_pos_1y": 0.262419190138619
  },
  "news_crypto": [
+  {
+   "title": "米SEC、ビットコインなど6資産の3倍レバレッジETFの上場を承認",
+   "link": "https://coinpost.jp/?p=740844",
+   "published": "10/03 11:10",
+   "ts": 1790993443.0,
+   "source": "CoinPost",
+   "desc": "米SECは2日、Cboe BZX取引所によるビットコイン・イーサリアム・金・銀・原油・天然ガスの3倍レバレッジETF6銘柄の上場・取引に向けた規則変更案を承認した。ブルームバーグETF専門家が明らかにした。"
+  },
+  {
+   "title": "「中央銀行マネーのオンチェーン化に3つの方法」ECBが検討中",
+   "link": "https://coinpost.jp/?p=740866",
+   "published": "10/03 10:00",
+   "ts": 1790989226.0,
+   "source": "CoinPost",
+   "desc": "欧州中央銀行のシュナーベル理事が、トークン化金融台頭の中、中央銀行マネーをオンチェーンで扱う3つのモデルを説明した。直接発行・ブリッジ・民間仲介の各方式を挙げている。"
+  },
   {
    "title": "ニアインテンツ（NEAR Intents）、ハッキングされた約6億円資産が全額返還",
    "link": "https://coinpost.jp/?p=740845",
    "published": "10/03 09:25",
    "ts": 1790987145.0,
    "source": "CoinPost",
-   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+   "desc": "NEARインテンツのゼネラルマネージャー、アレックス・シェフチェンコ氏は3日、脆弱性を突いた攻撃で流出した380万ドルが全額返還されたと明らかにした。調査を停止し、バグ報奨金の活用を呼びかけた。"
   },
   {
    "title": "米財務省、イラン利用の影の銀行ネットワークに制裁対応　8月開始の新プログラムの一環",
@@ -97,25 +113,49 @@
    "ts": 1790974551.0,
    "source": "CoinPost",
    "desc": "かつて人気が高かったイーサリアムのレイヤー2「ブラスト」が運営終了を発表した。運営費が収益を上回ったとして、資産を10月26日までにメインネットへ引き出すよう呼びかけている。"
-  },
-  {
-   "title": "bitFlyerが「クールダウン」導入、入金後48時間の暗号資産出金を制限",
-   "link": "https://coinpost.jp/?p=740830",
-   "published": "10/03 05:00",
-   "ts": 1790971225.0,
-   "source": "CoinPost",
-   "desc": "bitFlyerは本人確認完了から90日未満の個人顧客を対象に、日本円入金後48時間、暗号資産の外部送付を制限する「クールダウン」を10月15日に導入する。詐欺被害や不正送金の防止が目的だ。"
-  },
-  {
-   "title": "SMBC日興証券、国内投資家向けDeFi基盤を開発へ　Uniswap v4活用",
-   "link": "https://coinpost.jp/?p=740788",
-   "published": "10/02 18:43",
-   "ts": 1790934197.0,
-   "source": "CoinPost",
-   "desc": "SMBC日興証券とNethermindは2日、Uniswap Labs、Baseらと覚書を締結し、規制対応型の流動性プール「DeFi Gateway」の開発に着手すると発表した。AML・CFT対策を組み込み、2027年半ばの完成を目指す。"
   }
  ],
  "news_jp": [
+  {
+   "title": "食品消費税1%に賛否 減税効果は",
+   "link": "https://news.yahoo.co.jp/pickup/6597415?source=rss",
+   "published": "10/03 18:00",
+   "ts": 1791018018.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "コンビニ おしゃれ目的に衣料強化",
+   "link": "https://news.yahoo.co.jp/pickup/6597399?source=rss",
+   "published": "10/03 16:32",
+   "ts": 1791012762.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "和菓子店の倒産 過去最多ペース",
+   "link": "https://news.yahoo.co.jp/pickup/6597393?source=rss",
+   "published": "10/03 16:15",
+   "ts": 1791011714.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「こどもNISA」注意点 専門家解説",
+   "link": "https://news.yahoo.co.jp/pickup/6597376?source=rss",
+   "published": "10/03 13:07",
+   "ts": 1791000457.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マンション販売「ワニの口」とは",
+   "link": "https://news.yahoo.co.jp/pickup/6597375?source=rss",
+   "published": "10/03 12:46",
+   "ts": 1790999172.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "配膳で「横取り」しゃぶ葉対策へ",
    "link": "https://news.yahoo.co.jp/pickup/6597349?source=rss",
@@ -137,46 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597317?source=rss",
    "published": "10/02 20:46",
    "ts": 1790941600.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "スガキヤが「ドムドム」子会社化",
-   "link": "https://news.yahoo.co.jp/pickup/6597315?source=rss",
-   "published": "10/02 20:10",
-   "ts": 1790939440.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "佐川急便 宅配便平均13%値上げへ",
-   "link": "https://news.yahoo.co.jp/pickup/6597309?source=rss",
-   "published": "10/02 18:49",
-   "ts": 1790934553.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "免許証画像流出 集団訴訟動き進む",
-   "link": "https://news.yahoo.co.jp/pickup/6597293?source=rss",
-   "published": "10/02 17:14",
-   "ts": 1790928892.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東海汽船 一部船舶の使用停止処分",
-   "link": "https://news.yahoo.co.jp/pickup/6597280?source=rss",
-   "published": "10/02 15:20",
-   "ts": 1790922042.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "もう辞めたい「フキハラ」の実態",
-   "link": "https://news.yahoo.co.jp/pickup/6597263?source=rss",
-   "published": "10/02 12:49",
-   "ts": 1790912951.0,
    "source": "Yahoo!",
    "desc": ""
   }
