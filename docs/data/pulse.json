@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-04 15:03:28",
+ "updated_at": "2026-10-04 21:32:32",
  "fng": {
   "value": 65,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.581904735352474,
-  "eth_dominance": 11.300135232571067,
-  "total_mcap_usd": 2905654153067.909,
-  "mcap_change_24h": -2.1172929949698385
+  "btc_dominance": 59.14844383352394,
+  "eth_dominance": 11.391262190734711,
+  "total_mcap_usd": 2890043203232.098,
+  "mcap_change_24h": -2.809496983425498
  },
  "defi": {
-  "tvl_usd": 95540711330.0,
-  "change_1d": 0.0061579262795175005,
-  "change_7d": 0.000722673599805157,
-  "change_1y": -0.42484174321375145,
-  "range_pos_1y": 0.26599161984594627
+  "tvl_usd": 95913144384.0,
+  "change_1d": 0.010050193269000918,
+  "change_7d": 0.004494507919757584,
+  "change_1y": -0.42260008831712936,
+  "range_pos_1y": 0.26954074132167366
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "サザン関口氏会社 申告漏れを謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6597529?source=rss",
+   "published": "10/04 18:02",
+   "ts": 1791104525.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "企業は「高専卒」に熱視線か 背景",
+   "link": "https://news.yahoo.co.jp/pickup/6597509?source=rss",
+   "published": "10/04 15:29",
+   "ts": 1791095386.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「出前一丁」香港で独自進化 背景",
    "link": "https://news.yahoo.co.jp/pickup/6597479?source=rss",
    "published": "10/04 09:51",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597376?source=rss",
    "published": "10/03 13:07",
    "ts": 1791000457.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マンション販売「ワニの口」とは",
-   "link": "https://news.yahoo.co.jp/pickup/6597375?source=rss",
-   "published": "10/03 12:46",
-   "ts": 1790999172.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "配膳で「横取り」しゃぶ葉対策へ",
-   "link": "https://news.yahoo.co.jp/pickup/6597349?source=rss",
-   "published": "10/03 09:16",
-   "ts": 1790986567.0,
    "source": "Yahoo!",
    "desc": ""
   }
