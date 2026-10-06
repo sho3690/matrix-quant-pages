@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06 19:31:55",
+ "updated_at": "2026-10-07 03:29:09",
  "fng": {
   "value": 73,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.25044692716565,
-  "eth_dominance": 11.351617394540662,
-  "total_mcap_usd": 2915469695989.913,
-  "mcap_change_24h": -2.656811664720924
+  "btc_dominance": 58.72538117761987,
+  "eth_dominance": 11.236809405764344,
+  "total_mcap_usd": 2923104822281.487,
+  "mcap_change_24h": -2.6011632887102265
  },
  "defi": {
-  "tvl_usd": 96503319449.0,
-  "change_1d": -0.001447741072582609,
-  "change_7d": 0.018523998540509456,
-  "change_1y": -0.4211653819971798,
-  "range_pos_1y": 0.27527729264131906
+  "tvl_usd": 96279325843.0,
+  "change_1d": -0.003770581837300613,
+  "change_7d": 0.0161344094153113,
+  "change_1y": -0.42251421020871804,
+  "range_pos_1y": 0.27309300803204367
  },
  "news_crypto": [
   {
@@ -117,10 +117,26 @@
  ],
  "news_jp": [
   {
-   "title": "AI企業に書籍販売か 日販に質問状",
-   "link": "https://news.yahoo.co.jp/pickup/6597777?source=rss",
-   "published": "10/06 18:54",
-   "ts": 1791280450.0,
+   "title": "台風で高波 西湘バイパス通行止め",
+   "link": "https://news.yahoo.co.jp/pickup/6597805?source=rss",
+   "published": "10/06 23:43",
+   "ts": 1791297829.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日販 米AI企業への書籍販売認める",
+   "link": "https://news.yahoo.co.jp/pickup/6597802?source=rss",
+   "published": "10/06 23:18",
+   "ts": 1791296321.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "レタス5割高 9月下旬の価格高騰",
+   "link": "https://news.yahoo.co.jp/pickup/6597786?source=rss",
+   "published": "10/06 20:07",
+   "ts": 1791284842.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597719?source=rss",
    "published": "10/06 11:09",
    "ts": 1791252541.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "セブン インドの全31店舗を閉店",
-   "link": "https://news.yahoo.co.jp/pickup/6597701?source=rss",
-   "published": "10/06 08:16",
-   "ts": 1791242169.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "フジパン熊本工場 生産再開を断念",
-   "link": "https://news.yahoo.co.jp/pickup/6597666?source=rss",
-   "published": "10/05 20:58",
-   "ts": 1791201506.0,
    "source": "Yahoo!",
    "desc": ""
   }
