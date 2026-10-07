@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07 19:24:26",
+ "updated_at": "2026-10-08 03:59:33",
  "fng": {
   "value": 71,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.28664016034963,
-  "eth_dominance": 11.120852638159285,
-  "total_mcap_usd": 2838637063309.063,
-  "mcap_change_24h": -5.199416438773214
+  "btc_dominance": 58.82575792519368,
+  "eth_dominance": 10.983250195746528,
+  "total_mcap_usd": 2844699782549.3896,
+  "mcap_change_24h": -5.510822698006514
  },
  "defi": {
-  "tvl_usd": 94333050854.0,
-  "change_1d": -0.021698638769110712,
-  "change_7d": -0.003430973693009043,
-  "change_1y": -0.44855155088607535,
-  "range_pos_1y": 0.2595604816125237
+  "tvl_usd": 93399219580.0,
+  "change_1d": -0.03323250112004772,
+  "change_7d": -0.013912116087897997,
+  "change_1y": -0.45401394097138026,
+  "range_pos_1y": 0.25022556837613125
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "サンケイビル売却 入札額1兆円超",
+   "link": "https://news.yahoo.co.jp/pickup/6597933?source=rss",
+   "published": "10/07 23:33",
+   "ts": 1791383628.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "トラブル相次ぐ歯の自由診療 なぜ",
    "link": "https://news.yahoo.co.jp/pickup/6597890?source=rss",
    "published": "10/07 18:21",
@@ -129,14 +137,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597902?source=rss",
    "published": "10/07 18:13",
    "ts": 1791364417.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「〇〇レディー」呼称 変化広がり",
-   "link": "https://news.yahoo.co.jp/pickup/6597879?source=rss",
-   "published": "10/07 15:46",
-   "ts": 1791355594.0,
    "source": "Yahoo!",
    "desc": ""
   },
