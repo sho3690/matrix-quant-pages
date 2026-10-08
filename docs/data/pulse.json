@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08 10:04:36",
+ "updated_at": "2026-10-08 19:44:52",
  "fng": {
   "value": 64,
   "label": "強欲",
@@ -37,146 +37,146 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.74985960734098,
-  "eth_dominance": 11.029364780206013,
-  "total_mcap_usd": 2848404426114.527,
-  "mcap_change_24h": -5.244004688035071
+  "btc_dominance": 59.261382579070286,
+  "eth_dominance": 11.123169267192976,
+  "total_mcap_usd": 2796677949533.343,
+  "mcap_change_24h": -4.041497608214601
  },
  "defi": {
-  "tvl_usd": 93143544880.0,
-  "change_1d": -0.03402901344780218,
-  "change_7d": -0.015992455701616448,
-  "change_1y": -0.4555051182586527,
-  "range_pos_1y": 0.24776258428083314
+  "tvl_usd": 93001353583.0,
+  "change_1d": -0.03229212088875877,
+  "change_7d": -0.01853663584573595,
+  "change_1y": -0.44372408328467394,
+  "range_pos_1y": 0.24628427300816222
  },
  "news_crypto": [
   {
-   "title": "「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解",
-   "link": "https://coinpost.jp/?p=741669",
-   "published": "10/08 09:40",
-   "ts": 1791420002.0,
+   "title": "ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト",
+   "link": "https://coinpost.jp/?p=741867",
+   "published": "10/08 17:20",
+   "ts": 1791447621.0,
    "source": "CoinPost",
-   "desc": "米ビットワイズのCIOがWSJへの寄稿で、仮想通貨ビットコインがデジタル・ゴールドに向かう軌道にあるとの独自見解を示した。ボラティリティ低下などを背景に論じている。"
+   "desc": "クリプトクアントのアナリストDarkfost氏は8日、ビットコインの総需要が1万4,000BTC超とプラス圏に戻ったと指摘。現物需要は9月20日のマイナス20万7,000BTCからマイナス1万7,000BTCまで改善した。"
   },
   {
-   "title": "南アフリカの大手銀FNB、仮想通貨取引を開始　BTCやETHなど5銘柄",
-   "link": "https://coinpost.jp/?p=741663",
-   "published": "10/08 09:15",
-   "ts": 1791418535.0,
+   "title": "ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード",
+   "link": "https://coinpost.jp/?p=741849",
+   "published": "10/08 16:52",
+   "ts": 1791445939.0,
    "source": "CoinPost",
-   "desc": "大手FirstRand傘下で南アフリカの銀行サービス企業のFNBは、仮想通貨取引サービスの提供を開始。十分に銘柄を調査した上でビットコインやイーサリアムなどを取り扱う。"
+   "desc": "グラスノードの週次レポートによると、ビットコインの直近の上昇は取引高が乏しく、新規資金は実現時価総額の増加分の4割未満にとどまった。オプション市場は強気に傾く一方、清算水準は価格の下方に集中している。"
   },
   {
-   "title": "金融庁、無登録の暗号資産交換業者一覧を専用ページで公開",
-   "link": "https://coinpost.jp/?p=741650",
-   "published": "10/07 18:40",
-   "ts": 1791366033.0,
+   "title": "JPYSC運用の利回りは家計に届くか　流通・開発の担い手が語る現在地",
+   "link": "https://coinpost.jp/?p=741156",
+   "published": "10/08 16:50",
+   "ts": 1791445806.0,
    "source": "CoinPost",
-   "desc": "金融庁は7日、警告書を発出した無登録の暗号資産交換業者を一覧にした専用ページを公表した。最新掲載は9月に追加された「IZAKA-YA」運営会社。大手海外取引所バイビットは2021年以降3度掲載されている。"
+   "desc": "SBI VCトレード近藤社長とStartale Japan手塚CEOが登壇。JPYSCの外部出庫は税制改正を前提に遅くとも2027年4月との見通しが示されたほか、約72億円のレンディング実績や米国の動向にも話が及んだ。"
   },
   {
-   "title": "ロビンフッド、ビットコイン約39.5億円分を自社保有　慎重姿勢から転換か＝報道",
-   "link": "https://coinpost.jp/?p=741641",
-   "published": "10/07 17:52",
-   "ts": 1791363127.0,
+   "title": "ムーディーズ、スカイに「B3」格付け　ステーブルコインプロトコルで初",
+   "link": "https://coinpost.jp/?p=741824",
+   "published": "10/08 16:17",
+   "ts": 1791443838.0,
    "source": "CoinPost",
-   "desc": "米ロビンフッドが2,500万ドル相当のビットコイン（BTC）を自社のバランスシートに組み入れた。仮想通貨部門トップがThe Blockの独自取材で明らかにした。2025年には財務戦略としてのBTC保有に慎重な姿勢を示していた。"
+   "desc": "Sky Frontier財団は7日、ムーディーズがステーブルコインUSDSを手がけるSkyプロトコルに「B3」の格付けを付与したと発表した。同財団によると、ムーディーズがステーブルコインプロトコルを格付けするのは初めて。評価の中心となった準備金の水準とS＆Pの過去評価を整理する。"
   },
   {
-   "title": "含み益のビットコインは約6割、休眠分除外で　中長期的に過熱遠い＝アナリスト",
-   "link": "https://coinpost.jp/?p=741628",
-   "published": "10/07 16:52",
-   "ts": 1791359536.0,
+   "title": "大手銀行の牙城レバレッジETF融資にリップル社が進出＝WSJ",
+   "link": "https://coinpost.jp/?p=741804",
+   "published": "10/08 15:27",
+   "ts": 1791440852.0,
    "source": "CoinPost",
-   "desc": "クリプトクアントのアナリストDarkfost氏は7日、10年以上動いていないビットコインを除くと、含み益にある供給の割合は8月以降約60％で推移していると指摘。中長期的には過熱から遠く、現水準でのもみ合いは不合理ではないとの見方を示した。"
+   "desc": "米WSJは7日、リップル社のプライムブローカレッジ部門が、大手銀行の領域だったレバレッジETF向けのスワップ融資で存在感を高めていると報じた。同部門は8月に株式スワップ事業を始め、5月以降に融資枠と社債で最大4.75億ドルを確保した。"
   },
   {
-   "title": "ビットコイン、取引所から1日で2.4万BTC純流出　7ヶ月ぶり規模＝サンティメント",
-   "link": "https://coinpost.jp/?p=741617",
-   "published": "10/07 16:14",
-   "ts": 1791357291.0,
+   "title": "米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う",
+   "link": "https://coinpost.jp/?p=741795",
+   "published": "10/08 14:34",
+   "ts": 1791437642.0,
    "source": "CoinPost",
-   "desc": "サンティメントによると、5日にビットコインの取引所からの純流出が2万4,073BTCに達し、3月1日以来約7ヶ月ぶりの規模となった。取引所のBTC残高は総供給量の約6.50％まで低下。強気材料とする同社の見方と、その留保を伝える。"
+   "desc": "米スーパーリーグは6日、メタプラネットが2,100BTCを拠出して同社を子会社化する取引への賛成を求める株主宛て書簡を公表した。ゲーム広告事業は続け、ゲーマー層へのBTC浸透も視野に入れる。16日の株主総会で採決する。"
   },
   {
-   "title": "米政府関連アドレス、約834BTCと約4万BNBを送金",
-   "link": "https://coinpost.jp/?p=741594",
-   "published": "10/07 15:28",
-   "ts": 1791354526.0,
+   "title": "「数学的超知能」による秘密鍵復元リスクへの備え呼びかけ　イーサリアム財団ドレイク氏",
+   "link": "https://coinpost.jp/?p=741725",
+   "published": "10/08 13:56",
+   "ts": 1791435398.0,
    "source": "CoinPost",
-   "desc": "米政府関連アドレスが7日、833.6BTCをコインベース・プライムへ、40,285BNBを別アドレスへ送金したとアナリストが指摘した。計約1億300万ドル相当。戦略的ビットコイン準備金との関係も整理する。"
+   "desc": "イーサリアム財団のドレイク氏が、AIの数学的進展でECDSA暗号が破られる事態に備えることを提言した。特に大口保有者には新アドレスへの冷静な移行を推奨している。"
   },
   {
-   "title": "コインベース、Coinbase Pro年末復活へ　デリビット統合を完了",
-   "link": "https://coinpost.jp/?p=741573",
-   "published": "10/07 14:49",
-   "ts": 1791352181.0,
+   "title": "米大手銀ウェルズ・ファーゴ、クラーケン親会社と仮想通貨流動性で協議か＝報道",
+   "link": "https://coinpost.jp/?p=741746",
+   "published": "10/08 11:52",
+   "ts": 1791427955.0,
    "source": "CoinPost",
-   "desc": "コインベースがデリビットの統合を完了し「Coinbase Global Exchange」を発足。米国と海外の仮想通貨デリバティブ市場を単一の流動性でつなぐ。2022年に終了した「Coinbase Pro」も年末に再始動する。"
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
   }
  ],
  "news_jp": [
   {
-   "title": "ビール大手を調査 経営層関与焦点",
-   "link": "https://news.yahoo.co.jp/pickup/6597955?source=rss",
-   "published": "10/08 09:38",
-   "ts": 1791419909.0,
+   "title": "はま寿司「22時間営業」狙いは",
+   "link": "https://news.yahoo.co.jp/pickup/6598039?source=rss",
+   "published": "10/08 19:09",
+   "ts": 1791454140.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "TOPIX構成銘柄 1634→986社へ",
-   "link": "https://news.yahoo.co.jp/pickup/6597944?source=rss",
-   "published": "10/08 07:40",
-   "ts": 1791412831.0,
+   "title": "「季節を選ばない服」が人気 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6598040?source=rss",
+   "published": "10/08 19:00",
+   "ts": 1791453647.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "サンケイビル売却 入札額1兆円超",
-   "link": "https://news.yahoo.co.jp/pickup/6597933?source=rss",
-   "published": "10/07 23:33",
-   "ts": 1791383628.0,
+   "title": "3COINS成長鈍化 脱マンネリ急ぐ",
+   "link": "https://news.yahoo.co.jp/pickup/6598025?source=rss",
+   "published": "10/08 18:16",
+   "ts": 1791450988.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "トラブル相次ぐ歯の自由診療 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6597890?source=rss",
-   "published": "10/07 18:21",
-   "ts": 1791364894.0,
+   "title": "アサヒGHD社長 カルテル認識ない",
+   "link": "https://news.yahoo.co.jp/pickup/6598028?source=rss",
+   "published": "10/08 18:06",
+   "ts": 1791450395.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "育休でパタハラ 男性が会社側提訴",
-   "link": "https://news.yahoo.co.jp/pickup/6597902?source=rss",
-   "published": "10/07 18:13",
-   "ts": 1791364417.0,
+   "title": "プルデンシャル不正 約52億円被害",
+   "link": "https://news.yahoo.co.jp/pickup/6598015?source=rss",
+   "published": "10/08 17:10",
+   "ts": 1791447042.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "公取委 なぜビール4社に強制調査",
-   "link": "https://news.yahoo.co.jp/pickup/6597856?source=rss",
-   "published": "10/07 12:19",
-   "ts": 1791343178.0,
+   "title": "ビール4社の地方支店にも強制調査",
+   "link": "https://news.yahoo.co.jp/pickup/6598011?source=rss",
+   "published": "10/08 17:04",
+   "ts": 1791446695.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "PIECE OF BAKE運営破産申立てへ",
-   "link": "https://news.yahoo.co.jp/pickup/6597853?source=rss",
-   "published": "10/07 12:10",
-   "ts": 1791342622.0,
+   "title": "ファストリ 過去最高業績を更新",
+   "link": "https://news.yahoo.co.jp/pickup/6598005?source=rss",
+   "published": "10/08 16:31",
+   "ts": 1791444696.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "ビール大手4社カルテル疑い 調査",
-   "link": "https://news.yahoo.co.jp/pickup/6597843?source=rss",
-   "published": "10/07 10:45",
-   "ts": 1791337544.0,
+   "title": "スーパーカップ抹茶 製造終了の訳",
+   "link": "https://news.yahoo.co.jp/pickup/6598001?source=rss",
+   "published": "10/08 16:19",
+   "ts": 1791443992.0,
    "source": "Yahoo!",
    "desc": ""
   }
