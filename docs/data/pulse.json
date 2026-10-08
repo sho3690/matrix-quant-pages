@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-08 03:59:33",
+ "updated_at": "2026-10-08 10:04:36",
  "fng": {
-  "value": 71,
+  "value": 64,
   "label": "強欲",
   "history": [
-   69,
    66,
    69,
    56,
@@ -33,23 +32,40 @@
    65,
    70,
    73,
-   71
+   71,
+   64
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.82575792519368,
-  "eth_dominance": 10.983250195746528,
-  "total_mcap_usd": 2844699782549.3896,
-  "mcap_change_24h": -5.510822698006514
+  "btc_dominance": 58.74985960734098,
+  "eth_dominance": 11.029364780206013,
+  "total_mcap_usd": 2848404426114.527,
+  "mcap_change_24h": -5.244004688035071
  },
  "defi": {
-  "tvl_usd": 93399219580.0,
-  "change_1d": -0.03323250112004772,
-  "change_7d": -0.013912116087897997,
-  "change_1y": -0.45401394097138026,
-  "range_pos_1y": 0.25022556837613125
+  "tvl_usd": 93143544880.0,
+  "change_1d": -0.03402901344780218,
+  "change_7d": -0.015992455701616448,
+  "change_1y": -0.4555051182586527,
+  "range_pos_1y": 0.24776258428083314
  },
  "news_crypto": [
+  {
+   "title": "「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解",
+   "link": "https://coinpost.jp/?p=741669",
+   "published": "10/08 09:40",
+   "ts": 1791420002.0,
+   "source": "CoinPost",
+   "desc": "米ビットワイズのCIOがWSJへの寄稿で、仮想通貨ビットコインがデジタル・ゴールドに向かう軌道にあるとの独自見解を示した。ボラティリティ低下などを背景に論じている。"
+  },
+  {
+   "title": "南アフリカの大手銀FNB、仮想通貨取引を開始　BTCやETHなど5銘柄",
+   "link": "https://coinpost.jp/?p=741663",
+   "published": "10/08 09:15",
+   "ts": 1791418535.0,
+   "source": "CoinPost",
+   "desc": "大手FirstRand傘下で南アフリカの銀行サービス企業のFNBは、仮想通貨取引サービスの提供を開始。十分に銘柄を調査した上でビットコインやイーサリアムなどを取り扱う。"
+  },
   {
    "title": "金融庁、無登録の暗号資産交換業者一覧を専用ページで公開",
    "link": "https://coinpost.jp/?p=741650",
@@ -97,25 +113,25 @@
    "ts": 1791352181.0,
    "source": "CoinPost",
    "desc": "コインベースがデリビットの統合を完了し「Coinbase Global Exchange」を発足。米国と海外の仮想通貨デリバティブ市場を単一の流動性でつなぐ。2022年に終了した「Coinbase Pro」も年末に再始動する。"
-  },
-  {
-   "title": "英国、初のデジタルネイティブ国債「DIGIT」を2027年Q1に発行へ",
-   "link": "https://coinpost.jp/?p=741522",
-   "published": "10/07 13:50",
-   "ts": 1791348654.0,
-   "source": "CoinPost",
-   "desc": "英国政府が初のデジタルネイティブ国債「DIGIT」のパイロット発行に向け、バークレイズやHSBCなど6社を共同主幹事に選定した。発行は2027年第1四半期、HSBCのOrion上で行われる。"
-  },
-  {
-   "title": "AIエージェント時代のウォレットとは？ 国内事業者3社が議論",
-   "link": "https://coinpost.jp/?p=741356",
-   "published": "10/07 13:50",
-   "ts": 1791348628.0,
-   "source": "CoinPost",
-   "desc": "au Coincheck Digital Assets、マイナウォレット、HashPortの3社がAI・オンチェーン金融サミットに登壇。ポイント交換や行政給付での手応え、100万円制限の課題、AIエージェント時代のウォレットの役割を語った。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ビール大手を調査 経営層関与焦点",
+   "link": "https://news.yahoo.co.jp/pickup/6597955?source=rss",
+   "published": "10/08 09:38",
+   "ts": 1791419909.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "TOPIX構成銘柄 1634→986社へ",
+   "link": "https://news.yahoo.co.jp/pickup/6597944?source=rss",
+   "published": "10/08 07:40",
+   "ts": 1791412831.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "サンケイビル売却 入札額1兆円超",
    "link": "https://news.yahoo.co.jp/pickup/6597933?source=rss",
@@ -137,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6597902?source=rss",
    "published": "10/07 18:13",
    "ts": 1791364417.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "公取委 ビール大手の動き長年注視",
-   "link": "https://news.yahoo.co.jp/pickup/6597875?source=rss",
-   "published": "10/07 15:09",
-   "ts": 1791353397.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -171,30 +179,22 @@
    "ts": 1791337544.0,
    "source": "Yahoo!",
    "desc": ""
-  },
-  {
-   "title": "中小の「賃上げ倒産」増加 背景は",
-   "link": "https://news.yahoo.co.jp/pickup/6597839?source=rss",
-   "published": "10/07 10:23",
-   "ts": 1791336226.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
-  "date": "R8.10.6",
-  "y10": 3.103,
-  "chg5d": 0.4590000000000001,
+  "date": "R8.10.7",
+  "y10": 3.111,
+  "chg5d": 0.42100000000000026,
   "rank_1y": 1.0,
   "curve": {
-   "1": 1.652,
-   "2": 1.93,
-   "5": 2.418,
-   "10": 3.103,
-   "20": 3.946,
-   "30": 4.168,
-   "40": 4.196
+   "1": 1.665,
+   "2": 1.951,
+   "5": 2.437,
+   "10": 3.111,
+   "20": 3.943,
+   "30": 4.148,
+   "40": 4.17
   },
-  "spread_10_2": 1.1730000000000003
+  "spread_10_2": 1.1600000000000001
  }
 }
