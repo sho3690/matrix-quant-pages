@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08 19:44:52",
+ "updated_at": "2026-10-09 03:54:41",
  "fng": {
   "value": 64,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.261382579070286,
-  "eth_dominance": 11.123169267192976,
-  "total_mcap_usd": 2796677949533.343,
-  "mcap_change_24h": -4.041497608214601
+  "btc_dominance": 59.200890088580614,
+  "eth_dominance": 10.797598358773548,
+  "total_mcap_usd": 2759564829270.199,
+  "mcap_change_24h": -5.311227436295008
  },
  "defi": {
-  "tvl_usd": 93001353583.0,
-  "change_1d": -0.03229212088875877,
-  "change_7d": -0.01853663584573595,
-  "change_1y": -0.44372408328467394,
-  "range_pos_1y": 0.24628427300816222
+  "tvl_usd": 91933882485.0,
+  "change_1d": -0.043583275702789526,
+  "change_7d": -0.029443918200203534,
+  "change_1y": -0.4501104165294908,
+  "range_pos_1y": 0.23542065515935018
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "プルデンシャル 不正巡り64人解雇",
+   "link": "https://news.yahoo.co.jp/pickup/6598063?source=rss",
+   "published": "10/09 00:06",
+   "ts": 1791472013.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "進む脱炭素 中国依存拡大のリスク",
+   "link": "https://news.yahoo.co.jp/pickup/6598057?source=rss",
+   "published": "10/08 22:31",
+   "ts": 1791466289.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "はま寿司「22時間営業」狙いは",
    "link": "https://news.yahoo.co.jp/pickup/6598039?source=rss",
    "published": "10/08 19:09",
@@ -153,22 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598015?source=rss",
    "published": "10/08 17:10",
    "ts": 1791447042.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ビール4社の地方支店にも強制調査",
-   "link": "https://news.yahoo.co.jp/pickup/6598011?source=rss",
-   "published": "10/08 17:04",
-   "ts": 1791446695.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ファストリ 過去最高業績を更新",
-   "link": "https://news.yahoo.co.jp/pickup/6598005?source=rss",
-   "published": "10/08 16:31",
-   "ts": 1791444696.0,
    "source": "Yahoo!",
    "desc": ""
   },
