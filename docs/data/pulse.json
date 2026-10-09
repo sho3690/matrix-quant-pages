@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09 19:43:40",
+ "updated_at": "2026-10-10 03:25:42",
  "fng": {
   "value": 59,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.628354534975834,
-  "eth_dominance": 10.962743403876585,
-  "total_mcap_usd": 2770965055833.999,
-  "mcap_change_24h": -4.093463250131517
+  "btc_dominance": 59.18445918925431,
+  "eth_dominance": 10.830526009738808,
+  "total_mcap_usd": 2794180092397.109,
+  "mcap_change_24h": -0.46384578699116474
  },
  "defi": {
-  "tvl_usd": 91648383431.0,
-  "change_1d": -0.020097508266109232,
-  "change_7d": -0.03697120282989952,
-  "change_1y": -0.4575915309028905,
-  "range_pos_1y": 0.2426650993752832
+  "tvl_usd": 91596386645.0,
+  "change_1d": -0.02055105678197444,
+  "change_7d": -0.03668221577652897,
+  "change_1y": -0.45789582805216944,
+  "range_pos_1y": 0.2422035353474062
  },
  "news_crypto": [
   {
@@ -117,10 +117,42 @@
  ],
  "news_jp": [
   {
-   "title": "「たけのこの里」台湾に進出",
-   "link": "https://news.yahoo.co.jp/pickup/6598169?source=rss",
-   "published": "10/09 19:26",
-   "ts": 1791541608.0,
+   "title": "ビール4社担当者 価格協議認める",
+   "link": "https://news.yahoo.co.jp/pickup/6598192?source=rss",
+   "published": "10/09 23:20",
+   "ts": 1791555652.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン系食品スーパー100店閉店へ",
+   "link": "https://news.yahoo.co.jp/pickup/6598188?source=rss",
+   "published": "10/09 22:39",
+   "ts": 1791553189.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "白菜高騰「鍋できない」と客困惑",
+   "link": "https://news.yahoo.co.jp/pickup/6598187?source=rss",
+   "published": "10/09 22:29",
+   "ts": 1791552563.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "松屋 牛めし全品を20円値上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6598178?source=rss",
+   "published": "10/09 21:01",
+   "ts": 1791547269.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "クーリッシュに血液 原因は未特定",
+   "link": "https://news.yahoo.co.jp/pickup/6598172?source=rss",
+   "published": "10/09 20:03",
+   "ts": 1791543807.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "女性着飾る理由に「推し活」見解",
-   "link": "https://news.yahoo.co.jp/pickup/6598147?source=rss",
-   "published": "10/09 17:21",
-   "ts": 1791534070.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "通信制なのに全寮制 高校が開校へ",
-   "link": "https://news.yahoo.co.jp/pickup/6598141?source=rss",
-   "published": "10/09 16:50",
-   "ts": 1791532208.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "プルデンシャル 一部業務停止命令",
    "link": "https://news.yahoo.co.jp/pickup/6598129?source=rss",
    "published": "10/09 15:21",
    "ts": 1791526870.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "国家公務員の給与 5年連続増",
-   "link": "https://news.yahoo.co.jp/pickup/6598103?source=rss",
-   "published": "10/09 11:37",
-   "ts": 1791513477.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "プルデンシャル 不正巡り64人解雇",
-   "link": "https://news.yahoo.co.jp/pickup/6598063?source=rss",
-   "published": "10/09 00:06",
-   "ts": 1791472013.0,
    "source": "Yahoo!",
    "desc": ""
   }
