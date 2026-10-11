@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11 09:16:47",
+ "updated_at": "2026-10-11 15:00:14",
  "fng": {
   "value": 61,
   "label": "強欲",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.09018553061235,
-  "eth_dominance": 10.845848029661035,
-  "total_mcap_usd": 2813715254204.1465,
-  "mcap_change_24h": -2.2156524063524836
+  "btc_dominance": 59.164543474920485,
+  "eth_dominance": 10.841728365669038,
+  "total_mcap_usd": 2812134238344.909,
+  "mcap_change_24h": -2.467085654572531
  },
  "defi": {
-  "tvl_usd": 92202748831.0,
-  "change_1d": 0.01526297572664892,
-  "change_7d": -0.029219059296524574,
-  "change_1y": -0.44034989435482075,
-  "range_pos_1y": 0.2643828366608619
+  "tvl_usd": 91963007516.0,
+  "change_1d": 0.003742511808034976,
+  "change_7d": -0.03426639390004871,
+  "change_1y": -0.3771960367639373,
+  "range_pos_1y": 0.2617394124015233
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン原油高・中東緊迫化で1300万円割れも、CPIと8万ドル水準が焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=742141",
+   "published": "10/11 11:30",
+   "ts": 1791685849.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン（BTC）は原油高・中東緊迫化を背景に一時1268万円まで急落。8万ドル近辺のサポート維持が焦点で、CPI・PPIの結果と現物ETFの資金フローが相場の行方を左右する。bitbankアナリストが週次分析。"
+  },
+  {
+   "title": "週刊仮想通貨ニュース（10/9）｜米当局の証券性の共同解釈・10月の相場分析・メタプラネットの動向まとめ",
+   "link": "https://coinpost.jp/?p=741994",
+   "published": "10/11 09:25",
+   "ts": 1791678311.0,
+   "source": "CoinPost",
+   "desc": "今週は、米商品先物取引委員会（CFTC）と米証券取引委員会（SEC）の証券性に対する共同解釈、10月の仮想通貨相場分析、メタプラネットの動向に関する記事が関心を集めた。"
+  },
   {
    "title": "リップル、1000億XRPの総供給量を超える不正生成を可能にした脆弱性を修正",
    "link": "https://coinpost.jp/?p=742318",
@@ -97,25 +113,25 @@
    "ts": 1791598844.0,
    "source": "CoinPost",
    "desc": "米CFTCは、カジノ型賭博をスワップから除外する暫定最終規則と、イベント契約を含める規則案を公表した。複数州と予測市場の管轄権限争いが生じている状況での動きだ。"
-  },
-  {
-   "title": "ロビンフッドチェーン、手数料払いで取引処理を優先する方式を検討か＝報道",
-   "link": "https://coinpost.jp/?p=742268",
-   "published": "10/10 10:50",
-   "ts": 1791597054.0,
-   "source": "CoinPost",
-   "desc": "コインデスクによると、ロビンフッド・チェーンが手数料を払って特定の取引を優先できる、アービトラムの新方式を検討していると報じた。現在は先着順で処理し、タイムブーストも利用していない。"
-  },
-  {
-   "title": "ビットコイン上昇継続の条件は？　コインシェアーズ分析",
-   "link": "https://coinpost.jp/?p=742259",
-   "published": "10/10 10:05",
-   "ts": 1791594326.0,
-   "source": "CoinPost",
-   "desc": "コインシェアーズは8日のレポートで、仮想通貨ビットコインの上昇加速には財政懸念に基づく資金流入が必要との見方を示した。米長期金利が20年以上ぶりの高水準に達する中、仮想通貨ファンドの資金流入は鈍化している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "就活セクハラ被害 求められる対策",
+   "link": "https://news.yahoo.co.jp/pickup/6598344?source=rss",
+   "published": "10/11 10:48",
+   "ts": 1791683307.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "幼児の新幹線自由席利用 広報見解",
+   "link": "https://news.yahoo.co.jp/pickup/6598337?source=rss",
+   "published": "10/11 09:49",
+   "ts": 1791679742.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "割引やポイント還元 15日なぜ多い",
    "link": "https://news.yahoo.co.jp/pickup/6598328?source=rss",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598286?source=rss",
    "published": "10/10 18:39",
    "ts": 1791625197.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "プルデンシャル 30年超続いた不正",
-   "link": "https://news.yahoo.co.jp/pickup/6598260?source=rss",
-   "published": "10/10 15:42",
-   "ts": 1791614532.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "個人情報漏えい巡る賠償 補償額は",
-   "link": "https://news.yahoo.co.jp/pickup/6598235?source=rss",
-   "published": "10/10 11:50",
-   "ts": 1791600651.0,
    "source": "Yahoo!",
    "desc": ""
   }
