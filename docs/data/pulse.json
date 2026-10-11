@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11 15:00:14",
+ "updated_at": "2026-10-11 22:06:00",
  "fng": {
   "value": 61,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.164543474920485,
-  "eth_dominance": 10.841728365669038,
-  "total_mcap_usd": 2812134238344.909,
-  "mcap_change_24h": -2.467085654572531
+  "btc_dominance": 59.666056561794804,
+  "eth_dominance": 10.927366454722337,
+  "total_mcap_usd": 2790341030885.283,
+  "mcap_change_24h": -3.395884763660706
  },
  "defi": {
-  "tvl_usd": 91963007516.0,
-  "change_1d": 0.003742511808034976,
-  "change_7d": -0.03426639390004871,
-  "change_1y": -0.3771960367639373,
-  "range_pos_1y": 0.2617394124015233
+  "tvl_usd": 91815746654.0,
+  "change_1d": 0.002137063041800724,
+  "change_7d": -0.035812828353836035,
+  "change_1y": -0.37819333612332595,
+  "range_pos_1y": 0.26011569170464677
  },
  "news_crypto": [
   {
@@ -117,10 +117,50 @@
  ],
  "news_jp": [
   {
-   "title": "就活セクハラ被害 求められる対策",
-   "link": "https://news.yahoo.co.jp/pickup/6598344?source=rss",
-   "published": "10/11 10:48",
-   "ts": 1791683307.0,
+   "title": "個人M&Aで多額損失「恋は盲目」",
+   "link": "https://news.yahoo.co.jp/pickup/6598418?source=rss",
+   "published": "10/11 20:34",
+   "ts": 1791718495.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "TSMC進出 高給目当て人材流出も",
+   "link": "https://news.yahoo.co.jp/pickup/6598413?source=rss",
+   "published": "10/11 19:27",
+   "ts": 1791714470.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "紫の芋「ウベ」世界的なブーム",
+   "link": "https://news.yahoo.co.jp/pickup/6598412?source=rss",
+   "published": "10/11 19:14",
+   "ts": 1791713689.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "続くサケ密漁 地元の怒りは頂点に",
+   "link": "https://news.yahoo.co.jp/pickup/6598405?source=rss",
+   "published": "10/11 18:20",
+   "ts": 1791710433.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "物流業界 外国人運転手の採用拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6598392?source=rss",
+   "published": "10/11 16:55",
+   "ts": 1791705341.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新築の平屋率が増加 耐震性に注目",
+   "link": "https://news.yahoo.co.jp/pickup/6598387?source=rss",
+   "published": "10/11 16:50",
+   "ts": 1791705006.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -133,50 +173,10 @@
    "desc": ""
   },
   {
-   "title": "割引やポイント還元 15日なぜ多い",
-   "link": "https://news.yahoo.co.jp/pickup/6598328?source=rss",
-   "published": "10/11 08:55",
-   "ts": 1791676559.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "障害者50人 9カ月で雇用打ち切り",
    "link": "https://news.yahoo.co.jp/pickup/6598316?source=rss",
    "published": "10/11 07:55",
    "ts": 1791672909.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "アパレル製造・卸で倒産増加 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6598318?source=rss",
-   "published": "10/11 07:51",
-   "ts": 1791672690.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「日本一遅い列車」37年歴史に幕",
-   "link": "https://news.yahoo.co.jp/pickup/6598293?source=rss",
-   "published": "10/10 20:14",
-   "ts": 1791630879.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "カルテル疑惑 卸売業者が実態証言",
-   "link": "https://news.yahoo.co.jp/pickup/6598291?source=rss",
-   "published": "10/10 19:58",
-   "ts": 1791629918.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大破したテスラ車 米で高騰の理由",
-   "link": "https://news.yahoo.co.jp/pickup/6598286?source=rss",
-   "published": "10/10 18:39",
-   "ts": 1791625197.0,
    "source": "Yahoo!",
    "desc": ""
   }
