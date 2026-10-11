@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-11 02:23:39",
+ "updated_at": "2026-10-11 09:16:47",
  "fng": {
-  "value": 64,
+  "value": 61,
   "label": "強欲",
   "history": [
-   56,
    63,
    61,
    57,
@@ -33,21 +32,22 @@
    71,
    64,
    59,
-   64
+   64,
+   61
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.12812425428181,
-  "eth_dominance": 10.845771098447743,
-  "total_mcap_usd": 2814822297107.5176,
-  "mcap_change_24h": -2.2918299293855076
+  "btc_dominance": 59.09018553061235,
+  "eth_dominance": 10.845848029661035,
+  "total_mcap_usd": 2813715254204.1465,
+  "mcap_change_24h": -2.2156524063524836
  },
  "defi": {
-  "tvl_usd": 92198515908.0,
-  "change_1d": 0.011249315553660821,
-  "change_7d": -0.028216064464891555,
-  "change_1y": -0.44037198526774235,
-  "range_pos_1y": 0.2644157433996877
+  "tvl_usd": 92202748831.0,
+  "change_1d": 0.01526297572664892,
+  "change_7d": -0.029219059296524574,
+  "change_1y": -0.44034989435482075,
+  "range_pos_1y": 0.2643828366608619
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "割引やポイント還元 15日なぜ多い",
+   "link": "https://news.yahoo.co.jp/pickup/6598328?source=rss",
+   "published": "10/11 08:55",
+   "ts": 1791676559.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "障害者50人 9カ月で雇用打ち切り",
+   "link": "https://news.yahoo.co.jp/pickup/6598316?source=rss",
+   "published": "10/11 07:55",
+   "ts": 1791672909.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "アパレル製造・卸で倒産増加 背景",
+   "link": "https://news.yahoo.co.jp/pickup/6598318?source=rss",
+   "published": "10/11 07:51",
+   "ts": 1791672690.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "「日本一遅い列車」37年歴史に幕",
    "link": "https://news.yahoo.co.jp/pickup/6598293?source=rss",
    "published": "10/10 20:14",
@@ -129,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598291?source=rss",
    "published": "10/10 19:58",
    "ts": 1791629918.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マイカーもAI自動運転 続々投入へ",
-   "link": "https://news.yahoo.co.jp/pickup/6598290?source=rss",
-   "published": "10/10 19:40",
-   "ts": 1791628816.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598235?source=rss",
    "published": "10/10 11:50",
    "ts": 1791600651.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "服の「腰巻き・肩掛け」人気復活",
-   "link": "https://news.yahoo.co.jp/pickup/6598210?source=rss",
-   "published": "10/10 08:35",
-   "ts": 1791588950.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン系食品スーパー100店閉店へ",
-   "link": "https://news.yahoo.co.jp/pickup/6598188?source=rss",
-   "published": "10/09 22:39",
-   "ts": 1791553189.0,
    "source": "Yahoo!",
    "desc": ""
   }
