@@ -1,6 +1,6 @@
 {
- "fetched_at": 1791723969.2976758,
- "updated_at": "2026-10-11 22:06:09",
+ "fetched_at": 1791839987.8516839,
+ "updated_at": "2026-10-13 06:19:47",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -21662,10 +21662,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-08-31",
-    "pct_held": 0.0019,
-    "shares": 902520,
-    "pct_change": -0.027999999,
+    "date": "2026-09-30",
+    "pct_held": 0.002,
+    "shares": 928520,
+    "pct_change": 0.028800001,
     "new_est": false,
     "suspect": false
    },

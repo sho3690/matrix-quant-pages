@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-12 20:04:43",
+ "updated_at": "2026-10-13 06:19:40",
  "fng": {
   "value": 69,
   "label": "強欲",
@@ -37,98 +37,49 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.490460003347835,
-  "eth_dominance": 11.065872189857744,
-  "total_mcap_usd": 2812928079213.4727,
-  "mcap_change_24h": -1.8656386579303352
+  "btc_dominance": 59.174304699682224,
+  "eth_dominance": 10.896964169178258,
+  "total_mcap_usd": 2807699734092.3994,
+  "mcap_change_24h": -3.019370221807507
  },
  "defi": {
-  "tvl_usd": 92637864427.0,
-  "change_1d": 0.00568763935546146,
-  "change_7d": -0.041606125816433526,
-  "change_1y": -0.36402943013678435,
-  "range_pos_1y": 0.2691804875041592
+  "tvl_usd": 91492478470.0,
+  "change_1d": -0.007345798026303529,
+  "change_7d": -0.0530687188879847,
+  "change_1y": -0.3718888074562091,
+  "range_pos_1y": 0.256118845235321
  },
- "news_crypto": [
-  {
-   "title": "カルシ、トランプ次期報道官の起用を的中させた取引を調査　確率1％",
-   "link": "https://coinpost.jp/?p=742393",
-   "published": "10/12 12:54",
-   "ts": 1791777294.0,
-   "source": "CoinPost",
-   "desc": "米予測市場カルシは、トランプ大統領の新報道官にケイティ・ザカリア氏が指名される直前の不審な取引を調査中だ。確率約1%の予想が的中し、約173ドルが約9,600ドルになる見込み。指名報道の20分前に行われた取引もある。"
-  },
-  {
-   "title": "FTX元幹部、ネットフリックスによる事件の「ラブストーリー」化を批判",
-   "link": "https://coinpost.jp/?p=742382",
-   "published": "10/12 12:05",
-   "ts": 1791774344.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨取引所FTX元COOのコンスタンス・ワン氏が、ネットフリックスの新ドラマ「The Altruists」の予告編について、職場や人物像の描写は実態と異なると批判している。"
-  },
-  {
-   "title": "ハイパーリキッド系1000倍DEX、価格操作でトレーダーが約2億円利益か",
-   "link": "https://coinpost.jp/?p=742378",
-   "published": "10/12 11:35",
-   "ts": 1791772517.0,
-   "source": "CoinPost",
-   "desc": "ハイパーリキッド上で10日に取引を始めた最大1,000倍レバレッジのDEX「Papertrade」で、あるウォレットが参照価格を動かす取引を繰り返し、約128万ドルの利益を得た。運営は建玉上限の緩さが原因と説明し、引き締めに動いた。"
-  },
-  {
-   "title": "XRP不正生成の脆弱性、悪用防止で投票経ず修正　XRPL財団が説明",
-   "link": "https://coinpost.jp/?p=742370",
-   "published": "10/12 10:32",
-   "ts": 1791768763.0,
-   "source": "CoinPost",
-   "desc": "XRPレジャーで新たなXRPを生み出せる脆弱性が見つかった問題で、XRPL財団が12日に経緯を説明した。同財団によると、XRPは生成されておらず、悪用の形跡もない。修正版をアメンドメント投票を経ずに適用した理由も示した。"
-  },
-  {
-   "title": "仮想通貨ウォレット大手レジャー、被害デバイス内に不正ハードウェアを確認",
-   "link": "https://coinpost.jp/?p=742358",
-   "published": "10/12 09:23",
-   "ts": 1791764619.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ウォレット大手レジャーは販売店クリプトビリス経由の被害者端末に不正ハードウェアを確認した。流出額は分析企業により約9,320万ドルとも推計されているところだ。"
-  },
-  {
-   "title": "OKJ、NIGHTを13日に取扱い開始　板取引は「国内初」と発表",
-   "link": "https://coinpost.jp/?p=742349",
-   "published": "10/12 08:50",
-   "ts": 1791762601.0,
-   "source": "CoinPost",
-   "desc": "国内取引所OKJは10日、ゼロ知識証明を使うプライバシー特化型チェーン「ミッドナイト」のNIGHTを13日から扱うと発表した。板取引での提供は国内初（同社調べ）としている。仕組みと国内の取扱い状況をまとめた。"
-  },
-  {
-   "title": "ビットコイン、8.5万ドル突破が焦点　最大の取得価格帯＝アナリスト",
-   "link": "https://coinpost.jp/?p=742346",
-   "published": "10/12 08:19",
-   "ts": 1791760792.0,
-   "source": "CoinPost",
-   "desc": "クリプトクアント寄稿者のダークフォスト氏は、ビットコインの取得価格分布で8.4万から8.5万ドルが最大の価格帯だと指摘。8.3万ドル時点で投資資金の53％がこの水準より上で入ったとし、下値では7.7万から7.9万ドルを支持帯に挙げた。"
-  },
-  {
-   "title": "ビットコイン原油高・中東緊迫化で1300万円割れも、CPIと8万ドル水準が焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=742141",
-   "published": "10/11 11:30",
-   "ts": 1791685849.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン（BTC）は原油高・中東緊迫化を背景に一時1268万円まで急落。8万ドル近辺のサポート維持が焦点で、CPI・PPIの結果と現物ETFの資金フローが相場の行方を左右する。bitbankアナリストが週次分析。"
-  }
- ],
+ "news_crypto": [],
  "news_jp": [
+  {
+   "title": "九州新幹線 全線で運転見合わせ",
+   "link": "https://news.yahoo.co.jp/pickup/6598565?source=rss",
+   "published": "10/13 06:09",
+   "ts": 1791839356.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マンション高騰 売れ残り値下げも",
+   "link": "https://news.yahoo.co.jp/pickup/6598560?source=rss",
+   "published": "10/12 23:00",
+   "ts": 1791813600.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "旅行は夏→秋へシフト? 動き加速",
+   "link": "https://news.yahoo.co.jp/pickup/6598543?source=rss",
+   "published": "10/12 20:41",
+   "ts": 1791805274.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ノーベル経済学賞 米大教授2人に",
    "link": "https://news.yahoo.co.jp/pickup/6598538?source=rss",
    "published": "10/12 19:42",
    "ts": 1791801771.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "渋谷駅で事故 山手線一時見合わせ",
-   "link": "https://news.yahoo.co.jp/pickup/6598520?source=rss",
-   "published": "10/12 16:42",
-   "ts": 1791790972.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -157,26 +108,10 @@
    "desc": ""
   },
   {
-   "title": "ワークマン 値下げと利益両立の訳",
-   "link": "https://news.yahoo.co.jp/pickup/6598459?source=rss",
-   "published": "10/12 08:36",
-   "ts": 1791761800.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "停車前にTXドア開く 客が操作か",
    "link": "https://news.yahoo.co.jp/pickup/6598435?source=rss",
    "published": "10/11 22:42",
    "ts": 1791726128.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "個人M&Aで多額損失「恋は盲目」",
-   "link": "https://news.yahoo.co.jp/pickup/6598418?source=rss",
-   "published": "10/11 20:34",
-   "ts": 1791718495.0,
    "source": "Yahoo!",
    "desc": ""
   }
