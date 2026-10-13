@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13 11:37:43",
+ "updated_at": "2026-10-13 19:47:25",
  "fng": {
   "value": 57,
   "label": "強欲",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.36857550818727,
-  "eth_dominance": 10.81639683242038,
-  "total_mcap_usd": 2794208451078.8213,
-  "mcap_change_24h": -3.4967166632716284
+  "btc_dominance": 59.85182094978174,
+  "eth_dominance": 10.894400675312951,
+  "total_mcap_usd": 2791582548162.693,
+  "mcap_change_24h": -3.8676094507252077
  },
  "defi": {
-  "tvl_usd": 90262114182.0,
-  "change_1d": -0.022129843165723306,
-  "change_7d": -0.066265763964102,
-  "change_1y": -0.4204285334266582,
-  "range_pos_1y": 0.24285027234656847
+  "tvl_usd": 91748212074.0,
+  "change_1d": -0.009715682465205044,
+  "change_7d": -0.049105209828218865,
+  "change_1y": -0.4107573065429627,
+  "range_pos_1y": 0.25926426780929274
  },
  "news_crypto": [
+  {
+   "title": "利上げ後アルトコイン中央値は21％上昇、実質金利が鍵＝バイナンス・リサーチ",
+   "link": "https://coinpost.jp/?p=742520",
+   "published": "10/13 19:16",
+   "ts": 1791886563.0,
+   "source": "CoinPost",
+   "desc": "バイナンス・リサーチの週次レポートによると、9月の利上げ以降、BTCは9.3%、ETHは2.7%上昇した一方で、その他194銘柄の中央値は21%上昇した。米10年債の実質金利上昇を軸に、株式・仮想通貨市場の動向と今後の注目材料を解説する。"
+  },
+  {
+   "title": "韓国地銀、ビットコイン担保のウォン建て融資を開始",
+   "link": "https://coinpost.jp/?p=742478",
+   "published": "10/13 17:15",
+   "ts": 1791879301.0,
+   "source": "CoinPost",
+   "desc": "韓国の全北銀行が法人向けに仮想通貨ビットコイン担保のウォン建て融資を開始したと伝えられる。背景の一つには民事執行規則改正があり、担保は外部のカストディ業者が保管する。"
+  },
+  {
+   "title": "米上場ビットコインマイナーIREN、AIクラウドでアンソロピックと複数年契約か＝報道",
+   "link": "https://coinpost.jp/?p=742429",
+   "published": "10/13 13:05",
+   "ts": 1791864314.0,
+   "source": "CoinPost",
+   "desc": "The Informationは仮想通貨採掘・データセンター企業IRENと生成AIのアンソロピックが複数年のクラウド契約を結んだと報じた。現在のところ両社とも公式発表はしていない。"
+  },
+  {
+   "title": "コインチェックG子会社3iQの関連企業、アブダビの金融事業免許の原則承認を取得",
+   "link": "https://coinpost.jp/?p=742468",
+   "published": "10/13 11:41",
+   "ts": 1791859295.0,
+   "source": "CoinPost",
+   "desc": "コインチェックグループ子会社3iQの関連企業は、アブダビの金融事業免許の原則承認を取得。長期的には、仮想通貨ビットコインやイーサリアムのETFの提供などを世界の適格投資家へ拡大していきたいと述べている。"
+  },
   {
    "title": "スタンダードチャータード、リップルのRLUSDのカストディを開始",
    "link": "https://coinpost.jp/?p=742424",
@@ -81,102 +113,70 @@
    "ts": 1791774344.0,
    "source": "CoinPost",
    "desc": "仮想通貨取引所FTX元COOのコンスタンス・ワン氏が、ネットフリックスの新ドラマ「The Altruists」の予告編について、職場や人物像の描写は実態と異なると批判している。"
-  },
-  {
-   "title": "ハイパーリキッド系1000倍DEX、価格操作でトレーダーが約2億円利益か",
-   "link": "https://coinpost.jp/?p=742378",
-   "published": "10/12 11:35",
-   "ts": 1791772517.0,
-   "source": "CoinPost",
-   "desc": "ハイパーリキッド上で10日に取引を始めた最大1,000倍レバレッジのDEX「Papertrade」で、あるウォレットが参照価格を動かす取引を繰り返し、約128万ドルの利益を得た。運営は建玉上限の緩さが原因と説明し、引き締めに動いた。"
-  },
-  {
-   "title": "XRP不正生成の脆弱性、悪用防止で投票経ず修正　XRPL財団が説明",
-   "link": "https://coinpost.jp/?p=742370",
-   "published": "10/12 10:32",
-   "ts": 1791768763.0,
-   "source": "CoinPost",
-   "desc": "XRPレジャーで新たなXRPを生み出せる脆弱性が見つかった問題で、XRPL財団が12日に経緯を説明した。同財団によると、XRPは生成されておらず、悪用の形跡もない。修正版をアメンドメント投票を経ずに適用した理由も示した。"
-  },
-  {
-   "title": "仮想通貨ウォレット大手レジャー、被害デバイス内に不正ハードウェアを確認",
-   "link": "https://coinpost.jp/?p=742358",
-   "published": "10/12 09:23",
-   "ts": 1791764619.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ウォレット大手レジャーは販売店クリプトビリス経由の被害者端末に不正ハードウェアを確認した。流出額は分析企業により約9,320万ドルとも推計されているところだ。"
-  },
-  {
-   "title": "OKJ、NIGHTを13日に取扱い開始　板取引は「国内初」と発表",
-   "link": "https://coinpost.jp/?p=742349",
-   "published": "10/12 08:50",
-   "ts": 1791762601.0,
-   "source": "CoinPost",
-   "desc": "国内取引所OKJは10日、ゼロ知識証明を使うプライバシー特化型チェーン「ミッドナイト」のNIGHTを13日から扱うと発表した。板取引での提供は国内初（同社調べ）としている。仕組みと国内の取扱い状況をまとめた。"
   }
  ],
  "news_jp": [
+  {
+   "title": "都営地下鉄談合 5社に排除命令へ",
+   "link": "https://news.yahoo.co.jp/pickup/6598641?source=rss",
+   "published": "10/13 18:51",
+   "ts": 1791885061.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "駅周辺にデータセンター計画 波紋",
+   "link": "https://news.yahoo.co.jp/pickup/6598633?source=rss",
+   "published": "10/13 18:14",
+   "ts": 1791882856.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "PayPay証券障害 日本株取引停止",
+   "link": "https://news.yahoo.co.jp/pickup/6598630?source=rss",
+   "published": "10/13 17:59",
+   "ts": 1791881947.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "九州新幹線 一部は終日見合わせに",
+   "link": "https://news.yahoo.co.jp/pickup/6598624?source=rss",
+   "published": "10/13 15:54",
+   "ts": 1791874470.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中国車の輸出なぜ激増 欧州が対応",
+   "link": "https://news.yahoo.co.jp/pickup/6598620?source=rss",
+   "published": "10/13 15:23",
+   "ts": 1791872616.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JR東など7社 磁気乗車券を廃止へ",
+   "link": "https://news.yahoo.co.jp/pickup/6598621?source=rss",
+   "published": "10/13 15:22",
+   "ts": 1791872525.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "オムロン 米のPCメーカー買収",
+   "link": "https://news.yahoo.co.jp/pickup/6598600?source=rss",
+   "published": "10/13 12:03",
+   "ts": 1791860626.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "家が買えない なぜ高騰している",
    "link": "https://news.yahoo.co.jp/pickup/6598588?source=rss",
    "published": "10/13 11:19",
    "ts": 1791857962.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "九州新幹線 運転再開は夕方以降に",
-   "link": "https://news.yahoo.co.jp/pickup/6598590?source=rss",
-   "published": "10/13 10:49",
-   "ts": 1791856146.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米スタバ チポトレ買収を否定",
-   "link": "https://news.yahoo.co.jp/pickup/6598572?source=rss",
-   "published": "10/13 07:40",
-   "ts": 1791844814.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マンション高騰 売れ残り値下げも",
-   "link": "https://news.yahoo.co.jp/pickup/6598560?source=rss",
-   "published": "10/12 23:00",
-   "ts": 1791813600.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "旅行は夏→秋へシフト? 動き加速",
-   "link": "https://news.yahoo.co.jp/pickup/6598543?source=rss",
-   "published": "10/12 20:41",
-   "ts": 1791805274.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ノーベル経済学賞 米大教授2人に",
-   "link": "https://news.yahoo.co.jp/pickup/6598538?source=rss",
-   "published": "10/12 19:42",
-   "ts": 1791801771.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "モヤシ生産者減少 ラーメン店悲鳴",
-   "link": "https://news.yahoo.co.jp/pickup/6598503?source=rss",
-   "published": "10/12 14:24",
-   "ts": 1791782683.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "アシックスとナイキ なぜ「明暗」",
-   "link": "https://news.yahoo.co.jp/pickup/6598467?source=rss",
-   "published": "10/12 10:03",
-   "ts": 1791766993.0,
    "source": "Yahoo!",
    "desc": ""
   }
