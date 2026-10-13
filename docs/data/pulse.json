@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13 19:47:25",
+ "updated_at": "2026-10-14 04:22:09",
  "fng": {
   "value": 57,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.85182094978174,
-  "eth_dominance": 10.894400675312951,
-  "total_mcap_usd": 2791582548162.693,
-  "mcap_change_24h": -3.8676094507252077
+  "btc_dominance": 59.17288219960534,
+  "eth_dominance": 10.852487597284583,
+  "total_mcap_usd": 2820536665186.1743,
+  "mcap_change_24h": -2.265321022499036
  },
  "defi": {
-  "tvl_usd": 91748212074.0,
-  "change_1d": -0.009715682465205044,
-  "change_7d": -0.049105209828218865,
-  "change_1y": -0.4107573065429627,
-  "range_pos_1y": 0.25926426780929274
+  "tvl_usd": 91223177008.0,
+  "change_1d": -0.014539566337526622,
+  "change_7d": -0.05520941002895374,
+  "change_1y": -0.4140376310565068,
+  "range_pos_1y": 0.25421117117125086
  },
  "news_crypto": [
+  {
+   "title": "メタプラネット、初のユーロ円建転換社債を520億円相当分発行へ",
+   "link": "https://coinpost.jp/?p=742629",
+   "published": "10/13 21:30",
+   "ts": 1791894611.0,
+   "source": "CoinPost",
+   "desc": "メタプラネットは13日、想定発行額520億円、利率0％の同社初のユーロ円建転換社債型新株予約権付社債の発行を発表した。仮想通貨ビットコイン担保の有利子借入の一部を無担保・無利息の資金に置き換え、借入返済と自己株式取得に充てる。"
+  },
   {
    "title": "利上げ後アルトコイン中央値は21％上昇、実質金利が鍵＝バイナンス・リサーチ",
    "link": "https://coinpost.jp/?p=742520",
@@ -105,17 +113,33 @@
    "ts": 1791777294.0,
    "source": "CoinPost",
    "desc": "米予測市場カルシは、トランプ大統領の新報道官にケイティ・ザカリア氏が指名される直前の不審な取引を調査中だ。確率約1%の予想が的中し、約173ドルが約9,600ドルになる見込み。指名報道の20分前に行われた取引もある。"
-  },
-  {
-   "title": "FTX元幹部、ネットフリックスによる事件の「ラブストーリー」化を批判",
-   "link": "https://coinpost.jp/?p=742382",
-   "published": "10/12 12:05",
-   "ts": 1791774344.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨取引所FTX元COOのコンスタンス・ワン氏が、ネットフリックスの新ドラマ「The Altruists」の予告編について、職場や人物像の描写は実態と異なると批判している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "日本のGDP 来年世界6位の見込み",
+   "link": "https://news.yahoo.co.jp/pickup/6598666?source=rss",
+   "published": "10/13 23:25",
+   "ts": 1791901523.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "防衛力強化の対象に鉄道 実現性は",
+   "link": "https://news.yahoo.co.jp/pickup/6598665?source=rss",
+   "published": "10/13 23:05",
+   "ts": 1791900313.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン中間決算 災害の特損42億円",
+   "link": "https://news.yahoo.co.jp/pickup/6598646?source=rss",
+   "published": "10/13 20:15",
+   "ts": 1791890118.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "都営地下鉄談合 5社に排除命令へ",
    "link": "https://news.yahoo.co.jp/pickup/6598641?source=rss",
@@ -141,34 +165,10 @@
    "desc": ""
   },
   {
-   "title": "九州新幹線 一部は終日見合わせに",
-   "link": "https://news.yahoo.co.jp/pickup/6598624?source=rss",
-   "published": "10/13 15:54",
-   "ts": 1791874470.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "中国車の輸出なぜ激増 欧州が対応",
-   "link": "https://news.yahoo.co.jp/pickup/6598620?source=rss",
-   "published": "10/13 15:23",
-   "ts": 1791872616.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "JR東など7社 磁気乗車券を廃止へ",
    "link": "https://news.yahoo.co.jp/pickup/6598621?source=rss",
    "published": "10/13 15:22",
    "ts": 1791872525.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "オムロン 米のPCメーカー買収",
-   "link": "https://news.yahoo.co.jp/pickup/6598600?source=rss",
-   "published": "10/13 12:03",
-   "ts": 1791860626.0,
    "source": "Yahoo!",
    "desc": ""
   },
