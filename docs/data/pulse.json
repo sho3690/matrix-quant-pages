@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14 21:06:29",
+ "updated_at": "2026-10-15 02:21:08",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.82060144486666,
-  "eth_dominance": 10.902450012847504,
-  "total_mcap_usd": 2796407252376.267,
-  "mcap_change_24h": -3.4106472297484474
+  "btc_dominance": 59.267603856779836,
+  "eth_dominance": 10.746461562704427,
+  "total_mcap_usd": 2771571061614.859,
+  "mcap_change_24h": -4.429455287275396
  },
  "defi": {
-  "tvl_usd": 91225153226.0,
-  "change_1d": 0.01490334101830637,
-  "change_7d": -0.05054258271398837,
-  "change_1y": -0.4257278947320733,
-  "range_pos_1y": 0.2625747403583574
+  "tvl_usd": 89645823492.0,
+  "change_1d": -0.002673270696635033,
+  "change_7d": -0.06698000460103948,
+  "change_1y": -0.4356699444758486,
+  "range_pos_1y": 0.2445636674949465
  },
  "news_crypto": [
+  {
+   "title": "米ストライブ、2日連続でビットコイン追加購入を発表　上場企業保有量で世界4位に",
+   "link": "https://coinpost.jp/?p=742947",
+   "published": "10/14 21:45",
+   "ts": 1791981900.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨ビットコインを保有する米ストライブが、2日間で2,822BTCのビットコインを取得した。保有量は35,595BTCに増え、上場企業では5位から4位に上がった。"
+  },
   {
    "title": "マウントゴックス元CEOがAmazonで買ったレジャーで不正装置発覚",
    "link": "https://coinpost.jp/?p=742911",
@@ -105,22 +113,22 @@
    "ts": 1791952557.0,
    "source": "CoinPost",
    "desc": "メタプラネットは14日、転換社債の転換価額を339円に決定し、自己株式約193億円を取得した。取得は買付けを委託した上限を下回った。CEOのゲロヴィッチ氏は、保有株のうち最大5,500万株を年率0.75％で貸し出すと述べた。"
-  },
-  {
-   "title": "米大手銀ウェルズ・ファーゴCEO、米国のステーブルコイン用途は「まだ不明確」",
-   "link": "https://coinpost.jp/?p=742774",
-   "published": "10/14 12:30",
-   "ts": 1791948647.0,
-   "source": "CoinPost",
-   "desc": "米ウェルズ・ファーゴのシャーフCEOは13日の決算説明会で、米国でのステーブルコインの用途は「まだ不明確」と述べた。同行は9月に法人向けトークン化預金を始め、世界21の金融機関によるステーブルコイン新会社の設立にも加わっている。"
   }
  ],
  "news_jp": [
   {
-   "title": "サイゼが平均6%値上げする背景",
-   "link": "https://news.yahoo.co.jp/pickup/6598754?source=rss",
-   "published": "10/14 18:36",
-   "ts": 1791970618.0,
+   "title": "万博未払い アンゴラ異例対応の訳",
+   "link": "https://news.yahoo.co.jp/pickup/6598795?source=rss",
+   "published": "10/15 00:20",
+   "ts": 1791991227.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日銀利上げ 2%超える可能性は",
+   "link": "https://news.yahoo.co.jp/pickup/6598757?source=rss",
+   "published": "10/14 22:18",
+   "ts": 1791983889.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598728?source=rss",
    "published": "10/14 14:26",
    "ts": 1791955572.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日本のGDP 来年世界6位の見込み",
-   "link": "https://news.yahoo.co.jp/pickup/6598666?source=rss",
-   "published": "10/13 23:25",
-   "ts": 1791901523.0,
    "source": "Yahoo!",
    "desc": ""
   }
