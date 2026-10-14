@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14 14:07:11",
+ "updated_at": "2026-10-14 21:06:29",
  "fng": {
   "value": 62,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.30416487313004,
-  "eth_dominance": 10.81929952620088,
-  "total_mcap_usd": 2835160508748.701,
-  "mcap_change_24h": -2.4490397259389454
+  "btc_dominance": 59.82060144486666,
+  "eth_dominance": 10.902450012847504,
+  "total_mcap_usd": 2796407252376.267,
+  "mcap_change_24h": -3.4106472297484474
  },
  "defi": {
-  "tvl_usd": 91321661668.0,
-  "change_1d": 0.01598201118615772,
-  "change_7d": -0.0492059102489627,
-  "change_1y": -0.4251358367525865,
-  "range_pos_1y": 0.26392920504123724
+  "tvl_usd": 91225153226.0,
+  "change_1d": 0.01490334101830637,
+  "change_7d": -0.05054258271398837,
+  "change_1y": -0.4257278947320733,
+  "range_pos_1y": 0.2625747403583574
  },
  "news_crypto": [
+  {
+   "title": "マウントゴックス元CEOがAmazonで買ったレジャーで不正装置発覚",
+   "link": "https://coinpost.jp/?p=742911",
+   "published": "10/14 18:10",
+   "ts": 1791969054.0,
+   "source": "CoinPost",
+   "desc": "マウントゴックス元CEOのカルプレス氏は11日、Amazon Japanの出品で購入したレジャーのNano Xに、画面の復元フレーズをLTEで外部へ送信する装置が入っていたと明らかにした。東南アジアのクリプトビリス経由の被害との関係は不明。"
+  },
+  {
+   "title": "SBIと吉本興業が合弁へ　デジタル証券でコンテンツ資金調達の新手法めざす",
+   "link": "https://coinpost.jp/?p=742891",
+   "published": "10/14 16:24",
+   "ts": 1791962652.0,
+   "source": "CoinPost",
+   "desc": "SBIホールディングスは14日、吉本興業HDとエンタメ領域で戦略的業務提携に向け基本合意したと発表した。合弁会社を設立するほか、セキュリティトークン基盤を活用し、IP・コンテンツ領域で新たな資金調達手法の創出に取り組む。"
+  },
+  {
+   "title": "韓国、仮想通貨の課税基準を11月にも告示へ　約30万円超に22％",
+   "link": "https://coinpost.jp/?p=742855",
+   "published": "10/14 14:15",
+   "ts": 1791954911.0,
+   "source": "CoinPost",
+   "desc": "韓国国税庁のイム・グァンヒョン庁長は13日の国政監査で、仮想通貨の課税基準を定める告示を11月ごろに出す準備を進めていると明らかにした。2027年1月の課税開始を控え、ステーキングの扱いや2028年5月からの申告・検証、猶予論をまとめた。"
+  },
   {
    "title": "予測市場ポリマーケット（Polymarket）とは？仕組み・法的位置づけと日本の現在地",
    "link": "https://coinpost.jp/?p=742833",
@@ -59,7 +83,7 @@
    "desc": "予測市場ポリマーケット（Polymarket）の仕組みと、価格が確率を示す理由を解説。予測精度の検証や資本背景に加え、「賭博か、金融商品か」をめぐる各国の規制と日本での法的な位置づけを整理。"
   },
   {
-   "title": "英高等法院、約8000億円の押収ビットコイン所有権判断に中国法適用",
+   "title": "英政府が8000億円相当の押収ビットコインを保有する可能性、高裁が中国法適用",
    "link": "https://coinpost.jp/?p=742785",
    "published": "10/14 14:05",
    "ts": 1791954311.0,
@@ -89,78 +113,62 @@
    "ts": 1791948647.0,
    "source": "CoinPost",
    "desc": "米ウェルズ・ファーゴのシャーフCEOは13日の決算説明会で、米国でのステーブルコインの用途は「まだ不明確」と述べた。同行は9月に法人向けトークン化預金を始め、世界21の金融機関によるステーブルコイン新会社の設立にも加わっている。"
-  },
-  {
-   "title": "コインベース、ビットコインの量子耐性化で提言　署名方式や休眠コインの扱いに言及",
-   "link": "https://coinpost.jp/?p=742755",
-   "published": "10/14 11:55",
-   "ts": 1791946554.0,
-   "source": "CoinPost",
-   "desc": "米コインベースの量子諮問委員会が13日、仮想通貨ビットコインのポスト量子対応に向けた論点を公表。署名方式の選定や移行の進め方、休眠コインの扱いなどを議論の材料として示した。"
-  },
-  {
-   "title": "ソラナの新コンセンサス「Alpenglow」、10月21日にメインネットでローンチ予定",
-   "link": "https://coinpost.jp/?p=742721",
-   "published": "10/14 11:35",
-   "ts": 1791945328.0,
-   "source": "CoinPost",
-   "desc": "アンザは、仮想通貨ソラナの新コンセンサスプロトコルAlpenglowを日本時間10月21日23時50分ごろにメインネットでローンチする計画であると発表。このアップグレードで取引確定が速くなる。"
-  },
-  {
-   "title": "ポリマーケット、IPOとトークン発行の選択肢を検討",
-   "link": "https://coinpost.jp/?p=742722",
-   "published": "10/14 10:50",
-   "ts": 1791942628.0,
-   "source": "CoinPost",
-   "desc": "ブルームバーグは13日、ポリマーケットが伝統金融の市場への新規株上場（IPO）とトークン発行を主な選択肢として検討していると報じた。同社は正式発表や時期を示しておらず、評価額210億ドルの新ラウンドを調達中だ。"
   }
  ],
  "news_jp": [
   {
-   "title": "PayPay証券 システム障害が解消",
-   "link": "https://news.yahoo.co.jp/pickup/6598720?source=rss",
-   "published": "10/14 13:01",
-   "ts": 1791950502.0,
+   "title": "サイゼが平均6%値上げする背景",
+   "link": "https://news.yahoo.co.jp/pickup/6598754?source=rss",
+   "published": "10/14 18:36",
+   "ts": 1791970618.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "ディズニー 客船名はIMAGINATION",
-   "link": "https://news.yahoo.co.jp/pickup/6598705?source=rss",
-   "published": "10/14 11:47",
-   "ts": 1791946042.0,
+   "title": "阪急電鉄 中吊広告を来年4月終了",
+   "link": "https://news.yahoo.co.jp/pickup/6598751?source=rss",
+   "published": "10/14 17:53",
+   "ts": 1791967993.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "次のブーム?「回転火鍋」が人気",
-   "link": "https://news.yahoo.co.jp/pickup/6598701?source=rss",
-   "published": "10/14 11:08",
-   "ts": 1791943683.0,
+   "title": "BOOKOFF「本売るなら」から変身",
+   "link": "https://news.yahoo.co.jp/pickup/6598750?source=rss",
+   "published": "10/14 17:33",
+   "ts": 1791966820.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "吉本興業 SBIと戦略的業務提携へ",
-   "link": "https://news.yahoo.co.jp/pickup/6598699?source=rss",
-   "published": "10/14 10:55",
-   "ts": 1791942950.0,
+   "title": "サイゼ メニューを平均6%値上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6598740?source=rss",
+   "published": "10/14 16:50",
+   "ts": 1791964223.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "道頓堀グリコサイン 来春7代目に",
-   "link": "https://news.yahoo.co.jp/pickup/6598673?source=rss",
-   "published": "10/14 07:23",
-   "ts": 1791930204.0,
+   "title": "ワールドとTSI 経営統合で合意",
+   "link": "https://news.yahoo.co.jp/pickup/6598738?source=rss",
+   "published": "10/14 16:15",
+   "ts": 1791962124.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "九州新幹線 全線で運転再開",
-   "link": "https://news.yahoo.co.jp/pickup/6598672?source=rss",
-   "published": "10/14 06:30",
-   "ts": 1791927025.0,
+   "title": "ウインナー なぜ2袋セットで販売",
+   "link": "https://news.yahoo.co.jp/pickup/6598731?source=rss",
+   "published": "10/14 14:51",
+   "ts": 1791957094.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "イオン系スーパー100店閉店 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6598728?source=rss",
+   "published": "10/14 14:26",
+   "ts": 1791955572.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598666?source=rss",
    "published": "10/13 23:25",
    "ts": 1791901523.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "駅周辺にデータセンター計画 波紋",
-   "link": "https://news.yahoo.co.jp/pickup/6598633?source=rss",
-   "published": "10/13 18:14",
-   "ts": 1791882856.0,
    "source": "Yahoo!",
    "desc": ""
   }
