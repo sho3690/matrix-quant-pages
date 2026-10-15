@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15 13:52:24",
+ "updated_at": "2026-10-15 20:42:53",
  "fng": {
   "value": 53,
   "label": "中立",
@@ -37,21 +37,53 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.48923066541142,
-  "eth_dominance": 10.556499913034932,
-  "total_mcap_usd": 2748997483745.6953,
-  "mcap_change_24h": -5.693495461082937
+  "btc_dominance": 60.032588813936684,
+  "eth_dominance": 10.650946447097905,
+  "total_mcap_usd": 2711370430935.533,
+  "mcap_change_24h": -5.783515386638133
  },
  "defi": {
-  "tvl_usd": 88532561131.0,
-  "change_1d": -0.0274867226005735,
-  "change_7d": -0.05284119094036466,
-  "change_1y": -0.4320941078310231,
-  "range_pos_1y": 0.23465462315435193
+  "tvl_usd": 88619878879.0,
+  "change_1d": -0.02682282154996707,
+  "change_7d": -0.05190702693114635,
+  "change_1y": -0.4315339945467508,
+  "range_pos_1y": 0.23566308854052026
  },
  "news_crypto": [
   {
-   "title": "メタプラネット子会社化予定の米スーパーリーグ、ビットコイン初購入",
+   "title": "ドル建てステーブルコインUSDC払い可能な「Slash Card」一般公開へ",
+   "link": "https://coinpost.jp/?p=743196",
+   "published": "10/15 16:28",
+   "ts": 1792049285.0,
+   "source": "CoinPost",
+   "desc": "Slash Visionは15日、アプリ「Slash App」を正式リリースし、USDCで決済できるVisaカード「Slash Card」を一般公開した。事前登録制を終え、誰でもアプリから申し込める。運転免許証による本人確認にも対応した。"
+  },
+  {
+   "title": "ビットコイン相場が膠着状態、8万ドルが重要な分岐点に＝Glassnode分析",
+   "link": "https://coinpost.jp/?p=743097",
+   "published": "10/15 14:30",
+   "ts": 1792042219.0,
+   "source": "CoinPost",
+   "desc": "オンチェーン分析企業Glassnodeは、ビットコインが上値の売り圧力と下値の厚いサポートに挟まれた膠着状態にあると分析した。ETFの売り再開も影響し、8万ドルが重要な分岐点となるとみる。"
+  },
+  {
+   "title": "ステーブルコインUSDC、EU初の「重要な電子マネートークン（EMT）」に指定",
+   "link": "https://coinpost.jp/?p=743060",
+   "published": "10/15 14:00",
+   "ts": 1792040457.0,
+   "source": "CoinPost",
+   "desc": "EU当局は14日、サークル社のステーブルコインUSDCをMiCAに基づく初の「重要な電子マネートークン」に分類した。準備資産や流動性などの直接監督権限がEUに移る。"
+  },
+  {
+   "title": "楽天ウォレット、現物と証拠金のアプリを統合　パスキー必須に",
+   "link": "https://coinpost.jp/?p=743139",
+   "published": "10/15 13:59",
+   "ts": 1792040343.0,
+   "source": "CoinPost",
+   "desc": "楽天ウォレットは15日、暗号資産（仮想通貨）の現物取引と証拠金取引のアプリを統合した新アプリの提供開始を発表した。ログインはパスキー認証が必須となり、旧2アプリは2027年初頭をめどに終了する。AIコンシェルジュなど新機能の概要をまとめた。"
+  },
+  {
+   "title": "メタプラネット傘下入り予定の米スーパーリーグ、ビットコイン初購入",
    "link": "https://coinpost.jp/?p=743106",
    "published": "10/15 13:40",
    "ts": 1792039221.0,
@@ -81,46 +113,46 @@
    "ts": 1792030847.0,
    "source": "CoinPost",
    "desc": "ソラナを保有するスカイAI株の約9.99％を持つ大株主バスティオン・トレーディングが、約70％のソラナの売却を巡る全面開示と取締役会の刷新を要求し、自社株買いに保有株を売らない方針を示した。"
-  },
-  {
-   "title": "ビットコイン、3つのオンチェーン指標が底入れ示唆　米中間選挙直前＝アナリスト",
-   "link": "https://coinpost.jp/?p=743045",
-   "published": "10/15 10:46",
-   "ts": 1792028778.0,
-   "source": "CoinPost",
-   "desc": "クリプトクアントのアナリストが、米中間選挙を控えたビットコインに10月の底入れの兆候が出ていると分析した。取引所残高の低水準やクジラ保有の増加など3指標を挙げる一方、確認にはETF資金流入の継続が必要とした。"
-  },
-  {
-   "title": "仮想通貨アナリストの見方が強気に転換、2022年末の底からの回復より急速＝クリプトクアント",
-   "link": "https://coinpost.jp/?p=742997",
-   "published": "10/15 10:30",
-   "ts": 1792027804.0,
-   "source": "CoinPost",
-   "desc": "クリプトクアントはビットコイン、イーサリアム、XRPなど仮想通貨主要5銘柄のアナリスト・コンセンサスが7月以降強気に傾いたと報告した。"
-  },
-  {
-   "title": "ビットコイン下落、米CPI上振れで利上げ警戒｜仮想NISHI",
-   "link": "https://coinpost.jp/?p=740303",
-   "published": "10/15 10:05",
-   "ts": 1792026305.0,
-   "source": "CoinPost",
-   "desc": "*本レポートは、クリプトアナリストである仮想NISHI（@Nishi8maru）氏が、CoinPostに寄稿した記事です。クリプト市場マーケットレポート（10/15AM10時執筆）寄稿者：仮想NISHI仮想NISHIクリプトアナリスト。BT..."
-  },
-  {
-   "title": "ポリゴン、米48州で規制準拠した資金移動に対応　コインミー買収完了で",
-   "link": "https://coinpost.jp/?p=743008",
-   "published": "10/15 10:00",
-   "ts": 1792026057.0,
-   "source": "CoinPost",
-   "desc": "ポリゴン・ラボが米仮想通貨企業コインミーの買収を完了した。米48州で規制下の資金移動に対応する決済基盤に、タザペイ、メッシュ、トク、キラの4社が初期の導入企業として加わった。"
   }
  ],
  "news_jp": [
   {
-   "title": "日経平均 一時3600円以上値下がり",
-   "link": "https://news.yahoo.co.jp/pickup/6598860?source=rss",
-   "published": "10/15 13:30",
-   "ts": 1792038612.0,
+   "title": "年金だけで暮らせず 毎日働く71歳",
+   "link": "https://news.yahoo.co.jp/pickup/6598916?source=rss",
+   "published": "10/15 20:29",
+   "ts": 1792063745.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "サイゼリヤ株 一時14%高の急反発",
+   "link": "https://news.yahoo.co.jp/pickup/6598901?source=rss",
+   "published": "10/15 18:23",
+   "ts": 1792056182.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "パナ ドラム式洗濯乾燥機リコール",
+   "link": "https://news.yahoo.co.jp/pickup/6598881?source=rss",
+   "published": "10/15 16:22",
+   "ts": 1792048924.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東証終値3318円安 3番目の下げ幅",
+   "link": "https://news.yahoo.co.jp/pickup/6598878?source=rss",
+   "published": "10/15 15:54",
+   "ts": 1792047248.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "子の習い事 社会性やタイパ重視",
+   "link": "https://news.yahoo.co.jp/pickup/6598870?source=rss",
+   "published": "10/15 14:43",
+   "ts": 1792043037.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -133,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "豆腐の移動販売で年商20億円 秘訣",
-   "link": "https://news.yahoo.co.jp/pickup/6598825?source=rss",
-   "published": "10/15 10:46",
-   "ts": 1792028795.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "うなぎパイ企業 部門赤字どう解消",
    "link": "https://news.yahoo.co.jp/pickup/6598819?source=rss",
    "published": "10/15 09:13",
@@ -149,34 +173,10 @@
    "desc": ""
   },
   {
-   "title": "米上場の半導体株 下落止まらず",
-   "link": "https://news.yahoo.co.jp/pickup/6598805?source=rss",
-   "published": "10/15 07:37",
-   "ts": 1792017470.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ネトフリ 従業員約1000人を削減へ",
    "link": "https://news.yahoo.co.jp/pickup/6598797?source=rss",
    "published": "10/15 06:20",
    "ts": 1792012835.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "万博未払い アンゴラ異例対応の訳",
-   "link": "https://news.yahoo.co.jp/pickup/6598795?source=rss",
-   "published": "10/15 00:20",
-   "ts": 1791991227.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀利上げ 2%超える可能性は",
-   "link": "https://news.yahoo.co.jp/pickup/6598757?source=rss",
-   "published": "10/14 22:18",
-   "ts": 1791983889.0,
    "source": "Yahoo!",
    "desc": ""
   }
