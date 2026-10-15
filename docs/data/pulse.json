@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15 20:42:53",
+ "updated_at": "2026-10-16 02:10:25",
  "fng": {
   "value": 53,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.032588813936684,
-  "eth_dominance": 10.650946447097905,
-  "total_mcap_usd": 2711370430935.533,
-  "mcap_change_24h": -5.783515386638133
+  "btc_dominance": 59.354956159448534,
+  "eth_dominance": 10.69692213536265,
+  "total_mcap_usd": 2777599807486.7075,
+  "mcap_change_24h": -2.7248650767983364
  },
  "defi": {
-  "tvl_usd": 88619878879.0,
-  "change_1d": -0.02682282154996707,
-  "change_7d": -0.05190702693114635,
-  "change_1y": -0.4315339945467508,
-  "range_pos_1y": 0.23566308854052026
+  "tvl_usd": 88771848787.0,
+  "change_1d": -0.025154023449514007,
+  "change_7d": -0.04994561468556247,
+  "change_1y": -0.4305545200792401,
+  "range_pos_1y": 0.23782607701794656
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "洗濯機が発火恐れ パナがリコール",
+   "link": "https://news.yahoo.co.jp/pickup/6598928?source=rss",
+   "published": "10/15 22:37",
+   "ts": 1792071452.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "年金だけで暮らせず 毎日働く71歳",
    "link": "https://news.yahoo.co.jp/pickup/6598916?source=rss",
    "published": "10/15 20:29",
@@ -129,14 +137,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598901?source=rss",
    "published": "10/15 18:23",
    "ts": 1792056182.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "パナ ドラム式洗濯乾燥機リコール",
-   "link": "https://news.yahoo.co.jp/pickup/6598881?source=rss",
-   "published": "10/15 16:22",
-   "ts": 1792048924.0,
    "source": "Yahoo!",
    "desc": ""
   },
