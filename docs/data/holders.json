@@ -1,6 +1,6 @@
 {
- "fetched_at": 1791937427.5081933,
- "updated_at": "2026-10-14 09:23:47",
+ "fetched_at": 1792039951.1792262,
+ "updated_at": "2026-10-15 13:52:31",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -782,9 +782,9 @@
    "MFS SERIES TRUST X-MFS International Intrinsic Value Fund": "2026-09-09",
    "First Eagle Funds-First Eagle Global Fund": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
-   "Boston Common Asset Management, LLC": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Boston Common Asset Management, LLC": "2026-09-09"
   },
   "6702.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -957,8 +957,8 @@
    "TR PRICE-Price (T.Rowe) International Value Equity Trust": "2026-10-07",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Boston Common Asset Management, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Boston Common Asset Management, LLC": "2026-09-09"
   },
   "8604.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -1622,11 +1622,11 @@
    "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Diversified Trust Company": "2026-09-09",
-   "Boston Common Asset Management, LLC": "2026-09-09",
    "Sageworth Trust Company": "2026-09-09",
    "Richardson Financial Services Inc.": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Gamma Investing LLC": "2026-09-09"
+   "Gamma Investing LLC": "2026-09-09",
+   "Boston Common Asset Management, LLC": "2026-09-09"
   },
   "6923.T": {
    "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund": "2026-09-09",
@@ -10430,19 +10430,6 @@
     "suspect": false
    },
    {
-    "holder": "Boston Common Asset Management, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 7148,
-    "pct_change": -0.2014,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Paradigm Asset Management Company, LLC",
     "kind": "inst",
     "type": "inst",
@@ -10465,6 +10452,19 @@
     "pct_held": 0.0,
     "shares": 56358,
     "pct_change": 0.7111,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Boston Common Asset Management, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 7121,
+    "pct_change": -0.0038,
     "new_est": false,
     "suspect": false
    }
@@ -12369,19 +12369,6 @@
     "suspect": false
    },
    {
-    "holder": "Boston Common Asset Management, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 6709,
-    "pct_change": -0.17950001,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -12391,6 +12378,19 @@
     "pct_held": 0.0,
     "shares": 8666,
     "pct_change": -0.0761,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Boston Common Asset Management, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 5900,
+    "pct_change": -0.12060001,
     "new_est": false,
     "suspect": false
    }
@@ -19730,19 +19730,6 @@
     "suspect": false
    },
    {
-    "holder": "Boston Common Asset Management, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 537,
-    "pct_change": -0.5872,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Sageworth Trust Company",
     "kind": "inst",
     "type": "inst",
@@ -19791,6 +19778,19 @@
     "pct_held": 0.0,
     "shares": 33,
     "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Boston Common Asset Management, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 535,
+    "pct_change": -0.0037,
     "new_est": false,
     "suspect": false
    }
@@ -32003,23 +32003,6 @@
    "new_here": true
   },
   {
-   "symbol": "6503.T",
-   "name": "三菱電機",
-   "holder": "Boston Common Asset Management, LLC",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 7148,
-   "pct_change": -0.2014,
-   "new_est": false,
-   "suspect": false,
-   "dir": "down",
-   "new_here": false
-  },
-  {
    "symbol": "6723.T",
    "name": "ルネサスエレクトロニクス",
    "holder": "TR PRICE-Price (T.Rowe) International Value Equity Trust",
@@ -32422,23 +32405,6 @@
    "pct_held": 0.0,
    "shares": 7810,
    "pct_change": -0.587,
-   "new_est": false,
-   "suspect": false,
-   "dir": "down",
-   "new_here": false
-  },
-  {
-   "symbol": "6861.T",
-   "name": "キーエンス",
-   "holder": "Boston Common Asset Management, LLC",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 537,
-   "pct_change": -0.5872,
    "new_est": false,
    "suspect": false,
    "dir": "down",
