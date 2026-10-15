@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16 02:10:25",
+ "updated_at": "2026-10-16 08:43:32",
  "fng": {
   "value": 53,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.354956159448534,
-  "eth_dominance": 10.69692213536265,
-  "total_mcap_usd": 2777599807486.7075,
-  "mcap_change_24h": -2.7248650767983364
+  "btc_dominance": 59.312438113014785,
+  "eth_dominance": 10.702547805050813,
+  "total_mcap_usd": 2777248493208.196,
+  "mcap_change_24h": -2.1293945214957777
  },
  "defi": {
-  "tvl_usd": 88771848787.0,
-  "change_1d": -0.025154023449514007,
-  "change_7d": -0.04994561468556247,
-  "change_1y": -0.4305545200792401,
-  "range_pos_1y": 0.23782607701794656
+  "tvl_usd": 90287282406.0,
+  "change_1d": -0.008512357534887882,
+  "change_7d": -0.03372713579775177,
+  "change_1y": -0.4208334560679442,
+  "range_pos_1y": 0.2553193491622719
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "「お得感」前面に ローソン好調",
+   "link": "https://news.yahoo.co.jp/pickup/6598945?source=rss",
+   "published": "10/16 07:56",
+   "ts": 1792105006.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "洗濯機が発火恐れ パナがリコール",
    "link": "https://news.yahoo.co.jp/pickup/6598928?source=rss",
    "published": "10/15 22:37",
@@ -137,14 +145,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598901?source=rss",
    "published": "10/15 18:23",
    "ts": 1792056182.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東証終値3318円安 3番目の下げ幅",
-   "link": "https://news.yahoo.co.jp/pickup/6598878?source=rss",
-   "published": "10/15 15:54",
-   "ts": 1792047248.0,
    "source": "Yahoo!",
    "desc": ""
   },
