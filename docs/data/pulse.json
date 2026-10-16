@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16 20:36:34",
+ "updated_at": "2026-10-17 01:46:59",
  "fng": {
   "value": 63,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.263712467020945,
-  "eth_dominance": 10.816162301807196,
-  "total_mcap_usd": 2796637644075.391,
-  "mcap_change_24h": -0.21524667014297355
+  "btc_dominance": 59.253441062145086,
+  "eth_dominance": 10.770886642136116,
+  "total_mcap_usd": 2757308000064.83,
+  "mcap_change_24h": -3.58449646569283
  },
  "defi": {
-  "tvl_usd": 90053827199.0,
-  "change_1d": 0.006008763362169489,
-  "change_7d": -0.011788959694525536,
-  "change_1y": -0.40305456310832666,
-  "range_pos_1y": 0.2523593963231835
+  "tvl_usd": 89668756796.0,
+  "change_1d": 0.0017070672436287904,
+  "change_7d": -0.016014552713449426,
+  "change_1y": -0.40560710337343864,
+  "range_pos_1y": 0.24791257840690648
  },
  "news_crypto": [
   {
@@ -117,10 +117,26 @@
  ],
  "news_jp": [
   {
-   "title": "ゲーセン市場内 分かれる明暗",
-   "link": "https://news.yahoo.co.jp/pickup/6599023?source=rss",
-   "published": "10/16 20:03",
-   "ts": 1792148631.0,
+   "title": "テスラ新型車 空を飛び宙返り実演",
+   "link": "https://news.yahoo.co.jp/pickup/6599049?source=rss",
+   "published": "10/17 00:17",
+   "ts": 1792163842.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ニデック 永守氏らへの訴訟を検討",
+   "link": "https://news.yahoo.co.jp/pickup/6599040?source=rss",
+   "published": "10/16 22:20",
+   "ts": 1792156806.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ガスト・サイゼ・ロイホ 戦略比較",
+   "link": "https://news.yahoo.co.jp/pickup/6599029?source=rss",
+   "published": "10/16 21:27",
+   "ts": 1792153630.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -145,22 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6598992?source=rss",
    "published": "10/16 15:31",
    "ts": 1792132281.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ヤマト運輸 個人情報530万件流出",
-   "link": "https://news.yahoo.co.jp/pickup/6598987?source=rss",
-   "published": "10/16 14:40",
-   "ts": 1792129239.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "テスラ新型車 空中旋回を実演",
-   "link": "https://news.yahoo.co.jp/pickup/6598984?source=rss",
-   "published": "10/16 14:01",
-   "ts": 1792126913.0,
    "source": "Yahoo!",
    "desc": ""
   },
