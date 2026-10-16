@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16 13:43:06",
+ "updated_at": "2026-10-16 20:36:34",
  "fng": {
   "value": 63,
   "label": "強欲",
@@ -37,19 +37,75 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.269395841805725,
-  "eth_dominance": 10.713333738686346,
-  "total_mcap_usd": 2772818849117.707,
-  "mcap_change_24h": -0.9740537396411268
+  "btc_dominance": 59.263712467020945,
+  "eth_dominance": 10.816162301807196,
+  "total_mcap_usd": 2796637644075.391,
+  "mcap_change_24h": -0.21524667014297355
  },
  "defi": {
-  "tvl_usd": 89874097478.0,
-  "change_1d": 0.003934783332691705,
-  "change_7d": -0.013808416785693,
-  "change_1y": -0.4042414137855006,
-  "range_pos_1y": 0.2502871532851709
+  "tvl_usd": 90053827199.0,
+  "change_1d": 0.006008763362169489,
+  "change_7d": -0.011788959694525536,
+  "change_1y": -0.40305456310832666,
+  "range_pos_1y": 0.2523593963231835
  },
  "news_crypto": [
+  {
+   "title": "3メガ銀、共同発行ステーブルコインで国際決済の実証を完了",
+   "link": "https://coinpost.jp/?p=743371",
+   "published": "10/16 17:54",
+   "ts": 1792140863.0,
+   "source": "CoinPost",
+   "desc": "みずほ銀行・三菱UFJ銀行・三井住友銀行の3メガバンクなど5社が、共同発行する円建てステーブルコインで三菱商事の国際決済を想定した実証を実施した。信託型の発行スキームとAML対策、2026年度中の実取引に向けた設計を整理する。"
+  },
+  {
+   "title": "ANAP、ビットコイン評価損43.7億円を計上　前期の評価益12億円から反転",
+   "link": "https://coinpost.jp/?p=743366",
+   "published": "10/16 17:24",
+   "ts": 1792139078.0,
+   "source": "CoinPost",
+   "desc": "ANAPホールディングスは15日、2026年8月期に保有ビットコインの評価損43億7,466万円を計上したと発表。最終損失は73億2,300万円に拡大した。前期の評価益からの反転と、期中に開示した評価損の推移をまとめる。"
+  },
+  {
+   "title": "英上場スマーター・ウェブ、83BTCのビットコインを追加取得　保有2830BTCに",
+   "link": "https://coinpost.jp/?p=743362",
+   "published": "10/16 16:51",
+   "ts": 1792137085.0,
+   "source": "CoinPost",
+   "desc": "英上場のスマーター・ウェブ・カンパニーが83BTCを約520万ポンドで追加取得し、ビットコイン保有量は2,830BTCに。優先株の調達資金でコインベースからの借入を圧縮したほか、累計のBTC売却額も開示した。"
+  },
+  {
+   "title": "リップル社、株式や金属などに連動する無期限スワップを機関向けに開始",
+   "link": "https://coinpost.jp/?p=743347",
+   "published": "10/16 15:45",
+   "ts": 1792133142.0,
+   "source": "CoinPost",
+   "desc": "リップル社の機関投資家向けプライムブローカー「リップルプライム」が、株式やETF、金属、為替など100超の市場を参照するRWA無期限スワップの提供を始めた。ハイパーリキッド上の先物を参照し、24時間取引できる。担保にはRLUSDも使える（法域により異なる）。"
+  },
+  {
+   "title": "SBIら、ドル建てOUSD連合に参画　円建てJPYSCと相互運用を検討",
+   "link": "https://coinpost.jp/?p=743339",
+   "published": "10/16 14:53",
+   "ts": 1792129989.0,
+   "source": "CoinPost",
+   "desc": "SBIホールディングスとスターテイルが、米ドル建てステーブルコインOUSDを推進するオープンスタンダードに参画した。ビザやコインベースなど140社超が加わる枠組みで、円建てステーブルコインJPYSCとの相互運用に向けた実証実験を検討する。"
+  },
+  {
+   "title": "グーグル、量子コンピュータ「20年の壁」に前進　必須工程でエラー40分の1に",
+   "link": "https://coinpost.jp/?p=743320",
+   "published": "10/16 14:20",
+   "ts": 1792128057.0,
+   "source": "CoinPost",
+   "desc": "Google Quantum AIは、量子プロセッサ「Willow」で「マジック状態の培養」を実証したと発表した。エラーを約40分の1に低減し、T状態の論理忠実度99.99%を達成。成果は科学誌Scienceに掲載された。"
+  },
+  {
+   "title": "オープンAIの研究モデル、イーサリアムのテストネットで他者の資金を無断使用",
+   "link": "https://coinpost.jp/?p=743326",
+   "published": "10/16 14:01",
+   "ts": 1792126869.0,
+   "source": "CoinPost",
+   "desc": "オープンAIは15日付の報告で、社内研究モデルがイーサリアムのテストネットSepoliaで、公開シードフレーズから第三者のウォレット鍵を導出し、無断で手数料を支払っていたことを明らかにした。モデルは許可を自問しつつ実行し、最終報告でも開示しなかった。"
+  },
   {
    "title": "レジャー、不正部品攻撃は流通経路狙った組織的犯行と説明　対策も公開",
    "link": "https://coinpost.jp/?p=743309",
@@ -57,70 +113,54 @@
    "ts": 1792121406.0,
    "source": "CoinPost",
    "desc": "レジャーは、同社仮想通貨ウォレットへの不正部品混入は組織的犯罪グループによる流通段階の改ざんだったと説明。東南アジアでの販売停止や陳列禁止など対策も公表した。"
-  },
-  {
-   "title": "バイナンスUS、最大1億ドル調達へ　評価額約10億ドル＝報道",
-   "link": "https://coinpost.jp/?p=743310",
-   "published": "10/16 11:29",
-   "ts": 1792117769.0,
-   "source": "CoinPost",
-   "desc": "米仮想通貨取引所バイナンスUSが最大1億ドルの資金調達を模索していると、ブルームバーグが報じた。評価額は約10億ドルで、2022年調達時の45億ドルを大きく下回る。予測市場への参入や州ライセンスの回復も視野に入れる。"
-  },
-  {
-   "title": "上場ビットコインマイナー3社の9月採掘量、2社が前月比4〜11％減",
-   "link": "https://coinpost.jp/?p=743286",
-   "published": "10/16 10:50",
-   "ts": 1792115431.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコイン採掘企業3社が9月の実績を報告。クリーンスパークとビットフフが前月比で減少し、カナーンは横ばいだった。データセンターや排熱利用などの進捗も述べた。"
-  },
-  {
-   "title": "MSCI新ルール決定、ストラテジーらビットコイン保有企業に除外の可能性",
-   "link": "https://coinpost.jp/?p=743293",
-   "published": "10/16 09:54",
-   "ts": 1792112069.0,
-   "source": "CoinPost",
-   "desc": "米指数算出大手MSCIが非事業会社をグローバル指数の採用対象外とする新基準の導入を発表した。5つの財務比率で判定し、11月30日に発効する。ビットコイン保有企業ストラテジーやメタプラネットへの影響と判定方法を整理する。"
-  },
-  {
-   "title": "仮想通貨ウォレット大手レジャーが新機器「Ledger Atom」を発表、不正装置対策も計画",
-   "link": "https://coinpost.jp/?p=743283",
-   "published": "10/16 09:00",
-   "ts": 1792108805.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ウォレット大手レジャーは、新デバイスLedger Atomを発表。2027年夏にローンチしたり、不正装置対策を講じたりする計画を説明した。"
-  },
-  {
-   "title": "ドル建てステーブルコインUSDC払い可能な「Slash Card」一般公開へ",
-   "link": "https://coinpost.jp/?p=743196",
-   "published": "10/15 16:28",
-   "ts": 1792049285.0,
-   "source": "CoinPost",
-   "desc": "Slash Visionは15日、アプリ「Slash App」を正式リリースし、USDCで決済できるVisaカード「Slash Card」を一般公開した。事前登録制を終え、誰でもアプリから申し込める。運転免許証による本人確認にも対応した。"
-  },
-  {
-   "title": "ビットコイン相場が膠着状態、8万ドルが重要な分岐点に＝Glassnode分析",
-   "link": "https://coinpost.jp/?p=743097",
-   "published": "10/15 14:30",
-   "ts": 1792042219.0,
-   "source": "CoinPost",
-   "desc": "オンチェーン分析企業Glassnodeは、ビットコインが上値の売り圧力と下値の厚いサポートに挟まれた膠着状態にあると分析した。ETFの売り再開も影響し、8万ドルが重要な分岐点となるとみる。"
-  },
-  {
-   "title": "ステーブルコインUSDC、EU初の「重要な電子マネートークン（EMT）」に指定",
-   "link": "https://coinpost.jp/?p=743060",
-   "published": "10/15 14:00",
-   "ts": 1792040457.0,
-   "source": "CoinPost",
-   "desc": "EU当局は14日、サークル社のステーブルコインUSDCをMiCAに基づく初の「重要な電子マネートークン」に分類した。準備資産や流動性などの直接監督権限がEUに移る。"
   }
  ],
  "news_jp": [
   {
-   "title": "チョコザップ機器で事故 運営謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6598964?source=rss",
-   "published": "10/16 11:45",
-   "ts": 1792118712.0,
+   "title": "ゲーセン市場内 分かれる明暗",
+   "link": "https://news.yahoo.co.jp/pickup/6599023?source=rss",
+   "published": "10/16 20:03",
+   "ts": 1792148631.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "トヨタ 30年までに全車種をSDVに",
+   "link": "https://news.yahoo.co.jp/pickup/6599017?source=rss",
+   "published": "10/16 18:46",
+   "ts": 1792143980.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JR東海 新幹線の新型車両を発表",
+   "link": "https://news.yahoo.co.jp/pickup/6598995?source=rss",
+   "published": "10/16 16:10",
+   "ts": 1792134603.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東海道新幹線のぞみ 来年値上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6598992?source=rss",
+   "published": "10/16 15:31",
+   "ts": 1792132281.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ヤマト運輸 個人情報530万件流出",
+   "link": "https://news.yahoo.co.jp/pickup/6598987?source=rss",
+   "published": "10/16 14:40",
+   "ts": 1792129239.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "テスラ新型車 空中旋回を実演",
+   "link": "https://news.yahoo.co.jp/pickup/6598984?source=rss",
+   "published": "10/16 14:01",
+   "ts": 1792126913.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -133,50 +173,10 @@
    "desc": ""
   },
   {
-   "title": "葉物野菜高騰 家計に優しい料理は",
-   "link": "https://news.yahoo.co.jp/pickup/6598961?source=rss",
-   "published": "10/16 11:08",
-   "ts": 1792116490.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ソニー 93万円のウォークマン発表",
    "link": "https://news.yahoo.co.jp/pickup/6598952?source=rss",
    "published": "10/16 09:05",
    "ts": 1792109149.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「お得感」前面に ローソン好調",
-   "link": "https://news.yahoo.co.jp/pickup/6598945?source=rss",
-   "published": "10/16 07:56",
-   "ts": 1792105006.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "洗濯機が発火恐れ パナがリコール",
-   "link": "https://news.yahoo.co.jp/pickup/6598928?source=rss",
-   "published": "10/15 22:37",
-   "ts": 1792071452.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "年金だけで暮らせず 毎日働く71歳",
-   "link": "https://news.yahoo.co.jp/pickup/6598916?source=rss",
-   "published": "10/15 20:29",
-   "ts": 1792063745.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "サイゼリヤ株 一時14%高の急反発",
-   "link": "https://news.yahoo.co.jp/pickup/6598901?source=rss",
-   "published": "10/15 18:23",
-   "ts": 1792056182.0,
    "source": "Yahoo!",
    "desc": ""
   }
