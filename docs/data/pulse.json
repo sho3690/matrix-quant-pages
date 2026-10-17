@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17 19:56:43",
+ "updated_at": "2026-10-18 00:43:34",
  "fng": {
   "value": 55,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.29651550249029,
-  "eth_dominance": 10.768032723893672,
-  "total_mcap_usd": 2759619340538.985,
-  "mcap_change_24h": -3.3757549809734306
+  "btc_dominance": 59.416328410966976,
+  "eth_dominance": 10.710742641549645,
+  "total_mcap_usd": 2749778588738.785,
+  "mcap_change_24h": -3.616679004347878
  },
  "defi": {
-  "tvl_usd": 89574621376.0,
-  "change_1d": -0.004406996293027321,
-  "change_7d": -0.022259851117349516,
-  "change_1y": -0.39475306573465097,
-  "range_pos_1y": 0.24682549648902596
+  "tvl_usd": 89345712883.0,
+  "change_1d": -0.006950142136700088,
+  "change_7d": -0.024758470474767647,
+  "change_1y": -0.39629977797844596,
+  "range_pos_1y": 0.24418204640839128
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "なぜ都市部にデータセンター 解説",
+   "link": "https://news.yahoo.co.jp/pickup/6599158?source=rss",
+   "published": "10/17 20:49",
+   "ts": 1792237799.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "冷凍食品 高級化に異業種の参入",
    "link": "https://news.yahoo.co.jp/pickup/6599149?source=rss",
    "published": "10/17 19:08",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599073?source=rss",
    "published": "10/17 09:53",
    "ts": 1792198402.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ニデック 永守氏らへの訴訟を検討",
-   "link": "https://news.yahoo.co.jp/pickup/6599040?source=rss",
-   "published": "10/16 22:20",
-   "ts": 1792156806.0,
    "source": "Yahoo!",
    "desc": ""
   }
