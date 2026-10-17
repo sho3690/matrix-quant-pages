@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18 00:43:34",
+ "updated_at": "2026-10-18 08:12:52",
  "fng": {
   "value": 55,
   "label": "強欲",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.416328410966976,
-  "eth_dominance": 10.710742641549645,
-  "total_mcap_usd": 2749778588738.785,
-  "mcap_change_24h": -3.616679004347878
+  "btc_dominance": 59.487035472729076,
+  "eth_dominance": 10.637315789317832,
+  "total_mcap_usd": 2740417888927.737,
+  "mcap_change_24h": -3.383521729432433
  },
  "defi": {
-  "tvl_usd": 89345712883.0,
-  "change_1d": -0.006950142136700088,
-  "change_7d": -0.024758470474767647,
-  "change_1y": -0.39629977797844596,
-  "range_pos_1y": 0.24418204640839128
+  "tvl_usd": 88782323962.0,
+  "change_1d": -0.0077069325559128155,
+  "change_7d": -0.025679134198333786,
+  "change_1y": -0.4001065416799967,
+  "range_pos_1y": 0.2376759947144241
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "通販に未認証のチャイルドシート",
+   "link": "https://news.yahoo.co.jp/pickup/6599187?source=rss",
+   "published": "10/18 07:37",
+   "ts": 1792276650.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "なぜ都市部にデータセンター 解説",
    "link": "https://news.yahoo.co.jp/pickup/6599158?source=rss",
    "published": "10/17 20:49",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599101?source=rss",
    "published": "10/17 13:18",
    "ts": 1792210731.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タイムズカー 免許画像すぐ削除へ",
-   "link": "https://news.yahoo.co.jp/pickup/6599073?source=rss",
-   "published": "10/17 09:53",
-   "ts": 1792198402.0,
    "source": "Yahoo!",
    "desc": ""
   }
