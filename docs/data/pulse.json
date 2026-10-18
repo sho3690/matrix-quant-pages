@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19 00:59:06",
+ "updated_at": "2026-10-19 08:22:13",
  "fng": {
   "value": 53,
   "label": "中立",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.10965053217071,
-  "eth_dominance": 10.710787946550067,
-  "total_mcap_usd": 2705694852492.7866,
-  "mcap_change_24h": -4.408191513591389
+  "btc_dominance": 60.11579088306238,
+  "eth_dominance": 10.679081930945541,
+  "total_mcap_usd": 2723925768139.7837,
+  "mcap_change_24h": -3.2888298341003646
  },
  "defi": {
-  "tvl_usd": 88184580462.0,
-  "change_1d": -0.0061328264966894475,
-  "change_7d": -0.03615213035370635,
-  "change_1y": -0.39378870510485964,
-  "range_pos_1y": 0.2311367398776591
+  "tvl_usd": 87831589710.0,
+  "change_1d": -0.010105973422203873,
+  "change_7d": -0.04000773189638773,
+  "change_1y": -0.3962152855765798,
+  "range_pos_1y": 0.2270623062761184
  },
  "news_crypto": [
+  {
+   "title": "アルトコインの勢い鈍る、上昇基調の銘柄は9割から5割に＝アナリスト",
+   "link": "https://coinpost.jp/?p=743479",
+   "published": "10/19 07:46",
+   "ts": 1792363570.0,
+   "source": "CoinPost",
+   "desc": "アナリストのダークフォスト氏が、8月下旬から続いたアルトコインの上昇局面の失速を指摘。バイナンス上場銘柄で200日線を上回る割合は9割超から約5割に低下し、直近15日間で1,340億ドル超が流出したという。"
+  },
   {
    "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
    "link": "https://coinpost.jp/?p=743353",
@@ -105,17 +113,25 @@
    "ts": 1792200336.0,
    "source": "CoinPost",
    "desc": "コインベースとグラスノードが10〜12月期の仮想通貨市場見通しを公表。利上げ下でも回復が進んだ現状を評価しつつ、上値の供給圧力など短期リスクにも言及した。"
-  },
-  {
-   "title": "コインベース、カード発行のMarqetaに仮想通貨基盤提供",
-   "link": "https://coinpost.jp/?p=743408",
-   "published": "10/17 10:00",
-   "ts": 1792198835.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨取引所コインベースが、カード発行基盤を手がける米マーケタの企業顧客向けに、ステーブルコイン裏付けカードの保管・換金・決済基盤を提供する。カード保有者は世界の加盟店でステーブルコイン残高を使える。"
   }
  ],
  "news_jp": [
+  {
+   "title": "東芝 難関大生から再評価される今",
+   "link": "https://news.yahoo.co.jp/pickup/6599312?source=rss",
+   "published": "10/19 08:04",
+   "ts": 1792364679.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新品畳に子が「臭い」畳店の思い",
+   "link": "https://news.yahoo.co.jp/pickup/6599303?source=rss",
+   "published": "10/19 06:46",
+   "ts": 1792359969.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "長雨や日照不足の影響 農家苦悩",
    "link": "https://news.yahoo.co.jp/pickup/6599279?source=rss",
@@ -141,14 +157,6 @@
    "desc": ""
   },
   {
-   "title": "ベイブレード 香港で大人も熱狂",
-   "link": "https://news.yahoo.co.jp/pickup/6599253?source=rss",
-   "published": "10/18 16:52",
-   "ts": 1792309948.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "商店がない離島の自販機 なぜ撤去",
    "link": "https://news.yahoo.co.jp/pickup/6599249?source=rss",
    "published": "10/18 16:21",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599214?source=rss",
    "published": "10/18 11:29",
    "ts": 1792290558.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "中国人観光客 目立つ「大阪離れ」",
-   "link": "https://news.yahoo.co.jp/pickup/6599199?source=rss",
-   "published": "10/18 09:15",
-   "ts": 1792282528.0,
    "source": "Yahoo!",
    "desc": ""
   }
