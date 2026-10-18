@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-18 08:12:52",
+ "updated_at": "2026-10-18 13:45:47",
  "fng": {
-  "value": 55,
-  "label": "強欲",
+  "value": 53,
+  "label": "中立",
   "history": [
-   56,
    71,
    71,
    70,
@@ -33,23 +32,40 @@
    62,
    53,
    63,
-   55
+   55,
+   53
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.487035472729076,
-  "eth_dominance": 10.637315789317832,
-  "total_mcap_usd": 2740417888927.737,
-  "mcap_change_24h": -3.383521729432433
+  "btc_dominance": 59.48343103553374,
+  "eth_dominance": 10.685923861806915,
+  "total_mcap_usd": 2755672242857.776,
+  "mcap_change_24h": -2.702366581751845
  },
  "defi": {
-  "tvl_usd": 88782323962.0,
-  "change_1d": -0.0077069325559128155,
-  "change_7d": -0.025679134198333786,
-  "change_1y": -0.4001065416799967,
-  "range_pos_1y": 0.2376759947144241
+  "tvl_usd": 88601759584.0,
+  "change_1d": -0.0019176796736044555,
+  "change_7d": -0.03220362839240842,
+  "change_1y": -0.39092087158537236,
+  "range_pos_1y": 0.23559082560021458
  },
  "news_crypto": [
+  {
+   "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=743353",
+   "published": "10/18 11:30",
+   "ts": 1792290653.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン（BTC）はCPI・PPI上振れを受け一時下落するも、8万ドル水準を維持し底堅さを示した。目先はFOMC金利観測の行方と8万ドルのサポート継続が焦点となる。"
+  },
+  {
+   "title": "週刊仮想通貨ニュース（10/16）｜英国の押収BTC・レジャー関連の資産流出・6年超休眠のBTCの動向まとめ",
+   "link": "https://coinpost.jp/?p=743294",
+   "published": "10/18 09:25",
+   "ts": 1792283123.0,
+   "source": "CoinPost",
+   "desc": "今週は、中国人詐欺師からロンドン警視庁が押収した約6万1,000BTC、仮想通貨ウォレットのレジャーに関連する資産流出事案、6年超休眠のビットコインクジラによる約4,582BTC移動に関する記事が関心を集めた。"
+  },
   {
    "title": "ビザ、ステーブルコインUSDCの事前入金を商用化　国際送金で24時間利用可",
    "link": "https://coinpost.jp/?p=743447",
@@ -97,25 +113,49 @@
    "ts": 1792198835.0,
    "source": "CoinPost",
    "desc": "仮想通貨取引所コインベースが、カード発行基盤を手がける米マーケタの企業顧客向けに、ステーブルコイン裏付けカードの保管・換金・決済基盤を提供する。カード保有者は世界の加盟店でステーブルコイン残高を使える。"
-  },
-  {
-   "title": "ウォーシュFRB議長が利上げ示唆せず観測後退、ビットコイン当面レンジ相場",
-   "link": "https://coinpost.jp/?p=743403",
-   "published": "10/17 09:10",
-   "ts": 1792195857.0,
-   "source": "CoinPost",
-   "desc": "コインシェアーズは16日、9月の米CPIと小売売上高が予想を上回りFRBの利上げ観測が強まったため、仮想通貨ビットコインの短期見通しはデータ待ちのレンジ相場とみるべきだと分析した。"
-  },
-  {
-   "title": "東証上場のunbanked、金連動トークン「Kinka」の暗号資産事業を廃止　採算難",
-   "link": "https://coinpost.jp/?p=743404",
-   "published": "10/17 07:30",
-   "ts": 1792189859.0,
-   "source": "CoinPost",
-   "desc": "金地金を裏付けとする仮想通貨「キンカ」を発行してきた国内上場企業unbankedが、暗号資産事業の廃止と子会社3社の解散・清算を決議した。販売低迷と採算確保の困難を理由に挙げ、2027年3月末までに清算を完了する予定だ。"
   }
  ],
  "news_jp": [
+  {
+   "title": "東大も新設「デザイン学部」とは",
+   "link": "https://news.yahoo.co.jp/pickup/6599215?source=rss",
+   "published": "10/18 11:33",
+   "ts": 1792290799.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "スマホ通話で「ピザ持ち」増 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6599214?source=rss",
+   "published": "10/18 11:29",
+   "ts": 1792290558.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "進化系も 人気広がるシートマスク",
+   "link": "https://news.yahoo.co.jp/pickup/6599211?source=rss",
+   "published": "10/18 10:48",
+   "ts": 1792288080.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "医療機関の倒産 1-9月は過去最多",
+   "link": "https://news.yahoo.co.jp/pickup/6599200?source=rss",
+   "published": "10/18 09:39",
+   "ts": 1792283987.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中国人観光客 目立つ「大阪離れ」",
+   "link": "https://news.yahoo.co.jp/pickup/6599199?source=rss",
+   "published": "10/18 09:15",
+   "ts": 1792282528.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "通販に未認証のチャイルドシート",
    "link": "https://news.yahoo.co.jp/pickup/6599187?source=rss",
@@ -133,50 +173,10 @@
    "desc": ""
   },
   {
-   "title": "冷凍食品 高級化に異業種の参入",
-   "link": "https://news.yahoo.co.jp/pickup/6599149?source=rss",
-   "published": "10/17 19:08",
-   "ts": 1792231730.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ソニー生命 50人を営業活動停止に",
    "link": "https://news.yahoo.co.jp/pickup/6599146?source=rss",
    "published": "10/17 18:42",
    "ts": 1792230154.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "レタスが高値 マックやロイホ対応",
-   "link": "https://news.yahoo.co.jp/pickup/6599147?source=rss",
-   "published": "10/17 18:31",
-   "ts": 1792229507.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "IMF高官評価 日本の消費減税法案",
-   "link": "https://news.yahoo.co.jp/pickup/6599121?source=rss",
-   "published": "10/17 16:20",
-   "ts": 1792221656.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "住宅ローン金利上昇 今できること",
-   "link": "https://news.yahoo.co.jp/pickup/6599104?source=rss",
-   "published": "10/17 13:52",
-   "ts": 1792212779.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「隠れ教育費」にモヤモヤ 親の声",
-   "link": "https://news.yahoo.co.jp/pickup/6599101?source=rss",
-   "published": "10/17 13:18",
-   "ts": 1792210731.0,
    "source": "Yahoo!",
    "desc": ""
   }
