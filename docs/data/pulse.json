@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18 13:45:47",
+ "updated_at": "2026-10-18 20:22:25",
  "fng": {
   "value": 53,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.48343103553374,
-  "eth_dominance": 10.685923861806915,
-  "total_mcap_usd": 2755672242857.776,
-  "mcap_change_24h": -2.702366581751845
+  "btc_dominance": 60.10558259966762,
+  "eth_dominance": 10.762798416087719,
+  "total_mcap_usd": 2736641877230.3022,
+  "mcap_change_24h": -3.4885525542416356
  },
  "defi": {
-  "tvl_usd": 88601759584.0,
-  "change_1d": -0.0019176796736044555,
-  "change_7d": -0.03220362839240842,
-  "change_1y": -0.39092087158537236,
-  "range_pos_1y": 0.23559082560021458
+  "tvl_usd": 88893005608.0,
+  "change_1d": 0.0018396030691496534,
+  "change_7d": -0.028409120587161052,
+  "change_1y": -0.38891874572145013,
+  "range_pos_1y": 0.2393138130805252
  },
  "news_crypto": [
   {
@@ -117,6 +117,38 @@
  ],
  "news_jp": [
   {
+   "title": "SUBARU 20年代後半にSDV投入へ",
+   "link": "https://news.yahoo.co.jp/pickup/6599267?source=rss",
+   "published": "10/18 18:34",
+   "ts": 1792316066.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ガソリンスタンドで子が給油 危険",
+   "link": "https://news.yahoo.co.jp/pickup/6599263?source=rss",
+   "published": "10/18 18:13",
+   "ts": 1792314784.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ベイブレード 香港で大人も熱狂",
+   "link": "https://news.yahoo.co.jp/pickup/6599253?source=rss",
+   "published": "10/18 16:52",
+   "ts": 1792309948.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "商店がない離島の自販機 なぜ撤去",
+   "link": "https://news.yahoo.co.jp/pickup/6599249?source=rss",
+   "published": "10/18 16:21",
+   "ts": 1792308066.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "東大も新設「デザイン学部」とは",
    "link": "https://news.yahoo.co.jp/pickup/6599215?source=rss",
    "published": "10/18 11:33",
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "医療機関の倒産 1-9月は過去最多",
-   "link": "https://news.yahoo.co.jp/pickup/6599200?source=rss",
-   "published": "10/18 09:39",
-   "ts": 1792283987.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "中国人観光客 目立つ「大阪離れ」",
    "link": "https://news.yahoo.co.jp/pickup/6599199?source=rss",
    "published": "10/18 09:15",
    "ts": 1792282528.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "通販に未認証のチャイルドシート",
-   "link": "https://news.yahoo.co.jp/pickup/6599187?source=rss",
-   "published": "10/18 07:37",
-   "ts": 1792276650.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "なぜ都市部にデータセンター 解説",
-   "link": "https://news.yahoo.co.jp/pickup/6599158?source=rss",
-   "published": "10/17 20:49",
-   "ts": 1792237799.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ソニー生命 50人を営業活動停止に",
-   "link": "https://news.yahoo.co.jp/pickup/6599146?source=rss",
-   "published": "10/17 18:42",
-   "ts": 1792230154.0,
    "source": "Yahoo!",
    "desc": ""
   }
