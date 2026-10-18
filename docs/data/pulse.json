@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18 20:22:25",
+ "updated_at": "2026-10-19 00:59:06",
  "fng": {
   "value": 53,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.10558259966762,
-  "eth_dominance": 10.762798416087719,
-  "total_mcap_usd": 2736641877230.3022,
-  "mcap_change_24h": -3.4885525542416356
+  "btc_dominance": 60.10965053217071,
+  "eth_dominance": 10.710787946550067,
+  "total_mcap_usd": 2705694852492.7866,
+  "mcap_change_24h": -4.408191513591389
  },
  "defi": {
-  "tvl_usd": 88893005608.0,
-  "change_1d": 0.0018396030691496534,
-  "change_7d": -0.028409120587161052,
-  "change_1y": -0.38891874572145013,
-  "range_pos_1y": 0.2393138130805252
+  "tvl_usd": 88184580462.0,
+  "change_1d": -0.0061328264966894475,
+  "change_7d": -0.03615213035370635,
+  "change_1y": -0.39378870510485964,
+  "range_pos_1y": 0.2311367398776591
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "長雨や日照不足の影響 農家苦悩",
+   "link": "https://news.yahoo.co.jp/pickup/6599279?source=rss",
+   "published": "10/18 20:31",
+   "ts": 1792323061.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "SUBARU 20年代後半にSDV投入へ",
    "link": "https://news.yahoo.co.jp/pickup/6599267?source=rss",
    "published": "10/18 18:34",
@@ -161,14 +169,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599214?source=rss",
    "published": "10/18 11:29",
    "ts": 1792290558.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "進化系も 人気広がるシートマスク",
-   "link": "https://news.yahoo.co.jp/pickup/6599211?source=rss",
-   "published": "10/18 10:48",
-   "ts": 1792288080.0,
    "source": "Yahoo!",
    "desc": ""
   },
