@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19 13:54:07",
+ "updated_at": "2026-10-19 22:36:44",
  "fng": {
   "value": 59,
   "label": "強欲",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.16015065591168,
-  "eth_dominance": 10.729760972540127,
-  "total_mcap_usd": 2772163634774.133,
-  "mcap_change_24h": -2.8103463712722125
+  "btc_dominance": 59.64935388862006,
+  "eth_dominance": 10.644847861482202,
+  "total_mcap_usd": 2771994009419.6836,
+  "mcap_change_24h": -2.1916001806384435
  },
  "defi": {
-  "tvl_usd": 89137103315.0,
-  "change_1d": 0.008827447574469183,
-  "change_7d": -0.03083374498463831,
-  "change_1y": -0.3993887106424798,
-  "range_pos_1y": 0.24213133703497666
+  "tvl_usd": 89639693303.0,
+  "change_1d": 0.014241039176120296,
+  "change_7d": -0.025369205097619085,
+  "change_1y": -0.39600222836422905,
+  "range_pos_1y": 0.2479325358576164
  },
  "news_crypto": [
+  {
+   "title": "ストラテジー、先週34億円相当ビットコインを追加購入　5週連続買い増し",
+   "link": "https://coinpost.jp/?p=743825",
+   "published": "10/19 21:16",
+   "ts": 1792412173.0,
+   "source": "CoinPost",
+   "desc": "ストラテジーは19日、10月12日から18日にかけて267BTCのビットコインを取得したと発表した。購入は5週連続で、保有量は848,517BTCに達した。証券買い戻し枠も30億ドルに拡大した。"
+  },
+  {
+   "title": "9組織が「量子アライアンス」設立、ブロックチェーンの耐量子暗号基準を策定へ",
+   "link": "https://coinpost.jp/?p=743693",
+   "published": "10/19 15:05",
+   "ts": 1792389910.0,
+   "source": "CoinPost",
+   "desc": "9つのブロックチェーン関連組織が「量子アライアンス」を設立した。量子耐性の定義や耐量子暗号への移行基準を策定する。ビットコイン供給量の約30%が量子攻撃のリスクにさらされる中、4つの作業部会で標準化を進める。"
+  },
+  {
+   "title": "セイラー氏、ビットコインは強気相場へ　BTC裏付けステーブルコインにも言及",
+   "link": "https://coinpost.jp/?p=743712",
+   "published": "10/19 14:50",
+   "ts": 1792389053.0,
+   "source": "CoinPost",
+   "desc": "ストラテジーのマイケル・セイラー会長は講演で、ビットコインは強気相場に戻りつつあると述べた。銀行のカストディと与信の拡大を主な追い風に挙げたほか、優先株STRCの買い戻しや利回り付きステーブルコイン構想にも言及した。"
+  },
   {
    "title": "7～9月の仮想通貨被害額は約1870億円、8割弱は直近の監査範囲外の経路＝レポート",
    "link": "https://coinpost.jp/?p=743596",
@@ -89,62 +113,54 @@
    "ts": 1792367144.0,
    "source": "CoinPost",
    "desc": "ギャラクシーのアレックス・ソーン氏は、ETFの資金流出とBTCトレジャリー企業の買いの鈍さが10月のビットコイン軟調の一因と指摘。同社集計では、5年以上動かなかった古参BTCの放出が年初来で機関の吸収量を12万7,319BTC上回る。"
-  },
-  {
-   "title": "BIS論文、預金金利上昇でステーブルコインの成長鈍化　USDCで顕著",
-   "link": "https://coinpost.jp/?p=743482",
-   "published": "10/19 08:24",
-   "ts": 1792365870.0,
-   "source": "CoinPost",
-   "desc": "BISのワーキングペーパーが、ステーブルコインと銀行預金は部分的な代替関係にあるとの分析を示した。預金金利0.01％上昇で平均15％の10週成長率は約12％、逆因果を補正すると約6％に鈍る。USDCの反応はUSDTより強い。"
-  },
-  {
-   "title": "アルトコインの勢い鈍る、上昇基調の銘柄は9割から5割に＝アナリスト",
-   "link": "https://coinpost.jp/?p=743479",
-   "published": "10/19 07:46",
-   "ts": 1792363570.0,
-   "source": "CoinPost",
-   "desc": "アナリストのダークフォスト氏が、8月下旬から続いたアルトコインの上昇局面の失速を指摘。バイナンス上場銘柄で200日線を上回る割合は9割超から約5割に低下し、直近15日間で1,340億ドル超が流出したという。"
-  },
-  {
-   "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=743353",
-   "published": "10/18 11:30",
-   "ts": 1792290653.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン（BTC）はCPI・PPI上振れを受け一時下落するも、8万ドル水準を維持し底堅さを示した。目先はFOMC金利観測の行方と8万ドルのサポート継続が焦点となる。"
   }
  ],
  "news_jp": [
+  {
+   "title": "特定技能「給食」受け入れ再開へ",
+   "link": "https://news.yahoo.co.jp/pickup/6599400?source=rss",
+   "published": "10/19 22:32",
+   "ts": 1792416759.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "タイムズカーの画像巡る懸念 回答",
+   "link": "https://news.yahoo.co.jp/pickup/6599389?source=rss",
+   "published": "10/19 20:04",
+   "ts": 1792407845.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ユニクロ ソックス3点990円終了へ",
+   "link": "https://news.yahoo.co.jp/pickup/6599375?source=rss",
+   "published": "10/19 18:36",
+   "ts": 1792402589.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JAL機内に小動物 見つからず欠航",
+   "link": "https://news.yahoo.co.jp/pickup/6599368?source=rss",
+   "published": "10/19 17:16",
+   "ts": 1792397761.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "個別指導トレーニング トラブル増",
+   "link": "https://news.yahoo.co.jp/pickup/6599359?source=rss",
+   "published": "10/19 16:24",
+   "ts": 1792394695.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "イオン傘下も 普通のスーパー苦境",
    "link": "https://news.yahoo.co.jp/pickup/6599348?source=rss",
    "published": "10/19 13:39",
    "ts": 1792384782.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "こどもNISA 資産管理の注意点は",
-   "link": "https://news.yahoo.co.jp/pickup/6599339?source=rss",
-   "published": "10/19 12:41",
-   "ts": 1792381312.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "バイクの「希望ナンバー制」開始",
-   "link": "https://news.yahoo.co.jp/pickup/6599337?source=rss",
-   "published": "10/19 12:06",
-   "ts": 1792379184.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ANA「ちいかわジェット」就航",
-   "link": "https://news.yahoo.co.jp/pickup/6599329?source=rss",
-   "published": "10/19 10:37",
-   "ts": 1792373866.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -157,26 +173,10 @@
    "desc": ""
   },
   {
-   "title": "タイアップ広告炎上 厚労省が指針",
-   "link": "https://news.yahoo.co.jp/pickup/6599318?source=rss",
-   "published": "10/19 08:44",
-   "ts": 1792367077.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "東芝 難関大生から再評価される今",
    "link": "https://news.yahoo.co.jp/pickup/6599312?source=rss",
    "published": "10/19 08:04",
    "ts": 1792364679.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "新品畳に子が「臭い」畳店の思い",
-   "link": "https://news.yahoo.co.jp/pickup/6599303?source=rss",
-   "published": "10/19 06:46",
-   "ts": 1792359969.0,
    "source": "Yahoo!",
    "desc": ""
   }
