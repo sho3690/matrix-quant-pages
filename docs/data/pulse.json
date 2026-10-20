@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20 17:42:09",
+ "updated_at": "2026-10-20 23:22:41",
  "fng": {
   "value": 55,
   "label": "強欲",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.57381627820673,
-  "eth_dominance": 10.599428319758287,
-  "total_mcap_usd": 2740043432916.092,
-  "mcap_change_24h": -3.228321227264014
+  "btc_dominance": 59.604745627923265,
+  "eth_dominance": 10.6831619037187,
+  "total_mcap_usd": 2811485010125.149,
+  "mcap_change_24h": -1.5057208174010066
  },
  "defi": {
-  "tvl_usd": 88925450986.0,
-  "change_1d": -0.0026810348505291737,
-  "change_7d": -0.003454192012085411,
-  "change_1y": -0.4026280952245148,
-  "range_pos_1y": 0.23968831734355964
+  "tvl_usd": 88820230056.0,
+  "change_1d": -0.0038040007192063907,
+  "change_7d": -0.004633353608022639,
+  "change_1y": -0.4033349347927082,
+  "range_pos_1y": 0.23847379346879477
  },
  "news_crypto": [
+  {
+   "title": "金融庁、DeFi規制の在り方を点検　野村は「海外と同等」求める",
+   "link": "https://coinpost.jp/?p=744022",
+   "published": "10/20 19:20",
+   "ts": 1792491638.0,
+   "source": "CoinPost",
+   "desc": "金融庁は20日、デジタル・分散型金融に関する研究会の令和8事務年度初会合を開き、DEX・DeFiやステーブルコイン、資産トークン化の制度点検に入った。野村HDはDeFiやウォレットの規制を海外と同等の自由度の高いものにするよう求めた。"
+  },
   {
    "title": "XRP、誕生14年で初の公式Xアカウント　リップル社と財団が運営",
    "link": "https://coinpost.jp/?p=744004",
@@ -67,7 +75,7 @@
    "desc": "XRPの大口投資家（クジラ）によるバイナンスからの出金が約5年ぶりの低水準に落ち込んだ。90日平均は4,970万ドルで2021年10月と同水準。クリプトクアントのダークフォスト氏は、背景にXRPの底堅い値動きを挙げた。"
   },
   {
-   "title": "JPモルガンAM、ビットコイン年率10％と想定　米大型株や金を上回る",
+   "title": "ビットコインの長期的リターン、今後10〜15年で年率10％＝JPモルガンAM初予測",
    "link": "https://coinpost.jp/?p=743974",
    "published": "10/20 16:20",
    "ts": 1792480852.0,
@@ -105,17 +113,33 @@
    "ts": 1792463643.0,
    "source": "CoinPost",
    "desc": "仮想通貨関連企業ワールドが銀行・金融機関向けの「World ID」を発表。送金承認やアカウント復旧などで、個人情報をその都度集めずに本人確認を行えるとしている。"
-  },
-  {
-   "title": "JPモルガンのJPMコイン、イーサリアム上でローンチ　ベースに続き2チェーン目",
-   "link": "https://coinpost.jp/?p=743875",
-   "published": "10/20 11:00",
-   "ts": 1792461651.0,
-   "source": "CoinPost",
-   "desc": "JPモルガンは、米ドル預金トークンのJPMコインを仮想通貨イーサリアムのブロックチェーン上でローンチしたことを発表。JPMコインの対応はベースに続き2チェーン目である。"
   }
  ],
  "news_jp": [
+  {
+   "title": "フラット35 全国で不適正利用64件",
+   "link": "https://news.yahoo.co.jp/pickup/6599514?source=rss",
+   "published": "10/20 21:57",
+   "ts": 1792501034.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "旅客機で発見の小動物 正体はヘビ",
+   "link": "https://news.yahoo.co.jp/pickup/6599512?source=rss",
+   "published": "10/20 21:28",
+   "ts": 1792499331.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ソニーFGへの立ち入り検査検討",
+   "link": "https://news.yahoo.co.jp/pickup/6599504?source=rss",
+   "published": "10/20 20:10",
+   "ts": 1792494658.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "VW  給与上昇30年まで凍結検討",
    "link": "https://news.yahoo.co.jp/pickup/6599478?source=rss",
@@ -141,34 +165,10 @@
    "desc": ""
   },
   {
-   "title": "JAL便に小動物 サイズは猫以下か",
-   "link": "https://news.yahoo.co.jp/pickup/6599413?source=rss",
-   "published": "10/20 00:06",
-   "ts": 1792422405.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "研修にブラインドサッカー 企業増",
    "link": "https://news.yahoo.co.jp/pickup/6599409?source=rss",
    "published": "10/19 23:42",
    "ts": 1792420979.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ユニクロが値上げ 11商品を11月に",
-   "link": "https://news.yahoo.co.jp/pickup/6599401?source=rss",
-   "published": "10/19 22:41",
-   "ts": 1792417285.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "特定技能「給食」受け入れ再開へ",
-   "link": "https://news.yahoo.co.jp/pickup/6599400?source=rss",
-   "published": "10/19 22:32",
-   "ts": 1792416759.0,
    "source": "Yahoo!",
    "desc": ""
   },
