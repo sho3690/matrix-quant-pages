@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-19 22:36:44",
+ "updated_at": "2026-10-20 09:26:59",
  "fng": {
-  "value": 59,
+  "value": 55,
   "label": "強欲",
   "history": [
-   71,
    70,
    78,
    71,
@@ -33,23 +32,32 @@
    63,
    55,
    53,
-   59
+   59,
+   55
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.64935388862006,
-  "eth_dominance": 10.644847861482202,
-  "total_mcap_usd": 2771994009419.6836,
-  "mcap_change_24h": -2.1916001806384435
+  "btc_dominance": 59.54654262827663,
+  "eth_dominance": 10.619344963310066,
+  "total_mcap_usd": 2745458093403.0576,
+  "mcap_change_24h": -2.3486229012021242
  },
  "defi": {
-  "tvl_usd": 89639693303.0,
-  "change_1d": 0.014241039176120296,
-  "change_7d": -0.025369205097619085,
-  "change_1y": -0.39600222836422905,
-  "range_pos_1y": 0.2479325358576164
+  "tvl_usd": 89061758847.0,
+  "change_1d": 0.006250497819707768,
+  "change_7d": -0.03045938522290803,
+  "change_1y": -0.39989638631006297,
+  "range_pos_1y": 0.24126166544364278
  },
  "news_crypto": [
+  {
+   "title": "米スーパーリーグ株主、メタプラネットからの2100ビットコイン出資案を承認",
+   "link": "https://coinpost.jp/?p=743835",
+   "published": "10/20 09:07",
+   "ts": 1792454845.0,
+   "source": "CoinPost",
+   "desc": "米スーパーリーグは、仮想通貨ビットコインのトレジャリー企業メタプラネットからの出資に関連する全ての議案を株主が承認したことを発表。両社間の取引完了は2026年4Qを予定する。"
+  },
   {
    "title": "ストラテジー、先週34億円相当ビットコインを追加購入　5週連続買い増し",
    "link": "https://coinpost.jp/?p=743825",
@@ -105,17 +113,33 @@
    "ts": 1792369942.0,
    "source": "CoinPost",
    "desc": "コアウィーブやブロードコムなど9社が、OKXICEでの自社株のトークン化取引に異議を申し立てた。SECのイノベーション免除制度に基づくものだ。"
-  },
-  {
-   "title": "ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ",
-   "link": "https://coinpost.jp/?p=743489",
-   "published": "10/19 08:45",
-   "ts": 1792367144.0,
-   "source": "CoinPost",
-   "desc": "ギャラクシーのアレックス・ソーン氏は、ETFの資金流出とBTCトレジャリー企業の買いの鈍さが10月のビットコイン軟調の一因と指摘。同社集計では、5年以上動かなかった古参BTCの放出が年初来で機関の吸収量を12万7,319BTC上回る。"
   }
  ],
  "news_jp": [
+  {
+   "title": "JAL便に小動物 サイズは猫以下か",
+   "link": "https://news.yahoo.co.jp/pickup/6599413?source=rss",
+   "published": "10/20 00:06",
+   "ts": 1792422405.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "研修にブラインドサッカー 企業増",
+   "link": "https://news.yahoo.co.jp/pickup/6599409?source=rss",
+   "published": "10/19 23:42",
+   "ts": 1792420979.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ユニクロが値上げ 11商品を11月に",
+   "link": "https://news.yahoo.co.jp/pickup/6599401?source=rss",
+   "published": "10/19 22:41",
+   "ts": 1792417285.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "特定技能「給食」受け入れ再開へ",
    "link": "https://news.yahoo.co.jp/pickup/6599400?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599359?source=rss",
    "published": "10/19 16:24",
    "ts": 1792394695.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン傘下も 普通のスーパー苦境",
-   "link": "https://news.yahoo.co.jp/pickup/6599348?source=rss",
-   "published": "10/19 13:39",
-   "ts": 1792384782.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日比谷線200m停止線越え 自動運転",
-   "link": "https://news.yahoo.co.jp/pickup/6599326?source=rss",
-   "published": "10/19 09:58",
-   "ts": 1792371509.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東芝 難関大生から再評価される今",
-   "link": "https://news.yahoo.co.jp/pickup/6599312?source=rss",
-   "published": "10/19 08:04",
-   "ts": 1792364679.0,
    "source": "Yahoo!",
    "desc": ""
   }
