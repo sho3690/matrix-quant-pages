@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21 14:00:43",
+ "updated_at": "2026-10-21 21:02:36",
  "fng": {
   "value": 63,
   "label": "強欲",
@@ -37,20 +37,109 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.518641594719014,
-  "eth_dominance": 10.68066101710376,
-  "total_mcap_usd": 2787375474621.087,
-  "mcap_change_24h": -1.8316033409530301
+  "btc_dominance": 59.55782122144111,
+  "eth_dominance": 10.705655438041296,
+  "total_mcap_usd": 2810844192692.8022,
+  "mcap_change_24h": -0.30263202031344716
  },
  "defi": {
-  "tvl_usd": 90070299901.0,
-  "change_1d": 0.013895400154611659,
-  "change_7d": -0.0034543587340065685,
-  "change_1y": -0.4032803527834786,
-  "range_pos_1y": 0.25290285868334395
+  "tvl_usd": 91752958785.0,
+  "change_1d": 0.03283865658904417,
+  "change_7d": 0.015162725681508782,
+  "change_1y": -0.3921326646248975,
+  "range_pos_1y": 0.2723251292614143
  },
- "news_crypto": [],
+ "news_crypto": [
+  {
+   "title": "米ブロックチェーン協会、米財務省のジーニアス法施行案に修正要請　DeFiや二次流通への過剰規制を懸念",
+   "link": "https://coinpost.jp/?p=744131",
+   "published": "10/21 18:15",
+   "ts": 1792574120.0,
+   "source": "CoinPost",
+   "desc": "米ブロックチェーン協会（BA）は1、ジーニアス法第3条の施行規則案について米財務省に意見書を提出した。DASPの定義、違法発行への「認識ある関与」、海外発行ステーブルコインの扱いなどの修正を求めている。"
+  },
+  {
+   "title": "ビットコイン短期クジラの含み益53％減、取引所に1万605BTC流入＝アナリスト",
+   "link": "https://coinpost.jp/?p=744219",
+   "published": "10/21 17:14",
+   "ts": 1792570475.0,
+   "source": "CoinPost",
+   "desc": "オンチェーンアナリストのアクセル・アドラーJr.氏によると、ビットコインの大口短期保有者が抱える含み益は9月22日の98億ドルから46億ドルへ53％減少した。20日には1万605BTCが取引所に流入し、30日平均の2.8倍に達した。"
+  },
+  {
+   "title": "メタプラネット、ビットコイン保有企業の優先証券へ投資｜利鞘獲得の新戦略導入",
+   "link": "https://coinpost.jp/?p=744135",
+   "published": "10/21 17:00",
+   "ts": 1792569636.0,
+   "source": "CoinPost",
+   "desc": "メタプラネットは10月の声明で、ビットコイン保有企業が発行する優先証券など海外のビットコイン関連証券に投資する「ネット・インタレスト・インカム戦略」の導入を発表した。調達コストとの利鞘を得る狙いで、戦略投資枠の範囲内で行う。"
+  },
+  {
+   "title": "仮想通貨のハイパーリキッド政策センター、米CFTCにAI計算能力の無期限先物を提言",
+   "link": "https://coinpost.jp/?p=744134",
+   "published": "10/21 16:30",
+   "ts": 1792567830.0,
+   "source": "CoinPost",
+   "desc": "ハイパーリキッド政策センターは20日、米CFTCに意見書を提出し、AIの計算能力を対象とする満期のある先物と無期限先物の導入を求めた。『H100』GPUの借り賃が1年で下がった点も指摘している。"
+  },
+  {
+   "title": "マイクロソフトとグーグル親会社、OKXICEのトークン化株取引に異議　計16社に",
+   "link": "https://coinpost.jp/?p=744190",
+   "published": "10/21 16:20",
+   "ts": 1792567247.0,
+   "source": "CoinPost",
+   "desc": "マイクロソフトやアルファベット、ゴールドマン・サックスなど7社が、OKXICEでの自社株のトークン化取引に新たに異議を申し立てた。異議は計16社となり、当初候補62社の約4分の1が外れた。共同会長のクオモ氏は想定内との認識を示した。"
+  },
+  {
+   "title": "JPYC、SBJ銀行・LINE NEXTと覚書　口座連携チャージ実証へ",
+   "link": "https://coinpost.jp/?p=744198",
+   "published": "10/21 16:04",
+   "ts": 1792566267.0,
+   "source": "CoinPost",
+   "desc": "JPYC社が21日、SBJ銀行・LINE NEXTとの覚書締結を発表した。銀行口座とステーブルコインウォレット「Unifi」をつなぐ口座連携型チャージのPoCを3社で進める。SBJ銀行とLINE NEXTは送金・決済の事業化も検討する。"
+  },
+  {
+   "title": "井林国交相、訪日客の消費税還付にステーブルコイン活用を検討",
+   "link": "https://coinpost.jp/?p=744168",
+   "published": "10/21 15:50",
+   "ts": 1792565436.0,
+   "source": "CoinPost",
+   "desc": "井林国交相は21日の衆院国土交通委員会で、訪日客向け消費税免税のリファンド方式にステーブルコイン活用も含め検討する考えを示した。11月の制度移行を前に、日本免税とJPYCは3月、円建てステーブルコインを使った還付モデルの構築で提携している。"
+  },
+  {
+   "title": "カルダノ、取引処理能力を上げる「レイオス」を次期アップグレードに搭載予定",
+   "link": "https://coinpost.jp/?p=744105",
+   "published": "10/21 15:30",
+   "ts": 1792564256.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨カルダノが、次期ハードフォークで導入予定のレイオスを段階的に展開する計画を公表した。処理能力向上は現行の3〜5倍から始め10〜15倍を目指す。"
+  }
+ ],
  "news_jp": [
+  {
+   "title": "マック390円セット 全国販売開始",
+   "link": "https://news.yahoo.co.jp/pickup/6599592?source=rss",
+   "published": "10/21 16:48",
+   "ts": 1792568922.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米ネトフリ純利益44%増 7～9月期",
+   "link": "https://news.yahoo.co.jp/pickup/6599584?source=rss",
+   "published": "10/21 14:50",
+   "ts": 1792561845.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "カフェインレスコーヒー 市場拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6599579?source=rss",
+   "published": "10/21 14:08",
+   "ts": 1792559333.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "Z世代人気の無人カフェ 拡大の訳",
    "link": "https://news.yahoo.co.jp/pickup/6599548?source=rss",
@@ -88,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599512?source=rss",
    "published": "10/20 21:28",
    "ts": 1792499331.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ソニーFGへの立ち入り検査検討",
-   "link": "https://news.yahoo.co.jp/pickup/6599504?source=rss",
-   "published": "10/20 20:10",
-   "ts": 1792494658.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "VW  給与上昇30年まで凍結検討",
-   "link": "https://news.yahoo.co.jp/pickup/6599478?source=rss",
-   "published": "10/20 16:52",
-   "ts": 1792482727.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "脱ホワイトカラー 活かせる強みは",
-   "link": "https://news.yahoo.co.jp/pickup/6599467?source=rss",
-   "published": "10/20 14:18",
-   "ts": 1792473535.0,
    "source": "Yahoo!",
    "desc": ""
   }
