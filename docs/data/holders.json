@@ -1,6 +1,6 @@
 {
- "fetched_at": 1792558857.3392935,
- "updated_at": "2026-10-21 14:00:57",
+ "fetched_at": 1792645387.5376468,
+ "updated_at": "2026-10-22 14:03:07",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -130,8 +130,8 @@
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Capital World Growth & Income Fund": "2026-09-09",
    "New World Fund Inc": "2026-09-09",
-   "Stanley-Laman Group, Ltd.": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Stanley-Laman Group, Ltd.": "2026-09-09"
   },
   "9983.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -251,11 +251,11 @@
   "7974.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
    "Growth Fund of America": "2026-09-09",
+   "AMERICAN BALANCED FUND": "2026-09-09",
    "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund": "2026-09-09",
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "NEW PERSPECTIVE FUND": "2026-09-09",
    "AMERICAN FUNDS INSURANCE SERIES-Eupac Fund": "2026-10-21",
-   "AMERICAN BALANCED FUND": "2026-09-09",
    "Capital Income Builder": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
@@ -369,10 +369,10 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Stanley-Laman Group, Ltd.": "2026-09-09",
    "Meyer Handelman Co": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Stanley-Laman Group, Ltd.": "2026-09-09"
   },
   "7011.T": {},
   "8411.T": {
@@ -825,8 +825,8 @@
    "MFS SERIES TRUST I-MFS Research International Fund": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-10-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-10-21",
-   "Stanley-Laman Group, Ltd.": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Stanley-Laman Group, Ltd.": "2026-09-09"
   },
   "6920.T": {
    "VANGUARD WORLD FUND-Vanguard International Growth Fund": "2026-09-09",
@@ -839,8 +839,8 @@
    "Fidelity Investment Trust-Fidelity International Growth Fund": "2026-09-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-10-01",
-   "Stanley-Laman Group, Ltd.": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Stanley-Laman Group, Ltd.": "2026-09-09"
   },
   "7735.T": {},
   "6594.T": {
@@ -3166,19 +3166,6 @@
     "suspect": false
    },
    {
-    "holder": "Stanley-Laman Group, Ltd.",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 6000,
-    "pct_change": 0.2,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -3188,6 +3175,19 @@
     "pct_held": 0.0,
     "shares": 62030,
     "pct_change": 0.5782,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Stanley-Laman Group, Ltd.",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 6000,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -4523,6 +4523,19 @@
     "suspect": false
    },
    {
+    "holder": "AMERICAN BALANCED FUND",
+    "kind": "mf",
+    "type": "active",
+    "manager": "キャピタル・グループ",
+    "notable": true,
+    "date": "2026-09-30",
+    "pct_held": 0.0093,
+    "shares": 12000000,
+    "pct_change": 0.8321,
+    "new_est": false,
+    "suspect": false
+   },
+   {
     "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
     "kind": "mf",
     "type": "index",
@@ -4572,19 +4585,6 @@
     "shares": 7303139,
     "pct_change": 18.816,
     "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "AMERICAN BALANCED FUND",
-    "kind": "mf",
-    "type": "active",
-    "manager": "キャピタル・グループ",
-    "notable": true,
-    "date": "2026-06-30",
-    "pct_held": 0.0050999997,
-    "shares": 6550000,
-    "pct_change": 1.0,
-    "new_est": true,
     "suspect": false
    },
    {
@@ -4751,7 +4751,7 @@
     "type": "active",
     "manager": "キャピタル・グループ",
     "notable": true,
-    "date": "2026-07-31",
+    "date": "2026-09-30",
     "pct_held": 0.004,
     "shares": 7500000,
     "pct_change": 0.0,
@@ -5865,19 +5865,6 @@
     "suspect": false
    },
    {
-    "holder": "Stanley-Laman Group, Ltd.",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 3900,
-    "pct_change": 0.8571,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Meyer Handelman Co",
     "kind": "inst",
     "type": "inst",
@@ -5913,6 +5900,19 @@
     "pct_held": 0.0,
     "shares": 6878,
     "pct_change": -0.0173,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Stanley-Laman Group, Ltd.",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 5000,
+    "pct_change": 0.2821,
     "new_est": false,
     "suspect": false
    }
@@ -9009,7 +9009,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-08-31",
-    "pct_held": 0.005,
+    "pct_held": 0.0049,
     "shares": 10815100,
     "pct_change": 0.0052,
     "new_est": false,
@@ -10905,19 +10905,6 @@
     "suspect": false
    },
    {
-    "holder": "Stanley-Laman Group, Ltd.",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 400,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -10927,6 +10914,19 @@
     "pct_held": 0.0,
     "shares": 3337,
     "pct_change": 0.84879994,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Stanley-Laman Group, Ltd.",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 400,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -11063,19 +11063,6 @@
     "suspect": false
    },
    {
-    "holder": "Stanley-Laman Group, Ltd.",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 400,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -11085,6 +11072,19 @@
     "pct_held": 0.0,
     "shares": 1062,
     "pct_change": -0.1,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Stanley-Laman Group, Ltd.",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 1900,
+    "pct_change": 3.75,
     "new_est": false,
     "suspect": false
    }
@@ -20502,7 +20502,7 @@
     "manager": "バンガード",
     "notable": true,
     "date": "2026-07-31",
-    "pct_held": 0.0145000005,
+    "pct_held": 0.0149,
     "shares": 9857555,
     "pct_change": 0.0013,
     "new_est": false,
@@ -20515,7 +20515,7 @@
     "manager": "キャピタル・グループ",
     "notable": true,
     "date": "2026-07-31",
-    "pct_held": 0.0126,
+    "pct_held": 0.0128999995,
     "shares": 8566235,
     "pct_change": 0.0,
     "new_est": false,
@@ -20528,7 +20528,7 @@
     "manager": "MFS",
     "notable": true,
     "date": "2026-05-31",
-    "pct_held": 0.0105,
+    "pct_held": 0.0108,
     "shares": 7152400,
     "pct_change": 0.0,
     "new_est": false,
@@ -20541,7 +20541,7 @@
     "manager": "バンガード",
     "notable": true,
     "date": "2026-06-30",
-    "pct_held": 0.0095999995,
+    "pct_held": 0.0099,
     "shares": 6543820,
     "pct_change": 0.0026,
     "new_est": false,
@@ -20554,7 +20554,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-08-31",
-    "pct_held": 0.0074,
+    "pct_held": 0.0076,
     "shares": 5017300,
     "pct_change": 0.0052,
     "new_est": false,
@@ -20567,7 +20567,7 @@
     "manager": "MFS",
     "notable": true,
     "date": "2026-05-31",
-    "pct_held": 0.0045,
+    "pct_held": 0.0046,
     "shares": 3068000,
     "pct_change": -0.0533,
     "new_est": false,
@@ -20580,7 +20580,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-08-31",
-    "pct_held": 0.0042,
+    "pct_held": 0.0043,
     "shares": 2844000,
     "pct_change": -0.0212,
     "new_est": false,
@@ -20593,7 +20593,7 @@
     "manager": "フィデリティ",
     "notable": true,
     "date": "2026-08-31",
-    "pct_held": 0.0039,
+    "pct_held": 0.004,
     "shares": 2659756,
     "pct_change": 0.0078,
     "new_est": false,
@@ -20619,7 +20619,7 @@
     "manager": "JPモルガン",
     "notable": true,
     "date": "2026-07-31",
-    "pct_held": 0.0033000002,
+    "pct_held": 0.0034,
     "shares": 2224800,
     "pct_change": 0.0842,
     "new_est": false,
@@ -27906,6 +27906,23 @@
    "new_here": true
   },
   {
+   "symbol": "6920.T",
+   "name": "レーザーテック",
+   "holder": "Stanley-Laman Group, Ltd.",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 1900,
+   "pct_change": 3.75,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
+  },
+  {
    "symbol": "6301.T",
    "name": "コマツ",
    "holder": "New World Fund Inc",
@@ -27938,6 +27955,23 @@
    "suspect": false,
    "dir": "up",
    "new_here": true
+  },
+  {
+   "symbol": "7974.T",
+   "name": "任天堂",
+   "holder": "AMERICAN BALANCED FUND",
+   "kind": "mf",
+   "type": "active",
+   "manager": "キャピタル・グループ",
+   "notable": true,
+   "date": "2026-09-30",
+   "pct_held": 0.0093,
+   "shares": 12000000,
+   "pct_change": 0.8321,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
   },
   {
    "symbol": "7974.T",
@@ -27985,6 +28019,23 @@
    "pct_held": 0.0037,
    "shares": 991200,
    "pct_change": 0.3675,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
+  },
+  {
+   "symbol": "6857.T",
+   "name": "アドバンテスト",
+   "holder": "Stanley-Laman Group, Ltd.",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 5000,
+   "pct_change": 0.2821,
    "new_est": false,
    "suspect": false,
    "dir": "up",
@@ -30694,23 +30745,6 @@
    "new_here": false
   },
   {
-   "symbol": "7974.T",
-   "name": "任天堂",
-   "holder": "AMERICAN BALANCED FUND",
-   "kind": "mf",
-   "type": "active",
-   "manager": "キャピタル・グループ",
-   "notable": true,
-   "date": "2026-06-30",
-   "pct_held": 0.0050999997,
-   "shares": 6550000,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
    "symbol": "8766.T",
    "name": "東京海上HD",
    "holder": "Meyer Handelman Co",
@@ -31283,23 +31317,6 @@
    "pct_held": 0.0,
    "shares": 696,
    "pct_change": 0.861,
-   "new_est": false,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "6857.T",
-   "name": "アドバンテスト",
-   "holder": "Stanley-Laman Group, Ltd.",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 3900,
-   "pct_change": 0.8571,
    "new_est": false,
    "suspect": false,
    "dir": "up",
@@ -32184,23 +32201,6 @@
    "pct_held": 0.044299997,
    "shares": 49383700,
    "pct_change": 0.2049,
-   "new_est": false,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "8035.T",
-   "name": "東京エレクトロン",
-   "holder": "Stanley-Laman Group, Ltd.",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 6000,
-   "pct_change": 0.2,
    "new_est": false,
    "suspect": false,
    "dir": "up",

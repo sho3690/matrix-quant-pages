@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22 09:03:18",
+ "updated_at": "2026-10-22 14:03:02",
  "fng": {
   "value": 68,
   "label": "強欲",
@@ -37,20 +37,68 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.67914422058619,
-  "eth_dominance": 10.658457772723454,
-  "total_mcap_usd": 2825580462981.08,
-  "mcap_change_24h": -1.6919677002302222
+  "btc_dominance": 59.541991405399564,
+  "eth_dominance": 10.675989320778228,
+  "total_mcap_usd": 2792031440204.3574,
+  "mcap_change_24h": -2.531475102875316
  },
  "defi": {
-  "tvl_usd": 92700534422.0,
-  "change_1d": 0.04350333293031827,
-  "change_7d": 0.025646785042475972,
-  "change_1y": -0.38585493489108846,
-  "range_pos_1y": 0.2832626226476266
+  "tvl_usd": 91243780091.0,
+  "change_1d": -0.004210735175881886,
+  "change_7d": 0.02692836504416496,
+  "change_1y": -0.3815294393059352,
+  "range_pos_1y": 0.26644787959334876
  },
  "news_crypto": [],
  "news_jp": [
+  {
+   "title": "ミセス×ガスト特典 不正対策は",
+   "link": "https://news.yahoo.co.jp/pickup/6599681?source=rss",
+   "published": "10/22 12:09",
+   "ts": 1792638541.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "PHP巡り 企業など対応に追われる",
+   "link": "https://news.yahoo.co.jp/pickup/6599679?source=rss",
+   "published": "10/22 12:06",
+   "ts": 1792638378.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "平成の玩具アイロンビーズ 再注目",
+   "link": "https://news.yahoo.co.jp/pickup/6599673?source=rss",
+   "published": "10/22 11:33",
+   "ts": 1792636385.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "韓国発大容量カフェ なぜ日本上陸",
+   "link": "https://news.yahoo.co.jp/pickup/6599666?source=rss",
+   "published": "10/22 09:48",
+   "ts": 1792630139.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "仕事探し困難「通信困窮」の実態",
+   "link": "https://news.yahoo.co.jp/pickup/6599665?source=rss",
+   "published": "10/22 09:46",
+   "ts": 1792629980.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米メタ 7-9月期決算で26%増収",
+   "link": "https://news.yahoo.co.jp/pickup/6599663?source=rss",
+   "published": "10/22 09:28",
+   "ts": 1792628909.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "EVの補助金引き下げ 27年1月から",
    "link": "https://news.yahoo.co.jp/pickup/6599642?source=rss",
@@ -66,70 +114,22 @@
    "ts": 1792568922.0,
    "source": "Yahoo!",
    "desc": ""
-  },
-  {
-   "title": "米ネトフリ純利益44%増 7～9月期",
-   "link": "https://news.yahoo.co.jp/pickup/6599584?source=rss",
-   "published": "10/21 14:50",
-   "ts": 1792561845.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "カフェインレスコーヒー 市場拡大",
-   "link": "https://news.yahoo.co.jp/pickup/6599579?source=rss",
-   "published": "10/21 14:08",
-   "ts": 1792559333.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "Z世代人気の無人カフェ 拡大の訳",
-   "link": "https://news.yahoo.co.jp/pickup/6599548?source=rss",
-   "published": "10/21 09:26",
-   "ts": 1792542411.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "北海道職員が「就活セクハラ」か",
-   "link": "https://news.yahoo.co.jp/pickup/6599546?source=rss",
-   "published": "10/21 08:44",
-   "ts": 1792539869.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "SpaceXとテスラ 経営統合を検討",
-   "link": "https://news.yahoo.co.jp/pickup/6599543?source=rss",
-   "published": "10/21 08:22",
-   "ts": 1792538558.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "フラット35 全国で不適正利用64件",
-   "link": "https://news.yahoo.co.jp/pickup/6599514?source=rss",
-   "published": "10/20 21:57",
-   "ts": 1792501034.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
-  "date": "R8.10.20",
-  "y10": 2.927,
+  "date": "R8.10.21",
+  "y10": 2.923,
   "chg5d": -0.09200000000000008,
-  "rank_1y": 0.952,
+  "rank_1y": 0.948,
   "curve": {
-   "1": 1.644,
-   "2": 1.909,
-   "5": 2.313,
-   "10": 2.927,
-   "20": 3.723,
-   "30": 3.992,
-   "40": 4.002
+   "1": 1.657,
+   "2": 1.914,
+   "5": 2.309,
+   "10": 2.923,
+   "20": 3.726,
+   "30": 3.98,
+   "40": 3.994
   },
-  "spread_10_2": 1.018
+  "spread_10_2": 1.0090000000000001
  }
 }
