@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22 14:03:02",
+ "updated_at": "2026-10-22 21:05:32",
  "fng": {
   "value": 68,
   "label": "強欲",
@@ -37,20 +37,36 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.541991405399564,
-  "eth_dominance": 10.675989320778228,
-  "total_mcap_usd": 2792031440204.3574,
-  "mcap_change_24h": -2.531475102875316
+  "btc_dominance": 59.45769692612897,
+  "eth_dominance": 10.606879028250448,
+  "total_mcap_usd": 2755050722988.988,
+  "mcap_change_24h": -4.488430762442533
  },
  "defi": {
-  "tvl_usd": 91243780091.0,
-  "change_1d": -0.004210735175881886,
-  "change_7d": 0.02692836504416496,
-  "change_1y": -0.3815294393059352,
-  "range_pos_1y": 0.26644787959334876
+  "tvl_usd": 90398244330.0,
+  "change_1d": -0.0131514094173929,
+  "change_7d": 0.017412048909913214,
+  "change_1y": -0.38726066806115567,
+  "range_pos_1y": 0.2566881924162675
  },
  "news_crypto": [],
  "news_jp": [
+  {
+   "title": "関東でスガキヤ行列 愛知県民驚き",
+   "link": "https://news.yahoo.co.jp/pickup/6599726?source=rss",
+   "published": "10/22 19:44",
+   "ts": 1792665871.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "王子コンテナーに公取委が勧告",
+   "link": "https://news.yahoo.co.jp/pickup/6599705?source=rss",
+   "published": "10/22 16:36",
+   "ts": 1792654587.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ミセス×ガスト特典 不正対策は",
    "link": "https://news.yahoo.co.jp/pickup/6599681?source=rss",
@@ -96,22 +112,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599663?source=rss",
    "published": "10/22 09:28",
    "ts": 1792628909.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "EVの補助金引き下げ 27年1月から",
-   "link": "https://news.yahoo.co.jp/pickup/6599642?source=rss",
-   "published": "10/21 23:37",
-   "ts": 1792593476.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マック390円セット 全国販売開始",
-   "link": "https://news.yahoo.co.jp/pickup/6599592?source=rss",
-   "published": "10/21 16:48",
-   "ts": 1792568922.0,
    "source": "Yahoo!",
    "desc": ""
   }
