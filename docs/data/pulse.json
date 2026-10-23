@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23 14:03:16",
+ "updated_at": "2026-10-23 20:50:09",
  "fng": {
   "value": 50,
   "label": "中立",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.45609734250241,
-  "eth_dominance": 10.60466488988553,
-  "total_mcap_usd": 2750313668548.6035,
-  "mcap_change_24h": -4.045931862228993
+  "btc_dominance": 59.9812154065314,
+  "eth_dominance": 10.718530984769496,
+  "total_mcap_usd": 2733885312901.4146,
+  "mcap_change_24h": -3.843742108223542
  },
  "defi": {
-  "tvl_usd": 90442822979.0,
-  "change_1d": -0.018216761469484366,
-  "change_7d": 0.012899463344951956,
-  "change_1y": -0.3756444154873908,
-  "range_pos_1y": 0.2572027462489666
+  "tvl_usd": 90163580885.0,
+  "change_1d": -0.021245693842558255,
+  "change_7d": 0.009772137617607202,
+  "change_1y": -0.37757211251272993,
+  "range_pos_1y": 0.253979564439532
  },
  "news_crypto": [
+  {
+   "title": "「国債の性質は変えず」トークン化へ　Progmat齊藤氏が詳説",
+   "link": "https://coinpost.jp/?p=744348",
+   "published": "10/23 19:20",
+   "ts": 1792750830.0,
+   "source": "CoinPost",
+   "desc": "Progmatの齊藤達哉代表がnoteで、DCCがまとめたトークン化国債の中間整理を詳説した。主案は国債の性質を変えずにオンチェーン管理口座で扱い、権利移転の正本を24時間稼働の新システムに置く設計だ。"
+  },
+  {
+   "title": "ビットコイン8万1000ドル台に下落、米メタ決算でAI株安",
+   "link": "https://coinpost.jp/?p=744436",
+   "published": "10/23 18:05",
+   "ts": 1792746344.0,
+   "source": "CoinPost",
+   "desc": "暗号資産（仮想通貨）ビットコインは一時8万1000ドルを割り込んだ。米半導体指数が6.7％下落し、日経平均は一時1445円安。米10年債利回りが5％を割るなかでBTCが売られた背景と、今後の注目点をまとめる。"
+  },
   {
    "title": "国債トークン化、実機で「経済合理性」検証へ　Progmat齊藤氏",
    "link": "https://coinpost.jp/?p=744103",
@@ -97,86 +113,70 @@
    "ts": 1792567830.0,
    "source": "CoinPost",
    "desc": "ハイパーリキッド政策センターは20日、米CFTCに意見書を提出し、AIの計算能力を対象とする満期のある先物と無期限先物の導入を求めた。『H100』GPUの借り賃が1年で下がった点も指摘している。"
-  },
-  {
-   "title": "マイクロソフトとグーグル親会社、OKXICEのトークン化株取引に異議　計16社に",
-   "link": "https://coinpost.jp/?p=744190",
-   "published": "10/21 16:20",
-   "ts": 1792567247.0,
-   "source": "CoinPost",
-   "desc": "マイクロソフトやアルファベット、ゴールドマン・サックスなど7社が、OKXICEでの自社株のトークン化取引に新たに異議を申し立てた。異議は計16社となり、当初候補62社の約4分の1が外れた。共同会長のクオモ氏は想定内との認識を示した。"
-  },
-  {
-   "title": "JPYC、SBJ銀行・LINE NEXTと覚書　口座連携チャージ実証へ",
-   "link": "https://coinpost.jp/?p=744198",
-   "published": "10/21 16:04",
-   "ts": 1792566267.0,
-   "source": "CoinPost",
-   "desc": "JPYC社が21日、SBJ銀行・LINE NEXTとの覚書締結を発表した。銀行口座とステーブルコインウォレット「Unifi」をつなぐ口座連携型チャージのPoCを3社で進める。SBJ銀行とLINE NEXTは送金・決済の事業化も検討する。"
   }
  ],
  "news_jp": [
   {
-   "title": "マンション修繕会議 業者潜入発覚",
-   "link": "https://news.yahoo.co.jp/pickup/6599799?source=rss",
-   "published": "10/23 13:14",
-   "ts": 1792728859.0,
+   "title": "滋賀銀と池田泉州HD 経営統合へ",
+   "link": "https://news.yahoo.co.jp/pickup/6599846?source=rss",
+   "published": "10/23 18:48",
+   "ts": 1792748937.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "笹かまメーカー相次ぐ倒産 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6599782?source=rss",
-   "published": "10/23 10:37",
-   "ts": 1792719464.0,
+   "title": "物価上昇2%到達判断の公算大 日銀",
+   "link": "https://news.yahoo.co.jp/pickup/6599845?source=rss",
+   "published": "10/23 18:37",
+   "ts": 1792748264.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "「PHP」暮らし直撃 徹夜の社員も",
-   "link": "https://news.yahoo.co.jp/pickup/6599772?source=rss",
-   "published": "10/23 08:58",
-   "ts": 1792713492.0,
+   "title": "パルグループ創業 井上英隆氏死去",
+   "link": "https://news.yahoo.co.jp/pickup/6599843?source=rss",
+   "published": "10/23 18:33",
+   "ts": 1792747989.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "食料品消費税1% 買い物は変わるか",
-   "link": "https://news.yahoo.co.jp/pickup/6599768?source=rss",
-   "published": "10/23 08:32",
-   "ts": 1792711938.0,
+   "title": "Airbnb「過度な家事要求」禁止へ",
+   "link": "https://news.yahoo.co.jp/pickup/6599839?source=rss",
+   "published": "10/23 18:15",
+   "ts": 1792746945.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "ANAが追加出資検討 中堅航空2社",
-   "link": "https://news.yahoo.co.jp/pickup/6599762?source=rss",
-   "published": "10/23 07:36",
-   "ts": 1792708593.0,
+   "title": "パーク24 流出の146万人に見舞金",
+   "link": "https://news.yahoo.co.jp/pickup/6599823?source=rss",
+   "published": "10/23 16:59",
+   "ts": 1792742373.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "大成建設・鹿島 国交省が処分方針",
-   "link": "https://news.yahoo.co.jp/pickup/6599759?source=rss",
-   "published": "10/23 07:16",
-   "ts": 1792707368.0,
+   "title": "回転喫茶店の人気再燃 若者が続々",
+   "link": "https://news.yahoo.co.jp/pickup/6599818?source=rss",
+   "published": "10/23 16:26",
+   "ts": 1792740379.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "三菱自 ホンダに車両供給で合意",
-   "link": "https://news.yahoo.co.jp/pickup/6599746?source=rss",
-   "published": "10/22 23:06",
-   "ts": 1792677991.0,
+   "title": "佐川急便で情報流出 最大5323万件",
+   "link": "https://news.yahoo.co.jp/pickup/6599819?source=rss",
+   "published": "10/23 16:12",
+   "ts": 1792739550.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "免税制度変更へ「転売ヤー」防ぐ",
-   "link": "https://news.yahoo.co.jp/pickup/6599745?source=rss",
-   "published": "10/22 22:50",
-   "ts": 1792677019.0,
+   "title": "本当の理由言わず退職 なぜ深刻か",
+   "link": "https://news.yahoo.co.jp/pickup/6599809?source=rss",
+   "published": "10/23 14:54",
+   "ts": 1792734872.0,
    "source": "Yahoo!",
    "desc": ""
   }
