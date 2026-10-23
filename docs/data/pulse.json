@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-23 02:19:28",
+ "updated_at": "2026-10-23 09:02:00",
  "fng": {
-  "value": 68,
-  "label": "強欲",
+  "value": 50,
+  "label": "中立",
   "history": [
-   71,
    71,
    71,
    74,
@@ -33,21 +32,22 @@
    59,
    55,
    63,
-   68
+   68,
+   50
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.47680936236643,
-  "eth_dominance": 10.580004284219564,
-  "total_mcap_usd": 2738629574322.8257,
-  "mcap_change_24h": -6.265531281801382
+  "btc_dominance": 59.49448863346095,
+  "eth_dominance": 10.601573121166355,
+  "total_mcap_usd": 2741027556435.621,
+  "mcap_change_24h": -5.949971611271889
  },
  "defi": {
-  "tvl_usd": 90238628952.0,
-  "change_1d": -0.014892949343940143,
-  "change_7d": 0.015615613481635648,
-  "change_1y": -0.38834257646333503,
-  "range_pos_1y": 0.25484581480223356
+  "tvl_usd": 89846766419.0,
+  "change_1d": -0.019170371574272704,
+  "change_7d": 0.011205288197715824,
+  "change_1y": -0.3909987075470954,
+  "range_pos_1y": 0.2503226995007878
  },
  "news_crypto": [
   {
@@ -117,6 +117,38 @@
  ],
  "news_jp": [
   {
+   "title": "「PHP」暮らし直撃 徹夜の社員も",
+   "link": "https://news.yahoo.co.jp/pickup/6599772?source=rss",
+   "published": "10/23 08:58",
+   "ts": 1792713492.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "食料品消費税1% 買い物は変わるか",
+   "link": "https://news.yahoo.co.jp/pickup/6599768?source=rss",
+   "published": "10/23 08:32",
+   "ts": 1792711938.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ANAが追加出資検討 中堅航空2社",
+   "link": "https://news.yahoo.co.jp/pickup/6599762?source=rss",
+   "published": "10/23 07:36",
+   "ts": 1792708593.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "大成建設・鹿島 国交省が処分方針",
+   "link": "https://news.yahoo.co.jp/pickup/6599759?source=rss",
+   "published": "10/23 07:16",
+   "ts": 1792707368.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "三菱自 ホンダに車両供給で合意",
    "link": "https://news.yahoo.co.jp/pickup/6599746?source=rss",
    "published": "10/22 23:06",
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "王子コンテナーに公取委が勧告",
-   "link": "https://news.yahoo.co.jp/pickup/6599705?source=rss",
-   "published": "10/22 16:36",
-   "ts": 1792654587.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ミセス×ガスト特典 不正対策は",
-   "link": "https://news.yahoo.co.jp/pickup/6599681?source=rss",
-   "published": "10/22 12:09",
-   "ts": 1792638541.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "PHP巡り 企業など対応に追われる",
    "link": "https://news.yahoo.co.jp/pickup/6599679?source=rss",
    "published": "10/22 12:06",
    "ts": 1792638378.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "平成の玩具アイロンビーズ 再注目",
-   "link": "https://news.yahoo.co.jp/pickup/6599673?source=rss",
-   "published": "10/22 11:33",
-   "ts": 1792636385.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "韓国発大容量カフェ なぜ日本上陸",
-   "link": "https://news.yahoo.co.jp/pickup/6599666?source=rss",
-   "published": "10/22 09:48",
-   "ts": 1792630139.0,
    "source": "Yahoo!",
    "desc": ""
   }
