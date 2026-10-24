@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25 01:04:39",
+ "updated_at": "2026-10-25 08:23:04",
  "fng": {
   "value": 51,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.58648414673873,
-  "eth_dominance": 10.464296354009841,
-  "total_mcap_usd": 2689831685730.46,
-  "mcap_change_24h": -5.289678583210353
+  "btc_dominance": 59.507237279290656,
+  "eth_dominance": 10.516691908356137,
+  "total_mcap_usd": 2712028658346.035,
+  "mcap_change_24h": -2.8885845500049347
  },
  "defi": {
-  "tvl_usd": 89168541283.0,
-  "change_1d": -0.010331696508544597,
-  "change_7d": -0.012550695815496282,
-  "change_1y": -0.393050783048129,
-  "range_pos_1y": 0.2424942131484997
+  "tvl_usd": 88865015265.0,
+  "change_1d": -0.013699363277252075,
+  "change_7d": -0.01591193231172605,
+  "change_1y": -0.3951168130212439,
+  "range_pos_1y": 0.2389907315426508
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "「Used in Japan」世界注目 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6599996?source=rss",
+   "published": "10/25 07:48",
+   "ts": 1792882119.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "大阪IR ディーラー人材確保に課題",
    "link": "https://news.yahoo.co.jp/pickup/6599969?source=rss",
    "published": "10/24 20:34",
@@ -153,14 +161,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599915?source=rss",
    "published": "10/24 11:58",
    "ts": 1792810696.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "免許証流出で見舞金3000円 妥当か",
-   "link": "https://news.yahoo.co.jp/pickup/6599906?source=rss",
-   "published": "10/24 10:31",
-   "ts": 1792805515.0,
    "source": "Yahoo!",
    "desc": ""
   },
