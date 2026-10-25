@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25 13:55:59",
+ "updated_at": "2026-10-25 20:45:56",
  "fng": {
   "value": 54,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.44688056880215,
-  "eth_dominance": 10.571359203185972,
-  "total_mcap_usd": 2727747695938.7314,
-  "mcap_change_24h": -2.647866163081706
+  "btc_dominance": 60.12764411542007,
+  "eth_dominance": 10.589710986357973,
+  "total_mcap_usd": 2680906786184.3286,
+  "mcap_change_24h": -3.9062072773088428
  },
  "defi": {
-  "tvl_usd": 89392437947.0,
-  "change_1d": -0.002727008527603547,
-  "change_7d": -0.00614196637318043,
-  "change_1y": -0.40066100826659357,
-  "range_pos_1y": 0.24507856439820022
+  "tvl_usd": 88759851285.0,
+  "change_1d": -0.009706031064440235,
+  "change_7d": -0.013175014698438403,
+  "change_1y": -0.4049022378481367,
+  "range_pos_1y": 0.23777686502815695
  },
  "news_crypto": [
   {
@@ -117,6 +117,22 @@
  ],
  "news_jp": [
   {
+   "title": "Suicaペンギンなぜ「卒業」解説",
+   "link": "https://news.yahoo.co.jp/pickup/6600063?source=rss",
+   "published": "10/25 16:17",
+   "ts": 1792912625.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "退職代行「バブル」崩壊? なぜ今",
+   "link": "https://news.yahoo.co.jp/pickup/6600048?source=rss",
+   "published": "10/25 13:55",
+   "ts": 1792904139.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "10月FOMCは金利据え置きか 焦点",
    "link": "https://news.yahoo.co.jp/pickup/6600038?source=rss",
    "published": "10/25 12:30",
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599952?source=rss",
    "published": "10/24 17:26",
    "ts": 1792830408.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "コンビニ客数減 衣料品が活路に?",
-   "link": "https://news.yahoo.co.jp/pickup/6599949?source=rss",
-   "published": "10/24 17:07",
-   "ts": 1792829246.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "崩れゆく軍艦島の景観 どう守る",
-   "link": "https://news.yahoo.co.jp/pickup/6599932?source=rss",
-   "published": "10/24 14:52",
-   "ts": 1792821141.0,
    "source": "Yahoo!",
    "desc": ""
   }
