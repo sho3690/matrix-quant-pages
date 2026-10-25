@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25 20:45:56",
+ "updated_at": "2026-10-26 01:34:19",
  "fng": {
   "value": 54,
   "label": "中立",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.12764411542007,
-  "eth_dominance": 10.589710986357973,
-  "total_mcap_usd": 2680906786184.3286,
-  "mcap_change_24h": -3.9062072773088428
+  "btc_dominance": 60.0695751291519,
+  "eth_dominance": 10.622446466313002,
+  "total_mcap_usd": 2692529741873.794,
+  "mcap_change_24h": -2.4250896507648374
  },
  "defi": {
-  "tvl_usd": 88759851285.0,
-  "change_1d": -0.009706031064440235,
-  "change_7d": -0.013175014698438403,
-  "change_1y": -0.4049022378481367,
-  "range_pos_1y": 0.23777686502815695
+  "tvl_usd": 88815093946.0,
+  "change_1d": -0.00906322060441711,
+  "change_7d": -0.012560831175819631,
+  "change_1y": -0.4045318588596585,
+  "range_pos_1y": 0.23841450936568997
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "AI投資に巨額マネー 実態と展望",
+   "link": "https://news.yahoo.co.jp/pickup/6600116?source=rss",
+   "published": "10/25 22:45",
+   "ts": 1792935923.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "Suicaペンギンなぜ「卒業」解説",
    "link": "https://news.yahoo.co.jp/pickup/6600063?source=rss",
    "published": "10/25 16:17",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599969?source=rss",
    "published": "10/24 20:34",
    "ts": 1792841654.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "OKURA不適切還付 追徴額5.8億円",
-   "link": "https://news.yahoo.co.jp/pickup/6599952?source=rss",
-   "published": "10/24 17:26",
-   "ts": 1792830408.0,
    "source": "Yahoo!",
    "desc": ""
   }
