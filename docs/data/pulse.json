@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-25 08:23:04",
+ "updated_at": "2026-10-25 13:55:59",
  "fng": {
-  "value": 51,
+  "value": 54,
   "label": "中立",
   "history": [
-   71,
    74,
    70,
    74,
@@ -33,23 +32,40 @@
    63,
    68,
    50,
-   51
+   51,
+   54
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.507237279290656,
-  "eth_dominance": 10.516691908356137,
-  "total_mcap_usd": 2712028658346.035,
-  "mcap_change_24h": -2.8885845500049347
+  "btc_dominance": 59.44688056880215,
+  "eth_dominance": 10.571359203185972,
+  "total_mcap_usd": 2727747695938.7314,
+  "mcap_change_24h": -2.647866163081706
  },
  "defi": {
-  "tvl_usd": 88865015265.0,
-  "change_1d": -0.013699363277252075,
-  "change_7d": -0.01591193231172605,
-  "change_1y": -0.3951168130212439,
-  "range_pos_1y": 0.2389907315426508
+  "tvl_usd": 89392437947.0,
+  "change_1d": -0.002727008527603547,
+  "change_7d": -0.00614196637318043,
+  "change_1y": -0.40066100826659357,
+  "range_pos_1y": 0.24507856439820022
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=744399",
+   "published": "10/25 11:30",
+   "ts": 1792895417.0,
+   "source": "CoinPost",
+   "desc": "ビットコインは8.5万ドル手前で失速、AI・半導体株安に連れて1300万円を割り込んだ。8万ドル周辺では下げ止まり底堅さを維持。最大の注目イベントFOMCとGDP・PCEを控え、通過後の相場をbitbankアナリストが解説。"
+  },
+  {
+   "title": "『投機』がこの10年のテーマ、注目すべきは予測市場・無期限先物取引所＝Delphi Digital",
+   "link": "https://coinpost.jp/?p=744542",
+   "published": "10/25 09:00",
+   "ts": 1792886419.0,
+   "source": "CoinPost",
+   "desc": "ブロックチェーン調査企業Delphi Digitalが、投機を「建設型」と「宝くじ型」に分類し、両方が同時に加速する現状を分析した。投機の対象ではなく、取引所や決済インフラといった「胴元」に注目すべきと主張。"
+  },
   {
    "title": "ビットコイン、8万ドルまで下落後　ETF・企業の取得単価付近で反発＝グラスノード",
    "link": "https://coinpost.jp/?p=744525",
@@ -97,25 +113,33 @@
    "ts": 1792816204.0,
    "source": "CoinPost",
    "desc": "イーサリアムの研究者らは21日、取引が書き換えられなくなる確定までの時間を平均約16分から約4分に縮める改善提案の草案を提出した。ただし設計は未完成で、実装時期は決まっていない。"
-  },
-  {
-   "title": "ビットコイン採掘の熱で湯を沸かす温水器用ヒーター、『Bitwater』装置が登場",
-   "link": "https://coinpost.jp/?p=744546",
-   "published": "10/24 13:10",
-   "ts": 1792815001.0,
-   "source": "CoinPost",
-   "desc": "ヒートビットは24日、既存の電気温水器のヒーターと交換して仮想通貨ビットコインを採掘できる「ビットウォーター」を発表した。899ドルで予約を受け付けており、出荷は2027年第1四半期の予定だ。"
-  },
-  {
-   "title": "米SEC、証券トークン取引所運営計画3社を公表　OKX・ICE合弁など",
-   "link": "https://coinpost.jp/?p=744566",
-   "published": "10/24 13:00",
-   "ts": 1792814418.0,
-   "source": "CoinPost",
-   "desc": "米証券取引委員会（SEC）は21日、イノベーション免除に基づきトークン化証券取引所の運営を届け出た3社を公表した。OKXとICEの合弁会社OKXICEなどが名を連ねている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "10月FOMCは金利据え置きか 焦点",
+   "link": "https://news.yahoo.co.jp/pickup/6600038?source=rss",
+   "published": "10/25 12:30",
+   "ts": 1792899033.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "美容室の倒産高水準 競争で二極化",
+   "link": "https://news.yahoo.co.jp/pickup/6600033?source=rss",
+   "published": "10/25 11:39",
+   "ts": 1792895956.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "千葉県の魅力度ランクが低下 背景",
+   "link": "https://news.yahoo.co.jp/pickup/6600018?source=rss",
+   "published": "10/25 10:07",
+   "ts": 1792890446.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "「Used in Japan」世界注目 なぜ",
    "link": "https://news.yahoo.co.jp/pickup/6599996?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6599932?source=rss",
    "published": "10/24 14:52",
    "ts": 1792821141.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "スタバに敬意 すなば珈琲経営戦略",
-   "link": "https://news.yahoo.co.jp/pickup/6599915?source=rss",
-   "published": "10/24 11:58",
-   "ts": 1792810696.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "裁量労働制 乱用防止へ労使が一致",
-   "link": "https://news.yahoo.co.jp/pickup/6599894?source=rss",
-   "published": "10/24 09:07",
-   "ts": 1792800468.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タイムズカー情報流出 集団訴訟へ",
-   "link": "https://news.yahoo.co.jp/pickup/6599864?source=rss",
-   "published": "10/23 21:58",
-   "ts": 1792760300.0,
    "source": "Yahoo!",
    "desc": ""
   }
