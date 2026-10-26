@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26 13:59:04",
+ "updated_at": "2026-10-26 22:18:46",
  "fng": {
   "value": 50,
   "label": "中立",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.038785665759335,
-  "eth_dominance": 10.565851179714283,
-  "total_mcap_usd": 2676343668315.046,
-  "mcap_change_24h": -4.512923336147788
+  "btc_dominance": 59.46155068475028,
+  "eth_dominance": 10.454187192662289,
+  "total_mcap_usd": 2699798232910.0005,
+  "mcap_change_24h": -2.86372443491795
  },
  "defi": {
-  "tvl_usd": 88308998123.0,
-  "change_1d": -0.011255914556982605,
-  "change_7d": -0.025352037565718688,
-  "change_1y": -0.4092965637439081,
-  "range_pos_1y": 0.2325728440667453
+  "tvl_usd": 88676604594.0,
+  "change_1d": -0.007924001220293242,
+  "change_7d": -0.021294841747023452,
+  "change_1y": -0.40683762512808064,
+  "range_pos_1y": 0.23681598117184685
  },
  "news_crypto": [
+  {
+   "title": "米上場ストライブ、780億円相当ビットコインを追加購入　保有量4.3万BTCに",
+   "link": "https://coinpost.jp/?p=744763",
+   "published": "10/26 21:40",
+   "ts": 1793018431.0,
+   "source": "CoinPost",
+   "desc": "米ナスダック上場のStriveが10月17日から23日に6,182BTCの仮想通貨ビットコインを追加購入し、保有量は43,000BTCに増えた。一方、ストラテジーは5週連続の購入が途切れ、保有量は848,517BTCのままとなった。"
+  },
+  {
+   "title": "エンタメ系L2「Soneium」、独自トークン発行を計画",
+   "link": "https://coinpost.jp/?p=744397",
+   "published": "10/26 17:35",
+   "ts": 1793003711.0,
+   "source": "CoinPost",
+   "desc": "Soneiumが独自トークン「SONEIUM」の発行計画を発表した。発行は正式決定前で、国内での流通も未定。ファンが作品を支援するトークン化IPも始め、第1弾はキャラクター「もりうさ」となる。"
+  },
+  {
+   "title": "ミレイ大統領のLIBRAミームコイン事件、アルゼンチン裁判所が棄却　詐欺の証拠不十分",
+   "link": "https://coinpost.jp/?p=744713",
+   "published": "10/26 14:19",
+   "ts": 1792991971.0,
+   "source": "CoinPost",
+   "desc": "アルゼンチン連邦裁判所は23日、ミームコイン「LIBRA」をめぐる事件でミレイ大統領ら11人の訴追を棄却。犯罪に該当しないと判断したが、裁定は確定しておらず、投資家側の上訴が続いている。"
+  },
   {
    "title": "バイナンスへの個人ビットコイン入金が半年ぶり高水準　クジラは流入減＝アナリスト",
    "link": "https://coinpost.jp/?p=744710",
@@ -89,33 +113,25 @@
    "ts": 1792972348.0,
    "source": "CoinPost",
    "desc": "インドの仮想通貨取引所CoinDCXが、2025年7月の不正流出で廃止した旧ウォレットから1,599万USDTが流出したと公表した。誤入金を移すスイープ処理の停止が原因で、損失は同社が負担する。CEOが当初侵害を否定していた経緯も伝える。"
-  },
-  {
-   "title": "X、いいね長押しで1ドル送金へ　仮想通貨は依然非対応",
-   "link": "https://coinpost.jp/?p=744612",
-   "published": "10/26 08:09",
-   "ts": 1792969785.0,
-   "source": "CoinPost",
-   "desc": "イーロン・マスク氏は25日、Xのいいねボタンを長押しすると決済サービスX Money経由で1ドルを送れる機能を追加すると明らかにした。7月に米国で一般提供が始まったX Moneyは、ビットコインやステーブルコインに対応していない。"
-  },
-  {
-   "title": "ETHのレバレッジ解消進む、建玉115億ドルに縮小＝アナリスト",
-   "link": "https://coinpost.jp/?p=744608",
-   "published": "10/26 07:34",
-   "ts": 1792967673.0,
-   "source": "CoinPost",
-   "desc": "クリプトクアントのアナリストによると、イーサリアム（ETH）の先物建玉は全取引所合計で115億ドルまで縮小した。最大手バイナンスでは1カ月で約2割減少。7月の同様の局面では、その後ETH価格が32％超反発していた。"
-  },
-  {
-   "title": "ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=744399",
-   "published": "10/25 11:30",
-   "ts": 1792895417.0,
-   "source": "CoinPost",
-   "desc": "ビットコインは8.5万ドル手前で失速、AI・半導体株安に連れて1300万円を割り込んだ。8万ドル周辺では下げ止まり底堅さを維持。最大の注目イベントFOMCとGDP・PCEを控え、通過後の相場をbitbankアナリストが解説。"
   }
  ],
  "news_jp": [
+  {
+   "title": "豪生保 第一ライフによる買収拒否",
+   "link": "https://news.yahoo.co.jp/pickup/6600234?source=rss",
+   "published": "10/26 22:03",
+   "ts": 1793019791.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "温泉「無断持ち帰り」 若旦那困惑",
+   "link": "https://news.yahoo.co.jp/pickup/6600187?source=rss",
+   "published": "10/26 15:19",
+   "ts": 1792995583.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ドクターイエロー後継 客乗せ走行",
    "link": "https://news.yahoo.co.jp/pickup/6600178?source=rss",
@@ -141,14 +157,6 @@
    "desc": ""
   },
   {
-   "title": "カスハラ対策 企業の3割は未着手",
-   "link": "https://news.yahoo.co.jp/pickup/6600159?source=rss",
-   "published": "10/26 11:07",
-   "ts": 1792980472.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "プロ野球観客動員最多 球場で何が",
    "link": "https://news.yahoo.co.jp/pickup/6600158?source=rss",
    "published": "10/26 10:48",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600143?source=rss",
    "published": "10/26 08:42",
    "ts": 1792971753.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "コニカミノルタ「社内副業」狙い",
-   "link": "https://news.yahoo.co.jp/pickup/6600138?source=rss",
-   "published": "10/26 08:02",
-   "ts": 1792969338.0,
    "source": "Yahoo!",
    "desc": ""
   }
