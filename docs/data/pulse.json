@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-10-26 08:21:22",
+ "updated_at": "2026-10-26 13:59:04",
  "fng": {
-  "value": 54,
+  "value": 50,
   "label": "中立",
   "history": [
-   74,
    70,
    74,
    73,
@@ -33,23 +32,64 @@
    68,
    50,
    51,
-   54
+   54,
+   50
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.028287812549905,
-  "eth_dominance": 10.611530966202954,
-  "total_mcap_usd": 2684445736769.628,
-  "mcap_change_24h": -3.709404474027179
+  "btc_dominance": 60.038785665759335,
+  "eth_dominance": 10.565851179714283,
+  "total_mcap_usd": 2676343668315.046,
+  "mcap_change_24h": -4.512923336147788
  },
  "defi": {
-  "tvl_usd": 89050505272.0,
-  "change_1d": -0.0064366332533023485,
-  "change_7d": -0.00994354672844211,
-  "change_1y": -0.40295352415923213,
-  "range_pos_1y": 0.24113176983609055
+  "tvl_usd": 88308998123.0,
+  "change_1d": -0.011255914556982605,
+  "change_7d": -0.025352037565718688,
+  "change_1y": -0.4092965637439081,
+  "range_pos_1y": 0.2325728440667453
  },
  "news_crypto": [
+  {
+   "title": "バイナンスへの個人ビットコイン入金が半年ぶり高水準　クジラは流入減＝アナリスト",
+   "link": "https://coinpost.jp/?p=744710",
+   "published": "10/26 13:43",
+   "ts": 1792989795.0,
+   "source": "CoinPost",
+   "desc": "クリプトクアントのアナリストによると、個人投資家によるバイナンスへのビットコイン入金額（30日累計）が107.5億ドルと約6カ月ぶりの高水準に達した。一方、クジラの入金額は2カ月で59億ドルから38億ドルへ減少している。"
+  },
+  {
+   "title": "韓国の大統領府、またも仮想通貨課税の延期を検討　実現なら4回目",
+   "link": "https://coinpost.jp/?p=744652",
+   "published": "10/26 12:55",
+   "ts": 1792986948.0,
+   "source": "CoinPost",
+   "desc": "韓国大統領府が2027年1月開始予定の仮想通貨課税を延期する方向で検討している。実現すれば4回目の先送りとなる。最終判断は与党との協議と国会審議を経て決まる見通しだ。"
+  },
+  {
+   "title": "仮想通貨狙うiPhone攻撃、関連偽サイト1500件超＝スローミスト",
+   "link": "https://coinpost.jp/?p=744662",
+   "published": "10/26 11:26",
+   "ts": 1792981613.0,
+   "source": "CoinPost",
+   "desc": "iOSの脆弱性を突く攻撃ツール「DarkSword」に関連するフィッシングサイトが1,500件以上見つかった。スローミストが10月24日に警告し、iOSの更新を呼びかけた。攻撃の仕組みと対策をまとめる。"
+  },
+  {
+   "title": "ビットコインに3週間書き込まれ続ける「暗号風の文」とは？　ギャラクシーデジタル分析",
+   "link": "https://coinpost.jp/?p=744620",
+   "published": "10/26 09:45",
+   "ts": 1792975531.0,
+   "source": "CoinPost",
+   "desc": "ギャラクシーリサーチが、仮想通貨ビットコインのブロックチェーンに連日書き込まれる「暗号風の文」を分析。ツールのテストの可能性があると指摘した。"
+  },
+  {
+   "title": "インド大手取引所CoinDCX、旧ウォレットから1599万USDT流出",
+   "link": "https://coinpost.jp/?p=744616",
+   "published": "10/26 08:52",
+   "ts": 1792972348.0,
+   "source": "CoinPost",
+   "desc": "インドの仮想通貨取引所CoinDCXが、2025年7月の不正流出で廃止した旧ウォレットから1,599万USDTが流出したと公表した。誤入金を移すスイープ処理の停止が原因で、損失は同社が負担する。CEOが当初侵害を否定していた経緯も伝える。"
+  },
   {
    "title": "X、いいね長押しで1ドル送金へ　仮想通貨は依然非対応",
    "link": "https://coinpost.jp/?p=744612",
@@ -73,49 +113,65 @@
    "ts": 1792895417.0,
    "source": "CoinPost",
    "desc": "ビットコインは8.5万ドル手前で失速、AI・半導体株安に連れて1300万円を割り込んだ。8万ドル周辺では下げ止まり底堅さを維持。最大の注目イベントFOMCとGDP・PCEを控え、通過後の相場をbitbankアナリストが解説。"
-  },
-  {
-   "title": "『投機』がこの10年のテーマ、注目すべきは予測市場・無期限先物取引所＝Delphi Digital",
-   "link": "https://coinpost.jp/?p=744542",
-   "published": "10/25 09:00",
-   "ts": 1792886419.0,
-   "source": "CoinPost",
-   "desc": "ブロックチェーン調査企業Delphi Digitalが、投機を「建設型」と「宝くじ型」に分類し、両方が同時に加速する現状を分析した。投機の対象ではなく、取引所や決済インフラといった「胴元」に注目すべきと主張。"
-  },
-  {
-   "title": "ビットコイン、8万ドルまで下落後　ETF・企業の取得単価付近で反発＝グラスノード",
-   "link": "https://coinpost.jp/?p=744525",
-   "published": "10/24 17:00",
-   "ts": 1792828817.0,
-   "source": "CoinPost",
-   "desc": "グラスノードは週間レポートで、15日に約8万ドルまで下落したビットコインが、現物ETFやトレジャリー企業の平均取得単価のすぐ下で反発したと指摘した。上値の価格帯も分析している。"
-  },
-  {
-   "title": "マレーシアとタイの中銀、デジタルマネーの国際決済を推進する「BLOOM」に参加",
-   "link": "https://coinpost.jp/?p=744562",
-   "published": "10/24 16:30",
-   "ts": 1792827041.0,
-   "source": "CoinPost",
-   "desc": "シンガポール金融管理局は、マレーシア中銀とタイ中銀がデジタルマネーの国際決済を探る官民枠組み「BLOOM」に参加したと発表した。ビザやリップルなども今年加入している。"
-  },
-  {
-   "title": "ユニスワップ、v4に外部流動性を取り込み　手数料はUNIトークン焼却に寄与",
-   "link": "https://coinpost.jp/?p=744548",
-   "published": "10/24 15:00",
-   "ts": 1792821605.0,
-   "source": "CoinPost",
-   "desc": "分散型取引所大手ユニスワップは22日、ユニスワップv4が外部の流動性源をプールとして扱えるアグリゲーターフックの提供を始めたと発表した。外部経由のスワップはプロトコル手数料を支払い、UNIの焼却につながる。"
-  },
-  {
-   "title": "ソラナ、取引確定時間が約85分の1に　「アルペングロー」がメインネットで稼働",
-   "link": "https://coinpost.jp/?p=744547",
-   "published": "10/24 14:00",
-   "ts": 1792818003.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ソラナは、新コンセンサスAlpenglowをメインネットでローンチ。今回のアップグレードにはファイナリティが約150ミリ秒に短縮されるなどのメリットがある。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ドクターイエロー後継 客乗せ走行",
+   "link": "https://news.yahoo.co.jp/pickup/6600178?source=rss",
+   "published": "10/26 13:29",
+   "ts": 1792988944.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "退職倒産が最多 中小企業どう対応",
+   "link": "https://news.yahoo.co.jp/pickup/6600166?source=rss",
+   "published": "10/26 12:49",
+   "ts": 1792986575.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ドトール なぜ安いのに過去最高益",
+   "link": "https://news.yahoo.co.jp/pickup/6600163?source=rss",
+   "published": "10/26 11:48",
+   "ts": 1792982889.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "カスハラ対策 企業の3割は未着手",
+   "link": "https://news.yahoo.co.jp/pickup/6600159?source=rss",
+   "published": "10/26 11:07",
+   "ts": 1792980472.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "プロ野球観客動員最多 球場で何が",
+   "link": "https://news.yahoo.co.jp/pickup/6600158?source=rss",
+   "published": "10/26 10:48",
+   "ts": 1792979335.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "電車が駅で140m過ぎて停車 戻らず",
+   "link": "https://news.yahoo.co.jp/pickup/6600144?source=rss",
+   "published": "10/26 08:50",
+   "ts": 1792972231.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "民間金融機関に資金供給拡大 方針",
+   "link": "https://news.yahoo.co.jp/pickup/6600143?source=rss",
+   "published": "10/26 08:42",
+   "ts": 1792971753.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "コニカミノルタ「社内副業」狙い",
    "link": "https://news.yahoo.co.jp/pickup/6600138?source=rss",
@@ -123,78 +179,22 @@
    "ts": 1792969338.0,
    "source": "Yahoo!",
    "desc": ""
-  },
-  {
-   "title": "AI投資に巨額マネー 実態と展望",
-   "link": "https://news.yahoo.co.jp/pickup/6600116?source=rss",
-   "published": "10/25 22:45",
-   "ts": 1792935923.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "Suicaペンギンなぜ「卒業」解説",
-   "link": "https://news.yahoo.co.jp/pickup/6600063?source=rss",
-   "published": "10/25 16:17",
-   "ts": 1792912625.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "退職代行「バブル」崩壊? なぜ今",
-   "link": "https://news.yahoo.co.jp/pickup/6600048?source=rss",
-   "published": "10/25 13:55",
-   "ts": 1792904139.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "10月FOMCは金利据え置きか 焦点",
-   "link": "https://news.yahoo.co.jp/pickup/6600038?source=rss",
-   "published": "10/25 12:30",
-   "ts": 1792899033.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "美容室の倒産高水準 競争で二極化",
-   "link": "https://news.yahoo.co.jp/pickup/6600033?source=rss",
-   "published": "10/25 11:39",
-   "ts": 1792895956.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "千葉県の魅力度ランクが低下 背景",
-   "link": "https://news.yahoo.co.jp/pickup/6600018?source=rss",
-   "published": "10/25 10:07",
-   "ts": 1792890446.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「Used in Japan」世界注目 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6599996?source=rss",
-   "published": "10/25 07:48",
-   "ts": 1792882119.0,
-   "source": "Yahoo!",
-   "desc": ""
   }
  ],
  "jgb": {
-  "date": "R8.10.22",
-  "y10": 2.914,
-  "chg5d": -0.03399999999999981,
-  "rank_1y": 0.944,
+  "date": "R8.10.23",
+  "y10": 2.837,
+  "chg5d": -0.121,
+  "rank_1y": 0.94,
   "curve": {
-   "1": 1.66,
-   "2": 1.914,
-   "5": 2.304,
-   "10": 2.914,
-   "20": 3.707,
-   "30": 3.952,
-   "40": 3.959
+   "1": 1.642,
+   "2": 1.872,
+   "5": 2.238,
+   "10": 2.837,
+   "20": 3.645,
+   "30": 3.904,
+   "40": 3.911
   },
-  "spread_10_2": 1.0000000000000002
+  "spread_10_2": 0.9650000000000001
  }
 }
