@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27 18:10:10",
+ "updated_at": "2026-10-28 00:26:15",
  "fng": {
   "value": 48,
   "label": "中立",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.00549488135275,
-  "eth_dominance": 10.570998841722782,
-  "total_mcap_usd": 2665656235948.54,
-  "mcap_change_24h": -3.0287017197250634
+  "btc_dominance": 59.44067323643015,
+  "eth_dominance": 10.4944303085647,
+  "total_mcap_usd": 2708854798184.867,
+  "mcap_change_24h": -2.619757647900477
  },
  "defi": {
-  "tvl_usd": 87776089833.0,
-  "change_1d": -0.00990071640870116,
-  "change_7d": -0.027406684409393534,
-  "change_1y": -0.43295437859496044,
-  "range_pos_1y": 0.22844206725550828
+  "tvl_usd": 88187322280.0,
+  "change_1d": -0.005253020903292049,
+  "change_7d": -0.02286692837418669,
+  "change_1y": -0.4303084449011495,
+  "range_pos_1y": 0.23313075824495383
  },
  "news_crypto": [
+  {
+   "title": "マイクロソフトやIBMなど計26社が株式トークン化に反対、OKXとICEの計画めぐり",
+   "link": "https://coinpost.jp/?p=745033",
+   "published": "10/27 21:50",
+   "ts": 1793105440.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨取引所OKXとICEの合弁会社OKXICEが計画する株式のトークン化取引に、IBMなど4社が新たに異議を申し立てた。反対した企業は計26社となった。異議が出た銘柄はOKXICEでは取り扱えなくなる。"
+  },
+  {
+   "title": "自民ブロックチェーン推進議連、米国視察を報告　DeFiや予測市場を議論",
+   "link": "https://coinpost.jp/?p=745019",
+   "published": "10/27 19:40",
+   "ts": 1793097616.0,
+   "source": "CoinPost",
+   "desc": "自民党ブロックチェーン推進議連が第37回会合で、8月の米国視察を報告した。SEC・CFTCなど米当局の姿勢や予測市場の扱いを共有し、JBAはDeFiの法的位置づけや仮想通貨の「電子的財産権」明確化を提言した。金融庁の検討状況も紹介。"
+  },
   {
    "title": "ギャラクシーデジタル、「ビットコインに好ましい状況」と強気見解",
    "link": "https://coinpost.jp/?p=744865",
@@ -97,25 +113,33 @@
    "ts": 1793067626.0,
    "source": "CoinPost",
    "desc": "仮想通貨ソラナのトレジャリー企業ソラナ・カンパニーは、香港政府の戦略企業誘致室から戦略企業に選出されたことを発表。オフィスを構えたり、バリデータ稼働したりすることなど計画を説明した。"
-  },
-  {
-   "title": "デモと通信障害のフランスでビットチャットに注目、SNSアプリで首位",
-   "link": "https://coinpost.jp/?p=744792",
-   "published": "10/27 11:05",
-   "ts": 1793066746.0,
-   "source": "CoinPost",
-   "desc": "ツイッター共同創業者のジャック・ドーシー氏が手がけるビットチャットが、全国規模のデモと通信障害の後にフランスのSNSアプリ部門で首位となった。ネット接続なしで使え、ビットコインを裏付けとする電子現金の決済機能も備える。"
-  },
-  {
-   "title": "SBI・スターテイル、ブラックロックとトークン化MMF連携を検討へ",
-   "link": "https://coinpost.jp/?p=744829",
-   "published": "10/27 11:05",
-   "ts": 1793066740.0,
-   "source": "CoinPost",
-   "desc": "SBIとスターテイルがブラックロックと基本合意し、トークン化MMFと円建てステーブルコイン「JPYSC」の連携を検討する。BUIDLで先行するブラックロックの狙いと、JPYSCのパブリックチェーン移行という焦点を整理する。"
   }
  ],
  "news_jp": [
+  {
+   "title": "イオン熊本 一部再開意向を伝える",
+   "link": "https://news.yahoo.co.jp/pickup/6600353?source=rss",
+   "published": "10/27 23:36",
+   "ts": 1793111761.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ユニクロ 50色ソックス値上げ撤回",
+   "link": "https://news.yahoo.co.jp/pickup/6600339?source=rss",
+   "published": "10/27 20:42",
+   "ts": 1793101368.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "たまごの平均価格 最高値を更新",
+   "link": "https://news.yahoo.co.jp/pickup/6600331?source=rss",
+   "published": "10/27 19:20",
+   "ts": 1793096428.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "ミセス×ガスト企画で持ち去り被害",
    "link": "https://news.yahoo.co.jp/pickup/6600320?source=rss",
@@ -141,34 +165,10 @@
    "desc": ""
   },
   {
-   "title": "千代田区 マンション転売巡り要請",
-   "link": "https://news.yahoo.co.jp/pickup/6600275?source=rss",
-   "published": "10/27 11:08",
-   "ts": 1793066930.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "大手生保 国債の入れ替え加速",
    "link": "https://news.yahoo.co.jp/pickup/6600265?source=rss",
    "published": "10/27 09:38",
    "ts": 1793061534.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "バズは狙わない「ちふれ」の工夫",
-   "link": "https://news.yahoo.co.jp/pickup/6600259?source=rss",
-   "published": "10/27 08:38",
-   "ts": 1793057884.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "立ち飲み 若者中心に新たなブーム",
-   "link": "https://news.yahoo.co.jp/pickup/6600257?source=rss",
-   "published": "10/27 08:14",
-   "ts": 1793056464.0,
    "source": "Yahoo!",
    "desc": ""
   },
