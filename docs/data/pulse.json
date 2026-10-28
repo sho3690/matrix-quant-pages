@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28 18:50:53",
+ "updated_at": "2026-10-29 03:23:39",
  "fng": {
   "value": 51,
   "label": "中立",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.4728692661866,
-  "eth_dominance": 10.517924358498044,
-  "total_mcap_usd": 2746158074369.0464,
-  "mcap_change_24h": 0.25147116461007973
+  "btc_dominance": 59.47089261708612,
+  "eth_dominance": 10.486857244982033,
+  "total_mcap_usd": 2722823832338.67,
+  "mcap_change_24h": -2.375516343787363
  },
  "defi": {
-  "tvl_usd": 88594058731.0,
-  "change_1d": 0.0043693887596991665,
-  "change_7d": -0.03272725716582203,
-  "change_1y": -0.4248157686162275,
-  "range_pos_1y": 0.24665561516600995
+  "tvl_usd": 88116765629.0,
+  "change_1d": 4.6438359234457494e-05,
+  "change_7d": -0.0376811265399023,
+  "change_1y": -0.4277943810471454,
+  "range_pos_1y": 0.24121189598541792
  },
  "news_crypto": [
+  {
+   "title": "米国人の63%「金融システムの刷新が必要」　仮想通貨は認知に壁＝米DEF調査",
+   "link": "https://coinpost.jp/?p=745149",
+   "published": "10/28 19:27",
+   "ts": 1793183246.0,
+   "source": "CoinPost",
+   "desc": "米DeFi教育財団（DEF）とIpsosが米国の成人1,545人に実施した調査で、現在の金融システムを安全と考える人は19%で、63%が刷新を求めた。一方、仮想通貨取引所への信頼は4%、DeFiは5%と低く、認知の壁も明らかになった。"
+  },
   {
    "title": "日本ビットコイン産業、BTC現物出資で約8億円調達へ　ANAP系と提携",
    "link": "https://coinpost.jp/?p=745233",
@@ -105,17 +113,17 @@
    "ts": 1793157334.0,
    "source": "CoinPost",
    "desc": "トヨタファイナンスは27日、トヨタグループ初の自己募集によるセキュリティトークン社債を発行した。ブロックチェーン基盤を採用し、発行予定額の10倍を超える申込があったため抽選とした。"
-  },
-  {
-   "title": "カントン基盤の取引プラットフォーム「Cancore」が約11億円を調達、発行予定の独自トークンで取引",
-   "link": "https://coinpost.jp/?p=745098",
-   "published": "10/28 12:00",
-   "ts": 1793156432.0,
-   "source": "CoinPost",
-   "desc": "カントンネットワーク基盤の仮想通貨などの取引プラットフォームであるカンコアは、シードラウンドで約11億円を調達。調達資金の活用法や投資家などを発表した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「千鳥饅頭」千鳥屋本家が破産へ",
+   "link": "https://news.yahoo.co.jp/pickup/6600474?source=rss",
+   "published": "10/28 21:24",
+   "ts": 1793190254.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "プルデンシャル 新たな不正事案",
    "link": "https://news.yahoo.co.jp/pickup/6600452?source=rss",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600385?source=rss",
    "published": "10/28 10:00",
    "ts": 1793149243.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "イオン熊本 一部再開意向を伝える",
-   "link": "https://news.yahoo.co.jp/pickup/6600353?source=rss",
-   "published": "10/27 23:36",
-   "ts": 1793111761.0,
    "source": "Yahoo!",
    "desc": ""
   }
