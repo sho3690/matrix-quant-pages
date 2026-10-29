@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29 19:11:23",
+ "updated_at": "2026-10-30 03:33:14",
  "fng": {
   "value": 51,
   "label": "中立",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.46939082147947,
-  "eth_dominance": 10.46109885560622,
-  "total_mcap_usd": 2702778714976.4854,
-  "mcap_change_24h": -3.335098763787741
+  "btc_dominance": 59.46840437474017,
+  "eth_dominance": 10.448259922193673,
+  "total_mcap_usd": 2720394792306.695,
+  "mcap_change_24h": -2.6994255934551092
  },
  "defi": {
-  "tvl_usd": 87653702763.0,
-  "change_1d": -0.008994531643751635,
-  "change_7d": -0.04754521078463747,
-  "change_1y": -0.4190678960170755,
-  "range_pos_1y": 0.2397628601313197
+  "tvl_usd": 89038744356.0,
+  "change_1d": 0.006664676253753221,
+  "change_7d": -0.032495196263246595,
+  "change_1y": -0.409888419265239,
+  "range_pos_1y": 0.2567278741225327
  },
  "news_crypto": [
+  {
+   "title": "レジャー製ウォレットの不正部品で約4.3億円被害、シンガポール警察が報告",
+   "link": "https://coinpost.jp/?p=745446",
+   "published": "10/29 21:55",
+   "ts": 1793278559.0,
+   "source": "CoinPost",
+   "desc": "シンガポール警察は28日、小売店で購入されたレジャー（Ledger）製ハードウェアの仮想通貨ウォレットに、リカバリーフレーズや秘密鍵を取得できる不正部品が含まれていたと発表した。9月10日以降に少なくとも2件、約4.3億円の被害が出ているという。"
+  },
   {
    "title": "ビザ、ステーブルコイン精算が10倍に　年換算約3.9兆円突破",
    "link": "https://coinpost.jp/?p=745421",
@@ -105,17 +113,33 @@
    "ts": 1793238280.0,
    "source": "CoinPost",
    "desc": "仮想通貨業界大手のリップルとコインベースがパートナーシップを締結。コインベースが段階的にRLUSDに対応することやXRPLなど3チェーンで入出金可能になることなどを発表した。"
-  },
-  {
-   "title": "グーグル、金融機関向けの仮想通貨・トークン化資産セキュリティツールを限定公開",
-   "link": "https://coinpost.jp/?p=745262",
-   "published": "10/29 10:12",
-   "ts": 1793236354.0,
-   "source": "CoinPost",
-   "desc": "グーグルが金融機関向けの仮想通貨保護サービスを限定公開した。MPCで秘密鍵を分散管理する仕組みで、複数の金融機関が試験中。商用提供は2027年初頭の予定だ。"
   }
  ],
  "news_jp": [
+  {
+   "title": "欧州中銀 2会合ぶり金利据え置き",
+   "link": "https://news.yahoo.co.jp/pickup/6600623?source=rss",
+   "published": "10/29 23:57",
+   "ts": 1793285832.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "天丼てんや 2カ月連続で客約1割減",
+   "link": "https://news.yahoo.co.jp/pickup/6600612?source=rss",
+   "published": "10/29 22:14",
+   "ts": 1793279659.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中部電 27年3月期の特損3800億円",
+   "link": "https://news.yahoo.co.jp/pickup/6600594?source=rss",
+   "published": "10/29 19:39",
+   "ts": 1793270394.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "11月電気代 大手7社で過去最高値",
    "link": "https://news.yahoo.co.jp/pickup/6600589?source=rss",
@@ -129,14 +153,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600585?source=rss",
    "published": "10/29 18:21",
    "ts": 1793265684.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "滋賀銀・池田泉州HD 統合へ合意",
-   "link": "https://news.yahoo.co.jp/pickup/6600584?source=rss",
-   "published": "10/29 18:21",
-   "ts": 1793265664.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -161,22 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600522?source=rss",
    "published": "10/29 11:18",
    "ts": 1793240312.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米FRBが政策金利を据え置き",
-   "link": "https://news.yahoo.co.jp/pickup/6600510?source=rss",
-   "published": "10/29 09:13",
-   "ts": 1793232789.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "本や雑誌発売日 大阪も1日遅れに",
-   "link": "https://news.yahoo.co.jp/pickup/6600504?source=rss",
-   "published": "10/29 08:34",
-   "ts": 1793230477.0,
    "source": "Yahoo!",
    "desc": ""
   }

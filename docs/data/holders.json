@@ -1,6 +1,6 @@
 {
- "fetched_at": 1793211825.7598412,
- "updated_at": "2026-10-29 03:23:45",
+ "fetched_at": 1793298799.9811223,
+ "updated_at": "2026-10-30 03:33:19",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -75,15 +75,14 @@
    "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund": "2026-09-09",
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
+   "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-10-30",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "MFS Series Trust XVII-MFS International Equity Fund": "2026-09-09",
    "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
-   "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09",
    "Gamma Investing LLC": "2026-09-09"
   },
   "9984.T": {},
@@ -99,9 +98,9 @@
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-16",
    "Fidelity Investment Trust-Fidelity Series International Value Fund": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Meyer Handelman Co": "2026-09-09"
   },
   "6501.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -114,10 +113,10 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "New World Fund Inc": "2026-09-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Gamma Investing LLC": "2026-09-09"
+   "Gamma Investing LLC": "2026-09-09",
+   "Meyer Handelman Co": "2026-09-09"
   },
   "8035.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -168,10 +167,10 @@
    "Capital Income Builder": "2026-10-01",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
+   "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-10-30",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
-   "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-10-09",
    "McIlrath & Eck, LLC": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
@@ -218,7 +217,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-10-21",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-10-21",
-   "Meyer Handelman Co": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "6367.T": {
@@ -315,7 +313,6 @@
    "iShares Trust-iShares Core MSCI Total International Stock ETF": "2026-10-28",
    "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E": "2026-10-20",
    "iShares Trust-iShares Core MSCI International Developed Markets ETF": "2026-10-28",
-   "Meyer Handelman Co": "2026-09-09",
    "Grace & White Inc /ny": "2026-10-26"
   },
   "6981.T": {
@@ -370,10 +367,10 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Stanley-Laman Group, Ltd.": "2026-09-09"
+   "Stanley-Laman Group, Ltd.": "2026-09-09",
+   "Meyer Handelman Co": "2026-09-09"
   },
   "7011.T": {},
   "8411.T": {
@@ -1386,7 +1383,7 @@
    "Principal Funds, Inc-Overseas Fund": "2026-09-09",
    "Dimensional ETF Trust-Dimensional International Value ETF": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
-   "Brinker Capital Destinations TRT-Destinations Intl Eqy. Fd.": "2026-09-09",
+   "ADVISORS' INNER CIRCLE FUND-CIBC Atlas International Growth Fund": "2026-10-30",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "5333.T": {
@@ -1746,8 +1743,8 @@
    "John Hancock Investment Trust-Disciplined Value International Fund": "2026-09-09",
    "TR PRICE-Price (T.Rowe) International Core Equity Trust": "2026-10-07",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-10-24",
-   "Meyer Handelman Co": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Meyer Handelman Co": "2026-09-09"
   },
   "7270.T": {},
   "7272.T": {
@@ -1824,9 +1821,9 @@
    "VANGUARD HORIZON FUNDS-Vanguard International Core Stock Fund": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
+   "Columbia Funds Series Trust-Columbia Overseas Value Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
-   "Columbia Funds Series Trust-Columbia Overseas Value Fund": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8308.T": {
@@ -1940,12 +1937,12 @@
    "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund": "2026-09-09",
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
+   "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-10-30",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Perpetual Americas Funds Trust-JOHCM International Select Fund": "2026-09-09",
    "AQR Funds-AQR Long-Short Equity Fund": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
-   "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8830.T": {
@@ -2064,8 +2061,8 @@
    "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
-   "Victory Portfolios III-Victory International Fund": "2026-09-09",
    "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E": "2026-09-09",
+   "iShares Trust-iShares Core MSCI International Developed Markets ETF": "2026-10-30",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "2432.T": {
@@ -2537,6 +2534,19 @@
     "suspect": false
    },
    {
+    "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": "フィデリティ",
+    "notable": true,
+    "date": "2026-08-31",
+    "pct_held": 0.0038,
+    "shares": 22894991,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
+   },
+   {
     "holder": "iShares Trust-iShares MSCI EAFE ETF",
     "kind": "mf",
     "type": "index",
@@ -2602,19 +2612,6 @@
     "suspect": false
    },
    {
-    "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-08-31",
-    "pct_held": 0.0023,
-    "shares": 13557561,
-    "pct_change": 0.0128,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Aristotle Capital Management, LLC",
     "kind": "inst",
     "type": "inst",
@@ -2638,19 +2635,6 @@
     "shares": 1769342,
     "pct_change": 0.5201,
     "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 11862,
-    "pct_change": 1.0,
-    "new_est": true,
     "suspect": false
    },
    {
@@ -2813,19 +2797,6 @@
     "suspect": false
    },
    {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 17550,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Paradigm Asset Management Company, LLC",
     "kind": "inst",
     "type": "inst",
@@ -2848,6 +2819,19 @@
     "pct_held": 0.0,
     "shares": 91506,
     "pct_change": -0.0332,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Meyer Handelman Co",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 17550,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -2984,19 +2968,6 @@
     "suspect": false
    },
    {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 9256,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Paradigm Asset Management Company, LLC",
     "kind": "inst",
     "type": "inst",
@@ -3031,6 +3002,19 @@
     "date": "2026-09-30",
     "pct_held": 0.0,
     "shares": 84,
+    "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Meyer Handelman Co",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 9256,
     "pct_change": 0.0,
     "new_est": false,
     "suspect": false
@@ -3590,6 +3574,19 @@
     "suspect": false
    },
    {
+    "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": "フィデリティ",
+    "notable": true,
+    "date": "2026-08-31",
+    "pct_held": 0.0032,
+    "shares": 11841736,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
+   },
+   {
     "holder": "iShares Trust-iShares MSCI EAFE ETF",
     "kind": "mf",
     "type": "index",
@@ -3625,19 +3622,6 @@
     "pct_held": 0.002,
     "shares": 7551616,
     "pct_change": -0.0025,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-08-31",
-    "pct_held": 0.0019,
-    "shares": 7227104,
-    "pct_change": -0.0108,
     "new_est": false,
     "suspect": false
    },
@@ -4165,19 +4149,6 @@
     "shares": 4213168,
     "pct_change": 0.0625,
     "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 5425,
-    "pct_change": 1.0,
-    "new_est": true,
     "suspect": false
    },
    {
@@ -5261,19 +5232,6 @@
     "suspect": false
    },
    {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 8441,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Grace & White Inc /ny",
     "kind": "inst",
     "type": "inst",
@@ -5880,19 +5838,6 @@
     "suspect": false
    },
    {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 1927,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Paradigm Asset Management Company, LLC",
     "kind": "inst",
     "type": "inst",
@@ -5928,6 +5873,19 @@
     "pct_held": 0.0,
     "shares": 5000,
     "pct_change": 0.2821,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Meyer Handelman Co",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 1927,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -17132,16 +17090,16 @@
     "suspect": false
    },
    {
-    "holder": "Brinker Capital Destinations TRT-Destinations Intl Eqy. Fd.",
+    "holder": "ADVISORS' INNER CIRCLE FUND-CIBC Atlas International Growth Fund",
     "kind": "mf",
     "type": "active",
     "manager": null,
     "notable": false,
-    "date": "2026-05-31",
+    "date": "2026-07-31",
     "pct_held": 0.0018000001,
-    "shares": 305452,
-    "pct_change": -0.1153,
-    "new_est": false,
+    "shares": 292000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    },
    {
@@ -21104,19 +21062,6 @@
     "suspect": false
    },
    {
-    "holder": "Meyer Handelman Co",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 13465,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -21126,6 +21071,19 @@
     "pct_held": 0.0,
     "shares": 15138,
     "pct_change": -0.0471,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Meyer Handelman Co",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 13465,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -21950,6 +21908,19 @@
     "suspect": false
    },
    {
+    "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
+    "kind": "mf",
+    "type": "active",
+    "manager": null,
+    "notable": false,
+    "date": "2026-08-31",
+    "pct_held": 0.0025,
+    "shares": 2356800,
+    "pct_change": 0.2683,
+    "new_est": false,
+    "suspect": false
+   },
+   {
     "holder": "iShares Trust-iShares MSCI EAFE ETF",
     "kind": "mf",
     "type": "index",
@@ -21972,19 +21943,6 @@
     "pct_held": 0.0021,
     "shares": 2026230,
     "pct_change": -0.0359,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-    "kind": "mf",
-    "type": "active",
-    "manager": null,
-    "notable": false,
-    "date": "2026-05-31",
-    "pct_held": 0.002,
-    "shares": 1858300,
-    "pct_change": 0.0448,
     "new_est": false,
     "suspect": false
    },
@@ -23218,6 +23176,19 @@
     "suspect": false
    },
    {
+    "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": "フィデリティ",
+    "notable": true,
+    "date": "2026-08-31",
+    "pct_held": 0.0032,
+    "shares": 1553773,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
+   },
+   {
     "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
     "kind": "mf",
     "type": "index",
@@ -23279,19 +23250,6 @@
     "pct_held": 0.0021,
     "shares": 995687,
     "pct_change": 0.0377,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-08-31",
-    "pct_held": 0.002,
-    "shares": 958641,
-    "pct_change": 0.024600001,
     "new_est": false,
     "suspect": false
    },
@@ -24566,19 +24524,6 @@
     "suspect": false
    },
    {
-    "holder": "Victory Portfolios III-Victory International Fund",
-    "kind": "mf",
-    "type": "active",
-    "manager": null,
-    "notable": false,
-    "date": "2026-05-31",
-    "pct_held": 0.0013,
-    "shares": 266200,
-    "pct_change": -0.061,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
     "kind": "mf",
     "type": "index",
@@ -24588,6 +24533,19 @@
     "pct_held": 0.001,
     "shares": 206300,
     "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+    "kind": "mf",
+    "type": "index",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.001,
+    "shares": 189400,
+    "pct_change": 0.024300002,
     "new_est": false,
     "suspect": false
    },
@@ -24716,10 +24674,10 @@
     "type": "index",
     "manager": null,
     "notable": false,
-    "date": "2026-05-31",
-    "pct_held": 0.0011999999,
-    "shares": 125559,
-    "pct_change": -0.078099996,
+    "date": "2026-08-31",
+    "pct_held": 0.0011,
+    "shares": 112259,
+    "pct_change": -0.105900005,
     "new_est": false,
     "suspect": false
    },
@@ -28410,6 +28368,23 @@
    "new_here": true
   },
   {
+   "symbol": "2371.T",
+   "name": "カカクコム",
+   "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+   "kind": "mf",
+   "type": "index",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.001,
+   "shares": 189400,
+   "pct_change": 0.024300002,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
+  },
+  {
    "symbol": "5411.T",
    "name": "JFE HD",
    "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -28937,6 +28912,40 @@
    "new_here": true
   },
   {
+   "symbol": "6758.T",
+   "name": "ソニーG",
+   "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+   "kind": "mf",
+   "type": "index",
+   "manager": "フィデリティ",
+   "notable": true,
+   "date": "2026-08-31",
+   "pct_held": 0.0038,
+   "shares": 22894991,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "8058.T",
+   "name": "三菱商事",
+   "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+   "kind": "mf",
+   "type": "index",
+   "manager": "フィデリティ",
+   "notable": true,
+   "date": "2026-08-31",
+   "pct_held": 0.0032,
+   "shares": 11841736,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
    "symbol": "6506.T",
    "name": "安川電機",
    "holder": "Federated Hermes World Investment Series, Inc.-Federated Hermes Intl L",
@@ -28964,6 +28973,23 @@
    "date": "2026-08-31",
    "pct_held": 0.0047999998,
    "shares": 2738700,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "1812.T",
+   "name": "鹿島建設",
+   "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+   "kind": "mf",
+   "type": "index",
+   "manager": "フィデリティ",
+   "notable": true,
+   "date": "2026-08-31",
+   "pct_held": 0.0032,
+   "shares": 1553773,
    "pct_change": 1.0,
    "new_est": true,
    "suspect": false,
@@ -29071,6 +29097,23 @@
    "suspect": false,
    "dir": "up",
    "new_here": true
+  },
+  {
+   "symbol": "8015.T",
+   "name": "豊田通商",
+   "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
+   "kind": "mf",
+   "type": "active",
+   "manager": null,
+   "notable": false,
+   "date": "2026-08-31",
+   "pct_held": 0.0025,
+   "shares": 2356800,
+   "pct_change": 0.2683,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
   },
   {
    "symbol": "9201.T",
@@ -29458,23 +29501,6 @@
    "pct_held": 0.0039,
    "shares": 1773736,
    "pct_change": 0.0,
-   "new_est": false,
-   "suspect": false,
-   "dir": "flat",
-   "new_here": true
-  },
-  {
-   "symbol": "8058.T",
-   "name": "三菱商事",
-   "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-   "kind": "mf",
-   "type": "index",
-   "manager": null,
-   "notable": false,
-   "date": "2026-08-31",
-   "pct_held": 0.0019,
-   "shares": 7227104,
-   "pct_change": -0.0108,
    "new_est": false,
    "suspect": false,
    "dir": "flat",
@@ -29916,6 +29942,23 @@
    "date": "2026-07-31",
    "pct_held": 0.0033000002,
    "shares": 654500,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "5332.T",
+   "name": "TOTO",
+   "holder": "ADVISORS' INNER CIRCLE FUND-CIBC Atlas International Growth Fund",
+   "kind": "mf",
+   "type": "active",
+   "manager": null,
+   "notable": false,
+   "date": "2026-07-31",
+   "pct_held": 0.0018000001,
+   "shares": 292000,
    "pct_change": 1.0,
    "new_est": true,
    "suspect": false,
@@ -31419,108 +31462,6 @@
    "new_here": false
   },
   {
-   "symbol": "6758.T",
-   "name": "ソニーG",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 11862,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "8306.T",
-   "name": "三菱UFJ",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 17550,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "6501.T",
-   "name": "日立製作所",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 9256,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "4063.T",
-   "name": "信越化学",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 5425,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "8766.T",
-   "name": "東京海上HD",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 8441,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "6857.T",
-   "name": "アドバンテスト",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 1927,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
    "symbol": "9020.T",
    "name": "JR東日本",
    "holder": "TR PRICE-Price (T.Rowe) International Growth Equity Trust",
@@ -31803,23 +31744,6 @@
    "date": "2026-06-30",
    "pct_held": 0.0,
    "shares": 299,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
-   "symbol": "7269.T",
-   "name": "スズキ",
-   "holder": "Meyer Handelman Co",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 13465,
    "pct_change": 1.0,
    "new_est": true,
    "suspect": false,
