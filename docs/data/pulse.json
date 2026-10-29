@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29 10:03:21",
+ "updated_at": "2026-10-29 19:11:23",
  "fng": {
   "value": 51,
   "label": "中立",
@@ -37,85 +37,133 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.48850889225914,
-  "eth_dominance": 10.495725644920272,
-  "total_mcap_usd": 2732291877533.944,
-  "mcap_change_24h": -2.384729813498581
+  "btc_dominance": 59.46939082147947,
+  "eth_dominance": 10.46109885560622,
+  "total_mcap_usd": 2702778714976.4854,
+  "mcap_change_24h": -3.335098763787741
  },
  "defi": {
-  "tvl_usd": 88703870998.0,
-  "change_1d": 0.007881910563394046,
-  "change_7d": -0.030356247847320605,
-  "change_1y": -0.4237864219091113,
-  "range_pos_1y": 0.2490739173578638
+  "tvl_usd": 87653702763.0,
+  "change_1d": -0.008994531643751635,
+  "change_7d": -0.04754521078463747,
+  "change_1y": -0.4190678960170755,
+  "range_pos_1y": 0.2397628601313197
  },
  "news_crypto": [
   {
-   "title": "リップル「2026年は成功の年」、年間プロダクト収益のランレートは1400億円超へ",
-   "link": "https://coinpost.jp/?p=745257",
-   "published": "10/29 09:10",
-   "ts": 1793232633.0,
+   "title": "ビザ、ステーブルコイン精算が10倍に　年換算約3.9兆円突破",
+   "link": "https://coinpost.jp/?p=745421",
+   "published": "10/29 16:26",
+   "ts": 1793258776.0,
    "source": "CoinPost",
-   "desc": "リップルは、2026年の年間プロダクト収益のランレートを算出し、約1,420億円に近づいていると発表。多様なソリューションを利用している顧客やパートナー企業の数が3倍になったとも公表した。"
+   "desc": "米ビザの2026年度第4四半期決算で、ステーブルコインによる精算額が年換算3.9兆円を超え、前年比10倍に拡大した。精算対応チェーンは10に倍増。ビザも参加するOUSDの流通量は約1,260億円を超えた。通期純収益は過去最高の7兆円超。"
   },
   {
-   "title": "米国人の63%「金融システムの刷新が必要」　仮想通貨は認知に壁＝米DEF調査",
-   "link": "https://coinpost.jp/?p=745149",
-   "published": "10/28 19:27",
-   "ts": 1793183246.0,
+   "title": "日本免税とUPBOND、JPYCで訪日客に免税還付　11月1日開始",
+   "link": "https://coinpost.jp/?p=745397",
+   "published": "10/29 15:37",
+   "ts": 1793255845.0,
    "source": "CoinPost",
-   "desc": "米DeFi教育財団（DEF）とIpsosが米国の成人1,545人に実施した調査で、現在の金融システムを安全と考える人は19%で、63%が刷新を求めた。一方、仮想通貨取引所への信頼は4%、DeFiは5%と低く、認知の壁も明らかになった。"
+   "desc": "日本免税は11月1日から、訪日客の免税還付金を円建てステーブルコインJPYCで受け取れるサービスを始める。同日開始の免税制度「リファンド方式」に合わせ、UPBONDのウォレット基盤とAvalancheを使って送付する。"
   },
   {
-   "title": "日本ビットコイン産業、BTC現物出資で約8億円調達へ　ANAP系と提携",
-   "link": "https://coinpost.jp/?p=745233",
-   "published": "10/28 18:06",
-   "ts": 1793178362.0,
+   "title": "ビットコイン、8万5000ドルの壁に阻まれレンジ相場続く＝グラスノード分析",
+   "link": "https://coinpost.jp/?p=745356",
+   "published": "10/29 14:47",
+   "ts": 1793252845.0,
    "source": "CoinPost",
-   "desc": "ビットコイン決済事業の日本ビットコイン産業は28日、ビットコインの現物出資による約8億円の第三者割当増資を発表した。ANAP子会社とはライトニングネットワークのルーティング事業で提携し、カード決済に頼らない越境決済の基盤づくりを進める。"
+   "desc": "Glassnodeの週次レポートによると、今年4度押し戻された8万5,000ドルが価格の壁となっている。 ビットコインETF需要は後退する一方、保有者による損失確定売りは縮小。価格はレンジ内で推移し、ボラティリティも大きく低下している。"
   },
   {
-   "title": "XRPクジラの保有比率68.5％、約4年ぶり高水準＝サンティメント",
-   "link": "https://coinpost.jp/?p=745226",
-   "published": "10/28 17:35",
-   "ts": 1793176529.0,
+   "title": "米大手清算・決済機関DTCC、トークン化サービスを開始　金融20社が利用契約",
+   "link": "https://coinpost.jp/?p=745308",
+   "published": "10/29 13:55",
+   "ts": 1793249750.0,
    "source": "CoinPost",
-   "desc": "サンティメントによると、1,000万XRP以上を持つウォレットの保有量が468.7億XRPに達し、供給量の約68.5％と2022年11月以来の水準に。価格低迷下での買い増しと、同社が示す節目をまとめた。"
+   "desc": "米DTCC傘下のDTCがトークン化証券サービス「DTS」を開始した。JPモルガンなど20社が利用契約を結んでいる。対象は大型株やETF、米国債でSEC無措置書簡が根拠となる。"
   },
   {
-   "title": "XRPレジャーのRWA、9割が未流通　エバーノース分析",
-   "link": "https://coinpost.jp/?p=745203",
-   "published": "10/28 16:10",
-   "ts": 1793171449.0,
+   "title": "ビットワイズ予測「ビットコインは10年後160万ドルに到達」　年率34.3％増で",
+   "link": "https://coinpost.jp/?p=745335",
+   "published": "10/29 11:49",
+   "ts": 1793242180.0,
    "source": "CoinPost",
-   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+   "desc": "ビットワイズは、ビットコインが2036年に159万9,766ドルに達するとの試算を公表した。年率34.3％で前年の28.3％から上方修正。機関投資家の1から5％配分で最大7.4兆ドルの資金流入を想定し、量子コンピュータなどのリスクも挙げた。"
   },
   {
-   "title": "商工中金、トークン化預金「DCJPY」発行へ　電子船荷証券と同時決済検討",
-   "link": "https://coinpost.jp/?p=745173",
-   "published": "10/28 14:24",
-   "ts": 1793165056.0,
+   "title": "SBI、米クロスリバー親会社と日本合弁へ　RWAトークン化やAI決済",
+   "link": "https://coinpost.jp/?p=745316",
+   "published": "10/29 11:25",
+   "ts": 1793240709.0,
    "source": "CoinPost",
-   "desc": "商工中金が発行するトークン化預金「DCJPY」を貿易決済に使う検討が始まった。DCPとSTANDAGEが電子船荷証券の移転と代金決済を同時に行う仕組みを検証し、2028年度の商用化を目指す。日経は年内にも実証を始めると報じた。"
+   "desc": "SBIホールディングスが米クロスリバー銀行の親会社CRBグループと、日本での合弁会社設立に向け基本合意。融資債権のRWAトークン化やクロスボーダー決済、AIエージェント向け決済を検討し、円建てステーブルコインJPYSCの導入も検討する。"
   },
   {
-   "title": "メタプラネット傘下入り予定のスーパーリーグ、4BTC追加購入",
-   "link": "https://coinpost.jp/?p=745163",
-   "published": "10/28 13:55",
-   "ts": 1793163327.0,
+   "title": "リップルとコインベースが提携、ステーブルコインRLUSDのアクセス拡大へ",
+   "link": "https://coinpost.jp/?p=745271",
+   "published": "10/29 10:44",
+   "ts": 1793238280.0,
    "source": "CoinPost",
-   "desc": "米ナスダック上場のスーパーリーグ・エンタープライズが、22日から25日にかけて4BTCのビットコインを平均約8万581.26ドルで購入した。メタプラネットからの出資は、2026年第4四半期の完了を予定している。"
+   "desc": "仮想通貨業界大手のリップルとコインベースがパートナーシップを締結。コインベースが段階的にRLUSDに対応することやXRPLなど3チェーンで入出金可能になることなどを発表した。"
   },
   {
-   "title": "日本円建てステーブルコイン「JPYC」1周年、累計発行額は120億円超",
-   "link": "https://coinpost.jp/?p=745104",
-   "published": "10/28 13:20",
-   "ts": 1793161211.0,
+   "title": "グーグル、金融機関向けの仮想通貨・トークン化資産セキュリティツールを限定公開",
+   "link": "https://coinpost.jp/?p=745262",
+   "published": "10/29 10:12",
+   "ts": 1793236354.0,
    "source": "CoinPost",
-   "desc": "日本円連動のステーブルコイン「JPYC」が発行1年を迎えた。累計発行額は120億円超、流通額は約30億円に達している。提携先は広がる一方、流通額の拡大が課題となっている。"
+   "desc": "グーグルが金融機関向けの仮想通貨保護サービスを限定公開した。MPCで秘密鍵を分散管理する仕組みで、複数の金融機関が試験中。商用提供は2027年初頭の予定だ。"
   }
  ],
  "news_jp": [
+  {
+   "title": "11月電気代 大手7社で過去最高値",
+   "link": "https://news.yahoo.co.jp/pickup/6600589?source=rss",
+   "published": "10/29 19:04",
+   "ts": 1793268261.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "上半期世界販売 スズキが国内2位",
+   "link": "https://news.yahoo.co.jp/pickup/6600585?source=rss",
+   "published": "10/29 18:21",
+   "ts": 1793265684.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "滋賀銀・池田泉州HD 統合へ合意",
+   "link": "https://news.yahoo.co.jp/pickup/6600584?source=rss",
+   "published": "10/29 18:21",
+   "ts": 1793265664.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ANA AIRDOなど完全子会社化へ",
+   "link": "https://news.yahoo.co.jp/pickup/6600561?source=rss",
+   "published": "10/29 16:08",
+   "ts": 1793257686.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "竹中工務店元社員 起訴内容認める",
+   "link": "https://news.yahoo.co.jp/pickup/6600523?source=rss",
+   "published": "10/29 11:25",
+   "ts": 1793240734.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "新型パジェロ予約受注 年度目標超",
+   "link": "https://news.yahoo.co.jp/pickup/6600522?source=rss",
+   "published": "10/29 11:18",
+   "ts": 1793240312.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "米FRBが政策金利を据え置き",
    "link": "https://news.yahoo.co.jp/pickup/6600510?source=rss",
@@ -129,54 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600504?source=rss",
    "published": "10/29 08:34",
    "ts": 1793230477.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「千鳥饅頭」千鳥屋本家が破産へ",
-   "link": "https://news.yahoo.co.jp/pickup/6600474?source=rss",
-   "published": "10/28 21:24",
-   "ts": 1793190254.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "プルデンシャル 新たな不正事案",
-   "link": "https://news.yahoo.co.jp/pickup/6600452?source=rss",
-   "published": "10/28 18:07",
-   "ts": 1793178458.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "キッチンタイマーを回収 TDR運営",
-   "link": "https://news.yahoo.co.jp/pickup/6600444?source=rss",
-   "published": "10/28 17:11",
-   "ts": 1793175112.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "飲食店 テイクアウトに慎重な理由",
-   "link": "https://news.yahoo.co.jp/pickup/6600420?source=rss",
-   "published": "10/28 13:34",
-   "ts": 1793162087.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "増える正社員の副業 実状とリスク",
-   "link": "https://news.yahoo.co.jp/pickup/6600415?source=rss",
-   "published": "10/28 13:11",
-   "ts": 1793160713.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "1600日超通う客も 名古屋発・大黒",
-   "link": "https://news.yahoo.co.jp/pickup/6600402?source=rss",
-   "published": "10/28 11:59",
-   "ts": 1793156343.0,
    "source": "Yahoo!",
    "desc": ""
   }
