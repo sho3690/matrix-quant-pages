@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30 19:14:07",
+ "updated_at": "2026-10-31 03:05:17",
  "fng": {
   "value": 30,
   "label": "恐怖",
@@ -37,21 +37,29 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.243816352668865,
-  "eth_dominance": 10.336386304862566,
-  "total_mcap_usd": 2621687869234.7866,
-  "mcap_change_24h": -4.629533358247017
+  "btc_dominance": 59.1791146405973,
+  "eth_dominance": 10.440807787435316,
+  "total_mcap_usd": 2613118242221.63,
+  "mcap_change_24h": -6.646911079421993
  },
  "defi": {
-  "tvl_usd": 83963601575.0,
-  "change_1d": -0.051730894089756396,
-  "change_7d": -0.06674521647051501,
-  "change_1y": -0.4391294505603307,
-  "range_pos_1y": 0.199852595496014
+  "tvl_usd": 83480731891.0,
+  "change_1d": -0.057188293685715874,
+  "change_7d": -0.07211230928169987,
+  "change_1y": -0.4423549837662989,
+  "range_pos_1y": 0.1937796136876054
  },
  "news_crypto": [
   {
-   "title": "バイナンス、ハッキングの調査で他にも複数の侵害箇所判明　出金再開は45時間後の予定",
+   "title": "SBI VCトレードとビットバンク、バイナンスの暗号資産流出で顧客資産に影響なし",
+   "link": "https://coinpost.jp/?p=745755",
+   "published": "10/30 21:25",
+   "ts": 1793363100.0,
+   "source": "CoinPost",
+   "desc": "SBIホールディングスが30日、バイナンスの暗号資産不正流出事案について、子会社各社のバイナンスに対するエクスポージャーは現時点で限定的で、連結業績への影響はないと発表した。SBI VCトレードとビットバンクの顧客資産への影響もない。"
+  },
+  {
+   "title": "バイナンス、ハッキング調査で複数の侵入箇所が判明",
    "link": "https://coinpost.jp/?p=745739",
    "published": "10/30 19:10",
    "ts": 1793355027.0,
@@ -105,17 +113,41 @@
    "ts": 1793337037.0,
    "source": "CoinPost",
    "desc": "TRM Labsは、バイナンスから約63.6億ドル相当の仮想通貨が流出した事件を北朝鮮のハッキング部隊TraderTraitorの犯行と分析した。署名基盤侵害の可能性と、凍結を逃れた約24億ドルの現状を整理する。"
-  },
-  {
-   "title": "バイナンスジャパンが暗号資産入出金を一時停止、ビットフライヤーはバイナンス送金を制限",
-   "link": "https://coinpost.jp/?p=745638",
-   "published": "10/30 13:40",
-   "ts": 1793335248.0,
-   "source": "CoinPost",
-   "desc": "暗号資産取引所バイナンスジャパンが30日、本家バイナンスで確認された1兆円規模のハッキング事件による顧客資産への影響は現時点で確認されていないと発表した。取引は継続できるが、暗号資産の入出庫は一時停止。"
   }
  ],
  "news_jp": [
+  {
+   "title": "ジャングリア 出資に数社が関心",
+   "link": "https://news.yahoo.co.jp/pickup/6600733?source=rss",
+   "published": "10/30 23:03",
+   "ts": 1793368989.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "過剰配慮「ホワハラ」に 識者指摘",
+   "link": "https://news.yahoo.co.jp/pickup/6600719?source=rss",
+   "published": "10/30 20:49",
+   "ts": 1793360981.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "中国産オクラ 相次ぎ基準超え農薬",
+   "link": "https://news.yahoo.co.jp/pickup/6600721?source=rss",
+   "published": "10/30 20:41",
+   "ts": 1793360515.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "キオクシア 4-12月純利益24倍予想",
+   "link": "https://news.yahoo.co.jp/pickup/6600712?source=rss",
+   "published": "10/30 19:46",
+   "ts": 1793357186.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "東京メトロ「QR乗車券」導入へ",
    "link": "https://news.yahoo.co.jp/pickup/6600705?source=rss",
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "リースバック 悪質取引に規制強化",
-   "link": "https://news.yahoo.co.jp/pickup/6600675?source=rss",
-   "published": "10/30 13:51",
-   "ts": 1793335914.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "物価上昇目標2%に到達 日銀見解",
    "link": "https://news.yahoo.co.jp/pickup/6600672?source=rss",
    "published": "10/30 13:03",
    "ts": 1793333036.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「ねこまんま」覆す工夫で商品に",
-   "link": "https://news.yahoo.co.jp/pickup/6600671?source=rss",
-   "published": "10/30 12:42",
-   "ts": 1793331767.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日銀 政策金利1.25%に据え置き",
-   "link": "https://news.yahoo.co.jp/pickup/6600670?source=rss",
-   "published": "10/30 12:37",
-   "ts": 1793331468.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ナップザック 中高生になぜ人気",
-   "link": "https://news.yahoo.co.jp/pickup/6600634?source=rss",
-   "published": "10/30 07:49",
-   "ts": 1793314170.0,
    "source": "Yahoo!",
    "desc": ""
   }
