@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31 18:49:01",
+ "updated_at": "2026-11-01 02:17:06",
  "fng": {
   "value": 30,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.8682320119248,
-  "eth_dominance": 10.530074212790007,
-  "total_mcap_usd": 2595718827419.355,
-  "mcap_change_24h": -4.039439979337783
+  "btc_dominance": 59.25343303890065,
+  "eth_dominance": 10.43145250559499,
+  "total_mcap_usd": 2628097846270.344,
+  "mcap_change_24h": -2.321862813401925
  },
  "defi": {
-  "tvl_usd": 84667879611.0,
-  "change_1d": 0.00864953914127331,
-  "change_7d": -0.05393706575308843,
-  "change_1y": -0.4227118650066669,
-  "range_pos_1y": 0.20871019795566587
+  "tvl_usd": 84925564745.0,
+  "change_1d": 0.011719544410717209,
+  "change_7d": -0.051057740616993086,
+  "change_1y": -0.4209548991879193,
+  "range_pos_1y": 0.21195106641962877
  },
  "news_crypto": [
   {
@@ -117,6 +117,38 @@
  ],
  "news_jp": [
   {
+   "title": "GMOが11/2に記者会見 社長出席",
+   "link": "https://news.yahoo.co.jp/pickup/6600879?source=rss",
+   "published": "10/31 23:53",
+   "ts": 1793458409.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "GMO 24年にシステム脆弱性指摘",
+   "link": "https://news.yahoo.co.jp/pickup/6600878?source=rss",
+   "published": "10/31 23:27",
+   "ts": 1793456843.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マック 商品そろう前でも客呼ぶ訳",
+   "link": "https://news.yahoo.co.jp/pickup/6600877?source=rss",
+   "published": "10/31 22:56",
+   "ts": 1793454966.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "古着「オールドユニクロ」とは",
+   "link": "https://news.yahoo.co.jp/pickup/6600869?source=rss",
+   "published": "10/31 22:00",
+   "ts": 1793451626.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "ブラックフライデー 先行セールも",
    "link": "https://news.yahoo.co.jp/pickup/6600845?source=rss",
    "published": "10/31 17:56",
@@ -125,34 +157,10 @@
    "desc": ""
   },
   {
-   "title": "鶏高騰 豚肉が安い「逆転現象」も",
-   "link": "https://news.yahoo.co.jp/pickup/6600821?source=rss",
-   "published": "10/31 15:26",
-   "ts": 1793428016.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "WECARS 自賠責保険の販売可に",
-   "link": "https://news.yahoo.co.jp/pickup/6600814?source=rss",
-   "published": "10/31 14:35",
-   "ts": 1793424906.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "大企業出身のシニア採用 落とし穴",
    "link": "https://news.yahoo.co.jp/pickup/6600808?source=rss",
    "published": "10/31 14:01",
    "ts": 1793422870.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "半導体大手インテル 株価29%急落",
-   "link": "https://news.yahoo.co.jp/pickup/6600804?source=rss",
-   "published": "10/31 13:17",
-   "ts": 1793420222.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600740?source=rss",
    "published": "10/31 07:25",
    "ts": 1793399110.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ジャングリア 出資に数社が関心",
-   "link": "https://news.yahoo.co.jp/pickup/6600733?source=rss",
-   "published": "10/30 23:03",
-   "ts": 1793368989.0,
    "source": "Yahoo!",
    "desc": ""
   }
