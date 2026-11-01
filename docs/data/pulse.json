@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01 15:24:55",
+ "updated_at": "2026-11-02 01:07:41",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.306542038314234,
-  "eth_dominance": 10.47486543720018,
-  "total_mcap_usd": 2636476426300.0845,
-  "mcap_change_24h": -1.8569739812771855
+  "btc_dominance": 59.95321001757306,
+  "eth_dominance": 10.57044847784361,
+  "total_mcap_usd": 2609604590042.285,
+  "mcap_change_24h": -3.231469940052366
  },
  "defi": {
-  "tvl_usd": 85040513402.0,
-  "change_1d": 0.0018078094498423791,
-  "change_7d": -0.047213240493280684,
-  "change_1y": -0.42272566446450055,
-  "range_pos_1y": 0.21339675896565738
+  "tvl_usd": 85192408627.0,
+  "change_1d": 0.0036170723107100677,
+  "change_7d": -0.0454935992144222,
+  "change_1y": -0.42169456514989045,
+  "range_pos_1y": 0.21530712312554348
  },
  "news_crypto": [
   {
@@ -117,6 +117,30 @@
  ],
  "news_jp": [
   {
+   "title": "望月衣塑子記者の対談本 回収へ",
+   "link": "https://news.yahoo.co.jp/pickup/6600996?source=rss",
+   "published": "11/01 21:59",
+   "ts": 1793537975.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "みんなで大家さん 悔やむ出資者も",
+   "link": "https://news.yahoo.co.jp/pickup/6600993?source=rss",
+   "published": "11/01 21:37",
+   "ts": 1793536653.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "渋滞最大で3時間 いろは坂で実験",
+   "link": "https://news.yahoo.co.jp/pickup/6600969?source=rss",
+   "published": "11/01 18:10",
+   "ts": 1793524242.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "個人情報は必要? 企業の漏洩対策",
    "link": "https://news.yahoo.co.jp/pickup/6600932?source=rss",
    "published": "11/01 13:32",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600878?source=rss",
    "published": "10/31 23:27",
    "ts": 1793456843.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マック 商品そろう前でも客呼ぶ訳",
-   "link": "https://news.yahoo.co.jp/pickup/6600877?source=rss",
-   "published": "10/31 22:56",
-   "ts": 1793454966.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "古着「オールドユニクロ」とは",
-   "link": "https://news.yahoo.co.jp/pickup/6600869?source=rss",
-   "published": "10/31 22:00",
-   "ts": 1793451626.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ブラックフライデー 先行セールも",
-   "link": "https://news.yahoo.co.jp/pickup/6600845?source=rss",
-   "published": "10/31 17:56",
-   "ts": 1793437005.0,
    "source": "Yahoo!",
    "desc": ""
   }
