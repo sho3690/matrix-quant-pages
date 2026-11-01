@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-11-01 02:17:06",
+ "updated_at": "2026-11-01 09:13:11",
  "fng": {
-  "value": 30,
+  "value": 34,
   "label": "恐怖",
   "history": [
-   72,
    67,
    65,
    70,
@@ -33,21 +32,22 @@
    51,
    51,
    30,
-   30
+   30,
+   34
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.25343303890065,
-  "eth_dominance": 10.43145250559499,
-  "total_mcap_usd": 2628097846270.344,
-  "mcap_change_24h": -2.321862813401925
+  "btc_dominance": 59.24338059097358,
+  "eth_dominance": 10.46232609918592,
+  "total_mcap_usd": 2625598355683.5522,
+  "mcap_change_24h": -2.517050459189921
  },
  "defi": {
-  "tvl_usd": 84925564745.0,
-  "change_1d": 0.011719544410717209,
-  "change_7d": -0.051057740616993086,
-  "change_1y": -0.4209548991879193,
-  "range_pos_1y": 0.21195106641962877
+  "tvl_usd": 84834930442.0,
+  "change_1d": 0.010644523934956851,
+  "change_7d": -0.05207047124203712,
+  "change_1y": -0.42157286798536264,
+  "range_pos_1y": 0.2108111719686514
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "出国時に返金 新免税制度が開始",
+   "link": "https://news.yahoo.co.jp/pickup/6600900?source=rss",
+   "published": "11/01 09:08",
+   "ts": 1793491737.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "GMOが11/2に記者会見 社長出席",
    "link": "https://news.yahoo.co.jp/pickup/6600879?source=rss",
    "published": "10/31 23:53",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6600778?source=rss",
    "published": "10/31 10:33",
    "ts": 1793410395.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "都内最古の「天下一品」閉店へ",
-   "link": "https://news.yahoo.co.jp/pickup/6600740?source=rss",
-   "published": "10/31 07:25",
-   "ts": 1793399110.0,
    "source": "Yahoo!",
    "desc": ""
   }
