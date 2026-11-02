@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02 20:26:40",
+ "updated_at": "2026-11-03 06:48:04",
  "fng": {
   "value": 37,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.93179529482293,
-  "eth_dominance": 10.68740607645461,
-  "total_mcap_usd": 2599989385231.7295,
-  "mcap_change_24h": -2.8835222491506896
+  "btc_dominance": 59.22886128941316,
+  "eth_dominance": 10.559637301455002,
+  "total_mcap_usd": 2603228807719.5337,
+  "mcap_change_24h": -2.66086044032334
  },
  "defi": {
-  "tvl_usd": 85313303544.0,
-  "change_1d": 0.004844287096664512,
-  "change_7d": -0.03622790746189275,
-  "change_1y": -0.4210404613791101,
-  "range_pos_1y": 0.21682760091903044
+  "tvl_usd": 81896117586.0,
+  "change_1d": -0.005044237513722405,
+  "change_7d": -0.04648767493367678,
+  "change_1y": -0.43217444122728343,
+  "range_pos_1y": 0.20642133888596217
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "TDL内に野良猫 運営会社の対応は",
+   "link": "https://news.yahoo.co.jp/pickup/6601105?source=rss",
+   "published": "11/02 22:43",
+   "ts": 1793627033.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "GMO熊谷社長ら 報酬を3カ月減額",
    "link": "https://news.yahoo.co.jp/pickup/6601082?source=rss",
    "published": "11/02 18:24",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6601025?source=rss",
    "published": "11/02 09:21",
    "ts": 1793578899.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "望月衣塑子記者の対談本 回収へ",
-   "link": "https://news.yahoo.co.jp/pickup/6600996?source=rss",
-   "published": "11/01 21:59",
-   "ts": 1793537975.0,
    "source": "Yahoo!",
    "desc": ""
   }
