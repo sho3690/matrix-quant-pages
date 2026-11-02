@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02 09:52:55",
+ "updated_at": "2026-11-02 20:26:40",
  "fng": {
   "value": 37,
   "label": "恐怖",
@@ -37,19 +37,67 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.0214560102772,
-  "eth_dominance": 10.599065772726357,
-  "total_mcap_usd": 2611377673801.198,
-  "mcap_change_24h": -3.1214821141106572
+  "btc_dominance": 59.93179529482293,
+  "eth_dominance": 10.68740607645461,
+  "total_mcap_usd": 2599989385231.7295,
+  "mcap_change_24h": -2.8835222491506896
  },
  "defi": {
-  "tvl_usd": 85061894888.0,
-  "change_1d": 0.0020801588912571223,
-  "change_7d": -0.04695533449197964,
-  "change_1y": -0.422580522077306,
-  "range_pos_1y": 0.21366567080629956
+  "tvl_usd": 85313303544.0,
+  "change_1d": 0.004844287096664512,
+  "change_7d": -0.03622790746189275,
+  "change_1y": -0.4210404613791101,
+  "range_pos_1y": 0.21682760091903044
  },
  "news_crypto": [
+  {
+   "title": "ステーブルコインの100万円上限、金融庁研究会で議論　全銀協は慎重",
+   "link": "https://coinpost.jp/?p=746032",
+   "published": "11/02 19:21",
+   "ts": 1793614892.0,
+   "source": "CoinPost",
+   "desc": "金融庁は2日、デジタル・分散型金融に関する研究会の第2回会合を開き、ステーブルコインの100万円上限やレンディング規制を議論した。JPYCとSBI VCトレードが上限の見直しを求めた一方、全銀協は慎重な検討を求めた。"
+  },
+  {
+   "title": "米上場企業、5833BTCのビットコイン売却か担保化を検討　バイナンス事件受け",
+   "link": "https://coinpost.jp/?p=745949",
+   "published": "11/02 14:55",
+   "ts": 1793598904.0,
+   "source": "CoinPost",
+   "desc": "米ナスダック上場のネクスト・テクノロジーが、保有する約5,833BTCの売却または担保設定を取締役会で承認した。バイナンスの不正流出事件を受け、カストディリスクの高まりを理由に挙げている。"
+  },
+  {
+   "title": "DeFiサイトなど15ドメインに不正リダイレクト　訪問者の資金抜き取り",
+   "link": "https://coinpost.jp/?p=745924",
+   "published": "11/02 14:10",
+   "ts": 1793596256.0,
+   "source": "CoinPost",
+   "desc": "Name.comは顧客ドメイン15件が不正にリダイレクトされたと発表した。DeFiサイトでのEVM系流出額は約13.8万〜20.2万ドルと推計されている。"
+  },
+  {
+   "title": "SBI VCトレードのJPYSCレンディング残高、100億円を突破",
+   "link": "https://coinpost.jp/?p=745959",
+   "published": "11/02 13:05",
+   "ts": 1793592304.0,
+   "source": "CoinPost",
+   "desc": "SBI VCトレードは2日、円建てステーブルコインJPYSCのレンディング（貸コイン）残高が100億円を突破したと発表した。取扱残高も300億円を超えた。利用料の計算方法と、貸出中のJPYSCが分別管理の対象外となる点など、利用者が負うリスクを整理する。"
+  },
+  {
+   "title": "カルダノ団体、Linuxの重大欠陥でプール運営者に更新呼びかけ",
+   "link": "https://coinpost.jp/?p=745917",
+   "published": "11/02 11:40",
+   "ts": 1793587214.0,
+   "source": "CoinPost",
+   "desc": "カルダノのガバナンス組織インターセクトが、Linuxカーネルの重大な脆弱性についてステークプール運営者（SPO）に更新と再起動を要請した。深刻度は10点満点中9.8。委任されたADAへの影響と主要ディストリビューションの修正状況をまとめた。"
+  },
+  {
+   "title": "トランプ氏、北朝鮮関与なら対話の意向　バイナンス攻撃でFBIが関与発表",
+   "link": "https://coinpost.jp/?p=745881",
+   "published": "11/02 10:10",
+   "ts": 1793581800.0,
+   "source": "CoinPost",
+   "desc": "米FBIはバイナンスから63億ドル規模の仮想通貨が流出した件は北朝鮮系ハッキング集団の犯行だと発表した。トランプ大統領は関与が確認されれば北朝鮮と協議する意向を示した。"
+  },
   {
    "title": "BTCPay Server、ホットウォレット不正流出の報告受けサーバー停止を要請",
    "link": "https://coinpost.jp/?p=745885",
@@ -65,57 +113,57 @@
    "ts": 1793575911.0,
    "source": "CoinPost",
    "desc": "バイナンスから60億ドル超が流出した事件を受け、北朝鮮ラザルスによる仮想通貨の累計窃取額は118.7億ドルに達したとアナリストが試算した。北朝鮮のGDPの45％に相当する。FBIは今回の事件を北朝鮮の犯行と発表している。"
-  },
-  {
-   "title": "バイナンス出金再開、9時間半で純流出約5700億円　預かり資産の2.1％",
-   "link": "https://coinpost.jp/?p=745866",
-   "published": "11/02 07:44",
-   "ts": 1793573058.0,
-   "source": "CoinPost",
-   "desc": "バイナンスは、ハッキング被害で停止していた出金を11月1日から段階的に再開した。約9時間半で出金は約46億ドル、入金は約10億ドルで、純流出は預かり資産の2.1％にあたる。新たなプルーフ・オブ・リザーブ（PoR）は近く公開される見込み。"
-  },
-  {
-   "title": "ビットコイン、急落し1200万円台に　AI関連決算と雇用統計が焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=745685",
-   "published": "11/01 11:30",
-   "ts": 1793500213.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン（BTC）は、AI投資採算性への懸念とバイナンスからの大規模不正流出が重なり、1200万円台まで急落した。目先はAI関連企業の決算ラッシュと米雇用統計が相場の方向感を左右する焦点となる。"
-  },
-  {
-   "title": "週刊仮想通貨ニュース（10/30）｜バイナンス流出・BTC価格予測・リップルの発表のまとめ",
-   "link": "https://coinpost.jp/?p=745600",
-   "published": "11/01 09:25",
-   "ts": 1793492725.0,
-   "source": "CoinPost",
-   "desc": "今週は、リップルによる年間プロダクト収益のランレート発表、グーグルのセキュリティツール限定公開、ビットワイズによる仮想通貨ビットコインの価格予測、バイナンスの不正流出に関する記事が関心を集めた。"
-  },
-  {
-   "title": "仮想通貨犯罪追跡大手チェイナリシス、不正アクセス被害に",
-   "link": "https://coinpost.jp/?p=745824",
-   "published": "10/31 14:02",
-   "ts": 1793422924.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨分析大手チェイナリシスが30日、顧客のユーザーIDや氏名などへの不正アクセスを公表した。10月には日本の佐川急便や米国のオラクル・ヘルスを含む数百件の個人情報漏えいも確認されている。"
-  },
-  {
-   "title": "米クラリティー法案が再び焦点に、バイナンス被害で資産凍結の法的保護めぐり論争広がる",
-   "link": "https://coinpost.jp/?p=745789",
-   "published": "10/31 13:45",
-   "ts": 1793421950.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨取引所バイナンスで約63億ドル（1兆円超）の被害が出たハッキングを受け、ルミス上院議員は、クラリティー法案が成立していれば不審な取引を凍結できたと主張した。これに反論も出ており、業界団体は取引所の連邦監督を議会に求めている。"
-  },
-  {
-   "title": "テザー社、USDT準備金の超過分が1兆円超えに回復　6月末から約2倍に",
-   "link": "https://coinpost.jp/?p=745813",
-   "published": "10/31 13:10",
-   "ts": 1793419853.0,
-   "source": "CoinPost",
-   "desc": "ステーブルコインUSDTを提供するテザー社は、7～9月期の準備金保証報告書を公表した。9月末の超過準備金は79.5億ドルで6月末から約2倍になっている。"
   }
  ],
  "news_jp": [
+  {
+   "title": "GMO熊谷社長ら 報酬を3カ月減額",
+   "link": "https://news.yahoo.co.jp/pickup/6601082?source=rss",
+   "published": "11/02 18:24",
+   "ts": 1793611493.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "SBIとフジHDが資本業務提携 発表",
+   "link": "https://news.yahoo.co.jp/pickup/6601077?source=rss",
+   "published": "11/02 18:03",
+   "ts": 1793610211.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "永谷園「モコモコ」販売再開へ",
+   "link": "https://news.yahoo.co.jp/pickup/6601055?source=rss",
+   "published": "11/02 13:41",
+   "ts": 1793594476.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "フラット35 金利3.81%で過去2番目",
+   "link": "https://news.yahoo.co.jp/pickup/6601048?source=rss",
+   "published": "11/02 12:39",
+   "ts": 1793590783.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "同僚から盗撮被害 会社を訴えた訳",
+   "link": "https://news.yahoo.co.jp/pickup/6601046?source=rss",
+   "published": "11/02 12:13",
+   "ts": 1793589194.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "サラダが主食? 専門店の市場拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6601045?source=rss",
+   "published": "11/02 12:09",
+   "ts": 1793588949.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "内定者2年間入社しなくてOK 狙い",
    "link": "https://news.yahoo.co.jp/pickup/6601025?source=rss",
@@ -125,58 +173,10 @@
    "desc": ""
   },
   {
-   "title": "金型の無償保管 公取委勧告が急増",
-   "link": "https://news.yahoo.co.jp/pickup/6601015?source=rss",
-   "published": "11/02 07:44",
-   "ts": 1793573079.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "望月衣塑子記者の対談本 回収へ",
    "link": "https://news.yahoo.co.jp/pickup/6600996?source=rss",
    "published": "11/01 21:59",
    "ts": 1793537975.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "みんなで大家さん 悔やむ出資者も",
-   "link": "https://news.yahoo.co.jp/pickup/6600993?source=rss",
-   "published": "11/01 21:37",
-   "ts": 1793536653.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "渋滞最大で3時間 いろは坂で実験",
-   "link": "https://news.yahoo.co.jp/pickup/6600969?source=rss",
-   "published": "11/01 18:10",
-   "ts": 1793524242.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "個人情報は必要? 企業の漏洩対策",
-   "link": "https://news.yahoo.co.jp/pickup/6600932?source=rss",
-   "published": "11/01 13:32",
-   "ts": 1793507565.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "長すぎベルト「落ち感」引き出す",
-   "link": "https://news.yahoo.co.jp/pickup/6600919?source=rss",
-   "published": "11/01 11:12",
-   "ts": 1793499162.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "出国時に返金 新免税制度が開始",
-   "link": "https://news.yahoo.co.jp/pickup/6600900?source=rss",
-   "published": "11/01 09:08",
-   "ts": 1793491737.0,
    "source": "Yahoo!",
    "desc": ""
   }
