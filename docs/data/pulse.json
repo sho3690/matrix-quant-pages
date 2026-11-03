@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03 15:59:12",
+ "updated_at": "2026-11-04 02:09:53",
  "fng": {
   "value": 26,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.266752371372746,
-  "eth_dominance": 10.562892326173227,
-  "total_mcap_usd": 2588512824754.531,
-  "mcap_change_24h": -3.6757443027572867
+  "btc_dominance": 59.28706576719615,
+  "eth_dominance": 10.647920030605418,
+  "total_mcap_usd": 2630049966912.458,
+  "mcap_change_24h": -2.2204377780729163
  },
  "defi": {
-  "tvl_usd": 81797619346.0,
-  "change_1d": -0.010701980073974493,
-  "change_7d": -0.04175092205070918,
-  "change_1y": -0.43374153701601126,
-  "range_pos_1y": 0.22972655853126664
+  "tvl_usd": 82332182790.0,
+  "change_1d": -0.004239704068969674,
+  "change_7d": -0.03548857686983509,
+  "change_1y": -0.4300409271866903,
+  "range_pos_1y": 0.23731948249215495
  },
  "news_crypto": [
+  {
+   "title": "民主党が議会を制したら仮想通貨市場の法整備に逆風か、米中間選挙は今夜投票",
+   "link": "https://coinpost.jp/?p=746093",
+   "published": "11/03 20:20",
+   "ts": 1793704844.0,
+   "source": "CoinPost",
+   "desc": "米中間選挙で民主党側が大勝した場合、仮想通貨規制は法案の成立から調査・監視へ軸足が移る可能性がある。クラリティー法案が停滞し続け、トランプ大統領の家族の事業への調査が強まるとの見方が出ている。"
+  },
   {
    "title": "メタプラネットが253億円の自社株買い　ビットコイン購入配分を80億円戻す",
    "link": "https://coinpost.jp/?p=746072",
@@ -105,22 +113,22 @@
    "ts": 1793661363.0,
    "source": "CoinPost",
    "desc": "ブラジルの大手仮想通貨取引所Mercado Bitcoinが2日、セキュリティ事案を受けて入出金を停止した。Hypernativeの推計では63億円超相当が流出。同社は顧客被害やデータ流出はないとし、5ネットワークの送金先アドレスを公開した。"
-  },
-  {
-   "title": "ステーブルコインの100万円上限、金融庁研究会で議論　全銀協は慎重",
-   "link": "https://coinpost.jp/?p=746032",
-   "published": "11/02 19:21",
-   "ts": 1793614892.0,
-   "source": "CoinPost",
-   "desc": "金融庁は2日、デジタル・分散型金融に関する研究会の第2回会合を開き、ステーブルコインの100万円上限やレンディング規制を議論した。JPYCとSBI VCトレードが上限の見直しを求めた一方、全銀協は慎重な検討を求めた。"
   }
  ],
  "news_jp": [
   {
-   "title": "夫より高学歴・高収入 妻の悩み",
-   "link": "https://news.yahoo.co.jp/pickup/6601184?source=rss",
-   "published": "11/03 15:46",
-   "ts": 1793688361.0,
+   "title": "タイ 輸入EVの物品税引き上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6601233?source=rss",
+   "published": "11/03 23:40",
+   "ts": 1793716816.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "豪が追加利上げ 18年ぶり高水準",
+   "link": "https://news.yahoo.co.jp/pickup/6601212?source=rss",
+   "published": "11/03 19:23",
+   "ts": 1793701391.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6601077?source=rss",
    "published": "11/02 18:03",
    "ts": 1793610211.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "フラット35 金利3.81%で過去2番目",
-   "link": "https://news.yahoo.co.jp/pickup/6601048?source=rss",
-   "published": "11/02 12:39",
-   "ts": 1793590783.0,
    "source": "Yahoo!",
    "desc": ""
   }
