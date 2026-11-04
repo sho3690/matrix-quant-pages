@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04 20:11:43",
+ "updated_at": "2026-11-05 04:53:36",
  "fng": {
   "value": 34,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.94821294885661,
-  "eth_dominance": 10.794532304742669,
-  "total_mcap_usd": 2627788711858.738,
-  "mcap_change_24h": -0.7954795682619645
+  "btc_dominance": 59.514721005070136,
+  "eth_dominance": 10.913818316115782,
+  "total_mcap_usd": 2702132034057.8887,
+  "mcap_change_24h": 0.28123672067818717
  },
  "defi": {
-  "tvl_usd": 82942725038.0,
-  "change_1d": 0.012541603532515877,
-  "change_7d": -0.033094265148573165,
-  "change_1y": -0.39024834700248023,
-  "range_pos_1y": 0.26659069166842564
+  "tvl_usd": 85071866688.0,
+  "change_1d": 0.0385335695927318,
+  "change_7d": -0.008273772805780566,
+  "change_1y": -0.37459600811490956,
+  "range_pos_1y": 0.29936541553824375
  },
  "news_crypto": [
+  {
+   "title": "民主党が圧勝で米議会を奪還、ビットコインは前日比1.2%上昇",
+   "link": "https://coinpost.jp/?p=746369",
+   "published": "11/04 22:00",
+   "ts": 1793797237.0,
+   "source": "CoinPost",
+   "desc": "米中間選挙で民主党が上下両院の多数派を確保した。仮想通貨業界は1.7億ドル超を投じたが、業界に懐疑的なブラウン氏が当選する結果となった。一方で、ビットコインは7万8000ドル台で取引され、昨日の警戒から1.2%反発した。"
+  },
   {
    "title": "ビットコイン売り手に枯渇の兆し　需要はなお不足＝アナリスト",
    "link": "https://coinpost.jp/?p=746347",
@@ -105,17 +113,57 @@
    "ts": 1793764082.0,
    "source": "CoinPost",
    "desc": "メタプラネットの米国拠点となる予定の米スーパーリーグが8BTCを追加取得し、ビットコイン保有は15BTCとなった。1回ごとの購入量は前回の2倍に増えている。2,100BTCの拠出を受ける取引の進捗とあわせて伝える。"
-  },
-  {
-   "title": "米SEC企業金融局、カントンコイン（CC）は証券に非該当との認識示す",
-   "link": "https://coinpost.jp/?p=746185",
-   "published": "11/04 12:15",
-   "ts": 1793762133.0,
-   "source": "CoinPost",
-   "desc": "米SECの企業金融局は、カントンネットワークの仮想通貨であるカントンコインはデジタルコモディティで証券に該当しないとの認識を示した。考慮した点などを説明している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "リニア工事費 再び増額へ検討",
+   "link": "https://news.yahoo.co.jp/pickup/6601365?source=rss",
+   "published": "11/04 23:54",
+   "ts": 1793804077.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "キャベツ小売価格 平年の約7割高",
+   "link": "https://news.yahoo.co.jp/pickup/6601359?source=rss",
+   "published": "11/04 22:44",
+   "ts": 1793799848.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ゆうちょ銀 松井証券に20%出資",
+   "link": "https://news.yahoo.co.jp/pickup/6601352?source=rss",
+   "published": "11/04 22:23",
+   "ts": 1793798626.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "香川の讃岐うどん店 混雑対応苦慮",
+   "link": "https://news.yahoo.co.jp/pickup/6601347?source=rss",
+   "published": "11/04 21:40",
+   "ts": 1793796019.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "金融庁 ソニーFGに立ち入り検査",
+   "link": "https://news.yahoo.co.jp/pickup/6601346?source=rss",
+   "published": "11/04 21:13",
+   "ts": 1793794404.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "米中間選挙 日本経済への影響は",
+   "link": "https://news.yahoo.co.jp/pickup/6601343?source=rss",
+   "published": "11/04 20:49",
+   "ts": 1793792969.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "すし店の休廃業・解散が急増 25年",
    "link": "https://news.yahoo.co.jp/pickup/6601334?source=rss",
@@ -125,58 +173,10 @@
    "desc": ""
   },
   {
-   "title": "東証続落 米選挙懸念でAI株売り",
-   "link": "https://news.yahoo.co.jp/pickup/6601314?source=rss",
-   "published": "11/04 16:59",
-   "ts": 1793779158.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "キャンパスノート 15年ぶり刷新",
-   "link": "https://news.yahoo.co.jp/pickup/6601311?source=rss",
-   "published": "11/04 16:47",
-   "ts": 1793778443.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "BYD海外販売が倍増 中国車に明暗",
-   "link": "https://news.yahoo.co.jp/pickup/6601278?source=rss",
-   "published": "11/04 15:23",
-   "ts": 1793773412.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ジュース1本50円 利益ない自販機",
-   "link": "https://news.yahoo.co.jp/pickup/6601284?source=rss",
-   "published": "11/04 12:02",
-   "ts": 1793761327.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "UFJ新銀行 キャッシュカードなし",
    "link": "https://news.yahoo.co.jp/pickup/6601279?source=rss",
    "published": "11/04 12:00",
    "ts": 1793761246.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "フードデリバリー業界に淘汰の波",
-   "link": "https://news.yahoo.co.jp/pickup/6601266?source=rss",
-   "published": "11/04 10:25",
-   "ts": 1793755519.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "パーソナルトレ トラブル急増",
-   "link": "https://news.yahoo.co.jp/pickup/6601250?source=rss",
-   "published": "11/04 08:16",
-   "ts": 1793747804.0,
    "source": "Yahoo!",
    "desc": ""
   }
