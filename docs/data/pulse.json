@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 20:11:24",
+ "updated_at": "2026-11-06 05:06:13",
  "fng": {
   "value": 50,
   "label": "中立",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.077572584632264,
-  "eth_dominance": 11.004644177320424,
-  "total_mcap_usd": 2677393476744.706,
-  "mcap_change_24h": -1.6570932313416133
+  "btc_dominance": 59.21132833050303,
+  "eth_dominance": 10.663312395842226,
+  "total_mcap_usd": 2583208493264.7896,
+  "mcap_change_24h": -6.890661374138609
  },
  "defi": {
-  "tvl_usd": 84867754671.0,
-  "change_1d": 0.036177681639724124,
-  "change_7d": -0.012964213045206563,
-  "change_1y": -0.32753476108119683,
-  "range_pos_1y": 0.2962182934929112
+  "tvl_usd": 80948491898.0,
+  "change_1d": -0.011568342504564622,
+  "change_7d": -0.05843441202311561,
+  "change_1y": -0.35854834285856985,
+  "range_pos_1y": 0.23599340430103288
  },
  "news_crypto": [
+  {
+   "title": "バイナンス、シグナルプラス連携のAPIキー全削除　利用者への影響なし",
+   "link": "https://coinpost.jp/?p=746658",
+   "published": "11/05 21:35",
+   "ts": 1793882150.0,
+   "source": "CoinPost",
+   "desc": "Binanceは5日、シグナルプラスに紐づくAPIキーをすべて削除したと発表した。自社システムへの影響はなく資産は安全としており、仮想通貨デリバティブ大手Deribitも同様の対応を取った。"
+  },
   {
    "title": "バイデン前米大統領の次男に聞くミームコイン「LAPTOP」 透明性の設計と民主党への提言",
    "link": "https://coinpost.jp/?p=746419",
@@ -105,17 +113,33 @@
    "ts": 1793860259.0,
    "source": "CoinPost",
    "desc": "韓国統一省の当局者は5日、北朝鮮の関与が指摘される大手仮想通貨取引所バイナンスの60億ドル超の不正流出をめぐり、政府内で対北制裁の議論はまだ始まっていないと明らかにした。FBIの断定や金与正氏の否定談話とあわせて経緯を整理する。"
-  },
-  {
-   "title": "ヘイズ氏、AI大型IPOの希薄化に警鐘　ビットコインなどへの波及を予想",
-   "link": "https://coinpost.jp/?p=746564",
-   "published": "11/05 15:00",
-   "ts": 1793858413.0,
-   "source": "CoinPost",
-   "desc": "BitMEX共同創業者のアーサー・ヘイズ氏が、SpaceXやアンソロピックなどAI大型IPOのロック解除による希薄化を警告。株価低迷がAI関連債の利回り上昇と米銀行の信用縮小を招き、ドル流動性の低下を通じて仮想通貨市場に波及すると分析した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "日本製紙 八代工場の紙生産断念へ",
+   "link": "https://news.yahoo.co.jp/pickup/6601473?source=rss",
+   "published": "11/05 22:52",
+   "ts": 1793886724.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「ドンキ流トイザらス」が始動",
+   "link": "https://news.yahoo.co.jp/pickup/6601471?source=rss",
+   "published": "11/05 22:36",
+   "ts": 1793885772.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "内外出版社が事業停止 破産申請へ",
+   "link": "https://news.yahoo.co.jp/pickup/6601468?source=rss",
+   "published": "11/05 22:20",
+   "ts": 1793884850.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "レッドバロン創業者遺族 申告漏れ",
    "link": "https://news.yahoo.co.jp/pickup/6601456?source=rss",
@@ -149,34 +173,10 @@
    "desc": ""
   },
   {
-   "title": "トヨタ中間決算 3年ぶり営業増益",
-   "link": "https://news.yahoo.co.jp/pickup/6601424?source=rss",
-   "published": "11/05 15:43",
-   "ts": 1793860983.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "ハリポタ英旗艦店 初日に抗議活動",
    "link": "https://news.yahoo.co.jp/pickup/6601419?source=rss",
    "published": "11/05 15:11",
    "ts": 1793859092.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "黒字リストラ 日本にも広がるか",
-   "link": "https://news.yahoo.co.jp/pickup/6601409?source=rss",
-   "published": "11/05 14:37",
-   "ts": 1793857057.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "料理の負担減「メンパ食材」注目",
-   "link": "https://news.yahoo.co.jp/pickup/6601391?source=rss",
-   "published": "11/05 10:50",
-   "ts": 1793843410.0,
    "source": "Yahoo!",
    "desc": ""
   }
