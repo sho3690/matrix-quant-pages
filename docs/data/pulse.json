@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06 20:08:44",
+ "updated_at": "2026-11-07 04:32:11",
  "fng": {
   "value": 28,
   "label": "恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.24251664266392,
-  "eth_dominance": 10.5889367705351,
-  "total_mcap_usd": 2571895863693.582,
-  "mcap_change_24h": -6.347761999263507
+  "btc_dominance": 59.16563985878671,
+  "eth_dominance": 10.579928037626733,
+  "total_mcap_usd": 2564795374292.9844,
+  "mcap_change_24h": -2.9247752068938584
  },
  "defi": {
-  "tvl_usd": 80889453158.0,
-  "change_1d": -0.04893703437992525,
-  "change_7d": -0.007360918277881878,
-  "change_1y": -0.36557812852933935,
-  "range_pos_1y": 0.23508457472205777
+  "tvl_usd": 80539068752.0,
+  "change_1d": -0.053092778932624096,
+  "change_7d": -0.011669627182273157,
+  "change_1y": -0.368326218940514,
+  "range_pos_1y": 0.22969083305032792
  },
  "news_crypto": [
+  {
+   "title": "米アンソロピックの上場前予想株価連動オプション、ハイパーコールが9日に提供開始へ",
+   "link": "https://coinpost.jp/?p=746918",
+   "published": "11/06 22:20",
+   "ts": 1793971210.0,
+   "source": "CoinPost",
+   "desc": "ハイパーコールが、IPO前のアンソロピックの予想株価を追跡するオプション市場を9日に開始する見通し。同社は初の市場と説明した。現金精算型で株式は得られず、米国の顧客は利用できない。アンソロピックのIPOは延期の可能性もある。"
+  },
+  {
+   "title": "ビットバンク、外部サービスの障害で暗号資産の入出金遅延が継続　顧客資産に影響なし",
+   "link": "https://coinpost.jp/?p=746914",
+   "published": "11/06 21:50",
+   "ts": 1793969457.0,
+   "source": "CoinPost",
+   "desc": "ビットバンクは6日、外部サービスの障害により、一部の顧客で暗号資産の出金と入金反映の遅延が続いていると発表した。顧客資産への影響はないという。"
+  },
   {
    "title": "iPhone攻撃キット「DarkSword」、仮想通貨窃盗に悪用か",
    "link": "https://coinpost.jp/?p=746889",
@@ -97,30 +113,38 @@
    "ts": 1793937620.0,
    "source": "CoinPost",
    "desc": "イーサリアム共同創設者のヴィタリック・ブテリン氏が、バイナンスのハッキングを受け、取引所に「今後2年は市場シェアより生き残りを優先すべき」と呼びかけた。マルチシグの推奨や、リーン・イーサリアム、L2の方向性についても語った。"
-  },
-  {
-   "title": "チェイナリシス、全ユーザーのパスワードハッシュ露出　KYTも停止",
-   "link": "https://coinpost.jp/?p=746798",
-   "published": "11/06 12:30",
-   "ts": 1793935817.0,
-   "source": "CoinPost",
-   "desc": "ブロックチェーン分析大手チェイナリシスは、全ユーザーのパスワードハッシュと有効な認証トークンが攻撃者に露出したと公表した。仮想通貨取引所のマネーロンダリング対策を支えるKYTも一時停止した。初報からの修正点と復旧の手順をまとめる。"
-  },
-  {
-   "title": "欧州大手アムンディ、イーサリアム上で株式指数ファンドをトークン化　従来の商品規模は約4兆円",
-   "link": "https://coinpost.jp/?p=746769",
-   "published": "11/06 11:35",
-   "ts": 1793932541.0,
-   "source": "CoinPost",
-   "desc": "欧州大手アムンディは、主要金融商品の欧州株式指数ファンドのトークン化シェアクラスのローンチを発表。仮想通貨イーサリアムのブロックチェーンを活用してトークン化した。"
   }
  ],
  "news_jp": [
   {
-   "title": "信金で大規模障害 ATMなど復旧",
-   "link": "https://news.yahoo.co.jp/pickup/6601562?source=rss",
-   "published": "11/06 19:04",
-   "ts": 1793959464.0,
+   "title": "米10月雇用16.5万人増 予想上回る",
+   "link": "https://news.yahoo.co.jp/pickup/6601587?source=rss",
+   "published": "11/07 00:03",
+   "ts": 1793977391.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "KDDI社長 決算会見で2つのおわび",
+   "link": "https://news.yahoo.co.jp/pickup/6601580?source=rss",
+   "published": "11/06 22:44",
+   "ts": 1793972646.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "信金のシステム障害 すべて復旧",
+   "link": "https://news.yahoo.co.jp/pickup/6601571?source=rss",
+   "published": "11/06 21:19",
+   "ts": 1793967574.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "外国人留学生 日本で就職望む理由",
+   "link": "https://news.yahoo.co.jp/pickup/6601570?source=rss",
+   "published": "11/06 21:13",
+   "ts": 1793967227.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6601539?source=rss",
    "published": "11/06 17:09",
    "ts": 1793952555.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日経平均終値 過去3番目の下げ幅",
-   "link": "https://news.yahoo.co.jp/pickup/6601533?source=rss",
-   "published": "11/06 15:53",
-   "ts": 1793948005.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ピザーラ Dr.STONEコラボで謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6601507?source=rss",
-   "published": "11/06 11:49",
-   "ts": 1793933347.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "経産省 中部電力に業務改善命令",
-   "link": "https://news.yahoo.co.jp/pickup/6601489?source=rss",
-   "published": "11/06 08:22",
-   "ts": 1793920968.0,
    "source": "Yahoo!",
    "desc": ""
   }
