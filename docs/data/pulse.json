@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-11-08 02:47:02",
+ "updated_at": "2026-11-08 09:46:34",
  "fng": {
-  "value": 25,
-  "label": "極度の恐怖",
+  "value": 28,
+  "label": "恐怖",
   "history": [
-   59,
    64,
    61,
    69,
@@ -33,23 +32,32 @@
    34,
    50,
    28,
-   25
+   25,
+   28
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.30920927327008,
-  "eth_dominance": 10.627319128921084,
-  "total_mcap_usd": 2564903447821.8135,
-  "mcap_change_24h": -2.971868462743131
+  "btc_dominance": 59.28780558923982,
+  "eth_dominance": 10.633124629766769,
+  "total_mcap_usd": 2559317716795.3115,
+  "mcap_change_24h": -2.831111789020211
  },
  "defi": {
-  "tvl_usd": 80894800550.0,
-  "change_1d": 0.0006781253085523797,
-  "change_7d": -0.016916858163465998,
-  "change_1y": -0.35138492827534107,
-  "range_pos_1y": 0.23516689131655105
+  "tvl_usd": 80865543424.0,
+  "change_1d": 0.0003162112448729104,
+  "change_7d": -0.017272408670465644,
+  "change_1y": -0.3516195121144744,
+  "range_pos_1y": 0.2347165134544117
  },
  "news_crypto": [
+  {
+   "title": "週刊仮想通貨ニュース（11/6）｜米中間選挙・米市場構造法案協議・バイナンス攻撃のまとめ",
+   "link": "https://coinpost.jp/?p=746797",
+   "published": "11/08 09:25",
+   "ts": 1794097525.0,
+   "source": "CoinPost",
+   "desc": "今週は、バイナンスに対する攻撃の手口、米中間選挙の結果と影響、米下院民主党による仮想通貨の新たな市場構造法案協議に関する記事が関心を集めた。"
+  },
   {
    "title": "ジーキャッシュ、手数料の60％を将来の報酬に再発行する仕組みが稼働",
    "link": "https://coinpost.jp/?p=746996",
@@ -105,22 +113,30 @@
    "ts": 1794013978.0,
    "source": "CoinPost",
    "desc": "セキュリティ企業ビットディフェンダーは、バイナンスの流出事案に便乗したフィッシングメール2種類を確認した。日本を含む5カ国が標的となり、ビットコインの先払いを求める手口もある。バイナンスジャパンは出庫を順次再開した。"
-  },
-  {
-   "title": "BTCの量子盗難に担保で対抗、ビットコインコア開発者から3つの提案",
-   "link": "https://coinpost.jp/?p=746963",
-   "published": "11/07 09:35",
-   "ts": 1794011748.0,
-   "source": "CoinPost",
-   "desc": "ビットコインコアの開発者コーリー・フィールズ氏が、量子コンピュータによる盗難に備え、旧形式の資金を動かす攻撃者に同額の担保を求める3案を提案した。持ち主や第三者が担保を得る仕組みで、実装は今後の課題という。"
   }
  ],
  "news_jp": [
   {
-   "title": "引き上げた宿泊税 京都市の使途は",
-   "link": "https://news.yahoo.co.jp/pickup/6601697?source=rss",
-   "published": "11/07 21:18",
-   "ts": 1794053911.0,
+   "title": "東京・調布 VIVANTファンで盛況",
+   "link": "https://news.yahoo.co.jp/pickup/6601742?source=rss",
+   "published": "11/08 09:20",
+   "ts": 1794097226.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東北新幹線運転再開 ダイヤは乱れ",
+   "link": "https://news.yahoo.co.jp/pickup/6601744?source=rss",
+   "published": "11/08 09:14",
+   "ts": 1794096898.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "東海道新幹線 地震で最大60分遅れ",
+   "link": "https://news.yahoo.co.jp/pickup/6601728?source=rss",
+   "published": "11/08 07:52",
+   "ts": 1794091957.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -149,26 +165,10 @@
    "desc": ""
   },
   {
-   "title": "不正アクセス ゲーセンにも影響",
-   "link": "https://news.yahoo.co.jp/pickup/6601633?source=rss",
-   "published": "11/07 13:31",
-   "ts": 1794025881.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "なぜ?「有線イヤホン」が再流行",
    "link": "https://news.yahoo.co.jp/pickup/6601625?source=rss",
    "published": "11/07 11:37",
    "ts": 1794019066.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "洗濯機やドライヤー「静音」続々",
-   "link": "https://news.yahoo.co.jp/pickup/6601619?source=rss",
-   "published": "11/07 10:45",
-   "ts": 1794015901.0,
    "source": "Yahoo!",
    "desc": ""
   },
