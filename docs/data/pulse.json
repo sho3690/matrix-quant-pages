@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08 19:34:46",
+ "updated_at": "2026-11-09 02:58:42",
  "fng": {
   "value": 28,
   "label": "恐怖",
@@ -37,17 +37,17 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.99453246337272,
-  "eth_dominance": 10.736429333371317,
-  "total_mcap_usd": 2533571727620.3403,
-  "mcap_change_24h": -3.8990637270941013
+  "btc_dominance": 60.015743484974614,
+  "eth_dominance": 10.73371330860955,
+  "total_mcap_usd": 2523545887366.0425,
+  "mcap_change_24h": -3.70337661361555
  },
  "defi": {
-  "tvl_usd": 80893007869.0,
-  "change_1d": 0.00030577415354660076,
-  "change_7d": -0.017169892016339006,
-  "change_1y": -0.3650044480335506,
-  "range_pos_1y": 0.2351392951734344
+  "tvl_usd": 80792511869.0,
+  "change_1d": -0.0009370038734252129,
+  "change_7d": -0.018390893647182938,
+  "change_1y": -0.3657933235454337,
+  "range_pos_1y": 0.2335922815114104
  },
  "news_crypto": [
   {
@@ -117,6 +117,14 @@
  ],
  "news_jp": [
   {
+   "title": "商品に個体差「不揃い」バズる訳",
+   "link": "https://news.yahoo.co.jp/pickup/6601846?source=rss",
+   "published": "11/08 22:24",
+   "ts": 1794144275.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
    "title": "緑茶飲料に逆風 麦茶など存在感",
    "link": "https://news.yahoo.co.jp/pickup/6601821?source=rss",
    "published": "11/08 18:43",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6601742?source=rss",
    "published": "11/08 09:20",
    "ts": 1794097226.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東北新幹線運転再開 ダイヤは乱れ",
-   "link": "https://news.yahoo.co.jp/pickup/6601744?source=rss",
-   "published": "11/08 09:14",
-   "ts": 1794096898.0,
    "source": "Yahoo!",
    "desc": ""
   }
