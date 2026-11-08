@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08 09:46:34",
+ "updated_at": "2026-11-08 19:34:46",
  "fng": {
   "value": 28,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.28780558923982,
-  "eth_dominance": 10.633124629766769,
-  "total_mcap_usd": 2559317716795.3115,
-  "mcap_change_24h": -2.831111789020211
+  "btc_dominance": 59.99453246337272,
+  "eth_dominance": 10.736429333371317,
+  "total_mcap_usd": 2533571727620.3403,
+  "mcap_change_24h": -3.8990637270941013
  },
  "defi": {
-  "tvl_usd": 80865543424.0,
-  "change_1d": 0.0003162112448729104,
-  "change_7d": -0.017272408670465644,
-  "change_1y": -0.3516195121144744,
-  "range_pos_1y": 0.2347165134544117
+  "tvl_usd": 80893007869.0,
+  "change_1d": 0.00030577415354660076,
+  "change_7d": -0.017169892016339006,
+  "change_1y": -0.3650044480335506,
+  "range_pos_1y": 0.2351392951734344
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン、ハイテク株急落で1200万円台に軟化　AI規制議論とCPIが焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=746873",
+   "published": "11/08 11:30",
+   "ts": 1794105023.0,
+   "source": "CoinPost",
+   "desc": "米中間選挙で民主党が躍進し、AI規制懸念からハイテク株が急落。ビットコインは1200万円台に軟化し、100日移動平均線を割り込んだ。CPI・PPIとAIインフラ企業の決算が焦点。bitbankアナリスト長谷川氏が週次レポートで解説。"
+  },
   {
    "title": "週刊仮想通貨ニュース（11/6）｜米中間選挙・米市場構造法案協議・バイナンス攻撃のまとめ",
    "link": "https://coinpost.jp/?p=746797",
@@ -105,17 +113,57 @@
    "ts": 1794014520.0,
    "source": "CoinPost",
    "desc": "仏報道によると、バイナンス・フランスは12月31日に全口座を閉鎖する。EUの認可を得られず、11月29日からは月額手数料を課す。"
-  },
-  {
-   "title": "バイナンスのハッキングに便乗、補償装うフィッシングメールが日本も標的",
-   "link": "https://coinpost.jp/?p=746967",
-   "published": "11/07 10:12",
-   "ts": 1794013978.0,
-   "source": "CoinPost",
-   "desc": "セキュリティ企業ビットディフェンダーは、バイナンスの流出事案に便乗したフィッシングメール2種類を確認した。日本を含む5カ国が標的となり、ビットコインの先払いを求める手口もある。バイナンスジャパンは出庫を順次再開した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "緑茶飲料に逆風 麦茶など存在感",
+   "link": "https://news.yahoo.co.jp/pickup/6601821?source=rss",
+   "published": "11/08 18:43",
+   "ts": 1794131033.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "MAZDA3セダン 北米で売れる理由",
+   "link": "https://news.yahoo.co.jp/pickup/6601813?source=rss",
+   "published": "11/08 17:32",
+   "ts": 1794126771.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "倉庫には古米の山 赤字覚悟で販売",
+   "link": "https://news.yahoo.co.jp/pickup/6601793?source=rss",
+   "published": "11/08 15:42",
+   "ts": 1794120140.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "迫る蛍光灯製造禁止 家庭も対応を",
+   "link": "https://news.yahoo.co.jp/pickup/6601786?source=rss",
+   "published": "11/08 14:58",
+   "ts": 1794117523.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "増える遺産相続トラブル 背景は",
+   "link": "https://news.yahoo.co.jp/pickup/6601783?source=rss",
+   "published": "11/08 14:34",
+   "ts": 1794116074.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "JR内房線 1カ月半ぶりに全線再開",
+   "link": "https://news.yahoo.co.jp/pickup/6601755?source=rss",
+   "published": "11/08 10:37",
+   "ts": 1794101870.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "東京・調布 VIVANTファンで盛況",
    "link": "https://news.yahoo.co.jp/pickup/6601742?source=rss",
@@ -129,54 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6601744?source=rss",
    "published": "11/08 09:14",
    "ts": 1794096898.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東海道新幹線 地震で最大60分遅れ",
-   "link": "https://news.yahoo.co.jp/pickup/6601728?source=rss",
-   "published": "11/08 07:52",
-   "ts": 1794091957.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "カスハラ 加害者にならないために",
-   "link": "https://news.yahoo.co.jp/pickup/6601678?source=rss",
-   "published": "11/07 18:26",
-   "ts": 1794043599.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "購買力高い大学生 なぜ存在する",
-   "link": "https://news.yahoo.co.jp/pickup/6601656?source=rss",
-   "published": "11/07 16:19",
-   "ts": 1794035978.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "スーパーの衣料品売れない? 今後",
-   "link": "https://news.yahoo.co.jp/pickup/6601643?source=rss",
-   "published": "11/07 14:49",
-   "ts": 1794030584.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "なぜ?「有線イヤホン」が再流行",
-   "link": "https://news.yahoo.co.jp/pickup/6601625?source=rss",
-   "published": "11/07 11:37",
-   "ts": 1794019066.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "テスラ サイバートラック生産縮小",
-   "link": "https://news.yahoo.co.jp/pickup/6601614?source=rss",
-   "published": "11/07 09:59",
-   "ts": 1794013140.0,
    "source": "Yahoo!",
    "desc": ""
   }
