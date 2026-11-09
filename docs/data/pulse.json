@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09 10:00:15",
+ "updated_at": "2026-11-09 20:49:23",
  "fng": {
   "value": 29,
   "label": "恐怖",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.24171393741358,
-  "eth_dominance": 10.438367453144458,
-  "total_mcap_usd": 2503251886973.658,
-  "mcap_change_24h": -4.873937452151367
+  "btc_dominance": 60.23746697129757,
+  "eth_dominance": 10.404832521316736,
+  "total_mcap_usd": 2479076873705.644,
+  "mcap_change_24h": -4.60538453379915
  },
  "defi": {
-  "tvl_usd": 79131686096.0,
-  "change_1d": -0.021474461295483804,
-  "change_7d": -0.038569935316304926,
-  "change_1y": -0.37883050693406617,
-  "range_pos_1y": 0.20802588920651707
+  "tvl_usd": 78251733990.0,
+  "change_1d": -0.032540126012863047,
+  "change_7d": -0.05353735656178116,
+  "change_1y": -0.38013787375680397,
+  "range_pos_1y": 0.19448009703659205
  },
  "news_crypto": [
+  {
+   "title": "Progmatとカントン開発元、日本国債のトークン化で基本合意",
+   "link": "https://coinpost.jp/?p=747082",
+   "published": "11/09 17:35",
+   "ts": 1794213320.0,
+   "source": "CoinPost",
+   "desc": "Progmatとカントン・ネットワーク（Canton Network）開発元の米デジタル・アセットは、日本国債をトークン化する「tJGB」に向けた基本合意書を締結した。10日に正式発表する。振替国債の法的性質を保ったまま24時間365日決済を目指す。"
+  },
+  {
+   "title": "ヴィタリック、イーサリアムは手数料バーンより価値の保存を重視すべきと主張",
+   "link": "https://coinpost.jp/?p=747054",
+   "published": "11/09 14:40",
+   "ts": 1794202838.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨イーサリアム共同創設者のブテリン氏が、ETHは手数料バーンよりも価値の保存手段の側面を重視すべきだと主張した。分散性やセキュリティで評価されているとも述べる。"
+  },
+  {
+   "title": "金融庁、金融機関利用者に不審メールへの警戒呼びかけ　多要素認証の利用も",
+   "link": "https://coinpost.jp/?p=747060",
+   "published": "11/09 14:29",
+   "ts": 1794202175.0,
+   "source": "CoinPost",
+   "desc": "金融庁は6日、金融機関を装うフィッシングメールへの警戒を呼びかけた。メールやSMSのワンタイムパスワードは突破される恐れがあるとして、パスキーなどフィッシング耐性のある多要素認証を推奨している。"
+  },
+  {
+   "title": "トークン化預金、利点の一方で規制・流動性に課題＝米連銀専門家",
+   "link": "https://coinpost.jp/?p=747042",
+   "published": "11/09 10:30",
+   "ts": 1794187848.0,
+   "source": "CoinPost",
+   "desc": "米カンザスシティ連銀が、預金トークンとトークン化預金を多面的に分析するレポートを公表。米大手銀の決済ネットワーク計画や、規制上の課題を指摘した。"
+  },
   {
    "title": "米上院議員、バイナンスとテザーなど4社に記録提出を再要求　期限は1月4日",
    "link": "https://coinpost.jp/?p=747033",
@@ -81,46 +113,54 @@
    "ts": 1794177585.0,
    "source": "CoinPost",
    "desc": "バイナンスで金を裏付けとするトークンの取引が再燃している。クリプトクアントのアナリストによると、累計取引高は80億ドル（約1.27兆円）を超え、直近7日間は初動期を除き過去最高の3億2,500万ドル（約515億円）超に。金価格の調整と仮想通貨安が重なる中での動きだ。"
-  },
-  {
-   "title": "ビットコイン、ハイテク株急落で1200万円台に軟化　AI規制議論とCPIが焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=746873",
-   "published": "11/08 11:30",
-   "ts": 1794105023.0,
-   "source": "CoinPost",
-   "desc": "米中間選挙で民主党が躍進し、AI規制懸念からハイテク株が急落。ビットコインは1200万円台に軟化し、100日移動平均線を割り込んだ。CPI・PPIとAIインフラ企業の決算が焦点。bitbankアナリスト長谷川氏が週次レポートで解説。"
-  },
-  {
-   "title": "週刊仮想通貨ニュース（11/6）｜米中間選挙・米市場構造法案協議・バイナンス攻撃のまとめ",
-   "link": "https://coinpost.jp/?p=746797",
-   "published": "11/08 09:25",
-   "ts": 1794097525.0,
-   "source": "CoinPost",
-   "desc": "今週は、バイナンスに対する攻撃の手口、米中間選挙の結果と影響、米下院民主党による仮想通貨の新たな市場構造法案協議に関する記事が関心を集めた。"
-  },
-  {
-   "title": "ジーキャッシュ、手数料の60％を将来の報酬に再発行する仕組みが稼働",
-   "link": "https://coinpost.jp/?p=746996",
-   "published": "11/07 14:00",
-   "ts": 1794027648.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ジーキャッシュでアップグレード「NU7」が有効化され、取引手数料の60％を流通から取り除き将来のブロック報酬として再発行する新仕組みが稼働した。ブロック生成間隔は75秒から25秒に短縮された。"
-  },
-  {
-   "title": "テラウルフ決算　HPC事業拡大進み、BTC採掘収益は7割減",
-   "link": "https://coinpost.jp/?p=746987",
-   "published": "11/07 12:55",
-   "ts": 1794023739.0,
-   "source": "CoinPost",
-   "desc": "米テラウルフが2026年7～9月期決算を発表。HPCリース収益が拡大し売上の83%を占めた。一方で仮想通貨ビットコイン採掘収益は前年比で約69%減少している。"
   }
  ],
  "news_jp": [
   {
-   "title": "7/30に過去最大円買い介入7.9兆円",
-   "link": "https://news.yahoo.co.jp/pickup/6601877?source=rss",
-   "published": "11/09 09:51",
-   "ts": 1794185511.0,
+   "title": "JT株 2営業日連続のストップ安",
+   "link": "https://news.yahoo.co.jp/pickup/6601946?source=rss",
+   "published": "11/09 19:53",
+   "ts": 1794221606.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "NTT 保有するNEC全株売却を発表",
+   "link": "https://news.yahoo.co.jp/pickup/6601941?source=rss",
+   "published": "11/09 19:07",
+   "ts": 1794218851.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "津波巡り欧州のビール物議 謝罪",
+   "link": "https://news.yahoo.co.jp/pickup/6601926?source=rss",
+   "published": "11/09 17:13",
+   "ts": 1794212037.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "ハウス食品G 26品目を来年値上げ",
+   "link": "https://news.yahoo.co.jp/pickup/6601921?source=rss",
+   "published": "11/09 16:50",
+   "ts": 1794210624.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "黒字リストラ 中高年が残る条件は",
+   "link": "https://news.yahoo.co.jp/pickup/6601894?source=rss",
+   "published": "11/09 13:25",
+   "ts": 1794198334.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "三井化学がJSR買収 1兆8400億円",
+   "link": "https://news.yahoo.co.jp/pickup/6601897?source=rss",
+   "published": "11/09 12:05",
+   "ts": 1794193524.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -133,50 +173,10 @@
    "desc": ""
   },
   {
-   "title": "Netflix 増収増益でリストラの訳",
-   "link": "https://news.yahoo.co.jp/pickup/6601865?source=rss",
-   "published": "11/09 08:17",
-   "ts": 1794179837.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "舎人ライナー 資金不足陥る可能性",
    "link": "https://news.yahoo.co.jp/pickup/6601864?source=rss",
    "published": "11/09 07:46",
    "ts": 1794177995.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "MAZDA3セダン 北米で売れる理由",
-   "link": "https://news.yahoo.co.jp/pickup/6601813?source=rss",
-   "published": "11/08 17:32",
-   "ts": 1794126771.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "倉庫には古米の山 赤字覚悟で販売",
-   "link": "https://news.yahoo.co.jp/pickup/6601793?source=rss",
-   "published": "11/08 15:42",
-   "ts": 1794120140.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "迫る蛍光灯製造禁止 家庭も対応を",
-   "link": "https://news.yahoo.co.jp/pickup/6601786?source=rss",
-   "published": "11/08 14:58",
-   "ts": 1794117523.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "東京・調布 VIVANTファンで盛況",
-   "link": "https://news.yahoo.co.jp/pickup/6601742?source=rss",
-   "published": "11/08 09:20",
-   "ts": 1794097226.0,
    "source": "Yahoo!",
    "desc": ""
   }
