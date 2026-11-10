@@ -1,6 +1,6 @@
 {
- "fetched_at": 1794224968.7730286,
- "updated_at": "2026-11-09 20:49:28",
+ "fetched_at": 1794330539.0129044,
+ "updated_at": "2026-11-11 02:08:59",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -98,9 +98,9 @@
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-16",
    "Fidelity Investment Trust-Fidelity Series International Value Fund": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09"
+   "Meyer Handelman Co": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "6501.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -113,7 +113,6 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "New World Fund Inc": "2026-09-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Gamma Investing LLC": "2026-09-09",
    "Meyer Handelman Co": "2026-09-09"
@@ -130,7 +129,8 @@
    "Capital World Growth & Income Fund": "2026-09-09",
    "New World Fund Inc": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Stanley-Laman Group, Ltd.": "2026-09-09"
+   "Stanley-Laman Group, Ltd.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "9983.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -157,7 +157,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Legg Mason ETF Investment TRT-Franklin Intl Low Volatility High Divide": "2026-10-23",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8058.T": {
@@ -172,10 +171,10 @@
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-11-07",
    "McIlrath & Eck, LLC": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Calydon Capital": "2026-09-09",
-   "Ancora Advisors, LLC": "2026-09-09"
+   "Ancora Advisors, LLC": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "8001.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -189,8 +188,8 @@
    "Fidelity Investment Trust-Fidelity Series International Value Fund": "2026-09-09",
    "Capital Income Builder": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "6098.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -204,7 +203,8 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-10-21",
    "NEW PERSPECTIVE FUND": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Gamma Investing LLC": "2026-09-09"
+   "Gamma Investing LLC": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "4063.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -258,7 +258,6 @@
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "McIlrath & Eck, LLC": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "4568.T": {
@@ -285,7 +284,8 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "VANGUARD WORLD FUND-Vanguard International Growth Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "8316.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -298,9 +298,9 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Fidelity Investment Trust-Fidelity Series International Value Fund": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Gamma Investing LLC": "2026-09-09"
+   "Gamma Investing LLC": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "8766.T": {
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-10-28",
@@ -327,7 +327,8 @@
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-10-03",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-10-29",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Gamma Investing LLC": "2026-10-10"
+   "Gamma Investing LLC": "2026-10-10",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "7741.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -340,8 +341,8 @@
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-11-04",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "4519.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -367,10 +368,10 @@
    "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota": "2026-09-09",
    "Fidelity Investment Trust-Fidelity Series International Growth Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Stanley-Laman Group, Ltd.": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09"
+   "Meyer Handelman Co": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "7011.T": {},
   "8411.T": {
@@ -384,7 +385,6 @@
    "MFS SERIES TRUST I-MFS Research International Fund": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8031.T": {
@@ -411,7 +411,8 @@
    "Fidelity Investment Trust-Fidelity Series International Value Fund": "2026-10-08",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "8002.T": {
    "Capital Income Builder": "2026-09-09",
@@ -424,7 +425,8 @@
    "Capital World Growth & Income Fund": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "2914.T": {
    "Goldman Sachs TRT II-Goldman Sachs GQG Part. Intl Opportunities Fd.": "2026-09-09",
@@ -450,8 +452,7 @@
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-10-21",
-   "Pacer Advisors, Inc.": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09"
   },
   "4503.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -464,8 +465,7 @@
    "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.": "2026-09-09",
    "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-09-09",
    "Fidelity Commonwealth Trust II-Fidelity Enhanced International ETF": "2026-10-24",
-   "Pacer Advisors, Inc.": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09"
   },
   "4578.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -479,8 +479,8 @@
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "4661.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -519,7 +519,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "6273.T": {
@@ -547,7 +546,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Huntington National Bank": "2026-09-09"
   },
@@ -589,7 +587,6 @@
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF": "2026-10-29",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Edgar Lomax Co/VA": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
@@ -604,7 +601,6 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Dimensional ETF Trust-Dimensional International Value ETF": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "3382.T": {
@@ -741,7 +737,8 @@
    "AQR Funds-AQR Long-Short Equity Fund": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
    "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "2502.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -754,7 +751,8 @@
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Dimensional ETF Trust-Dimensional International Value ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "6752.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -781,9 +779,9 @@
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "MFS SERIES TRUST X-MFS International Intrinsic Equity Fund": "2026-10-28",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-10-21",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Boston Common Asset Management, LLC": "2026-09-09"
+   "Boston Common Asset Management, LLC": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-09-09"
   },
   "6702.T": {
    "AMERICAN FUNDS INSURANCE SERIES-Eupac Fund": "2026-10-21",
@@ -796,6 +794,7 @@
    "Principal Funds, Inc-International Equity Fund": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "6701.T": {},
@@ -810,7 +809,6 @@
    "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.": "2026-09-09",
    "Fidelity Investment Trust-Fidelity Series Overseas Fund": "2026-09-09",
    "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "6146.T": {
@@ -983,7 +981,6 @@
    "JANUS INVESTMENT FUND-Janus Henderson Overseas Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-16",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-10-03",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8725.T": {
@@ -998,6 +995,7 @@
    "First Eagle Funds-First Eagle Overseas Fund": "2026-09-09",
    "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.": "2026-09-09",
    "Grace & White Inc /ny": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "7832.T": {
@@ -1437,7 +1435,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.": "2026-11-07",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "5803.T": {
@@ -1451,7 +1448,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Amana Mutual Funds Trust-Amana Growth Fund": "2026-09-09",
    "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.": "2026-10-01",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "6113.T": {
@@ -1620,7 +1616,6 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Fidelity Investment Trust-Fidelity Series International Growth Fund": "2026-10-18",
-   "Diversified Trust Company": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Gamma Investing LLC": "2026-09-09",
    "Boston Common Asset Management, LLC": "2026-09-09",
@@ -1700,7 +1695,6 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "7012.T": {},
@@ -1743,7 +1737,8 @@
    "TR PRICE-Price (T.Rowe) International Core Equity Trust": "2026-10-07",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-10-24",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Meyer Handelman Co": "2026-09-09"
+   "Meyer Handelman Co": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "7270.T": {},
   "7272.T": {
@@ -1823,7 +1818,8 @@
    "Columbia Funds Series Trust-Columbia Overseas Value Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09",
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "8308.T": {
    "AMERICAN FUNDS INSURANCE SERIES-Eupac Fund": "2026-10-21",
@@ -1836,7 +1832,6 @@
    "Bernstein Fund Inc-International Strategic Equities Portfolio": "2026-09-09",
    "TR PRICE-Price (T.Rowe) International Value Equity Trust": "2026-10-07",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-10-01",
-   "Paradigm Asset Management Company, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8309.T": {
@@ -1916,6 +1911,7 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exch-Trd Fd. TRT-JPMorgan Intl Research Enhanced Eqy. ETF": "2026-09-09",
    "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-11-07",
+   "Paradigm Asset Management Company, LLC": "2026-11-11",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "1803.T": {
@@ -2020,7 +2016,7 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-10-29",
-   "Pacer Advisors, Inc.": "2026-09-09"
+   "Paradigm Asset Management Company, LLC": "2026-11-11"
   },
   "1605.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -2033,8 +2029,7 @@
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
    "DFA INVESTMENT TRUST CO-The DFA International Value Series": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09",
-   "Paradigm Asset Management Company, LLC": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09"
   },
   "9502.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -2796,19 +2791,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 9100,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -2831,6 +2813,19 @@
     "pct_held": 0.0,
     "shares": 17550,
     "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 82000,
+    "pct_change": 8.011,
     "new_est": false,
     "suspect": false
    }
@@ -2963,19 +2958,6 @@
     "pct_held": 0.0038,
     "shares": 17126877,
     "pct_change": 0.0484,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 38000,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    },
@@ -3174,6 +3156,19 @@
     "shares": 6000,
     "pct_change": 0.0,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 25000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    }
   ],
@@ -3467,19 +3462,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 73000,
-    "pct_change": 0.0429,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -3638,19 +3620,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 5400,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -3686,6 +3655,19 @@
     "pct_held": 0.0,
     "shares": 2463,
     "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 35000,
+    "pct_change": 5.4815,
     "new_est": false,
     "suspect": false
    }
@@ -3835,19 +3817,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 13000,
-    "pct_change": 0.0833,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -3857,6 +3826,19 @@
     "pct_held": 0.0,
     "shares": 53908,
     "pct_change": -0.0475,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 86000,
+    "pct_change": 5.6154,
     "new_est": false,
     "suspect": false
    }
@@ -4016,6 +3998,19 @@
     "shares": 1178,
     "pct_change": 0.0,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 19000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    }
   ],
@@ -4612,19 +4607,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 18000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -4926,6 +4908,19 @@
     "pct_change": 1.7749001,
     "new_est": false,
     "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 54000,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
    }
   ],
   "8316.T": [
@@ -5060,19 +5055,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 123600,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -5095,6 +5077,19 @@
     "pct_held": 0.0,
     "shares": 7772,
     "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 94000,
+    "pct_change": -0.2395,
     "new_est": false,
     "suspect": false
    }
@@ -5400,6 +5395,19 @@
     "pct_change": 1.0,
     "new_est": true,
     "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 24000,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
    }
   ],
   "7741.T": [
@@ -5534,19 +5542,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 10000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -5556,6 +5551,19 @@
     "pct_held": 0.0,
     "shares": 2712,
     "pct_change": -0.0577,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 16000,
+    "pct_change": 0.6,
     "new_est": false,
     "suspect": false
    }
@@ -5837,19 +5845,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 9000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -5884,6 +5879,19 @@
     "date": "2026-09-30",
     "pct_held": 0.0,
     "shares": 1927,
+    "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 9000,
     "pct_change": 0.0,
     "new_est": false,
     "suspect": false
@@ -6017,19 +6025,6 @@
     "date": "2026-09-30",
     "pct_held": 0.0034,
     "shares": 8270216,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 3700,
     "pct_change": 0.0,
     "new_est": false,
     "suspect": false
@@ -6336,6 +6331,19 @@
     "pct_change": -0.9885,
     "new_est": false,
     "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 110000,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
    }
   ],
   "8002.T": [
@@ -6480,6 +6488,19 @@
     "shares": 12798,
     "pct_change": -0.047199998,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 33000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    }
   ],
@@ -6771,19 +6792,6 @@
     "pct_change": 0.198,
     "new_est": false,
     "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 1600,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
    }
   ],
   "4503.T": [
@@ -6927,19 +6935,6 @@
     "pct_held": 0.0016,
     "shares": 2876549,
     "pct_change": 0.3428,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 5100,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -7089,19 +7084,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 20000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -7111,6 +7093,19 @@
     "pct_held": 0.0,
     "shares": 3965,
     "pct_change": -0.9803,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 19000,
+    "pct_change": -0.05,
     "new_est": false,
     "suspect": false
    }
@@ -7537,19 +7532,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 41000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -7853,19 +7835,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 39000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -7900,7 +7869,7 @@
     "manager": "バンガード",
     "notable": true,
     "date": "2026-07-31",
-    "pct_held": 0.014099999,
+    "pct_held": 0.0143,
     "shares": 13118474,
     "pct_change": -0.0046,
     "new_est": false,
@@ -7913,7 +7882,7 @@
     "manager": "バンガード",
     "notable": true,
     "date": "2026-06-30",
-    "pct_held": 0.0093,
+    "pct_held": 0.0095,
     "shares": 8694443,
     "pct_change": -0.0021,
     "new_est": false,
@@ -7926,7 +7895,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-09-30",
-    "pct_held": 0.0069999998,
+    "pct_held": 0.0070999996,
     "shares": 6533200,
     "pct_change": 0.014099999,
     "new_est": false,
@@ -7939,7 +7908,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-06-30",
-    "pct_held": 0.0057,
+    "pct_held": 0.0058,
     "shares": 5262392,
     "pct_change": 0.79370004,
     "new_est": false,
@@ -7952,7 +7921,7 @@
     "manager": "ジャナス・ヘンダーソン",
     "notable": true,
     "date": "2026-09-30",
-    "pct_held": 0.0056,
+    "pct_held": 0.0057,
     "shares": 5226100,
     "pct_change": 1.0183,
     "new_est": false,
@@ -7965,7 +7934,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-09-30",
-    "pct_held": 0.0041,
+    "pct_held": 0.0042,
     "shares": 3819000,
     "pct_change": 0.0304,
     "new_est": false,
@@ -7978,7 +7947,7 @@
     "manager": "フィデリティ",
     "notable": true,
     "date": "2026-09-30",
-    "pct_held": 0.0039,
+    "pct_held": 0.004,
     "shares": 3645300,
     "pct_change": -0.2076,
     "new_est": false,
@@ -8017,7 +7986,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-09-30",
-    "pct_held": 0.0033000002,
+    "pct_held": 0.0034,
     "shares": 3066800,
     "pct_change": 0.0,
     "new_est": false,
@@ -8327,19 +8296,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 6900,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Edgar Lomax Co/VA",
     "kind": "inst",
     "type": "inst",
@@ -8494,19 +8450,6 @@
     "pct_held": 0.002,
     "shares": 7612800,
     "pct_change": 0.0617,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 9500,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    },
@@ -9246,7 +9189,7 @@
     "type": "inst",
     "manager": null,
     "notable": false,
-    "date": "2026-06-30",
+    "date": "2026-09-30",
     "pct_held": 0.0,
     "shares": 360,
     "pct_change": 0.0,
@@ -9978,6 +9921,19 @@
     "pct_change": 167.6891,
     "new_est": false,
     "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0001,
+    "shares": 90000,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
    }
   ],
   "2502.T": [
@@ -10122,6 +10078,19 @@
     "shares": 1117325,
     "pct_change": 0.6342,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0001,
+    "shares": 111000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    }
   ],
@@ -10415,19 +10384,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 52000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -10450,6 +10406,19 @@
     "pct_held": 0.0,
     "shares": 7121,
     "pct_change": -0.0038,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 52000,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -10583,6 +10552,19 @@
     "shares": 6719429,
     "pct_change": 0.0108,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0001,
+    "shares": 168000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    },
    {
@@ -10728,19 +10710,6 @@
     "pct_held": 0.0043,
     "shares": 8347100,
     "pct_change": -0.0431,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0001,
-    "shares": 102000,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    },
@@ -12657,19 +12626,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 9600,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -12825,6 +12781,19 @@
     "shares": 88511,
     "pct_change": 0.0,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0001,
+    "shares": 39000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    },
    {
@@ -16107,7 +16076,7 @@
     "manager": "バンガード",
     "notable": true,
     "date": "2026-07-31",
-    "pct_held": 0.0137,
+    "pct_held": 0.0139,
     "shares": 18726536,
     "pct_change": 0.0279,
     "new_est": false,
@@ -16120,7 +16089,7 @@
     "manager": "バンガード",
     "notable": true,
     "date": "2026-06-30",
-    "pct_held": 0.0091,
+    "pct_held": 0.0093,
     "shares": 12452708,
     "pct_change": 0.0319,
     "new_est": false,
@@ -16133,7 +16102,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-09-30",
-    "pct_held": 0.0068,
+    "pct_held": 0.0069,
     "shares": 9266800,
     "pct_change": 0.0125,
     "new_est": false,
@@ -16159,7 +16128,7 @@
     "manager": null,
     "notable": false,
     "date": "2026-09-30",
-    "pct_held": 0.004,
+    "pct_held": 0.0041,
     "shares": 5456500,
     "pct_change": 0.0354,
     "new_est": false,
@@ -17683,19 +17652,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 112000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -17837,19 +17793,6 @@
     "pct_held": 0.0027,
     "shares": 4803200,
     "pct_change": 0.0956,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 60000,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    },
@@ -19702,19 +19645,6 @@
     "suspect": false
    },
    {
-    "holder": "Diversified Trust Company",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 714,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -20598,19 +20528,6 @@
     "suspect": false
    },
    {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0001,
-    "shares": 59000,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -21071,6 +20988,19 @@
     "shares": 13465,
     "pct_change": 0.0,
     "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 90000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    }
   ],
@@ -21944,6 +21874,19 @@
     "pct_change": -0.0471,
     "new_est": false,
     "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 22000,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
    }
   ],
   "8308.T": [
@@ -22074,19 +22017,6 @@
     "pct_held": 0.004,
     "shares": 9241900,
     "pct_change": 0.0337,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0001,
-    "shares": 147000,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    },
@@ -22945,6 +22875,19 @@
     "date": "2026-09-30",
     "pct_held": 0.0028,
     "shares": 1927600,
+    "pct_change": 1.0,
+    "new_est": true,
+    "suspect": false
+   },
+   {
+    "holder": "Paradigm Asset Management Company, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0002,
+    "shares": 135000,
     "pct_change": 1.0,
     "new_est": true,
     "suspect": false
@@ -24086,16 +24029,16 @@
     "suspect": false
    },
    {
-    "holder": "Pacer Advisors, Inc.",
+    "holder": "Paradigm Asset Management Company, LLC",
     "kind": "inst",
     "type": "inst",
     "manager": null,
     "notable": false,
-    "date": "2025-12-31",
-    "pct_held": 0.001,
-    "shares": 2796236,
-    "pct_change": -0.122,
-    "new_est": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0001,
+    "shares": 179000,
+    "pct_change": 1.0,
+    "new_est": true,
     "suspect": false
    }
   ],
@@ -24240,19 +24183,6 @@
     "pct_held": 0.0008,
     "shares": 963426,
     "pct_change": -0.22770001,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Paradigm Asset Management Company, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 6600,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -27912,6 +27842,57 @@
    "new_here": true
   },
   {
+   "symbol": "8306.T",
+   "name": "三菱UFJ",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 82000,
+   "pct_change": 8.011,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
+  },
+  {
+   "symbol": "8001.T",
+   "name": "伊藤忠商事",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 86000,
+   "pct_change": 5.6154,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
+  },
+  {
+   "symbol": "8058.T",
+   "name": "三菱商事",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 35000,
+   "pct_change": 5.4815,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
+  },
+  {
    "symbol": "6920.T",
    "name": "レーザーテック",
    "holder": "Stanley-Laman Group, Ltd.",
@@ -27971,10 +27952,61 @@
    "manager": "ジャナス・ヘンダーソン",
    "notable": true,
    "date": "2026-09-30",
-   "pct_held": 0.0056,
+   "pct_held": 0.0057,
    "shares": 5226100,
    "pct_change": 1.0183,
    "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "8035.T",
+   "name": "東京エレクトロン",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 25000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "6098.T",
+   "name": "リクルートHD",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 19000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "9433.T",
+   "name": "KDDI",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 54000,
+   "pct_change": 1.0,
+   "new_est": true,
    "suspect": false,
    "dir": "up",
    "new_here": true
@@ -28031,6 +28063,91 @@
    "new_here": true
   },
   {
+   "symbol": "6981.T",
+   "name": "村田製作所",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 24000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "8053.T",
+   "name": "住友商事",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 110000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "8002.T",
+   "name": "丸紅",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 33000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "2503.T",
+   "name": "キリンHD",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0001,
+   "shares": 90000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "2502.T",
+   "name": "アサヒGHD",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0001,
+   "shares": 111000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
    "symbol": "6752.T",
    "name": "パナソニックHD",
    "holder": "Rmg Wealth Management LLC",
@@ -28048,6 +28165,74 @@
    "new_here": true
   },
   {
+   "symbol": "6702.T",
+   "name": "富士通",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0001,
+   "shares": 168000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "8725.T",
+   "name": "MS&AD",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0001,
+   "shares": 39000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "7269.T",
+   "name": "スズキ",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 90000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "8015.T",
+   "name": "豊田通商",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 22000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
    "symbol": "1802.T",
    "name": "大林組",
    "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
@@ -28058,6 +28243,40 @@
    "date": "2026-09-30",
    "pct_held": 0.0028,
    "shares": 1927600,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "1802.T",
+   "name": "大林組",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0002,
+   "shares": 135000,
+   "pct_change": 1.0,
+   "new_est": true,
+   "suspect": false,
+   "dir": "up",
+   "new_here": true
+  },
+  {
+   "symbol": "5020.T",
+   "name": "ENEOS HD",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0001,
+   "shares": 179000,
    "pct_change": 1.0,
    "new_est": true,
    "suspect": false,
@@ -28097,6 +28316,23 @@
    "suspect": false,
    "dir": "up",
    "new_here": true
+  },
+  {
+   "symbol": "7741.T",
+   "name": "HOYA",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 16000,
+   "pct_change": 0.6,
+   "new_est": false,
+   "suspect": false,
+   "dir": "up",
+   "new_here": false
   },
   {
    "symbol": "4911.T",
@@ -29348,7 +29584,7 @@
    "manager": "フィデリティ",
    "notable": true,
    "date": "2026-09-30",
-   "pct_held": 0.0039,
+   "pct_held": 0.004,
    "shares": 3645300,
    "pct_change": -0.2076,
    "new_est": false,
@@ -29368,6 +29604,23 @@
    "pct_held": 0.0034999999,
    "shares": 5131083,
    "pct_change": -0.20969999,
+   "new_est": false,
+   "suspect": false,
+   "dir": "down",
+   "new_here": false
+  },
+  {
+   "symbol": "8316.T",
+   "name": "三井住友FG",
+   "holder": "Paradigm Asset Management Company, LLC",
+   "kind": "inst",
+   "type": "inst",
+   "manager": null,
+   "notable": false,
+   "date": "2026-09-30",
+   "pct_held": 0.0,
+   "shares": 94000,
+   "pct_change": -0.2395,
    "new_est": false,
    "suspect": false,
    "dir": "down",
@@ -32060,23 +32313,6 @@
    "new_here": false
   },
   {
-   "symbol": "6861.T",
-   "name": "キーエンス",
-   "holder": "Diversified Trust Company",
-   "kind": "inst",
-   "type": "inst",
-   "manager": null,
-   "notable": false,
-   "date": "2026-06-30",
-   "pct_held": 0.0,
-   "shares": 714,
-   "pct_change": 1.0,
-   "new_est": true,
-   "suspect": false,
-   "dir": "up",
-   "new_here": false
-  },
-  {
    "symbol": "6923.T",
    "name": "スタンレー電気",
    "holder": "Pacer Advisors, Inc.",
@@ -32374,7 +32610,7 @@
    "manager": null,
    "notable": false,
    "date": "2026-06-30",
-   "pct_held": 0.0057,
+   "pct_held": 0.0058,
    "shares": 5262392,
    "pct_change": 0.79370004,
    "new_est": false,
