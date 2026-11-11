@@ -1,6 +1,6 @@
 {
- "fetched_at": 1794330539.0129044,
- "updated_at": "2026-11-11 02:08:59",
+ "fetched_at": 1794426211.0656269,
+ "updated_at": "2026-11-12 04:43:31",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -166,10 +166,10 @@
    "Capital Income Builder": "2026-10-01",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
+   "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-11-12",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
+   "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-11-12",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-09",
-   "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
-   "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-11-07",
    "McIlrath & Eck, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Calydon Capital": "2026-09-09",
@@ -546,8 +546,7 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "Aristotle Capital Management, LLC": "2026-09-09",
-   "Pacer Advisors, Inc.": "2026-09-09",
-   "Huntington National Bank": "2026-09-09"
+   "Pacer Advisors, Inc.": "2026-09-09"
   },
   "6301.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -1932,12 +1931,12 @@
    "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund": "2026-09-09",
    "iShares Trust-iShares Core MSCI EAFE ETF": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
+   "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-11-12",
    "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF": "2026-09-09",
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Perpetual Americas Funds Trust-JOHCM International Select Fund": "2026-09-09",
    "AQR Funds-AQR Long-Short Equity Fund": "2026-09-09",
    "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
-   "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF": "2026-11-07",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "8830.T": {
@@ -3555,6 +3554,19 @@
     "suspect": false
    },
    {
+    "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": "フィデリティ",
+    "notable": true,
+    "date": "2026-09-30",
+    "pct_held": 0.0033000002,
+    "shares": 12126136,
+    "pct_change": 0.024,
+    "new_est": false,
+    "suspect": false
+   },
+   {
     "holder": "iShares Trust-iShares MSCI EAFE ETF",
     "kind": "mf",
     "type": "index",
@@ -3568,6 +3580,19 @@
     "suspect": false
    },
    {
+    "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
+    "kind": "mf",
+    "type": "index",
+    "manager": "フィデリティ",
+    "notable": true,
+    "date": "2026-09-30",
+    "pct_held": 0.0026,
+    "shares": 9766600,
+    "pct_change": -0.0007,
+    "new_est": false,
+    "suspect": false
+   },
+   {
     "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
     "kind": "mf",
     "type": "index",
@@ -3577,32 +3602,6 @@
     "pct_held": 0.0023,
     "shares": 8633000,
     "pct_change": 0.002,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-    "kind": "mf",
-    "type": "index",
-    "manager": "バンガード",
-    "notable": true,
-    "date": "2026-07-31",
-    "pct_held": 0.002,
-    "shares": 7551616,
-    "pct_change": -0.0025,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-08-31",
-    "pct_held": 0.0019,
-    "shares": 7227104,
-    "pct_change": -0.0108,
     "new_est": false,
     "suspect": false
    },
@@ -7844,19 +7843,6 @@
     "pct_held": 0.0,
     "shares": 31124,
     "pct_change": 0.72220004,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "Huntington National Bank",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 1,
-    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -23105,6 +23091,19 @@
     "suspect": false
    },
    {
+    "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+    "kind": "mf",
+    "type": "index",
+    "manager": "フィデリティ",
+    "notable": true,
+    "date": "2026-09-30",
+    "pct_held": 0.0032,
+    "shares": 1570573,
+    "pct_change": 0.0108,
+    "new_est": false,
+    "suspect": false
+   },
+   {
     "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
     "kind": "mf",
     "type": "index",
@@ -23166,19 +23165,6 @@
     "pct_held": 0.0021,
     "shares": 995687,
     "pct_change": 0.0377,
-    "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-    "kind": "mf",
-    "type": "index",
-    "manager": null,
-    "notable": false,
-    "date": "2026-08-31",
-    "pct_held": 0.002,
-    "shares": 958641,
-    "pct_change": 0.024600001,
     "new_est": false,
     "suspect": false
    },
@@ -28913,6 +28899,23 @@
    "new_here": true
   },
   {
+   "symbol": "8058.T",
+   "name": "三菱商事",
+   "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+   "kind": "mf",
+   "type": "index",
+   "manager": "フィデリティ",
+   "notable": true,
+   "date": "2026-09-30",
+   "pct_held": 0.0033000002,
+   "shares": 12126136,
+   "pct_change": 0.024,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
+  },
+  {
    "symbol": "4901.T",
    "name": "富士フイルムHD",
    "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
@@ -29110,6 +29113,23 @@
    "date": "2026-09-30",
    "pct_held": 0.0036000002,
    "shares": 7533876,
+   "pct_change": 0.0108,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
+  },
+  {
+   "symbol": "1812.T",
+   "name": "鹿島建設",
+   "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+   "kind": "mf",
+   "type": "index",
+   "manager": "フィデリティ",
+   "notable": true,
+   "date": "2026-09-30",
+   "pct_held": 0.0032,
+   "shares": 1570573,
    "pct_change": 0.0108,
    "new_est": false,
    "suspect": false,
@@ -29417,6 +29437,23 @@
    "pct_held": 0.001,
    "shares": 180200,
    "pct_change": 0.0,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
+  },
+  {
+   "symbol": "8058.T",
+   "name": "三菱商事",
+   "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
+   "kind": "mf",
+   "type": "index",
+   "manager": "フィデリティ",
+   "notable": true,
+   "date": "2026-09-30",
+   "pct_held": 0.0026,
+   "shares": 9766600,
+   "pct_change": -0.0007,
    "new_est": false,
    "suspect": false,
    "dir": "flat",
@@ -30069,23 +30106,6 @@
    "new_here": true
   },
   {
-   "symbol": "1812.T",
-   "name": "鹿島建設",
-   "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-   "kind": "mf",
-   "type": "index",
-   "manager": null,
-   "notable": false,
-   "date": "2026-08-31",
-   "pct_held": 0.002,
-   "shares": 958641,
-   "pct_change": 0.024600001,
-   "new_est": false,
-   "suspect": false,
-   "dir": "flat",
-   "new_here": true
-  },
-  {
    "symbol": "2593.T",
    "name": "伊藤園",
    "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -30148,23 +30168,6 @@
    "pct_held": 0.003,
    "shares": 400000,
    "pct_change": 0.0,
-   "new_est": false,
-   "suspect": false,
-   "dir": "flat",
-   "new_here": true
-  },
-  {
-   "symbol": "8058.T",
-   "name": "三菱商事",
-   "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-   "kind": "mf",
-   "type": "index",
-   "manager": null,
-   "notable": false,
-   "date": "2026-08-31",
-   "pct_held": 0.0019,
-   "shares": 7227104,
-   "pct_change": -0.0108,
    "new_est": false,
    "suspect": false,
    "dir": "flat",
