@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 20:29:42",
+ "updated_at": "2026-11-13 05:07:20",
  "fng": {
   "value": 28,
   "label": "恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 60.50195865529343,
-  "eth_dominance": 10.237844428947493,
-  "total_mcap_usd": 2430471961537.4443,
-  "mcap_change_24h": -3.5504111446217164
+  "btc_dominance": 59.53545250988117,
+  "eth_dominance": 10.179069468977286,
+  "total_mcap_usd": 2417786202012.9194,
+  "mcap_change_24h": -5.729228301360056
  },
  "defi": {
-  "tvl_usd": 77494881443.0,
-  "change_1d": 0.0018576715119225096,
-  "change_7d": -0.08869418895764969,
-  "change_1y": -0.3881014419844264,
-  "range_pos_1y": 0.19575985576109717
+  "tvl_usd": 76637594750.0,
+  "change_1d": -0.009225315883175988,
+  "change_7d": -0.09877550440084848,
+  "change_1y": -0.394870566363802,
+  "range_pos_1y": 0.18165623873144707
  },
  "news_crypto": [
+  {
+   "title": "Backpack日本法人がみんなの銀行と提携へ、円の入出金やトークン化預金の活用を検討",
+   "link": "https://coinpost.jp/?p=747690",
+   "published": "11/12 21:25",
+   "ts": 1794486322.0,
+   "source": "CoinPost",
+   "desc": "みんなの銀行とTrek Labs Japanが基本合意書を締結した。暗号資産交換業の登録を前提に、日本円の入出金などの銀行機能の組み込みや、将来的なトークン化預金の活用を検討する。"
+  },
   {
    "title": "セレス、SBIホールディングスと資本業務提携",
    "link": "https://coinpost.jp/?p=747683",
@@ -105,17 +113,33 @@
    "ts": 1794456054.0,
    "source": "CoinPost",
    "desc": "米テキサス州のレイノルズ下院議員は、同州の市や郡がビットコインなど仮想通貨へ投資できるようにする法案HB815を提出した。仮に成立した場合、発効は2027年9月となる見込みだ。"
-  },
-  {
-   "title": "ロシア、11月22日から仮想通貨取引サービスの提供が可能に",
-   "link": "https://coinpost.jp/?p=747580",
-   "published": "11/12 11:25",
-   "ts": 1794450330.0,
-   "source": "CoinPost",
-   "desc": "ロシア中央銀行は、取引所は11月22日から仮想通貨取引サービスを開始できると発表。ビットコインとイーサリアムとUSDTを取り扱うとして、すでにサービスの準備を始めている企業もある。"
   }
  ],
  "news_jp": [
+  {
+   "title": "エヌビディアのフアンCEOが辞任",
+   "link": "https://news.yahoo.co.jp/pickup/6602353?source=rss",
+   "published": "11/12 23:08",
+   "ts": 1794492494.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "タマホーム 5年以上前から不正か",
+   "link": "https://news.yahoo.co.jp/pickup/6602348?source=rss",
+   "published": "11/12 22:34",
+   "ts": 1794490468.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "無印良品 クレカ番号流出巡る経緯",
+   "link": "https://news.yahoo.co.jp/pickup/6602343?source=rss",
+   "published": "11/12 22:02",
+   "ts": 1794488528.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "新築転売対策 与党が空室税検討",
    "link": "https://news.yahoo.co.jp/pickup/6602338?source=rss",
@@ -133,26 +157,10 @@
    "desc": ""
   },
   {
-   "title": "日銀委員 利上げで経済減速懸念",
-   "link": "https://news.yahoo.co.jp/pickup/6602330?source=rss",
-   "published": "11/12 18:36",
-   "ts": 1794476160.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "NVIDIA疑惑 女性は台湾を8回訪問",
    "link": "https://news.yahoo.co.jp/pickup/6602328?source=rss",
    "published": "11/12 18:25",
    "ts": 1794475536.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ダイハツなど3車種17万台リコール",
-   "link": "https://news.yahoo.co.jp/pickup/6602319?source=rss",
-   "published": "11/12 17:34",
-   "ts": 1794472499.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6602308?source=rss",
    "published": "11/12 16:04",
    "ts": 1794467098.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "CEOの解任可否を決定へ NVIDIA",
-   "link": "https://news.yahoo.co.jp/pickup/6602271?source=rss",
-   "published": "11/12 11:01",
-   "ts": 1794448863.0,
    "source": "Yahoo!",
    "desc": ""
   }
