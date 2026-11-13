@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 20:14:26",
+ "updated_at": "2026-11-14 04:52:21",
  "fng": {
   "value": 20,
   "label": "極度の恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.735999988348276,
-  "eth_dominance": 10.224069466275324,
-  "total_mcap_usd": 2330350686134.0137,
-  "mcap_change_24h": -6.7720319281682775
+  "btc_dominance": 58.92656339436102,
+  "eth_dominance": 10.121584909956544,
+  "total_mcap_usd": 2344987463522.844,
+  "mcap_change_24h": -5.4927294258469965
  },
  "defi": {
-  "tvl_usd": 74915150951.0,
-  "change_1d": -0.0373290130810402,
-  "change_7d": -0.07311485818928642,
-  "change_1y": -0.40722550507106836,
-  "range_pos_1y": 0.1586042869277099
+  "tvl_usd": 74873017981.0,
+  "change_1d": -0.037867395345331456,
+  "change_7d": -0.0736392284908568,
+  "change_1y": -0.4075687539282107,
+  "range_pos_1y": 0.15788127430769466
  },
  "news_crypto": [
+  {
+   "title": "メタプラネット決算、通期営業利益予想を73.7％下方修正",
+   "link": "https://coinpost.jp/?p=747904",
+   "published": "11/13 22:02",
+   "ts": 1794574940.0,
+   "source": "CoinPost",
+   "desc": "東証スタンダード上場のメタプラネットが、10月14日から11月12日に累計約283億円の自社株買いを実施した。決算では1月から9月は純損失約272億円で、米スーパー・リーグ・エンタープライズへの戦略投資も予定している。"
+  },
+  {
+   "title": "マイクロソフト大規模障害、複数の株式取引所でメール不具合も売買は継続",
+   "link": "https://coinpost.jp/?p=747905",
+   "published": "11/13 21:30",
+   "ts": 1794573018.0,
+   "source": "CoinPost",
+   "desc": "米マイクロソフトの「マイクロソフト365」で日本時間13日未明に始まった大規模障害で、ユーロネクストとナスダックがメールの不具合を明らかにした。株式市場の取引関係者は電話やFAXに切り替え、主要取引所の中核の取引は止まらなかった。"
+  },
   {
    "title": "テザーゴールド、初のKPMG監査で「最良評価」　金地金を現物確認",
    "link": "https://coinpost.jp/?p=747795",
@@ -97,30 +113,30 @@
    "ts": 1794532209.0,
    "source": "CoinPost",
    "desc": "米ホワイトハウスは12日、米SECとCFTCの委員に民主・共和各2人を指名し、上院に承認を求めた。SECは2人、CFTCは1人の体制が続いている。"
-  },
-  {
-   "title": "ブラックロックのトークン化ファンド『BUIDL』、年中無休でステーブルコインに交換可能に",
-   "link": "https://coinpost.jp/?p=747736",
-   "published": "11/13 09:50",
-   "ts": 1794531027.0,
-   "source": "CoinPost",
-   "desc": "エセナとセキュリタイズが、ブラックロックのトークン化ファンド「BUIDL」を市場時間外にUSDCなどと交換できる流動性ファシリティを立ち上げた。最大1億ドル規模となる。"
-  },
-  {
-   "title": "トレザーウォレット、販売店クリプトビリス購入の3台で不正部品を確認",
-   "link": "https://coinpost.jp/?p=747721",
-   "published": "11/13 09:15",
-   "ts": 1794528901.0,
-   "source": "CoinPost",
-   "desc": "ハードウェアウォレット大手のトレザー（Trezor）は12日、販売店クリプトビリスで購入された『トレザー・セーフ5』の3台に不正部品があったと公表した。11日公開のファームウェア更新で情報取得を防ぐ一方、クリプトビリスの購入者には資金の移動を求めている。"
   }
  ],
  "news_jp": [
   {
-   "title": "社内イベ「社員旅行」など大幅減",
-   "link": "https://news.yahoo.co.jp/pickup/6602453?source=rss",
-   "published": "11/13 20:09",
-   "ts": 1794568184.0,
+   "title": "ワタミがMBO実施へ 320億円程度",
+   "link": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
+   "published": "11/13 22:18",
+   "ts": 1794575918.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「週明け怖い」MS障害の影響広く",
+   "link": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+   "published": "11/13 22:14",
+   "ts": 1794575691.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "社内イベ「忘新年会」など大幅減",
+   "link": "https://news.yahoo.co.jp/pickup/6602457?source=rss",
+   "published": "11/13 20:30",
+   "ts": 1794569425.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -149,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "磁気テープ再注目 流出リスク低く",
-   "link": "https://news.yahoo.co.jp/pickup/6602402?source=rss",
-   "published": "11/13 12:32",
-   "ts": 1794540765.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "冬の電気・ガスなど支援 6500億円",
    "link": "https://news.yahoo.co.jp/pickup/6602397?source=rss",
    "published": "11/13 11:50",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6602391?source=rss",
    "published": "11/13 11:30",
    "ts": 1794537048.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "エヌビディアのフアンCEOが辞任",
-   "link": "https://news.yahoo.co.jp/pickup/6602353?source=rss",
-   "published": "11/12 23:08",
-   "ts": 1794492494.0,
    "source": "Yahoo!",
    "desc": ""
   }
