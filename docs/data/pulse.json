@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 10:56:59",
+ "updated_at": "2026-11-13 20:14:26",
  "fng": {
   "value": 20,
   "label": "極度の恐怖",
@@ -37,19 +37,51 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.3165501065773,
-  "eth_dominance": 10.218708719618357,
-  "total_mcap_usd": 2399515466951.7925,
-  "mcap_change_24h": -5.822442429755701
+  "btc_dominance": 59.735999988348276,
+  "eth_dominance": 10.224069466275324,
+  "total_mcap_usd": 2330350686134.0137,
+  "mcap_change_24h": -6.7720319281682775
  },
  "defi": {
-  "tvl_usd": 76607762870.0,
-  "change_1d": -0.0031572970260247413,
-  "change_7d": -0.05217307513663039,
-  "change_1y": -0.3938325243100449,
-  "range_pos_1y": 0.1874100428305718
+  "tvl_usd": 74915150951.0,
+  "change_1d": -0.0373290130810402,
+  "change_7d": -0.07311485818928642,
+  "change_1y": -0.40722550507106836,
+  "range_pos_1y": 0.1586042869277099
  },
  "news_crypto": [
+  {
+   "title": "テザーゴールド、初のKPMG監査で「最良評価」　金地金を現物確認",
+   "link": "https://coinpost.jp/?p=747795",
+   "published": "11/13 15:30",
+   "ts": 1794551418.0,
+   "source": "CoinPost",
+   "desc": "テザーは、金連動型トークン「テザーゴールド(XAUT)」の2025年度財務諸表について、KPMGが無限定適正意見を表明したと発表した。金地金の現物を直接確認した初の監査で、CEOは金ETFの競合になると語った。"
+  },
+  {
+   "title": "米上場2社、AI株安のなかビットコイン採掘を中核事業と強調",
+   "link": "https://coinpost.jp/?p=747801",
+   "published": "11/13 13:05",
+   "ts": 1794542739.0,
+   "source": "CoinPost",
+   "desc": "マラとビットディアが、AI関連株の急落が続く中でビットコイン・マイニングを中核事業と位置づける姿勢を打ち出した。借入や資金繰りを巡る懸念を和らげうると報じられた。"
+  },
+  {
+   "title": "米アンカレッジ、ビザと提携　USDPTをVisaNet決済資産に追加",
+   "link": "https://coinpost.jp/?p=747782",
+   "published": "11/13 12:50",
+   "ts": 1794541805.0,
+   "source": "CoinPost",
+   "desc": "米アンカレッジ・デジタルは決済大手ビザと提携し、ウェスタンユニオン・ブランドのステーブルコインUSDPTをVisaNetの決済資産に加えると発表した。"
+  },
+  {
+   "title": "米国の国法銀行初のステーブルコイン、SoFiUSDがポリゴンにも対応",
+   "link": "https://coinpost.jp/?p=747722",
+   "published": "11/13 11:02",
+   "ts": 1794535325.0,
+   "source": "CoinPost",
+   "desc": "米国の国法銀行が発行する初のステーブルコイン「SoFiUSD」が、イーサリアム・ソラナに続きポリゴンに対応した。ソーファイ会員1,700万人超がアプリ内で購入・売却でき、企業向け決済基盤にも加わる。"
+  },
   {
    "title": "コインベース、子供向けのお金の絵本を製作　米国購入者が50ドル相当のビットコインをもらえる特典も",
    "link": "https://coinpost.jp/?p=747759",
@@ -81,62 +113,62 @@
    "ts": 1794528901.0,
    "source": "CoinPost",
    "desc": "ハードウェアウォレット大手のトレザー（Trezor）は12日、販売店クリプトビリスで購入された『トレザー・セーフ5』の3台に不正部品があったと公表した。11日公開のファームウェア更新で情報取得を防ぐ一方、クリプトビリスの購入者には資金の移動を求めている。"
-  },
-  {
-   "title": "米証券決済大手DTCC、株式・米国債をソラナ上でトークン化へ",
-   "link": "https://coinpost.jp/?p=747696",
-   "published": "11/13 08:12",
-   "ts": 1794525176.0,
-   "source": "CoinPost",
-   "desc": "米証券決済大手DTCCは12日、保管する対象資産のトークン化サービスをソラナに接続する計画を発表した。2027年下半期の実現を見込み、従来証券と同じ投資家保護を維持する。"
-  },
-  {
-   "title": "米BitGoとTOPPAN、デジタル資産の分散鍵管理を実証実験　不正流出増加などが背景",
-   "link": "https://coinpost.jp/?p=747714",
-   "published": "11/13 08:02",
-   "ts": 1794524538.0,
-   "source": "CoinPost",
-   "desc": "米BitGoとTOPPANは、デジタル資産の分散鍵管理スキームの実証実験を実施したことを発表。当局の許認可取得などを前提に2028年のサービスローンチを目指す。"
-  },
-  {
-   "title": "半導体大手TSMCが従業員情報流出を確認、ハッカーが3BTCを要求",
-   "link": "https://coinpost.jp/?p=747697",
-   "published": "11/13 07:35",
-   "ts": 1794522958.0,
-   "source": "CoinPost",
-   "desc": "台湾の半導体大手TSMCが一部の現・元従業員の情報流出を確認した。ハッカーは3BTCの仮想通貨ビットコインで販売を持ちかけ、1週間以内に買い手が付かなければ全データを公開すると警告した。"
-  },
-  {
-   "title": "米司法省、北朝鮮がバイナンスから盗んだ1910億円超の仮想通貨を差し押さえ",
-   "link": "https://coinpost.jp/?p=747698",
-   "published": "11/13 07:00",
-   "ts": 1794520800.0,
-   "source": "CoinPost",
-   "desc": "米司法省は12日、北朝鮮のハッカーが仮想通貨取引所バイナンスから盗んだ12億ドル超を差し押さえおよび処分制限の対象にしたと発表した。凍結額は27億ドル超に上り、北朝鮮の今年の被害額はTRMラボの集計で74億ドルに達している。"
   }
  ],
  "news_jp": [
   {
-   "title": "ワタミがMBO検討 きょう付議へ",
-   "link": "https://news.yahoo.co.jp/pickup/6602380?source=rss",
-   "published": "11/13 09:40",
-   "ts": 1794530403.0,
+   "title": "社内イベ「社員旅行」など大幅減",
+   "link": "https://news.yahoo.co.jp/pickup/6602453?source=rss",
+   "published": "11/13 20:09",
+   "ts": 1794568184.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "丸亀製麺の値下げ 「逆張り」真髄",
-   "link": "https://news.yahoo.co.jp/pickup/6602372?source=rss",
-   "published": "11/13 08:36",
-   "ts": 1794526570.0,
+   "title": "個人向け国債NISA化 見送りで調整",
+   "link": "https://news.yahoo.co.jp/pickup/6602452?source=rss",
+   "published": "11/13 19:47",
+   "ts": 1794566860.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "エヌビディアCEO辞任 動揺広がる",
-   "link": "https://news.yahoo.co.jp/pickup/6602361?source=rss",
-   "published": "11/13 06:59",
-   "ts": 1794520788.0,
+   "title": "ニデック 年内の臨時株主総会断念",
+   "link": "https://news.yahoo.co.jp/pickup/6602448?source=rss",
+   "published": "11/13 19:00",
+   "ts": 1794564014.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "損保3社タマホーム保険販売停止へ",
+   "link": "https://news.yahoo.co.jp/pickup/6602444?source=rss",
+   "published": "11/13 18:19",
+   "ts": 1794561593.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "磁気テープ再注目 流出リスク低く",
+   "link": "https://news.yahoo.co.jp/pickup/6602402?source=rss",
+   "published": "11/13 12:32",
+   "ts": 1794540765.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "冬の電気・ガスなど支援 6500億円",
+   "link": "https://news.yahoo.co.jp/pickup/6602397?source=rss",
+   "published": "11/13 11:50",
+   "ts": 1794538229.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "エヌビディア 暫定CEOにクレス氏",
+   "link": "https://news.yahoo.co.jp/pickup/6602391?source=rss",
+   "published": "11/13 11:30",
+   "ts": 1794537048.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -145,38 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6602353?source=rss",
    "published": "11/12 23:08",
    "ts": 1794492494.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タマホーム 5年以上前から不正か",
-   "link": "https://news.yahoo.co.jp/pickup/6602348?source=rss",
-   "published": "11/12 22:34",
-   "ts": 1794490468.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "無印良品 クレカ番号流出巡る経緯",
-   "link": "https://news.yahoo.co.jp/pickup/6602343?source=rss",
-   "published": "11/12 22:02",
-   "ts": 1794488528.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "すかいらーく Shin-Shinなぜ買収",
-   "link": "https://news.yahoo.co.jp/pickup/6602322?source=rss",
-   "published": "11/12 19:02",
-   "ts": 1794477734.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "丸亀製麺が値下げ 社長語る危機感",
-   "link": "https://news.yahoo.co.jp/pickup/6602316?source=rss",
-   "published": "11/12 17:08",
-   "ts": 1794470893.0,
    "source": "Yahoo!",
    "desc": ""
   }
