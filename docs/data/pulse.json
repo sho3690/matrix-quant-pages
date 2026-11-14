@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14 10:29:55",
+ "updated_at": "2026-11-14 19:40:16",
  "fng": {
   "value": 13,
   "label": "極度の恐怖",
@@ -37,19 +37,59 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.90847228345104,
-  "eth_dominance": 10.117660918147749,
-  "total_mcap_usd": 2323617723537.7036,
-  "mcap_change_24h": -5.845298915875829
+  "btc_dominance": 59.49312607583855,
+  "eth_dominance": 10.263771754185802,
+  "total_mcap_usd": 2270746753318.657,
+  "mcap_change_24h": -4.862456427859605
  },
  "defi": {
-  "tvl_usd": 74426147998.0,
-  "change_1d": -0.012329470090899242,
-  "change_7d": -0.07948747068267159,
-  "change_1y": -0.39695122695535545,
-  "range_pos_1y": 0.15042500253277022
+  "tvl_usd": 73594551664.0,
+  "change_1d": -0.03912322615154229,
+  "change_7d": -0.08957562599288682,
+  "change_1y": -0.4037227386569966,
+  "range_pos_1y": 0.13612443961916104
  },
  "news_crypto": [
+  {
+   "title": "タイ当局、マネロン対策でステーブルコイン送金に1日約2300万円の上限案",
+   "link": "https://coinpost.jp/?p=747963",
+   "published": "11/14 15:00",
+   "ts": 1794636002.0,
+   "source": "CoinPost",
+   "desc": "タイ証券取引委員会は12日、ステーブルコイン取引の告示案を公表した。顧客の入金と出金をそれぞれ事業者ごとに1日500万バーツまでとし、送金元・先を本人名義の口座に限る内容で、26日まで意見を募っている。"
+  },
+  {
+   "title": "米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字",
+   "link": "https://coinpost.jp/?p=747970",
+   "published": "11/14 13:45",
+   "ts": 1794631537.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン・トレジャリー企業ナカモトが2026年7〜9月期の決算を発表。BTC評価益により純利益8,550万ドルの黒字となった。営業収益はマイナス190万ドルだった。"
+  },
+  {
+   "title": "SBIとカンボジア中銀、国債にカントン・送金にJPYSCを使う2つの実証へ",
+   "link": "https://coinpost.jp/?p=747969",
+   "published": "11/14 13:20",
+   "ts": 1794630002.0,
+   "source": "CoinPost",
+   "desc": "SBIホールディングスは13日、カンボジア国立銀行と国債のトークン化、円建てステーブルコインによる日本・カンボジア間送金の実証に向けた基本合意書を締結した。中間成果は15日・16日に公表する予定だ。"
+  },
+  {
+   "title": "「個人マイニング重視」ヘイズ氏主導のFLOP、テストネットとエアドロップを11月24日に開始へ",
+   "link": "https://coinpost.jp/?p=747951",
+   "published": "11/14 11:05",
+   "ts": 1794621942.0,
+   "source": "CoinPost",
+   "desc": "ビットメックス共同創設者のアーサー・ヘイズ氏が13日、AIエージェント向けの仮想通貨FLOPのテストネットとエアドロップを11月24日に始めると発表した。日程の変更や更新があれば、事前に伝えるとしている。"
+  },
+  {
+   "title": "ハイパーリキッド、USDC準備金利回り寄与で四半期収益増加　204万HYPEを買い戻し",
+   "link": "https://coinpost.jp/?p=747947",
+   "published": "11/14 10:55",
+   "ts": 1794621328.0,
+   "source": "CoinPost",
+   "desc": "調査団体HRCがハイパーリキッドの7～9月期レポートを発表。プロトコル収益増加やUSDC準備金利回り収益、仮想通貨HYPE買い戻しについて報告した。"
+  },
   {
    "title": "アダム・バック、ビットコインが2028年までに100万ドル到達の可能性",
    "link": "https://coinpost.jp/?p=747950",
@@ -73,110 +113,70 @@
    "ts": 1794615332.0,
    "source": "CoinPost",
    "desc": "仮想通貨ビットコインは13日から14日にかけて大きく下落し、2日間で円建て100万円幅を超える下げとなった。米追加利上げへの警戒から買いが弱まるなか、エヌビディアのジェンスン・フアンCEO辞任を受けたハイテク株への不安が重なった。"
-  },
-  {
-   "title": "コインベースCEO、AIエージェント型金融と米国での株式無期限先物に注力と表明",
-   "link": "https://coinpost.jp/?p=747939",
-   "published": "11/14 09:05",
-   "ts": 1794614757.0,
-   "source": "CoinPost",
-   "desc": "米仮想通貨取引所大手コインベースのCEOが14日、AIエージェント型金融や株式のトークン化、米国での株式無期限先物などへの取り組みをXで明らかにした。11日にはAIエージェントの取引制限機能も発表している。"
-  },
-  {
-   "title": "米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字",
-   "link": "https://coinpost.jp/?p=747921",
-   "published": "11/14 08:02",
-   "ts": 1794610927.0,
-   "source": "CoinPost",
-   "desc": "テザーが支援する米上場企業Twenty One Capitalが13日、第3四半期の純利益が10億8,675万ドルだったと発表した。ほぼ全てがビットコインの評価益で、1〜9月期は1億8,648万ドルの純損失だった。"
-  },
-  {
-   "title": "日本人のタイ旅行にステーブルコイン決済、タイ企業が新アプリ提供",
-   "link": "https://coinpost.jp/?p=747922",
-   "published": "11/14 07:20",
-   "ts": 1794608424.0,
-   "source": "CoinPost",
-   "desc": "タイのWaan ExchangeとWipayが、外国人観光客がステーブルコインをバーツに換えてQRコード決済できるアプリ「WORPT」の提供を始めた。日本を含む国の観光客を対象に、18カ月でアクティブ利用者約15万人を見込む。"
-  },
-  {
-   "title": "東証上場アステリア、約3億円分のJPYCを現金同等物で保有",
-   "link": "https://coinpost.jp/?p=747923",
-   "published": "11/14 06:40",
-   "ts": 1794606011.0,
-   "source": "CoinPost",
-   "desc": "東証上場のアステリアは13日、2027年3月期の中間決算短信を公表した。現金及び現金同等物36億9,855万円のうち、ステーブルコインJPYCが2億9,900万円を占め、営業利益は302.6％増の21億757万円となった。"
-  },
-  {
-   "title": "米下院委員会、予測市場のインサイダー取引で政府職員の取引制限強化を要求",
-   "link": "https://coinpost.jp/?p=747924",
-   "published": "11/14 06:30",
-   "ts": 1794605413.0,
-   "source": "CoinPost",
-   "desc": "米下院の監視・政府改革委員会は13日、予測市場でのインサイダー取引に関する調査のスタッフ覚書を公表した。政府職員や議員が参加できる予測市場の種類をさらに制限する立法を、議会が検討するよう提言している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "スバルWRXのMT車復活 要望受け",
+   "link": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
+   "published": "11/14 18:51",
+   "ts": 1794649897.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "売れ残りを寄付 広がる一方問題も",
+   "link": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
+   "published": "11/14 18:42",
+   "ts": 1794649373.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "宿泊増 鳥取県の「VIVANT」戦略",
+   "link": "https://news.yahoo.co.jp/pickup/6602569?source=rss",
+   "published": "11/14 18:05",
+   "ts": 1794647124.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "菓子屋の倒産最多へ 老舗でも低迷",
+   "link": "https://news.yahoo.co.jp/pickup/6602566?source=rss",
+   "published": "11/14 17:46",
+   "ts": 1794645988.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "職場で電話苦手30代最多? 克服法",
+   "link": "https://news.yahoo.co.jp/pickup/6602565?source=rss",
+   "published": "11/14 17:23",
+   "ts": 1794644638.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "エヌビディアCEO 後任選定難航か",
+   "link": "https://news.yahoo.co.jp/pickup/6602554?source=rss",
+   "published": "11/14 15:24",
+   "ts": 1794637471.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「銀だこ」曲がり角 赤字転落なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
+   "published": "11/14 10:28",
+   "ts": 1794619704.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "タマホーム 保険代理業を廃業へ",
    "link": "https://news.yahoo.co.jp/pickup/6602519?source=rss",
    "published": "11/14 10:20",
    "ts": 1794619208.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "FRB 市場の最大脅威は「AI関連」",
-   "link": "https://news.yahoo.co.jp/pickup/6602514?source=rss",
-   "published": "11/14 09:53",
-   "ts": 1794617589.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ハンズ渋谷あす閉店 なぜ愛された",
-   "link": "https://news.yahoo.co.jp/pickup/6602513?source=rss",
-   "published": "11/14 09:47",
-   "ts": 1794617225.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "3メガバンク中間決算 最高益更新",
-   "link": "https://news.yahoo.co.jp/pickup/6602512?source=rss",
-   "published": "11/14 09:45",
-   "ts": 1794617145.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「人生初FAX」MS障害で代替手段",
-   "link": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
-   "published": "11/14 08:03",
-   "ts": 1794611011.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ワタミがMBO実施へ 320億円程度",
-   "link": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
-   "published": "11/13 22:18",
-   "ts": 1794575918.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「週明け怖い」MS障害の影響広く",
-   "link": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
-   "published": "11/13 22:14",
-   "ts": 1794575691.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "社内イベ「忘新年会」など大幅減",
-   "link": "https://news.yahoo.co.jp/pickup/6602457?source=rss",
-   "published": "11/13 20:30",
-   "ts": 1794569425.0,
    "source": "Yahoo!",
    "desc": ""
   }
