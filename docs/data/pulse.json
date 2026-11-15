@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15 10:07:08",
+ "updated_at": "2026-11-15 20:13:43",
  "fng": {
   "value": 10,
   "label": "極度の恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.58538004855627,
-  "eth_dominance": 9.781333407041542,
-  "total_mcap_usd": 2142224463293.4841,
-  "mcap_change_24h": -9.731648745164309
+  "btc_dominance": 59.47894750415258,
+  "eth_dominance": 10.094693576706637,
+  "total_mcap_usd": 2206883302939.223,
+  "mcap_change_24h": -5.209835426992596
  },
  "defi": {
-  "tvl_usd": 70263819219.0,
-  "change_1d": -0.0008119196499266623,
-  "change_7d": -0.13112912456795833,
-  "change_1y": -0.4190662431645872,
-  "range_pos_1y": 0.07944230866740722
+  "tvl_usd": 71051897920.0,
+  "change_1d": -0.044098959228711876,
+  "change_7d": -0.12138387248148963,
+  "change_1y": -0.4125504925899287,
+  "range_pos_1y": 0.09285376721834167
  },
  "news_crypto": [
+  {
+   "title": "ビットコイン、200日線割れ1100万円台　エヌビディア決算とアンソロピックIPOが焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=747846",
+   "published": "11/15 11:30",
+   "ts": 1794709825.0,
+   "source": "CoinPost",
+   "desc": "ビットコイン（BTC）は200日移動平均線を下抜け、1100万円近辺まで値を下げた。エヌビディア決算とアンソロピックIPOが相場のカギを握るなか、売られ過ぎからの反発が注目される。"
+  },
   {
    "title": "週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ",
    "link": "https://coinpost.jp/?p=747789",
@@ -105,78 +113,70 @@
    "ts": 1794618638.0,
    "source": "CoinPost",
    "desc": "ブロックストリームのアダム・バックCEOがCNBCのインタビューで、ビットコインが2028年までに100万ドルに達する可能性に言及した。機関投資家の採用余地の95％以上がこれからだとして、長期的強気相場の序盤にあるとの認識を示した。"
-  },
-  {
-   "title": "ストラテジーCEO「MSCI指数連動の株式はわずか3％で除外の影響は限定的」",
-   "link": "https://coinpost.jp/?p=747940",
-   "published": "11/14 09:30",
-   "ts": 1794616201.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインの保有大手ストラテジーのCEOは13日、MSCIの指数に連動する同社株はわずか3％で、除外の影響は小さいとの見方を示した。MSCIは11月30日に同社を指数から除外する。"
   }
  ],
  "news_jp": [
   {
-   "title": "再開発が大赤字 大阪・阿倍野の今",
-   "link": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
-   "published": "11/15 09:24",
-   "ts": 1794702290.0,
+   "title": "スガキヤ20年ぶり関東に進出 狙い",
+   "link": "https://news.yahoo.co.jp/pickup/6602698?source=rss",
+   "published": "11/15 18:11",
+   "ts": 1794733865.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "令和キッズの間で「宝石ブーム」",
-   "link": "https://news.yahoo.co.jp/pickup/6602617?source=rss",
-   "published": "11/15 07:57",
-   "ts": 1794697041.0,
+   "title": "高級レストランにタイパの波 なぜ",
+   "link": "https://news.yahoo.co.jp/pickup/6602693?source=rss",
+   "published": "11/15 17:14",
+   "ts": 1794730492.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "縦型ショートドラマ トラブル急増",
-   "link": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
-   "published": "11/14 21:56",
-   "ts": 1794661002.0,
+   "title": "外食大手 スキマバイトを即戦力に",
+   "link": "https://news.yahoo.co.jp/pickup/6602690?source=rss",
+   "published": "11/15 17:01",
+   "ts": 1794729714.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "スバルWRXのMT車復活 要望受け",
-   "link": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
-   "published": "11/14 18:51",
-   "ts": 1794649897.0,
+   "title": "タマホーム 架空請求を売上計上か",
+   "link": "https://news.yahoo.co.jp/pickup/6602678?source=rss",
+   "published": "11/15 16:14",
+   "ts": 1794726892.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "売れ残りを寄付 広がる一方問題も",
-   "link": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
-   "published": "11/14 18:42",
-   "ts": 1794649373.0,
+   "title": "東京自由が丘「らしさ」消えた?",
+   "link": "https://news.yahoo.co.jp/pickup/6602670?source=rss",
+   "published": "11/15 15:15",
+   "ts": 1794723325.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "宿泊増 鳥取県の「VIVANT」戦略",
-   "link": "https://news.yahoo.co.jp/pickup/6602569?source=rss",
-   "published": "11/14 18:05",
-   "ts": 1794647124.0,
+   "title": "子どもの間で「宝石集め」ブーム",
+   "link": "https://news.yahoo.co.jp/pickup/6602647?source=rss",
+   "published": "11/15 11:23",
+   "ts": 1794709397.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "エヌビディアCEO 後任選定難航か",
-   "link": "https://news.yahoo.co.jp/pickup/6602554?source=rss",
-   "published": "11/14 15:24",
-   "ts": 1794637471.0,
+   "title": "東京で「臭い豚骨」がブーム 背景",
+   "link": "https://news.yahoo.co.jp/pickup/6602644?source=rss",
+   "published": "11/15 10:52",
+   "ts": 1794707560.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "「銀だこ」曲がり角 赤字転落なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
-   "published": "11/14 10:28",
-   "ts": 1794619704.0,
+   "title": "月収2万円と年金5万円 70代の現実",
+   "link": "https://news.yahoo.co.jp/pickup/6602636?source=rss",
+   "published": "11/15 10:06",
+   "ts": 1794704777.0,
    "source": "Yahoo!",
    "desc": ""
   }
