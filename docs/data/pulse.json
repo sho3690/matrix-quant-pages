@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-11-15 03:17:23",
+ "updated_at": "2026-11-15 10:07:08",
  "fng": {
-  "value": 13,
+  "value": 10,
   "label": "極度の恐怖",
   "history": [
-   63,
    55,
    53,
    59,
@@ -33,23 +32,32 @@
    29,
    28,
    20,
-   13
+   13,
+   10
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.93819382101857,
-  "eth_dominance": 9.988064203361901,
-  "total_mcap_usd": 2248141117030.9277,
-  "mcap_change_24h": -6.722311348555116
+  "btc_dominance": 58.58538004855627,
+  "eth_dominance": 9.781333407041542,
+  "total_mcap_usd": 2142224463293.4841,
+  "mcap_change_24h": -9.731648745164309
  },
  "defi": {
-  "tvl_usd": 71677241634.0,
-  "change_1d": -0.06414685896442629,
-  "change_7d": -0.11329430819917996,
-  "change_1y": -0.4192571545612259,
-  "range_pos_1y": 0.10349581513786589
+  "tvl_usd": 70263819219.0,
+  "change_1d": -0.0008119196499266623,
+  "change_7d": -0.13112912456795833,
+  "change_1y": -0.4190662431645872,
+  "range_pos_1y": 0.07944230866740722
  },
  "news_crypto": [
+  {
+   "title": "週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ",
+   "link": "https://coinpost.jp/?p=747789",
+   "published": "11/15 09:25",
+   "ts": 1794702354.0,
+   "source": "CoinPost",
+   "desc": "今週は、米上場企業の仮想通貨ビットコインの売却規模、トランプ大統領の戦略的ビットコイン準備金購入に対する意欲、米MSCIによるストラテジー・メタプラネットの指数除外に関する記事が関心を集めた。"
+  },
   {
    "title": "タイ当局、マネロン対策でステーブルコイン送金に1日約2300万円の上限案",
    "link": "https://coinpost.jp/?p=747963",
@@ -105,17 +113,25 @@
    "ts": 1794616201.0,
    "source": "CoinPost",
    "desc": "仮想通貨ビットコインの保有大手ストラテジーのCEOは13日、MSCIの指数に連動する同社株はわずか3％で、除外の影響は小さいとの見方を示した。MSCIは11月30日に同社を指数から除外する。"
-  },
-  {
-   "title": "ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI",
-   "link": "https://coinpost.jp/?p=747946",
-   "published": "11/14 09:15",
-   "ts": 1794615332.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインは13日から14日にかけて大きく下落し、2日間で円建て100万円幅を超える下げとなった。米追加利上げへの警戒から買いが弱まるなか、エヌビディアのジェンスン・フアンCEO辞任を受けたハイテク株への不安が重なった。"
   }
  ],
  "news_jp": [
+  {
+   "title": "再開発が大赤字 大阪・阿倍野の今",
+   "link": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
+   "published": "11/15 09:24",
+   "ts": 1794702290.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "令和キッズの間で「宝石ブーム」",
+   "link": "https://news.yahoo.co.jp/pickup/6602617?source=rss",
+   "published": "11/15 07:57",
+   "ts": 1794697041.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "縦型ショートドラマ トラブル急増",
    "link": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
@@ -149,14 +165,6 @@
    "desc": ""
   },
   {
-   "title": "菓子屋の倒産最多へ 老舗でも低迷",
-   "link": "https://news.yahoo.co.jp/pickup/6602566?source=rss",
-   "published": "11/14 17:46",
-   "ts": 1794645988.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "エヌビディアCEO 後任選定難航か",
    "link": "https://news.yahoo.co.jp/pickup/6602554?source=rss",
    "published": "11/14 15:24",
@@ -169,14 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
    "published": "11/14 10:28",
    "ts": 1794619704.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タマホーム 保険代理業を廃業へ",
-   "link": "https://news.yahoo.co.jp/pickup/6602519?source=rss",
-   "published": "11/14 10:20",
-   "ts": 1794619208.0,
    "source": "Yahoo!",
    "desc": ""
   }
