@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16 10:08:07",
+ "updated_at": "2026-11-16 20:44:33",
  "fng": {
   "value": 10,
   "label": "極度の恐怖",
@@ -37,19 +37,67 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 59.379481520864196,
-  "eth_dominance": 10.087578865214974,
-  "total_mcap_usd": 2191306675866.653,
-  "mcap_change_24h": -2.4635623106687414
+  "btc_dominance": 59.28663345835393,
+  "eth_dominance": 10.079057792486516,
+  "total_mcap_usd": 2181510084796.3862,
+  "mcap_change_24h": -3.80781704379754
  },
  "defi": {
-  "tvl_usd": 71717589812.0,
-  "change_1d": 6.0383268426500436e-05,
-  "change_7d": -0.0930211583535725,
-  "change_1y": -0.408143391275158,
-  "range_pos_1y": 0.10418245711431581
+  "tvl_usd": 71070698564.0,
+  "change_1d": 0.012632684474922495,
+  "change_7d": -0.10120208964700084,
+  "change_1y": -0.41348192623232405,
+  "range_pos_1y": 0.09317371503245836
  },
  "news_crypto": [
+  {
+   "title": "CoinPost編集部に聞く　取材とタイアップ、二つの現場で問われる力",
+   "link": "https://coinpost.jp/?p=744409",
+   "published": "11/16 17:00",
+   "ts": 1794816000.0,
+   "source": "CoinPost",
+   "desc": "ニュース、SEO、タイアップ、取材と性質の異なる記事が動くCoinPost編集部。国内取材とタイアップ記事を担う熊沢律紀氏に、模範解答のない現場で鍛えた「疑問を持つ力」と、編集部に向いている人物像を聞いた。"
+  },
+  {
+   "title": "ビットコイン新規クジラの含み損80億ドル　投げ売りは限定的＝アナリスト",
+   "link": "https://coinpost.jp/?p=748127",
+   "published": "11/16 15:00",
+   "ts": 1794808841.0,
+   "source": "CoinPost",
+   "desc": "クリプトクアントのアナリストによると、6月以降に参入したビットコインの短期保有クジラの含み損が約80億ドルに拡大した。バイナンスへの入金は2月・6月の水準を下回り、投げ売りは限定的だ。数値の留保点も整理する。"
+  },
+  {
+   "title": "トム・リー氏が語る仮想通貨急落の5要因、長期の「スーパーサイクル」見通しは維持",
+   "link": "https://coinpost.jp/?p=748086",
+   "published": "11/16 13:39",
+   "ts": 1794803993.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨はなぜ下落しているのか。トム・リー氏が売り圧力の背景を5つ挙げた。AI関連株の下落、アンソロピックIPO、大規模ハッキング後の返還資産の現金化などを主要因としている。"
+  },
+  {
+   "title": "ビットコイン採掘マシン約6万4000台分の乗っ取り発生　報酬アドレス書き換え",
+   "link": "https://coinpost.jp/?p=748076",
+   "published": "11/16 11:50",
+   "ts": 1794797414.0,
+   "source": "CoinPost",
+   "desc": "約6万4,000台のビットコイン採掘機器がアドレス設定を書き換えられた上でマイニングプールに接続された。攻撃者への支払いは現時点で確認されていない。"
+  },
+  {
+   "title": "イーサリアム財団関連アドレス、23億円相当のETH売却　現物ETFも7週連続流出",
+   "link": "https://coinpost.jp/?p=748022",
+   "published": "11/16 11:15",
+   "ts": 1794795345.0,
+   "source": "CoinPost",
+   "desc": "Lookonchainはイーサリアム財団関連のウォレットが4日間で7,500ETHを売却し、ステーブルコインUSDSに交換したと報告した。米ETH現物ETFは7週連続で純流出となっている。"
+  },
+  {
+   "title": "ビットコイン一時1000万円割れ、清算連鎖とアンソロピックIPOへの資金シフト懸念も｜仮想NISHI",
+   "link": "https://coinpost.jp/?p=748038",
+   "published": "11/16 10:23",
+   "ts": 1794792203.0,
+   "source": "CoinPost",
+   "desc": "ビットコインは週末の流動性低下でロングの強制清算が連鎖し、円建てで一時1,000万円を割り込んだ。アンソロピックIPOによるAI銘柄への資金シフト懸念やバイナンス問題も重しに。仮想NISHI氏が解説。"
+  },
   {
    "title": "CZ氏が考える仮想通貨下落の5要因　バイナンスによる売りは否定",
    "link": "https://coinpost.jp/?p=748032",
@@ -65,57 +113,57 @@
    "ts": 1794786754.0,
    "source": "CoinPost",
    "desc": "バイナンスのイーサリアム（ETH）準備高が約290万ETHまで減少し、2020年11月以来の低水準となった。2025年7月比で約42％減。クリプトクアントのアナリストは、価格下落局面での蓄積の可能性を指摘する。"
-  },
-  {
-   "title": "iPhoneのウォレット狙う攻撃ツール地下販売　スローミスト責任者が警告",
-   "link": "https://coinpost.jp/?p=748013",
-   "published": "11/16 08:10",
-   "ts": 1794784252.0,
-   "source": "CoinPost",
-   "desc": "ブロックチェーンセキュリティ企業スローミストの責任者が15日、iPhone上の仮想通貨ウォレットを狙う攻撃ツールが地下フォーラムで販売されていると注意を促した。同氏はDarkSwordの改良版と推測し、iOSの更新を呼びかけている。"
-  },
-  {
-   "title": "アンソロピック上場前のビットコイン安、スペースX時と酷似　ストライブCEO",
-   "link": "https://coinpost.jp/?p=748007",
-   "published": "11/16 07:39",
-   "ts": 1794782360.0,
-   "source": "CoinPost",
-   "desc": "ストライブのコール会長兼CEOは、BTCの値動きが6月のスペースX上場前と似ていると指摘した。同じ推移をアンソロピック上場に当てはめると、BTCは2月下旬に約9万ドルに達すると試算。上場後18日で底を打った前例を示した。"
-  },
-  {
-   "title": "ビットコイン、200日線割れ1100万円台　エヌビディア決算とアンソロピックIPOが焦点｜bitbankアナリスト寄稿",
-   "link": "https://coinpost.jp/?p=747846",
-   "published": "11/15 11:30",
-   "ts": 1794709825.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン（BTC）は200日移動平均線を下抜け、1100万円近辺まで値を下げた。エヌビディア決算とアンソロピックIPOが相場のカギを握るなか、売られ過ぎからの反発が注目される。"
-  },
-  {
-   "title": "週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ",
-   "link": "https://coinpost.jp/?p=747789",
-   "published": "11/15 09:25",
-   "ts": 1794702354.0,
-   "source": "CoinPost",
-   "desc": "今週は、米上場企業の仮想通貨ビットコインの売却規模、トランプ大統領の戦略的ビットコイン準備金購入に対する意欲、米MSCIによるストラテジー・メタプラネットの指数除外に関する記事が関心を集めた。"
-  },
-  {
-   "title": "タイ当局、マネロン対策でステーブルコイン送金に1日約2300万円の上限案",
-   "link": "https://coinpost.jp/?p=747963",
-   "published": "11/14 15:00",
-   "ts": 1794636002.0,
-   "source": "CoinPost",
-   "desc": "タイ証券取引委員会は12日、ステーブルコイン取引の告示案を公表した。顧客の入金と出金をそれぞれ事業者ごとに1日500万バーツまでとし、送金元・先を本人名義の口座に限る内容で、26日まで意見を募っている。"
-  },
-  {
-   "title": "米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字",
-   "link": "https://coinpost.jp/?p=747970",
-   "published": "11/14 13:45",
-   "ts": 1794631537.0,
-   "source": "CoinPost",
-   "desc": "ビットコイン・トレジャリー企業ナカモトが2026年7〜9月期の決算を発表。BTC評価益により純利益8,550万ドルの黒字となった。営業収益はマイナス190万ドルだった。"
   }
  ],
  "news_jp": [
+  {
+   "title": "いきステに復活の兆し 改革の成果",
+   "link": "https://news.yahoo.co.jp/pickup/6602820?source=rss",
+   "published": "11/16 18:51",
+   "ts": 1794822688.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "マンション短期売買 課税強化検討",
+   "link": "https://news.yahoo.co.jp/pickup/6602817?source=rss",
+   "published": "11/16 18:40",
+   "ts": 1794822024.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "タイムズカーの会員数 1.4万人減",
+   "link": "https://news.yahoo.co.jp/pickup/6602816?source=rss",
+   "published": "11/16 18:17",
+   "ts": 1794820659.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "日経平均は反落 AI株が下げ主導",
+   "link": "https://news.yahoo.co.jp/pickup/6602802?source=rss",
+   "published": "11/16 16:24",
+   "ts": 1794813848.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "若者に広がる投資熱 その実態は",
+   "link": "https://news.yahoo.co.jp/pickup/6602779?source=rss",
+   "published": "11/16 12:11",
+   "ts": 1794798703.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "フアン氏復帰求める署名 16万人超",
+   "link": "https://news.yahoo.co.jp/pickup/6602778?source=rss",
+   "published": "11/16 12:10",
+   "ts": 1794798641.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "コンテナホテル8年で145店舗 背景",
    "link": "https://news.yahoo.co.jp/pickup/6602759?source=rss",
@@ -125,58 +173,10 @@
    "desc": ""
   },
   {
-   "title": "そごう・西武大規模改装に400億円",
-   "link": "https://news.yahoo.co.jp/pickup/6602755?source=rss",
-   "published": "11/16 09:25",
-   "ts": 1794788756.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "7-9月期実質GDP 4期ぶりマイナス",
-   "link": "https://news.yahoo.co.jp/pickup/6602758?source=rss",
-   "published": "11/16 09:24",
-   "ts": 1794788660.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "JSR売却 差益9000億円超の見込み",
-   "link": "https://news.yahoo.co.jp/pickup/6602747?source=rss",
-   "published": "11/16 07:47",
-   "ts": 1794782838.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "大学発ベンチャー過去10年で3.5倍",
-   "link": "https://news.yahoo.co.jp/pickup/6602745?source=rss",
-   "published": "11/16 07:43",
-   "ts": 1794782639.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "フアン氏がNVIDIA復帰協議 報道",
    "link": "https://news.yahoo.co.jp/pickup/6602744?source=rss",
    "published": "11/16 07:28",
    "ts": 1794781694.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "スガキヤ20年ぶり関東に進出 狙い",
-   "link": "https://news.yahoo.co.jp/pickup/6602698?source=rss",
-   "published": "11/15 18:11",
-   "ts": 1794733865.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "高級レストランにタイパの波 なぜ",
-   "link": "https://news.yahoo.co.jp/pickup/6602693?source=rss",
-   "published": "11/15 17:14",
-   "ts": 1794730492.0,
    "source": "Yahoo!",
    "desc": ""
   }
