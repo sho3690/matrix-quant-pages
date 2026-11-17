@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-17 17:07:58",
+ "updated_at": "2026-11-18 03:39:28",
  "fng": {
   "value": 12,
   "label": "極度の恐怖",
@@ -37,26 +37,58 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.426280683877394,
-  "eth_dominance": 10.053291586662029,
-  "total_mcap_usd": 2219213342064.8364,
-  "mcap_change_24h": -1.6398460654045068
+  "btc_dominance": 58.31294226470873,
+  "eth_dominance": 9.970055537761228,
+  "total_mcap_usd": 2193956185522.131,
+  "mcap_change_24h": -3.7442925131211986
  },
  "defi": {
-  "tvl_usd": 71469896853.0,
-  "change_1d": 0.004856186750123115,
-  "change_7d": -0.08951763078533637,
-  "change_1y": -0.3941150162666125,
-  "range_pos_1y": 0.10641639818289554
+  "tvl_usd": 70329583555.0,
+  "change_1d": -0.0088175867894692,
+  "change_7d": -0.10183215321099404,
+  "change_1y": -0.40237236547150934,
+  "range_pos_1y": 0.09029137890515368
  },
  "news_crypto": [
+  {
+   "title": "マネロン対策の不備を指摘　米民主党議員4名、SECの株式トークン化免除措置巡り",
+   "link": "https://coinpost.jp/?p=748431",
+   "published": "11/17 21:55",
+   "ts": 1794920110.0,
+   "source": "CoinPost",
+   "desc": "米民主党の上院議員4人が、米SECの株式トークン化免除措置は不正資金対策の規定が不明確だとして、アトキンス委員長に書簡を送って抗議した。トークン化証券の規制変更を、透明な規則制定手続きで進めるよう要求している。"
+  },
+  {
+   "title": "ビットコイン含み益比率、52％に低下　過去1年有数の下げ幅＝アナリスト",
+   "link": "https://coinpost.jp/?p=748408",
+   "published": "11/17 17:50",
+   "ts": 1794905432.0,
+   "source": "CoinPost",
+   "desc": "クリプトクアント認定アナリストのアドラーJr.氏が分析。ビットコインの供給のうち含み益にある割合は1週間で7ポイント下がり52％に。長期保有者の保有量も90日来の低水準となり、含み益と含み損の分岐点が近づく。"
+  },
+  {
+   "title": "GTA6の偽ダウンロード横行、仮想通貨ウォレット狙うマルウェア",
+   "link": "https://coinpost.jp/?p=748395",
+   "published": "11/17 17:31",
+   "ts": 1794904284.0,
+   "source": "CoinPost",
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+  },
+  {
+   "title": "「ビットコインのスーパーサイクルは健在」資産運用大手のストラテジストが強調",
+   "link": "https://coinpost.jp/?p=748355",
+   "published": "11/17 17:30",
+   "ts": 1794904208.0,
+   "source": "CoinPost",
+   "desc": "カナダの資産運用会社のストラテジスト、ジェームス・ソーン氏は直近の急落後もビットコインへの強気姿勢を維持している。ファンダメンタルズに変化はないとし、ビットコインのスーパーサイクルは崩れていないと強調した。"
+  },
   {
    "title": "金・銀・プラチナの次は何か　三井物産が見る実物資産トークン化の条件",
    "link": "https://coinpost.jp/?p=743542",
    "published": "11/17 17:00",
    "ts": 1794902426.0,
    "source": "CoinPost",
-   "desc": "分離課税で金ETFとの税率差が解消に向かうなか、ジパングコインは何で選ばれるのか。三井物産グループの竹内隆太郎氏と和歌伸介氏に、パブリックチェーン展開や担保利用、金・銀・プラチナの次の一手を聞いた。"
+   "desc": "金・銀・プラチナの次に、三井物産はどの実物資産をトークン化するのか。エネルギーや非鉄金属も視野に入れつつ、当面は貴金属に重点を置く考えを、竹内隆太郎氏と和歌伸介氏が語った。ジパングコインの担保利用にも迫る。"
   },
   {
    "title": "グレースケール「仮想通貨市場のファンダメンタルズは堅調」と見解　下落要因を分析",
@@ -81,41 +113,41 @@
    "ts": 1794895236.0,
    "source": "CoinPost",
    "desc": "ウィンターミュートは16日の週次レポートで、ビットコインが200週移動平均線を割り込み弱気相場が続いているとの見方を示した。12月の米利上げ観測とETFの資金流出を背景に、5万ドル台への下押しを想定する。"
-  },
-  {
-   "title": "発想力だけでは足りない　CoinPostデザイナーが語る「実行力」の中身",
-   "link": "https://coinpost.jp/?p=745188",
-   "published": "11/17 13:30",
-   "ts": 1794889806.0,
-   "source": "CoinPost",
-   "desc": "グラフィックから会場の空間デザイン、発注までを担うCoinPost制作部のデザイナーに、入社の決め手と日々の仕事の進め方を聞いた。WebXやMoneyXの制作現場で求められる発想力と実行力とは。"
-  },
-  {
-   "title": "米CFTC、Backpackの仮想通貨デリバティブ取引所・清算機関を承認",
-   "link": "https://coinpost.jp/?p=748275",
-   "published": "11/17 13:12",
-   "ts": 1794888745.0,
-   "source": "CoinPost",
-   "desc": "米商品先物取引委員会は、仮想通貨サービス企業バックパックの米国事業にデリバティブ取引所と清算機関の資格を付与した。同社は無期限先物などの提供を計画している。"
-  },
-  {
-   "title": "ドイツ連邦議会、出所不明資産の差し押さえ法案可決　仮想通貨も対象",
-   "link": "https://coinpost.jp/?p=748317",
-   "published": "11/17 13:00",
-   "ts": 1794888031.0,
-   "source": "CoinPost",
-   "desc": "ドイツ連邦議会は12日、出所の合法性に疑いがある高額資産を、刑事手続きを経ずに関税当局が差し押さえられる法案を可決した。EUのMiCA規則が定める暗号資産も対象と明記。施行には連邦参議院の同意が必要となる。"
-  },
-  {
-   "title": "米最高裁、カストディアバンクの対FRB裁判の上訴を受理せず　マスター口座巡る係争",
-   "link": "https://coinpost.jp/?p=748280",
-   "published": "11/17 12:40",
-   "ts": 1794886831.0,
-   "source": "CoinPost",
-   "desc": "米最高裁判所は、ブロックチェーンインフラ企業カストディアバンクがFRBのマスター口座開設を巡って起こした訴訟について上訴を受理しないことを公表。コメントや意見は述べていない。"
   }
  ],
  "news_jp": [
+  {
+   "title": "JT ロシア問題で巨額損失の恐れ",
+   "link": "https://news.yahoo.co.jp/pickup/6602948?source=rss",
+   "published": "11/17 21:03",
+   "ts": 1794916991.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「女性専用」ジム拡大 悩みに対応",
+   "link": "https://news.yahoo.co.jp/pickup/6602937?source=rss",
+   "published": "11/17 19:05",
+   "ts": 1794909934.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "鳥の生食 宮崎・鹿児島で聞いた声",
+   "link": "https://news.yahoo.co.jp/pickup/6602925?source=rss",
+   "published": "11/17 18:01",
+   "ts": 1794906109.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "高速の深夜割引 年度内に見直し",
+   "link": "https://news.yahoo.co.jp/pickup/6602923?source=rss",
+   "published": "11/17 17:44",
+   "ts": 1794905050.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "駅そばを倍に値上げ 決断した75歳",
    "link": "https://news.yahoo.co.jp/pickup/6602919?source=rss",
@@ -145,38 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6602859?source=rss",
    "published": "11/17 07:49",
    "ts": 1794869340.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "NY株大幅反落 ハイテク株に売り",
-   "link": "https://news.yahoo.co.jp/pickup/6602852?source=rss",
-   "published": "11/17 06:54",
-   "ts": 1794866071.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "いきステに復活の兆し 改革の成果",
-   "link": "https://news.yahoo.co.jp/pickup/6602820?source=rss",
-   "published": "11/16 18:51",
-   "ts": 1794822688.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "マンション短期売買 課税強化検討",
-   "link": "https://news.yahoo.co.jp/pickup/6602817?source=rss",
-   "published": "11/16 18:40",
-   "ts": 1794822024.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "タイムズカーの会員数 1.4万人減",
-   "link": "https://news.yahoo.co.jp/pickup/6602816?source=rss",
-   "published": "11/16 18:17",
-   "ts": 1794820659.0,
    "source": "Yahoo!",
    "desc": ""
   }
