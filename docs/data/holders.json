@@ -1,6 +1,6 @@
 {
- "fetched_at": 1794940774.1128888,
- "updated_at": "2026-11-18 03:39:34",
+ "fetched_at": 1795034532.3907864,
+ "updated_at": "2026-11-19 05:42:12",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -170,7 +170,6 @@
    "iShares Trust-iShares MSCI EAFE ETF": "2026-09-09",
    "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-11-12",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-09",
-   "McIlrath & Eck, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
    "Ancora Advisors, LLC": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
@@ -257,7 +256,6 @@
    "Capital Income Builder": "2026-09-09",
    "iShares, Inc.-iShares MSCI Japan ETF": "2026-09-09",
    "Fidelity Concord Street Trust-Fidelity International Index Fund": "2026-09-09",
-   "McIlrath & Eck, LLC": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09"
   },
   "4568.T": {
@@ -3606,19 +3604,6 @@
     "suspect": false
    },
    {
-    "holder": "McIlrath & Eck, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-03-31",
-    "pct_held": 0.0,
-    "shares": 1086,
-    "pct_change": 1.0,
-    "new_est": true,
-    "suspect": false
-   },
-   {
     "holder": "Pacer Advisors, Inc.",
     "kind": "inst",
     "type": "inst",
@@ -4590,19 +4575,6 @@
     "shares": 4334306,
     "pct_change": 0.0108,
     "new_est": false,
-    "suspect": false
-   },
-   {
-    "holder": "McIlrath & Eck, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-03-31",
-    "pct_held": 0.0,
-    "shares": 24,
-    "pct_change": 1.0,
-    "new_est": true,
     "suspect": false
    },
    {
