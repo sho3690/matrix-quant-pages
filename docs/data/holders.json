@@ -1,6 +1,6 @@
 {
- "fetched_at": 1795034532.3907864,
- "updated_at": "2026-11-19 05:42:12",
+ "fetched_at": 1795121311.4360983,
+ "updated_at": "2026-11-20 05:48:31",
  "baseline_at": "2026-09-09",
  "window_days": 120,
  "min_change": 0.2,
@@ -171,9 +171,9 @@
    "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.": "2026-11-12",
    "iShares Trust-iShares MSCI EAFE Value ETF": "2026-09-09",
    "Pacer Advisors, Inc.": "2026-09-09",
-   "Ancora Advisors, LLC": "2026-09-09",
    "Paradigm Asset Management Company, LLC": "2026-09-09",
-   "Calydon Capital": "2026-09-09"
+   "Calydon Capital": "2026-09-09",
+   "Ancora Advisors, LLC": "2026-09-09"
   },
   "8001.T": {
    "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund": "2026-09-09",
@@ -1158,8 +1158,8 @@
    "iShares Trust-iShares MSCI EAFE Small-Cap ETF": "2026-09-09",
    "MFS Varbl INSURANCE TRT II-MFS Intl Intrinsic Value PORT.": "2026-09-09",
    "EQ Advisors Trust-EQ/MFS International Intrinsic Value Portfolio": "2026-09-09",
-   "Mercer Funds-Mercer Non-US Core Equity Fund": "2026-09-09",
-   "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09"
+   "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.": "2026-09-09",
+   "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.": "2026-11-20"
   },
   "2897.T": {
    "MFS SERIES TRUST X-MFS International Intrinsic Equity Fund": "2026-10-28",
@@ -3617,19 +3617,6 @@
     "suspect": false
    },
    {
-    "holder": "Ancora Advisors, LLC",
-    "kind": "inst",
-    "type": "inst",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0,
-    "shares": 2463,
-    "pct_change": 0.0,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "Paradigm Asset Management Company, LLC",
     "kind": "inst",
     "type": "inst",
@@ -3651,6 +3638,19 @@
     "date": "2026-09-30",
     "pct_held": 0.0,
     "shares": 24900,
+    "pct_change": 0.0,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "Ancora Advisors, LLC",
+    "kind": "inst",
+    "type": "inst",
+    "manager": null,
+    "notable": false,
+    "date": "2026-09-30",
+    "pct_held": 0.0,
+    "shares": 2463,
     "pct_change": 0.0,
     "new_est": false,
     "suspect": false
@@ -14588,19 +14588,6 @@
     "suspect": false
    },
    {
-    "holder": "Mercer Funds-Mercer Non-US Core Equity Fund",
-    "kind": "mf",
-    "type": "active",
-    "manager": null,
-    "notable": false,
-    "date": "2026-06-30",
-    "pct_held": 0.0019,
-    "shares": 127200,
-    "pct_change": -0.1276,
-    "new_est": false,
-    "suspect": false
-   },
-   {
     "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
     "kind": "mf",
     "type": "index",
@@ -14610,6 +14597,19 @@
     "pct_held": 0.0017,
     "shares": 119518,
     "pct_change": 0.024,
+    "new_est": false,
+    "suspect": false
+   },
+   {
+    "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+    "kind": "mf",
+    "type": "active",
+    "manager": null,
+    "notable": false,
+    "date": "2026-07-31",
+    "pct_held": 0.0016,
+    "shares": 109400,
+    "pct_change": 0.0,
     "new_est": false,
     "suspect": false
    }
@@ -31465,6 +31465,23 @@
    "date": "2026-07-31",
    "pct_held": 0.0017,
    "shares": 1059954,
+   "pct_change": 0.0,
+   "new_est": false,
+   "suspect": false,
+   "dir": "flat",
+   "new_here": true
+  },
+  {
+   "symbol": "2206.T",
+   "name": "江崎グリコ",
+   "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+   "kind": "mf",
+   "type": "active",
+   "manager": null,
+   "notable": false,
+   "date": "2026-07-31",
+   "pct_held": 0.0016,
+   "shares": 109400,
    "pct_change": 0.0,
    "new_est": false,
    "suspect": false,
