@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19 11:39:49",
+ "updated_at": "2026-11-19 20:53:44",
  "fng": {
   "value": 10,
   "label": "極度の恐怖",
@@ -37,19 +37,75 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 57.993937160654866,
-  "eth_dominance": 9.967206019490296,
-  "total_mcap_usd": 2161195632522.8901,
-  "mcap_change_24h": -4.556075982777528
+  "btc_dominance": 58.87994383105659,
+  "eth_dominance": 10.119798670197659,
+  "total_mcap_usd": 2174353609878.5872,
+  "mcap_change_24h": -3.081213589250711
  },
  "defi": {
-  "tvl_usd": 70183983734.0,
-  "change_1d": -0.01518459689956253,
-  "change_7d": -0.09156457486455205,
-  "change_1y": -0.40702406566341554,
-  "range_pos_1y": 0.08779758824901475
+  "tvl_usd": 71006068029.0,
+  "change_1d": -0.004406756908305942,
+  "change_7d": -0.08092350860792041,
+  "change_1y": -0.40007824243273216,
+  "range_pos_1y": 0.10187442857230354
  },
  "news_crypto": [
+  {
+   "title": "アンソロピック上場前先物、ハイパーリキッドで公開価格16％上回る",
+   "link": "https://coinpost.jp/?p=748713",
+   "published": "11/19 20:00",
+   "ts": 1795086012.0,
+   "source": "CoinPost",
+   "desc": "アンソロピック（Anthropic）が19日にナスダック上場する。分散型取引所ハイパーリキッドの上場前無期限先物は約96ドルで推移し、公開価格83ドルを上回る水準。グレースケールは、過去8件中7件で初値の方向を的中させた実績を分析した。"
+  },
+  {
+   "title": "米シティ、ビットコインとイーサリアムの目標を約12％・約6％引き下げ",
+   "link": "https://coinpost.jp/?p=748660",
+   "published": "11/19 19:00",
+   "ts": 1795082450.0,
+   "source": "CoinPost",
+   "desc": "米シティグループは、ビットコインとイーサリアムの基本シナリオの目標価格をそれぞれ9万9,532ドル、2,838ドルに引き下げた。BTCの200日移動平均線割れとETFの資金流出を挙げ、短期の資金フロー判断も「中立」に下げた。"
+  },
+  {
+   "title": "グレースケール、ビットコインのリスク再評価を提言　変動率は約43％に低下",
+   "link": "https://coinpost.jp/?p=748693",
+   "published": "11/19 19:00",
+   "ts": 1795082418.0,
+   "source": "CoinPost",
+   "desc": "米グレースケールは18日のレポートで、ビットコインのボラティリティが約43%まで低下したとして、リスク評価の見直しを提言した。JPモルガンの長期予測や、少数の急騰日がリターンを左右するファットテール特性もあわせて解説した。"
+  },
+  {
+   "title": "ビットコインの見かけ上の需要、年初来最低に　一時マイナス29万BTC",
+   "link": "https://coinpost.jp/?p=748738",
+   "published": "11/19 16:33",
+   "ts": 1795073625.0,
+   "source": "CoinPost",
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+  },
+  {
+   "title": "米NFA、Backpackの先物取次業を承認　米国デリバティブ市場参入の全資格取得",
+   "link": "https://coinpost.jp/?p=748678",
+   "published": "11/19 16:00",
+   "ts": 1795071652.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨取引所などを手がけるBackpackは、米NFAから先物取次業者の認可を取得。米国ユーザーに無期限先物などのサービスを直接提供するためのライセンスが全てそろったと発表した。"
+  },
+  {
+   "title": "コインシェアーズが26年3Qの決算発表、ETHとSOLの売却に再度言及",
+   "link": "https://coinpost.jp/?p=748632",
+   "published": "11/19 15:00",
+   "ts": 1795068034.0,
+   "source": "CoinPost",
+   "desc": "コインシェアーズは、2026年3Qの未監査決算を発表。仮想通貨のイーサリアムとソラナの売却に再度言及し、売却代金は自社株買いプログラムの原資にする計画だと説明した。"
+  },
+  {
+   "title": "ビザ、ステーブルコインによる送金原資の事前調達をアジア太平洋で試験導入へ",
+   "link": "https://coinpost.jp/?p=748667",
+   "published": "11/19 12:00",
+   "ts": 1795057200.0,
+   "source": "CoinPost",
+   "desc": "決済大手ビザは「ビザ・ダイレクト」を通じたステーブルコインによる国際送金の事前資金調達をアジア太平洋に拡大する計画を発表した。受取人は法定通貨で受け取る仕組みだ。"
+  },
   {
    "title": "米金融大手、ETF経由のビットコイン保有拡大　ウェルズは顧客分で倍増",
    "link": "https://coinpost.jp/?p=748653",
@@ -57,86 +113,62 @@
    "ts": 1795053608.0,
    "source": "CoinPost",
    "desc": "SECに提出された7〜9月期の13Fで、ウェルズ・ファーゴやゴールドマン・サックスなど米金融大手が現物ビットコインETFの保有を拡大していたことが分かった。一方、11月に入りETFからの資金流出とBTC安が続いている。"
-  },
-  {
-   "title": "S&Pグローバル、テザー社USDTの安定性評価を最低ランクに据え置き",
-   "link": "https://coinpost.jp/?p=748636",
-   "published": "11/19 10:30",
-   "ts": 1795051828.0,
-   "source": "CoinPost",
-   "desc": "S&Pは、テザー社によるステーブルコインUSDTのドル連動維持能力を最低の「5」に据え置いた。高リスク資産の増加や、準備資産に関する開示不足を指摘している。"
-  },
-  {
-   "title": "バンガード指数ファンド、メタプラネット株1800万株保有　以前比15％増＝報道",
-   "link": "https://coinpost.jp/?p=748645",
-   "published": "11/19 10:00",
-   "ts": 1795050011.0,
-   "source": "CoinPost",
-   "desc": "米資産運用大手バンガードの指数ファンドが、ビットコイン保有企業メタプラネットの株式を1,800万株保有していることが報じられた。評価額は2,200万ドル。メタプラネットは11月30日付でMSCI指数から除外される予定だ。"
-  },
-  {
-   "title": "上場マイナーのビットコイン保有、1月以降ほぼ半減＝グラスノード",
-   "link": "https://coinpost.jp/?p=748635",
-   "published": "11/19 09:30",
-   "ts": 1795048234.0,
-   "source": "CoinPost",
-   "desc": "グラスノードによると、上場マイナー6社のビットコイン保有量は1月以降ほぼ半減した。MARAは9月末以降に1万3597BTCを売却し、ライオットも保有を2,418BTCまで減らした。売却資金はAIデータセンター転換と借入返済に向かう。"
-  },
-  {
-   "title": "ステーブルコイン規則案で州と連邦に差　米上院6議員が是正要請",
-   "link": "https://coinpost.jp/?p=748628",
-   "published": "11/19 09:00",
-   "ts": 1795046432.0,
-   "source": "CoinPost",
-   "desc": "米上院の超党派6議員がベッセント財務長官に書簡を送り、ジーニアス法の施行で州規制下のステーブルコイン発行体にも連邦申請者と同等の猶予措置を設けるよう求めた。2027年1月の施行を前に、州と連邦の扱いの差が論点に浮上している。"
-  },
-  {
-   "title": "グーグル、AIが脆弱性発見から攻撃まで自動化と警告　仮想通貨企業も標的",
-   "link": "https://coinpost.jp/?p=748528",
-   "published": "11/18 17:30",
-   "ts": 1794990622.0,
-   "source": "CoinPost",
-   "desc": "米グーグルのGTIGが、AIエージェントが脆弱性の発見から攻撃実行までを自動で行う事例を初めて確認したと報告した。北朝鮮関連とされるグループによる仮想通貨企業への攻撃や、Claude Codeの設定ファイル改ざんも明らかになった。"
-  },
-  {
-   "title": "MARA、決算後も約1714BTC売却か＝オンチェーン分析",
-   "link": "https://coinpost.jp/?p=748597",
-   "published": "11/18 17:11",
-   "ts": 1794989486.0,
-   "source": "CoinPost",
-   "desc": "米ビットコインマイニング大手MARAが、第3四半期決算の発表後もさらに約1,714BTCを売却したとみられることがオンチェーン分析で示された。同社は四半期終了後に13,597BTCを売却したと開示しており、2026年の売却は決算時点で累計4万BTCを超えた。"
-  },
-  {
-   "title": "ビットコインが再び弱気局面に、バリューゾーン突入も底打ちは未確認＝クリプトクアント",
-   "link": "https://coinpost.jp/?p=748521",
-   "published": "11/18 17:00",
-   "ts": 1794988827.0,
-   "source": "CoinPost",
-   "desc": "クリプトクアントは、仮想通貨ビットコインが弱気局面に戻る一方、トレーダーの未実現損益率はバリューゾーンに入ったと分析した。ただ底打ちは確認されていないとしている。"
   }
  ],
  "news_jp": [
   {
-   "title": "賃上げより手取り増 食事補助注目",
-   "link": "https://news.yahoo.co.jp/pickup/6603124?source=rss",
-   "published": "11/19 10:41",
-   "ts": 1795052515.0,
+   "title": "NHK ラジオで関係ない音声を放送",
+   "link": "https://news.yahoo.co.jp/pickup/6603200?source=rss",
+   "published": "11/19 20:29",
+   "ts": 1795087770.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "ボージョレ 今年は「ふくよか」",
-   "link": "https://news.yahoo.co.jp/pickup/6603114?source=rss",
-   "published": "11/19 09:14",
-   "ts": 1795047294.0,
+   "title": "ちいかわ寿司皿 抽選配布の問題点",
+   "link": "https://news.yahoo.co.jp/pickup/6603182?source=rss",
+   "published": "11/19 20:23",
+   "ts": 1795087433.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "NHK飲み会通達 記者が不満漏らす",
-   "link": "https://news.yahoo.co.jp/pickup/6603093?source=rss",
-   "published": "11/19 00:00",
-   "ts": 1795014045.0,
+   "title": "JT 露事業巡り1.3兆円の損失計上",
+   "link": "https://news.yahoo.co.jp/pickup/6603194?source=rss",
+   "published": "11/19 19:35",
+   "ts": 1795084541.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "くら寿司 ちいかわ寿司皿再配布へ",
+   "link": "https://news.yahoo.co.jp/pickup/6603187?source=rss",
+   "published": "11/19 18:35",
+   "ts": 1795080931.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "分厚い塊肉 ポークステーキ店拡大",
+   "link": "https://news.yahoo.co.jp/pickup/6603181?source=rss",
+   "published": "11/19 18:01",
+   "ts": 1795078879.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "スバル 米国製SUVを「逆輸入」",
+   "link": "https://news.yahoo.co.jp/pickup/6603150?source=rss",
+   "published": "11/19 13:05",
+   "ts": 1795061133.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "タマホーム 高松以外も不正請求か",
+   "link": "https://news.yahoo.co.jp/pickup/6603142?source=rss",
+   "published": "11/19 12:05",
+   "ts": 1795057548.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -145,38 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6603078?source=rss",
    "published": "11/18 21:17",
    "ts": 1795004224.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "Suica「紫のうさぎ」得票率51.7%",
-   "link": "https://news.yahoo.co.jp/pickup/6603054?source=rss",
-   "published": "11/18 17:26",
-   "ts": 1794990406.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "日本車の部品 一部共通化する方針",
-   "link": "https://news.yahoo.co.jp/pickup/6603047?source=rss",
-   "published": "11/18 16:40",
-   "ts": 1794987600.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "Suica新キャラ A案とC案も活用へ",
-   "link": "https://news.yahoo.co.jp/pickup/6603046?source=rss",
-   "published": "11/18 16:32",
-   "ts": 1794987145.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "横から見ると靴底に穴 人気の訳",
-   "link": "https://news.yahoo.co.jp/pickup/6602998?source=rss",
-   "published": "11/18 09:54",
-   "ts": 1794963247.0,
    "source": "Yahoo!",
    "desc": ""
   }
