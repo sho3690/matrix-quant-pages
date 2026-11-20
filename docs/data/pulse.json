@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20 11:25:02",
+ "updated_at": "2026-11-20 20:54:41",
  "fng": {
   "value": 12,
   "label": "極度の恐怖",
@@ -37,19 +37,75 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 57.916766107516246,
-  "eth_dominance": 9.929976243938201,
-  "total_mcap_usd": 2133929194506.7043,
-  "mcap_change_24h": -4.586167626052627
+  "btc_dominance": 58.09117652391419,
+  "eth_dominance": 9.993846188935018,
+  "total_mcap_usd": 2136325607568.7034,
+  "mcap_change_24h": -4.388445175734138
  },
  "defi": {
-  "tvl_usd": 69628935526.0,
-  "change_1d": -0.005228270888222419,
-  "change_7d": -0.08431859383083284,
-  "change_1y": -0.3989427367086499,
-  "range_pos_1y": 0.07829405458143314
+  "tvl_usd": 69189902372.0,
+  "change_1d": -0.015789574096560233,
+  "change_7d": -0.09009226382553626,
+  "change_1y": -0.40273259884059176,
+  "range_pos_1y": 0.07077657464166048
  },
  "news_crypto": [
+  {
+   "title": "人気ゲーム「GTA VI」発売でトークン化株TTWOの取引高急増、エヌビディアの約3倍に",
+   "link": "https://coinpost.jp/?p=748914",
+   "published": "11/20 17:00",
+   "ts": 1795161655.0,
+   "source": "CoinPost",
+   "desc": "GTA VI発売前日、トークン化株式TTWOのDEX取引高が前日比578%増の2億4,950万ドルに急増し、エヌビディアの約2.8倍に達した。バックパックのソラナ版に取引が集中していた。注目度を利用した詐欺案件も多数確認された。"
+  },
+  {
+   "title": "コインベース、米国で独自の予測市場展開を2027年上期に目指す",
+   "link": "https://coinpost.jp/?p=748811",
+   "published": "11/20 16:00",
+   "ts": 1795158009.0,
+   "source": "CoinPost",
+   "desc": "ブルームバーグは、コインベースが2027年上期に米国で自社の予測市場イベント契約の提供開始を目指していると報じた。現在はカルシとの提携で提供しており、独自の提供で取引収益を高める狙いだ。"
+  },
+  {
+   "title": "IOSCO、金融市場の量子対策を呼びかけ　ブロックチェーン特有の課題も指摘",
+   "link": "https://coinpost.jp/?p=748891",
+   "published": "11/20 15:45",
+   "ts": 1795157109.0,
+   "source": "CoinPost",
+   "desc": "IOSCOは量子コンピュータが金融市場に与える影響の報告書を公開し、迅速な準備を呼びかけた。ブロックチェーン特有の移行課題を指摘している。"
+  },
+  {
+   "title": "三井物産子会社、個人向けデジタル社債事業を開始、第1弾は1年債",
+   "link": "https://coinpost.jp/?p=748927",
+   "published": "11/20 14:30",
+   "ts": 1795152623.0,
+   "source": "CoinPost",
+   "desc": "三井物産子会社の三井物産デジタル・アセットマネジメントが19日、個人向けサービス「オルタナ」で社債の取り扱いを始めると発表した。第1弾は三井物産が発行する1年債で、10万円から投資でき、20日に仮申込を開始した。"
+  },
+  {
+   "title": "通販会社『日本直販』、自社ECにJPYC決済を試験導入",
+   "link": "https://coinpost.jp/?p=748901",
+   "published": "11/20 13:10",
+   "ts": 1795147846.0,
+   "source": "CoinPost",
+   "desc": "通販会社の日本直販は19日、日本円ステーブルコインJPYCによる決済機能を自社ECサイトに試験導入したと発表した。流通前のトークンAYETの将来的な決済活用を見据えた基盤構築の第一歩で、顧客はガス代を負担せずに支払える。"
+  },
+  {
+   "title": "ビットコイン現物ETFで資金流出止まらず、BTC価格は一時6.1万ドル台まで下落",
+   "link": "https://coinpost.jp/?p=748889",
+   "published": "11/20 12:15",
+   "ts": 1795144531.0,
+   "source": "CoinPost",
+   "desc": "米国のビットコイン現物ETFの資金流出が続き、ビットコインは20日に一時6万1,000ドル台まで下落した。データサイトSoSoValueによると、現地17日に2億3,994万ドル、18日に3億642万ドルの純流出（資金引き上げ）となった。"
+  },
+  {
+   "title": "バイナンスUS、無期限先物提供へ前進　米CFTCが取引所申請を審査可能と認定",
+   "link": "https://coinpost.jp/?p=748888",
+   "published": "11/20 11:30",
+   "ts": 1795141828.0,
+   "source": "CoinPost",
+   "desc": "バイナンスUSは19日、米CFTCからデリバティブ取引所・清算機関の登録申請が審査に進める内容と認定されたと発表した。まだ承認ではなく、無期限先物などの提供は登録が認められるまで始まらない。"
+  },
   {
    "title": "「デジタルだけじゃなく、フィジカルを見る」　CoinPostエンジニアが語る開発の面白さ",
    "link": "https://coinpost.jp/?p=745692",
@@ -57,126 +113,70 @@
    "ts": 1795138836.0,
    "source": "CoinPost",
    "desc": "大手IT企業で100人規模の開発組織を統括した染谷直希氏は、CoinPostでエンジニアとしてWebXの会場にも立つ。事業ごとに分かれ横でつながる開発体制や障害対応の考え方、求める人物像を聞いた。"
-  },
-  {
-   "title": "香港当局、ハイパーリキッドを『投資家への警告リスト』に追加　無免許運営・宣伝の疑い",
-   "link": "https://coinpost.jp/?p=748849",
-   "published": "11/20 09:45",
-   "ts": 1795135517.0,
-   "source": "CoinPost",
-   "desc": "香港SFCは、分散型取引所ハイパーリキッドを警告リストに追加した。免許なしで香港で運営・宣伝している疑いがあるとしている。英国とシンガポールの当局も既に注意喚起している。"
-  },
-  {
-   "title": "シンガポール中銀、120億円超規模のトークン化証券発行に成功　CBDCで決済",
-   "link": "https://coinpost.jp/?p=748835",
-   "published": "11/20 09:30",
-   "ts": 1795134610.0,
-   "source": "CoinPost",
-   "desc": "シンガポール金融管理局は、約124億円分のトークン化証券の発行に成功したと発表。独自のネットワークを使い、ホールセール型のCBDCで決済を実施した。"
-  },
-  {
-   "title": "イーサリアム次期アップグレード、仕様変更なら2027年5月にずれ込む可能性",
-   "link": "https://coinpost.jp/?p=748812",
-   "published": "11/20 09:05",
-   "ts": 1795133111.0,
-   "source": "CoinPost",
-   "desc": "イーサリアムの次期アップグレード「グラムスターダム」は、既存のスマートコントラクトへの影響を巡り仕様を変更する場合、メインネットでの稼働が最長で2027年5月までずれ込む可能性がある。19日のコア開発者会議では結論が出ていない。"
-  },
-  {
-   "title": "米SEC委員候補、株式トークン化の免除措置に懸念　規則整備を求める",
-   "link": "https://coinpost.jp/?p=748813",
-   "published": "11/20 08:05",
-   "ts": 1795129513.0,
-   "source": "CoinPost",
-   "desc": "米上院銀行委員会の公聴会で、トランプ大統領指名のSEC委員候補のジョンソン氏が、トークン化株式の免除措置を意見公募を経た正式な規則に改めるべきだと述べた。"
-  },
-  {
-   "title": "ソラナ上の株トークン流通額、10月末からほぼ倍増　初10億ドル超",
-   "link": "https://coinpost.jp/?p=748814",
-   "published": "11/20 07:40",
-   "ts": 1795128015.0,
-   "source": "CoinPost",
-   "desc": "ソラナ上のトークン化株式の流通額が19日、12億2,000万ドルに達し、10月末から1カ月足らずでほぼ倍増した。オンド・ファイナンスなどが牽引し、米証券決済大手も2027年後半の接続を計画している。"
-  },
-  {
-   "title": "BITPOINT、12月23日にサービス終了　口座・資産はVCTRADEサービスへ移管",
-   "link": "https://coinpost.jp/?p=748815",
-   "published": "11/20 06:40",
-   "ts": 1795124417.0,
-   "source": "CoinPost",
-   "desc": "暗号資産取引所BITPOINT（ビットポイント）は19日、12月23日13時にサービスを終了すると発表した。口座と資産はSBI VCトレードへ移管され、11月30日13時には暗号資産の入金・出金と日本円の入金が終了する。"
-  },
-  {
-   "title": "バイナンスウォレット、配分不足でアンソロピックIPOの申込金を全額返金",
-   "link": "https://coinpost.jp/?p=748816",
-   "published": "11/20 06:15",
-   "ts": 1795122919.0,
-   "source": "CoinPost",
-   "desc": "バイナンスウォレットは20日、アンソロピックIPOの配分が申込総額に届かなかったとして、申込金のUSDCを全額返金すると発表した。"
   }
  ],
  "news_jp": [
   {
-   "title": "楽天証券の情報流出 遺憾と金融相",
-   "link": "https://news.yahoo.co.jp/pickup/6603253?source=rss",
-   "published": "11/20 11:04",
-   "ts": 1795140259.0,
+   "title": "大型クロマグロ漁獲枠 25%増合意",
+   "link": "https://news.yahoo.co.jp/pickup/6603329?source=rss",
+   "published": "11/20 20:09",
+   "ts": 1795172953.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "空港で靴磨き 航空会社の元社長",
-   "link": "https://news.yahoo.co.jp/pickup/6603252?source=rss",
-   "published": "11/20 10:41",
-   "ts": 1795138901.0,
+   "title": "ココイチ売却 米KKRに優先交渉権",
+   "link": "https://news.yahoo.co.jp/pickup/6603327?source=rss",
+   "published": "11/20 19:35",
+   "ts": 1795170937.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "日経平均 一時2800円以上値下がり",
-   "link": "https://news.yahoo.co.jp/pickup/6603248?source=rss",
-   "published": "11/20 10:12",
-   "ts": 1795137124.0,
+   "title": "カット野菜が進化 選ばれる理由",
+   "link": "https://news.yahoo.co.jp/pickup/6603322?source=rss",
+   "published": "11/20 18:43",
+   "ts": 1795167825.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "10月の消費者物価指数 2.2%上昇",
-   "link": "https://news.yahoo.co.jp/pickup/6603241?source=rss",
-   "published": "11/20 09:49",
-   "ts": 1795135794.0,
+   "title": "ツルハHD シンガポール事業撤退",
+   "link": "https://news.yahoo.co.jp/pickup/6603315?source=rss",
+   "published": "11/20 18:13",
+   "ts": 1795166039.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "アンソロピック 初日終値約97ドル",
-   "link": "https://news.yahoo.co.jp/pickup/6603229?source=rss",
-   "published": "11/20 07:36",
-   "ts": 1795127763.0,
+   "title": "明治「スーパーカップ」値上げへ",
+   "link": "https://news.yahoo.co.jp/pickup/6603309?source=rss",
+   "published": "11/20 17:40",
+   "ts": 1795164019.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "楽天証券に対し集団訴訟の動き",
-   "link": "https://news.yahoo.co.jp/pickup/6603224?source=rss",
-   "published": "11/20 06:42",
-   "ts": 1795124561.0,
+   "title": "「GTA6」発売 5日休み与えた会社",
+   "link": "https://news.yahoo.co.jp/pickup/6603292?source=rss",
+   "published": "11/20 15:16",
+   "ts": 1795155413.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "運転手の不適切動画 京急バス謝罪",
-   "link": "https://news.yahoo.co.jp/pickup/6603202?source=rss",
-   "published": "11/19 21:21",
-   "ts": 1795090871.0,
+   "title": "ホンダ 新型3列SUVを世界初公開",
+   "link": "https://news.yahoo.co.jp/pickup/6603281?source=rss",
+   "published": "11/20 13:32",
+   "ts": 1795149124.0,
    "source": "Yahoo!",
    "desc": ""
   },
   {
-   "title": "楽天証券に報告徴求命令 金融庁",
-   "link": "https://news.yahoo.co.jp/pickup/6603203?source=rss",
-   "published": "11/19 21:06",
-   "ts": 1795090001.0,
+   "title": "楽天証券へ訴訟準備 1.5万人登録",
+   "link": "https://news.yahoo.co.jp/pickup/6603257?source=rss",
+   "published": "11/20 11:29",
+   "ts": 1795141760.0,
    "source": "Yahoo!",
    "desc": ""
   }
