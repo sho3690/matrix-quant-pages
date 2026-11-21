@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21 11:30:31",
+ "updated_at": "2026-11-21 20:24:59",
  "fng": {
   "value": 12,
   "label": "極度の恐怖",
@@ -37,19 +37,27 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 57.79392856946659,
-  "eth_dominance": 9.674894278112465,
-  "total_mcap_usd": 2043191772273.9053,
-  "mcap_change_24h": -6.701526418476192
+  "btc_dominance": 57.455020426317624,
+  "eth_dominance": 9.893720236576618,
+  "total_mcap_usd": 2020772265129.077,
+  "mcap_change_24h": -8.280167161565709
  },
  "defi": {
-  "tvl_usd": 66565288482.0,
-  "change_1d": -0.031883881589846896,
-  "change_7d": -0.0979796084919562,
-  "change_1y": -0.40536325066612144,
-  "range_pos_1y": 0.025835817689797883
+  "tvl_usd": 66224139418.0,
+  "change_1d": -0.0479860340668653,
+  "change_7d": -0.10260248956540174,
+  "change_1y": -0.40841078152013577,
+  "range_pos_1y": 0.019994388126389064
  },
  "news_crypto": [
+  {
+   "title": "アンソロピックの史上最大級IPOで株トークンが複数のブロックチェーンに登場、取引高15億円超",
+   "link": "https://coinpost.jp/?p=749037",
+   "published": "11/21 12:10",
+   "ts": 1795230645.0,
+   "source": "CoinPost",
+   "desc": "サンティメントは20日、アンソロピックIPOに伴う株式トークンが複数チェーンで登場したと報告した。株式トークンに伴う権利や流動性の課題も指摘している。"
+  },
   {
    "title": "ビットコイン年初来最安値、米ハイテク株急落とマイナー売りが重荷｜仮想NISHI",
    "link": "https://coinpost.jp/?p=749035",
@@ -105,17 +113,33 @@
    "ts": 1795208701.0,
    "source": "CoinPost",
    "desc": "仮想通貨ビットコインが21日、一時5万8,000ドルを割り込み、24時間で約6％下落した。AI関連株の売りが広がる中、仮想通貨の強制清算額は20億ドルに上り、米国のビットコイン現物ETFは3日連続の純流出となった。"
-  },
-  {
-   "title": "米上院、戦争やテロに関する予測市場契約の上場禁止法案を可決　下院へ",
-   "link": "https://coinpost.jp/?p=748980",
-   "published": "11/20 21:20",
-   "ts": 1795177259.0,
-   "source": "CoinPost",
-   "desc": "米上院は19日、戦争やテロ、暗殺、米軍の軍事作戦に言及する予測市場契約や、主に個人の死亡で結果が決まる契約の上場を禁じる法案を可決した。法案は下院に送られる。"
   }
  ],
  "news_jp": [
+  {
+   "title": "なんちゃって海鮮丼 ドンキ販売へ",
+   "link": "https://news.yahoo.co.jp/pickup/6603439?source=rss",
+   "published": "11/21 18:25",
+   "ts": 1795253103.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "預金1億円超個人口座 00年比3.6倍",
+   "link": "https://news.yahoo.co.jp/pickup/6603415?source=rss",
+   "published": "11/21 16:27",
+   "ts": 1795246069.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "店の「食べ放題」巡り物議 法解説",
+   "link": "https://news.yahoo.co.jp/pickup/6603408?source=rss",
+   "published": "11/21 15:28",
+   "ts": 1795242523.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "なぜ実家暮らし 40代未婚者の答え",
    "link": "https://news.yahoo.co.jp/pickup/6603379?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6603347?source=rss",
    "published": "11/20 23:58",
    "ts": 1795186728.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ココイチ売却 米KKRに優先交渉権",
-   "link": "https://news.yahoo.co.jp/pickup/6603327?source=rss",
-   "published": "11/20 19:35",
-   "ts": 1795170937.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "明治「スーパーカップ」値上げへ",
-   "link": "https://news.yahoo.co.jp/pickup/6603309?source=rss",
-   "published": "11/20 17:40",
-   "ts": 1795164019.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ホンダ 新型3列SUVを世界初公開",
-   "link": "https://news.yahoo.co.jp/pickup/6603281?source=rss",
-   "published": "11/20 13:32",
-   "ts": 1795149124.0,
    "source": "Yahoo!",
    "desc": ""
   }
