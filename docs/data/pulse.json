@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22 10:25:57",
+ "updated_at": "2026-11-22 20:40:27",
  "fng": {
   "value": 11,
   "label": "極度の恐怖",
@@ -37,19 +37,35 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 57.88517682943751,
-  "eth_dominance": 9.856118615688182,
-  "total_mcap_usd": 2085707890473.0647,
-  "mcap_change_24h": -0.8380105240187704
+  "btc_dominance": 58.864485135566646,
+  "eth_dominance": 10.020301241207573,
+  "total_mcap_usd": 2076306150863.3132,
+  "mcap_change_24h": 0.08121612536865638
  },
  "defi": {
-  "tvl_usd": 67670681891.0,
-  "change_1d": 0.00027653647025815964,
-  "change_7d": -0.02858723678055497,
-  "change_1y": -0.3773486221924365,
-  "range_pos_1y": 0.044763255633845284
+  "tvl_usd": 68882513838.0,
+  "change_1d": 0.03580824769709512,
+  "change_7d": -0.011191386948732451,
+  "change_1y": -0.36619831587978313,
+  "range_pos_1y": 0.06551322011590838
  },
  "news_crypto": [
+  {
+   "title": "財務省研究会資料、国債トークン化の実機検証をカントンのブロックチェーンで実施へ",
+   "link": "https://coinpost.jp/?p=749074",
+   "published": "11/22 15:45",
+   "ts": 1795329929.0,
+   "source": "CoinPost",
+   "desc": "プログマが事務局を務めるデジタルアセット共創コンソーシアムが、国債トークン化の実機検証を2026年11月から2027年3月まで、機関投資家向けブロックチェーンのカントン（Canton）・ネットワーク上で行う計画を、財務省の研究会資料で示した。"
+  },
+  {
+   "title": "ビットコイン、1000万円割れ　25日PCEデフレーター発表が次の焦点｜bitbankアナリスト寄稿",
+   "link": "https://coinpost.jp/?p=748953",
+   "published": "11/22 11:30",
+   "ts": 1795314608.0,
+   "source": "CoinPost",
+   "desc": "bitbankアナリスト長谷川氏が今週のビットコイン相場を解説。BTC円は1000万円を割り込み980万円台まで下落し、200週移動平均線も下抜け。アンソロピックIPO通過後も反発できずセンチメントの悪化が鮮明となるなか、25日発表のPCEデフレーターが上振れた場合の下値リスクと"
+  },
   {
    "title": "週刊仮想通貨ニュース（11/20）｜BTCとSOL強気予測・ETH相場・ファンドのメタプラ株保有まとめ",
    "link": "https://coinpost.jp/?p=748859",
@@ -97,25 +113,33 @@
    "ts": 1795215037.0,
    "source": "CoinPost",
    "desc": "米SECは19日、偽の投資顧問会社と仮想通貨取引所で米国の投資家から3,700万ドル超をだまし取ったとして、コロラド州の8事業体を提訴した。SNS広告からチャットに誘導する手口で、2024年8月から2026年5月まで続いた。"
-  },
-  {
-   "title": "ビットバンク、MEXCへの暗号資産出金を24日から制限、入金も12月10日から",
-   "link": "https://coinpost.jp/?p=749017",
-   "published": "11/21 07:10",
-   "ts": 1795212639.0,
-   "source": "CoinPost",
-   "desc": "ビットバンクは20日、MEXCとの暗号資産の入出金を制限すると発表した。出金は24日、入金は12月10日から対象となり、MEXCに暗号資産を保有する顧客は期限までの手続きが必要になる。"
-  },
-  {
-   "title": "政府、マネロン対策の基本方針を改訂、暗号資産の悪用リスクへの対応も明記",
-   "link": "https://coinpost.jp/?p=749018",
-   "published": "11/21 06:55",
-   "ts": 1795211741.0,
-   "source": "CoinPost",
-   "desc": "政府は19日、2022年5月に決定したマネロン・テロ資金供与・拡散金融対策の基本方針を改訂した。暗号資産取引を脆弱性の一つに挙げ、暗号資産交換業者を、預金取扱金融機関などと並び他業態より相対的に危険度が高いと指摘した。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「サイバー保険」に加入 企業増加",
+   "link": "https://news.yahoo.co.jp/pickup/6603591?source=rss",
+   "published": "11/22 20:11",
+   "ts": 1795345870.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "うーん 買い取り店で揺れる人の心",
+   "link": "https://news.yahoo.co.jp/pickup/6603538?source=rss",
+   "published": "11/22 13:44",
+   "ts": 1795322653.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "無資格注射疑いのペット店 実態は",
+   "link": "https://news.yahoo.co.jp/pickup/6603523?source=rss",
+   "published": "11/22 11:33",
+   "ts": 1795314833.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "メンズメイク 若者を悩ます世代差",
    "link": "https://news.yahoo.co.jp/pickup/6603512?source=rss",
@@ -153,30 +177,6 @@
    "link": "https://news.yahoo.co.jp/pickup/6603497?source=rss",
    "published": "11/22 08:16",
    "ts": 1795303016.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "なんちゃって海鮮丼 ドンキ販売へ",
-   "link": "https://news.yahoo.co.jp/pickup/6603439?source=rss",
-   "published": "11/21 18:25",
-   "ts": 1795253103.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "預金1億円超個人口座 00年比3.6倍",
-   "link": "https://news.yahoo.co.jp/pickup/6603415?source=rss",
-   "published": "11/21 16:27",
-   "ts": 1795246069.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "店の「食べ放題」巡り物議 法解説",
-   "link": "https://news.yahoo.co.jp/pickup/6603408?source=rss",
-   "published": "11/21 15:28",
-   "ts": 1795242523.0,
    "source": "Yahoo!",
    "desc": ""
   }
