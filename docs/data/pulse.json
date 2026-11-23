@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23 10:50:11",
+ "updated_at": "2026-11-23 22:13:51",
  "fng": {
   "value": 11,
   "label": "極度の恐怖",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.87645886120152,
-  "eth_dominance": 10.052922687539647,
-  "total_mcap_usd": 2072365531087.657,
-  "mcap_change_24h": -2.9712532436983485
+  "btc_dominance": 58.8208488833049,
+  "eth_dominance": 10.046229932297628,
+  "total_mcap_usd": 2092258501887.0894,
+  "mcap_change_24h": -3.1985681050781714
  },
  "defi": {
-  "tvl_usd": 69284740111.0,
-  "change_1d": 0.0009179694891645607,
-  "change_7d": -0.02353050928224565,
-  "change_1y": -0.3547846127615686,
-  "range_pos_1y": 0.07240046293795506
+  "tvl_usd": 69529060207.0,
+  "change_1d": 0.024680893990277397,
+  "change_7d": -0.02008716635664587,
+  "change_1y": -0.35250937747746103,
+  "range_pos_1y": 0.07658390877531278
  },
  "news_crypto": [
+  {
+   "title": "ストラテジー、47億円相当のビットコインを追加購入　4週連続で買い増し",
+   "link": "https://coinpost.jp/?p=749116",
+   "published": "11/23 22:04",
+   "ts": 1795439058.0,
+   "source": "CoinPost",
+   "desc": "#cp-summary-2025{all:revert;box-sizing:border-box;width:100%;background:#f8f9fb;border-left:3pxsolid#0d2d4f;border-radiu..."
+  },
+  {
+   "title": "アメリカンビットコイン、ビットコインを売らず担保で238億円の融資枠を確保",
+   "link": "https://coinpost.jp/?p=749115",
+   "published": "11/23 21:55",
+   "ts": 1795438514.0,
+   "source": "CoinPost",
+   "desc": "米上場企業アメリカンビットコインは23日、ファルコンXと最大1億5,000万ドルのビットコイン担保融資枠契約を結んだと発表した。保有するビットコインを売却せずに、成長投資などの資金を確保できる。"
+  },
+  {
+   "title": "仮想通貨弱気相場でDAT各社が大幅含み損、ストラテジーは5.6兆円の準備金を強調",
+   "link": "https://coinpost.jp/?p=749094",
+   "published": "11/23 21:00",
+   "ts": 1795435240.0,
+   "source": "CoinPost",
+   "desc": "ストラテジーはビットコインが下落する中、準備金を積み増していることを強調した。仮想通貨市場下落にともない、ビットマインやメタプラネットなどDAT各社は含み損を抱える。"
+  },
   {
    "title": "東京国税局、暗号資産の追徴税額12億円に　調査体制強化＝報道",
    "link": "https://coinpost.jp/?p=749085",
@@ -89,94 +113,70 @@
    "ts": 1795262424.0,
    "source": "CoinPost",
    "desc": "コインベースの仮想通貨市場週間レポートによるとビットコインは約12%下落し200週移動平均線を割り込んだ。過去の事例や、BTCとETHのサポート・レジスタンス水準を解説している。"
-  },
-  {
-   "title": "アンソロピックの史上最大級IPOで株トークンが複数のブロックチェーンに登場、取引高15億円超",
-   "link": "https://coinpost.jp/?p=749037",
-   "published": "11/21 12:10",
-   "ts": 1795230645.0,
-   "source": "CoinPost",
-   "desc": "サンティメントは20日、アンソロピックIPOに伴う株式トークンが複数チェーンで登場したと報告した。株式トークンに伴う権利や流動性の課題も指摘している。"
-  },
-  {
-   "title": "ビットコイン年初来最安値、米ハイテク株急落とマイナー売りが重荷｜仮想NISHI",
-   "link": "https://coinpost.jp/?p=749035",
-   "published": "11/21 09:25",
-   "ts": 1795220736.0,
-   "source": "CoinPost",
-   "desc": "仮想通貨ビットコインは20日から21日にかけて大幅に下落し、一時年初来最安値を更新した。アンソロピック株を中心に米ハイテク株が急落した。"
-  },
-  {
-   "title": "「クラリティー法案の年内成立可能性はゼロ」共同提案議員",
-   "link": "https://coinpost.jp/?p=749014",
-   "published": "11/21 08:05",
-   "ts": 1795215932.0,
-   "source": "CoinPost",
-   "desc": "米共和党のモレノ上院議員は20日、クラリティー法案が上院で可決されるシナリオはないと述べた。予測市場ではクラリティー法案の年内成立確率がほぼ0%で、米下院民主党は別の市場構造法案を協議している。"
   }
  ],
  "news_jp": [
+  {
+   "title": "地銀など定期預金金利を大幅上げ",
+   "link": "https://news.yahoo.co.jp/pickup/6603719?source=rss",
+   "published": "11/23 21:48",
+   "ts": 1795438128.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "年収1000万円 社内ニートの不安",
+   "link": "https://news.yahoo.co.jp/pickup/6603718?source=rss",
+   "published": "11/23 21:34",
+   "ts": 1795437260.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "勤労感謝の日に70円ラーメン提供",
+   "link": "https://news.yahoo.co.jp/pickup/6603705?source=rss",
+   "published": "11/23 19:31",
+   "ts": 1795429915.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "常識覆す JR東海の異端営業マン",
+   "link": "https://news.yahoo.co.jp/pickup/6603671?source=rss",
+   "published": "11/23 15:11",
+   "ts": 1795414278.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "リフォーム工事業の倒産 過去最多",
+   "link": "https://news.yahoo.co.jp/pickup/6603667?source=rss",
+   "published": "11/23 14:26",
+   "ts": 1795411589.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "福利厚生フル活用「ガチ勢」生活",
+   "link": "https://news.yahoo.co.jp/pickup/6603669?source=rss",
+   "published": "11/23 14:25",
+   "ts": 1795411551.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "お湯注ぐだけ「カップご飯」好調",
+   "link": "https://news.yahoo.co.jp/pickup/6603656?source=rss",
+   "published": "11/23 12:34",
+   "ts": 1795404891.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "「ほぼ日手帳」海外で人気のワケ",
    "link": "https://news.yahoo.co.jp/pickup/6603636?source=rss",
    "published": "11/23 09:20",
    "ts": 1795393214.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "SOS見せず突然退職 企業どう防ぐ",
-   "link": "https://news.yahoo.co.jp/pickup/6603628?source=rss",
-   "published": "11/23 08:08",
-   "ts": 1795388913.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "24年の1億円超所得者 10年で倍増",
-   "link": "https://news.yahoo.co.jp/pickup/6603620?source=rss",
-   "published": "11/23 07:21",
-   "ts": 1795386116.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "たまごっち30周年「復活」の歴史",
-   "link": "https://news.yahoo.co.jp/pickup/6603615?source=rss",
-   "published": "11/23 07:11",
-   "ts": 1795385506.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "アンソロピックIPO巡り銀行に制約",
-   "link": "https://news.yahoo.co.jp/pickup/6603609?source=rss",
-   "published": "11/22 22:45",
-   "ts": 1795355103.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "「サイバー保険」に加入 企業増加",
-   "link": "https://news.yahoo.co.jp/pickup/6603591?source=rss",
-   "published": "11/22 20:11",
-   "ts": 1795345870.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "うーん 買い取り店で揺れる人の心",
-   "link": "https://news.yahoo.co.jp/pickup/6603538?source=rss",
-   "published": "11/22 13:44",
-   "ts": 1795322653.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "地方銀行再編 各地でくすぶる火種",
-   "link": "https://news.yahoo.co.jp/pickup/6603509?source=rss",
-   "published": "11/22 09:29",
-   "ts": 1795307381.0,
    "source": "Yahoo!",
    "desc": ""
   }
