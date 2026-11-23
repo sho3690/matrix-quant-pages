@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-11-23 04:50:40",
+ "updated_at": "2026-11-23 10:50:11",
  "fng": {
   "value": 11,
   "label": "極度の恐怖",
   "history": [
-   51,
    54,
    50,
    48,
@@ -33,23 +32,32 @@
    10,
    12,
    12,
+   11,
    11
   ]
  },
  "crypto_global": {
-  "btc_dominance": 58.74627044924754,
-  "eth_dominance": 10.079803759039137,
-  "total_mcap_usd": 2073176641817.861,
-  "mcap_change_24h": -3.1179004553285763
+  "btc_dominance": 58.87645886120152,
+  "eth_dominance": 10.052922687539647,
+  "total_mcap_usd": 2072365531087.657,
+  "mcap_change_24h": -2.9712532436983485
  },
  "defi": {
-  "tvl_usd": 69325951344.0,
-  "change_1d": 0.04247635834377772,
-  "change_7d": -0.004825840733128417,
-  "change_1y": -0.36211815935753633,
-  "range_pos_1y": 0.07310611492470866
+  "tvl_usd": 69284740111.0,
+  "change_1d": 0.0009179694891645607,
+  "change_7d": -0.02353050928224565,
+  "change_1y": -0.3547846127615686,
+  "range_pos_1y": 0.07240046293795506
  },
  "news_crypto": [
+  {
+   "title": "東京国税局、暗号資産の追徴税額12億円に　調査体制強化＝報道",
+   "link": "https://coinpost.jp/?p=749085",
+   "published": "11/23 09:34",
+   "ts": 1795394086.0,
+   "source": "CoinPost",
+   "desc": "東京国税局は昨年度、暗号資産の利用者91人を調査し、39億円余りの申告漏れを指摘した。国税当局は調査体制を強化し、海外当局との情報交換も始める予定だ。"
+  },
   {
    "title": "財務省研究会資料、国債トークン化の実機検証をカントンのブロックチェーンで実施へ",
    "link": "https://coinpost.jp/?p=749074",
@@ -105,17 +113,41 @@
    "ts": 1795215932.0,
    "source": "CoinPost",
    "desc": "米共和党のモレノ上院議員は20日、クラリティー法案が上院で可決されるシナリオはないと述べた。予測市場ではクラリティー法案の年内成立確率がほぼ0%で、米下院民主党は別の市場構造法案を協議している。"
-  },
-  {
-   "title": "偽の仮想通貨取引所で58億円超詐取、米SECが8事業体を提訴",
-   "link": "https://coinpost.jp/?p=749016",
-   "published": "11/21 07:50",
-   "ts": 1795215037.0,
-   "source": "CoinPost",
-   "desc": "米SECは19日、偽の投資顧問会社と仮想通貨取引所で米国の投資家から3,700万ドル超をだまし取ったとして、コロラド州の8事業体を提訴した。SNS広告からチャットに誘導する手口で、2024年8月から2026年5月まで続いた。"
   }
  ],
  "news_jp": [
+  {
+   "title": "「ほぼ日手帳」海外で人気のワケ",
+   "link": "https://news.yahoo.co.jp/pickup/6603636?source=rss",
+   "published": "11/23 09:20",
+   "ts": 1795393214.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "SOS見せず突然退職 企業どう防ぐ",
+   "link": "https://news.yahoo.co.jp/pickup/6603628?source=rss",
+   "published": "11/23 08:08",
+   "ts": 1795388913.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "24年の1億円超所得者 10年で倍増",
+   "link": "https://news.yahoo.co.jp/pickup/6603620?source=rss",
+   "published": "11/23 07:21",
+   "ts": 1795386116.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "たまごっち30周年「復活」の歴史",
+   "link": "https://news.yahoo.co.jp/pickup/6603615?source=rss",
+   "published": "11/23 07:11",
+   "ts": 1795385506.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
   {
    "title": "アンソロピックIPO巡り銀行に制約",
    "link": "https://news.yahoo.co.jp/pickup/6603609?source=rss",
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "無資格注射疑いのペット店 実態は",
-   "link": "https://news.yahoo.co.jp/pickup/6603523?source=rss",
-   "published": "11/22 11:33",
-   "ts": 1795314833.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "メンズメイク 若者を悩ます世代差",
-   "link": "https://news.yahoo.co.jp/pickup/6603512?source=rss",
-   "published": "11/22 09:58",
-   "ts": 1795309085.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "地方銀行再編 各地でくすぶる火種",
    "link": "https://news.yahoo.co.jp/pickup/6603509?source=rss",
    "published": "11/22 09:29",
    "ts": 1795307381.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "ホカロンのロゴ入り靴下 売れた訳",
-   "link": "https://news.yahoo.co.jp/pickup/6603506?source=rss",
-   "published": "11/22 09:12",
-   "ts": 1795306369.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "氷河期世代の正社員率改善も 格差",
-   "link": "https://news.yahoo.co.jp/pickup/6603504?source=rss",
-   "published": "11/22 08:49",
-   "ts": 1795304952.0,
    "source": "Yahoo!",
    "desc": ""
   }
