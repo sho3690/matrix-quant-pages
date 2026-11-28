@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-28 12:21:48",
+ "updated_at": "2026-11-28 21:01:20",
  "fng": {
   "value": 10,
   "label": "極度の恐怖",
@@ -37,19 +37,43 @@
   ]
  },
  "crypto_global": {
-  "btc_dominance": 57.795242781664925,
-  "eth_dominance": 9.747261546123791,
-  "total_mcap_usd": 2085119367124.8052,
-  "mcap_change_24h": -4.50585962471826
+  "btc_dominance": 58.42459523217756,
+  "eth_dominance": 9.878198795551297,
+  "total_mcap_usd": 2032857551567.6714,
+  "mcap_change_24h": -5.995952024097092
  },
  "defi": {
-  "tvl_usd": 67970422352.0,
-  "change_1d": -0.0038935125861213615,
-  "change_7d": 0.0228635263698882,
-  "change_1y": -0.40656220194168824,
-  "range_pos_1y": 0.04648558183937558
+  "tvl_usd": 67352338186.0,
+  "change_1d": -0.012235878814588985,
+  "change_7d": 0.013562190174651878,
+  "change_1y": -0.41195858604220514,
+  "range_pos_1y": 0.035839989741532366
  },
  "news_crypto": [
+  {
+   "title": "米FRB12月利上げ約99％織り込み、実質金利上昇はビットコインと株の重荷に",
+   "link": "https://coinpost.jp/?p=749892",
+   "published": "11/28 20:00",
+   "ts": 1795863649.0,
+   "source": "CoinPost",
+   "desc": "米FRBが12月のFOMCで利上げする確率は約99％に達した。10月のコアPCEは前年同月比3.3％だが、資産運用会社のソーン氏は関税要因が薄れたとして据え置きを主張した。2022年は実質金利の上昇がビットコインの重荷になったという先例があった。"
+  },
+  {
+   "title": "月間7000億円超の取引高、コインベース提供のトークン化株式に高い需要",
+   "link": "https://coinpost.jp/?p=749888",
+   "published": "11/28 19:00",
+   "ts": 1795860020.0,
+   "source": "CoinPost",
+   "desc": "仮想通貨取引所コインベースがBaseで提供するトークン化株のDEX取引高は、過去30日間で44億ドルに達した。Token Terminalの集計で発行者別首位となり、シェアは29.9％だった。"
+  },
+  {
+   "title": "株価が52週安値圏にあるマイニング大手ビットディア、テザーが約16億円で買い増し",
+   "link": "https://coinpost.jp/?p=749881",
+   "published": "11/28 15:00",
+   "ts": 1795845601.0,
+   "source": "CoinPost",
+   "desc": "ステーブルコイン発行大手テザーが、株価が52週安値を付けた25日にマイニング大手ビットディア株を約1,000万ドル買い増した。保有株は4,145万株、保有比率は17.9％となった。"
+  },
   {
    "title": "取引情報を保護するステーブルコイン決済、ミッドナイト・ファウンデーションなど3社が検討",
    "link": "https://coinpost.jp/?p=749845",
@@ -89,38 +113,46 @@
    "ts": 1795817137.0,
    "source": "CoinPost",
    "desc": "クリプトクアントによると、ビットコインのクジラは9月30日から11月21日に12万1,117BTCを買い増した。例年は第4四半期に保有量を減らす層で、価格が約30％下落するなかでも増やした。一方、含み益は縮小している。"
-  },
-  {
-   "title": "バイナンス、『トークン化IPO』事業に本腰　規制当局の承認待ち",
-   "link": "https://coinpost.jp/?p=749832",
-   "published": "11/28 06:30",
-   "ts": 1795815039.0,
-   "source": "CoinPost",
-   "desc": "バイナンス共同CEOのイー・ハー氏は27日、ブロックチェーン上で株式を新規公開するトークン化IPO事業を、規制当局の承認後に始める計画を明らかにした。採用ページでは、株式資本市場担当の2職種を募集している。"
-  },
-  {
-   "title": "ビットコインがスーパーサイクル確立か、最高値突破なら20万3000ドルも視野に＝アナリスト",
-   "link": "https://coinpost.jp/?p=749833",
-   "published": "11/28 06:12",
-   "ts": 1795813961.0,
-   "source": "CoinPost",
-   "desc": "カナダの資産運用会社ウェリントン・アルタスのジェームス・ソーン氏は27日、仮想通貨ビットコインが数年規模の底を形成したと主張した。最高値の12万6,000ドルを上回れば、20万3,000ドルが目標になるとの見方を示した。"
-  },
-  {
-   "title": "中国、ブロックチェーン基盤の分散型デジタルIDを導入へ　2027年3月施行",
-   "link": "https://coinpost.jp/?p=749834",
-   "published": "11/28 05:55",
-   "ts": 1795812944.0,
-   "source": "CoinPost",
-   "desc": "中国のサイバースペース管理局は27日、ブロックチェーンを使うデジタルIDの相互承認規定を公表した。2027年3月1日に施行し、金融や税務、税関の既存システムとの連携も進める。"
   }
  ],
  "news_jp": [
   {
-   "title": "美容クリーム誤認表示疑い 返金へ",
-   "link": "https://news.yahoo.co.jp/pickup/6604282?source=rss",
-   "published": "11/28 11:33",
-   "ts": 1795833222.0,
+   "title": "銚子のサバ加工ピンチ 6社が倒産",
+   "link": "https://news.yahoo.co.jp/pickup/6604326?source=rss",
+   "published": "11/28 19:13",
+   "ts": 1795860814.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "サン電子 300億円超申告漏れ指摘",
+   "link": "https://news.yahoo.co.jp/pickup/6604314?source=rss",
+   "published": "11/28 17:18",
+   "ts": 1795853917.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "書店がYouTube 10分で4千冊完売",
+   "link": "https://news.yahoo.co.jp/pickup/6604312?source=rss",
+   "published": "11/28 16:52",
+   "ts": 1795852327.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "L.L.Bean 日本支社を閉鎖へ",
+   "link": "https://news.yahoo.co.jp/pickup/6604295?source=rss",
+   "published": "11/28 14:10",
+   "ts": 1795842618.0,
+   "source": "Yahoo!",
+   "desc": ""
+  },
+  {
+   "title": "「ゆで太郎」会員制度やめた理由",
+   "link": "https://news.yahoo.co.jp/pickup/6604290?source=rss",
+   "published": "11/28 13:37",
+   "ts": 1795840634.0,
    "source": "Yahoo!",
    "desc": ""
   },
@@ -141,42 +173,10 @@
    "desc": ""
   },
   {
-   "title": "お台場オワコン説は本当? 分析",
-   "link": "https://news.yahoo.co.jp/pickup/6604270?source=rss",
-   "published": "11/28 10:01",
-   "ts": 1795827665.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "西友 トライアル西友に変え客数増",
-   "link": "https://news.yahoo.co.jp/pickup/6604267?source=rss",
-   "published": "11/28 09:11",
-   "ts": 1795824678.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
    "title": "「かっぱ寿司」なぜ赤字に転落",
    "link": "https://news.yahoo.co.jp/pickup/6604250?source=rss",
    "published": "11/28 07:26",
    "ts": 1795818375.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "米ネトフリ 日本作品への投資拡大",
-   "link": "https://news.yahoo.co.jp/pickup/6604237?source=rss",
-   "published": "11/27 21:24",
-   "ts": 1795782252.0,
-   "source": "Yahoo!",
-   "desc": ""
-  },
-  {
-   "title": "GMO サイバー攻撃防ぐ構想発表",
-   "link": "https://news.yahoo.co.jp/pickup/6604216?source=rss",
-   "published": "11/27 18:37",
-   "ts": 1795772235.0,
    "source": "Yahoo!",
    "desc": ""
   }
